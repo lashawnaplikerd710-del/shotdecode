@@ -1,0 +1,76 @@
+视频拆解工作台 · 第三方组件
+
+rea-video CLI
+JuneYaooo / rea-video contributors. Apache License 2.0.
+https://github.com/JuneYaooo/rea-video/tree/89e27e00ec6749da7ee2b23e76e0f90c604688d1
+视频拆解工作台通过分析适配器调用 CLI，并兼容 Windows Unicode 图像路径。
+CLI 许可证和 NOTICE 随包提供。
+
+SenseVoiceSmall and Paraformer speech recognition
+SenseVoiceSmall by FunASR / FunAudioLLM and Alibaba Group.
+Multilingual int8 ONNX conversion by k2-fsa / sherpa-onnx.
+https://huggingface.co/FunAudioLLM/SenseVoiceSmall
+https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Paraformer by Alibaba / FunASR, Chinese-English int8 ONNX conversion by k2-fsa / sherpa-onnx.
+https://k2-fsa.github.io/sherpa/onnx/pretrained_models/offline-paraformer/paraformer-models.html
+See FunASR-MODEL-LICENSE.txt. The sherpa-onnx runtime license is under asr-packages.
+
+Hy-MT2-1.8B-Q4_K_M
+Tencent Hunyuan, Apache License 2.0.
+https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF
+
+llama.cpp CPU server
+ggml-org / llama.cpp, build b12277, commit 7c2653acc. MIT License.
+https://github.com/ggml-org/llama.cpp/releases/tag/b12277
+The packaged libomp.dll is the LLVM OpenMP runtime. See LLVM-LICENSE.txt.
+
+UVR-MDX-NET-Inst_HQ_3
+Model by Ultimate Vocal Remover and its developers. Credit to the UVR team.
+The UVR project requests MIT license attribution for third-party use of its models.
+https://github.com/Anjok07/ultimatevocalremovergui#license
+https://github.com/TRvlvr/model_repo/releases/tag/all_public_uvr_models
+
+Japanese OCR and face detection
+PP-OCRv4 Japanese recognition by PaddleOCR, distributed by RapidAI / RapidOCR.
+https://www.modelscope.cn/models/RapidAI/RapidOCR/files
+YuNet by OpenCV Zoo.
+https://github.com/opencv/opencv_zoo/tree/f12e12798e8314f7c074a6656816c048dcc95b7a/models/face_detection_yunet
+
+Editor interface
+Media Chrome by Mux and contributors, MIT License.
+https://github.com/muxinc/media-chrome
+Radix Primitives by WorkOS and contributors, MIT License.
+https://github.com/radix-ui/primitives
+React by Meta and contributors, MIT License.
+https://github.com/facebook/react
+Lucide React icons, Inter and IBM Plex Mono are bundled with the editor.
+See the corresponding license files under app/studio_web/licenses.
+pywebview by Roman Sirokov and contributors, BSD 3-Clause License.
+https://github.com/r0x0r/pywebview
+See the license in runtime/Lib/site-packages/pywebview-6.2.1.dist-info.
+
+Classic desktop theme and icons
+Sun Valley ttk 2.6.1 by rdbende and contributors. MIT License.
+https://github.com/rdbende/Sun-Valley-ttk-theme
+Lucide 1.71.0 icon masks by Lucide contributors. See app/ui_assets/LICENSE-lucide.txt.
+https://github.com/lucide-icons/lucide
+
+FFmpeg
+FFmpeg 9.0.2 Essentials, Windows build by Gyan Doshi. GPLv3.
+The prebuilt command-line tools and license are under ffmpeg. The corresponding
+FFmpeg source revision and reported configuration are under 第三方组件/FFmpeg.
+https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2
+https://github.com/FFmpeg/FFmpeg/commit/946fcce07b
+
+Microsoft prerequisites
+Official Visual C++ v14 x64 Redistributable and Edge WebView2 Evergreen Standalone x64 installers.
+The original Microsoft-signed installers retain their applicable terms.
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist/
+https://learn.microsoft.com/microsoft-edge/webview2/concepts/distribution
+
+CPython, Tcl/Tk and Python libraries retain their licenses in the runtime tree.
+https://www.python.org/downloads/release/python-31214/
+
+yt-dlp 2026.10.21
+Unlicense. The Python package is installed from requirements.txt and carries its own license.
+https://github.com/yt-dlp/yt-dlp/releases/tag/2026.10.21
