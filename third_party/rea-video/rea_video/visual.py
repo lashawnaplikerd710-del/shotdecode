@@ -1,3 +1,4 @@
+# Modified for Video Breakdown Workbench from rea-video revision 89e27e00ec6749da7ee2b23e76e0f90c604688d1.
 """Contact sheets, storyboard image and face presence."""
 from __future__ import annotations
 

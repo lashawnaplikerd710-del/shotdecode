@@ -1,3 +1,4 @@
+# Modified for Video Breakdown Workbench from rea-video revision 89e27e00ec6749da7ee2b23e76e0f90c604688d1.
 """Rebuild a video on the original timeline from remake results.
 
 - generated clips (capsule-cinema)  -> trimmed / padded to the original shot length
