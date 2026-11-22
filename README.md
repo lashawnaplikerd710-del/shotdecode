@@ -2,9 +2,13 @@
 
 面向抖音和 TikTok 短视频的 Windows 本地工作台。可从原片提取镜头和字幕，查看拆解报告，替换镜头并导出新视频。
 
-[下载 Windows 完整离线版](https://github.com/lashawnaplikerd710-del/video-breakdown-workbench/releases/latest) · [观看实机演示](https://github.com/lashawnaplikerd710-del/video-breakdown-workbench/releases/latest/download/ShotDecode-Demo.mp4) · [安装 ShotDecode Skill](#安装-shotdecode-skill)
+[下载 Windows 完整离线版](https://github.com/lashawnaplikerd710-del/shotdecode/releases/latest) · [观看实机演示](#实机演示) · [安装 ShotDecode Skill](#安装-shotdecode-skill)
 
-[![ShotDecode 实机演示，展示本地视频、分镜与轨道编辑](docs/images/demo-0.1.1.webp)](https://github.com/lashawnaplikerd710-del/video-breakdown-workbench/releases/latest/download/ShotDecode-Demo.mp4)
+## 实机演示
+
+https://github.com/user-attachments/assets/97fabb5d-b4d3-439c-b128-3912a86f00fb
+
+## 主要功能
 
 - **本地上传**：从「新建拆解」选择或拖入视频，再开始拆解。
 - **链接拆解**：粘贴公开的抖音或 TikTok 视频链接，也可以粘贴整段分享文案。点击「下载并开始拆解」，下载完成后自动分析。
@@ -15,7 +19,7 @@
 
 ## 安装 Windows 版
 
-适用于 Windows 10 / 11 x64。打开 [最新 Release](https://github.com/lashawnaplikerd710-del/video-breakdown-workbench/releases/latest)，将 `ShotDecode-Setup-*-Offline.exe` 和它的全部同名 `.bin` 分卷下载到同一个文件夹，然后运行 `.exe`。
+适用于 Windows 10 / 11 x64。打开 [最新 Release](https://github.com/lashawnaplikerd710-del/shotdecode/releases/latest)，将 `ShotDecode-Setup-*-Offline.exe` 和它的全部同名 `.bin` 分卷下载到同一个文件夹，然后运行 `.exe`。
 
 离线包包含 FFmpeg、Visual C++ x64 运行库、WebView2，以及中英日语口播转写、画面 OCR、中译和人声分轨所需的本地模型。安装向导会检测 Windows 运行组件。缺少时会启动随包提供的微软安装程序，安装 Visual C++ 可能需要在 Windows 权限窗口确认。安装完成后可离线拆解本机视频、编辑并导出。
 
@@ -57,7 +61,7 @@ py -3.12 -m venv .venv
 
 ### 安装 ShotDecode Skill
 
-从 [Release 下载 ShotDecode Skill](https://github.com/lashawnaplikerd710-del/video-breakdown-workbench/releases/latest/download/shotdecode-skill.zip)，把解压得到的 `shotdecode` 文件夹放入 Codex 的个人 Skills 目录。Windows 上可使用 `%USERPROFILE%\.codex\skills\shotdecode`。重新打开 Codex 后，输入「用 $shotdecode 拆解这条视频，并结合抽帧说明前 3 秒怎么剪的」。
+从 [Release 下载 ShotDecode Skill](https://github.com/lashawnaplikerd710-del/shotdecode/releases/latest/download/shotdecode-skill.zip)，把解压得到的 `shotdecode` 文件夹放入 Codex 的个人 Skills 目录。Windows 上可使用 `%USERPROFILE%\.codex\skills\shotdecode`。重新打开 Codex 后，输入「用 $shotdecode 拆解这条视频，并结合抽帧说明前 3 秒怎么剪的」。
 
 Skill 调用本机已安装的 ShotDecode。命令和示例见 [skills/shotdecode/SKILL.md](skills/shotdecode/SKILL.md)。
 

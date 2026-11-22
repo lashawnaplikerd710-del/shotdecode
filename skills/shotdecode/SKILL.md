@@ -18,7 +18,7 @@ $sdCli = Join-Path $sdInstall 'app/shotdecode_cli.py'
 & $sdPython -I -X utf8 $sdCli --help
 ```
 
-如果用户选择了其他安装目录，使用该目录或设置 `SHOTDECODE_HOME`。从源码运行时，使用仓库的 Python 环境与 `app/shotdecode_cli.py`。如果尚未安装，可从 [ShotDecode Releases](https://github.com/lashawnaplikerd710-del/video-breakdown-workbench/releases/latest) 获取完整离线版。
+如果用户选择了其他安装目录，使用该目录或设置 `SHOTDECODE_HOME`。从源码运行时，使用仓库的 Python 环境与 `app/shotdecode_cli.py`。如果尚未安装，可从 [ShotDecode Releases](https://github.com/lashawnaplikerd710-del/shotdecode/releases/latest) 获取完整离线版。
 
 - **新素材**：`analyze <视频路径、链接或分享文案>`。画面是日文时加 `--ocr-language ja`。需要单独的人声和配乐时加 `--stems`。指定项目父目录可加 `--output <目录>`。报告会在本地模型就绪时识别口播，并补充英、日语口播及英语画面文字的中译。任务日志写入 stderr，结果 JSON 写入 stdout。
 - **已有项目**：`inspect <项目目录或 breakdown.json>`。返回镜头编号、起止时间、关键帧和报告路径。加 `--shot 2` 或 `--at 3.5` 查看该镜头的描述、证据和复刻提示词。
