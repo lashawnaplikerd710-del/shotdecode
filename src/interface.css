@@ -1,0 +1,237 @@
+:root {
+  --button-fill: #262626;
+  --button-hover: #323232;
+  --button-selected: #3d3d3d;
+  --button-pressed: #484848;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  color: var(--text);
+  background: var(--surface);
+  accent-color: var(--accent);
+  --surface: #fff;
+  --rail: var(--surface);
+  --field: var(--surface);
+  --raised: var(--surface);
+  --hover: var(--surface);
+  --accent-wash: var(--surface);
+  --text: #171717;
+  --muted: #4d4d4d;
+  --faint: #646464;
+  --border: #dadada;
+  --line: #e8e8e8;
+  --accent: #242424;
+  --accent-ink: #fff;
+  --danger: #242424;
+  --control-border: #949494;
+  --range-track: #bdbdbd;
+  --button-fill: #f4f4f4;
+  --button-hover: #ededed;
+  --button-selected: #e5e5e5;
+  --button-pressed: #dcdcdc;
+}
+
+[data-theme="light"] :is(.studio,.appbar,.sidebar,.boot,.timeline,.timeline-head,.task-panel,
+  .modal,.advanced-workspace,.viewer,.media-stage,.media-controller,.media-empty,
+  .preview-body,.composition-preview,.detail-cover,.template-preview video,.tool-result-video,
+  .tool-reference-image,.tool-image-preview,.thumb) {
+  background: var(--surface);
+}
+[data-theme="light"] :is(.modal,.upload-zone,.preview-captions,.composition-notice,.center-play,
+  .translation-box,.upload-icon,.drop-overlay,.brand-mark,.tool-icon,.type-tag) {
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--text);
+}
+[data-theme="light"] .modal-shade {
+  background: rgb(255 255 255 / .86);
+  backdrop-filter: blur(3px) grayscale(1);
+}
+[data-theme="light"] :is(.modal,.agent-picker-menu,.agent-option-flyout) {
+  box-shadow: 0 12px 36px #0002;
+}
+[data-theme="light"] .upload-zone { box-shadow: 0 12px 30px #0001; }
+[data-theme="light"] .tool-table tr:hover td { background: var(--surface); }
+[data-theme="light"] :is(.log-output,.tool-result-text,.shot-description) { color: var(--muted); }
+
+[data-theme="light"] :is(.tool-field > input,.tool-field > select,.field input,.agent-compose,.export-name-field) {
+  background: var(--surface);
+  border-color: var(--control-border);
+}
+[data-theme="light"] .switch:not(.settings-switch) { background: var(--surface); border-color: var(--control-border); }
+[data-theme="light"] .switch:not(.settings-switch) .switch-thumb { background: var(--faint); }
+[data-theme="light"] .switch:not(.settings-switch)[data-state="checked"] { border-color: var(--accent); }
+[data-theme="light"] .switch:not(.settings-switch)[data-state="checked"] .switch-thumb { background: var(--accent); }
+[data-theme="light"] ::-webkit-scrollbar-thumb { background: #ababab; }
+
+/* Command buttons use neutral fills. Editable media and selection handles keep their own styling. */
+:is(#root,.modal) button:not(:where(.switch,.agent-picker,.agent-choice,.project-tab-select,.project-tab-close,.project-strip-action,
+  .timeline-movable,.timeline-trim-grip,
+  .shot-clip,.manual-caption-clip,.manual-caption-label,.manual-caption-on-video,.preview-clip-target)) {
+  border-color: transparent;
+  box-shadow: none;
+
+  &:is(.button--soft,.path-button,.export-choice) {
+    background-color: var(--button-fill);
+    color: var(--text);
+  }
+
+  &:enabled:hover {
+    background-color: var(--button-hover);
+    color: var(--text);
+  }
+
+  &:is(.button--primary,.header-primary,.active,.current,.selected,.is-on,
+    [aria-pressed="true"],[aria-selected="true"],[aria-expanded="true"],
+    [aria-current="true"],[aria-current="page"],[data-state="active"]) {
+    background-color: var(--button-selected);
+    color: var(--text);
+
+    &:hover { background-color: var(--button-selected); }
+  }
+
+  &:is(.button--primary,.header-primary):enabled:hover,
+  &:enabled:active {
+    background-color: var(--button-pressed);
+    filter: none;
+  }
+}
+
+:is(#root,.modal) :is(.segments,.source-mode-switch,.preview-view-toggle,.property-align-group,.property-segments) {
+  background: var(--button-fill);
+  border-color: transparent;
+}
+:is(#root,.modal) .motion-card .motion-swatch { border-color: transparent; box-shadow: none; }
+:is(#root,.modal) :is(.tab,.property-tab) { border-radius: 6px; }
+
+/* Playback controls and timeline */
+:is(#root,.modal) :is(.media-controller,.media-controls) {
+  --media-control-hover-background: var(--button-hover);
+}
+[data-theme="light"] :is(.media-controller,.media-controls) {
+  --media-primary-color: var(--text);
+  --media-secondary-color: var(--surface);
+  --media-range-track-background: var(--range-track);
+}
+[data-theme="light"] .media-controls {
+  background: var(--surface);
+  border-color: var(--border);
+}
+[data-theme="light"] audio::-webkit-media-controls-enclosure,
+[data-theme="light"] audio::-webkit-media-controls-panel { background-color: var(--surface); }
+[data-theme="light"] .slider-track {
+  background: var(--range-track);
+}
+[data-theme="light"] .slider-thumb { background: var(--accent); }
+
+/* Keep the track colors in the timeline and its drag preview. */
+[data-theme="light"] :is(.timeline-lanes,.timeline-drag-ghost) {
+  --field: #f4f6f7;
+  --raised: #edf1f2;
+  --hover: #e7eef0;
+  --border: #d7e0e2;
+  --text: #182328;
+  --muted: #44565e;
+  --faint: #5a6e75;
+  --accent: #226343;
+  --accent-wash: #e6f2ea;
+}
+[data-theme="light"] .timeline-lanes :is(.shot-track,.video-label,.timeline-audio-extra-label) {
+  background: var(--field);
+  border-color: var(--border);
+}
+[data-theme="light"] .timeline-lanes .video-label { color: var(--text); }
+[data-theme="light"] .time-ruler > span:not(.scrubber)::after { background: #c9d4d8; }
+[data-theme="light"] .track-empty { border-color: var(--border); }
+[data-theme="light"] .shot-clip { background: var(--field); border-color: var(--border); color: var(--text); }
+[data-theme="light"] .shot-clip::after { background: none; }
+[data-theme="light"] .shot-clip:is(:hover,.drop-target) { filter: none; }
+[data-theme="light"] .shot-clip:is(:hover,.playing,.selected,.drop-target) { border-color: var(--accent); }
+[data-theme="light"] .shot-clip :is(.clip-title,.clip-index) {
+  padding: 2px 4px;
+  border-radius: 3px;
+  background: #fffffff0;
+  color: var(--text);
+}
+[data-theme="light"] .shot-clip .clip-title { right: auto; max-width: calc(100% - 12px); }
+[data-theme="light"] .timeline-lanes :is(.audio-lane,.audio-label) {
+  --waveform-ink: #28734d;
+  --audio-surface: #e3f3e9;
+  --audio-outline: #b9dac8;
+}
+[data-theme="light"] .timeline-lanes :is(.audio-lane--vocals,.audio-label--vocals) {
+  --waveform-ink: #1b6080;
+  --audio-surface: #e5f2f9;
+  --audio-outline: #b2d4e4;
+}
+[data-theme="light"] .timeline-lanes :is(.audio-lane--music,.audio-label--music) {
+  --waveform-ink: #674c94;
+  --audio-surface: #efe9f8;
+  --audio-outline: #d5c7ea;
+}
+[data-theme="light"] .timeline-lanes :is(.audio-lane--external,.audio-label--external) {
+  --waveform-ink: #82551c;
+  --audio-surface: #f7eddf;
+  --audio-outline: #e6cfaa;
+}
+[data-theme="light"] .mix-track-icon {
+  --waveform-ink: var(--muted);
+  --audio-surface: var(--surface);
+}
+[data-theme="light"] .manual-caption-inspector .property-object-icon {
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--text);
+}
+[data-theme="light"] :is(.manual-caption-lane,.manual-caption-label,.manual-caption-label:enabled:hover) {
+  background: #e9f1fd;
+  border-color: #c5d6ef;
+  color: #2c5b95;
+}
+[data-theme="light"] .manual-caption-lane { box-shadow: inset 0 0 0 1px #c5d6ef; }
+[data-theme="light"] .caption-empty { color: #48668a; }
+[data-theme="light"] .manual-caption-clip {
+  background: #d8e9ff;
+  border-color: #a9c4ea;
+  color: #203e64;
+}
+[data-theme="light"] .manual-caption-clip:is(:hover,.selected) {
+  background: #d8e9ff;
+  border-color: #6f9acf;
+}
+[data-theme="light"] .manual-caption-on-video:is(:hover,:focus-visible) { outline-color: var(--accent); }
+[data-theme="light"] .motion-swatch {
+  background: var(--surface);
+  border-color: var(--border);
+}
+[data-theme="light"] :is(.motion-card:hover,.motion-card[aria-pressed="true"]) .motion-swatch {
+  background: var(--surface);
+  border-color: var(--accent);
+}
+[data-theme="light"] .motion-piece-text {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 2px 5px #0003;
+}
+
+/* Agent marks are local images. Recolor only the marks, including the light glyphs. */
+[data-theme="light"] .agent-brand-icon { filter: grayscale(1); }
+[data-theme="light"] .agent-brand-icon:is(.codex,.kimi) {
+  background: transparent;
+  padding: 0;
+  filter: grayscale(1) invert(1);
+}
+
+/* Status signals still use their icons, text and outlines. */
+[data-theme="light"] :is(.mix-help.overlap,.toast,.toast.error) {
+  background: var(--surface);
+  border-color: var(--control-border);
+  color: var(--text);
+}
+[data-theme="light"] :is(.mix-help.overlap,.toast.error) { border-color: var(--accent); }
+
+:root:not([lang="zh-CN"]):not([lang="zh-TW"]) .nav-item,
+:root:not([lang="zh-CN"]):not([lang="zh-TW"]) .button { font-size:12px; }
+.workflow-step small { overflow:hidden; text-overflow:ellipsis; }
+:root:not([lang="zh-CN"]) .property-fields label { min-width:0; }

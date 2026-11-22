@@ -1,0 +1,3844 @@
+{
+  "source": "https://github.com/google/fonts/tree/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl",
+  "families": [
+    {
+      "name": "Noto Sans SC",
+      "folder": "notosanssc",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Noto Sans SC Thin Regular",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_Fra5HaA.ttf",
+          "sha256": "2bc063248a2dcf1be06f67f608fe5d0b0261197ef3c282cca5a8a64dd1ae048e"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Noto Sans SC Thin Bold",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGzjCra5HaA.ttf",
+          "sha256": "ba95ce3d3553ad379b341cfa9f00abc4936204975bb8b569253d0bcbaf795e8d"
+        }
+      ]
+    },
+    {
+      "name": "Noto Serif SC",
+      "folder": "notoserifsc",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Noto Serif SC ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4cyBXePl9DZ0Xe7gG9cyOj7uK2-n-D2rd4FY7SCqxWN-Yo.ttf",
+          "sha256": "11d93d5d2c28c8daad165532561dc467c27c8a4e252335f0630c5d2625b77225"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Noto Serif SC ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4cyBXePl9DZ0Xe7gG9cyOj7uK2-n-D2rd4FY7RlrBWN-Yo.ttf",
+          "sha256": "6e474759b8c12d44fe436e133c15bf3521643f2f28df8c3903221cb4728e7aa4"
+        }
+      ]
+    },
+    {
+      "name": "LXGW WenKai",
+      "folder": "lxgw-lxgwwenkai",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "LXGW WenKai",
+          "source": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.530/LXGWWenKai-Regular.ttf",
+          "sha256": "fa03a8b157b169adddab1e8fae88e8ec7456d11c1d385011923a544493a74101"
+        },
+        {
+          "file": "500.ttf.gz",
+          "weight": 500,
+          "ass_name": "LXGW WenKai Medium",
+          "source": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.530/LXGWWenKai-Medium.ttf",
+          "sha256": "2f8df0ade1ee1c18b60388496dd81120944fd2868cc4400c04cbcceb88fa4b2d"
+        }
+      ]
+    },
+    {
+      "name": "Smiley Sans",
+      "folder": "atelier-anchor-smiley-sans",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Smiley Sans Oblique",
+          "source": "https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip",
+          "sha256": "3baefb43d56af11713a83967dde379bda7789e3bf5219c61527ef39d532802e1"
+        }
+      ]
+    },
+    {
+      "name": "ZCOOL KuaiLe",
+      "folder": "zcoolkuaile",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "ZCOOL KuaiLe Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf",
+          "sha256": "258f10a9d6969234369b5580ff448175278c4b1dd2be0c1db2f86255006d4a84"
+        }
+      ]
+    },
+    {
+      "name": "ZCOOL QingKe HuangYou",
+      "folder": "zcoolqingkehuangyou",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "ZCOOL QingKe HuangYou Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+          "sha256": "bffd499ccf5bf7cd4f7fc454017f5f56bfba7ff14fe0b68707cc919a9599afd7"
+        }
+      ]
+    },
+    {
+      "name": "Ma Shan Zheng",
+      "folder": "mashanzheng",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Ma Shan Zheng Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+          "sha256": "422c229c071919f7301ec2ffdc0961283ea7186954b9948bed6d31412868a70c"
+        }
+      ]
+    },
+    {
+      "name": "Xiaolai",
+      "folder": "lxgw-kose-font",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Xiaolai",
+          "source": "https://github.com/lxgw/kose-font/releases/download/v3.126/Xiaolai-Regular.ttf",
+          "sha256": "58126d7c0d2c8a6c86c9d4894df3f1f836caceae3e2be158c4882af9a64411fe"
+        }
+      ]
+    },
+    {
+      "name": "Yozai",
+      "folder": "lxgw-yozai-font",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yozai",
+          "source": "https://github.com/lxgw/yozai-font/releases/download/v0.868/Yozai-Regular.ttf",
+          "sha256": "ced73da71312ad9f5b4ca2e52b1debfaa95cb8ef75ac622c0965aa621b2ed7ae"
+        }
+      ]
+    },
+    {
+      "name": "Huninn",
+      "folder": "huninn",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Huninn Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/huninn/Huninn-Regular.ttf",
+          "sha256": "9c943e01879b1ebc27e3ad66a6b420f1295f31f25f96ef0eb881d61bfccc549c"
+        }
+      ]
+    },
+    {
+      "name": "Noto Sans CJK TC",
+      "folder": "notosanscjktc",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.otf.gz",
+          "weight": 400,
+          "ass_name": "NotoSansCJKtc-Regular",
+          "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Regular.otf",
+          "sha256": "8553262aa41579fe7ff9b71def9959e640c75ef795f24f10023c19d463784397"
+        },
+        {
+          "file": "700.otf.gz",
+          "weight": 700,
+          "ass_name": "NotoSansCJKtc-Bold",
+          "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Bold.otf",
+          "sha256": "25dd89fa721473aa1e41c4fc0369dcfa8b058e8b83415aee6a81350f38304fa0"
+        }
+      ]
+    },
+    {
+      "name": "Noto Serif CJK TC",
+      "folder": "notoserifcjktc",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.otf.gz",
+          "weight": 400,
+          "ass_name": "NotoSerifCJKtc-Regular",
+          "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Serif2.003/Serif/OTF/TraditionalChinese/NotoSerifCJKtc-Regular.otf",
+          "sha256": "734aa9383d74303872fdbeeedc38ec13724597327ec63b2e45b25a1ebd839670"
+        },
+        {
+          "file": "700.otf.gz",
+          "weight": 700,
+          "ass_name": "NotoSerifCJKtc-Bold",
+          "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Serif2.003/Serif/OTF/TraditionalChinese/NotoSerifCJKtc-Bold.otf",
+          "sha256": "38a710aa7aeb0142640445fbd8db5a04fd1cf4f28bbe334d8a6d903feb215e84"
+        }
+      ]
+    },
+    {
+      "name": "GenSen Rounded TC",
+      "folder": "buttaiwan-gensen-font",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.otf.gz",
+          "weight": 400,
+          "ass_name": "GenSenRounded2TC-R",
+          "source": "https://github.com/ButTaiwan/gensen-font/releases/download/v2.100/GenSenRounded2TC-otf.zip",
+          "sha256": "94e5285d63289b8e24fb77db95da6be1c87557a62dcc0666df76a51e25f4326e"
+        },
+        {
+          "file": "700.otf.gz",
+          "weight": 700,
+          "ass_name": "GenSenRounded2TC-B",
+          "source": "https://github.com/ButTaiwan/gensen-font/releases/download/v2.100/GenSenRounded2TC-otf.zip",
+          "sha256": "e1fcb7e2b31018a65fe9473761ae4b50d2bf81abbbaa723bd31231e67bb288b5"
+        }
+      ]
+    },
+    {
+      "name": "LXGW WenKai TC",
+      "folder": "lxgwwenkaitc",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "LXGW WenKai TC Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lxgwwenkaitc/LXGWWenKaiTC-Regular.ttf",
+          "sha256": "f99e7831f29ae32341aee59686b467f867e0030afd282fca4d3236be11bffa9f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "LXGW WenKai TC Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lxgwwenkaitc/LXGWWenKaiTC-Bold.ttf",
+          "sha256": "eddd8dcdd9069672c6551f188849b0c8219671cc8a899c2f3762999e49a03bca"
+        }
+      ]
+    },
+    {
+      "name": "Bpmf Huninn",
+      "folder": "bpmfhuninn",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Bpmf Huninn Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bpmfhuninn/BpmfHuninn-Regular.ttf",
+          "sha256": "661b6110ccc7292663660d903ae3df482e96966a7cf3ab6492ed74fe16a70f42"
+        }
+      ]
+    },
+    {
+      "name": "Bpmf Iansui",
+      "folder": "bpmfiansui",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Bpmf Iansui Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bpmfiansui/BpmfIansui-Regular.ttf",
+          "sha256": "326b5938182a9c6154b9b29320200fb77d8382f2112f8bbeec90d9a82da849dd"
+        }
+      ]
+    },
+    {
+      "name": "Bpmf Zihi Kai Std",
+      "folder": "bpmfzihikaistd",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Bpmf Zihi Kai Std Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bpmfzihikaistd/BpmfZihiKaiStd-Regular.ttf",
+          "sha256": "bbf114dd5503f925f7e7771d4268d71bcff9e8c559f8f33c3daee2d6fde626d4"
+        }
+      ]
+    },
+    {
+      "name": "Cactus Classical Serif",
+      "folder": "cactusclassicalserif",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cactus Classical Serif Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf",
+          "sha256": "f4cc9595ae3e8403e081e26db28a658a9d972e480e7f3809e5425bab263bb7fc"
+        }
+      ]
+    },
+    {
+      "name": "Chocolate Classical Sans",
+      "folder": "chocolateclassicalsans",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Chocolate Classical Sans Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf",
+          "sha256": "634395a13f5725ea1ef40c28a52bf5e000fe662f9c77064d5bdfdc3c4512b912"
+        }
+      ]
+    },
+    {
+      "name": "GenSeki Gothic TC",
+      "folder": "buttaiwan-genseki-font",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.otf.gz",
+          "weight": 400,
+          "ass_name": "GenSekiGothic2TC-R",
+          "source": "https://github.com/ButTaiwan/genseki-font/releases/download/v2.100/GenSekiGothic2TC-otf.zip",
+          "sha256": "3e153c57fd5c78fc03b5395fe226033441f675f666b09471071b0ce9c7142694"
+        },
+        {
+          "file": "700.otf.gz",
+          "weight": 700,
+          "ass_name": "GenSekiGothic2TC-B",
+          "source": "https://github.com/ButTaiwan/genseki-font/releases/download/v2.100/GenSekiGothic2TC-otf.zip",
+          "sha256": "6f6b5006c98fe5440d1a028619bbd44347c1bb5175a0041cae5949f79e93a1cb"
+        }
+      ]
+    },
+    {
+      "name": "Iansui",
+      "folder": "iansui",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Iansui Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/iansui/Iansui-Regular.ttf",
+          "sha256": "1900ef07ff784a0002b8a662ff22bcec62c5164422be73e0a9a6746eed844968"
+        }
+      ]
+    },
+    {
+      "name": "Liu Jian Mao Cao",
+      "folder": "liujianmaocao",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Liu Jian Mao Cao Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf",
+          "sha256": "08c5af8ce184e609a2cb5db152efd63e12731a3d7b00ed6b688893f58c663517"
+        }
+      ]
+    },
+    {
+      "name": "Long Cang",
+      "folder": "longcang",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Long Cang Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/longcang/LongCang-Regular.ttf",
+          "sha256": "23484cc7e5a88bd964cf7ec7cbaa19f4e60b1d186a79f8e22e30fb6c94eb73aa"
+        }
+      ]
+    },
+    {
+      "name": "LXGW Marker Gothic",
+      "folder": "lxgwmarkergothic",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "LXGW Marker Gothic Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf",
+          "sha256": "10a59a65acc7fc35b94f30b0133e76efc26abb6c7bbee5903e99ae6b1974f8b0"
+        }
+      ]
+    },
+    {
+      "name": "LXGW WenKai Mono TC",
+      "folder": "lxgwwenkaimonotc",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "LXGW WenKai Mono TC Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Regular.ttf",
+          "sha256": "e2e10cc18e3db44e789afc101ef69fdff8b9c1372fd30c4d7efcfecfdea65740"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "LXGW WenKai Mono TC Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Bold.ttf",
+          "sha256": "8f033d525acbd791b525ac515799877bb091de865209cb83a220f0c61d2094e7"
+        }
+      ]
+    },
+    {
+      "name": "LXGW WenKai Screen",
+      "folder": "lxgw-lxgwwenkai-screen",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "LXGW WenKai Screen",
+          "source": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.530/LXGWWenKaiScreen.ttf",
+          "sha256": "628b6735f1042da26efff212b16194d374066239ce5eea3e723b71ccfd7131a2"
+        }
+      ]
+    },
+    {
+      "name": "UoqMunThenKhung",
+      "folder": "uoqmunthenkhung",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "UoqMunThenKhung Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/uoqmunthenkhung/UoqMunThenKhung-Regular.ttf",
+          "sha256": "a0e9245914de3869e5bf6e2f0b145c445c792143c6c307ce79d708872f4ce779"
+        }
+      ]
+    },
+    {
+      "name": "WDXL Lubrifont SC",
+      "folder": "wdxllubrifontsc",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "WDXL Lubrifont SC",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/wdxllubrifontsc/WDXLLubrifontSC-Regular.ttf",
+          "sha256": "8db9e568057e1d17ddebded4aa4cc24932f32db1f763def797ca44a2ed27cbec"
+        }
+      ]
+    },
+    {
+      "name": "WDXL Lubrifont TC",
+      "folder": "wdxllubrifonttc",
+      "group": "zh",
+      "locale": "zh-Hant",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "WDXL Lubrifont TC",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/wdxllubrifonttc/WDXLLubrifontTC-Regular.ttf",
+          "sha256": "b351012f77b45c1eca18a737614c738de94fb353f90e089be0131094594a5f98"
+        }
+      ]
+    },
+    {
+      "name": "ZCOOL XiaoWei",
+      "folder": "zcoolxiaowei",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "ZCOOL XiaoWei Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf",
+          "sha256": "1438bbef7135af49498144fc611ab474194732a4967737e45579da00a61bbdb8"
+        }
+      ]
+    },
+    {
+      "name": "Zhi Mang Xing",
+      "folder": "zhimangxing",
+      "group": "zh",
+      "locale": "zh-Hans",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zhi Mang Xing Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zhimangxing/ZhiMangXing-Regular.ttf",
+          "sha256": "980e67b876f45dd00412c51252e5833015e4e4c6ec358cfb3a2eb0660c6f1f46"
+        }
+      ]
+    },
+    {
+      "name": "Noto Sans JP",
+      "folder": "notosansjp",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Noto Sans JP Regular",
+          "source": "https://fonts.gstatic.com/s/notosansjp/v57/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEj75s.ttf",
+          "sha256": "1b567472032d7be48b21fe1f473a7f50d8424d6faeeae79eabd86016e46bd1ae"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Noto Sans JP Bold",
+          "source": "https://fonts.gstatic.com/s/notosansjp/v57/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFPYk75s.ttf",
+          "sha256": "1a090527e41c818e0a531c287c3fe61dbe20954e9460567c64ab36b2159981bc"
+        }
+      ]
+    },
+    {
+      "name": "Noto Serif JP",
+      "folder": "notoserifjp",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Noto Serif JP Regular",
+          "source": "https://fonts.gstatic.com/s/notoserifjp/v34/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwxOubA.ttf",
+          "sha256": "03406b94d58691b8f7cb33bbed4844b0daf50d6d9ac25364cd0870dc856c3bd4"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Noto Serif JP Bold",
+          "source": "https://fonts.gstatic.com/s/notoserifjp/v34/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bzWPebA.ttf",
+          "sha256": "d98ac95b4c561c2a41ee185ef69d97a2f9f2125ac95e8e18a80ae41867f38569"
+        }
+      ]
+    },
+    {
+      "name": "BIZ UDGothic",
+      "folder": "bizudgothic",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "BIZ UDGothic",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudgothic/BIZUDGothic-Regular.ttf",
+          "sha256": "1fdc4a720a15cabc770a212e8e61962afb1d2c3699ac60c77bbd71a13979542f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "BIZ UDGothic Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudgothic/BIZUDGothic-Bold.ttf",
+          "sha256": "257cb4b4167c8a57042e36f8f0ce3db0ae3aa02a250b98a2eddfe4dd315df49e"
+        }
+      ]
+    },
+    {
+      "name": "BIZ UDPGothic",
+      "folder": "bizudpgothic",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "BIZ UDPGothic",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudpgothic/BIZUDPGothic-Regular.ttf",
+          "sha256": "6c31fcbf2ec541886d0d27ca57c4c055960107c3d893d18d65a7b91014132c8e"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "BIZ UDPGothic Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudpgothic/BIZUDPGothic-Bold.ttf",
+          "sha256": "cd2431b0806a6761ec55faba562fc2f7fba5f49d69aaaa7344068bb705acf457"
+        }
+      ]
+    },
+    {
+      "name": "BIZ UDMincho",
+      "folder": "bizudmincho",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "BIZ UDMincho",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudmincho/BIZUDMincho-Regular.ttf",
+          "sha256": "ae77b5f000dbe1fb6bf1d0cd13ab4655a0c51705c9bdbcb3b5c5523d00b22934"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "BIZ UDMincho Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudmincho/BIZUDMincho-Bold.ttf",
+          "sha256": "c9a6a3cf9962f1eef30f9f6a9df5f99360b401ddc222b8ca93d40f01fec91dfa"
+        }
+      ]
+    },
+    {
+      "name": "BIZ UDPMincho",
+      "folder": "bizudpmincho",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "BIZ UDPMincho",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudpmincho/BIZUDPMincho-Regular.ttf",
+          "sha256": "4d7efa8b0dd1208360990b0e668fc8023443dc7faef2483a95d90ee6942685c6"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "BIZ UDPMincho Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bizudpmincho/BIZUDPMincho-Bold.ttf",
+          "sha256": "620d46938e9e9dd286783fc5b061ee93ce31ae49c95312b7e929ce7abc7985c4"
+        }
+      ]
+    },
+    {
+      "name": "Zen Kaku Gothic New",
+      "folder": "zenkakugothicnew",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zen Kaku Gothic New Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenkakugothicnew/ZenKakuGothicNew-Regular.ttf",
+          "sha256": "7f448c8c8aee67faffe191d0248baf7e1285c613a4285ccdb264489994f301fc"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Zen Kaku Gothic New Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenkakugothicnew/ZenKakuGothicNew-Bold.ttf",
+          "sha256": "9866c10b27135ccddf15cc98cb237972711291f11d206deaf34fb62b8b49aad1"
+        }
+      ]
+    },
+    {
+      "name": "Zen Kaku Gothic Antique",
+      "folder": "zenkakugothicantique",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zen Kaku Gothic Antique Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenkakugothicantique/ZenKakuGothicAntique-Regular.ttf",
+          "sha256": "2f9063dc2d3cd61668a284864682b5d217cdc8fff5264f290c6f4fabc02f7a3f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Zen Kaku Gothic Antique Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenkakugothicantique/ZenKakuGothicAntique-Bold.ttf",
+          "sha256": "fe677a9b4030ac82df46f4b06294ba36e2ecec0298c3cbbfc054285be4c1009f"
+        }
+      ]
+    },
+    {
+      "name": "Zen Maru Gothic",
+      "folder": "zenmarugothic",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zen Maru Gothic Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenmarugothic/ZenMaruGothic-Regular.ttf",
+          "sha256": "60c5861faf169e572d07b2d543e2ac335ec3c25a947d6db13c172abe30fd7734"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Zen Maru Gothic Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenmarugothic/ZenMaruGothic-Bold.ttf",
+          "sha256": "790667d5fc4174b626b99ccf9f5baf93fa4e96c2defec2f7d27a2e03375f0171"
+        }
+      ]
+    },
+    {
+      "name": "Zen Old Mincho",
+      "folder": "zenoldmincho",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zen Old Mincho Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenoldmincho/ZenOldMincho-Regular.ttf",
+          "sha256": "f137fb4375f9f8c719e424d3c434e7dcf9517894e92db0a6dd896215fff64143"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Zen Old Mincho Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenoldmincho/ZenOldMincho-Bold.ttf",
+          "sha256": "c885e49c6acf9128da4df2ef0d9379a369352f779c271aa00857df36fba5ba40"
+        }
+      ]
+    },
+    {
+      "name": "Zen Kurenaido",
+      "folder": "zenkurenaido",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zen Kurenaido Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zenkurenaido/ZenKurenaido-Regular.ttf",
+          "sha256": "208a22b5d0347685010414cbe695e66c169cf5831d7fb4c1ce8ab8f416a5a1b0"
+        }
+      ]
+    },
+    {
+      "name": "M PLUS 1",
+      "folder": "mplus1",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "M PLUS 1 Regular",
+          "source": "https://fonts.gstatic.com/s/mplus1/v17/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSa78g.ttf",
+          "sha256": "20741808c96b4375c8667f09c1a8cda6ff62eea81c5ec7b2751f7388d7174e88"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "M PLUS 1 Bold",
+          "source": "https://fonts.gstatic.com/s/mplus1/v17/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5siG78g.ttf",
+          "sha256": "fa995cd99d22dcdbaeb07c6c2e9372398bc0d2354dc9ea9e348abb6f6f4ac495"
+        }
+      ]
+    },
+    {
+      "name": "M PLUS 1p",
+      "folder": "mplus1p",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "M PLUS 1p Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/mplus1p/MPLUS1p-Regular.ttf",
+          "sha256": "8e95d01fa03d8d3ccc3d21089986c3fc65328837efc455b079b4bc2553165c39"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "M PLUS 1p Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/mplus1p/MPLUS1p-Bold.ttf",
+          "sha256": "0e7645ee4987d01052180ad91650bf31475217120effee29c1de4161df4c4dca"
+        }
+      ]
+    },
+    {
+      "name": "M PLUS 2",
+      "folder": "mplus2",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "M PLUS 2 Regular",
+          "source": "https://fonts.gstatic.com/s/mplus2/v17/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwOa6Vxg.ttf",
+          "sha256": "87a2d3af50f057d3e70fa95188b6fd2f5b1fa04be0dc9923ff905dc69fd0e7f9"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "M PLUS 2 Bold",
+          "source": "https://fonts.gstatic.com/s/mplus2/v17/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkw3qmVxg.ttf",
+          "sha256": "c10896a222e2c7c6a93e0dfc01c8d480b82a9ea55a1b5be7f50cfc06ebe65dc2"
+        }
+      ]
+    },
+    {
+      "name": "Dela Gothic One",
+      "folder": "delagothicone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Dela Gothic One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/delagothicone/DelaGothicOne-Regular.ttf",
+          "sha256": "9b87ec445efadf77156a6aa29785f24e379c1726273f3c603f1f80e34daddc56"
+        }
+      ]
+    },
+    {
+      "name": "DotGothic16",
+      "folder": "dotgothic16",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "DotGothic16 Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/dotgothic16/DotGothic16-Regular.ttf",
+          "sha256": "c354dd8c9ded77126083d95deac3839a56ba66af8e76243a8f1f2aed3681f81f"
+        }
+      ]
+    },
+    {
+      "name": "Hachi Maru Pop",
+      "folder": "hachimarupop",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Hachi Maru Pop Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/hachimarupop/HachiMaruPop-Regular.ttf",
+          "sha256": "7a9f46f0ea0026a644c0907b5d7449a270671a85003c043d1f4f7aec46146790"
+        }
+      ]
+    },
+    {
+      "name": "Hina Mincho",
+      "folder": "hinamincho",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Hina Mincho Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/hinamincho/HinaMincho-Regular.ttf",
+          "sha256": "02b62f64d248c412b63e1a574c8dfbcf5b4458fb1fcf32ab15dc264d54ffe65d"
+        }
+      ]
+    },
+    {
+      "name": "Kaisei Decol",
+      "folder": "kaiseidecol",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kaisei Decol Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseidecol/KaiseiDecol-Regular.ttf",
+          "sha256": "91df4d48f80f7c5de907c6849cafa56596d207ff8a12f8951cde32ffac0d5412"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Kaisei Decol Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseidecol/KaiseiDecol-Bold.ttf",
+          "sha256": "0de25d12df803b242bab488d4a66acd6a35813a4a77f426f537690075f42a530"
+        }
+      ]
+    },
+    {
+      "name": "Kaisei HarunoUmi",
+      "folder": "kaiseiharunoumi",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kaisei HarunoUmi Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Regular.ttf",
+          "sha256": "91db9dcccf8fc2cb904db61cc5dd8b417d754bc7f1d51a7ea68da5f776e493c3"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Kaisei HarunoUmi Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Bold.ttf",
+          "sha256": "a53dd16c655908a376bfd0ad6b8f15fe4d027398a0ee4cdb5a2c065cc50b93b7"
+        }
+      ]
+    },
+    {
+      "name": "Kaisei Opti",
+      "folder": "kaiseiopti",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kaisei Opti Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseiopti/KaiseiOpti-Regular.ttf",
+          "sha256": "4c67f79ebcfc13cd77b34e8a63de6dec594d5cf552e5092fd9b61fe893a824bd"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Kaisei Opti Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseiopti/KaiseiOpti-Bold.ttf",
+          "sha256": "7207f6943b7947cf4a7e9f0c93ed62b80e45d4854f1e78178c15b48b8406b8d5"
+        }
+      ]
+    },
+    {
+      "name": "Kaisei Tokumin",
+      "folder": "kaiseitokumin",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kaisei Tokumin Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseitokumin/KaiseiTokumin-Regular.ttf",
+          "sha256": "cab4867772656cec3e8030319015950b23a1a81d3005560669904aa4de5a29b3"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Kaisei Tokumin Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kaiseitokumin/KaiseiTokumin-Bold.ttf",
+          "sha256": "f1d9f3f9bc0f55536f6e4ebb1475bc50324c6c700b4f3536412ee4388ddb76b6"
+        }
+      ]
+    },
+    {
+      "name": "Kiwi Maru",
+      "folder": "kiwimaru",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kiwi Maru Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kiwimaru/KiwiMaru-Regular.ttf",
+          "sha256": "ed5eb80c48b5761df0e1821884ae9c1f1fb1688efb66d221f7ea4e0abe5f9acd"
+        },
+        {
+          "file": "500.ttf.gz",
+          "weight": 500,
+          "ass_name": "Kiwi Maru Medium",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kiwimaru/KiwiMaru-Medium.ttf",
+          "sha256": "df99554410f2670e922e8a84b13b729af73fb09a4c5f2a96a6d96b07865a0a1a"
+        }
+      ]
+    },
+    {
+      "name": "Klee One",
+      "folder": "kleeone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Klee One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kleeone/KleeOne-Regular.ttf",
+          "sha256": "4d8e79704f9a4ef9e7716435899654abfb7e8cad1aba09836a877762f15c1072"
+        },
+        {
+          "file": "600.ttf.gz",
+          "weight": 600,
+          "ass_name": "Klee One SemiBold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kleeone/KleeOne-SemiBold.ttf",
+          "sha256": "1141fd3eada7b42e1068b3c578f8be72e2270f76aaf36ec383042da9c7b5c2c2"
+        }
+      ]
+    },
+    {
+      "name": "New Tegomin",
+      "folder": "newtegomin",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "New Tegomin Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/newtegomin/NewTegomin-Regular.ttf",
+          "sha256": "0b8bcc6c349a1382d42c13d38916c32bda80bcf5f98dac2a5a0fb76c579198a7"
+        }
+      ]
+    },
+    {
+      "name": "Potta One",
+      "folder": "pottaone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Potta One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/pottaone/PottaOne-Regular.ttf",
+          "sha256": "fda6a0abf79857bbfdf3f78d9370a60cc5dede5dc1b737cff84575d922c68f5c"
+        }
+      ]
+    },
+    {
+      "name": "Rampart One",
+      "folder": "rampartone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Rampart One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/rampartone/RampartOne-Regular.ttf",
+          "sha256": "d75b4af8afb1ac746efbbd5554a141fe01357363fd3cfaa4c523836d41aa23cd"
+        }
+      ]
+    },
+    {
+      "name": "Reggae One",
+      "folder": "reggaeone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Reggae One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/reggaeone/ReggaeOne-Regular.ttf",
+          "sha256": "c4772b2e66f5e158ac902b8b7e2df4a0d108d770db264be13c32d1947246c73c"
+        }
+      ]
+    },
+    {
+      "name": "RocknRoll One",
+      "folder": "rocknrollone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "RocknRoll One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/rocknrollone/RocknRollOne-Regular.ttf",
+          "sha256": "0195f9caee8119931296328884479268b43d7a5a7df41d7832c386ff49a4030a"
+        }
+      ]
+    },
+    {
+      "name": "Sawarabi Gothic",
+      "folder": "sawarabigothic",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Sawarabi Gothic",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/sawarabigothic/SawarabiGothic-Regular.ttf",
+          "sha256": "4ac22bb7129ff25e055acc11a535e0eef1343ca7002c6b401a2fc1e8787d4020"
+        }
+      ]
+    },
+    {
+      "name": "Sawarabi Mincho",
+      "folder": "sawarabimincho",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Sawarabi Mincho Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/sawarabimincho/SawarabiMincho-Regular.ttf",
+          "sha256": "7299fe8e5ab75e058bbe2717a8df47ccb0bee149e8cdb642fd0dd167c2542333"
+        }
+      ]
+    },
+    {
+      "name": "Shippori Mincho",
+      "folder": "shipporimincho",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Shippori Mincho Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/shipporimincho/ShipporiMincho-Regular.ttf",
+          "sha256": "7c55bb0a3d86f17f322a74fdedea38f975b69822b3b96879981dc76a037b781f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Shippori Mincho Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/shipporimincho/ShipporiMincho-Bold.ttf",
+          "sha256": "7b0ebee4bedff958851ba7445c4143930098bc1b4974d02c5dd6ef69ad085f46"
+        }
+      ]
+    },
+    {
+      "name": "Shippori Mincho B1",
+      "folder": "shipporiminchob1",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Shippori Mincho B1 Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/shipporiminchob1/ShipporiMinchoB1-Regular.ttf",
+          "sha256": "dda41a6ebc144781116660b9493116e01d6e0a13fd067ef09566ada83810ca3c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Shippori Mincho B1 Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/shipporiminchob1/ShipporiMinchoB1-Bold.ttf",
+          "sha256": "98ae9120f22be6badbf3d0e5b91de321ef557f7cb47897c2f41d285afab92eb4"
+        }
+      ]
+    },
+    {
+      "name": "Stick",
+      "folder": "stick",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Stick Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/stick/Stick-Regular.ttf",
+          "sha256": "a93ba80d1f414ad06b2a2be3c96317e7694cb2cc83e2a8ec21670f62e748bfb5"
+        }
+      ]
+    },
+    {
+      "name": "Train One",
+      "folder": "trainone",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Train One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/trainone/TrainOne-Regular.ttf",
+          "sha256": "5fc170fb88d4c156e5fda0ccf6dac2e101b6f4919bd57683b598ba4d66d68b26"
+        }
+      ]
+    },
+    {
+      "name": "Yomogi",
+      "folder": "yomogi",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yomogi Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/yomogi/Yomogi-Regular.ttf",
+          "sha256": "7e61f27c0c221fbbeeeb62266de7c2294837dee9a9ed0d22d6dfa65e655dd477"
+        }
+      ]
+    },
+    {
+      "name": "Yuji Boku",
+      "folder": "yujiboku",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yuji Boku Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/yujiboku/YujiBoku-Regular.ttf",
+          "sha256": "332b0eafe61309371d2c42cbf2f188f8abf72201fe325ed2d9527911ab7d393c"
+        }
+      ]
+    },
+    {
+      "name": "Yuji Mai",
+      "folder": "yujimai",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yuji Mai Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/yujimai/YujiMai-Regular.ttf",
+          "sha256": "17d812a98ea75511de1b1428c168fd8ce8abda4f845ee9774eb86a7294cd16bb"
+        }
+      ]
+    },
+    {
+      "name": "Yuji Syuku",
+      "folder": "yujisyuku",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yuji Syuku Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/yujisyuku/YujiSyuku-Regular.ttf",
+          "sha256": "c1353bd91308807e31eb6fffe78d030d55c47a3fac748cd162d2f565744488ea"
+        }
+      ]
+    },
+    {
+      "name": "Yusei Magic",
+      "folder": "yuseimagic",
+      "group": "ja",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yusei Magic Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/yuseimagic/YuseiMagic-Regular.ttf",
+          "sha256": "bcd203f742b8bd919467bf45e692a3a91aa6c642ca2f1d582886f139c55f4026"
+        }
+      ]
+    },
+    {
+      "name": "Inter",
+      "folder": "inter",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Inter Regular",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZFhjQ.ttf",
+          "sha256": "ad049472071569175593eb7b288e5fadf12a2c1f8e7db63db9458e98d5b5c04b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Inter Bold",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZFhjQ.ttf",
+          "sha256": "6a50f34e11f5ced6bc6cb0a69581880c7a5807775c5001f46fe8d856cf6d7b7b"
+        }
+      ]
+    },
+    {
+      "name": "Roboto",
+      "folder": "roboto",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Roboto Regular",
+          "source": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiA8.ttf",
+          "sha256": "4d779d635d231e2354b3bb5f0d36936e8e560c27640f067c6b2b929ac41ee9df"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Roboto Bold",
+          "source": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmaiA8.ttf",
+          "sha256": "454496491c168ef5fe63e7d1b6c3166b64d7c4238ac09272ee17f0d770a9aad4"
+        }
+      ]
+    },
+    {
+      "name": "Open Sans",
+      "folder": "opensans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Open Sans Regular",
+          "source": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf",
+          "sha256": "7e11ea251217da401823388b4e8968ee639f2e16b6425f83a548fd49747a9bcf"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Open Sans Bold",
+          "source": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf",
+          "sha256": "0d774f4aba85f02f5e326f671b24410b0941b2d0fbd9a0562b5189b97d491ff2"
+        }
+      ]
+    },
+    {
+      "name": "Montserrat",
+      "folder": "montserrat",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Montserrat Thin Regular",
+          "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf",
+          "sha256": "f3158e6fa4e2d50e7d92de6a56a2f9513f0b0c4bae1ec3e5f88dc83de5f455bf"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Montserrat Thin Bold",
+          "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf",
+          "sha256": "87aa7d6d2c984e5bfcb61e3319f095b603386067b654b47c79f5c81bcaebc12e"
+        }
+      ]
+    },
+    {
+      "name": "Lato",
+      "folder": "lato",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Lato Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lato/Lato-Regular.ttf",
+          "sha256": "b86bf5fb078ff54d062f989e4332e026578d14d9257f9eb95d8763bc02f761d3"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Lato Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lato/Lato-Bold.ttf",
+          "sha256": "3c4f94b6e0b72d98373661970d3e061c07ea0bef704ad197d17bca6a27ea1ffd"
+        }
+      ]
+    },
+    {
+      "name": "Roboto Condensed",
+      "folder": "robotocondensed",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Roboto Condensed Regular",
+          "source": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBA5Xk.ttf",
+          "sha256": "1a3ed6f7056f668aca4c9901f307b4831721145f5a710f9f67d464c7e90b7cdd"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Roboto Condensed Bold",
+          "source": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBA5Xk.ttf",
+          "sha256": "747bbd2171a328e84d1ac22c87aa9387b96ffb0f843f78ed71ed2008f973e38f"
+        }
+      ]
+    },
+    {
+      "name": "Oswald",
+      "folder": "oswald",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Oswald Regular",
+          "source": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiYA.ttf",
+          "sha256": "65e66414bcfe84c7826ac25cee3266178f53f5c8d0b5ed420777d6c16d226ef3"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Oswald Bold",
+          "source": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUhiYA.ttf",
+          "sha256": "e901fc8812b200ed9fd8c3f62bd461d38068a51ba57eaa3ebbf0904d49a7dc54"
+        }
+      ]
+    },
+    {
+      "name": "Anton",
+      "folder": "anton",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Anton Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/anton/Anton-Regular.ttf",
+          "sha256": "06d0ac443a2a2e5486f2d6574cde781d228879c94959d62904f99bba35bc0581"
+        }
+      ]
+    },
+    {
+      "name": "Bebas Neue",
+      "folder": "bebasneue",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Bebas Neue Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/bebasneue/BebasNeue-Regular.ttf",
+          "sha256": "0837ca7abd9373b66baa85c51eb316afd171db22f7df1d22f1235862a02e7a25"
+        }
+      ]
+    },
+    {
+      "name": "Poppins",
+      "folder": "poppins",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Poppins Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/poppins/Poppins-Regular.ttf",
+          "sha256": "93f4b1d78df710a943157074cabee03e385f2513e7b4f7dec58a376e7b88fb6f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Poppins Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/poppins/Poppins-Bold.ttf",
+          "sha256": "61acb284c263892814d4fca89a322a56ccf60dbb9bd50662ca25ed1545801e13"
+        }
+      ]
+    },
+    {
+      "name": "Nunito",
+      "folder": "nunito",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Nunito ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3ig.ttf",
+          "sha256": "1f4a5f5305edac206d5c3ff9f71b4a7cdd19ac1b48f13fe5ecae5d7dfd7277cb"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Nunito ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3ig.ttf",
+          "sha256": "09f7919dc64c4dc64a1e0e2ee13d4bb60552289e8547b74637720cbc8efb4957"
+        }
+      ]
+    },
+    {
+      "name": "Nunito Sans",
+      "folder": "nunitosans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Nunito Sans 12pt ExtraLight 12pt Regular",
+          "source": "https://fonts.gstatic.com/s/nunitosans/v19/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXvVUg.ttf",
+          "sha256": "9f7d5929dc5d83dd5bec6d6692d6f378af365fd61c05176c4e4e1ea4842d1d99"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Nunito Sans 12pt ExtraLight 12pt Bold",
+          "source": "https://fonts.gstatic.com/s/nunitosans/v19/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5XvVUg.ttf",
+          "sha256": "97b29742a3a0a735b4e732add5d32d9ea9d9bece4016f066345c7a3926178921"
+        }
+      ]
+    },
+    {
+      "name": "DM Sans",
+      "folder": "dmsans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "DM Sans 9pt Regular",
+          "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR23z.ttf",
+          "sha256": "bb51af1dc7e339ab55f9d72feed97f94c98d0655b86a2c8b1415552c6b83b07a"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "DM Sans 9pt Bold",
+          "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZtRR23z.ttf",
+          "sha256": "38a8eb51f7dbb44fae86edc3c4c23a909bef0ae3f26b9f84235267eeae6d19f0"
+        }
+      ]
+    },
+    {
+      "name": "Work Sans",
+      "folder": "worksans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Work Sans Regular",
+          "source": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBiEJow.ttf",
+          "sha256": "d1eed99f878cdd702e9acaa16d531e28f45f4de420308b9346228701a20766c4"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Work Sans Bold",
+          "source": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiEJow.ttf",
+          "sha256": "d092138dd2253ceecd77860d2e69a995718f8030daf9e41f9956616fba0d7c28"
+        }
+      ]
+    },
+    {
+      "name": "Manrope",
+      "folder": "manrope",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Manrope ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_M-bw.ttf",
+          "sha256": "00ae4b6f15d7c68cda25a33f8a107142f9383494d0f72b5015c6a7830d3a5977"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Manrope ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE9_M-bw.ttf",
+          "sha256": "dd71977dcf3d1a8e25a191e082837874cd9c05058c20bb877d2da3751a62cfc8"
+        }
+      ]
+    },
+    {
+      "name": "Plus Jakarta Sans",
+      "folder": "plusjakartasans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Plus Jakarta Sans Regular",
+          "source": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_qU79Qx_Q.ttf",
+          "sha256": "90debc6a73bd22045a284d9af5152541e28d3c9e59d3468e877da19dd66795c9"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Plus Jakarta Sans Bold",
+          "source": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_Tkn9Qx_Q.ttf",
+          "sha256": "2752fb4d70cc1276f642d4d16c93f0caf8c21b289754650177ee40baf27a3310"
+        }
+      ]
+    },
+    {
+      "name": "Outfit",
+      "folder": "outfit",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Outfit Thin Regular",
+          "source": "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4i0Fg.ttf",
+          "sha256": "76185be4595db314ebabf2c6ae65d418140d76a1dc828dd504b24fa3ec385311"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Outfit Thin Bold",
+          "source": "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyO4i0Fg.ttf",
+          "sha256": "e2fa93ea275f56eefad6069ee118638d492e20b533ec00a189840fca233566d0"
+        }
+      ]
+    },
+    {
+      "name": "Space Grotesk",
+      "folder": "spacegrotesk",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Space Grotesk Light Regular",
+          "source": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsqPMU.ttf",
+          "sha256": "ae7fce67bd8eefb23e9c9b692f70bad229ecc063bf522d54bef852c74ef45228"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Space Grotesk Light Bold",
+          "source": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVnsqPMU.ttf",
+          "sha256": "eddad48f2cc964631a102e11245fb37014d9278d8470998d6ab6f6dd212868de"
+        }
+      ]
+    },
+    {
+      "name": "Lexend",
+      "folder": "lexend",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Lexend Regular",
+          "source": "https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsWzLlnfw.ttf",
+          "sha256": "c11278367a3830e6ae89e537666cac9c989e02d9d8e834871f37f0c3dd74c47c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Lexend Bold",
+          "source": "https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wRzLlnfw.ttf",
+          "sha256": "b4485bf53458a434ad32fb4ac3988e96d9382359674635299aa43c27cdf1bc82"
+        }
+      ]
+    },
+    {
+      "name": "Merriweather",
+      "folder": "merriweather",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Merriweather Light 18pt Regular",
+          "source": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf",
+          "sha256": "6631bf36aff212ceeb1128bdc24e7064ad0113cc29b4373b9977e44659a24add"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Merriweather Light 18pt Bold",
+          "source": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf",
+          "sha256": "0737602d3a3fb181d9b87fc309911496b8cf18ba2248c596fed6536ae6187d30"
+        }
+      ]
+    },
+    {
+      "name": "Libre Baskerville",
+      "folder": "librebaskerville",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Libre Baskerville Regular",
+          "source": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANK.ttf",
+          "sha256": "385d9d6b42b90f5bb1c8b233c80e92f04312efaf4ee848def14d7db04201ceba"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Libre Baskerville Bold",
+          "source": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17ujFgkiAANK.ttf",
+          "sha256": "217fb610f201237dedc6af3c15890be5ed973ccd6ab4c94bed2ff4c56e82039d"
+        }
+      ]
+    },
+    {
+      "name": "Playfair Display",
+      "folder": "playfairdisplay",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Playfair Display Regular",
+          "source": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDZbtY.ttf",
+          "sha256": "85b59f81a5764548c67d597903365a4e919d199b178e241e49e163ed006b548b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Playfair Display Bold",
+          "source": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDZbtY.ttf",
+          "sha256": "63bf76ffd7c70d5234e4bcf2e81cb96ff02b54e75a9fe885254d3676a2138563"
+        }
+      ]
+    },
+    {
+      "name": "PT Serif",
+      "folder": "ptserif",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "PT Serif",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/ptserif/PT_Serif-Web-Regular.ttf",
+          "sha256": "a7efc217f7b4aea5c235deee99c0ed422f10486dde76aae329b7b06621e64f88"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "PT Serif Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/ptserif/PT_Serif-Web-Bold.ttf",
+          "sha256": "d3c0d3423a97e90adc6b5c9e173fb452232644ea639e279e2cf5afb4cb2c6b05"
+        }
+      ]
+    },
+    {
+      "name": "Source Serif 4",
+      "folder": "sourceserif4",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Source Serif 4 Regular",
+          "source": "https://fonts.gstatic.com/s/sourceserif4/v15/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjihdqnhVdCw.ttf",
+          "sha256": "3543f97b767a5d217632ed4baf1b9b634b70fd57795a5b89fc2946ec2de62957"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Source Serif 4 Bold",
+          "source": "https://fonts.gstatic.com/s/sourceserif4/v15/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjivBtnhVdCw.ttf",
+          "sha256": "f3ce59d1e5e25a89f81e638f327e580dc462c2ca3fd214bc20f6afe41913c0ae"
+        }
+      ]
+    },
+    {
+      "name": "Crimson Text",
+      "folder": "crimsontext",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Crimson Text Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/crimsontext/CrimsonText-Regular.ttf",
+          "sha256": "cf4e37eb6a7ceedc8ae34af9f020e71fd056c6f1e946813606292a0e8ebf3613"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Crimson Text Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/crimsontext/CrimsonText-Bold.ttf",
+          "sha256": "26de461292cb3bf0c4f2f14dadcb0bb044d0f18250e2384507d328bc0ed59367"
+        }
+      ]
+    },
+    {
+      "name": "Cormorant Garamond",
+      "folder": "cormorantgaramond",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cormorant Garamond Light Regular",
+          "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86KnrOjw.ttf",
+          "sha256": "5f8cac2995da8f9290a5eaa60fc636aad28905297ffc2c0489f3866e04fee0f3"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Cormorant Garamond Light Bold",
+          "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9KnrOjw.ttf",
+          "sha256": "f4d3ec61fc5d5f6b174a7c360ffa85beda8ee2ddc14d3ca9467b2d567211f008"
+        }
+      ]
+    },
+    {
+      "name": "EB Garamond",
+      "folder": "ebgaramond",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "EB Garamond Regular",
+          "source": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkCo96.ttf",
+          "sha256": "ae5bb74be3f4d0b7da86921a269e23659e9eefbe7da09b33755ccb63f586c139"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "EB Garamond Bold",
+          "source": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNkCo96.ttf",
+          "sha256": "08759665e11aeefcc9b108619d53b4110ce418df6331ed73300ba62dfd7c3849"
+        }
+      ]
+    },
+    {
+      "name": "Spectral",
+      "folder": "spectral",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Spectral Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/spectral/Spectral-Regular.ttf",
+          "sha256": "5ea6db334883fc32547c34b177d9164909a67adf07ea74b01d8dc5972e1b6930"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Spectral Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/spectral/Spectral-Bold.ttf",
+          "sha256": "9ac6fcb86e3b05e59fa277c9796c0f2648fd7e1b3aea56dce0934a94a4c8305f"
+        }
+      ]
+    },
+    {
+      "name": "IBM Plex Mono",
+      "folder": "ibmplexmono",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "IBM Plex Mono Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "sha256": "4a2f48394ba7931255ee267012f65bafdecd656c3181f66fae0bd75ccdb7e069"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "IBM Plex Mono Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/ibmplexmono/IBMPlexMono-Bold.ttf",
+          "sha256": "c3fb0843461da8eff23ccb535ccbccb98018c9432d3346a3b9dd87ea2682aacf"
+        }
+      ]
+    },
+    {
+      "name": "JetBrains Mono",
+      "folder": "jetbrainsmono",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "JetBrains Mono Regular",
+          "source": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTNFOQ.ttf",
+          "sha256": "0fb20ab1e549a1edd8c183d96049d841d58404634ab46f63576e689de4bb856d"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "JetBrains Mono Bold",
+          "source": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTNFOQ.ttf",
+          "sha256": "54ca3c3090ca38b82b89d36aed80c46bd299c2e513f2606d3603db3e1d36f6bc"
+        }
+      ]
+    },
+    {
+      "name": "Space Mono",
+      "folder": "spacemono",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Space Mono Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/spacemono/SpaceMono-Regular.ttf",
+          "sha256": "dbccfac37f68e6b790f3f0e1ec21d1dc3b400a589eaacf8df9e73c94456f3754"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Space Mono Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/spacemono/SpaceMono-Bold.ttf",
+          "sha256": "43586e149730fb742ff57cab884a63b6b4767757e10fe7ae96fc4b8c0f593943"
+        }
+      ]
+    },
+    {
+      "name": "Inconsolata",
+      "folder": "inconsolata",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Inconsolata Regular",
+          "source": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf",
+          "sha256": "f9baa9e0089d636ef2a4f63b5675ee49df74510c4646a61535fbc422000abeb6"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Inconsolata Bold",
+          "source": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7WRP2kg.ttf",
+          "sha256": "0d6a2419c45e3adc6f28b2b4f52049ec12c3877f7cbcea162d129fee87241d44"
+        }
+      ]
+    },
+    {
+      "name": "Caveat",
+      "folder": "caveat",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Caveat Regular",
+          "source": "https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIupZA.ttf",
+          "sha256": "2411ff0753cf6439e282570b1d0eb9e65e0811cf1a17fc96fb61ec5d7c6ba4eb"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Caveat Bold",
+          "source": "https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6eIupZA.ttf",
+          "sha256": "352d37e618823b4f2e6360a1c884526c2d005a277d92a31e429a30198bbbcb2a"
+        }
+      ]
+    },
+    {
+      "name": "Kalam",
+      "folder": "kalam",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kalam",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kalam/Kalam-Regular.ttf",
+          "sha256": "b1a27f2b8ef0a1f349ecd1ad79071eecf1bf0c72f9d470e954df5655dea9a9dc"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Kalam Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kalam/Kalam-Bold.ttf",
+          "sha256": "7a6316076287cd7314a41b2308e83c14c921d701f8dd19daf8545ebc65fd3ef0"
+        }
+      ]
+    },
+    {
+      "name": "Patrick Hand",
+      "folder": "patrickhand",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Patrick Hand",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/patrickhand/PatrickHand-Regular.ttf",
+          "sha256": "5c0a00072141c7745a290ad960f17ad9d34aaf2be73a29634e8d9c7b5296cfef"
+        }
+      ]
+    },
+    {
+      "name": "Abril Fatface",
+      "folder": "abrilfatface",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Abril Fatface",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/abrilfatface/AbrilFatface-Regular.ttf",
+          "sha256": "342b25b4d5a3f57578d14809883863ff8e1215fd7ac2bf4ef625290d886f983e"
+        }
+      ]
+    },
+    {
+      "name": "Archivo Black",
+      "folder": "archivoblack",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Archivo Black Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/archivoblack/ArchivoBlack-Regular.ttf",
+          "sha256": "648839e3343bc89b67df770ee2d3958bc58098c95ea53563842756dc0beadc7c"
+        }
+      ]
+    },
+    {
+      "name": "Barlow",
+      "folder": "barlow",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Barlow Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlow/Barlow-Regular.ttf",
+          "sha256": "6a91fed5976eb5525d3852492b99dafcb9dfaa6930a0c07510ec8151a3deddbe"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Barlow Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlow/Barlow-Bold.ttf",
+          "sha256": "4ecafb0051c27f0168b701c2394faaede4391cc62942a19d0369f9d65d720e69"
+        }
+      ]
+    },
+    {
+      "name": "Barlow Condensed",
+      "folder": "barlowcondensed",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Barlow Condensed Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
+          "sha256": "5cadd2f7b0c66985100b9f8ffbb5608ff9c13e5af97ed08bbfee46669b2acd41"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Barlow Condensed Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
+          "sha256": "e70fb128c4a8fe773c573c75c247bd501349af856f6ef5edb780a69098e6e2cb"
+        }
+      ]
+    },
+    {
+      "name": "League Spartan",
+      "folder": "leaguespartan",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "League Spartan Thin Regular",
+          "source": "https://fonts.gstatic.com/s/leaguespartan/v15/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvM_oTZDc1Y.ttf",
+          "sha256": "d0d47cf627bd3f508871a8b9abc7f37922359f1a38da3021cb453eebd6f2cf66"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "League Spartan Thin Bold",
+          "source": "https://fonts.gstatic.com/s/leaguespartan/v15/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMGYPZDc1Y.ttf",
+          "sha256": "da219df6cbfb034520660691651717f720679661e1732aecaa14d2f5d7affa63"
+        }
+      ]
+    },
+    {
+      "name": "Sora",
+      "folder": "sora",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Sora Regular",
+          "source": "https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSnk-DKQc.ttf",
+          "sha256": "a4c5ff93f070f5e1295e57d22067bc83e350b63e12d15394d86645fa777468db"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Sora Bold",
+          "source": "https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mU-DKQc.ttf",
+          "sha256": "0bdb99ad34ff08decaeb932ef219c3ca041cc7eb3e614be19b7755212b7d2aae"
+        }
+      ]
+    },
+    {
+      "name": "Raleway",
+      "folder": "raleway",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Raleway Thin Regular",
+          "source": "https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrQ.ttf",
+          "sha256": "db7a7002ec2efc828957e66330a48d7c13e956bab60f8a19e72d36a1c63dc591"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Raleway Thin Bold",
+          "source": "https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCGPrQ.ttf",
+          "sha256": "aac01c3637f45018f524a0b1fc75b95ccb6711c1a525a9b5224db8ed1a6bf481"
+        }
+      ]
+    },
+    {
+      "name": "Karla",
+      "folder": "karla",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Karla Regular",
+          "source": "https://fonts.gstatic.com/s/karla/v33/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlP.ttf",
+          "sha256": "ca4060edd0d6ae95ae30b2dbfd7754f4bba4b9303910c1f2ece785f02fcb140f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Karla Bold",
+          "source": "https://fonts.gstatic.com/s/karla/v33/qkBIXvYC6trAT55ZBi1ueQVIjQTDH52aHUlP.ttf",
+          "sha256": "d2bccdc0985a3bf26247afe1cfce4f5536e98c8229ec997da729b3b11c1c5a9d"
+        }
+      ]
+    },
+    {
+      "name": "Rubik",
+      "folder": "rubik",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Rubik Light Regular",
+          "source": "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFWUUw.ttf",
+          "sha256": "98f64390c71363b66324091dc31d7cae672e043ba1a29b7abd06d46cb253e582"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Rubik Light Bold",
+          "source": "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FWUUw.ttf",
+          "sha256": "5a291c0068191d03629e179ab3e610fa5565fa90b1158dae5a11a84ee38139fc"
+        }
+      ]
+    },
+    {
+      "name": "Figtree",
+      "folder": "figtree",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Figtree Light Regular",
+          "source": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5XyEU.ttf",
+          "sha256": "e51f5b7e6f6e0eb5d4ec59eabae290a751409b98660814ec5b0b13148a39d71c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Figtree Light Bold",
+          "source": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR25XyEU.ttf",
+          "sha256": "243efc1d3aea1bcc4459c0c2006803bc4dd22e20939c9944cf4d91227c5f2ede"
+        }
+      ]
+    },
+    {
+      "name": "Atkinson Hyperlegible",
+      "folder": "atkinsonhyperlegible",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Atkinson Hyperlegible Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf",
+          "sha256": "c6c450f7eaf495a36d1971bfd17c56b0b1628a5b08110424f4123327154c2968"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Atkinson Hyperlegible Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
+          "sha256": "c6b42578dcfc4cc5970931a0ab79c299050bab72ccd3022170bfcbd755dec646"
+        }
+      ]
+    },
+    {
+      "name": "Merriweather Sans",
+      "folder": "merriweathersans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Merriweather Sans Regular",
+          "source": "https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4Vh-sC.ttf",
+          "sha256": "4cb5a675e70b979463518bc2a6abb9139d6860b64d824d1849d54595cdc6c1d2"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Merriweather Sans Bold",
+          "source": "https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZRekVh-sC.ttf",
+          "sha256": "96c3d7592e4e47aace9ec57afe5ec0fe1c3317a51ebf9d1b10081f55a517c8e3"
+        }
+      ]
+    },
+    {
+      "name": "Public Sans",
+      "folder": "publicsans",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Public Sans Thin Regular",
+          "source": "https://fonts.gstatic.com/s/publicsans/v21/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpmJygct.ttf",
+          "sha256": "0c2413aa09aff2ffddd1c5e9c123d7e0ad0dab0b64512977a1b8c0dff925c679"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Public Sans Thin Bold",
+          "source": "https://fonts.gstatic.com/s/publicsans/v21/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymu8Z6Jygct.ttf",
+          "sha256": "d7be582876db30b20ab913f84f02cc60fb7a9875ad1d7eeb24594a5e4a7d9004"
+        }
+      ]
+    },
+    {
+      "name": "Quicksand",
+      "folder": "quicksand",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Quicksand Light Regular",
+          "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58i-xw.ttf",
+          "sha256": "8b1ef2e07528a501d6d6fa2f5fe03a19c12e904259da96a1c38e4853f9531a93"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Quicksand Light Bold",
+          "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv58i-xw.ttf",
+          "sha256": "b64a0c1456f21942bf0679be3203d2add698c39dc3b7c4b126d3e43092caec9c"
+        }
+      ]
+    },
+    {
+      "name": "Arimo",
+      "folder": "arimo",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Arimo Regular",
+          "source": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDhrE.ttf",
+          "sha256": "10a7788af5da4dcfe2cadc1c35a82bc951661c401ff6a8eb76155b8ffeca85e1"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Arimo Bold",
+          "source": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstcDhrE.ttf",
+          "sha256": "a01d9eb7bba1688f184edd4c6af7eb72874e96c6bddbe92b500e5220500fd49b"
+        }
+      ]
+    },
+    {
+      "name": "Fjalla One",
+      "folder": "fjallaone",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Fjalla One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/fjallaone/FjallaOne-Regular.ttf",
+          "sha256": "5677b27f094c45b56a7af83f429095388c73dd6c03bde15955d59f8863087321"
+        }
+      ]
+    },
+    {
+      "name": "Chivo Mono",
+      "folder": "chivomono",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Chivo Mono Medium Regular",
+          "source": "https://fonts.gstatic.com/s/chivomono/v11/mFThWbgRxKvF_Z5eQMO9qRMrJJrnKNtC3D7hr5fcIJw.ttf",
+          "sha256": "d7a67bdae405df0b10288913b5c525369bd292ea429fece91bae876280d3a05b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Chivo Mono Medium Bold",
+          "source": "https://fonts.gstatic.com/s/chivomono/v11/mFThWbgRxKvF_Z5eQMO9qRMrJJrnKNtC3D4GqJfcIJw.ttf",
+          "sha256": "9b33336e7f267c7441854ea40ccd098e703c3f194888256cd0735c734f627145"
+        }
+      ]
+    },
+    {
+      "name": "Urbanist",
+      "folder": "urbanist",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Urbanist Regular",
+          "source": "https://fonts.gstatic.com/s/urbanist/v18/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDyx4vH5mv.ttf",
+          "sha256": "f433060319cca80086fa56fa147d3ee5eca59045457d22b22c9e381eb8c6432d"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Urbanist Bold",
+          "source": "https://fonts.gstatic.com/s/urbanist/v18/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDLBkvH5mv.ttf",
+          "sha256": "82cf2a8c3e94ba21d23ed615c447ca7fdef6828b1f6f080aaa4eed876a6f30d3"
+        }
+      ]
+    },
+    {
+      "name": "Titillium Web",
+      "folder": "titilliumweb",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Titillium Web Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/titilliumweb/TitilliumWeb-Regular.ttf",
+          "sha256": "6d2a5da36110286b296293b65e3c5b67d75349366b9c1b17e9ee32c7c9456a6c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Titillium Web Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/titilliumweb/TitilliumWeb-Bold.ttf",
+          "sha256": "c0cbe0a669488c237f7c52811280a8c5362d7b9ce0b9318e07df134ff0b03c3d"
+        }
+      ]
+    },
+    {
+      "name": "Source Sans 3",
+      "folder": "sourcesans3",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Source Sans 3 ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EE9C4.ttf",
+          "sha256": "388f30da88ac8a056009f2b2cf86403ebce85116f819e30120c0b13c177af2bb"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Source Sans 3 ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7GEE9C4.ttf",
+          "sha256": "4e0c09c5afa467b8216a0399a6a984cc3f93f15aa52273cf7d0700939eefa86f"
+        }
+      ]
+    },
+    {
+      "name": "Yanone Kaffeesatz",
+      "folder": "yanonekaffeesatz",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Yanone Kaffeesatz ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/yanonekaffeesatz/v34/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWZeWGP.ttf",
+          "sha256": "78adc8f9056405b5e361812e18273b80061ced04af19c8028a2b0510ba5ba306"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Yanone Kaffeesatz ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/yanonekaffeesatz/v34/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKZeWGP.ttf",
+          "sha256": "3edf63b8a0f246c9d63f3d9f9830aebcf81e5519ce7f5f9902a389ebfaa53bad"
+        }
+      ]
+    },
+    {
+      "name": "Comfortaa",
+      "folder": "comfortaa",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Comfortaa Regular",
+          "source": "https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDr0fJQ.ttf",
+          "sha256": "c837d52b85a5f5974f1b0e467942a8df930e51b39e2af424360449e83a6abd91"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Comfortaa Bold",
+          "source": "https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LDr0fJQ.ttf",
+          "sha256": "a3ed31edf70395fcb9751106b69c20b15d10f64b3796fbacaae457476b3d49e1"
+        }
+      ]
+    },
+    {
+      "name": "Lora",
+      "folder": "lora",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Lora Regular",
+          "source": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787weuxJPkqg.ttf",
+          "sha256": "e61bdce05acfb6533bc0c22f0f27cf05cccb2bfbe5995a41ff48ad7e3ea5036b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Lora Bold",
+          "source": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJPkqg.ttf",
+          "sha256": "ecc95ebf9c83255b5574b3f52b1173e5441265e1eb40b2ead65f8fb6e5592e5e"
+        }
+      ]
+    },
+    {
+      "name": "Bitter",
+      "folder": "bitter",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Bitter Thin Regular",
+          "source": "https://fonts.gstatic.com/s/bitter/v42/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfOLbOWA.ttf",
+          "sha256": "2684d4005609a694c279ca4f03998e0699dfd511397bc632388b4794b659d3ec"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Bitter Thin Bold",
+          "source": "https://fonts.gstatic.com/s/bitter/v42/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8RHYOLbOWA.ttf",
+          "sha256": "c91c3033c002769fb003dfe637f9c7f8cefe38c155317cad5dba033353e69645"
+        }
+      ]
+    },
+    {
+      "name": "Domine",
+      "folder": "domine",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Domine Regular",
+          "source": "https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAE1QfFg.ttf",
+          "sha256": "c71b42953b6fca94b79e853cdd93bd4d02059e55a607281cb37ca23b846c184b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Domine Bold",
+          "source": "https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHE1QfFg.ttf",
+          "sha256": "9561fd403ce672d0e42a65971535dec7e91f8e36adcfe5ea60c83e435fe54343"
+        }
+      ]
+    },
+    {
+      "name": "Vollkorn",
+      "folder": "vollkorn",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Vollkorn Regular",
+          "source": "https://fonts.gstatic.com/s/vollkorn/v30/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2MHGeEGmZ.ttf",
+          "sha256": "16a6b60769ffd247563ae952e1f9f5fb41aeffe20634b9bcf4e42927559f44e7"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Vollkorn Bold",
+          "source": "https://fonts.gstatic.com/s/vollkorn/v30/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df213aeEGmZ.ttf",
+          "sha256": "a9bc2d278d36b66fadf73c72cf404721f69b78be644517957d259f7bd61e3095"
+        }
+      ]
+    },
+    {
+      "name": "Acme",
+      "folder": "acme",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Acme Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/acme/Acme-Regular.ttf",
+          "sha256": "85a3995f34053d6c1252330136449f20550adc2ae85026faec37198b89812078"
+        }
+      ]
+    },
+    {
+      "name": "Akshar",
+      "folder": "akshar",
+      "group": "en",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Akshar Light Regular",
+          "source": "https://fonts.gstatic.com/s/akshar/v20/Yq6_-LyHWTfz9rGoqDazGDfAkwUsSb5G0du6B11wP_GfX0ftL6choQk.ttf",
+          "sha256": "4eb46ce2a796766cb1178e18bb9369ea10575f84bf69e62e2e2cc6364792b0b3"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Akshar Light Bold",
+          "source": "https://fonts.gstatic.com/s/akshar/v20/Yq6_-LyHWTfz9rGoqDazGDfAkwUsSb5G0du6B11wP_GfX0cKKKchoQk.ttf",
+          "sha256": "550ba38306d7f2ccc35e14914cb66e1775b99245bcf8bb0590cb7b31ed1b6f25"
+        }
+      ]
+    },
+    {
+      "name": "Alegreya",
+      "folder": "alegreya",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Alegreya Regular",
+          "source": "https://fonts.gstatic.com/s/alegreya/v41/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hU49aqm.ttf",
+          "sha256": "96884688cfb9c8fe53dcb5e0feb0ed7c8cccea8b8d49cdc2479e50957d1e69d8"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Alegreya Bold",
+          "source": "https://fonts.gstatic.com/s/alegreya/v41/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGERI49aqm.ttf",
+          "sha256": "b8bd1de15938e149cf6a4cd08401ba4e2f0843dd1c620c0952c5594bc2155b99"
+        }
+      ]
+    },
+    {
+      "name": "Alegreya Sans",
+      "folder": "alegreyasans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Alegreya Sans Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/alegreyasans/AlegreyaSans-Regular.ttf",
+          "sha256": "5885cc1c46624ff1e0bdb66c8a954b8245f40aabcbf4d7f1304693fc542943cc"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Alegreya Sans Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/alegreyasans/AlegreyaSans-Bold.ttf",
+          "sha256": "4c66166c811b5b9162544f94e00a845a4356ab56b92e5520d698104de0568721"
+        }
+      ]
+    },
+    {
+      "name": "Andada Pro",
+      "folder": "andadapro",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Andada Pro Regular",
+          "source": "https://fonts.gstatic.com/s/andadapro/v26/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DPJBb8VHrg.ttf",
+          "sha256": "ec98d8aa8dfcf200026f2a60699118c62f9ab8be4c708c63b95eb627fc8dc999"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Andada Pro Bold",
+          "source": "https://fonts.gstatic.com/s/andadapro/v26/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMuAr8VHrg.ttf",
+          "sha256": "2adfaeb1a8303ee0ae6b47432f3bc65cadfd3e1a5ff554aff3498ebd0e1e9231"
+        }
+      ]
+    },
+    {
+      "name": "Asap",
+      "folder": "asap",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Asap Regular",
+          "source": "https://fonts.gstatic.com/s/asap/v34/KFOOCniXp96a4Tc2DaTeuDAoKsE617JFc49knOIYdjTYkqUcJ2mT.ttf",
+          "sha256": "3b13249551e7b3cc5ea425bfc4196972614399964454b7814038e17cd1bd5253"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Asap Bold",
+          "source": "https://fonts.gstatic.com/s/asap/v34/KFOOCniXp96a4Tc2DaTeuDAoKsE617JFc49knOIYdjTYdaIcJ2mT.ttf",
+          "sha256": "07a8a2dc2707eac484cb9d0caefe098c789511f8c9fae27a85622b2b4e3969cb"
+        }
+      ]
+    },
+    {
+      "name": "Asap Condensed",
+      "folder": "asapcondensed",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Asap Condensed Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/asapcondensed/AsapCondensed-Regular.ttf",
+          "sha256": "71db172858f884c68f5f0348997e8a1e2bd9d70298d52c2a48156e11fb777451"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Asap Condensed Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/asapcondensed/AsapCondensed-Bold.ttf",
+          "sha256": "b4b326bf8805c58dcf322a4abe75898354a777e20db2b90c1c6b892d058b0ff6"
+        }
+      ]
+    },
+    {
+      "name": "Chivo",
+      "folder": "chivo",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Chivo Medium Regular",
+          "source": "https://fonts.gstatic.com/s/chivo/v21/va9b4kzIxd1KFppkaRKvDRPJVDf_vB_enmrW.ttf",
+          "sha256": "18a8f2a5decbfa1854673f25674205266e1893df56e80b31fbc310d07b58f36f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Chivo Medium Bold",
+          "source": "https://fonts.gstatic.com/s/chivo/v21/va9b4kzIxd1KFppkaRKvDRPJVDf_WxjenmrW.ttf",
+          "sha256": "251c6b09df1731fc5cf34e7ed80fcf353031a91f480d49229285501f4d0861cb"
+        }
+      ]
+    },
+    {
+      "name": "Encode Sans",
+      "folder": "encodesans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Encode Sans Condensed Thin Regular",
+          "source": "https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHjVtyF6A.ttf",
+          "sha256": "aa44b6b501edfd23a1be6c5278955d669b229a0ffab2467b442725d30fbe30c0"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Encode Sans Condensed Thin Bold",
+          "source": "https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtyF6A.ttf",
+          "sha256": "e5f2c794c1ab68669a2fa68ee82d72a54471e057888bdfaeacaaf00af3bd6838"
+        }
+      ]
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "folder": "encodesanscondensed",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Encode Sans Condensed Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/encodesanscondensed/EncodeSansCondensed-Regular.ttf",
+          "sha256": "9e47065b990807c955ec4a50db4b27d3136611d59b9de080f5a5d1bfd24faa4d"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Encode Sans Condensed Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/encodesanscondensed/EncodeSansCondensed-Bold.ttf",
+          "sha256": "2c51dcd7fce5eae583bb71e22d939366fafa31909450b309c121cfebaaab71f4"
+        }
+      ]
+    },
+    {
+      "name": "Petrona",
+      "folder": "petrona",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Petrona Regular",
+          "source": "https://fonts.gstatic.com/s/petrona/v38/mtGl4_NXL7bZo9XXq35wRLONYyOjFk6NsTRIFYo.ttf",
+          "sha256": "fedc4f6e2961919757658dfb543086cfadc182ce78667e37cd4b01bede8ffd0b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Petrona Bold",
+          "source": "https://fonts.gstatic.com/s/petrona/v38/mtGl4_NXL7bZo9XXq35wRLONYyOjFk5qtjRIFYo.ttf",
+          "sha256": "2b06fba8cb907c0ea4812ecbedaac5cf34862f0b3848b9a2ff5bd5ea063fdf39"
+        }
+      ]
+    },
+    {
+      "name": "Piazzolla",
+      "folder": "piazzolla",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Piazzolla Thin Regular",
+          "source": "https://fonts.gstatic.com/s/piazzolla/v42/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYxkL73gU.ttf",
+          "sha256": "48b315e1e2fa017ef2a1f697da9daa39b91042a3f1bc5ada1297b7e3d0dee021"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Piazzolla Thin Bold",
+          "source": "https://fonts.gstatic.com/s/piazzolla/v42/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7I_wUL73gU.ttf",
+          "sha256": "7122178c2f38d2a890ea592283cde9140f86bafe77d4b556e169b43c5eea276d"
+        }
+      ]
+    },
+    {
+      "name": "Barlow Semi Condensed",
+      "folder": "barlowsemicondensed",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Barlow Semi Condensed Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlowsemicondensed/BarlowSemiCondensed-Regular.ttf",
+          "sha256": "0412df3c443df74cddca300d5bbff4ffa0b91979021855cfb95e1eba6755c4cf"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Barlow Semi Condensed Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlowsemicondensed/BarlowSemiCondensed-Bold.ttf",
+          "sha256": "8f5d150bcb71481e956505675cfc86c1810510c92ad3a9e3b14361b63f5c70bf"
+        }
+      ]
+    },
+    {
+      "name": "BioRhyme",
+      "folder": "biorhyme",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "BioRhyme ExtraBold Regular",
+          "source": "https://fonts.gstatic.com/s/biorhyme/v21/1cXeaULHBpDMsHYW_GZNh7loEHurwOIGadI205trrbeBgQs4OjIiqi-ujw.ttf",
+          "sha256": "71114fdd6abaa49cffebdd8e05e35348a2c4fe302c3e1115a4cc6dac0f64dae1"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "BioRhyme ExtraBold Bold",
+          "source": "https://fonts.gstatic.com/s/biorhyme/v21/1cXeaULHBpDMsHYW_GZNh7loEHurwOIGadI205trrbeBgQs4OtUlqi-ujw.ttf",
+          "sha256": "0410dfc52f8a9caf2284653dd7bdcd292a6df822429e6d830142a6eb080712f8"
+        }
+      ]
+    },
+    {
+      "name": "Bricolage Grotesque",
+      "folder": "bricolagegrotesque",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Bricolage Grotesque 96pt ExtraBold Regular",
+          "source": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvRvi-MQltw.ttf",
+          "sha256": "de6fb801bc6ef6c91ce4c939dd67e3f6029720e9411e9a0d44b28991436dd833"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Bricolage Grotesque 96pt ExtraBold Bold",
+          "source": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvfzl-MQltw.ttf",
+          "sha256": "c46d57c64c6276cdadf47aad8deb9cda4354166c309a0ea7df7a2107d29446bb"
+        }
+      ]
+    },
+    {
+      "name": "Cabin",
+      "folder": "cabin",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cabin Regular",
+          "source": "https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EH7ilwg.ttf",
+          "sha256": "2520ce5320856b75627f9753a265a10fd1629f1d21a14eefd271255930217d0f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Cabin Bold",
+          "source": "https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDH7ilwg.ttf",
+          "sha256": "9fa584641ed56d66b71e1966c29ee08704c3f4520d62b15fa20b98e58d9d7607"
+        }
+      ]
+    },
+    {
+      "name": "Cabin Condensed",
+      "folder": "cabincondensed",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cabin Condensed Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cabincondensed/CabinCondensed-Regular.ttf",
+          "sha256": "0f2a35d9a11f4ac85b1ed14aa1a0f8d32dc8c23f9c29e787d3412fe5bb0cb744"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Cabin Condensed Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cabincondensed/CabinCondensed-Bold.ttf",
+          "sha256": "4746be8e4169eff0e951e343f2f5fa6a8924b0e814887401b4f57526f1c87372"
+        }
+      ]
+    },
+    {
+      "name": "Istok Web",
+      "folder": "istokweb",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Istok Web Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/istokweb/IstokWeb-Regular.ttf",
+          "sha256": "a29572b795623af08fbd29058a2ad91150af8b82fae45fc830351485aed8c521"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Istok Web Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/istokweb/IstokWeb-Bold.ttf",
+          "sha256": "4771cb1eec2bbccffe2bfb74ee7942bc34e71a6dfe325ea714c75d769c382f20"
+        }
+      ]
+    },
+    {
+      "name": "Andika",
+      "folder": "andika",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Andika",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/andika/Andika-Regular.ttf",
+          "sha256": "658f150ce7a82fda8488911577a7ed29f4b39051d6da9bfe85d5baeef6e25266"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Andika Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/andika/Andika-Bold.ttf",
+          "sha256": "5d953a30e8726df9155aef9fbff4f801e4916235cb0f75b8141d46700117880d"
+        }
+      ]
+    },
+    {
+      "name": "Candal",
+      "folder": "candal",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Candal",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/candal/Candal.ttf",
+          "sha256": "7a134a135d07c1530f95923c1581ccdfffbfc5a115dedc4a355e4d902c608396"
+        }
+      ]
+    },
+    {
+      "name": "Cantarell",
+      "folder": "cantarell",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cantarell Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cantarell/Cantarell-Regular.ttf",
+          "sha256": "90af993b00c7af75e92246ea88a4386edc52cb44fa43e991cbcd7510fd444075"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Cantarell Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cantarell/Cantarell-Bold.ttf",
+          "sha256": "29e091573909060c956520550f1833e7de2578e0cccc9dcddad832fea028a132"
+        }
+      ]
+    },
+    {
+      "name": "Cardo",
+      "folder": "cardo",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cardo",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cardo/Cardo-Regular.ttf",
+          "sha256": "b49f88171c403b7348d0bb923b531bbd1dd9e649ffcd6c43be1567d628390854"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Cardo Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/cardo/Cardo-Bold.ttf",
+          "sha256": "876a4dc5391ed8b21221d30ea57b6947956804f215a4cf6ed139eb5102ffd63f"
+        }
+      ]
+    },
+    {
+      "name": "Cinzel",
+      "folder": "cinzel",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Cinzel Regular",
+          "source": "https://fonts.gstatic.com/s/cinzel/v26/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfYPlCA.ttf",
+          "sha256": "00fe8435cbaa76a4045abf1a0c7529699acbf066924622cc142ce6aae75a4fa5"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Cinzel Bold",
+          "source": "https://fonts.gstatic.com/s/cinzel/v26/8vIU7ww63mVu7gtR-kwKxNvkNOjw-jHgfYPlCA.ttf",
+          "sha256": "a69dc5c4e3566ad8f5ebfa14a205cf60c6158ec8dbb3d48812f56db4d71adee6"
+        }
+      ]
+    },
+    {
+      "name": "Coda",
+      "folder": "coda",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Coda Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/coda/Coda-Regular.ttf",
+          "sha256": "0bfd13b4a01f8242ed1f1419a592b38889e67a9dbecf5ee36876067c9b756c10"
+        },
+        {
+          "file": "800.ttf.gz",
+          "weight": 800,
+          "ass_name": "Coda ExtraBold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/coda/Coda-ExtraBold.ttf",
+          "sha256": "0cf055af4e9a34817c3c6a8d624cae6003bfb9cab5aa0f70525d948ad0a6904f"
+        }
+      ]
+    },
+    {
+      "name": "Commissioner",
+      "folder": "commissioner",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Commissioner Thin Regular",
+          "source": "https://fonts.gstatic.com/s/commissioner/v24/tDaH2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8meZm0rk4eF-ZugTMNdKP6xEg.ttf",
+          "sha256": "1d63f9a4156dcb9a4800c46b1734a8a5401509224cd5de95748fbd65430c5d80"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Commissioner Thin Bold",
+          "source": "https://fonts.gstatic.com/s/commissioner/v24/tDaH2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8meZm0rk4eF-ZugTCRaKP6xEg.ttf",
+          "sha256": "3c30a2a0ee1a0e6a8e08e20d8888139f3035a41431ebd3185595a0ee415fa3b3"
+        }
+      ]
+    },
+    {
+      "name": "Courgette",
+      "folder": "courgette",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Courgette Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/courgette/Courgette-Regular.ttf",
+          "sha256": "cd144ae6d87684748f3ab6777ea2c1d43fde172cac0996bf82477600556f0b21"
+        }
+      ]
+    },
+    {
+      "name": "DM Serif Display",
+      "folder": "dmserifdisplay",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "DM Serif Display Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
+          "sha256": "bd632032d75c6e4f9a98f2e9f050ed61c9b780893a1d45181120f597507f8167"
+        }
+      ]
+    },
+    {
+      "name": "DM Serif Text",
+      "folder": "dmseriftext",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "DM Serif Text Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/dmseriftext/DMSerifText-Regular.ttf",
+          "sha256": "04d05f9c3af0842d1f57fee6424c4ddb18a870c113133509add633a712d79efa"
+        }
+      ]
+    },
+    {
+      "name": "Dosis",
+      "folder": "dosis",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Dosis Regular",
+          "source": "https://fonts.gstatic.com/s/dosis/v34/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml1RMB.ttf",
+          "sha256": "534fab0527a4f59241a1cb802536295ed633cdde970d7f7ce3483478fa780f8d"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Dosis Bold",
+          "source": "https://fonts.gstatic.com/s/dosis/v34/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ0LQl1RMB.ttf",
+          "sha256": "ecf9f24dedc5bf605f435ebbfc429cca379cd6ca54de1fea759bcf7c557b8a4f"
+        }
+      ]
+    },
+    {
+      "name": "Exo 2",
+      "folder": "exo2",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Exo 2 Regular",
+          "source": "https://fonts.gstatic.com/s/exo2/v26/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKsN9C6.ttf",
+          "sha256": "aa135c78f249cf16772a74615c71c8bf352f2ac1339137b888fb518a70acf7ed"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Exo 2 Bold",
+          "source": "https://fonts.gstatic.com/s/exo2/v26/7cH1v4okm5zmbvwkAx_sfcEuiD8jWfWsN9C6.ttf",
+          "sha256": "da8a322bdfffab5adb558ca75c95ddcee3cc5d4a316d65f08b714ac66c3c5ddb"
+        }
+      ]
+    },
+    {
+      "name": "Gelasio",
+      "folder": "gelasio",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Gelasio Regular",
+          "source": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilxcl8zQ.ttf",
+          "sha256": "2e399455178c921df1beabda8d89a7b4675885503339454a842e3ba10591ce3d"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Gelasio Bold",
+          "source": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkBcl8zQ.ttf",
+          "sha256": "020ac8e7c0ee8fb74583ec3aca6acdba4d6127bc439ab93080058e2d1ba80fd8"
+        }
+      ]
+    },
+    {
+      "name": "Geologica",
+      "folder": "geologica",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Geologica Thin Roman Regular",
+          "source": "https://fonts.gstatic.com/s/geologica/v5/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqDx_rc-oSBQ.ttf",
+          "sha256": "278e982437df8a246d748a70556bf1394ab5d5e53ff4c863c74b8942448e4d4c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Geologica Thin Roman Bold",
+          "source": "https://fonts.gstatic.com/s/geologica/v5/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD_jsc-oSBQ.ttf",
+          "sha256": "b8fdb12fb2d68dbd07d73ff92e8e47222e40dd1b3181985697581d0ec42b4708"
+        }
+      ]
+    },
+    {
+      "name": "Grenze",
+      "folder": "grenze",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Grenze Regular",
+          "source": "https://fonts.gstatic.com/s/grenze/v18/O4ZOFGb7hR12Bxqt9ErXQpCpkHScyovU6HniDA.ttf",
+          "sha256": "86bd1debccca72ba91d3185e4826a4e31504ca1459b1a448aaccfb066e97478e"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Grenze Bold",
+          "source": "https://fonts.gstatic.com/s/grenze/v18/O4ZOFGb7hR12Bxqt9ErXQpCpkHScymzT6HniDA.ttf",
+          "sha256": "7032016e398f6b4df58fddcc38f730a4c6bccea57e0dbe8004f4c625e1bc1569"
+        }
+      ]
+    },
+    {
+      "name": "Heebo",
+      "folder": "heebo",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Heebo Regular",
+          "source": "https://fonts.gstatic.com/s/heebo/v28/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSyse0mj.ttf",
+          "sha256": "758344db92baf5ef81a7543abf2fb9cafb7855532b2edc98c74be610cad1a5ae"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Heebo Bold",
+          "source": "https://fonts.gstatic.com/s/heebo/v28/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiuse0mj.ttf",
+          "sha256": "ddf1fb2099fa7c89e46edba7e2230e1b4d22855d2a74a2a46236cf752b61fba9"
+        }
+      ]
+    },
+    {
+      "name": "Hind",
+      "folder": "hind",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Hind Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/hind/Hind-Regular.ttf",
+          "sha256": "638e2fa0d2b62db66459fb6981143796f5a1325234aebc662c07e0315c3a08a7"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Hind Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/hind/Hind-Bold.ttf",
+          "sha256": "6e5c6ebc807a92c39a386648dc57196f4f70260a352fece00f3ce6ab54a89b00"
+        }
+      ]
+    },
+    {
+      "name": "Instrument Sans",
+      "folder": "instrumentsans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Instrument Sans Regular",
+          "source": "https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-Tf8kyk.ttf",
+          "sha256": "e4a924e74ed1f58f4a2170609db5ea70a0a1a9ccb397a7850a9e4c0973da575a"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Instrument Sans Bold",
+          "source": "https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_jf8kyk.ttf",
+          "sha256": "0adcc4867de3d3ff2a047acc2b55da0f2baa661abbeffde59ca7e1dd4213bbc3"
+        }
+      ]
+    },
+    {
+      "name": "Josefin Sans",
+      "folder": "josefinsans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Josefin Sans Thin Regular",
+          "source": "https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMhhKg.ttf",
+          "sha256": "6d8f04c0c6a076459eb57d9da2cd2eb0a0ce481468f0ad52d427c67acf18a91b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Josefin Sans Thin Bold",
+          "source": "https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMhhKg.ttf",
+          "sha256": "23583b619be56614e607128bf8f4434a320583f41dedb93eb63fef228412010c"
+        }
+      ]
+    },
+    {
+      "name": "Jost",
+      "folder": "jost",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Jost Regular",
+          "source": "https://fonts.gstatic.com/s/jost/v20/92zPtBhPNqw79Ij1E865zBUv7myjJTVPNI0.ttf",
+          "sha256": "a9548f3efa50c9e763b0279149525eee527a04dbbb19c3d837ec3fa08a193b4c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Jost Bold",
+          "source": "https://fonts.gstatic.com/s/jost/v20/92zPtBhPNqw79Ij1E865zBUv7mxEIjVPNI0.ttf",
+          "sha256": "8a6b6c5686b0b0b056ca6bf60120e1211cb1460b55981a9f4d971c9a5ada7e13"
+        }
+      ]
+    },
+    {
+      "name": "K2D",
+      "folder": "k2d",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "K2D Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/k2d/K2D-Regular.ttf",
+          "sha256": "e94cae8aa6a401d9b327313cee393a7ca8a3c76a56306ed3c5878412e29acc97"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "K2D Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/k2d/K2D-Bold.ttf",
+          "sha256": "acf8eb20fa67f32d286afebe3faada41ad9b0fff5ee1f8ce0dcf7deb236aefc7"
+        }
+      ]
+    },
+    {
+      "name": "Kanit",
+      "folder": "kanit",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Kanit Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kanit/Kanit-Regular.ttf",
+          "sha256": "60e616065c695a28836e2261b572c5a3efcb9f0ffdda7698dadac36b89321f9c"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Kanit Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kanit/Kanit-Bold.ttf",
+          "sha256": "3f3062c60607a1f43e4a228921c589a638c8702f7e142d6add8b7e66f289932d"
+        }
+      ]
+    },
+    {
+      "name": "Krona One",
+      "folder": "kronaone",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Krona One",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/kronaone/KronaOne-Regular.ttf",
+          "sha256": "a9c93ed7e2370d49579bfa11f75c14e412b429daf7d1db1b26ab6400e6b9e36c"
+        }
+      ]
+    },
+    {
+      "name": "Libre Franklin",
+      "folder": "librefranklin",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Libre Franklin Thin Regular",
+          "source": "https://fonts.gstatic.com/s/librefranklin/v20/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkDtDM.ttf",
+          "sha256": "c0b6910e2d38a0f496edcfb41a7e92d0d71ebda1e00902b94d5d944849d60451"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Libre Franklin Thin Bold",
+          "source": "https://fonts.gstatic.com/s/librefranklin/v20/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKkDtDM.ttf",
+          "sha256": "20f671ed48058c4ac2549167095676446000ccaed8b3482faa5928bdc9d71ef8"
+        }
+      ]
+    },
+    {
+      "name": "Literata",
+      "folder": "literata",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Literata Regular",
+          "source": "https://fonts.gstatic.com/s/literata/v40/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_J__WSQ.ttf",
+          "sha256": "f2aace31e49f504073460e5f669e2cf42953409015a0566c913b01c8c5133c20"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Literata Bold",
+          "source": "https://fonts.gstatic.com/s/literata/v40/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbPa4J__WSQ.ttf",
+          "sha256": "a7603bb5bd8714032b5021c35fe3ed48e83664b6ce50a329e59c982d11637024"
+        }
+      ]
+    },
+    {
+      "name": "Lobster",
+      "folder": "lobster",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Lobster Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lobster/Lobster-Regular.ttf",
+          "sha256": "4d6c6a7aca07f01baa82505429c19495dacdd0a31aa9ddce753ff843f73834b9"
+        }
+      ]
+    },
+    {
+      "name": "Lobster Two",
+      "folder": "lobstertwo",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Lobster Two",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lobstertwo/LobsterTwo-Regular.ttf",
+          "sha256": "6d55f781917d879429bb810ed8b98a81293695427d2462a162529710d3026d03"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Lobster Two Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/lobstertwo/LobsterTwo-Bold.ttf",
+          "sha256": "821aa5df974f0b205f04ad8a3b89f63b28fc04f674199026689afd0d6c674f9b"
+        }
+      ]
+    },
+    {
+      "name": "Martel",
+      "folder": "martel",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Martel",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/martel/Martel-Regular.ttf",
+          "sha256": "81578d03333b2a1432c4ff342d140481bb539789af021c3cd0216a23f101d744"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Martel Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/martel/Martel-Bold.ttf",
+          "sha256": "d07e4888e165c7068924eb658b813a00f988e87be5b3a22210234a08420ceaeb"
+        }
+      ]
+    },
+    {
+      "name": "Mulish",
+      "folder": "mulish",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Mulish ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8amvHg.ttf",
+          "sha256": "4e04f2f1efb32f02524fb66d23d795968690505ac9bba60616f714eeb147fcb9"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Mulish ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRW8amvHg.ttf",
+          "sha256": "42c9c0b17ab3f35bf55548dc73b8d40d4f6656b8c05d834d4b3220aa94660f5f"
+        }
+      ]
+    },
+    {
+      "name": "Newsreader",
+      "folder": "newsreader",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Newsreader 16pt 16pt Regular",
+          "source": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438weI_wBeZA.ttf",
+          "sha256": "43e64b65f6d6420ba895c4497830bbd95c04a63658d258113a08077cdee215eb"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Newsreader 16pt 16pt Bold",
+          "source": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438wn4jwBeZA.ttf",
+          "sha256": "b3617d29a13e1b9f575ec0896bc3117ef3e1e114e2887fcc8ee4d261b22feaa7"
+        }
+      ]
+    },
+    {
+      "name": "Noto Sans",
+      "folder": "notosans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Noto Sans Regular",
+          "source": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A-9U6Vc.ttf",
+          "sha256": "30511bfa6c11381356556c84f6e66c42ab34cccdf743c7b0a9263666111335b5"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Noto Sans Bold",
+          "source": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBO9U6Vc.ttf",
+          "sha256": "d4abfac05e6d53728c35eda6ab624062a974bc4854c8607a077a31f910153c7a"
+        }
+      ]
+    },
+    {
+      "name": "Noto Serif",
+      "folder": "notoserif",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Noto Serif Regular",
+          "source": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyccP.ttf",
+          "sha256": "a1ae50f1d5c3e8d0d7cb078561f789716f7ced65371aadbbe933c6486ff58616"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Noto Serif Bold",
+          "source": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1eTyccP.ttf",
+          "sha256": "840a01741321f844a1b5c11323538ba676695098f4798fc01f048c7c2deb6193"
+        }
+      ]
+    },
+    {
+      "name": "Passion One",
+      "folder": "passionone",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Passion One Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/passionone/PassionOne-Regular.ttf",
+          "sha256": "48d8421df7a9c6c5d67bf098953f09247ee42fc899b9e23e9fcf0570229b66b5"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Passion One Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/passionone/PassionOne-Bold.ttf",
+          "sha256": "cc22f6457d3a0cdf7408e415ce0e575c7d28ebe1373f745b56310dca40458db1"
+        }
+      ]
+    },
+    {
+      "name": "Prata",
+      "folder": "prata",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Prata Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/prata/Prata-Regular.ttf",
+          "sha256": "aef5f95b17a3c37b508c82bf21e853984794bb872b299ece34b67d13e4d1c863"
+        }
+      ]
+    },
+    {
+      "name": "Racing Sans One",
+      "folder": "racingsansone",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Racing Sans One",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/racingsansone/RacingSansOne-Regular.ttf",
+          "sha256": "f425140d01dc395c7836ca783f00de58d0cfaee4d7aace6f7d5a5752105013db"
+        }
+      ]
+    },
+    {
+      "name": "Recursive",
+      "folder": "recursive",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Recursive Sans Linear Light Regular",
+          "source": "https://fonts.gstatic.com/s/recursive/v44/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadCCk311tQg.ttf",
+          "sha256": "11adfd03d2e854797599eceba23500adcc582321c6e5d60d6b0d3ae2b730f117"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Recursive Sans Linear Light Bold",
+          "source": "https://fonts.gstatic.com/s/recursive/v44/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadBllH11tQg.ttf",
+          "sha256": "b2013b22ad22dc690da97ca12f1a2b44464b2d911d485b7a4f354b59e0b8cbc1"
+        }
+      ]
+    },
+    {
+      "name": "Ruda",
+      "folder": "ruda",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Ruda Regular",
+          "source": "https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsh_30qw.ttf",
+          "sha256": "3b266600dda07a7f66e37ab41abe81f28b7114e7632c59197460e2242ad8e9c2"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Ruda Bold",
+          "source": "https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitR_30qw.ttf",
+          "sha256": "87ebb79e6edb9eb1f90a2373eedb1f5ab0446481d9bbf401d90a6a734415911f"
+        }
+      ]
+    },
+    {
+      "name": "Sarabun",
+      "folder": "sarabun",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Sarabun Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/sarabun/Sarabun-Regular.ttf",
+          "sha256": "2fc605faa1a65b29e45fadd7d20ca31a122ec3bd53e9053f50cdab577b0f6a24"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Sarabun Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/sarabun/Sarabun-Bold.ttf",
+          "sha256": "a3a943e02c371721f8af9e833344c6390bf133fb076c3c2a5bdd08b7fe3a901f"
+        }
+      ]
+    },
+    {
+      "name": "Sofia Sans",
+      "folder": "sofiasans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Sofia Sans Regular",
+          "source": "https://fonts.gstatic.com/s/sofiasans/v20/Yq6E-LCVXSLy9uPBwlAThu1SY8Cx8rlT69B6sJ3kpPY.ttf",
+          "sha256": "17db1d39286a14a444076d073e1401cea79b57e55e263743fef9409e29902fa9"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Sofia Sans Bold",
+          "source": "https://fonts.gstatic.com/s/sofiasans/v20/Yq6E-LCVXSLy9uPBwlAThu1SY8Cx8rlT69Cdt53kpPY.ttf",
+          "sha256": "2595fa2f3d81e74c65fbea864921345a5d888d2fc6d3458c324ee43f3596ab14"
+        }
+      ]
+    },
+    {
+      "name": "Tenor Sans",
+      "folder": "tenorsans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Tenor Sans",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/tenorsans/TenorSans-Regular.ttf",
+          "sha256": "1f80edb1e455cad8f305b147da23e31d4017c01aa0cf5dda6c952077a83074f6"
+        }
+      ]
+    },
+    {
+      "name": "Unbounded",
+      "folder": "unbounded",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Unbounded Regular",
+          "source": "https://fonts.gstatic.com/s/unbounded/v12/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6xjx44TNhA.ttf",
+          "sha256": "ec1e12aa64c9b643e8aa56348ccc119fb430b595273252d847a50b61f90eae76"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Unbounded Bold",
+          "source": "https://fonts.gstatic.com/s/unbounded/v12/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6__244TNhA.ttf",
+          "sha256": "891988b06c8ce9be8ee4c298175acb8f37ef35a18f6ae6da6835da21db894627"
+        }
+      ]
+    },
+    {
+      "name": "Varela Round",
+      "folder": "varelaround",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Varela Round Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/varelaround/VarelaRound-Regular.ttf",
+          "sha256": "7ff174d4b890cf3b7faf20b97ae1c58b63eaf3c87bca59c651a373fde4a829dd"
+        }
+      ]
+    },
+    {
+      "name": "Ysabeau",
+      "folder": "ysabeau",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Ysabeau Regular",
+          "source": "https://fonts.gstatic.com/s/ysabeau/v5/kmKiZqEiBAXLcnuMvjZNI_5FGeJet7OWCAY5KcU.ttf",
+          "sha256": "84d7aeb39d853bd1d8ed8605af67522ff05a46c185bebe1cc31cfc78e41a8c4b"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Ysabeau Bold",
+          "source": "https://fonts.gstatic.com/s/ysabeau/v5/kmKiZqEiBAXLcnuMvjZNI_5FGeJet7NxDwY5KcU.ttf",
+          "sha256": "54734305c10ff0d400a4144accb006117e6f050f1b6a2f5a1b30290a63389859"
+        }
+      ]
+    },
+    {
+      "name": "Zilla Slab",
+      "folder": "zillaslab",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Zilla Slab",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zillaslab/ZillaSlab-Regular.ttf",
+          "sha256": "9d137c2089b7b00340ac44d7b2e76b2b8a19d5e6c47c52c4017cafd2a6bf7d94"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Zilla Slab Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/zillaslab/ZillaSlab-Bold.ttf",
+          "sha256": "ae773ed6ed4a3360c007bb52756c8645e231f588b5d8cf145a4ffcb706d73d5f"
+        }
+      ]
+    },
+    {
+      "name": "Fraunces",
+      "folder": "fraunces",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Fraunces Regular",
+          "source": "https://fonts.gstatic.com/s/fraunces/v38/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIctxuTB_7W.ttf",
+          "sha256": "a945d7c228c4113101df0369a412156f4ecdb4061e8ae8039044ff13fbf426c9"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Fraunces Bold",
+          "source": "https://fonts.gstatic.com/s/fraunces/v38/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIcUByTB_7W.ttf",
+          "sha256": "fa4f74f577cfe4360ba2ac8fdfadce0c75da41a1977fed55ac83e7ed551a609a"
+        }
+      ]
+    },
+    {
+      "name": "Playball",
+      "folder": "playball",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Playball Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/playball/Playball-Regular.ttf",
+          "sha256": "4a47c15f52baa57e162ee0f4e9c57de521b4529a17456cece007bc7ac1b78d5e"
+        }
+      ]
+    },
+    {
+      "name": "Playpen Sans",
+      "folder": "playpensans",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Playpen Sans Regular",
+          "source": "https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhin03EQ.ttf",
+          "sha256": "28d3f6e47f4e7bfc02caa560c67bf520b328391e5d8185e6d15b7fc40fa0192f"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Playpen Sans Bold",
+          "source": "https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmin03EQ.ttf",
+          "sha256": "5cbbcc39de69a88acd47a6fc13802d459df668bfb0237016142020a9209f673d"
+        }
+      ]
+    },
+    {
+      "name": "Amaranth",
+      "folder": "amaranth",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Amaranth Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/amaranth/Amaranth-Regular.ttf",
+          "sha256": "e15547dc575aa38dbcf5cda0af44b3eab6831af900a8fc283bcd0dcdef70b461"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Amaranth Bold",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/amaranth/Amaranth-Bold.ttf",
+          "sha256": "b38eb0630d89bac503e637143d76a5d469e07f60a5efa7fbaa409a04f54a4346"
+        }
+      ]
+    },
+    {
+      "name": "Grand Hotel",
+      "folder": "grandhotel",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Grand Hotel",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/grandhotel/GrandHotel-Regular.ttf",
+          "sha256": "89aae538a6f9fb9945fd8952772310ee0829068287e96ccf49574adffac4a39d"
+        }
+      ]
+    },
+    {
+      "name": "Assistant",
+      "folder": "assistant",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Assistant ExtraLight Regular",
+          "source": "https://fonts.gstatic.com/s/assistant/v24/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGiV2g.ttf",
+          "sha256": "d66cd4ef8fb4b7e57d09cfd63b306fa0369881ce3e831c1e088f40a0727f3026"
+        },
+        {
+          "file": "700.ttf.gz",
+          "weight": 700,
+          "ass_name": "Assistant ExtraLight Bold",
+          "source": "https://fonts.gstatic.com/s/assistant/v24/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgIGiV2g.ttf",
+          "sha256": "05ff5acfa81b324be92fe8fdcd76721973ebce85670cdb9d15e29fa7e24d671b"
+        }
+      ]
+    },
+    {
+      "name": "Belleza",
+      "folder": "belleza",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Belleza Regular",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/belleza/Belleza-Regular.ttf",
+          "sha256": "c55309f116cf7f86fa955ae8a596cd4c164db7efe98ec8927f6bab894bdeb4eb"
+        }
+      ]
+    },
+    {
+      "name": "Ledger",
+      "folder": "ledger",
+      "group": "es",
+      "faces": [
+        {
+          "file": "400.ttf.gz",
+          "weight": 400,
+          "ass_name": "Ledger",
+          "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/ledger/Ledger-Regular.ttf",
+          "sha256": "605e22137c8c95ba457e3c2e77a67c42ceaf70c99300a6079ce813899dfdce17"
+        }
+      ]
+    }
+  ]
+}

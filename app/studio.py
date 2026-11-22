@@ -10,6 +10,7 @@ import secrets
 import sys
 import threading
 import traceback
+from ctypes.wintypes import RECT
 from http.cookies import SimpleCookie
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -18,8 +19,10 @@ from urllib.parse import parse_qs, unquote, urlsplit
 import backend as be
 from app_identity import APP_NAME, WINDOWS_APP_ID, engine_display_text, has_webview2
 from audio_waveforms import AudioWaveforms
+from media_previews import poster_frame
 from studio_session import StudioSession
 from studio_tools import IMAGE_TYPES
+from window_chrome import DesktopChrome
 
 
 DIST = be.APP / 'studio_web'
@@ -37,6 +40,7 @@ FILE_TYPES = {
     'json': ('JSON 文件 (*.json)',),
     'yaml': ('YAML 文件 (*.yaml;*.yml)',),
     'executable': ('Python 程序 (*.exe)',),
+    'agent_program': ('程序与入口 (*.exe;*.cmd;*.bat;*.js;*.mjs;*.cjs)',),
     'srt_save': ('SRT 字幕 (*.srt)',),
     'ass_save': ('ASS 字幕 (*.ass)',),
     'json_save': ('JSON 文件 (*.json)',),
@@ -53,12 +57,14 @@ class StudioServer(ThreadingHTTPServer):
         self.waveforms = AudioWaveforms()
         super().__init__(('127.0.0.1', 0), StudioHandler)
         self.session = session
+        self.chrome = None
         self.dist = Path(dist).resolve()
         self.host = f'127.0.0.1:{self.server_address[1]}'
         self.origin = 'http://' + self.host
         self.token = secrets.token_urlsafe(32)
         self.cookie_name = 'studio_' + str(self.server_address[1])
         self.entry = self.origin + '/?open=' + self.token
+        self.session.agents.tool_url = self.origin + '/api/agent-tool'
 
     def server_close(self):
         self.waveforms.close()
@@ -125,6 +131,10 @@ class StudioHandler(BaseHTTPRequestHandler):
         try:
             if route.path == '/api/state':
                 self.reply(200, self.server.session.snapshot())
+            elif route.path.startswith('/api/thumbnail/'):
+                source = self.server.session.get_asset(route.path.rsplit('/', 1)[1])
+                image = poster_frame(source) if source and source.suffix.lower() in be.VIDEO_EXTENSIONS else None
+                self.serve_file(image)
             elif route.path.startswith('/api/waveform/'):
                 path = self.server.session.waveform_source(route.path.rsplit('/', 1)[-1])
                 if not path:
@@ -150,24 +160,38 @@ class StudioHandler(BaseHTTPRequestHandler):
             pass
 
     def do_POST(self):
-        if (self.headers.get('Host') != self.server.host or self.headers.get('Origin') != self.server.origin
-                or not self.authenticated()):
+        route = urlsplit(self.path)
+        agent_tool = route.path == '/api/agent-tool'
+        if self.headers.get('Host') != self.server.host or (not agent_tool and (
+                self.headers.get('Origin') != self.server.origin or not self.authenticated())):
             self.close_connection = True
             self.reply(403, {'error': '请从工作台入口重新打开。'})
             return
-        route = urlsplit(self.path)
         try:
             length = int(self.headers.get('Content-Length', '0'))
-            if route.path == '/api/import' and self.headers.get_content_type() == 'application/octet-stream':
+            if agent_tool and self.headers.get_content_type() == 'application/json' and 0 < length <= 64 * 1024:
+                self.connection.settimeout(20)
+                data = json.loads(self.rfile.read(length))
+                key = self.headers.get('Authorization', '').removeprefix('Bearer ')
+                self.reply(200, {'result': self.server.session.agent_tool(key, data)})
+            elif route.path == '/api/import' and self.headers.get_content_type() == 'application/octet-stream':
                 self.connection.settimeout(60)
-                key = parse_qs(route.query).get('shot', [None])[0]
-                self.server.session.import_video(unquote(self.headers.get('X-Filename', '')), length, self.rfile, key)
-                self.reply(200, {'result': None})
+                query = parse_qs(route.query)
+                footage = query.get('agent_footage') == ['1']
+                result = self.server.session.import_video(
+                    unquote(self.headers.get('X-Filename', '')), length, self.rfile, query.get('shot', [None])[0],
+                    clip=query.get('clip', [None])[0], scope=query.get('scope' if footage else 'project', [None])[0],
+                    editing=query.get('edit') == ['1'], agent_footage=footage)
+                self.reply(200, {'result': result})
             elif route.path == '/api/action' and self.headers.get_content_type() == 'application/json' and 0 < length <= 256 * 1024:
                 data = json.loads(self.rfile.read(length))
                 if not isinstance(data, dict) or not isinstance(data.get('action'), str):
                     raise ValueError('请求格式无效。')
-                result = self.server.session.action(data['action'], data)
+                if data['action'] == 'window_control':
+                    chrome = self.server.chrome
+                    result = chrome.control(data.get('operation')) if chrome else None
+                else:
+                    result = self.server.session.action(data['action'], data)
                 self.reply(200, {'result': result})
             else:
                 raise ValueError('这个操作不可用。')
@@ -176,7 +200,8 @@ class StudioHandler(BaseHTTPRequestHandler):
         except Exception as exc:
             self.close_connection = True
             try:
-                self.reply(400, {'error': engine_display_text(str(exc)) or '操作失败，请重试。'})
+                code = 403 if agent_tool and isinstance(exc, PermissionError) else 400
+                self.reply(code, {'error': engine_display_text(str(exc)) or '操作失败，请重试。'})
             except (BrokenPipeError, ConnectionResetError):
                 pass
 
@@ -193,8 +218,10 @@ class StudioHandler(BaseHTTPRequestHandler):
             total = os.fstat(stream.fileno()).st_size
             start, end = 0, total - 1
             status = 200
-            headers = {'Accept-Ranges': 'bytes'}
-            requested = self.headers.get('Range')
+            compressed_font = (path.is_relative_to(self.server.dist / 'assets/caption-fonts')
+                               and path.name.endswith(('.ttf.gz', '.otf.gz')))
+            headers = {'Content-Encoding': 'gzip'} if compressed_font else {'Accept-Ranges': 'bytes'}
+            requested = None if compressed_font else self.headers.get('Range')
             if requested:
                 match = re.fullmatch(r'bytes=(\d*)-(\d*)', requested)
                 if match:
@@ -211,9 +238,11 @@ class StudioHandler(BaseHTTPRequestHandler):
                     return
                 headers['Content-Range'] = f'bytes {start}-{end}/{total}'
                 status = 206
+            suffix = Path(path.stem).suffix if compressed_font else path.suffix.lower()
             kind = {'.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8',
-                    '.html': 'text/html; charset=utf-8', '.m4v': 'video/mp4', '.woff2': 'font/woff2'}.get(
-                        path.suffix.lower(), mimetypes.guess_type(path.name)[0] or 'application/octet-stream')
+                    '.html': 'text/html; charset=utf-8', '.m4v': 'video/mp4', '.woff2': 'font/woff2',
+                    '.ttf': 'font/ttf', '.otf': 'font/otf'}.get(
+                        suffix, mimetypes.guess_type(path.name)[0] or 'application/octet-stream')
             length = end - start + 1
             self.headers_for(status, kind, length, headers=headers)
             if self.command != 'HEAD' and length:
@@ -234,6 +263,40 @@ def choose_file(webview, window, kind, directory, name):
     return value[0] if isinstance(value, (tuple, list)) and value else value
 
 
+def startup_window_size():
+    user32 = ctypes.windll.user32
+    dpi_context = getattr(user32, 'SetThreadDpiAwarenessContext', None)
+    previous = None
+    if dpi_context is not None:
+        dpi_context.argtypes = [ctypes.c_void_p]
+        dpi_context.restype = ctypes.c_void_p
+        previous = dpi_context(ctypes.c_void_p(-4))
+    try:
+        area = RECT()
+        available = ((area.right - area.left, area.bottom - area.top)
+                     if user32.SystemParametersInfoW(0x0030, 0, ctypes.byref(area), 0)
+                     else (user32.GetSystemMetrics(0), user32.GetSystemMetrics(1) - 48))
+        scale = user32.GetDpiForSystem() / 96 if previous else 1
+    finally:
+        if previous:
+            dpi_context(previous)
+    # WebView expects logical pixels, and the work area already excludes the taskbar.
+    return min(1800, round(available[0] / scale) - 28), min(1100, round(available[1] / scale) - 24)
+
+
+def startup_background(mode):
+    if mode == 'system':
+        import winreg
+
+        try:
+            with winreg.OpenKey(winreg.HKEY_CURRENT_USER,
+                                r'Software\Microsoft\Windows\CurrentVersion\Themes\Personalize') as key:
+                mode = 'light' if winreg.QueryValueEx(key, 'AppsUseLightTheme')[0] else 'dark'
+        except OSError:
+            pass
+    return '#ffffff' if mode == 'light' else '#121417'
+
+
 def main():
     ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(WINDOWS_APP_ID)
     if not (DIST / 'index.html').is_file() or not has_webview2():
@@ -248,10 +311,14 @@ def main():
             worker = threading.Thread(target=server.serve_forever, name='studio-http', daemon=True)
             worker.start()
             try:
-                screen = ctypes.windll.user32.GetSystemMetrics
-                window = webview.create_window(APP_NAME, server.entry, width=min(1440, screen(0) - 40),
-                                               height=min(910, screen(1) - 65), min_size=(960, 650),
-                                               background_color='#121417', text_select=True)
+                width, height = startup_window_size()
+                chrome = DesktopChrome(server.entry)
+                server.chrome = chrome
+                window = webview.create_window(APP_NAME, width=width, height=height,
+                                               min_size=(min(960, width), min(650, height)),
+                                               background_color=startup_background(session.config.get('color_mode')),
+                                               frameless=True, easy_drag=False, text_select=True)
+                window.events.before_show += chrome.attach
                 session.picker = lambda *args: choose_file(webview, window, *args)
                 window.events.closing += lambda: not session.job or window.create_confirmation_dialog(
                     APP_NAME, '当前任务仍在运行。停止任务并关闭工作台？')

@@ -31,3 +31,17 @@ py -3.12 -m venv .venv
 组件出处和下载来源见 [第三方组件说明](../THIRD_PARTY_NOTICES.txt)。音轨分离模型缺失时，分析引擎可尝试首次下载。链接拆解需要网络。基础分析在所需依赖和模型就绪后可本地运行。多模态分析、自动生成需要在「设置」中配置自己的服务。
 
 设置存放在 `data/`。新拆解默认存放在 `projects/`，可在「设置」更改。
+
+## 构建完整离线安装包
+
+先构建前端，再用 Inno Setup 7 x64 编译安装包。Windows 自带的 .NET Framework 编译器用于生成启动程序。
+
+```powershell
+npm ci
+npm run build
+py -3.12 .\packaging\build_release.py --components "C:\ShotDecode-组件" --compiler "C:\Inno Setup 7\ISCC.exe" --output "C:\ShotDecode-构建"
+```
+
+`--components` 指向准备好的 Windows x64 组件目录。可从上一版完整离线包试装得到运行时，再补齐当前版本要求的组件。目录需包含 `runtime/`、`ffmpeg/`、`prerequisites/`、`models/`、`asr-model/`、`asr-model-ja/`、`asr-packages/`、`translation/` 和 `licenses/`。组件出处见 [第三方组件说明](../THIRD_PARTY_NOTICES.txt)。构建时会校验本地模型和微软安装程序，并随 FFmpeg 保留许可证及对应源码。
+
+`--output` 使用新的目录。编译好的程序和数据分卷位于其 `release/` 目录。将这些文件放在一起运行安装程序。

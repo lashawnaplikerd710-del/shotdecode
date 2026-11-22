@@ -220,9 +220,10 @@ def cmd_capsule_draft(args) -> int:
 def cmd_assemble(args) -> int:
     from .remake import assemble
 
-    # Modified for the workbench to expose optional comparison rendering.
+    # Modified for the workbench to expose comparison options.
     print(assemble(Path(args.breakdown), Path(args.results), Path(args.out) if args.out else None,
-                   overlays=args.overlays, compare=not args.no_compare))
+                   overlays=args.overlays, compare=not args.no_compare, manual_subtitles=args.manual_subtitles,
+                   manual_fonts=args.manual_fonts, compare_audio=not args.no_compare_audio))
     return 0
 
 
@@ -481,6 +482,9 @@ def main(argv: list[str] | None = None) -> int:
     a.add_argument("results", help="remake-run 输出的 results.json（或自己写的同格式文件）")
     a.add_argument("-o", "--out")
     a.add_argument("--no-compare", action="store_true", help="跳过对比视频")
+    a.add_argument("--no-compare-audio", action="store_true", help="对比视频使用静音")
+    a.add_argument("--manual-subtitles", type=Path, help="叠加时间线的手动字幕（ASS 或 WebVTT）")
+    a.add_argument("--manual-fonts", type=Path, help="为手动字幕加载此目录中的字体文件")
     a.add_argument("--overlays", action="store_true",
                    help="把测得的字幕 / 花字 / 标题按原样式叠回换掉的镜头（保留原片的镜头本来就有）；贴纸只列出来，要自己找素材")
     a.set_defaults(func=cmd_assemble)

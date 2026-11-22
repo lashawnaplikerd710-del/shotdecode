@@ -8,16 +8,20 @@ import os
 import queue
 import shutil
 import subprocess
+import sys
 import tempfile
 import threading
+import time
 import tkinter as tk
 import urllib.request
 import zipfile
 from contextlib import contextmanager
 from pathlib import Path
 from tkinter import messagebox, ttk
+from typing import NamedTuple
 
 from app_identity import APP_NAME, has_webview2
+from ffmpeg_location import BINARIES, ffmpeg_directory
 
 
 HOME = Path(__file__).resolve().parent.parent
@@ -28,11 +32,41 @@ PREFIX = f'ffmpeg-{VERSION}-essentials_build'
 ARCHIVE_NAME = PREFIX + '.zip'
 ARCHIVE_SIZE = 114768076
 ARCHIVE_SHA256 = '60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba'
-BINARIES = ('ffmpeg.exe', 'ffprobe.exe')
 VC_DOWNLOAD = 'https://aka.ms/vc14/vc_redist.x64.exe'
 WEBVIEW_DOWNLOAD = 'https://go.microsoft.com/fwlink/?LinkId=2124701'
 VC_INSTALLER = 'vc_redist.x64.exe'
 WEBVIEW_INSTALLER = 'MicrosoftEdgeWebView2RuntimeInstallerX64.exe'
+
+
+class Model(NamedTuple):
+    title: str
+    path: str
+    url: str
+    size: int
+    sha256: str
+
+    def ready(self):
+        path = HOME / self.path
+        return path.is_file() and path.stat().st_size == self.size
+
+
+MODELS = (
+    Model('英文和日文转写', 'asr-model-ja/model.int8.onnx',
+          'https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/'
+          '2365baeacb507f821a0c8120fcee3d484dba7a07/model.int8.onnx',
+          239233841, 'c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51'),
+    Model('中文口播转写', 'asr-model/model.int8.onnx',
+          'https://huggingface.co/csukuangfj/sherpa-onnx-paraformer-zh-small-2024-03-09/resolve/'
+          '63ddc3cd0f2810b68289a7b3876e62ef5d53d6df/model.int8.onnx',
+          81828675, '3ef6c19369b912f7caf3cef8e545c5ccd1a33d9d7ec792a46668dc41c4b229ec'),
+    Model('英文和日文翻译成中文', 'translation/Hy-MT2-1.8B-Q4_K_M.gguf',
+          'https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/'
+          'a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q4_K_M.gguf',
+          1133080448, 'dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699'),
+    Model('人声与配乐分轨', 'models/UVR-MDX-NET-Inst_HQ_3.onnx',
+          'https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_3.onnx',
+          66759214, '317554b07fe1ea5279a77f2b1520a41ea4b93432560c4ffd08792c30fddf9adc'),
+)
 
 
 class SetupCancelled(Exception):
@@ -40,7 +74,7 @@ class SetupCancelled(Exception):
 
 
 def tools_ready():
-    return all((TOOLS / name).is_file() for name in BINARIES)
+    return ffmpeg_directory(HOME) is not None
 
 
 def official_asset(filename):
@@ -52,7 +86,8 @@ def download_file(url, destination, progress, check, *, label, limit, size=0):
     progress(label, 0, size)
     digest = hashlib.sha256()
     written = 0
-    request = urllib.request.Request(url, headers={'User-Agent': 'VideoBreakdownWorkbench/1.0'})
+    updated = time.monotonic()
+    request = urllib.request.Request(url, headers={'User-Agent': 'ShotDecode/1.0'})
     with urllib.request.urlopen(request, timeout=15) as response, destination.open('wb') as target:
         length = response.headers.get('Content-Length', '')
         total = size or (int(length) if length.isdecimal() else 0)
@@ -65,7 +100,9 @@ def download_file(url, destination, progress, check, *, label, limit, size=0):
                 raise ValueError('下载文件大小超出预期。')
             digest.update(chunk)
             target.write(chunk)
-            progress(label, written, total)
+            if time.monotonic() - updated >= 0.1 or written == total:
+                progress(label, written, total)
+                updated = time.monotonic()
     if total and written != total:
         raise ValueError('下载未完成。')
     return digest.hexdigest()
@@ -74,8 +111,7 @@ def download_file(url, destination, progress, check, *, label, limit, size=0):
 def download_archive(destination, size, expected, progress, check):
     filename = destination.name
     official = official_asset(filename)
-    urls = (official, 'https://gh-proxy.com/' + official,
-            f'https://www.gyan.dev/ffmpeg/builds/packages/{filename}')
+    urls = (official, f'https://www.gyan.dev/ffmpeg/builds/packages/{filename}')
     failure = None
     for url in urls:
         try:
@@ -85,7 +121,7 @@ def download_archive(destination, size, expected, progress, check):
             raise ValueError('下载校验未通过。')
         except (OSError, ValueError, http.client.HTTPException) as exc:
             failure = exc
-    raise OSError(f'未能下载 FFmpeg {VERSION}。请检查网络，或按《使用说明》放入官方压缩包。') from failure
+    raise OSError(f'未能下载 FFmpeg {VERSION}。可从发布页下载 {filename}，放进软件安装目录后重试。') from failure
 
 
 def install_ffmpeg(progress, check=lambda: None):
@@ -98,7 +134,8 @@ def install_ffmpeg(progress, check=lambda: None):
         if local.is_file():
             progress('正在校验已下载的 FFmpeg…', 0, 0)
             with local.open('rb') as stream:
-                correct = local.stat().st_size == ARCHIVE_SIZE and hashlib.file_digest(stream, 'sha256').hexdigest() == ARCHIVE_SHA256
+                correct = (local.stat().st_size == ARCHIVE_SIZE
+                           and hashlib.file_digest(stream, 'sha256').hexdigest() == ARCHIVE_SHA256)
             if not correct:
                 raise ValueError(f'{local.name} 校验未通过。请重新下载发布页上对应的文件。')
             archive = local
@@ -119,12 +156,30 @@ def install_ffmpeg(progress, check=lambda: None):
         TOOLS.mkdir(exist_ok=True)
         for _, name in reversed(members):
             dest = TOOLS / name
-            if not dest.is_file():
-                try:
-                    (scratch / name).replace(dest)
-                except PermissionError:
-                    if not dest.is_file():
-                        raise
+            (scratch / name).replace(dest)
+
+
+def install_models(models, progress, check):
+    failures = []
+    for model in models:
+        check()
+        if model.ready():
+            continue
+        target = HOME / model.path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with tempfile.TemporaryDirectory(prefix='shotdecode-model-', dir=target.parent) as scratch:
+                staged = Path(scratch) / target.name
+                digest = download_file(model.url, staged, progress, check, label=f'正在下载{model.title}…',
+                                       limit=model.size, size=model.size)
+                if digest != model.sha256:
+                    raise ValueError('文件校验未通过')
+                check()
+                staged.replace(target)
+        except (OSError, ValueError, http.client.HTTPException) as error:
+            failures.append(f'{model.title}（{error}）')
+    if failures:
+        raise OSError('以下模型安装未完成。可以重试，已下载的模型会保留。\n\n' + '\n'.join(failures))
 
 
 def vc_runtime_ready():
@@ -227,47 +282,63 @@ def install_webview_runtime(progress, check):
             raise OSError(f'WebView2 安装未完成（退出码 {code}）。可重新安装或重启 Windows 后再试。')
 
 
-def prepare_window(*, runtime=False, webview=False):
+def prepare_window(*, runtime=False, webview=False, models=False, automatic=False):
+    missing = [model for model in MODELS if not model.ready()] if models else []
+    if models and not missing:
+        return True
 
     root = tk.Tk()
     microsoft = runtime or webview
-    title = '准备 WebView2' if webview else '准备微软运行库' if runtime else '准备视频工具'
-    root.title(f'{APP_NAME} · {title if microsoft else "首次启动"}')
-    bg, ink, muted, font = root.cget('background'), '#202020', '#444444', 'Microsoft YaHei UI'
-    if not microsoft:
-        from workbench_theme import BG, FONT, INK, MUTED, apply_styles, dark_caption
-        root.theme_images = apply_styles(root)
-        root.after_idle(lambda: dark_caption(root))
-        bg, ink, muted, font = BG, INK, MUTED, FONT
-    width, height = (550, 223) if microsoft else (460, 205)
-    root.geometry(f'{width}x{height}+{max(0, (root.winfo_screenwidth()-width)//2)}+{max(0, (root.winfo_screenheight()-height)//2)}')
+    title = ('安装本地模型' if models else '准备 WebView2' if webview
+             else '准备微软运行库' if runtime else '准备 FFmpeg')
+    root.title(f'{APP_NAME} · {title}')
+    icon = HOME / 'app/workbench.ico'
+    if icon.is_file():
+        root.iconbitmap(str(icon))
+
     root.resizable(False, False)
-    panel = tk.Frame(root, bg=bg)
-    panel.pack(fill='both', expand=True, padx=23, pady=18)
-    tk.Label(panel, text=title, bg=bg, fg=ink, font=(font, 16, 'bold')).pack(anchor='w')
+    panel = ttk.Frame(root, padding=(23, 18))
+    panel.pack(fill='both', expand=True)
+    font = 'Microsoft YaHei UI'
+    ttk.Label(panel, text=title, font=(font, 16, 'bold')).pack(anchor='w')
     installer = WEBVIEW_INSTALLER if webview else VC_INSTALLER
     offline = microsoft and (HOME / 'prerequisites' / installer).is_file()
-    action_text = '安装离线组件' if offline else '下载并安装'
-    if webview:
-        intro = f'新版工作台需要 Microsoft Edge WebView2。点「{action_text}」后，工作台会继续启动。'
+    action_text = '安装离线组件' if offline else '在线安装'
+    if models:
+        intro = ('按需安装转写、翻译和分轨模型。可以先开始剪辑，'
+                 '稍后从开始菜单打开「ShotDecode 组件安装」。')
+    elif webview:
+        intro = f'软件界面需要 Microsoft Edge WebView2。请选择「{action_text}」，也可以从微软下载后手动安装。'
     elif runtime:
-        intro = f'这台电脑需要 Microsoft Visual C++ x64 运行库。点「{action_text}」，并在 Windows 权限窗口确认。'
+        intro = f'这台电脑需要 Microsoft Visual C++ x64 运行库。请选择「{action_text}」，并在 Windows 权限窗口确认。'
     else:
-        intro = '首次启动需要准备 FFmpeg。'
+        intro = (f'视频预览、拆解和导出需要 FFmpeg。可在线下载约 {ARCHIVE_SIZE / 1_000_000:.0f} MB，'
+                 f'也可以从发布页下载 {ARCHIVE_NAME}，放进软件安装目录后重试。')
+
     label = tk.StringVar(value=intro)
-    tk.Label(panel, textvariable=label, bg=bg, fg=muted, font=(font, 9), wraplength=width - 50,
-             justify='left').pack(anchor='w', pady=(9, 8))
+    wrap = int(min(root.winfo_screenwidth() - 80, 560 * root.winfo_fpixels('1i') / 96))
+    ttk.Label(panel, textvariable=label, font=(font, 9), wraplength=wrap,
+              justify='left').pack(anchor='w', pady=(9, 8))
+    choices = [(model, tk.BooleanVar(value=True)) for model in missing]
+    actions = []
+    for model, selected in choices:
+        choice = ttk.Checkbutton(panel, text=f'{model.title}（{model.size / 1_000_000:.0f} MB）',
+                                 variable=selected)
+        choice.pack(anchor='w', pady=(0, 4))
+        actions.append(choice)
     bar = ttk.Progressbar(panel, mode='determinate')
-    bar.pack(fill='x')
+    bar.pack(fill='x', pady=(4, 0))
+    buttons = ttk.Frame(panel)
+    buttons.pack(fill='x', pady=(14, 0))
+
     stop = threading.Event()
     messages = queue.Queue()
     succeeded = False
     active = False
     worker = None
     poll_task = None
-    actions = []
     job = install_webview_runtime if webview else install_vc_runtime if runtime else install_ffmpeg
-    ready = has_webview2 if webview else vc_runtime_ready
+    ready = has_webview2 if webview else vc_runtime_ready if runtime else tools_ready
 
     def finish(success):
         nonlocal poll_task, succeeded
@@ -289,9 +360,15 @@ def prepare_window(*, runtime=False, webview=False):
         if stop.is_set():
             raise SetupCancelled
 
-    def prepare():
+    def prepare(selected_models):
+        def progress(*event):
+            messages.put(('progress', event))
+
         try:
-            job(lambda *event: messages.put(('progress', event)), check)
+            if models:
+                install_models(selected_models, progress, check)
+            else:
+                job(progress, check)
         except SetupCancelled:
             messages.put(('finished', False))
         except Exception as exc:
@@ -303,18 +380,24 @@ def prepare_window(*, runtime=False, webview=False):
         nonlocal active, worker
         if active:
             return
+        selected_models = [model for model, selected in choices if selected.get()]
+        if models and not selected_models:
+            finish(True)
+            return
         active = True
         stop.clear()
         for action in actions:
             action.state(['disabled'])
-        worker = threading.Thread(target=prepare, daemon=True)
+        worker = threading.Thread(target=prepare, args=(selected_models,), daemon=True)
         worker.start()
 
     def check_installed():
         if ready():
             finish(True)
         else:
-            messagebox.showinfo(title, '安装完成后再点「安装后继续」。如果安装程序要求重启，请重启 Windows。', parent=root)
+            detail = ('安装完成后再点「安装后继续」。如果安装程序要求重启，请重启 Windows。' if microsoft
+                      else '也可把 ffmpeg.exe 和 ffprobe.exe 放进安装目录下的 ffmpeg 文件夹。使用 PATH 安装时请重新打开软件。')
+            messagebox.showinfo(title, detail, parent=root)
 
     def poll():
         nonlocal active, poll_task
@@ -332,31 +415,41 @@ def prepare_window(*, runtime=False, webview=False):
                 finish(kind == 'finished' and data)
                 return
             messagebox.showerror(f'{title}未完成', data, parent=root)
-            if not microsoft:
-                finish(False)
-                return
             active = False
-            label.set('可以重试，也可以手动安装后点「安装后继续」。')
+            label.set('可以重新选择模型再试，也可以稍后安装。' if models
+                      else '可以重试，也可以手动安装后点「安装后继续」。')
+            bar.configure(maximum=1, value=0)
             for action in actions:
                 action.state(['!disabled'])
         poll_task = root.after(80, poll)
 
-    button = ttk.Button(panel, text='取消', command=cancel)
-    button.pack(side='right', pady=(14, 0))
+    button = ttk.Button(buttons, text='稍后安装', command=cancel)
+    button.pack(side='right')
+    options = [(action_text, begin)]
     if microsoft:
-        for text, command in ((action_text, begin), ('微软官方下载', lambda: os.startfile(WEBVIEW_DOWNLOAD if webview else VC_DOWNLOAD)),
-                              ('安装后继续', check_installed)):
-            action = ttk.Button(panel, text=text, command=command)
-            action.pack(side='left', padx=(0, 8), pady=(14, 0))
-            actions.append(action)
+        url = WEBVIEW_DOWNLOAD if webview else VC_DOWNLOAD
+        options += [('微软官方下载', lambda: os.startfile(url)), ('安装后继续', check_installed)]
+    elif models:
+        options.append(('打开软件目录', lambda: os.startfile(HOME)))
     else:
-        begin()
+        options += [('FFmpeg 发布页', lambda: os.startfile(RELEASE)),
+                    ('打开软件目录', lambda: os.startfile(HOME)), ('安装后继续', check_installed)]
+    for text, command in options:
+        action = ttk.Button(buttons, text=text, command=command)
+        action.pack(side='left', padx=(0, 8))
+        actions.append(action)
+
+    root.update_idletasks()
+    x = max(0, (root.winfo_screenwidth() - root.winfo_reqwidth()) // 2)
+    y = max(0, (root.winfo_screenheight() - root.winfo_reqheight()) // 2)
+    root.geometry(f'+{x}+{y}')
     root.protocol('WM_DELETE_WINDOW', cancel)
     poll_task = root.after(50, poll)
+    if automatic and offline:
+        root.after_idle(begin)
     root.mainloop()
     if worker is not None:
         worker.join()
-    # Release the self-referencing callback on this thread before the next window.
     poll = None
     return succeeded
 
@@ -364,14 +457,23 @@ def prepare_window(*, runtime=False, webview=False):
 def main():
     ctypes.windll.shcore.SetProcessDpiAwareness(1)
     os.environ['REA_WORKBENCH_DATA'] = str(HOME / 'data')
-    if not vc_runtime_ready() and not prepare_window(runtime=True):
+    offline_setup = '--offline-setup' in sys.argv[1:]
+    if not vc_runtime_ready() and not prepare_window(runtime=True, automatic=offline_setup):
         return 1
     if not tools_ready() and not prepare_window():
         return 1
-    if not has_webview2() and not prepare_window(webview=True):
+    if not has_webview2() and not prepare_window(webview=True, automatic=offline_setup):
         return 1
+    if '--prepare-only' in sys.argv[1:] or '--components-only' in sys.argv[1:]:
+        if any(not model.ready() for model in MODELS):
+            prepare_window(models=True)
+        elif '--components-only' in sys.argv[1:]:
+            messagebox.showinfo(APP_NAME, '运行组件和本地模型均已安装。')
+        return 0
+
     import studio
     return studio.main()
+
 
 
 if __name__ == '__main__':

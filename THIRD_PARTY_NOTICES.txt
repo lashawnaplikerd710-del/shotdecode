@@ -1,10 +1,42 @@
-视频拆解工作台 · 第三方组件
+ShotDecode · 第三方组件
+
+ShotDecode 原创代码采用 MIT License，见根目录 LICENSE。以下第三方组件保留各自原有的许可证、版权声明和适用的分发要求。
+
+Marked
+https://github.com/markedjs/marked
+ShotDecode 使用 Marked 的 Markdown 分词器。MIT 许可证随工作台的 JavaScript 资源分发。
 
 rea-video CLI
 JuneYaooo / rea-video contributors. Apache License 2.0.
 https://github.com/JuneYaooo/rea-video/tree/89e27e00ec6749da7ee2b23e76e0f90c604688d1
-视频拆解工作台通过分析适配器调用 CLI，并兼容 Windows Unicode 图像路径。
+ShotDecode 通过分析适配器调用 CLI，并兼容 Windows Unicode 图像路径。
 CLI 许可证和 NOTICE 随包提供。
+
+OpenFilm draft format implementation
+https://github.com/openfilm/openfilm/blob/main/packages/openfilm/studio/server/jianying.mjs
+ShotDecode 的剪映和 CapCut 草稿写入参考 OpenFilm 0.3.2 的实现。
+
+MIT License
+
+Copyright (c) 2026 OpenFilm contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 SenseVoiceSmall and Paraformer speech recognition
 SenseVoiceSmall by FunASR / FunAudioLLM and Alibaba Group.
@@ -45,6 +77,10 @@ React by Meta and contributors, MIT License.
 https://github.com/facebook/react
 Lucide React icons, Inter and IBM Plex Mono are bundled with the editor.
 See the corresponding license files under app/studio_web/licenses.
+The subtitle font library uses SIL Open Font License 1.1 font families from Google Fonts and upstream font publishers.
+Each family includes its OFL.txt and copyright notice under app/studio_web/assets/caption-fonts.
+The catalog.json in that directory records the font files and sources. The fonts are stored as gzip archives.
+https://github.com/google/fonts
 pywebview by Roman Sirokov and contributors, BSD 3-Clause License.
 https://github.com/r0x0r/pywebview
 See the license in runtime/Lib/site-packages/pywebview-6.2.1.dist-info.
@@ -55,10 +91,18 @@ https://github.com/rdbende/Sun-Valley-ttk-theme
 Lucide 1.71.0 icon masks by Lucide contributors. See app/ui_assets/LICENSE-lucide.txt.
 https://github.com/lucide-icons/lucide
 
+Agent brand icons
+Lobe Icons 1.95.1 by LobeHub and Octicons by GitHub. MIT License.
+See the source list and licenses in app/studio_web/assets/agent-logos.
+The WorkBuddy symbol is provided by Tencent's WorkBuddy website.
+Agent names and logos identify the respective providers and remain their trademarks.
+https://github.com/lobehub/lobe-icons
+https://github.com/primer/octicons
+
 FFmpeg
 FFmpeg 9.0.2 Essentials, Windows build by Gyan Doshi. GPLv3.
 The prebuilt command-line tools and license are under ffmpeg. The corresponding
-FFmpeg source revision and reported configuration are under 第三方组件/FFmpeg.
+FFmpeg source revision and reported configuration are under licenses/ffmpeg.
 https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2
 https://github.com/FFmpeg/FFmpeg/commit/946fcce07b
 

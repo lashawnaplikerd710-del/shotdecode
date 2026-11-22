@@ -47,6 +47,8 @@ def make_mix(job, source, duration, tracks, destination):
         labels.append(label)
     limit = 'alimiter=limit=0.98:level=0:latency=1[mix]'
     filters.append(''.join(labels) + (f'amix=inputs={len(labels)}:normalize=0,' if len(labels) > 1 else '') + limit)
+    encoder = (('-c:a', 'pcm_s24le') if destination.suffix == '.wav' else
+               ('-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart'))
     job.ffmpeg(*inputs, '-filter_complex', ';'.join(filters), '-map', '[mix]', '-t', f'{seconds:.3f}',
-               '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', destination)
+               *encoder, destination)
     return destination

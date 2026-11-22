@@ -1,0 +1,50 @@
+{
+  "codex": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/openai.svg",
+    "variant": "OpenAI Blossom white"
+  },
+  "claude": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/claude-color.svg",
+    "variant": "claude-color"
+  },
+  "cursor": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/cursor.svg",
+    "variant": "cursor"
+  },
+  "opencode": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/opencode.svg",
+    "variant": "opencode"
+  },
+  "antigravity": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/antigravity-color.svg",
+    "variant": "antigravity-color"
+  },
+  "qwen": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/qwen-color.svg",
+    "variant": "qwen-color"
+  },
+  "deepseek": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/deepseek-color.svg",
+    "variant": "deepseek-color"
+  },
+  "kimi": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/kimi-color.svg",
+    "variant": "kimi-color"
+  },
+  "codebuddy": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/codebuddy-color.svg",
+    "variant": "codebuddy-color"
+  },
+  "workbuddy": {
+    "url": "https://assets.workbuddy.cn/web/workbuddy/fa120fdb96e815d0a7b3c3078a271f810c7b703e/assets/logo.svg",
+    "variant": "WorkBuddy site symbol"
+  },
+  "minimax": {
+    "url": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/minimax-color.svg",
+    "variant": "minimax-color"
+  },
+  "copilot": {
+    "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-24.svg",
+    "variant": "https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-24.svg"
+  }
+}

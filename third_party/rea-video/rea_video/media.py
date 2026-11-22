@@ -52,9 +52,10 @@ def ffprobe(path: str | Path) -> dict:
     return json.loads(out)
 
 
-def _ratio(value: str | None) -> float:
-    if not value or value in ("0/0", "N/A"):
+def _ratio(value: str | int | float | None) -> float:
+    if value is None or value in ("", "0/0", "N/A"):
         return 0.0
+    value = str(value)
     if "/" in value:
         a, b = value.split("/", 1)
         try:
@@ -98,15 +99,18 @@ class VideoInfo:
 
 
 def video_info(path: str | Path) -> VideoInfo:
-    data = ffprobe(path)
+    return video_info_from_probe(path, ffprobe(path))
+
+
+def video_info_from_probe(path: str | Path, data: dict) -> VideoInfo:
     vstreams = [s for s in data.get("streams", []) if s.get("codec_type") == "video" and not s.get("disposition", {}).get("attached_pic")]
     if not vstreams:
         raise MediaError(f"no video stream in {path}")
     v = vstreams[0]
     fmt = data.get("format", {})
     fps = _ratio(v.get("avg_frame_rate")) or _ratio(v.get("r_frame_rate")) or 30.0
-    duration = float(v.get("duration") or fmt.get("duration") or 0.0)
-    nb = int(v.get("nb_frames") or 0) or int(round(duration * fps))
+    duration = _ratio(v.get("duration")) or _ratio(fmt.get("duration"))
+    nb = int(_ratio(v.get("nb_frames"))) or (int(round(duration * fps)) if duration > 0 else 0)
     rotation = 0
     for sd in v.get("side_data_list", []) or []:
         if "rotation" in sd:

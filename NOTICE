@@ -1,5 +1,10 @@
-Video Breakdown Workbench / 视频拆解工作台
+ShotDecode
 
 This repository includes a copy of the rea-video engine.
 Copyright 2026 JuneYaooo. Apache License, Version 2.0.
 See third_party/rea-video/NOTICE and THIRD_PARTY_NOTICES.txt for attribution.
+
+Original ShotDecode application code
+Copyright (c) 2026 ShotDecode contributors.
+Licensed under the MIT License. See LICENSE.
+Third-party components retain their respective licenses and attribution notices.

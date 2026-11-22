@@ -19,7 +19,20 @@ def run_analysis(job, source, output, options, *, env_file=None, extra_env=None,
     engine = options.get('engine', '').strip()
     if engine:
         args += ['--engine', engine]
-    job.rea(*args, env_file=env_file, extra_env=extra_env)
+    def update_stage(line):
+        message = line.partition(' INFO ')[2]
+        if message.startswith('detected '):
+            job.set_stage('正在分析原声音轨')
+        elif message.startswith('separating stems'):
+            job.set_stage('正在分离人声与配乐')
+        elif message.startswith('packaging layer:'):
+            job.set_stage('正在识别画面文字与包装' if options.get('ocr', True) else '正在分析画面包装')
+        elif message.startswith('shot_'):
+            job.set_stage('正在分析镜头素材')
+
+    job.set_stage('正在检测分镜')
+    job.rea(*args, env_file=env_file, extra_env=extra_env, on_line=update_stage)
+    job.set_stage('正在整理拆解结果')
     data = be.load_json(output / 'breakdown.json')
     stem_result = data.get('stems') or {}
     stem_note = ''

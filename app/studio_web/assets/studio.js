@@ -1,3 +1,4 @@
+const interfaceDictionary = { "en": { "更多操作": "More actions", "执行步骤": "Execution steps", "查看任务进度": "View task progress", "任务产出": "Task outputs", "还有 {0} 个结果": "{0} more results", "回复表格": "Response table", "{0} 个步骤": "{0} steps", "{0} 秒": "{0}s", "安装本机程序后，点「重新检测」再连接。": "After installing the local program, select Scan again to connect.", "常用": "Common", "其他 Agent": "Other agents", "连接": "Connect", "连接设置": "Connection settings", "正在安装…": "Installing…", "连接组件已安装": "Connection component installed", "安装包含 npm 的 Node.js 后，再点「安装连接组件」。": "Install Node.js with npm, then select Install connection component.", " · 分析引擎 ": " · Analysis Engine ", " · 替换预览": " · Replacement Preview", " · 构建 ": " · Build ", " · 点击波形定位原片": " · Click Waveform to Locate Original Clip", " · 镜头 {0}": " · Shot {0}", " 个": "", " 个镜头": " shots", " 个镜头 · ": " shots · ", " 个镜头 · 已替换 ": " shots · replaced ", " 像素": " Pixel", " 入口…": " Entry…", " 句": " Sentence", " 可连接": " Connectable", " 条手动字幕将随成片导出": " A manual subtitle will be exported with the final video", " 款）": " Model)", " 的提示词": " Prompt", " 秒": " Second", " 页": " Page", "3 秒留存": "3-second retention", "3 秒留存率 %": "3-second retention %", "< 0.1 秒": "< 0.1 second", "AI 深度分析": "AI Deep Analysis", "API 工作流 JSON": "API Workflow JSON", "Agent 任务进度": "Agent Task Progress", "Agent 指令": "Agent instruction", "Agent 指令面板": "Agent Command Panel", "Agent 正在执行上一条指令。": "Agent is executing the previous command.", "Agent 设置": "Agent Settings", "Agent 选项": "Agent Options", "BIZ UDP明朝": "BIZ UDP Traditional", "BIZ UD明朝": "BIZ UD Traditional", "ComfyUI 生成": "ComfyUI Generation", "ComfyUI 设置已保存": "ComfyUI Settings Saved", "MP4、MOV、MKV、WebM 等常用格式": "Common formats such as MP4, MOV, MKV, WebM", "Noto 宋体（简体）": "Noto Songti (Simplified)", "Noto 明体（繁体）": "Noto Mingti (Traditional)", "Noto 黑体（简体）": "Noto Heiti (Simplified)", "Noto 黑体（繁体）": "Noto Heiti (Traditional)", "WDXL 圆体（简体）": "WDXL Rounded (Simplified)", "WDXL 圆体（繁体）": "WDXL Rounded (Traditional)", "Zen オールド明朝": "Zen Old Mingda", "Zen 丸ゴシック": "Zen Marigot Sans", "Zen 紅道": "Zen Red Road", "{0} 秒 · {1} 个镜头 · 平均 {2} 秒": "{0}s · {1} shots · {2}s average", "{0}面板": "{0} panel", "{0}音量": "{0} volume", "さわらび明朝": "Sawarabi Mingda", "しっぽり明朝": "Shippiri Mingda", "ひな明朝": "Hina Mincho", "キウイ丸": "Kiyui Circle", "上": "Up", "上下拖动调整高度，双击恢复默认": "Drag up and down to adjust height; double-click to restore default settings", "上传本地视频，或粘贴链接自动下载并拆解。": "Upload local video, or paste a link for automatic download and segmentation", "下": "Down", "下载并开始拆解": "Download and start segmentation", "下载视频": "Download video", "不发送参考帧": "Do not send reference frames", "不透明度": "Opacity", "中文": "Chinese", "中文 / 英文": "Chinese / English", "中文译文": "Chinese translation", "为此项目补充 / 更新译文": "Add / update translation for this project", "也可以把视频文件拖到时间线上的镜头。": "You can also drag the video file to the clip on the timeline", "也可拖动画面里的字幕移动，拖动角点缩放。": "You can also drag subtitles in the timeline and move them, scale by corner points", "交给 Agent": "Send to Agent", "产品文字线索": "Product mention clues", "亮度": "Brightness", "人声": "Vocals", "从一条参考视频开始": "Start with a reference video", "任务 ": "Task ", "任务失败 · ": "Task failed · ", "任务已停止，分享内容已保留。": "The task has stopped, and the sharing content is preserved.", "任务已停止，分享内容已保留，可以重新开始。": "The task has stopped, and the sharing content is preserved; you can start again.", "任务日志": "Task log", "任务累计耗时": "Total task time", "任务阶段 ": "Task stage ", "仿宋": "SimSun", "位置与大小": "Position and size", "你": "You", "使用原": "Use original", "使用原片": "Use original footage", "使用后端目录的默认 Python": "Use the default Python in the backend directory", "使用已配置的模型服务": "Use the configured model service", "使用默认引擎": "Use the default engine", "例如 A 版 · 快节奏": "For example, Version A · fast pace", "例如 展示产品实际使用效果": "Example: Show the product in use", "例如 日区 15 秒商品展示": "For example, Japanese region, 15-second product display", "例如：分析开头 3 秒，或在第 2 镜头加入一句产品卖点字幕。": "For example: analyze the first 3 seconds, or add a product feature subtitle at the 2nd shot.", "依据（可选）": "Basis (optional)", "保存": "Save", "保存 ComfyUI 设置": "Save ComfyUI settings", "保存为一个 MP4": "Save as MP4", "保存分析设置": "Save analysis settings", "保存到": "Save to", "保存参考模板": "Save reference template", "保存字幕": "Save subtitles", "保存工程音轨": "Save audio track", "保存并返回导出": "Save and export again", "保存引擎": "Save engine", "保存当前剪辑、替换素材、字幕和音轨，可随时切回这个版本。": "Save the current edit, replacements, captions and audio to restore them later.", "保存当前版本": "Save current version", "保存手动字幕": "Save manual caption", "保存数据": "Save metrics", "保存此句并同步": "Save this shot and sync", "保存镜头纠正": "Save shot correction", "保存音频位置和音量": "Save audio placement and volume", "保留原字幕和标题": "Keep original subtitles and titles", "保留现有画面": "Keep current footage", "停止": "Stop", "停止任务": "Stop task", "先拆解视频，或打开一个已有项目。": "Break down the video first, or open an existing project.", "入场": "Entrance", "全屏预览": "Full-screen preview", "全片概览": "Overall film overview", "关闭": "Close", "关闭字幕编辑": "Close subtitle editing", "关闭提示": "Close prompt", "关闭校对": "Close proofreading", "关闭窗口": "Close window", "关闭素材预览": "Turn off material preview", "兼容预览": "Compatibility preview", "出场": "Exit", "分割": "Split", "分离人声与配乐": "Separate voice and music", "分离音轨": "Separate audio track", "分镜": "Storyboard", "分镜、字幕和中译": "Storyboard, subtitles, and translation", "分镜时间线": "Shot timeline", "分镜轨道为空。": "The video track is empty.", "切换模型或 Agent · ": "Switch model or Agent · ", "刘建毛草": "Liu Jianmao grass", "删除": "Delete", "删除所选片段（Backspace）": "Delete selected clip (Backspace)", "前 3 秒切镜": "Show footage in the first 3 seconds", "前 3 秒有 {0} 次切镜": "{0} cuts in the first 3 seconds", "前移": "Move earlier", "剪辑": "Edit", "剪辑包装 ASS": "Edit packaging ASS", "剪辑画面": "Editing footage", "剪辑预览": "Edit preview", "功能导航": "Function navigation", "加入字幕轨": "Add subtitle track", "加入混音": "Add mixing", "加粗": "Bold", "动画": "Animation", "动画时长（秒）": "Animation duration (seconds)", "动画阶段": "Animation stage", "动画预设": "Animation preset", "单击选择字幕，拖动调整位置": "Click to select subtitles and drag to adjust position", "单文件工具": "Single-file tool", "单独处理其他音频文件…": "Process other audio files separately…", "卖点要求": "Selling point", "卖点证明线索": "Product proof clues", "压制字幕到视频": "Compress subtitles into video", "原声": "Original audio", "原声包含人声和背景声。若使用分离后的人声、配乐，关闭原声可避免叠音。": "Original audio includes voice and background sound. If separate voice and music are used, turn off original audio to avoid overlap.", "原声已经包含人声和背景声，改用分离音轨时应关闭原声，避免声音重叠。": "The original audio includes voice and background sounds; turn off the original audio when using separate audio tracks to avoid sound overlap.", "原片": "Original film", "原片已移动": "Original film moved", "原片预览": "Original preview", "参考": "Reference", "参考原片": "Reference original film", "参考图": "Reference frame", "参考帧识别取决于模型": "Reference frame recognition depends on the model", "参考帧输入": "Reference frame input", "参考片": "Reference clip", "参考视频": "Reference video", "参考视频已导入": "Reference video imported", "双击空白处添加字幕": "Double-click an empty space to add subtitles", "双语字幕校对": "Bilingual subtitles proofreading", "发消息给 Agent": "Send a message to Agent", "发送": "Send", "发送到已配置的工作流。": "Send to a configured workflow", "取消": "Cancel", "取消并返回导出": "Cancel and return to export", "口播": "Speech", "口播识别语言": "Speech recognition language", "口播语言自动识别；此项用于识别画面上的文字。": "Automatic speech language recognition; used to identify text on the screen", "口播转写与音轨分离": "Speech transcription separated from audio track", "另存字幕文件": "Save subtitle file", "只运行当前镜头": "Run only the current shot", "可在视频生成设置接入 ComfyUI": "ComfyUI can be integrated into video generation settings", "可在设置中重新检测本机 Agent。": "You can re-check the local Agent in settings.", "可生成一份兼容预览。": "A compatible preview can be generated.", "可继续浏览分镜。原片可在高级工具中重新定位。": "You can continue browsing shots. The original footage can be repositioned in advanced tools.", "可调用已配置的 ComfyUI": "Configured ComfyUI can be called", "可选中结果文本后复制。": "Select the result text and then copy it.", "右": "Right", "右对齐": "Right-align", "同时导出对比视频": "Export a comparison video simultaneously", "后移": "Move later", "后端 Python": "Backend Python", "后端目录": "Backend directory", "向右转 90 度": "Turn right 90 degrees", "向左转 90 度": "Turn left 90 degrees", "启用 ": "Enable ", "告诉 Agent 要做什么": "Tell the Agent what to do", "周期": "Cycle", "和首帧": "And the first frame", "回到时间线": "Go back to the timeline", "国内": "Domestic", "国际与开源": "International and open source", "图像与视频分析服务": "Image and video analysis services", "图片已移动 · ": "The image has been moved · ", "在 ComfyUI 里用「导出（API）」保存视频工作流，再在此选择。": "Use “Export (API)” in ComfyUI to save the video workflow, then select it here.", "在原片上压制当前字幕轨": "Apply the current subtitle track to the original footage", "在播放头位置添加字幕": "Add subtitles at the playback start position", "在播放头分割": "Split at playhead", "在混音面板选择使用哪些音轨，保存后用于成片导出。": "Select audio tracks in the mixing panel, then save for export.", "垂直位置 Y": "Vertical position: Y", "垂直对齐": "Vertical alignment", "垂直居中": "Center vertically", "垂直翻转": "Flip vertically", "填写判断依据": "Fill in the judgment criteria", "声音与混音": "Audio & mixing", "处理外部字幕文件…": "Process external subtitle files…", "处理项目字幕、外部视频或音频。": "Work with project subtitles and external media.", "复制失败，可手动选中文字复制。": "Copy failed; manually select text to copy.", "复制提示词": "Copy prompt", "复制结果": "Copy result", "复制诊断": "Copy diagnosis", "外部 SRT / ASS 文件": "External SRT / ASS files", "外部字幕与音频": "External subtitles and audio", "外部字幕文件": "External subtitle files", "外部音频": "External audio", "失败": "Failed", "失败阶段 ": "Failure stage ", "媒体无音轨": "No audio tracks in the media", "字体": "Font", "字体 · ": "Font · ", "字体库": "Font library", "字体语言": "Font language", "字号": "Size", "字号（像素）": "Size (pixels)", "字幕": "Subtitles", "字幕 ": "Subtitles ", "字幕、报告和 SRT 已同步保存": "Subtitles, reports, and SRT have been saved synchronously", "字幕与翻译": "Subtitles & translation", "字幕位置与大小": "Subtitle position and size", "字幕内容": "Subtitle content", "字幕列表": "Subtitle list", "字幕原文": "Original subtitle text", "字幕垂直位置": "Vertical position of subtitles", "字幕属性类别": "Subtitle attribute category", "字幕来源": "Subtitle source", "字幕水平位置": "Horizontal position of subtitles", "字幕组": "Subtitle group", "字幕编辑": "Subtitle editing", "字幕编辑面板": "Subtitle editing panel", "安装说明": "Installation instructions", "安装连接组件": "Install connection component", "宋体": "Song type", "完成": "Done", "完成拆解后，点击时间线上的镜头查看和替换素材。": "After disassembling, click the clip on the timeline to view and replace materials.", "完成拆解后，点击时间线里的镜头开始编辑。": "After disassembling, click the clip in the timeline to start editing.", "完整": "Complete", "完整适应": "Fully adapt", "定位": "Locate", "定位原片": "Locate the original video", "定位镜头 ": "Go to shot ", "定位镜头 {0}": "Go to shot {0}", "对比度": "Contrast", "对话": "Dialogue", "导入后，在右侧确认选项并开始拆解。": "After importing, confirm the options on the right side and start disassembling.", "导入失败。": "Import failed.", "导入生成结果": "Import generation result", "导入视频": "Import video", "导入视频后开始拆解。": "Start disassembling after importing the video.", "导入视频后，Agent 可以处理当前视频和时间线。": "After importing the video, the Agent can process the current video and timeline.", "导入连接中断，请重试。": "Import connection interrupted, please try again.", "导入镜头复核文件": "Import clips and review the file", "导出 SRT 字幕": "Export SRT subtitles", "导出任务表": "Export task list", "导出全部提示词": "Export all prompt files", "导出复刻配方需配置生成后端。": "Export replication recipe requires a generation backend configuration.", "导出带字幕 MP4": "Export MP4 with subtitles", "导出带字幕原片": "Export original video with subtitles", "导出成片": "Export video", "导出时间线成片": "Export timeline", "导出纠错标签": "Export error correction tags", "导出视频分析 JSON": "Export video analysis JSON", "导出视频生成方案": "Export video generation plan", "导出记录": "Export history", "导出镜头复核文件": "Export shot review file", "导出音轨": "Export audio track", "将当前提示词": "Select current prompt", "将视频拖到这里，或选择电脑中的文件。": "Drag the video here, or select a file from your computer.", "将选中的字幕复制为可编辑的手动字幕": "Copy the selected subtitles as editable manual subtitles", "小赖字体": "Small default font", "尚未生成": "Not generated yet", "尚未连接 Agent": "Not connected to Agent", "就绪": "Ready", "尾帧": "Trailer frame", "展开分离音轨": "Expand and separate audio tracks", "展开分轨": "Expand individual tracks", "属性": "Properties", "属性保存失败": "Failed to save properties", "工作台工具不可用": "The workbench tool is unavailable.", "工作台工具已连接": "Workbench tools connected", "工作台设置": "Settings", "工具分类": "Tool categories", "工具结果": "Tool results.", "工程音轨": "Engineering audio track.", "工程音轨混音": "Mixing of engineering audio track.", "左": "Left.", "左右拖动调整宽度；双击恢复默认": "Drag left and right to adjust width; double-click to restore default.", "左对齐": "Left-aligned.", "已保存": "Saved", "已停止": "Stopped.", "已填写": "Filled in.", "已完成": "Completed", "已导入参考视频": "Reference video imported", "已导出": "Exported.", "已恢复项目会话": "Project chat restored", "历史会话 · 待重连": "Saved chat · Reconnect", "在播放头分割（Ctrl+B）": "Split at the playhead (Ctrl+B)", "已替换": "Replaced.", "已有画面文字或口播里暂无明确线索。": "No clear clues in the recognized text or speech.", "已检测到 · 未启用": "Detected, not enabled.", "已连工作台工具": "Tools connected to the workbench", "已连接": "Connected", "已配置工作流": "Workflow configured.", "平台元数据 JSON": "Platform metadata JSON.", "平台数据与对比": "Metrics and comparison", "应用修剪": "Apply trim", "应用批量替换": "Apply all replacements", "底对齐": "Bottom-aligned.", "开启 AI 深度分析后，画面和音轨素材会发送给这里配置的服务。": "After enabling AI deep analysis, the video and audio track materials will be sent to the configured service.", "开场 3 秒": "First 3 seconds", "开始导出": "Start export", "开始拆解": "Analyze video", "开始时间（秒）": "Start Time (seconds)", "开始生成": "Start Generation", "开始秒数": "Starting Seconds", "开始（秒）": "Start (seconds)", "当前原声和分离音轨同时启用，可能出现重叠声音。请确认是否需要保留原声。": "Original audio and separated track are enabled simultaneously; overlapping sounds may occur. Please confirm whether to keep the original audio.", "当前没有启用音轨，按工程音轨导出时将静音。": "No tracks are currently enabled; they will be muted when exported as engineering tracks.", "当前视频": "Current video", "当前项目": "Current project", "当前项目复核": "Review current project", "当前项目字幕": "Subtitles for current project", "待保存": "Pending save", "待校对字幕": "Subtitles to be proofread", "得意黑": "Elegant black", "循环": "Loop", "循环周期（秒）": "Loop duration (seconds)", "微软正黑体": "Microsoft JhengHei", "微软雅黑": "Microsoft YaHei", "志莽行书": "ZhiMang running script", "快速旋转": "Rapid rotation", "思考强度": "Thinking intensity", "恢复分镜草稿": "Restore storyboard draft", "恢复原声预览": "Restore audio preview", "恢复完整画面": "Restore full video", "恢复此版本": "Restore this version", "悠哉字体": "Calm font", "想从这条视频了解什么？": "What would you like to learn from this video?", "成片保存位置": "Export folder", "成片剪辑": "Edit video", "成片音轨": "Audio track of final product", "所有修改已保存": "All modifications saved", "手动字幕": "Manual captions", "手动字幕时间": "Manual subtitle timing", "手动字幕轨道": "Manual subtitle track", "打开 Agent 对话": "Open Agent chat", "打开任务文件夹": "Open task folder", "打开双语校对大面板": "Open bilingual proofing panel", "打开已有项目": "Open existing project", "打开成片": "Open video", "打开成片位置": "Show exported video", "打开报告": "Open report", "打开拆解项目": "Open breakdown project", "打开模板项目": "Open template project", "打开生成素材": "Open the generated material", "打开设置": "Open settings", "打开输出文件夹": "Open output folder", "打开输出目录": "Open output directory", "打开项目": "Open project", "批量剪辑": "Batch edit", "批量匹配与生成结果": "Batch match and generate results", "批量替换镜头": "Batch replace shots", "批量生成与参考图": "Batch generate and show reference images", "批量生成后端": "Batch generate backend content", "把识别出的字幕、标题和花字叠到替换镜头": "Overlay recognized subtitles, titles, and text overlays onto the replaced shots", "抖音 / TikTok 视频链接": "TikTok video link", "报告界面语言": "Report language interface", "报告语言": "Report language", "抽帧图": "Extract frames", "抽帧页码": "Extract frame numbers", "拆解": "Disassemble", "拆解完成后，镜头会按原片时间排在这里。": "After disassembly, the shots will be arranged in the original timing.", "拆解完成的项目会保存在这里。": "The disassembled project will be saved here.", "拆解当前视频": "Analyze current video", "拆解当前视频，生成报告并列出每个镜头。": "Disassemble current video, generate a report, and list each shot.", "拆解或转写完成后，字幕文件会出现在这里。": "After disassembly or transcription, the subtitle file will appear here.", "拆解视频后，字幕和译文会显示在这里。": "After disassembling the video, subtitles and translations will be displayed here.", "拆解视频后，选择一个镜头生成可编辑草稿。": "After disassembling the video, select a shot to generate an editable draft.", "拖入参考视频": "Drag in reference video", "拖动右端修剪": "Drag right edge to trim", "拖动左端修剪": "Drag left edge to trim", "拖动播放进度": "Drag the playback progress", "拖动缩放镜头": "Drag the zoom level", "拖动调整字号": "Drag and adjust font size", "拼接与输出": "Merge and export", "按住 Ctrl 滚动滚轮缩放轨道": "Hold Ctrl and scroll the zoom wheel to scale the track", "按参考片的镜头时长和画幅匹配素材。确认每个素材位后，再一次应用。": "Match clips by length and aspect ratio. Review each slot before applying the replacements.", "按文件名匹配素材，或把生成结果导入分镜。": "Match media by file name or import generated clips.", "按文件名批量匹配": "Batch match by file name", "换品模板": "Product swap template", "排版": "Layout", "描述要拆解或查看的内容…": "Describe what needs to be broken down or viewed…", "提取视频里已有的字幕和标题": "Extract subtitles and titles from the video", "提示词": "Prompt", "提示词已复制": "Prompt copied", "提示词镜头": "Prompt shot", "搜索 Agent": "Search Agent", "搜索字体": "Search font", "撤销": "Undo", "撤销修改": "Undo modification", "撤销分割字幕": "Undo caption split", "撤销删除视频片段": "Undo video clip deletion", "撤销删除音频片段": "Undo audio clip deletion", "撤销本轮 Agent 修改": "Undo Agent changes", "撤销添加轨道": "Undo add track", "撤销调整字幕时长": "Undo caption trim", "播放": "Play", "播放或暂停": "Play or pause", "播放时间": "Playback time", "播放视频": "Play video", "播放速度": "Playback speed", "操作流程": "Operation Steps", "支持 MP4、MOV、MKV、WebM 等常用格式": "Supports common formats such as MP4, MOV, MKV, and WebM", "支持视频或图像的模型": "Supports video or image models", "收起": "Hide", "收起分离音轨": "Hide separate tracks", "收起分轨": "Hide track separation", "放大参考": "Zoom for reference", "放大抽帧图": "Zoom for frame extraction", "放大时间线": "Zoom for timeline", "效果": "Effects", "文件不可用": "File unavailable", "文件名可用 shot_001.mp4 或 001.mp4。生成任务也可通过 results.json 导入。": "File name can be shot_001.mp4 or 001.mp4. The generation task can also be imported via results.json.", "文件和项目": "Files and projects", "文件已移动 · ": "File moved · ", "文字": "Text", "文字颜色": "Text color", "新字幕": "New subtitles", "新对话": "New chat", "新建拆解": "New breakdown", "新建视频拆解": "Create video breakdown", "新建项目": "New project", "旋转": "Rotate", "旋转角度": "Rotation angle", "无": "None", "无法读取波形": "Unable to read waveform", "日文口播": "Japanese speech", "日语": "Japanese", "日语 / 日本語": "Japanese / 日本語", "日语中译": "Japanese to Chinese", "时长": "Duration", "时间": "Time", "时间线位置（秒）": "Timeline position (s)", "时间线剪辑": "Timeline editing", "时间线播放位置": "Timeline playback position", "时间线缩放": "Timeline scaling", "时间线需要至少一个视频片段才能导出。": "Add a video clip to the timeline to export.", "时间线预览尚未生成。": "The timeline preview is not ready.", "时间线预览已更新": "Timeline preview updated", "时间范围": "Time range", "时间采用秒，支持小数。保存后会同步当前项目的报告与字幕文件。": "Time in seconds, supports decimals. Saved, the current project's report and subtitle files will be synchronized.", "显示更多字体（剩余 ": "Show more font (remaining) ", "暂无中文译文": "No Chinese translation available", "暂无任务记录。": "No task records available.", "暂无可校对的双语字幕，请先补充中文译文。": "No bilingual subtitles for correction yet. Please add the Chinese translation first.", "暂无字幕": "No subtitles", "暂无镜头提示词": "No shot prompts", "暂时无法读取分析。": "Unable to analyze for now.", "暂时无法读取本机字体列表。": "Unable to read the local font list currently.", "暂时没有导出记录。": "No exports yet.", "更多工具": "More tools", "更多工具工作区": "More tools workspace", "更换外部音频": "Change external audio", "更换替换视频": "Replace video", "更换视频": "Replace Video", "更换视频或粘贴链接": "Replace video or paste link", "更改": "Change", "更改成片保存位置": "Change video file save location", "更新剪辑预览": "Update edit preview", "替换素材": "Replace material", "替换素材已移动，显示原片": "The replaced material has been moved; original file displayed", "替换素材无法预览，显示原片": "The replaced material cannot be previewed; original file displayed", "替换音频": "Replace audio", "最近项目": "Recent projects", "暂无最近项目": "No recent projects", "项目标签": "Project tabs", "关闭项目标签 {0}": "Close project tab {0}", "服务地址": "Service address", "服务配置文件": "Service configuration file", "未找到匹配的字体。": "No matching font found.", "本地上传": "Local upload", "本地上传 / 链接拆解": "Local upload / link breakdown", "本地版": "Local version", "本地静图重建": "Reconstruct local static image", "本机": "Local machine", "本机 Agent": "Local machine agent", "本机 Agent 列表": "List of local machine agents", "本机程序": "Local program", "本次会话密钥": "Current session key", "本次指令未完成": "Current command not completed", "本轮 Agent 修改": "Agent changes", "机器识别和翻译建议人工校对。": "Machine recognition and translation suggestions need manual review.", "松开以导入视频": "Release to import the video.", "柔焦": "Soft focus.", "查看与修改": "View and edit.", "查看剪辑后的画面": "View the edited video.", "查看原片画面": "View the original footage.", "查看字幕文件": "View the subtitle file.", "查看开头 3 秒": "View the first 3 seconds.", "查看拆解设置": "View the breakdown settings.", "查看本机纠错记忆": "View the on-machine correction memory.", "查看的字幕": "The viewed subtitles.", "查看精简结论": "View the simplified summary.", "查看视频参数": "View video parameters.", "检查与抽帧": "Check and frame extraction.", "检查本机运行环境": "Check the on-machine operating environment.", "检查视频、抽帧和复核项目。": "Inspect videos, extract frames and review projects.", "检测到的本机 Agent 会出现在左下角菜单。启用后即可选择，登录沿用各 Agent 的账号。": "The detected on-machine Agent will appear in the lower-left menu. After enabling, you can select it. Log in with the same account used by all Agents.", "检测后端": "Backend detection.", "楷体": "Kaishu font.", "模型": "Model.", "模型名": "Model name.", "模板名": "Template name", "正向提示词输入": "Input positive prompt.", "正在下载视频…": "Downloading video...", "正在下载视频，完成后会自动开始拆解。": "Downloading video; will start segmentation automatically after completion.", "正在保存…": "Saving...", "正在停止": "Stopping", "正在准备…": "Preparing...", "正在处理…": "Processing...", "正在导入 · ": "Importing... ", "正在导入视频": "Importing video", "正在执行": "Running", "正在提交…": "Submitting...", "正在更新时间线预览": "Updating timeline preview", "正在更新时间线预览…": "Updating timeline preview…", "正在检测本机 Agent": "Checking local Agent", "正在检测本机 Agent…": "Checking local Agent...", "正在生成兼容预览": "Generating compatible preview", "正在生成试听音频…": "Generating test audio", "正在生成预览…": "Generating preview...", "正在自动拆解…": "Automatically segmenting...", "正在读取…": "Loading…", "正在读取分析…": "Reading analysis…", "正在读取字幕…": "Reading subtitles...", "正在读取工作区…": "Reading workspace...", "正在读取本机字体…": "Reading local font...", "正在读取草稿…": "Reading draft...", "正在读取视频时长…": "Reading video duration...", "正在读取音频波形…": "Reading audio waveform...", "正在载入替换素材…": "Loading replacement media...", "正在连接…": "Connecting...", "正确类型": "Correct type", "此字幕轨暂无内容，可补充译文或重新识别口播。": "No content in this subtitle track; please add translation or re-identify the speech.", "水平位置 X": "Horizontal position X", "水平对齐": "Horizontal alignment", "水平居中": "Center horizontally", "水平翻转": "Flip horizontally", "没有匹配的 Agent。": "No matching Agent.", "沿用原片": "Use original video", "注音楷体": "Phonetic Kaishiti", "注音粉圆体": "Phonetic Fenyuan Type", "注音芫荽体": "Phonetic Yuancui Type", "浅色": "Light", "测试连接": "Test connection", "浏览项目文件": "Browse project file", "深色": "Dark", "添加外部音频": "Add external audio", "添加字幕": "Add caption", "添加对比项目": "Add comparison project", "添加素材": "Add media", "添加素材到 {0}": "Add media to {0}", "添加轨道": "Add track", "添加配乐": "Add music", "添加配音 / 音效": "Add voice or SFX", "清除": "Clear", "清除此类动效": "Remove such effects", "游ゴシック": "Grotesk", "源泉圆体（繁体）": "Yuanquan Type (Traditional)", "源石黑体（繁体）": "Yuanshihei Type (Traditional)", "滑块": "Slider", "点击一句定位视频，打开大面板校对双语。": "Click a sentence to locate the video and open the large panel for bilingual editing.", "点击左侧句子定位原片；修改后保存此句，报告和 SRT 会同步更新。": "Click a sentence on the left to locate the original clip; after modification, save this sentence, and the report and SRT will be updated synchronously.", "爆款分析": "Viral video analysis", "版本": "Versions", "版本名": "Version name", "生成任务与参考图": "Generate task and reference image", "生成兼容预览": "Generate compatible preview", "生成参考图": "Generate reference image", "生成可单独试听的人声和背景声": "Generate separate audio and background tracks for testing", "生成后端设置": "Generate backend settings", "生成并替换当前镜头": "Generate and replace the current shot", "生成并替换镜头": "Generate and replace shot", "生成引擎": "Generate engine", "生成当前镜头提示词": "Generate prompt for the current shot", "生成抽帧图": "Generate frame extraction image", "生成提示词": "Prompts", "生成模式": "Generate mode", "画面": "Video", "画面中译": "Chinese screen-text translation", "画面字幕": "On-screen captions", "画面字幕 ": "Video subtitles ", "画面字幕识别语言": "Language for video subtitle recognition", "画面拖动和缩放": "Drag and zoom the video", "画面效果": "Video effects", "画面文字": "On-screen text", "画面文字是什么语言？": "What language is the video text in?", "界面与外观": "Interface & appearance", "界面语言": "Interface language", "看一下当前项目，列出前 3 秒的分镜、画面文字和口播中译。": "Review the current project and list the shot list, video text, and translated speech for the first 3 seconds.", "看原": "View original", "看译文、换镜头、调声音": "View translation, switch shots, adjust audio", "秒": "seconds", "移回底部": "move back to bottom", "移除外部音频": "remove external audio", "移除替换素材": "remove replacement material", "移除替换视频附件": "remove replacement video file", "移除此片段": "Remove this clip", "站酷小薇体": "ZCOOL XiaoWei", "站酷庆科黄油体": "ZCOOL QingKe HuangYou", "站酷快乐体": "ZCOOL KuaiLe", "第 ": "Chapter ", "等待": "wait", "等待分镜": "wait for storyboard", "等比": "Link", "等线": "straight line", "管理 Agent": "manage Agent", "管理连接": "manage connection", "类型": "type", "粉圆体": "Fenyuan style", "粘贴视频路径、项目目录或抖音/TikTok 分享链接。": "paste video path, project directory, or TikTok share link", "粘贴视频链接，或包含链接的完整分享文案\nhttps://v.douyin.com/…": "paste video link, or complete share text with link https://v.douyin.com/…", "系统 ": "system ", "素材": "material", "素材填充方式": "material filling method", "素材已移动，请重新选择文件。": "The assets have been moved; please select the file again.", "结合当前镜头的关键帧，给我一份可用的复刻提示词。": "Provide me with a usable clone prompt based on the key frames of the current shot.", "结合真实留存和转化数据判断片段表现。上面的线索来自已有文字识别。": "Use actual retention and conversion data to evaluate performance. The clues above come from detected text and speech.", "结束": "End", "结束时间（秒）": "End time (seconds)", "结束秒数": "End seconds", "结束（秒）": "End (seconds)", "结果已复制": "Result copied", "编辑 Agent 指令": "Edit Agent instructions", "编辑提示词": "Edit prompt", "编辑该镜提示词": "Edit the shot prompt", "编辑镜头草稿，生成替换素材或导出提示词。": "Edit a shot draft to generate replacement assets or export a prompt.", "缩小时间线": "Reduce the timeline", "自动拆解": "Auto-split", "自动识别平台，一次拆解一条视频。粘贴后点击下方按钮开始。": "Auto-identify platforms; split one video at a time. Paste and click the button below to start.", "自动附上中文译文": "Automatically add Chinese translation", "自定义分析选项": "Customize analysis options", "色相": "Hue", "芫荽体": "Tuihua font", "英文口播": "English speech", "英文画面文字、英文和日语口播会写进报告。": "English screen text and Japanese voiceover should be included in the report.", "英语": "English", "英语中译": "English to Chinese", "补充 / 更新中文译文": "Add / update Chinese translation", "补充译文与口播识别": "Add translation and voiceover recognition", "裁剪与填充": "Cutting and Filling", "裁剪为 ": "Cut to ", "裁剪右侧": "Cut on the right side", "裁剪左侧": "Cut on the left side", "裁剪底部": "Cut at the bottom", "裁剪比例": "Cutting ratio", "裁剪顶部": "Cut at the top", "西班牙语": "Spanish", "视频处理流程": "Video processing workflow", "视频已下载，正在自动拆解。": "Video downloaded, currently auto-dismantled.", "视频或音频": "Video or audio", "视频拆解": "Video breakdown", "视频拆解已完成。": "Video disassembly completed.", "视频文件": "Video file", "视频来源": "Video source", "视频生成": "Video generation", "视频生成任务": "Video generation task", "视频生成设置": "Video generation settings", "视频轨": "Video track", "视频轨 {0}": "Video track {0}", "视频预览": "Video preview", "记录字幕、标题、花字等出现的时间": "Record the time when subtitles, titles, and animated text appear", "设置": "Settings", "设置 Agent 连接": "Set Agent connection", "设置分类": "Set category", "设置参考帧，准备和预览逐镜生成任务。": "Set reference frames and preview generation jobs for each shot.", "设置模型": "Set model", "评测标注集…": "Evaluate annotation set…", "识别口播并生成 SRT": "Identify speech and generate SRT", "识别字幕和画面包装": "Identify subtitles and video packaging", "识别画面文字": "Identify video text", "诊断已复制": "Diagnose copied content", "诊断已选中，请按 Ctrl+C 复制": "Diagnosed and selected; press Ctrl+C to copy", "译文加入时间线": "Add translation to timeline", "试听 {0}": "Preview {0}", "试听、分离人声和配乐，设置成片声音。": "Listen test, separate voice and music, set as final audio", "试听混音": "Listen to mix", "试听音轨": "Listen to track", "试播": "Pre-release", "请填写字幕文字，或用「撤销修改」恢复。": "Please enter subtitle text, or use “Undo” to revert.", "请将播放头移到片段内部再分割。": "Move the playhead inside the clip before splitting.", "请查看任务日志或选择其他视频。": "Please check the task log or select another video.", "请检查字幕的开始与结束时间。": "Please verify the start and end time of subtitles.", "请求未完成。": "Request not completed.", "请输入字幕文字，或撤销修改。": "Please enter subtitle text, or undo the modification.", "请重新打开工作台以加载新版高级工具。": "Please reopen the workbench to load the new advanced tools.", "读分镜、改项目、导出成片": "Frame reading, project editing, and video export", "读取分镜": "Read shot list", "读取参考帧": "Read reference frame", "读取字幕与中译": "Read subtitles and translation", "调整右侧面板宽度": "Adjust the width of the right-side panel", "调整成片音量与混音": "Adjust the audio and mixing levels of the video clip", "调整时间线高度": "Adjust the height of the timeline", "调整混音": "Adjust the mixing", "调用模型生成…": "Call the model to generate…", "调用视频模型": "Call the video model", "调色": "Color correction", "调节": "Adjust", "起止时间需在视频范围内，且结束晚于开始。": "The start and end times must be within the video range, and the end time should be later than the start time.", "跟随系统": "System default", "轨道": "Track", "轨道编辑": "Edit tracks", "转写口播为 SRT": "Convert the spoken text into SRT format", "转化引导线索": "Call-to-action clues", "转化率": "Conversion rate", "转化率 %": "Conversion rate %", "输入字幕文字": "Enter subtitle text", "输入当前镜头的提示词": "Enter the prompt for the current shot", "运行环境": "Running environment", "返回工作区": "Return to the workspace", "返回工作台": "Return to the workbench", "返回当前视频": "Return to the current video", "返回编辑属性": "Return to editing properties", "还有未保存的字幕修改，关闭会放弃这些修改。确定关闭吗？": "There are unsaved subtitle modifications. Closing will lose these changes. Are you sure you want to close?", "这个项目还没有已保存的对话。": "This project has no saved conversations yet.", "进行中": "In progress", "连接 Agent": "Connect to Agent", "连接后检测工作台工具": "Connect to check workbench tools", "连接失败": "Connection failed", "连接或执行失败": "Connection or execution failed", "连接本机或局域网": "Connect to local machine or local network", "连接组件": "Connect components", "退出码 ": "Exit code ", "选一个 Agent 处理视频": "Select an Agent to process the video", "选择": "Choose", "选择 ": "Choose ", "选择 .env 文件…": "Select the .env file…", "选择 Agent": "Select an Agent", "选择参考": "Select reference", "选择参考视频": "Select a reference video", "选择字幕轨": "Select the subtitle track", "选择已安装的 capsule-cinema 目录…": "Select the installed capsule-cinema directory…", "选择已安装的命令或启动程序…": "Select the installed command or startup program…", "选择提示词节点": "Select the prompt node", "选择文件…": "Select a file…", "选择替换视频": "Choose replacement", "选择有视频输出的工作流…": "Select a workflow with video output…", "选择本地视频": "Choose local video", "选择本地视频，或粘贴抖音 / TikTok 链接。": "Select a local video, or paste a TikTok link.", "选择画面中的镜头": "Select shots in the scene", "选择素材文件夹": "Choose media folder", "选择视频": "Select a video", "选择视频，自动生成分镜、字幕和中文译文。": "Select a video to automatically generate storyboards, subtitles, and Chinese translations.", "选项": "Option", "通用": "General", "速度": "Speed", "配乐与环境声": "Music and ambience", "配乐与配音": "Music & voice-over", "配乐轨": "Music track", "配置": "Configuration", "配置 ": "Configuration ", "配置本机 Agent": "Configure local agent", "配置视频生成": "Configure video generation", "配音轨": "Voice-over track", "重新下载并拆解": "Re-download and break down", "重新分离人声与配乐": "Re-separate voice and music", "重新加载": "Reload", "重新定位原片": "Relocate original footage", "重新拆解为新项目": "Break down into new projects", "重新检测": "Re-check", "重新识别口播": "Re-identify speech", "重新连接": "Reconnect", "重置镜头属性": "Reset shot properties", "重试下载并拆解": "Try downloading and breaking down", "重试保存": "Try saving", "重试未完成，请查看该步骤的提示。": "Retry failed. Check the step details.", "重试此步": "Retry step", "重连": "Reconnect", "未找到": "Not found", "待配置": "Set up", "未启用": "Disabled", "连接中…": "Connecting…", "铺满外框": "Fill with border", "链接拆解": "Link breakdown", "锁定宽高比": "Lock aspect ratio", "错误 ": "Error ", "镜头": "Shot", "镜头 ": "Shot ", "镜头 {0}": "Shot {0}", "镜头 {0} · 素材预览": "Shot {0} · media preview", "镜头 {0} 的卖点要求": "Selling point for shot {0}", "镜头 {0} 的替换素材": "Replacement for shot {0}", "镜头内入点（秒）": "Shot in point (s)", "镜头内出点（秒）": "Shot out point (s)", "镜头宽度 W": "Shot width W", "镜头属性类别": "Shot property category", "镜头属性面板": "Shot property panel", "镜头替换素材已导入": "Shot replacement material imported", "镜头类型": "Shot type", "镜头高度 H": "Shot height H", "间隔秒数": "Interval seconds", "随片段时长推进": "Progress with clip duration", "需要先配置模型服务": "Model service configuration required", "需配置模型服务，会向该服务发送视频素材": "Configure a model service to analyze video footage.", "霞鹜文楷": "Xi Wu Wen Kai", "霞鹜文楷屏幕阅读版": "Xi Wu Wen Kai Screen Reader Version", "霞鹜文楷等宽（繁体）": "Xi Wu Wen Kai Equal-width (Traditional)", "霞鹜文楷（繁体）": "Xi Wu Wen Kai (Traditional)", "霞鹜漫黑": "Xi Wu Man Hei", "静音": "Mute", "静音原声预览": "Mute Original Sound Preview", "静音输出": "Mute Output", "音轨混音": "Track Mixing", "音量": "Volume", "音量 %": "Volume %", "音频": "Audio", "音频入点（秒）": "Audio in point (s)", "音频出点（秒）": "Audio out point (s)", "音频片段": "Audio clip", "音频试听": "Audio Test Playback", "音频轨": "Audio track", "音频轨 {0}": "Audio track {0}", "顶对齐": "Top Alignment", "项目保存位置": "Project folder", "项目保存到": "Save Project to", "项目和工作区": "Project and Workspace", "项目字幕轨": "Project Subtitles Track", "项目对话历史": "Project chat history", "项目工具": "Project tools", "项目已打开": "Project opened", "项目数据与批量评测": "Project Data and Batch Evaluation", "项目文件夹": "Project folder", "预览任务": "Preview Task", "预览字幕": "Preview Subtitles", "预览无法播放": "Preview Not Playable", "预览替换": "Preview Replacement", "预览模式": "Preview Mode", "预览素材": "Preview Assets", "预览镜头 {0} 的替换素材": "Preview replacement for shot {0}", "预设": "Preset", "颜色": "Color", "颜色模式": "Appearance", "饱和度": "Saturation", "首帧": "First Frame", "首次转化引导": "First conversion guidance", "马善政毛笔": "Ma Shanzheng brush", "高级": "Advanced", "高级工具分类": "Advanced tools category", "黑体": "SimHei", "黑白": "Black and white", "默认生成引擎": "Default generation engine", "默认设置即可开始。完成后先查看译文，再按需修改和导出。": "Start with the defaults. Review the translation, make edits, and export.", "龙藏体": "Longcang type", "{0} 个文件": "{0} file(s)", "{0} 条手动字幕将随成片导出": "Includes {0} manual captions", "保留当前响度": "Keep current loudness", "分辨率": "Resolution", "包含声音": "Include audio", "压缩效率更高": "More efficient compression", "原始": "Original", "另存一份 MP4 对比视频": "Also saves an MP4 comparison", "响度": "Loudness", "字幕格式": "Subtitle format", "字幕轨": "Subtitle track", "字幕轨 {0}": "Subtitle track {0}", "视频素材": "Video clip", "撤销移动字幕": "Undo moving captions", "目标字幕轨已变化，请重新选择。": "The destination subtitle track changed. Select it again.", "目标音轨已变化，请重新选择。": "The destination audio track changed. Select it again.", "完整适配": "Fit entire frame", "导出摘要": "Export summary", "导出类型": "Export type", "导出预设": "Export preset", "尺寸": "Dimensions", "帧率": "Frame rate", "成片": "Final video", "打开导出位置": "Open export folder", "文件名": "File name", "更多设置": "More settings", "最高": "Maximum", "未能提交导出，请检查当前编辑内容。": "Could not start export. Check the current edits.", "标准": "Standard", "格式": "Format", "横屏 1080p": "Landscape 1080p", "没有可导出的音轨。请启用音轨或选择外部音频。": "Enable an audio track or select an external audio file to export.", "沿用项目": "Match project", "用于后续剪辑": "For further editing", "画幅": "Aspect ratio", "画质": "Quality", "画面填充": "Framing", "竖屏 1080p": "Portrait 1080p", "视频": "Video", "视频编码": "Video codec", "请先添加手动字幕，或在字幕与翻译中生成口播字幕。": "Add manual captions or generate subtitles in Subtitles & Translation.", "适合在网页使用": "For use on the web", "适合日常分享和上传": "For sharing and uploading", "选择格式与保存位置": "Choose a format and location", "铺满画幅": "Fill canvas", "附加音频 {0} 段": "{0} additional audio clip(s)", "音频格式": "Audio format", "项目帧率（{0} fps）": "Project rate ({0} fps)", "高": "High", "请输入有效的文件名。": "Enter a valid file name.", "请选择支持的导出格式。": "Choose a supported export format.", "请选择有效的响度。": "Choose a valid loudness setting.", "请选择有效的视频输出设置。": "Choose valid video export settings.", "当前项目已切换，请重新打开导出窗口。": "The project changed. Reopen the export dialog.", "所选字幕轨在当前时间线内没有字幕。": "The selected track has no subtitles on this timeline.", "正在编码成片": "Encoding video", "正在写入导出文件": "Writing export files", "正在导出音频": "Exporting audio", "正在导出字幕": "Exporting subtitles", "导出文件为空。": "The exported file is empty.", "文件已导出": "Export complete", "已打开导出目录": "Export folder opened", "打开文件": "Open file", "CapCut 按保存位置读取素材，建议直接导出到它的草稿目录。": "CapCut reads media from the export location. Save directly into its drafts folder.", "仅时间线字幕": "Timeline captions only", "剪映专业版": "Jianying Pro", "剪辑工程": "Editing project", "剪辑软件": "Video editor", "可选择剪辑软件设置里的草稿目录，也可把导出位置设为它的草稿目录。": "Select the drafts folder in your editor's settings, or set that folder to this export location.", "复制完整素材，并保留分镜、附加视频和音频轨道。调色、裁剪和动画随对应的片段输出。": "Copies complete media and keeps shots, overlays and audio tracks. Color adjustments, crops and animations are rendered into their clips.", "导出后回到剪辑软件首页，从本地草稿打开。": "After exporting, open the draft from your editor's home screen.", "导出草稿": "Export draft", "打开文件夹": "Open folder", "时间线上的手动字幕会作为可编辑文字导出。": "Manual captions on the timeline are exported as editable text.", "更改草稿保存位置": "Change draft location", "素材和轨道": "Media and tracks", "草稿名称": "Draft name", "草稿文件夹": "Draft folder", "视频格式": "Video format", "附加字幕轨": "Additional subtitle track", "请选择要使用的剪辑软件。": "Select a video editor.", "正在导出剪辑工程": "Exporting editing project", "正在准备工程素材": "Preparing project media", "正在写入剪辑工程": "Writing editing project", "剪辑工程已导出": "Editing project exported", "导出结果已打开": "Export opened", "预计大小": "Estimated size", "预计总大小": "Estimated total size", "按导出参数估算，实际大小随素材内容变化。": "Estimated from export settings. The actual size depends on the media.", "最小化窗口": "Minimize window", "最大化窗口": "Maximize window", "还原窗口": "Restore window", "窗口控制": "Window controls", "导入剪辑素材": "Import editing media", "导入视频剪辑": "Import a video to edit", "直接剪辑当前视频": "Edit the current video", "等待导入视频": "Import a video to start", "导入视频后，点击时间线上的片段开始编辑。": "Select a clip on the timeline after importing your video.", "视频轨道为空": "Video track is empty", "撤销删除可恢复片段。": "Undo deletion to restore the clip.", "播放或暂停（空格）": "Play or pause (Space)", "剪辑工程已创建": "Editing project created", "无法读取这个视频，请选择可播放的视频文件。": "Couldn't read this video. Select a playable video file.", "已撤销字幕编辑": "Caption edit undone", "撤销时间线编辑": "Undo timeline edit", "撤销移动片段": "Undo clip move", "主轨磁吸": "Main track magnet", "自动吸附": "Auto snapping", "开关主轨磁吸。开启时让分镜首尾相接。": "Toggle the main track magnet to keep clips together.", "拖动时对齐附近的片段边缘和播放头。": "Snap dragged clips to nearby clip edges and the playhead.", "撤销主轨磁吸": "Undo main track magnet", "这条轨道没有足够的空位。": "There is not enough space on this track.", "同一字幕轨的片段不能重合。": "Captions on the same track cannot overlap.", "请选择 WorkBuddy 的 ACP 命令行": "Select the WorkBuddy ACP CLI", "选择 WorkBuddy 企业版提供的 CodeBuddy Code 命令行，以 ACP 模式连接。": "Select the CodeBuddy Code CLI from WorkBuddy Enterprise to connect via ACP.", "撤销添加字幕": "Undo adding a caption", "撤销编辑字幕": "Undo caption edit", "撤销删除字幕": "Undo caption deletion", "撤销导入字幕": "Undo caption import", "撤销编辑镜头属性": "Undo clip properties", "撤销替换素材": "Undo media replacement", "撤销移除替换素材": "Undo removing replacement media", "撤销调整混音": "Undo mix adjustment", "撤销编辑提示词": "Undo prompt edit", "撤销校对字幕": "Undo subtitle correction", "撤销保存版本": "Undo saving a version", "撤销切换版本": "Undo version restore", "撤销批量替换素材": "Undo batch replacement", "撤销更换参考图": "Undo reference image change", "想怎么剪辑或分析这条视频？": "How would you like to edit or analyze this video?", "把开头 1 秒和结尾 1 秒剪掉，保留中间内容。": "Trim the first and last second, keeping the middle.", "试试自动剪辑": "Try automatic editing", "描述要剪辑或分析的内容…": "Describe what to edit or analyze…", "例如：剪掉开头 2 秒，把最后一个镜头移到最前。": "For example, trim the first 2 seconds and move the last shot to the beginning.", "读取剪辑时间线": "Read the editing timeline", "应用时间线剪辑": "Apply timeline edits", "创建剪辑工程": "Create an editing project", "已创建剪辑工程": "Editing project created", "已读取当前剪辑时间线": "Editing timeline loaded", "已读取时间线素材帧": "Timeline frame retrieved", "当前时间线已符合这次剪辑": "The timeline already matches this edit", "从一段素材开始剪辑": "Start with a clip", "添加原始视频，然后告诉 Agent 想剪成什么样。": "Add raw footage and tell the agent what you want to make.", "把这段素材剪成一条节奏明快的产品短片，开头先展示亮点。": "Turn this footage into a fast-paced product video and lead with the highlights.", "添加剪辑素材": "Add footage", "更换剪辑素材": "Replace attached footage", "移除剪辑素材": "Remove attached footage", "正在添加素材 {0}%": "Adding footage {0}%", "查看原始素材": "Review raw footage", "正在查看原始素材": "Reviewing raw footage", "素材预览已准备好": "Footage preview ready", "正在检测素材分段和静音": "Finding scene changes and silence", "正在生成带时间码的素材预览": "Preparing timestamped previews", "正在识别素材口播": "Transcribing source audio", "已查看素材画面和时间码": "Reviewed the footage and timestamps", "制作素材初稿": "Make a first cut", "成片初稿已在时间线打开": "First cut opened on the timeline", "渐显": "Fade in", "放大": "Zoom in", "缩小进入": "Scale down in", "弹入": "Pop in", "向左滑入": "Slide in left", "向右滑入": "Slide in right", "向上滑入": "Slide in up", "向下滑入": "Slide in down", "旋转进入": "Spin in", "模糊渐显": "Blur in", "甩入": "Whip in", "摇摆进入": "Swing in", "渐隐": "Fade out", "缩小消失": "Shrink and fade", "放大消失": "Grow and fade", "向左滑出": "Slide out left", "向右滑出": "Slide out right", "向下滑出": "Slide out down", "旋转消失": "Spin out", "模糊消失": "Blur out", "呼吸": "Breathe", "漂浮": "Float", "摇摆": "Sway", "抖动": "Shake", "心跳": "Heartbeat", "闪烁": "Blink", "缓慢推进": "Slow push-in", "入场预设": "Entrance presets", "出场预设": "Exit presets", "循环预设": "Loop presets", "试播入场": "Preview entrance", "试播出场": "Preview exit", "试播循环": "Preview loop", "无可导出的字幕": "No subtitles to export", "实拍": "Live action", "影视片段": "Film footage", "AI 生成视频": "AI-generated video", "数字人": "Digital avatar", "3D 渲染": "3D render", "2D 动画": "2D animation", "定格动画": "Stop motion", "代码 / 模板渲染": "Code / template render", "录屏截图": "Screen capture", "静图推拉": "Still image pan and zoom", "静帧": "Freeze frame", "待确认": "Pending review", "定位{0}音频": "Seek in {0}", "{0} · {1} 句": "{0} · Cues: {1}", "{0} {1}，{2}": "{0} {1} · {2}", "缺少连接组件": "Connection component missing", "未检测到本机程序": "Local program not found", "指定程序已移动": "Selected program moved", "指定连接组件已移动": "Selected connection component moved", "需要 Node.js 运行连接组件": "Node.js is required for the connection component", "视频元数据": "Video metadata", "抽帧图已生成": "Frame sheet generated" }, "es": { "更多操作": "Más acciones", "执行步骤": "Pasos de ejecución", "查看任务进度": "Ver progreso de la tarea", "任务产出": "Resultados de la tarea", "还有 {0} 个结果": "{0} resultados más", "回复表格": "Tabla de la respuesta", "{0} 个步骤": "{0} pasos", "{0} 秒": "{0} s", "安装本机程序后，点「重新检测」再连接。": "Tras instalar el programa local, vuelve a detectar los agentes para conectarte.", "常用": "Habituales", "其他 Agent": "Otros agentes", "连接": "Conectar", "连接设置": "Ajustes de conexión", "正在安装…": "Instalando…", "连接组件已安装": "Componente de conexión instalado", "安装包含 npm 的 Node.js 后，再点「安装连接组件」。": "Instala Node.js con npm y luego selecciona Instalar componente de conexión.", " · 分析引擎 ": " · Motor de análisis ", " · 替换预览": " · Previsualización de reemplazo", " · 构建 ": " · Construcción ", " · 点击波形定位原片": " · Haga clic en la onda para localizar el original", " · 镜头 {0}": " · Plano {0}", " 个": " elementos", " 个镜头": " planos", " 个镜头 · ": " planos · ", " 个镜头 · 已替换 ": " planos · reemplazados ", " 像素": " píxel", " 入口…": " Entrada…", " 句": " frase", " 可连接": " Conectable", " 条手动字幕将随成片导出": " Un subtítulo manual se exportará con el video final", " 款）": " versión)", " 的提示词": " prompt", " 秒": " segundos", " 页": " página", "3 秒留存": "Retención en 3 segundos", "3 秒留存率 %": "Retención a 3 s %", "< 0.1 秒": "< 0.1 s", "AI 深度分析": "Análisis profundo de IA", "API 工作流 JSON": "Flujo API JSON", "Agent 任务进度": "Progreso de tarea", "Agent 指令": "Instrucción para Agent", "Agent 指令面板": "Panel de instrucciones", "Agent 正在执行上一条指令。": "Está ejecutando la instrucción anterior.", "Agent 设置": "Configuración", "Agent 选项": "Opciones", "BIZ UDP明朝": "BIZ UDP antiguo", "BIZ UD明朝": "BIZ UD antiguo", "ComfyUI 生成": "Generación ComfyUI", "ComfyUI 设置已保存": "Configuración de ComfyUI guardada", "MP4、MOV、MKV、WebM 等常用格式": "Formats comunes: MP4, MOV, MKV, WebM, etc.", "Noto 宋体（简体）": "Noto Simplified", "Noto 明体（繁体）": "Noto Traditional", "Noto 黑体（简体）": "Noto Simplified", "Noto 黑体（繁体）": "Noto Traditional", "WDXL 圆体（简体）": "WDXL Regular", "WDXL 圆体（繁体）": "WDXL Traditional", "Zen オールド明朝": "Zen Old Serif", "Zen 丸ゴシック": "Zen Monospace", "Zen 紅道": "Zen Red Path", "{0} 秒 · {1} 个镜头 · 平均 {2} 秒": "{0} s · {1} planos · {2} s de media", "{0}面板": "Panel de {0}", "{0}音量": "Volumen de {0}", "さわらび明朝": "Sawarabi Serif", "しっぽり明朝": "Shippori Serif", "ひな明朝": "Hina Mincho", "キウイ丸": "Círculo Kiuai", "上": "Arriba", "上下拖动调整高度，双击恢复默认": "Arrastra para ajustar altura, doble clic para volver a los valores por defecto", "上传本地视频，或粘贴链接自动下载并拆解。": "Sube video local o pega enlace para descargar automáticamente y descomponer", "下": "Abajo", "下载并开始拆解": "Descarga y comienza la descomposición", "下载视频": "Descargar video", "不发送参考帧": "No enviar fotogramas de referencia", "不透明度": "Opacidad", "中文": "Chino", "中文 / 英文": "Chino / Inglés", "中文译文": "Traducción al chino", "为此项目补充 / 更新译文": "Agregar / actualizar traducción para este proyecto", "也可以把视频文件拖到时间线上的镜头。": "También puede arrastrar el archivo de video a la escena en la línea de tiempo", "也可拖动画面里的字幕移动，拖动角点缩放。": "También se puede arrastrar el subtítulo en la escena y moverlo, escalar los puntos de agrupamiento", "交给 Agent": "Enviar a Agent", "产品文字线索": "Indicios del producto", "亮度": "Brillo", "人声": "Voz", "从一条参考视频开始": "Comenzar con un video de referencia", "任务 ": "Tarea ", "任务失败 · ": "Error en la tarea · ", "任务已停止，分享内容已保留。": "La tarea se detuvo, pero el contenido compartido se mantiene. Puedes comenzar de nuevo.", "任务已停止，分享内容已保留，可以重新开始。": "Diario de tarea", "任务日志": "Registro de tareas", "任务累计耗时": "Tiempo total", "任务阶段 ": "Fuente SimSun ", "仿宋": "Posición y tamaño", "位置与大小": "Tú", "你": "Usar original", "使用原": "Usar imagen original", "使用原片": "Usar Python predeterminado del directorio backend", "使用后端目录的默认 Python": "Usar servicio de modelo configurado", "使用已配置的模型服务": "Usar motor predeterminado", "使用默认引擎": "Por ejemplo: analizar los primeros 3 segundos o añadir un subtítulo de ventaja del producto en la segunda escena.", "例如 A 版 · 快节奏": "Por ejemplo versión A · ritmo rápido", "例如 展示产品实际使用效果": "Ejemplo: mostrar el producto en uso", "例如 日区 15 秒商品展示": "Por ejemplo exposición de producto de 15 segundos en horario diario", "例如：分析开头 3 秒，或在第 2 镜头加入一句产品卖点字幕。": "Basado en (opcional)", "依据（可选）": "Guardar", "保存": "Guardar", "保存 ComfyUI 设置": "Guardar como MP4", "保存为一个 MP4": "Guardar configuración de análisis", "保存分析设置": "Guardar en", "保存到": "Guardar en", "保存参考模板": "Guardar plantilla de referencia", "保存字幕": "Guardar subtítulo", "保存工程音轨": "Guardar track de audio", "保存并返回导出": "Guardar y volver a exportar", "保存引擎": "Guardar motor", "保存当前剪辑、替换素材、字幕和音轨，可随时切回这个版本。": "Guarda la edición, los reemplazos, los subtítulos y el audio para recuperarlos más tarde.", "保存当前版本": "Guardar versión actual", "保存手动字幕": "Guardar subtítulo manual", "保存数据": "Guardar métricas", "保存此句并同步": "Guardar esta sección y sincronizar", "保存镜头纠正": "Guardar corrección de cámara", "保存音频位置和音量": "Guardar posición y volumen", "保留原字幕和标题": "Mantener subtítulos y títulos originales", "保留现有画面": "Conservar imagen actual", "停止": "Detener", "停止任务": "Detener tarea", "先拆解视频，或打开一个已有项目。": "Descomponer video o abrir proyecto existente", "入场": "Entrada", "全屏预览": "Vista previa en pantalla completa", "全片概览": "Resumen de la película", "关闭": "Cerrar", "关闭字幕编辑": "Cerrar edición de subtítulos", "关闭提示": "Cerrar notas", "关闭校对": "Cerrar corrección de texto", "关闭窗口": "Cerrar ventana", "关闭素材预览": "Cierra la vista previa del material", "兼容预览": "Vista previa compatible", "出场": "Salida", "分割": "Dividir", "分离人声与配乐": "Separar voz y música", "分离音轨": "Separar track de audio", "分镜": "Planos", "分镜、字幕和中译": "Planos, subtítulos y traducción", "分镜时间线": "Línea de tiempo de planos", "分镜轨道为空。": "La pista de vídeo está vacía.", "切换模型或 Agent · ": "Modelo de cambio o Agent · ", "刘建毛草": "Liu Jianmao Cao", "删除": "Eliminar", "删除所选片段（Backspace）": "Eliminar clip seleccionado (Backspace)", "前 3 秒切镜": "Cambia el primer 3 segundos", "前 3 秒有 {0} 次切镜": "{0} cortes en los primeros 3 segundos", "前移": "Mover antes", "剪辑": "Edición", "剪辑包装 ASS": "Empaquetado de edición ASS", "剪辑画面": "Imágenes de edición", "剪辑预览": "Vista previa de edición", "功能导航": "Navegación de funciones", "加入字幕轨": "Añadir track de subtítulos", "加入混音": "Añadir mezcla", "加粗": "Negrita", "动画": "Animación", "动画时长（秒）": "Duración de animación (segundos)", "动画阶段": "Etapa de animación", "动画预设": "Presets de animación", "单击选择字幕，拖动调整位置": "Haga clic para seleccionar subtítulos y arrastre para ajustar posición", "单文件工具": "Herramienta de archivo único", "单独处理其他音频文件…": "Procesar otros archivos de audio por separado…", "卖点要求": "Argumento de venta", "卖点证明线索": "Indicios de demostración", "压制字幕到视频": "Compilar subtítulos en video", "原声": "Audio original", "原声包含人声和背景声。若使用分离后的人声、配乐，关闭原声可避免叠音。": "Audio original con voz y sonido de fondo. Si usa voz separada y música, desactiva el audio original para evitar repeticiones.", "原声已经包含人声和背景声，改用分离音轨时应关闭原声，避免声音重叠。": "La voz original incluye voz humana y sonido de fondo. Debe desactivar la voz original al separar los tracks para evitar superposición de sonido.", "原片": "Versión original", "原片已移动": "La versión original se ha movido", "原片预览": "Vista previa original", "参考": "Referencia", "参考原片": "Referencia a la versión original", "参考图": "Imagen de referencia", "参考帧识别取决于模型": "La identificación de fotogramas de referencia depende del modelo", "参考帧输入": "Entrada de fotograma de referencia", "参考片": "Película de referencia", "参考视频": "Video de referencia", "参考视频已导入": "El video de referencia ha sido importado", "双击空白处添加字幕": "Doble clic en el espacio para agregar subtítulos", "双语字幕校对": "Corrección de subtítulos bilingües", "发消息给 Agent": "Enviar mensaje a Agent", "发送": "Enviar", "发送到已配置的工作流。": "Enviar a un flujo configurado.", "取消": "Cancelar", "取消并返回导出": "Cancelar y volver a la exportación", "口播": "Locución", "口播识别语言": "Idioma reconocido en la voz", "口播语言自动识别；此项用于识别画面上的文字。": "Reconocimiento automático del idioma de la voz; se utiliza para identificar texto en la imagen.", "口播转写与音轨分离": "Transcripción de voz y separación de tracks", "另存字幕文件": "Guardar archivo de subtítulos", "只运行当前镜头": "Ejecutar solo la escena actual", "可在视频生成设置接入 ComfyUI": "Se puede integrar ComfyUI en la configuración de generación de video", "可在设置中重新检测本机 Agent。": "Puede volver a detectar el agente local en los ajustes.", "可生成一份兼容预览。": "Se genera una versión compatible para visualización.", "可继续浏览分镜。原片可在高级工具中重新定位。": "Se puede seguir explorando los planos. El video original se puede reubicar en las herramientas avanzadas.", "可调用已配置的 ComfyUI": "Se puede llamar al ComfyUI configurado", "可选中结果文本后复制。": "Selecciona el texto resultante y luego copia.", "右": "Derecha", "右对齐": "Justificación a la derecha", "同时导出对比视频": "Exporta también el video de comparación.", "后移": "Mover después", "后端 Python": "Backend: Python", "后端目录": "Directorio backend", "向右转 90 度": "Gira 90 grados hacia la derecha", "向左转 90 度": "Gira 90 grados hacia la izquierda", "启用 ": "Habilitar ", "告诉 Agent 要做什么": "Indica al agente qué hacer", "周期": "Ciclo", "和首帧": "y primer fotograma", "回到时间线": "Volver a la línea de tiempo", "国内": "Nacional", "国际与开源": "Internacional y open source", "图像与视频分析服务": "Servicios de análisis de imágenes y videos", "图片已移动 · ": "La imagen se ha movido · ", "在 ComfyUI 里用「导出（API）」保存视频工作流，再在此选择。": "Guarda la flujo de video en ComfyUI con «Exportar (API)» y luego elige aquí.", "在原片上压制当前字幕轨": "Aplica el track de subtítulos actual en el video original", "在播放头位置添加字幕": "Añadir subtítulos en la posición de reproducción", "在播放头分割": "Dividir en el cursor", "在混音面板选择使用哪些音轨，保存后用于成片导出。": "Seleccionar pistas en panel de mezcla, guardar y exportar el video", "垂直位置 Y": "Posición vertical Y", "垂直对齐": "Alineación vertical", "垂直居中": "Centrar verticalmente", "垂直翻转": "Invertir verticalmente", "填写判断依据": "Escribir criterios de evaluación", "声音与混音": "Audio y mezcla", "处理外部字幕文件…": "Procesar archivos de subtítulos externos…", "处理项目字幕、外部视频或音频。": "Gestiona los subtítulos del proyecto y los archivos externos.", "复制失败，可手动选中文字复制。": "Error al copiar, puede seleccionar texto manualmente para copiar", "复制提示词": "Palabra clave de copia", "复制结果": "Resultado de la copia", "复制诊断": "Diagnóstico de copia", "外部 SRT / ASS 文件": "Archivos externos SRT / ASS", "外部字幕与音频": "Subtítulos y audio externos", "外部字幕文件": "Archivo de subtítulos externo", "外部音频": "Audio externo", "失败": "Falló", "失败阶段 ": "Etapa de error ", "媒体无音轨": "No hay pistas de sonido en el medio", "字体": "Fuente tipográfica", "字体 · ": "Tipo de fuente · ", "字体库": "Biblioteca de fuentes", "字体语言": "Idioma de la fuente", "字号": "Tamaño de letra", "字号（像素）": "Tamaño de letra (píxeles)", "字幕": "Subtítulos", "字幕 ": "Subtítulos ", "字幕、报告和 SRT 已同步保存": "Subtítulos, informes y SRT guardados simultáneamente", "字幕与翻译": "Subtítulos y traducción", "字幕位置与大小": "Posición y tamaño de subtítulos", "字幕内容": "Contenido de los subtítulos", "字幕列表": "Lista de subtítulos", "字幕原文": "Texto original del subtítulo", "字幕垂直位置": "Posición vertical del subtítulo", "字幕属性类别": "Categoría de atributos del subtítulo", "字幕来源": "Fuente de subtítulos", "字幕水平位置": "Posición horizontal del subtítulo", "字幕组": "Grupo de subtítulos", "字幕编辑": "Edición de subtítulos", "字幕编辑面板": "Panel de edición de subtítulos", "安装说明": "Instrucciones de instalación", "安装连接组件": "Instalar componente de conexión", "宋体": "Tipo de letra Song", "完成": "Listo", "完成拆解后，点击时间线上的镜头查看和替换素材。": "Después de desmontar, haga clic en la cámara en la línea de tiempo para ver y reemplazar materiales.", "完成拆解后，点击时间线里的镜头开始编辑。": "Después de desmontar, haga clic en la cámara en la línea de tiempo para comenzar a editar.", "完整": "Completo", "完整适应": "Adaptación completa", "定位": "Posicionar", "定位原片": "Posicionar el original", "定位镜头 ": "Ir al plano ", "定位镜头 {0}": "Ir al plano {0}", "对比度": "Diferencia de contraste", "对话": "Diálogo", "导入后，在右侧确认选项并开始拆解。": "Después de importar, confirme las opciones en el lado derecho y comience el desmontaje.", "导入失败。": "Error al importar.", "导入生成结果": "Resultado del importar", "导入视频": "Importar vídeo", "导入视频后开始拆解。": "Comience el desmontaje después de importar el video.", "导入视频后，Agent 可以处理当前视频和时间线。": "Después de importar el video, el agente puede procesar el video actual y la línea de tiempo.", "导入连接中断，请重试。": "La conexión de importación se interrumpió, inténtelo de nuevo.", "导入镜头复核文件": "Importar la cámara y revisar el archivo", "导出 SRT 字幕": "Exportar subtítulos en SRT", "导出任务表": "Exportar la tabla de tareas", "导出全部提示词": "Exportar todos los prompts", "导出复刻配方需配置生成后端。": "Para exportar recetas de copia, se necesita configurar el servidor de generación.", "导出带字幕 MP4": "Exportar MP4 con subtítulos", "导出带字幕原片": "Exportar versión original con subtítulos", "导出成片": "Exportar vídeo", "导出时间线成片": "Exportar línea de tiempo", "导出纠错标签": "Exportar etiquetas de corrección", "导出视频分析 JSON": "Exportar JSON de análisis de video", "导出视频生成方案": "Exportar plano de generación de video", "导出记录": "Historial de exportación", "导出镜头复核文件": "Exportar archivo de revisión de planos", "导出音轨": "Exportar track de audio", "将当前提示词": "Cambiar el prompt actual", "将视频拖到这里，或选择电脑中的文件。": "Arrastrar el video aquí, o seleccionar un archivo del ordenador.", "将选中的字幕复制为可编辑的手动字幕": "Copiar los subtítulos seleccionados como subtítulos editables manuales", "小赖字体": "Tipo de fuente Xiaolai", "尚未生成": "Aún no generado", "尚未连接 Agent": "Aún no conectado al agente", "就绪": "Listo", "尾帧": "Frame final", "展开分离音轨": "Desplegar y separar tracks", "展开分轨": "Desplegar tracks separados", "属性": "Propiedades", "属性保存失败": "Error al guardar propiedades", "工作台工具不可用": "La herramienta de escritorio no está disponible", "工作台工具已连接": "Herramientas conectadas", "工作台设置": "Configuración", "工具分类": "Categoría de herramientas", "工具结果": "Resultados de la herramienta", "工程音轨": "Tracción de audio de ingeniería", "工程音轨混音": "Mezcla de tracción de audio de ingeniería", "左": "Izquierda", "左右拖动调整宽度；双击恢复默认": "Arrastre hacia la izquierda/derecha para ajustar el ancho; doble clic para volver al valor predeterminado", "左对齐": "Alineación a izquierda", "已保存": "Guardado", "已停止": "Detenido", "已填写": "Completado", "已完成": "Completado", "已导入参考视频": "Vídeo de referencia importado", "已导出": "Exportado", "已恢复项目会话": "Chat del proyecto restaurado", "历史会话 · 待重连": "Chat guardado · Reconectar", "在播放头分割（Ctrl+B）": "Dividir en el cabezal (Ctrl+B)", "已替换": "Reemplazado", "已有画面文字或口播里暂无明确线索。": "No hay indicios claros en el texto o la voz reconocidos.", "已检测到 · 未启用": "Detectado, no activado", "已连工作台工具": "Herramientas conectadas al escritorio", "已连接": "Conectado", "已配置工作流": "Flujo configurado", "平台元数据 JSON": "Metadatos de la plataforma en JSON", "平台数据与对比": "Métricas y comparación", "应用修剪": "Aplicar recorte", "应用批量替换": "Aplicar todos los reemplazos", "底对齐": "Alineación a fondo", "开启 AI 深度分析后，画面和音轨素材会发送给这里配置的服务。": "Una vez activado el análisis profundo de IA, los materiales de imagen y audio se envían al servicio configurado aquí.", "开场 3 秒": "Primeros 3 segundos", "开始导出": "Iniciar exportación", "开始拆解": "Analizar vídeo", "开始时间（秒）": "Tiempo de inicio (segundos)", "开始生成": "Iniciar generación", "开始秒数": "Tiempo de inicio", "开始（秒）": "Inicio (segundos)", "当前原声和分离音轨同时启用，可能出现重叠声音。请确认是否需要保留原声。": "Actualmente se activan sonido original y pistas separadas, puede haber superposición de sonidos. Verifica si es necesario mantener el sonido original.", "当前没有启用音轨，按工程音轨导出时将静音。": "No hay pistas activas en este momento; se silenciarán al exportar según las pistas de ingeniería.", "当前视频": "Vídeo actual", "当前项目": "Proyecto actual", "当前项目复核": "Revisar proyecto actual", "当前项目字幕": "Subtítulos del proyecto actual", "待保存": "Por guardar", "待校对字幕": "Por corregir los subtítulos", "得意黑": "Negro elegante", "循环": "Bucle", "循环周期（秒）": "Período de repetición (segundos)", "微软正黑体": "Microsoft JhengHei", "微软雅黑": "Microsoft YaHei", "志莽行书": "Estilo de caligrafía Zhimang", "快速旋转": "Rotación rápida", "思考强度": "Intensidad de reflexión", "恢复分镜草稿": "Restaurar borrador de cámara", "恢复原声预览": "Restaurar previsualización de sonido", "恢复完整画面": "Restaurar imagen completa", "恢复此版本": "Restaurar esta versión", "悠哉字体": "Tipo de fuente relajado", "想从这条视频了解什么？": "¿Qué quieres saber de este video?", "成片保存位置": "Carpeta de exportación", "成片剪辑": "Editar vídeo", "成片音轨": "Track de audio del video final", "所有修改已保存": "Todas las modificaciones guardadas", "手动字幕": "Subtítulos manuales", "手动字幕时间": "Horario de los subtítulos manuales", "手动字幕轨道": "Trayectoria de los subtítulos manuales", "打开 Agent 对话": "Abrir chat de Agent", "打开任务文件夹": "Abrir carpeta de tareas", "打开双语校对大面板": "Abrir panel de corrección bilingüe", "打开已有项目": "Abrir proyecto existente", "打开成片": "Abrir vídeo", "打开成片位置": "Mostrar vídeo exportado", "打开报告": "Abrir informe", "打开拆解项目": "Abrir proyecto de descomposición", "打开模板项目": "Abrir proyecto de plantilla", "打开生成素材": "Abre la generación de materiales", "打开设置": "Abrir ajustes", "打开输出文件夹": "Abrir carpeta de salida", "打开输出目录": "Abrir directorio de salida", "打开项目": "Abrir proyecto", "批量剪辑": "Edición en masa", "批量匹配与生成结果": "Comparación y generación de resultados en masa", "批量替换镜头": "Reemplazo en masa de planos", "批量生成与参考图": "Generación y imagen de referencia en masa", "批量生成后端": "Generación en masa de backend", "把识别出的字幕、标题和花字叠到替换镜头": "Superponer subtítulos, títulos y texto especializado sobre los planos reemplazados", "抖音 / TikTok 视频链接": "Enlace del video de TikTok", "报告界面语言": "Idioma de la interfaz del informe", "报告语言": "Idioma del informe", "抽帧图": "Extraer frames", "抽帧页码": "Página de extraer frames", "拆解": "Descomposición", "拆解完成后，镜头会按原片时间排在这里。": "Después de la descomposición, los planos se organizarán según el tiempo original del video.", "拆解完成的项目会保存在这里。": "Los proyectos descompuestos se guardarán aquí.", "拆解当前视频": "Analizar vídeo actual", "拆解当前视频，生成报告并列出每个镜头。": "Descomponer video actual, generar informe y listar cada plano.", "拆解或转写完成后，字幕文件会出现在这里。": "Después de descomponer o transcribir, el archivo de subtítulos aparecerá aquí.", "拆解视频后，字幕和译文会显示在这里。": "Después de descomponer el video, los subtítulos y la traducción se mostrarán aquí.", "拆解视频后，选择一个镜头生成可编辑草稿。": "Después de descomponer el video, seleccionar un plano para generar un borrador editable.", "拖入参考视频": "Arrastrar video de referencia", "拖动右端修剪": "Arrastrar el borde derecho para recortar", "拖动左端修剪": "Arrastrar el borde izquierdo para recortar", "拖动播放进度": "Mover el progreso de reproducción", "拖动缩放镜头": "Mover el zoom del video", "拖动调整字号": "Ajustar el tamaño de letra", "拼接与输出": "Unir y exportar", "按住 Ctrl 滚动滚轮缩放轨道": "Mantener presionado Ctrl y usar el scroll para zoomar el track", "按参考片的镜头时长和画幅匹配素材。确认每个素材位后，再一次应用。": "Busca coincidencias por duración y formato. Revisa cada plano antes de aplicar los reemplazos.", "按文件名匹配素材，或把生成结果导入分镜。": "Vincula archivos por nombre o importa clips generados.", "按文件名批量匹配": "Buscar en batch por nombre", "换品模板": "Plantilla de sustitución", "排版": "Diseño gráfico", "描述要拆解或查看的内容…": "Descripción a descomponer o ver…", "提取视频里已有的字幕和标题": "Extraer subtítulos y títulos del video", "提示词": "Prompt", "提示词已复制": "Prompt copiado", "提示词镜头": "Prompt y video", "搜索 Agent": "Buscar el agente", "搜索字体": "Buscar fuente de texto", "撤销": "Deshacer", "撤销修改": "Deshacer cambios", "撤销分割字幕": "Deshacer división del subtítulo", "撤销删除视频片段": "Deshacer eliminación del clip de vídeo", "撤销删除音频片段": "Deshacer eliminación del clip de audio", "撤销本轮 Agent 修改": "Deshacer cambios del Agent", "撤销添加轨道": "Deshacer añadir pista", "撤销调整字幕时长": "Deshacer recorte del subtítulo", "播放": "Reproducir", "播放或暂停": "Reproducir o pausar", "播放时间": "Tiempo de reproducción", "播放视频": "Reproducir video", "播放速度": "Velocidad de reproducción", "操作流程": "Proceso de edición", "支持 MP4、MOV、MKV、WebM 等常用格式": "Soporta formatos comunes como MP4, MOV, MKV, WebM", "支持视频或图像的模型": "Modelos de video o imagen", "收起": "Ocultar", "收起分离音轨": "Ocultar y separar tracks", "收起分轨": "Ocultar y dividir tracks", "放大参考": "Agrandar referencia", "放大抽帧图": "Agrandar gráfico de frames", "放大时间线": "Agrandar timeline", "效果": "Efectos", "文件不可用": "Archivo no disponible", "文件名可用 shot_001.mp4 或 001.mp4。生成任务也可通过 results.json 导入。": "Nombre de archivo: shot_001.mp4 o 001.mp4. La tarea de generación también se puede importar desde results.json.", "文件和项目": "Archivos y proyectos", "文件已移动 · ": "Archivo movido · ", "文字": "Texto", "文字颜色": "Color del texto", "新字幕": "Subtítulo nuevo", "新对话": "Nuevo chat", "新建拆解": "Nuevo análisis", "新建视频拆解": "Nuevo descomposición de video", "新建项目": "Nuevo proyecto", "旋转": "Rotar", "旋转角度": "Ángulo de rotación", "无": "Ninguno", "无法读取波形": "Imposible leer el patrón de ondas", "日文口播": "Voz en japonés", "日语": "Japonés", "日语 / 日本語": "Japonés / 日本語", "日语中译": "Japonés a chino", "时长": "Duración", "时间": "Tiempo", "时间线位置（秒）": "Posición en la línea de tiempo (s)", "时间线剪辑": "Edición de la línea de tiempo", "时间线播放位置": "Posición en la línea de tiempo", "时间线缩放": "Escalado en la línea de tiempo", "时间线需要至少一个视频片段才能导出。": "Añade un clip de vídeo a la línea de tiempo para exportar.", "时间线预览尚未生成。": "La vista previa aún no está lista.", "时间线预览已更新": "Vista previa actualizada", "时间范围": "Rango de tiempo", "时间采用秒，支持小数。保存后会同步当前项目的报告与字幕文件。": "El tiempo se expresa en segundos con decimales. Después de guardar, se sincronizarán el informe y los archivos de subtítulos del proyecto actual.", "显示更多字体（剩余 ": "Mostrar más fuentes (restante) ", "暂无中文译文": "No hay traducción al chino", "暂无任务记录。": "No hay registros de tareas.", "暂无可校对的双语字幕，请先补充中文译文。": "No hay subtítulos bilingües para corrección. Por favor, agrega la traducción al chino primero.", "暂无字幕": "No hay subtítulos", "暂无镜头提示词": "No hay descripciones de cámara", "暂时无法读取分析。": "No se puede analizar de momento.", "暂时无法读取本机字体列表。": "Por ahora no se puede leer la lista de fuentes del dispositivo.", "暂时没有导出记录。": "Aún no hay exportaciones.", "更多工具": "Más herramientas", "更多工具工作区": "Área de trabajo de más herramientas", "更换外部音频": "Cambiar audio externo", "更换替换视频": "Cambiar y reemplazar video", "更换视频": "Cambiar video", "更换视频或粘贴链接": "Cambiar video o pegar enlace", "更改": "Modificar", "更改成片保存位置": "Cambiar ubicación de guardado del video", "更新剪辑预览": "Actualizar vista previa", "替换素材": "Reemplazar material", "替换素材已移动，显示原片": "Material reemplazado movido, muestra el original", "替换素材无法预览，显示原片": "Material reemplazado no se puede visualizar, muestra el original", "替换音频": "Reemplazar audio", "最近项目": "Proyectos recientes", "暂无最近项目": "No hay proyectos recientes", "项目标签": "Pestañas de proyectos", "关闭项目标签 {0}": "Cerrar la pestaña {0}", "服务地址": "Dirección de servicio", "服务配置文件": "Configuración de servicio", "未找到匹配的字体。": "No se encontró fuente de tipografía correspondiente", "本地上传": "Subir localmente", "本地上传 / 链接拆解": "Subir localmente / Descomponer enlace", "本地版": "Versión local", "本地静图重建": "Reconstruir imagen estática local", "本机": "Local", "本机 Agent": "Lista de agentes locales", "本机 Agent 列表": "Lista de agentes locales", "本机程序": "Programa local", "本次会话密钥": "Clave de sesión actual", "本次指令未完成": "Instrucción actual no completada", "本轮 Agent 修改": "Cambios del Agent", "机器识别和翻译建议人工校对。": "La reconocimiento y traducción por máquina requieren corrección manual.", "松开以导入视频": "Suelta para importar video.", "柔焦": "Suavización de focos.", "查看与修改": "Ver y modificar.", "查看剪辑后的画面": "Ver el video después del edición.", "查看原片画面": "Ver el video original.", "查看字幕文件": "Ver el archivo de subtítulos.", "查看开头 3 秒": "Ver los primeros 3 segundos.", "查看拆解设置": "Ver configuración de descomposición.", "查看本机纠错记忆": "Ver memoria de corrección local.", "查看的字幕": "Subtítulos visualizados.", "查看精简结论": "Ver conclusión simplificada.", "查看视频参数": "Ver parámetros del video.", "检查与抽帧": "Comprobar y extraer fotogramas.", "检查本机运行环境": "Comprobar el entorno de ejecución local.", "检查视频、抽帧和复核项目。": "Inspecciona vídeos, extrae fotogramas y revisa proyectos.", "检测到的本机 Agent 会出现在左下角菜单。启用后即可选择，登录沿用各 Agent 的账号。": "El agente local detectado aparecerá en el menú inferior izquierdo. Una vez activado, se puede seleccionar; iniciar sesión usando la misma cuenta de todos los agentes.", "检测后端": "Detección de backend.", "楷体": "Tipo de letra Kaishu.", "模型": "Modelo.", "模型名": "Nombre del modelo.", "模板名": "Nombre de la plantilla", "正向提示词输入": "Ingreso de prompt positivo.", "正在下载视频…": "Está descargando el video…", "正在下载视频，完成后会自动开始拆解。": "Está descargando el video; se iniciará la descompresión automáticamente una vez completada.", "正在保存…": "Está guardando…", "正在停止": "Está deteniéndose.", "正在准备…": "Está preparándose…", "正在处理…": "Está procesando…", "正在导入 · ": "Está importando… ", "正在导入视频": "Está importando el video.", "正在执行": "En ejecución", "正在提交…": "Está enviando…", "正在更新时间线预览": "Actualizando vista previa", "正在更新时间线预览…": "Actualizando vista previa…", "正在检测本机 Agent": "Está detectando el agente local.", "正在检测本机 Agent…": "Está detectando el agente local…", "正在生成兼容预览": "Está generando una vista compatible.", "正在生成试听音频…": "Está generando un audio de prueba…", "正在生成预览…": "Está generando una vista…", "正在自动拆解…": "Está descomponiendo automáticamente…", "正在读取…": "Cargando…", "正在读取分析…": "Está analizando…", "正在读取字幕…": "Está leyendo los subtítulos…", "正在读取工作区…": "Está leyendo la zona de trabajo…", "正在读取本机字体…": "Está leyendo los fuentes locales…", "正在读取草稿…": "Está leyendo el borrador…", "正在读取视频时长…": "Está leyendo la duración del video…", "正在读取音频波形…": "Está leyendo la onda de audio…", "正在载入替换素材…": "Cargando material de reemplazo…", "正在连接…": "Conectando…", "正确类型": "Tipo correcto", "此字幕轨暂无内容，可补充译文或重新识别口播。": "Este track de subtítulos no tiene contenido. Puede añadir traducción o reconocer nuevamente la voz.", "水平位置 X": "Posición horizontal X", "水平对齐": "Alineación horizontal", "水平居中": "Centrado horizontalmente", "水平翻转": "Invertido horizontalmente", "没有匹配的 Agent。": "No hay agente correspondiente.", "沿用原片": "Manteniendo el original", "注音楷体": "Tipografía fonética regular", "注音粉圆体": "Tipografía fonética redonda", "注音芫荽体": "Tipografía fonética de yunce", "浅色": "Claro", "测试连接": "Probando la conexión", "浏览项目文件": "Explorar archivo de proyecto", "深色": "Oscuro", "添加外部音频": "Agregar audio externo", "添加字幕": "Añadir subtítulo", "添加对比项目": "Añadir proyecto para comparar", "添加素材": "Añadir medio", "添加素材到 {0}": "Añadir medio a {0}", "添加轨道": "Añadir pista", "添加配乐": "Añadir música", "添加配音 / 音效": "Añadir voz o efectos", "清除": "Eliminar", "清除此类动效": "Eliminar efectos similares", "游ゴシック": "ゴシック", "源泉圆体（繁体）": "YuanTingyuan (traducción tradicional)", "源石黑体（繁体）": "YuanShiHei (traducción tradicional)", "滑块": "Deslizador", "点击一句定位视频，打开大面板校对双语。": "Haga clic en una oración para posicionar el video y abra la pantalla grande para corregir el texto en ambos idiomas.", "点击左侧句子定位原片；修改后保存此句，报告和 SRT 会同步更新。": "Haga clic en la oración en el lado izquierdo para seleccionar la versión original; guarde la oración modificada y los informes y SRT se actualizarán simultáneamente.", "爆款分析": "Análisis viral", "版本": "Versiones", "版本名": "Nombre de la versión", "生成任务与参考图": "Generar tarea y imagen de referencia", "生成兼容预览": "Generar vista previa compatible", "生成参考图": "Generar imagen de referencia", "生成可单独试听的人声和背景声": "Generar voz y sonido de fondo para prueba independiente", "生成后端设置": "Generar configuración backend", "生成并替换当前镜头": "Generar y reemplazar la cámara actual", "生成并替换镜头": "Generar y reemplazar plano", "生成引擎": "Generar motor", "生成当前镜头提示词": "Generar prompt para la cámara actual", "生成抽帧图": "Generar imagen de extracción de fotogramas", "生成提示词": "Prompts", "生成模式": "Generar modo", "画面": "Vídeo", "画面中译": "Traducción china del texto en pantalla", "画面字幕": "Subtítulos en pantalla", "画面字幕 ": "Subtítulos de imagen ", "画面字幕识别语言": "Idioma de reconocimiento de subtítulos de imagen", "画面拖动和缩放": "Desplazamiento y escalado de la imagen", "画面效果": "Efectos de imagen", "画面文字": "Texto en pantalla", "画面文字是什么语言？": "¿En qué idioma está el texto de la imagen?", "界面与外观": "Interfaz y apariencia", "界面语言": "Idioma de la interfaz", "看一下当前项目，列出前 3 秒的分镜、画面文字和口播中译。": "Mira el proyecto actual y lista los planos de las primeras 3 segundos, el texto de la imagen y el traducción del diálogo.", "看原": "Ver original", "看译文、换镜头、调声音": "Ver traducción, cambiar cámara, ajustar sonido", "秒": "segundos", "移回底部": "volver al fondo", "移除外部音频": "eliminar audio externo", "移除替换素材": "eliminar material de reemplazo", "移除替换视频附件": "eliminar archivo de video de reemplazo", "移除此片段": "Quitar este clip", "站酷小薇体": "ZCOOL XiaoWei", "站酷庆科黄油体": "ZCOOL QingKe HuangYou", "站酷快乐体": "ZCOOL KuaiLe", "第 ": "10. esperar ", "等待": "Espera", "等待分镜": "esperar planos", "等比": "Fijar", "等线": "línea de igualación", "管理 Agent": "gestionar agente", "管理连接": "gestionar conexión", "类型": "tipo", "粉圆体": "estilo Fenyuan", "粘贴视频路径、项目目录或抖音/TikTok 分享链接。": "pegar ruta de video, directorio de proyecto o enlace de TikTok/TikTok", "粘贴视频链接，或包含链接的完整分享文案\nhttps://v.douyin.com/…": "pegar enlace de video o texto completo con enlace https://v.douyin.com/…", "系统 ": "sistema ", "素材": "material", "素材填充方式": "método de relleno de material", "素材已移动，请重新选择文件。": "Los materiales se han movido, seleccione nuevamente los archivos.", "结合当前镜头的关键帧，给我一份可用的复刻提示词。": "Por favor, proporcione una sugerencia de prompt para recrear los claves de escena actuales.", "结合真实留存和转化数据判断片段表现。上面的线索来自已有文字识别。": "Evalúa el rendimiento con datos reales de retención y conversión. Los indicios proceden del texto y la voz detectados.", "结束": "Fin", "结束时间（秒）": "Tiempo de finalización (segundos)", "结束秒数": "Segundos de finalización", "结束（秒）": "(segundos)", "结果已复制": "El resultado se ha copiado", "编辑 Agent 指令": "Instrucciones del agente de edición", "编辑提示词": "Prompt de edición", "编辑该镜提示词": "Prompt para la escena de edición", "编辑镜头草稿，生成替换素材或导出提示词。": "Escribe el borrador de la escena de edición para generar material de reemplazo o exportar el prompt.", "缩小时间线": "Reducir la línea de tiempo", "自动拆解": "Descomposición automática", "自动识别平台，一次拆解一条视频。粘贴后点击下方按钮开始。": "Identifica la plataforma automáticamente, descomponiendo un video a la vez. Pega y presione el botón abajo para comenzar.", "自动附上中文译文": "Incluir automáticamente el texto traducido al chino", "自定义分析选项": "Opción de análisis personalizado", "色相": "Saturación", "芫荽体": "Tipo de escritura Tianshui", "英文口播": "Voz en inglés", "英文画面文字、英文和日语口播会写进报告。": "El texto en inglés y la narración en japonés se incluirán en el informe.", "英语": "Inglés", "英语中译": "Inglés a chino", "补充 / 更新中文译文": "Añadir / actualizar el texto traducido al chino", "补充译文与口播识别": "Texto traducido y reconocimiento de la narración", "裁剪与填充": "Corte y relleno", "裁剪为 ": "Corte en ", "裁剪右侧": "Corte en el lado derecho", "裁剪左侧": "Corte en el lado izquierdo", "裁剪底部": "Corte en la parte inferior", "裁剪比例": "Ratio de corte", "裁剪顶部": "Corte en la parte superior", "西班牙语": "Español", "视频处理流程": "Proceso de edición de video", "视频已下载，正在自动拆解。": "El video se ha descargado, se está descomponiendo automáticamente.", "视频或音频": "Video o audio", "视频拆解": "Análisis de vídeo", "视频拆解已完成。": "La descomposición del video se ha completado.", "视频文件": "Archivo de video", "视频来源": "Fuente del video", "视频生成": "Generación del video", "视频生成任务": "Tarea de generación del video", "视频生成设置": "Configuración de generación del video", "视频轨": "Pista de vídeo", "视频轨 {0}": "Pista de vídeo {0}", "视频预览": "Previsualización del video", "记录字幕、标题、花字等出现的时间": "Registrar el momento en que aparecen subtítulos, títulos y efectos especiales", "设置": "Configuración", "设置 Agent 连接": "Configurar conexión del agente", "设置分类": "Definir categorías", "设置参考帧，准备和预览逐镜生成任务。": "Define fotogramas de referencia y previsualiza las tareas de generación por plano.", "设置模型": "Configurar modelo", "评测标注集…": "Evaluar conjunto de etiquetas…", "识别口播并生成 SRT": "Reconocer diálogo y generar SRT", "识别字幕和画面包装": "Reconocer subtítulos y packaging de imágenes", "识别画面文字": "Reconocer texto en imágenes", "诊断已复制": "Diagnosticar copiado", "诊断已选中，请按 Ctrl+C 复制": "Diagnosticar seleccionado, presione Ctrl+C para copiar", "译文加入时间线": "Añadir traducción a la línea de tiempo", "试听 {0}": "Escuchar {0}", "试听、分离人声和配乐，设置成片声音。": "Prueba de sonido, separar voz y música, configurar sonido final", "试听混音": "Prueba de mezcla", "试听音轨": "Prueba de track", "试播": "Prueba preliminar", "请填写字幕文字，或用「撤销修改」恢复。": "Por favor, ingresa el texto del subtítulo o usa «deshacer» para revertir.", "请将播放头移到片段内部再分割。": "Coloca el cursor dentro del clip antes de dividirlo.", "请查看任务日志或选择其他视频。": "Por favor, revisa el registro de tareas o elige otro video.", "请检查字幕的开始与结束时间。": "Por favor, verifica los horarios de inicio y final del subtítulo.", "请求未完成。": "Solicitud no completada.", "请输入字幕文字，或撤销修改。": "Por favor, ingresa el texto del subtítulo o deshace los cambios.", "请重新打开工作台以加载新版高级工具。": "Por favor, reabre la mesa de trabajo para cargar la nueva versión de herramientas avanzadas.", "读分镜、改项目、导出成片": "Leer escenas, editar proyectos, exportar video.", "读取分镜": "Leer lista de planos", "读取参考帧": "Leer fotograma de referencia", "读取字幕与中译": "Leer subtítulos y traducción", "调整右侧面板宽度": "Ajustar el ancho del panel derecho", "调整成片音量与混音": "Ajustar volumen y mezcla del video", "调整时间线高度": "Ajustar altura de la línea de tiempo", "调整混音": "Ajustar mezcla", "调用模型生成…": "Utilizar modelo para generar…", "调用视频模型": "Utilizar modelo de video", "调色": "Colorir", "调节": "Modificar", "起止时间需在视频范围内，且结束晚于开始。": "Tiempo de inicio y fin deben estar dentro del video y el final debe ser posterior al inicio", "跟随系统": "Según el sistema", "轨道": "Tramas", "轨道编辑": "Editar pistas", "转写口播为 SRT": "Convertir texto en SRT", "转化引导线索": "Indicios de llamada a la acción", "转化率": "Tasa de conversión", "转化率 %": "Tasa de conversión %", "输入字幕文字": "Escribir texto de subtítulo", "输入当前镜头的提示词": "Ingresar prompt para cámara actual", "运行环境": "Entorno de ejecución", "返回工作区": "Volver a la zona de trabajo", "返回工作台": "Volver al escritorio", "返回当前视频": "Volver al video actual", "返回编辑属性": "Volver a los atributos de edición", "还有未保存的字幕修改，关闭会放弃这些修改。确定关闭吗？": "Hay modificaciones de subtítulo no guardadas, cerrar las dejará sin guardar. ¿Aceptas cerrar?", "这个项目还没有已保存的对话。": "Este proyecto aún no tiene diálogos guardados.", "进行中": "En progreso", "连接 Agent": "Conectar con el agente", "连接后检测工作台工具": "Conecta para comprobar las herramientas", "连接失败": "Conexión fallida", "连接或执行失败": "Conexión o ejecución fallida", "连接本机或局域网": "Conectar al dispositivo o a la red local", "连接组件": "Componentes de conexión", "退出码 ": "Código de salida ", "选一个 Agent 处理视频": "Seleccionar un agente para procesar el video", "选择": "Seleccionar", "选择 ": "Seleccionar ", "选择 .env 文件…": "Seleccionar archivo .env…", "选择 Agent": "Seleccionar agente", "选择参考": "Seleccionar referencia", "选择参考视频": "Seleccionar video de referencia", "选择字幕轨": "Seleccionar track de subtítulos", "选择已安装的 capsule-cinema 目录…": "Seleccionar directorio de capsule-cinema instalado…", "选择已安装的命令或启动程序…": "Seleccionar comando o programa de inicio instalado…", "选择提示词节点": "Seleccionar nodo del prompt", "选择文件…": "Seleccionar archivo…", "选择替换视频": "Elegir reemplazo", "选择有视频输出的工作流…": "Seleccionar flujo con salida de video…", "选择本地视频": "Elegir vídeo local", "选择本地视频，或粘贴抖音 / TikTok 链接。": "Seleccionar video local o pegar enlace de TikTok.", "选择画面中的镜头": "Seleccionar escena en la imagen", "选择素材文件夹": "Elegir carpeta de medios", "选择视频": "Seleccionar video", "选择视频，自动生成分镜、字幕和中文译文。": "Seleccionar video para generar automáticamente planos, subtítulos y traducción al chino.", "选项": "Opción", "通用": "General", "速度": "Velocidad", "配乐与环境声": "Música y ambiente", "配乐与配音": "Música y voz", "配乐轨": "Pista de música", "配置": "Configuración", "配置 ": "Configuración ", "配置本机 Agent": "Configurar el agente local", "配置视频生成": "Configurar generación de video", "配音轨": "Pista de voz", "重新下载并拆解": "Descargar y descomponer nuevamente", "重新分离人声与配乐": "Separar voz y música nuevamente", "重新加载": "Recarga", "重新定位原片": "Volver a posicionar la imagen original", "重新拆解为新项目": "Descomponer en proyectos nuevos", "重新检测": "Reescaneo", "重新识别口播": "Reconocer nuevamente el speech", "重新连接": "Reconectar", "重置镜头属性": "Restaurar propiedades de la cámara", "重试下载并拆解": "Intentar descargar y descomponer nuevamente", "重试保存": "Intentar guardar", "重试未完成，请查看该步骤的提示。": "El reintento falló. Revisa los detalles del paso.", "重试此步": "Reintentar paso", "重连": "Reconectar", "未找到": "No detectado", "待配置": "Configurar", "未启用": "Desactivado", "连接中…": "Conectando…", "铺满外框": "Rellenar marco exterior", "链接拆解": "Descomponer enlaces", "锁定宽高比": "Ajustar proporción de aspecto", "错误 ": "Error ", "镜头": "Lente", "镜头 ": "Lente ", "镜头 {0}": "Plano {0}", "镜头 {0} · 素材预览": "Plano {0} · vista previa", "镜头 {0} 的卖点要求": "Argumento de venta del plano {0}", "镜头 {0} 的替换素材": "Reemplazo del plano {0}", "镜头内入点（秒）": "Entrada del plano (s)", "镜头内出点（秒）": "Salida del plano (s)", "镜头宽度 W": "Ancho del lente W", "镜头属性类别": "Categoría de propiedades del lente", "镜头属性面板": "Panel de propiedades del lente", "镜头替换素材已导入": "Material de reemplazo del lente importado", "镜头类型": "Tipo de lente", "镜头高度 H": "Altura del lente H", "间隔秒数": "Tiempo entre pasos", "随片段时长推进": "A medida que avanza la duración del clip", "需要先配置模型服务": "Se necesita configurar el servicio de modelo", "需配置模型服务，会向该服务发送视频素材": "Configura un servicio de modelos. El material de vídeo se enviará a ese servicio.", "霞鹜文楷": "Xiayu Wenkai", "霞鹜文楷屏幕阅读版": "Xiayu Wenkai versión lectura en pantalla", "霞鹜文楷等宽（繁体）": "Xiayu Wenkai igual en todos los caracteres (tradicional)", "霞鹜文楷（繁体）": "Xiayu Wenkai (tradicional)", "霞鹜漫黑": "Xiayu Manhei", "静音": "Mudo", "静音原声预览": "Previsualización del sonido original en mudo", "静音输出": "Salida en mudo", "音轨混音": "Mixación de pistas de audio", "音量": "Volumen", "音量 %": "Volumen %", "音频": "Audio", "音频入点（秒）": "Entrada de audio (s)", "音频出点（秒）": "Salida de audio (s)", "音频片段": "Clip de audio", "音频试听": "Prueba de audio", "音频轨": "Pista de audio", "音频轨 {0}": "Pista de audio {0}", "顶对齐": "Alineación superior", "项目保存位置": "Carpeta del proyecto", "项目保存到": "Guardar proyecto en", "项目和工作区": "Proyecto y área de trabajo", "项目字幕轨": "Pista de subtítulos del proyecto", "项目对话历史": "Historial de chat del proyecto", "项目工具": "Herramientas del proyecto", "项目已打开": "Proyecto abierto", "项目数据与批量评测": "Datos del proyecto y evaluación por lotes", "项目文件夹": "Carpeta del proyecto", "预览任务": "Tarea de previsualización", "预览字幕": "Subtítulos de previsualización", "预览无法播放": "Previsualización no reproducible", "预览替换": "Reemplazo de previsualización", "预览模式": "Modo de previsualización", "预览素材": "Materiales de previsualización", "预览镜头 {0} 的替换素材": "Previsualizar reemplazo del plano {0}", "预设": "Presets", "颜色": "Color", "颜色模式": "Tema", "饱和度": "Saturación", "首帧": "Primer frame", "首次转化引导": "Guía de primera conversión", "马善政毛笔": "Pluma Ma Shanzheng", "高级": "Avanzado", "高级工具分类": "Categoría de herramientas avanzadas", "黑体": "Simbolo de HeiTi", "黑白": "Blanco y negro", "默认生成引擎": "Motor de generación predeterminado", "默认设置即可开始。完成后先查看译文，再按需修改和导出。": "Usa los valores predeterminados. Revisa la traducción, edita y exporta.", "龙藏体": "Tipo de letra LongZang", "{0} 个文件": "{0} archivo(s)", "{0} 条手动字幕将随成片导出": "Incluye {0} subtítulos manuales", "保留当前响度": "Mantener sonoridad actual", "分辨率": "Resolución", "包含声音": "Incluir audio", "压缩效率更高": "Compresión más eficiente", "原始": "Original", "另存一份 MP4 对比视频": "Guarda también una comparación en MP4", "响度": "Sonoridad", "字幕格式": "Formato de subtítulos", "字幕轨": "Pista de subtítulos", "字幕轨 {0}": "Pista de subtítulos {0}", "视频素材": "Clip de vídeo", "撤销移动字幕": "Deshacer el movimiento de subtítulos", "目标字幕轨已变化，请重新选择。": "La pista de subtítulos de destino ha cambiado. Vuelve a seleccionarla.", "目标音轨已变化，请重新选择。": "La pista de audio de destino ha cambiado. Vuelve a seleccionarla.", "完整适配": "Ajustar al cuadro", "导出摘要": "Resumen de exportación", "导出类型": "Tipo de exportación", "导出预设": "Preajuste de exportación", "尺寸": "Dimensiones", "帧率": "Fotogramas por segundo", "成片": "Vídeo final", "打开导出位置": "Abrir carpeta de exportación", "文件名": "Nombre del archivo", "更多设置": "Más opciones", "最高": "Máxima", "未能提交导出，请检查当前编辑内容。": "No se pudo iniciar la exportación. Revisa la edición actual.", "标准": "Estándar", "格式": "Formato", "横屏 1080p": "Horizontal 1080p", "没有可导出的音轨。请启用音轨或选择外部音频。": "Activa una pista o elige un archivo de audio externo para exportar.", "沿用项目": "Igual que el proyecto", "用于后续剪辑": "Para seguir editando", "画幅": "Relación de aspecto", "画质": "Calidad", "画面填充": "Encuadre", "竖屏 1080p": "Vertical 1080p", "视频": "Vídeo", "视频编码": "Códec de vídeo", "请先添加手动字幕，或在字幕与翻译中生成口播字幕。": "Añade subtítulos manuales o genéralos en Subtítulos y traducción.", "适合在网页使用": "Para usar en la web", "适合日常分享和上传": "Para compartir y subir", "选择格式与保存位置": "Elegir formato y ubicación", "铺满画幅": "Llenar el cuadro", "附加音频 {0} 段": "{0} clip(s) de audio adicional(es)", "音频格式": "Formato de audio", "项目帧率（{0} fps）": "Velocidad del proyecto ({0} fps)", "高": "Alta", "请输入有效的文件名。": "Introduce un nombre de archivo válido.", "请选择支持的导出格式。": "Elige un formato de exportación compatible.", "请选择有效的响度。": "Elige un ajuste de sonoridad válido.", "请选择有效的视频输出设置。": "Elige ajustes de vídeo válidos.", "当前项目已切换，请重新打开导出窗口。": "El proyecto ha cambiado. Vuelve a abrir la ventana de exportación.", "所选字幕轨在当前时间线内没有字幕。": "La pista seleccionada no tiene subtítulos en esta línea de tiempo.", "正在编码成片": "Codificando vídeo", "正在写入导出文件": "Guardando archivos", "正在导出音频": "Exportando audio", "正在导出字幕": "Exportando subtítulos", "导出文件为空。": "El archivo exportado está vacío.", "文件已导出": "Exportación completada", "已打开导出目录": "Carpeta de exportación abierta", "打开文件": "Abrir archivo", "CapCut 按保存位置读取素材，建议直接导出到它的草稿目录。": "CapCut lee los recursos desde el lugar de exportación. Guarda directamente en su carpeta de borradores.", "仅时间线字幕": "Solo subtítulos de la línea de tiempo", "剪映专业版": "Jianying Pro", "剪辑工程": "Proyecto de edición", "剪辑软件": "Editor de vídeo", "可选择剪辑软件设置里的草稿目录，也可把导出位置设为它的草稿目录。": "Elige la carpeta de borradores en los ajustes del editor o cámbiala a esta ubicación de exportación.", "复制完整素材，并保留分镜、附加视频和音频轨道。调色、裁剪和动画随对应的片段输出。": "Copia los archivos completos y conserva los planos, las capas y las pistas de audio. Los ajustes de color, recortes y animaciones se renderizan en sus clips.", "导出后回到剪辑软件首页，从本地草稿打开。": "Después de exportar, abre el borrador desde la pantalla de inicio del editor.", "导出草稿": "Exportar borrador", "打开文件夹": "Abrir carpeta", "时间线上的手动字幕会作为可编辑文字导出。": "Los subtítulos manuales de la línea de tiempo se exportan como texto editable.", "更改草稿保存位置": "Cambiar ubicación del borrador", "素材和轨道": "Recursos y pistas", "草稿名称": "Nombre del borrador", "草稿文件夹": "Carpeta del borrador", "视频格式": "Formato de vídeo", "附加字幕轨": "Pista de subtítulos adicional", "请选择要使用的剪辑软件。": "Selecciona un editor de vídeo.", "正在导出剪辑工程": "Exportando proyecto de edición", "正在准备工程素材": "Preparando los recursos del proyecto", "正在写入剪辑工程": "Guardando el proyecto de edición", "剪辑工程已导出": "Proyecto de edición exportado", "导出结果已打开": "Exportación abierta", "预计大小": "Tamaño estimado", "预计总大小": "Tamaño total estimado", "按导出参数估算，实际大小随素材内容变化。": "Estimado según los ajustes. El tamaño real depende del contenido.", "最小化窗口": "Minimizar ventana", "最大化窗口": "Maximizar ventana", "还原窗口": "Restaurar ventana", "窗口控制": "Controles de ventana", "导入剪辑素材": "Importar material de edición", "导入视频剪辑": "Importar vídeo para editar", "直接剪辑当前视频": "Editar el vídeo actual", "等待导入视频": "Importa un vídeo para empezar", "导入视频后，点击时间线上的片段开始编辑。": "Después de importar el vídeo, selecciona un clip en la línea de tiempo.", "视频轨道为空": "La pista de vídeo está vacía", "撤销删除可恢复片段。": "Deshaz la eliminación para recuperar el clip.", "播放或暂停（空格）": "Reproducir o pausar (espacio)", "剪辑工程已创建": "Proyecto de edición creado", "无法读取这个视频，请选择可播放的视频文件。": "No se pudo leer este vídeo. Selecciona un archivo reproducible.", "已撤销字幕编辑": "Edición de subtítulo deshecha", "撤销时间线编辑": "Deshacer edición de la línea de tiempo", "撤销移动片段": "Deshacer movimiento del clip", "主轨磁吸": "Imán de pista principal", "自动吸附": "Ajuste automático", "开关主轨磁吸。开启时让分镜首尾相接。": "Activa el imán de la pista principal para mantener los clips unidos.", "拖动时对齐附近的片段边缘和播放头。": "Alinea los clips al arrastrarlos cerca de sus bordes o del cabezal de reproducción.", "撤销主轨磁吸": "Deshacer el imán de la pista principal", "这条轨道没有足够的空位。": "No hay suficiente espacio en esta pista.", "同一字幕轨的片段不能重合。": "Los subtítulos de una misma pista no pueden solaparse.", "请选择 WorkBuddy 的 ACP 命令行": "Selecciona la CLI ACP de WorkBuddy", "选择 WorkBuddy 企业版提供的 CodeBuddy Code 命令行，以 ACP 模式连接。": "Selecciona la CLI CodeBuddy Code de WorkBuddy Enterprise para conectarte mediante ACP.", "撤销添加字幕": "Deshacer adición de subtítulo", "撤销编辑字幕": "Deshacer edición de subtítulo", "撤销删除字幕": "Deshacer eliminación de subtítulo", "撤销导入字幕": "Deshacer importación de subtítulos", "撤销编辑镜头属性": "Deshacer cambios en las propiedades del clip", "撤销替换素材": "Deshacer sustitución de material", "撤销移除替换素材": "Deshacer retirada del material de sustitución", "撤销调整混音": "Deshacer ajuste de mezcla", "撤销编辑提示词": "Deshacer edición del prompt", "撤销校对字幕": "Deshacer corrección de subtítulos", "撤销保存版本": "Deshacer guardado de versión", "撤销切换版本": "Deshacer restauración de versión", "撤销批量替换素材": "Deshacer sustitución por lotes", "撤销更换参考图": "Deshacer cambio de imagen de referencia", "想怎么剪辑或分析这条视频？": "¿Cómo quieres editar o analizar este vídeo?", "把开头 1 秒和结尾 1 秒剪掉，保留中间内容。": "Recorta el primer y el último segundo y conserva la parte central.", "试试自动剪辑": "Probar edición automática", "描述要剪辑或分析的内容…": "Describe qué quieres editar o analizar…", "例如：剪掉开头 2 秒，把最后一个镜头移到最前。": "Por ejemplo, recorta los primeros 2 segundos y mueve el último plano al principio.", "读取剪辑时间线": "Leer la línea de tiempo", "应用时间线剪辑": "Aplicar los cambios en la línea de tiempo", "创建剪辑工程": "Crear un proyecto de edición", "已创建剪辑工程": "Proyecto de edición creado", "已读取当前剪辑时间线": "Línea de tiempo cargada", "已读取时间线素材帧": "Fotograma de la línea de tiempo obtenido", "当前时间线已符合这次剪辑": "La línea de tiempo ya coincide con esta edición", "从一段素材开始剪辑": "Empezar con un clip", "添加原始视频，然后告诉 Agent 想剪成什么样。": "Añade el vídeo original y dile al agente qué quieres crear.", "把这段素材剪成一条节奏明快的产品短片，开头先展示亮点。": "Convierte este material en un vídeo de producto ágil y empieza con lo más destacado.", "添加剪辑素材": "Añadir material", "更换剪辑素材": "Cambiar el material adjunto", "移除剪辑素材": "Quitar el material adjunto", "正在添加素材 {0}%": "Añadiendo material {0}%", "查看原始素材": "Revisar el material original", "正在查看原始素材": "Revisando el material original", "素材预览已准备好": "Vista previa del material lista", "正在检测素材分段和静音": "Detectando cambios de escena y silencios", "正在生成带时间码的素材预览": "Preparando vistas previas con marcas de tiempo", "正在识别素材口播": "Transcribiendo la voz original", "已查看素材画面和时间码": "Material y marcas de tiempo revisados", "制作素材初稿": "Crear un primer montaje", "成片初稿已在时间线打开": "Primer montaje abierto en la línea de tiempo", "渐显": "Fundido de entrada", "放大": "Acercar", "缩小进入": "Entrada reduciendo", "弹入": "Entrada con rebote", "向左滑入": "Entrada hacia la izquierda", "向右滑入": "Entrada hacia la derecha", "向上滑入": "Entrada hacia arriba", "向下滑入": "Entrada hacia abajo", "旋转进入": "Entrada girando", "模糊渐显": "Entrada con desenfoque", "甩入": "Entrada rápida", "摇摆进入": "Entrada oscilante", "渐隐": "Fundido de salida", "缩小消失": "Reducir y fundir", "放大消失": "Ampliar y fundir", "向左滑出": "Salida hacia la izquierda", "向右滑出": "Salida hacia la derecha", "向下滑出": "Salida hacia abajo", "旋转消失": "Salida girando", "模糊消失": "Salida con desenfoque", "呼吸": "Respiración", "漂浮": "Flotar", "摇摆": "Balanceo", "抖动": "Sacudida", "心跳": "Latido", "闪烁": "Parpadeo", "缓慢推进": "Acercamiento lento", "入场预设": "Efectos de entrada", "出场预设": "Efectos de salida", "循环预设": "Efectos de bucle", "试播入场": "Previsualizar entrada", "试播出场": "Previsualizar salida", "试播循环": "Previsualizar bucle", "无可导出的字幕": "No hay subtítulos para exportar", "实拍": "Acción real", "影视片段": "Fragmento audiovisual", "AI 生成视频": "Vídeo generado por IA", "数字人": "Avatar digital", "3D 渲染": "Renderizado 3D", "2D 动画": "Animación 2D", "定格动画": "Animación en stop motion", "代码 / 模板渲染": "Renderizado de código o plantilla", "录屏截图": "Captura de pantalla", "静图推拉": "Paneo y zoom de foto", "静帧": "Fotograma fijo", "待确认": "Pendiente de revisión", "定位{0}音频": "Buscar en {0}", "{0} · {1} 句": "{0} · Líneas: {1}", "{0} {1}，{2}": "{0} {1} · {2}", "缺少连接组件": "Falta el componente de conexión", "未检测到本机程序": "No se encontró el programa local", "指定程序已移动": "El programa seleccionado se movió", "指定连接组件已移动": "El componente de conexión se movió", "需要 Node.js 运行连接组件": "El componente de conexión requiere Node.js", "视频元数据": "Metadatos del vídeo", "抽帧图已生成": "Hoja de fotogramas generada" }, "ja": { "更多操作": "その他の操作", "执行步骤": "実行ステップ", "查看任务进度": "タスクの進捗を表示", "任务产出": "タスクの成果物", "还有 {0} 个结果": "ほか {0} 件", "回复表格": "回答の表", "{0} 个步骤": "{0} ステップ", "{0} 秒": "{0} 秒", "安装本机程序后，点「重新检测」再连接。": "ローカルにプログラムを入れたら、再検出してから接続してください。", "常用": "よく使う", "其他 Agent": "その他のエージェント", "连接": "接続", "连接设置": "接続設定", "正在安装…": "インストール中…", "连接组件已安装": "接続コンポーネントをインストールしました", "安装包含 npm 的 Node.js 后，再点「安装连接组件」。": "npm 付きの Node.js を入れてから、接続コンポーネントをインストールしてください。", " · 分析引擎 ": " · 分析エンジン ", " · 替换预览": " · 置換プレビュー", " · 构建 ": " · 構築 ", " · 点击波形定位原片": " · 波形をクリックして原動画を特定", " · 镜头 {0}": " · カット {0}", " 个": " 件", " 个镜头": " カット", " 个镜头 · ": " カット · ", " 个镜头 · 已替换 ": " カット · 差し替え済み ", " 像素": " ピクセル", " 入口…": " 入口…", " 句": " 文", " 可连接": " 接続可能", " 条手动字幕将随成片导出": " 手動字幕は動画としてエクスポートされる", " 款）": " 種類）", " 的提示词": " のプロンプト", " 秒": " 秒", " 页": " ページ", "3 秒留存": "3秒の保持", "3 秒留存率 %": "3秒維持率 %", "< 0.1 秒": "< 0.1 秒", "AI 深度分析": "AI 深層分析", "API 工作流 JSON": "API ワークフロー JSON", "Agent 任务进度": "エージェント 作業進捗", "Agent 指令": "Agent への指示", "Agent 指令面板": "エージェント 指示パネル", "Agent 正在执行上一条指令。": "エージェント 前の指示を実行中です。", "Agent 设置": "エージェント 設定", "Agent 选项": "エージェント オプション", "BIZ UDP明朝": "BIZ UDP 明朝", "BIZ UD明朝": "BIZ UD 明朝", "ComfyUI 生成": "ComfyUI 生成", "ComfyUI 设置已保存": "ComfyUI 設定が保存されました", "MP4、MOV、MKV、WebM 等常用格式": "MP4、MOV、MKV、WebM などの一般的なフォーマット", "Noto 宋体（简体）": "Noto 宋体（簡体）", "Noto 明体（繁体）": "Noto 明体（繁体）", "Noto 黑体（简体）": "Noto 黑体（簡体）", "Noto 黑体（繁体）": "Noto 黑体（繁体）", "WDXL 圆体（简体）": "WDXL 圆体（簡体）", "WDXL 圆体（繁体）": "WDXL 圆体（繁体）", "Zen オールド明朝": "Zen オールド明朝", "Zen 丸ゴシック": "Zen 丸ゴシック", "Zen 紅道": "Zen 紅道", "{0} 秒 · {1} 个镜头 · 平均 {2} 秒": "{0}秒 · {1}カット · 平均{2}秒", "{0}面板": "{0}パネル", "{0}音量": "{0}の音量", "さわらび明朝": "さわらび明朝", "しっぽり明朝": "しっぽり明朝", "ひな明朝": "ひな明朝", "キウイ丸": "キウイ丸", "上": "上", "上下拖动调整高度，双击恢复默认": "高さを調整するには上下をドラッグし、デフォルトに戻すにはダブルクリック", "上传本地视频，或粘贴链接自动下载并拆解。": "ローカル動画をアップロードするか、リンクを貼り付けると自動でダウンロードされ、分割される", "下": "下", "下载并开始拆解": "ダウンロード後、分割が開始される", "下载视频": "動画をダウンロード", "不发送参考帧": "参照フレームを送信しない", "不透明度": "不透明度", "中文": "中文", "中文 / 英文": "中文 / 英文", "中文译文": "中文訳", "为此项目补充 / 更新译文": "このプロジェクトに訳文を追加 / 更新する", "也可以把视频文件拖到时间线上的镜头。": "動画ファイルを時間線上のカットにドラッグすることもできる", "也可拖动画面里的字幕移动，拖动角点缩放。": "カット内の字幕をドラッグして移動させたり、角点をドラッグして拡大縮小したりすることもできる", "交给 Agent": "Agent に依頼", "产品文字线索": "商品の文言", "亮度": "輝度", "人声": "声", "从一条参考视频开始": "参照動画から始める", "任务 ": "タスク ", "任务失败 · ": "タスクが失敗しました · ", "任务已停止，分享内容已保留。": "タスクは停止されましたが、共有内容は保持されています。", "任务已停止，分享内容已保留，可以重新开始。": "タスクは停止されましたが、共有内容は保持されており、再開始できます。", "任务日志": "タスクログ", "任务累计耗时": "タスクの経過時間", "任务阶段 ": "タスク段階 ", "仿宋": "フォント", "位置与大小": "位置とサイズ", "你": "あなた", "使用原": "元の方法で", "使用原片": "元のファイルを使用", "使用后端目录的默认 Python": "バックエンドディレクトリのデフォルトの Python を使用", "使用已配置的模型服务": "設定されたモデルサービスを使用", "使用默认引擎": "デフォルトエンジンを使用", "例如 A 版 · 快节奏": "例えば A版 · 速いテンポ", "例如 展示产品实际使用效果": "例 実際に使っている様子を見せる", "例如 日区 15 秒商品展示": "例えば 日本語 15秒の商品表示", "例如：分析开头 3 秒，或在第 2 镜头加入一句产品卖点字幕。": "例：最初の 3 秒を分析する、または第 2 フレームに製品のメリットを表す字幕を追加する。", "依据（可选）": "根拠（オプション）", "保存": "保存", "保存 ComfyUI 设置": "ComfyUI 設定を保存", "保存为一个 MP4": "MP4 形式で保存", "保存分析设置": "分析設定を保存", "保存到": "保存先", "保存参考模板": "参考テンプレートを保存", "保存字幕": "字幕を保存", "保存工程音轨": "エンジニアリング音楽トラックを保存", "保存并返回导出": "保存し、エクスポートに戻る", "保存引擎": "エンジンを保存", "保存当前剪辑、替换素材、字幕和音轨，可随时切回这个版本。": "現在の編集、差し替え素材、字幕、音声を保存して後から復元できます。", "保存当前版本": "現在の版を保存", "保存手动字幕": "手動字幕を保存", "保存数据": "数値を保存", "保存此句并同步": "このセクションを保存し同期する", "保存镜头纠正": "カメラアップデートを保存", "保存音频位置和音量": "音声の位置と音量を保存", "保留原字幕和标题": "元の字幕とタイトルを保持", "保留现有画面": "現在の素材を維持", "停止": "停止", "停止任务": "タスクを停止", "先拆解视频，或打开一个已有项目。": "まず動画を分割するか、既存のプロジェクトを開く", "入场": "イン", "全屏预览": "全画面プレビュー", "全片概览": "作品全体の概要", "关闭": "閉じる", "关闭字幕编辑": "字幕編集を閉じる", "关闭提示": "ヒントを閉じる", "关闭校对": "校正を閉じる", "关闭窗口": "ウィンドウを閉じる", "关闭素材预览": "素材のプレビューをオフにする", "兼容预览": "互換プレビュー", "出场": "アウト", "分割": "分割", "分离人声与配乐": "ボーカルとミュージックを分離する", "分离音轨": "音楽トラックを分離する", "分镜": "カット割り当てを分離する", "分镜、字幕和中译": "カット、字幕及中国語訳", "分镜时间线": "カットのタイムライン", "分镜轨道为空。": "映像トラックは空です。", "切换模型或 Agent · ": "切替モデルまたはエージェント · ", "刘建毛草": "リウ・ジアンマオコウ", "删除": "削除", "删除所选片段（Backspace）": "選択したクリップを削除（Backspace）", "前 3 秒切镜": "最初の3秒を切り替える", "前 3 秒有 {0} 次切镜": "冒頭3秒で {0} 回カット", "前移": "前へ移動", "剪辑": "編集", "剪辑包装 ASS": "編集パッケージ ASS", "剪辑画面": "編集映像", "剪辑预览": "編集プレビュー", "功能导航": "機能ナビゲーション", "加入字幕轨": "字幕トラックの追加", "加入混音": "ミキシングの追加", "加粗": "強調表示", "动画": "アニメーション", "动画时长（秒）": "アニメーション時間（秒）", "动画阶段": "アニメーションステージ", "动画预设": "アニメーションプリセット", "单击选择字幕，拖动调整位置": "クリックして字幕を選択し、ドラッグで位置を調整", "单文件工具": "単一ファイルツール", "单独处理其他音频文件…": "他の音声ファイルを個別に処理…", "卖点要求": "訴求ポイント", "卖点证明线索": "訴求の根拠", "压制字幕到视频": "字幕を映像にミックス", "原声": "元の音声", "原声包含人声和背景声。若使用分离后的人声、配乐，关闭原声可避免叠音。": "原音には人声と背景音が含まれる。分離した人声や音楽を使用する場合、原音をオフにすると重なりが生じない。", "原声已经包含人声和背景声，改用分离音轨时应关闭原声，避免声音重叠。": "原音には人声と背景音が含まれているため、音声を別々のトラックに変更する場合は原音をオフにして、音声の重複を防ぎましょう。", "原片": "オリジナル映像", "原片已移动": "オリジナル映像が移動されました", "原片预览": "元動画のプレビュー", "参考": "参照", "参考原片": "オリジナル映像を参照", "参考图": "参照フレーム", "参考帧识别取决于模型": "参照フレームの認識はモデルに依存する", "参考帧输入": "参照フレームの入力", "参考片": "参照映像", "参考视频": "参照動画", "参考视频已导入": "参照動画がインポートされました", "双击空白处添加字幕": "空白部分をダブルクリックして字幕を追加", "双语字幕校对": "バイラル字幕の校正", "发消息给 Agent": "Agentにメッセージを送信", "发送": "送信", "发送到已配置的工作流。": "設定されたワークフローに送信", "取消": "キャンセル", "取消并返回导出": "キャンセルしてエクスポートに戻る", "口播": "話し声", "口播识别语言": "口述言語の認識言語", "口播语言自动识别；此项用于识别画面上的文字。": "口述言語の自動認識；この項目は映像上の文字を認識するために使用されます。", "口播转写与音轨分离": "口述テキストの転写と音声トラックの分離", "另存字幕文件": "字幕ファイルを保存", "只运行当前镜头": "現在のショットのみ実行", "可在视频生成设置接入 ComfyUI": "ComfyUIをビデオ生成設定に組み込むことができます", "可在设置中重新检测本机 Agent。": "設定で本機の Agent を再検出できます。", "可生成一份兼容预览。": "プレビューに対応するファイルを生成できます。", "可继续浏览分镜。原片可在高级工具中重新定位。": "分割画面を続けて閲覧できます。オリジナル動画は高度なツールで再位置づけできます。", "可调用已配置的 ComfyUI": "設定済みの ComfyUIを呼び出す", "可选中结果文本后复制。": "結果テキストを選択した後、コピーできます。", "右": "右", "右对齐": "右揚げ", "同时导出对比视频": "同時に比較動画をエクスポートできます。", "后移": "後ろへ移動", "后端 Python": "バックエンド Python", "后端目录": "バックエンドディレクトリ", "向右转 90 度": "右に90度回転", "向左转 90 度": "左に90度回転", "启用 ": "有効に ", "告诉 Agent 要做什么": "Agent に何をするか指示できます。", "周期": "周期", "和首帧": "と最初のフレーム", "回到时间线": "タイムラインに戻ります。", "国内": "国内", "国际与开源": "国際・オープンソース", "图像与视频分析服务": "画像・動画分析サービス", "图片已移动 · ": "画像が移動しました · ", "在 ComfyUI 里用「导出（API）」保存视频工作流，再在此选择。": "ComfyUI で「エクスポート（API）」を使用して動画ワークフローを保存し、ここで選択します。", "在原片上压制当前字幕轨": "現在の字幕トラックをオリジナル動画に適用します。", "在播放头位置添加字幕": "再生の開始位置に字幕を追加する", "在播放头分割": "再生ヘッドで分割", "在混音面板选择使用哪些音轨，保存后用于成片导出。": "ミキシングパネルで使用するトラックを選択し、保存して編集映像として出力する", "垂直位置 Y": "垂直位置 Y", "垂直对齐": "垂直対応", "垂直居中": "垂直中央配置", "垂直翻转": "垂直反転", "填写判断依据": "判断基準を入力する", "声音与混音": "音声・ミックス", "处理外部字幕文件…": "外部字幕ファイルの処理…", "处理项目字幕、外部视频或音频。": "プロジェクトの字幕や外部の動画・音声を処理します。", "复制失败，可手动选中文字复制。": "コピーに失敗した場合は、文字を手動で選択してコピーできる", "复制提示词": "コピーするフレーズ", "复制结果": "コピー結果", "复制诊断": "コピー診断", "外部 SRT / ASS 文件": "外部の SRT / ASS ファイル", "外部字幕与音频": "外部字幕と音声", "外部字幕文件": "外部字幕ファイル", "外部音频": "外部音声", "失败": "失敗", "失败阶段 ": "失敗ステージ ", "媒体无音轨": "メディアにトラックがない", "字体": "フォント", "字体 · ": "フォント · ", "字体库": "フォントライブラリ", "字体语言": "フォント言語", "字号": "文字サイズ", "字号（像素）": "文字サイズ（ピクセル）", "字幕": "字幕", "字幕 ": "字幕 ", "字幕、报告和 SRT 已同步保存": "字幕、レポートとSRTが同期して保存されました", "字幕与翻译": "字幕・翻訳", "字幕位置与大小": "字幕の位置とサイズ", "字幕内容": "字幕内容", "字幕列表": "字幕リスト", "字幕原文": "字幕原文", "字幕垂直位置": "字幕の垂直位置", "字幕属性类别": "字幕属性のカテゴリー", "字幕来源": "字幕の出典", "字幕水平位置": "字幕の水平位置", "字幕组": "字幕グループ", "字幕编辑": "字幕編集", "字幕编辑面板": "字幕編集パネル", "安装说明": "インストール説明", "安装连接组件": "接続コンポーネントをインストール", "宋体": "宋体", "完成": "完了", "完成拆解后，点击时间线上的镜头查看和替换素材。": "分解が完了したら、タイムラインのカットをクリックして確認し、素材を置き換えます。", "完成拆解后，点击时间线里的镜头开始编辑。": "分解が完了したら、タイムラインのカットをクリックして編集を開始します。", "完整": "完全", "完整适应": "完全に適応", "定位": "位置決め", "定位原片": "オリジナル映像の位置決め", "定位镜头 ": "カットへ移動 ", "定位镜头 {0}": "カット {0} へ移動", "对比度": "コントラスト", "对话": "対話", "导入后，在右侧确认选项并开始拆解。": "インポート後、右側でオプションを確認し、分解を開始します。", "导入失败。": "インポートに失敗しました。", "导入生成结果": "インポート生成結果", "导入视频": "動画を読み込む", "导入视频后开始拆解。": "インポート動画の後、分解を開始します。", "导入视频后，Agent 可以处理当前视频和时间线。": "インポート動画の後、Agent は現在の動画とタイムラインを処理できます。", "导入连接中断，请重试。": "接続のインポートが中断しました。再試行してください。", "导入镜头复核文件": "カットのインポートでファイルを確認", "导出 SRT 字幕": "SRT字幕のエクスポート", "导出任务表": "エクスポートタスクリスト", "导出全部提示词": "全ての提示テキストをエクスポート", "导出复刻配方需配置生成后端。": "コピー用のフォーミュレーションをエクスポートするには生成サーバーの設定が必要です。", "导出带字幕 MP4": "字幕付き MP4 をエクスポート", "导出带字幕原片": "字幕付きオリジナル動画をエクスポート", "导出成片": "動画を書き出す", "导出时间线成片": "タイムラインを書き出す", "导出纠错标签": "誤りのタグをエクスポート", "导出视频分析 JSON": "動画分析 JSON をエクスポート", "导出视频生成方案": "動画生成計画をエクスポート", "导出记录": "書き出し履歴", "导出镜头复核文件": "カットの確認ファイルをエクスポート", "导出音轨": "音声トラックをエクスポート", "将当前提示词": "現在の提示テキストを変更", "将视频拖到这里，或选择电脑中的文件。": "動画をここにドラッグするか、コンピュータ内のファイルを選択してください。", "将选中的字幕复制为可编辑的手动字幕": "選択した字幕を編集可能な手動字幕としてコピーする", "小赖字体": "小さな明朝体", "尚未生成": "まだ生成されていない", "尚未连接 Agent": "Agent に接続していない", "就绪": "準備完了", "尾帧": "最後のフレーム", "展开分离音轨": "音声トラックを展開・分離する", "展开分轨": "トラックを展開する", "属性": "属性", "属性保存失败": "属性の保存に失敗した", "工作台工具不可用": "ワークステーションツールが利用できません", "工作台工具已连接": "作業ツールに接続済み", "工作台设置": "設定", "工具分类": "ツールのカテゴリ", "工具结果": "ツールの結果", "工程音轨": "エンジニアリング音声トラック", "工程音轨混音": "エンジニアリング音声トラックのミキシング", "左": "左", "左右拖动调整宽度；双击恢复默认": "左右をドラッグして幅を調整；ダブルクリックでデフォルトに戻す", "左对齐": "左揚げ", "已保存": "保存しました", "已停止": "停止済み", "已填写": "入力済み", "已完成": "完了", "已导入参考视频": "参考動画を読み込みました", "已导出": "エクスポート済み", "已恢复项目会话": "プロジェクトの会話を復元しました", "历史会话 · 待重连": "保存済みの会話 · 再接続待ち", "在播放头分割（Ctrl+B）": "再生ヘッドで分割（Ctrl+B）", "已替换": "置き換え済み", "已有画面文字或口播里暂无明确线索。": "認識した文字や音声に明確な手がかりはありません。", "已检测到 · 未启用": "検出されました · 有効化されていません", "已连工作台工具": "接続済みワークステーションのツール", "已连接": "接続済み", "已配置工作流": "ワークフローが設定済み", "平台元数据 JSON": "プラットフォームメタデータ JSON", "平台数据与对比": "数値と比較", "应用修剪": "トリミングを適用", "应用批量替换": "一括差し替えを適用", "底对齐": "下揚げ", "开启 AI 深度分析后，画面和音轨素材会发送给这里配置的服务。": "AI深度分析を有効にすると、映像と音声トラックの素材がここで設定されたサービスに送信されます。", "开场 3 秒": "冒頭3秒", "开始导出": "書き出しを開始", "开始拆解": "動画を解析", "开始时间（秒）": "開始時間（秒）", "开始生成": "生成開始", "开始秒数": "開始秒数", "开始（秒）": "開始（秒）", "当前原声和分离音轨同时启用，可能出现重叠声音。请确认是否需要保留原声。": "現在は原音と分離音轨を同時に使用しており、音声が重なる可能性があります。原音を保持するか確認してください。", "当前没有启用音轨，按工程音轨导出时将静音。": "現在は音轨が使用されておらず、工程音轨でエクスポートするとミュートになります。", "当前视频": "現在の動画", "当前项目": "現在のプロジェクト", "当前项目复核": "現在のプロジェクトを確認", "当前项目字幕": "現在のプロジェクト字幕", "待保存": "保存待ち", "待校对字幕": "字幕校正待ち", "得意黑": "得意黒", "循环": "ループ", "循环周期（秒）": "リピート周期（秒）", "微软正黑体": "Microsoft JhengHei", "微软雅黑": "Microsoft YaHei", "志莽行书": "志莽行書", "快速旋转": "高速回転", "思考强度": "思考の強度", "恢复分镜草稿": "台詞スクリプトの元データを復元する", "恢复原声预览": "音声プレビューを元の状態に戻す", "恢复完整画面": "完全な映像を復元する", "恢复此版本": "この版を復元", "悠哉字体": "ゆったりしたフォント", "想从这条视频了解什么？": "この動画から何を知りたいですか？", "成片保存位置": "書き出し先", "成片剪辑": "動画編集", "成片音轨": "完成作品の音楽トラック", "所有修改已保存": "すべての変更が保存されました", "手动字幕": "手動字幕", "手动字幕时间": "手動字幕の時間設定", "手动字幕轨道": "手動字幕のトラック", "打开 Agent 对话": "Agent チャットを開く", "打开任务文件夹": "タスクフォルダを開く", "打开双语校对大面板": "バイリンガル校正パネルを開く", "打开已有项目": "既存のプロジェクトを開く", "打开成片": "書き出した動画を開く", "打开成片位置": "書き出し先を開く", "打开报告": "レポートを開く", "打开拆解项目": "分解プロジェクトを開く", "打开模板项目": "テンプレートを開く", "打开生成素材": "素材の生成を開始する", "打开设置": "設定を開く", "打开输出文件夹": "出力フォルダを開く", "打开输出目录": "出力フォルダを開く", "打开项目": "プロジェクトを開く", "批量剪辑": "一括編集", "批量匹配与生成结果": "一括マッチングと結果生成", "批量替换镜头": "カットの一括置換", "批量生成与参考图": "一括生成と参考映像", "批量生成后端": "バックエンドの一括生成", "把识别出的字幕、标题和花字叠到替换镜头": "認識された字幕、タイトル、ロゴを置換されたカットに重ねる", "抖音 / TikTok 视频链接": "TikTok動画リンク", "报告界面语言": "レポートの言語設定", "报告语言": "レポートの言語", "抽帧图": "フレーム抽出図", "抽帧页码": "フレームページ番号", "拆解": "分解", "拆解完成后，镜头会按原片时间排在这里。": "分解後、カットは元の映像の時間に従ってここに並ぶ。", "拆解完成的项目会保存在这里。": "分解されたプロジェクトはここに保存される。", "拆解当前视频": "現在の動画を解析", "拆解当前视频，生成报告并列出每个镜头。": "現在の動画を分解し、レポートを生成して各カットを一覧表示する。", "拆解或转写完成后，字幕文件会出现在这里。": "分解または転写が完了した後、字幕ファイルはここに表示される。", "拆解视频后，字幕和译文会显示在这里。": "動画を分解後、字幕と翻訳文はここに表示される。", "拆解视频后，选择一个镜头生成可编辑草稿。": "動画を分解後、カットを一つ選択して編集可能な下書きを生成する。", "拖入参考视频": "参考動画をドラッグイン", "拖动右端修剪": "右端をドラッグしてトリミング", "拖动左端修剪": "左端をドラッグしてトリミング", "拖动播放进度": "再生スピードを動かす", "拖动缩放镜头": "映像の拡大縮小を動かす", "拖动调整字号": "文字サイズを調整する", "拼接与输出": "編集し、出力する", "按住 Ctrl 滚动滚轮缩放轨道": "Ctrlを押したまま、スクロール用スライダーで拡大縮小する", "按参考片的镜头时长和画幅匹配素材。确认每个素材位后，再一次应用。": "カットの長さと縦横比で素材を合わせ、確認してから一括で適用します。", "按文件名匹配素材，或把生成结果导入分镜。": "ファイル名で素材を照合するか、生成したクリップを取り込みます。", "按文件名批量匹配": "ファイル名で一括マッチングする", "换品模板": "商品差し替えテンプレート", "排版": "レイアウトする", "描述要拆解或查看的内容…": "説明が分割されるか確認される内容…", "提取视频里已有的字幕和标题": "動画に既存の字幕やタイトルを抽出する", "提示词": "ハイライト", "提示词已复制": "ハイライトをコピーした", "提示词镜头": "ハイライト映像", "搜索 Agent": "Agentを検索する", "搜索字体": "フォントを検索する", "撤销": "元に戻す", "撤销修改": "修正を取り消す", "撤销分割字幕": "字幕の分割を元に戻す", "撤销删除视频片段": "動画クリップの削除を元に戻す", "撤销删除音频片段": "音声クリップの削除を元に戻す", "撤销本轮 Agent 修改": "Agent の編集を元に戻す", "撤销添加轨道": "トラックの追加を元に戻す", "撤销调整字幕时长": "字幕の長さ変更を元に戻す", "播放": "再生する", "播放或暂停": "再生または一時停止する", "播放时间": "再生時間", "播放视频": "動画を再生する", "播放速度": "再生速度を調整する", "操作流程": "操作手順", "支持 MP4、MOV、MKV、WebM 等常用格式": "MP4、MOV、MKV、WebM などの一般的なフォーマットをサポート", "支持视频或图像的模型": "動画または画像のモデルをサポート", "收起": "折りたたみ", "收起分离音轨": "音声トラックを分離して折りたたみ", "收起分轨": "トラックを分割して折りたたみ", "放大参考": "拡大して参照", "放大抽帧图": "フレームを抽出した図を拡大して表示", "放大时间线": "タイムラインを拡大して表示", "效果": "効果", "文件不可用": "ファイルが利用できない", "文件名可用 shot_001.mp4 或 001.mp4。生成任务也可通过 results.json 导入。": "ファイル名は shot_001.mp4 または 001.mp4 のいずれかで構いません。生成タスクは results.json からインポートすることも可能です。", "文件和项目": "ファイルとプロジェクト", "文件已移动 · ": "ファイルが移動されました · ", "文字": "テキスト", "文字颜色": "テキストの色", "新字幕": "新しい字幕", "新对话": "新しい会話", "新建拆解": "新規解析", "新建视频拆解": "新しい動画分解作成", "新建项目": "新規プロジェクト", "旋转": "回転", "旋转角度": "回転角度", "无": "なし", "无法读取波形": "波形が読み取れない", "日文口播": "日本語音声", "日语": "日本語", "日语 / 日本語": "日本語", "日语中译": "日本語から中国語", "时长": "時間", "时间": "時間", "时间线位置（秒）": "タイムライン位置（秒）", "时间线剪辑": "タイムライン編集", "时间线播放位置": "タイムラインの再生位置", "时间线缩放": "タイムラインのスケール", "时间线需要至少一个视频片段才能导出。": "書き出すにはタイムラインに映像クリップが必要です。", "时间线预览尚未生成。": "プレビューはまだ準備できていません。", "时间线预览已更新": "プレビューを更新しました", "时间范围": "時間範囲", "时间采用秒，支持小数。保存后会同步当前项目的报告与字幕文件。": "時間は秒単位、小数も可能。保存後、現在のプロジェクトのレポートと字幕ファイルが同期される。", "显示更多字体（剩余 ": "より多くのフォントを表示（残量） ", "暂无中文译文": "中国語訳なし", "暂无任务记录。": "タスク記録なし", "暂无可校对的双语字幕，请先补充中文译文。": "校正可能なバイリンガル字幕がない。まず中国語訳を追加してください。", "暂无字幕": "字幕なし", "暂无镜头提示词": "カメラフレームのヒントなし", "暂时无法读取分析。": "現時、分析を読み取ることができません。", "暂时无法读取本机字体列表。": "この機器のフォントリストが読み取れないため、現時点では読み取れない。", "暂时没有导出记录。": "書き出しはまだありません。", "更多工具": "その他のツール", "更多工具工作区": "その他のツールワークスペース", "更换外部音频": "外部音声の変更", "更换替换视频": "動画の交換", "更换视频": "動画の変更", "更换视频或粘贴链接": "動画の変更またはリンクの貼付", "更改": "変更", "更改成片保存位置": "映像保存場所の変更", "更新剪辑预览": "編集プレビューを更新", "替换素材": "素材の置き換え", "替换素材已移动，显示原片": "素材の置き換えが移動され、元の動画が表示される", "替换素材无法预览，显示原片": "素材の置き換えはプレビューできず、元の動画が表示される", "替换音频": "音声の変更", "最近项目": "最近のプロジェクト", "暂无最近项目": "最近のプロジェクトはありません", "项目标签": "プロジェクトのタブ", "关闭项目标签 {0}": "プロジェクトのタブ {0} を閉じる", "服务地址": "サービスアドレス", "服务配置文件": "サービス設定ファイル", "未找到匹配的字体。": "一致するフォントが見つかりません。", "本地上传": "ローカルアップロード", "本地上传 / 链接拆解": "ローカルアップロード / リンクの分割", "本地版": "ローカル版", "本地静图重建": "ローカルの静止画の再構築", "本机": "本機", "本机 Agent": "本機エージェント", "本机 Agent 列表": "本機エージェントのリスト", "本机程序": "本機プログラム", "本次会话密钥": "このセッションのキー", "本次指令未完成": "この指示は完了していません", "本轮 Agent 修改": "Agent の編集", "机器识别和翻译建议人工校对。": "機械による認識と翻訳は、人間の校正が必要です。", "松开以导入视频": "動画を読み込むためにストレッチします。", "柔焦": "ノイズ処理", "查看与修改": "確認と編集", "查看剪辑后的画面": "編集後の映像を確認する", "查看原片画面": "オリジナル映像を確認する", "查看字幕文件": "字幕ファイルを確認する", "查看开头 3 秒": "最初の3秒を確認する", "查看拆解设置": "分解設定を確認する", "查看本机纠错记忆": "本機の修正記憶を確認する", "查看的字幕": "確認された字幕", "查看精简结论": "要約結果を確認する", "查看视频参数": "動画のパラメータを確認する", "检查与抽帧": "チェックとフレーム抽出", "检查本机运行环境": "本機の運用環境を確認する", "检查视频、抽帧和复核项目。": "動画の確認、フレームの抽出、プロジェクトのレビューを行います。", "检测到的本机 Agent 会出现在左下角菜单。启用后即可选择，登录沿用各 Agent 的账号。": "検出された本機エージェントは左下のメニューに表示されます。有効にすると選択可能になり、ログイン時は各エージェントのアカウントを使用します。", "检测后端": "バックエンド検査", "楷体": "カータイプフォント", "模型": "モデル", "模型名": "モデル名", "模板名": "テンプレート名", "正向提示词输入": "正向プロンプトの入力", "正在下载视频…": "動画のダウンロード中です…", "正在下载视频，完成后会自动开始拆解。": "動画のダウンロード中です。完了すると自動的に分割が始まります。", "正在保存…": "データの保存中です…", "正在停止": "停止処理中です…", "正在准备…": "準備中です…", "正在处理…": "処理中です…", "正在导入 · ": "インポート中です… ", "正在导入视频": "動画をインポート中です…", "正在执行": "実行中", "正在提交…": "送信中です…", "正在更新时间线预览": "タイムラインのプレビューを更新中", "正在更新时间线预览…": "プレビューを更新中…", "正在检测本机 Agent": "本機エージェントの検出中です…", "正在检测本机 Agent…": "本機エージェントの検出中です…", "正在生成兼容预览": "互換性のあるプレビューを生成中です…", "正在生成试听音频…": "試聴音声を生成中です…", "正在生成预览…": "プレビューを生成中です…", "正在自动拆解…": "自動分割処理中です…", "正在读取…": "読み込み中…", "正在读取分析…": "分析を読み取っているところです…", "正在读取字幕…": "字幕の読み込み中です…", "正在读取工作区…": "ワークスペースの読み込み中です…", "正在读取本机字体…": "本機フォントの読み込み中です…", "正在读取草稿…": "下書きデータの読み込み中です…", "正在读取视频时长…": "動画の長さの読み込み中です…", "正在读取音频波形…": "音声波形の読み込み中です…", "正在载入替换素材…": "代替素材の読み込み中…", "正在连接…": "接続中…", "正确类型": "正しいタイプ", "此字幕轨暂无内容，可补充译文或重新识别口播。": "この字幕トラックには内容がなく、翻訳や再認識が必要です。", "水平位置 X": "水平位置 X", "水平对齐": "水平対齐", "水平居中": "水平中央", "水平翻转": "水平反転", "没有匹配的 Agent。": "対応するAgentが見つかりません。", "沿用原片": "元の映像に戻す", "注音楷体": "注音楷体", "注音粉圆体": "注音粉圆体", "注音芫荽体": "注音芫荽体", "浅色": "ライト", "测试连接": "接続テスト中", "浏览项目文件": "プロジェクトファイルを閲覧", "深色": "ダーク", "添加外部音频": "外部音声を追加", "添加字幕": "字幕を追加", "添加对比项目": "比較プロジェクトを追加", "添加素材": "素材を追加", "添加素材到 {0}": "{0}に素材を追加", "添加轨道": "トラックを追加", "添加配乐": "音楽を追加", "添加配音 / 音效": "音声・効果音を追加", "清除": "削除", "清除此类动效": "この種のエフェクトを削除", "游ゴシック": "游ゴシック", "源泉圆体（繁体）": "源泉圆体（繁体）", "源石黑体（繁体）": "源石黑体（繁体）", "滑块": "スライダー", "点击一句定位视频，打开大面板校对双语。": "一つのセンテンスをクリックして動画を定位し、大きなパネルで二言語を校正する。", "点击左侧句子定位原片；修改后保存此句，报告和 SRT 会同步更新。": "左側のセンテンスをクリックして原動画を定位する。このセンテンスを変更したら保存し、レポートとSRTが同期で更新される。", "爆款分析": "ヒット動画分析", "版本": "バージョン", "版本名": "バージョン名", "生成任务与参考图": "タスクと参照画像の生成", "生成兼容预览": "互換性のあるプレビューの生成", "生成参考图": "参照画像の生成", "生成可单独试听的人声和背景声": "個別に聴くことができる声と背景音の生成", "生成后端设置": "バックエンド設定の生成", "生成并替换当前镜头": "現在のカメラを生成し置き換える", "生成并替换镜头": "生成してカットを差し替える", "生成引擎": "エンジンの生成", "生成当前镜头提示词": "現在のカメラのプロンプトの生成", "生成抽帧图": "フレーム抽出画像の生成", "生成提示词": "プロンプト", "生成模式": "モードの生成", "画面": "映像", "画面中译": "画面文字の中国語訳", "画面字幕": "画面字幕", "画面字幕 ": "画面字幕 ", "画面字幕识别语言": "画面字幕の認識言語", "画面拖动和缩放": "画面のドラッグとスケーリング", "画面效果": "画面効果", "画面文字": "画面内テキスト", "画面文字是什么语言？": "画面文字はどの言語ですか？", "界面与外观": "表示と外観", "界面语言": "表示言語", "看一下当前项目，列出前 3 秒的分镜、画面文字和口播中译。": "現在のプロジェクトを見て、最初の3秒のセット、画面文字、口述の中国語訳をリストアップする。", "看原": "原動画を見る", "看译文、换镜头、调声音": "中国語訳を見て、カメラを変更し、音声を調整する", "秒": "秒", "移回底部": "下部に戻す", "移除外部音频": "外部音声を削除", "移除替换素材": "代替素材を削除", "移除替换视频附件": "代替動画ファイルを削除", "移除此片段": "このクリップを削除", "站酷小薇体": "ZCOOL XiaoWei", "站酷庆科黄油体": "ZCOOL QingKe HuangYou", "站酷快乐体": "ZCOOL KuaiLe", "第 ": "第 ", "等待": "待機", "等待分镜": "分镜の待機", "等比": "等比", "等线": "等線", "管理 Agent": "Agentの管理", "管理连接": "接続の管理", "类型": "タイプ", "粉圆体": "粉圆体", "粘贴视频路径、项目目录或抖音/TikTok 分享链接。": "動画のパス、プロジェクトディレクトリ、または抖音/TikTok のシェアリンクを貼り付けます。", "粘贴视频链接，或包含链接的完整分享文案\nhttps://v.douyin.com/…": "動画リンクを貼り付けするか、リンクを含む完全なシェアコンテンツ https://v.douyin.com/…", "系统 ": "システム ", "素材": "素材", "素材填充方式": "素材の埋め込み方法", "素材已移动，请重新选择文件。": "素材が移動されました。ファイルを再選択してください。", "结合当前镜头的关键帧，给我一份可用的复刻提示词。": "現在のカットのキーフレームを使って、利用可能な複製提示テキストを提供してください。", "结合真实留存和转化数据判断片段表现。上面的线索来自已有文字识别。": "実際の維持率とコンバージョン率で効果を確認できます。上の手がかりは認識した文字や音声に基づきます。", "结束": "終了", "结束时间（秒）": "終了時間（秒）", "结束秒数": "終了秒数", "结束（秒）": "終了（秒）", "结果已复制": "結果がコピーされました", "编辑 Agent 指令": "編集エージェントの指示", "编辑提示词": "編集提示テキスト", "编辑该镜提示词": "そのカットの提示テキストを編集してください", "编辑镜头草稿，生成替换素材或导出提示词。": "カットの下書きを編集し、代替素材を生成するか提示テキストをエクスポートしてください", "缩小时间线": "タイムラインを縮小", "自动拆解": "自動分割", "自动识别平台，一次拆解一条视频。粘贴后点击下方按钮开始。": "プラットフォームを自動認識し、1つのビデオを1つずつ分割します。貼り付けた後、下のボタンをクリックして開始してください", "自动附上中文译文": "自動的に中国語訳を付けます", "自定义分析选项": "カスタム分析オプション", "色相": "色相", "芫荽体": "芫荽体", "英文口播": "英語音声", "英文画面文字、英文和日语口播会写进报告。": "英語の画面テキスト、英語と日本語のナレーションを報告書に記載します", "英语": "英語", "英语中译": "英語から中国語", "补充 / 更新中文译文": "中国語訳を追加／更新", "补充译文与口播识别": "補足訳とナレーションの認識", "裁剪与填充": "カットと埋め込み", "裁剪为 ": "カットにする ", "裁剪右侧": "右側をカット", "裁剪左侧": "左側をカット", "裁剪底部": "下辺りをカット", "裁剪比例": "カット比率", "裁剪顶部": "上辺りをカット", "西班牙语": "スペイン語", "视频处理流程": "動画処理プロセス", "视频已下载，正在自动拆解。": "動画がダウンロードされました。自動的に分割中です。", "视频或音频": "動画または音声", "视频拆解": "動画解析", "视频拆解已完成。": "動画の分割が完了しました。", "视频文件": "動画ファイル", "视频来源": "動画の源", "视频生成": "動画の生成", "视频生成任务": "動画生成タスク", "视频生成设置": "動画生成設定", "视频轨": "映像トラック", "视频轨 {0}": "映像トラック {0}", "视频预览": "動画プレビュー", "记录字幕、标题、花字等出现的时间": "字幕、タイトル、特殊文字が表示される時刻を記録", "设置": "設定", "设置 Agent 连接": "エージェント接続の設定", "设置分类": "カテゴリの設定", "设置参考帧，准备和预览逐镜生成任务。": "参照フレームを設定し、ショットごとの生成タスクを準備・確認します。", "设置模型": "モデルの設定", "评测标注集…": "評価用アノテーションデータ…", "识别口播并生成 SRT": "ナレーションの認識とSRTの生成", "识别字幕和画面包装": "字幕と映像のパッケージングの認識", "识别画面文字": "映像内のテキストの認識", "诊断已复制": "コピー済みの診断", "诊断已选中，请按 Ctrl+C 复制": "選択済みの診断、Ctrl+Cでコピーしてください", "译文加入时间线": "翻訳をタイムラインに追加", "试听 {0}": "{0}を試聴", "试听、分离人声和配乐，设置成片声音。": "試聴、声と音楽の分離、映像音声の設定", "试听混音": "ミックスの試聴", "试听音轨": "トラックの試聴", "试播": "プレビュー", "请填写字幕文字，或用「撤销修改」恢复。": "字幕のテキストを入力してください。または「撤回」で元に戻す", "请将播放头移到片段内部再分割。": "再生ヘッドをクリップ内に移動してから分割してください。", "请查看任务日志或选择其他视频。": "作業ログを確認するか、別の動画を選択してください", "请检查字幕的开始与结束时间。": "字幕の開始時間と終了時間を確認してください", "请求未完成。": "リクエストは未完了です", "请输入字幕文字，或撤销修改。": "字幕のテキストを入力するか、撤回してください", "请重新打开工作台以加载新版高级工具。": "新しい高級ツールをロードするためにワークステーションを再起動してください", "读分镜、改项目、导出成片": "カットの編集、プロジェクトの設定、映像の出力", "读取分镜": "カット一覧を読む", "读取参考帧": "参考フレームを取得", "读取字幕与中译": "字幕と中国語訳を読む", "调整右侧面板宽度": "右側のパネルの幅を調整", "调整成片音量与混音": "映像の音量とミックスを調整する", "调整时间线高度": "タイムラインの高さを調整する", "调整混音": "ミックスを調整する", "调用模型生成…": "モデルを呼び出して生成する…", "调用视频模型": "動画モデルを呼び出す", "调色": "色調を調整する", "调节": "設定を変更する", "起止时间需在视频范围内，且结束晚于开始。": "開始・終了時間は動画範囲内で、終了時刻は開始時刻より遅くなる必要がある", "跟随系统": "システムに合わせる", "轨道": "トラック", "轨道编辑": "トラック編集", "转写口播为 SRT": "スクリプトを SRT 形式に変換する", "转化引导线索": "行動喚起の手がかり", "转化率": "転換率", "转化率 %": "コンバージョン率 %", "输入字幕文字": "字幕のテキストを入力する", "输入当前镜头的提示词": "現在のショット用の提示文を入力する", "运行环境": "環境を実行する", "返回工作区": "作業エリアに戻る", "返回工作台": "ワークステーションに戻る", "返回当前视频": "現在の動画に戻る", "返回编辑属性": "編集属性に戻る", "还有未保存的字幕修改，关闭会放弃这些修改。确定关闭吗？": "未保存の字幕の変更があります。閉じるとこれらの変更が無効になります。確実に閉じますか？", "这个项目还没有已保存的对话。": "このプロジェクトにはまだ保存された対話がありません。", "进行中": "進行中", "连接 Agent": "Agent に接続する", "连接后检测工作台工具": "接続後に作業ツールを確認", "连接失败": "接続に失敗", "连接或执行失败": "接続または実行に失敗", "连接本机或局域网": "本機またはローカルネットワークに接続する", "连接组件": "コンポーネントを接続する", "退出码 ": "終了コード ", "选一个 Agent 处理视频": "Agentを選択して動画を処理する", "选择": "選択する", "选择 ": "選択する ", "选择 .env 文件…": ".envファイルを選択する…", "选择 Agent": "Agentを選択する", "选择参考": "参考を選択する", "选择参考视频": "参考動画を選択する", "选择字幕轨": "字幕トラックを選択する", "选择已安装的 capsule-cinema 目录…": "インストールされた capsule-cinemaディレクトリを選択する…", "选择已安装的命令或启动程序…": "インストールされたコマンドや起動プログラムを選択する…", "选择提示词节点": "ヒントワードノードを選択する", "选择文件…": "ファイルを選択する", "选择替换视频": "差し替え動画を選択", "选择有视频输出的工作流…": "動画出力があるワークフローを選択する…", "选择本地视频": "ローカル動画を選択", "选择本地视频，或粘贴抖音 / TikTok 链接。": "ローカル動画を選択するか、TikTokリンクを貼り付ける", "选择画面中的镜头": "映像内のショットを選択する", "选择素材文件夹": "素材フォルダーを選択", "选择视频": "動画を選択する", "选择视频，自动生成分镜、字幕和中文译文。": "動画を選択すると、自動で分镜、字幕、中国語翻訳が生成される", "选项": "オプション", "通用": "一般", "速度": "速度", "配乐与环境声": "音楽と環境音", "配乐与配音": "音楽・ナレーション", "配乐轨": "音楽トラック", "配置": "設定", "配置 ": "設定 ", "配置本机 Agent": "本機エージェントの設定", "配置视频生成": "動画生成の設定", "配音轨": "ナレーショントラック", "重新下载并拆解": "再ダウンロードと分割", "重新分离人声与配乐": "声と音楽の再分離", "重新加载": "再読み込み", "重新定位原片": "元映像の再位置決め", "重新拆解为新项目": "新しいプロジェクトへの再分割", "重新检测": "再検出", "重新识别口播": "口述内容の再認識", "重新连接": "再接続", "重置镜头属性": "カメラ属性のリセット", "重试下载并拆解": "ダウンロードと分割の再試行", "重试保存": "保存の再試行", "重试未完成，请查看该步骤的提示。": "再実行できませんでした。ステップの詳細を確認してください。", "重试此步": "ステップを再実行", "重连": "再接続", "未找到": "未検出", "待配置": "設定が必要", "未启用": "無効", "连接中…": "接続中…", "铺满外框": "フレーム枠の埋め込み", "链接拆解": "リンクの分割", "锁定宽高比": "アスペクト比を固定", "错误 ": "エラー ", "镜头": "カメラ", "镜头 ": "カメラ ", "镜头 {0}": "カット {0}", "镜头 {0} · 素材预览": "カット {0} · 素材プレビュー", "镜头 {0} 的卖点要求": "カット {0} の訴求ポイント", "镜头 {0} 的替换素材": "カット {0} の差し替え素材", "镜头内入点（秒）": "カット内の開始点（秒）", "镜头内出点（秒）": "カット内の終了点（秒）", "镜头宽度 W": "カメラ幅 W", "镜头属性类别": "カメラ属性の種類", "镜头属性面板": "カメラ属性パネル", "镜头替换素材已导入": "カメラの代替素材が読み込まれました", "镜头类型": "カメラの種類", "镜头高度 H": "カメラ高さ H", "间隔秒数": "間隔秒数", "随片段时长推进": "映像の長さに応じて", "需要先配置模型服务": "モデルサービスの設定が必要", "需配置模型服务，会向该服务发送视频素材": "モデルサービスの設定が必要です。動画素材はそのサービスに送信されます。", "霞鹜文楷": "霞鹜文楷", "霞鹜文楷屏幕阅读版": "霞鹜文楷のスクリーンリーディング版", "霞鹜文楷等宽（繁体）": "霞鹜文楷等幅（繁体字）", "霞鹜文楷（繁体）": "霞鹜文楷（繁体字）", "霞鹜漫黑": "霞鹜漫黑", "静音": "静音", "静音原声预览": "静音の原音プレビュー", "静音输出": "静音出力", "音轨混音": "音声ミックス", "音量": "音量", "音量 %": "音量 %", "音频": "オーディオ", "音频入点（秒）": "音声の開始点（秒）", "音频出点（秒）": "音声の終了点（秒）", "音频片段": "オーディオクリップ", "音频试听": "オーディオ試聴", "音频轨": "オーディオトラック", "音频轨 {0}": "オーディオトラック {0}", "顶对齐": "トップの対齐", "项目保存位置": "プロジェクトの保存先", "项目保存到": "プロジェクトを保存する", "项目和工作区": "プロジェクトとワークスペース", "项目字幕轨": "プロジェクトの字幕トラック", "项目对话历史": "プロジェクトの対話履歴", "项目工具": "プロジェクトツール", "项目已打开": "プロジェクトを開きました", "项目数据与批量评测": "プロジェクトデータとバッチ評価", "项目文件夹": "プロジェクトフォルダー", "预览任务": "プレビューレイト", "预览字幕": "プレビューの字幕", "预览无法播放": "プレビューが再生できない", "预览替换": "プレビューを変更", "预览模式": "プレビューモード", "预览素材": "プレビュー素材", "预览镜头 {0} 的替换素材": "カット {0} の差し替え素材をプレビュー", "预设": "プリセット", "颜色": "色", "颜色模式": "カラーモード", "饱和度": "彩度", "首帧": "最初のフレーム", "首次转化引导": "初回転換の案内", "马善政毛笔": "馬善政の筆", "高级": "高級", "高级工具分类": "高級ツールのカテゴリ", "黑体": "黑体", "黑白": "白黒", "默认生成引擎": "デフォルト生成エンジン", "默认设置即可开始。完成后先查看译文，再按需修改和导出。": "既定の設定で開始できます。完了後は翻訳を確認して編集・書き出しできます。", "龙藏体": "龍藏体", "{0} 个文件": "{0} ファイル", "{0} 条手动字幕将随成片导出": "手動字幕 {0} 件を含む", "保留当前响度": "現在のラウドネスを維持", "分辨率": "解像度", "包含声音": "音声を含める", "压缩效率更高": "圧縮効率が高い", "原始": "オリジナル", "另存一份 MP4 对比视频": "比較動画も MP4 で保存", "响度": "ラウドネス", "字幕格式": "字幕形式", "字幕轨": "字幕トラック", "字幕轨 {0}": "字幕トラック {0}", "视频素材": "動画クリップ", "撤销移动字幕": "字幕の移動を取り消す", "目标字幕轨已变化，请重新选择。": "移動先の字幕トラックが変わりました。選び直してください。", "目标音轨已变化，请重新选择。": "移動先の音声トラックが変わりました。選び直してください。", "完整适配": "全体を表示", "导出摘要": "書き出し概要", "导出类型": "書き出す種類", "导出预设": "書き出しプリセット", "尺寸": "サイズ", "帧率": "フレームレート", "成片": "完成動画", "打开导出位置": "書き出し先を開く", "文件名": "ファイル名", "更多设置": "その他の設定", "最高": "最高", "未能提交导出，请检查当前编辑内容。": "書き出しを開始できませんでした。編集中の内容を確認してください。", "标准": "標準", "格式": "形式", "横屏 1080p": "横長 1080p", "没有可导出的音轨。请启用音轨或选择外部音频。": "書き出す音声トラックを有効にするか、外部音声ファイルを選択してください。", "沿用项目": "プロジェクトに合わせる", "用于后续剪辑": "編集用", "画幅": "アスペクト比", "画质": "画質", "画面填充": "画面の収め方", "竖屏 1080p": "縦長 1080p", "视频": "動画", "视频编码": "動画コーデック", "请先添加手动字幕，或在字幕与翻译中生成口播字幕。": "手動字幕を追加するか、「字幕と翻訳」で音声から字幕を生成してください。", "适合在网页使用": "ウェブ向け", "适合日常分享和上传": "共有・アップロード向け", "选择格式与保存位置": "形式と保存先を選択", "铺满画幅": "画面いっぱいに表示", "附加音频 {0} 段": "追加音声クリップ {0} 件", "音频格式": "音声形式", "项目帧率（{0} fps）": "プロジェクトのレート（{0} fps）", "高": "高", "请输入有效的文件名。": "有効なファイル名を入力してください。", "请选择支持的导出格式。": "対応する書き出し形式を選択してください。", "请选择有效的响度。": "有効なラウドネス設定を選択してください。", "请选择有效的视频输出设置。": "有効な動画書き出し設定を選択してください。", "当前项目已切换，请重新打开导出窗口。": "プロジェクトが変更されました。書き出し画面を開き直してください。", "所选字幕轨在当前时间线内没有字幕。": "選択したトラックには現在のタイムライン上に字幕がありません。", "正在编码成片": "動画をエンコード中", "正在写入导出文件": "書き出しファイルを保存中", "正在导出音频": "音声を書き出し中", "正在导出字幕": "字幕を書き出し中", "导出文件为空。": "書き出したファイルが空です。", "文件已导出": "書き出し完了", "已打开导出目录": "書き出し先を開きました", "打开文件": "ファイルを開く", "CapCut 按保存位置读取素材，建议直接导出到它的草稿目录。": "CapCut は書き出し先の素材を読み込みます。下書きフォルダに直接保存してください。", "仅时间线字幕": "タイムラインの字幕のみ", "剪映专业版": "剪映プロ", "剪辑工程": "編集プロジェクト", "剪辑软件": "動画編集ソフト", "可选择剪辑软件设置里的草稿目录，也可把导出位置设为它的草稿目录。": "編集ソフトの設定にある下書きフォルダを選ぶか、書き出し先を下書きフォルダに設定してください。", "复制完整素材，并保留分镜、附加视频和音频轨道。调色、裁剪和动画随对应的片段输出。": "素材全体とカット、追加映像、音声トラックを書き出します。色調補正、クロップ、アニメーションは該当クリップに描画されます。", "导出后回到剪辑软件首页，从本地草稿打开。": "書き出したら、編集ソフトのホームでローカルの下書きを開いてください。", "导出草稿": "下書きを書き出す", "打开文件夹": "フォルダを開く", "时间线上的手动字幕会作为可编辑文字导出。": "タイムラインの手動字幕は編集できるテキストとして書き出します。", "更改草稿保存位置": "下書きの保存先を変更", "素材和轨道": "素材とトラック", "草稿名称": "下書き名", "草稿文件夹": "下書きフォルダ", "视频格式": "動画形式", "附加字幕轨": "追加字幕トラック", "请选择要使用的剪辑软件。": "動画編集ソフトを選択してください。", "正在导出剪辑工程": "編集プロジェクトを書き出し中", "正在准备工程素材": "プロジェクトの素材を準備中", "正在写入剪辑工程": "編集プロジェクトを保存中", "剪辑工程已导出": "編集プロジェクトを書き出しました", "导出结果已打开": "書き出したファイルを開きました", "预计大小": "推定サイズ", "预计总大小": "推定合計サイズ", "按导出参数估算，实际大小随素材内容变化。": "書き出し設定からの推定です。実際のサイズは素材によって異なります。", "最小化窗口": "ウィンドウを最小化", "最大化窗口": "ウィンドウを最大化", "还原窗口": "ウィンドウを元に戻す", "窗口控制": "ウィンドウの操作", "导入剪辑素材": "編集素材を取り込む", "导入视频剪辑": "編集する動画を読み込む", "直接剪辑当前视频": "現在の動画を編集", "等待导入视频": "動画を読み込んで開始", "导入视频后，点击时间线上的片段开始编辑。": "読み込んだらタイムライン上のクリップを選択して編集できます。", "视频轨道为空": "動画トラックは空です", "撤销删除可恢复片段。": "削除を取り消すとクリップを復元できます。", "播放或暂停（空格）": "再生または一時停止（スペース）", "剪辑工程已创建": "編集プロジェクトを作成しました", "无法读取这个视频，请选择可播放的视频文件。": "この動画を読み込めません。再生可能なファイルを選択してください。", "已撤销字幕编辑": "字幕の編集を取り消しました", "撤销时间线编辑": "タイムライン編集を取り消す", "撤销移动片段": "クリップの移動を取り消す", "主轨磁吸": "メイントラックの磁石", "自动吸附": "自動スナップ", "开关主轨磁吸。开启时让分镜首尾相接。": "有効にするとメイントラックのクリップを隙間なく並べます。", "拖动时对齐附近的片段边缘和播放头。": "ドラッグ中に近くのクリップ端や再生ヘッドに揃えます。", "撤销主轨磁吸": "メイントラックの磁石を取り消す", "这条轨道没有足够的空位。": "このトラックに十分な空きがありません。", "同一字幕轨的片段不能重合。": "同じ字幕トラックのクリップは重ねられません。", "请选择 WorkBuddy 的 ACP 命令行": "WorkBuddy の ACP CLI を選択", "选择 WorkBuddy 企业版提供的 CodeBuddy Code 命令行，以 ACP 模式连接。": "WorkBuddy Enterprise の CodeBuddy Code CLI を選択して ACP で接続します。", "撤销添加字幕": "字幕の追加を取り消す", "撤销编辑字幕": "字幕の編集を取り消す", "撤销删除字幕": "字幕の削除を取り消す", "撤销导入字幕": "字幕の取り込みを取り消す", "撤销编辑镜头属性": "クリップのプロパティ変更を取り消す", "撤销替换素材": "素材の差し替えを取り消す", "撤销移除替换素材": "差し替え素材の削除を取り消す", "撤销调整混音": "ミックスの調整を取り消す", "撤销编辑提示词": "プロンプト編集を取り消す", "撤销校对字幕": "字幕の校正を取り消す", "撤销保存版本": "バージョンの保存を取り消す", "撤销切换版本": "バージョンの復元を取り消す", "撤销批量替换素材": "一括差し替えを取り消す", "撤销更换参考图": "参照画像の変更を取り消す", "想怎么剪辑或分析这条视频？": "この動画をどう編集・分析しますか？", "把开头 1 秒和结尾 1 秒剪掉，保留中间内容。": "冒頭と末尾を1秒ずつカットして、中間部分を残して。", "试试自动剪辑": "自動編集を試す", "描述要剪辑或分析的内容…": "編集や分析の指示を入力…", "例如：剪掉开头 2 秒，把最后一个镜头移到最前。": "例：冒頭の2秒をカットして、最後のショットを先頭に移動。", "读取剪辑时间线": "編集タイムラインを読み取る", "应用时间线剪辑": "タイムラインの編集を適用する", "创建剪辑工程": "編集プロジェクトを作成する", "已创建剪辑工程": "編集プロジェクトを作成しました", "已读取当前剪辑时间线": "編集タイムラインを読み取りました", "已读取时间线素材帧": "タイムライン素材のフレームを取得しました", "当前时间线已符合这次剪辑": "タイムラインはこの編集内容と一致しています", "从一段素材开始剪辑": "素材から編集を始める", "添加原始视频，然后告诉 Agent 想剪成什么样。": "元の動画を追加し、どんな仕上がりにしたいかを伝えます。", "把这段素材剪成一条节奏明快的产品短片，开头先展示亮点。": "この素材をテンポのよい商品紹介動画にして、冒頭に見どころを入れて。", "添加剪辑素材": "素材を追加", "更换剪辑素材": "追加した素材を差し替え", "移除剪辑素材": "追加した素材を削除", "正在添加素材 {0}%": "素材を追加中 {0}%", "查看原始素材": "元の素材を確認", "正在查看原始素材": "元の素材を確認中", "素材预览已准备好": "素材のプレビューができました", "正在检测素材分段和静音": "場面の切り替わりと無音区間を検出中", "正在生成带时间码的素材预览": "タイムコード付き素材プレビューを作成中", "正在识别素材口播": "素材の音声を文字起こし中", "已查看素材画面和时间码": "素材の画面とタイムコードを確認しました", "制作素材初稿": "初稿を作成", "成片初稿已在时间线打开": "タイムラインに初稿を開きました", "渐显": "フェードイン", "放大": "ズームイン", "缩小进入": "縮小して登場", "弹入": "ポップイン", "向左滑入": "左へスライドイン", "向右滑入": "右へスライドイン", "向上滑入": "上へスライドイン", "向下滑入": "下へスライドイン", "旋转进入": "回転して登場", "模糊渐显": "ぼかしから表示", "甩入": "ウィップイン", "摇摆进入": "揺れながら登場", "渐隐": "フェードアウト", "缩小消失": "縮小して消える", "放大消失": "拡大して消える", "向左滑出": "左へスライドアウト", "向右滑出": "右へスライドアウト", "向下滑出": "下へスライドアウト", "旋转消失": "回転して消える", "模糊消失": "ぼかして消える", "呼吸": "呼吸", "漂浮": "浮遊", "摇摆": "揺れ", "抖动": "振動", "心跳": "鼓動", "闪烁": "点滅", "缓慢推进": "ゆっくり寄る", "入场预设": "インのプリセット", "出场预设": "アウトのプリセット", "循环预设": "ループのプリセット", "试播入场": "インをプレビュー", "试播出场": "アウトをプレビュー", "试播循环": "ループをプレビュー", "无可导出的字幕": "書き出せる字幕がありません", "实拍": "実写", "影视片段": "映画・映像の一部", "AI 生成视频": "AI 生成動画", "数字人": "デジタルアバター", "3D 渲染": "3D レンダリング", "2D 动画": "2D アニメーション", "定格动画": "ストップモーション", "代码 / 模板渲染": "コード・テンプレート描画", "录屏截图": "画面キャプチャ", "静图推拉": "静止画のパン・ズーム", "静帧": "静止フレーム", "待确认": "確認待ち", "定位{0}音频": "{0}の再生位置を移動", "{0} · {1} 句": "{0}・{1} 行", "{0} {1}，{2}": "{0} {1}・{2}", "缺少连接组件": "接続コンポーネントがありません", "未检测到本机程序": "ローカルプログラムが見つかりません", "指定程序已移动": "指定したプログラムが移動されました", "指定连接组件已移动": "指定した接続コンポーネントが移動されました", "需要 Node.js 运行连接组件": "接続コンポーネントの実行には Node.js が必要です", "视频元数据": "動画のメタデータ", "抽帧图已生成": "フレーム一覧を作成しました" }, "zh-TW": { "更多操作": "更多操作", "执行步骤": "執行步驟", "查看任务进度": "查看任務進度", "任务产出": "任務產出", "还有 {0} 个结果": "還有 {0} 個結果", "回复表格": "回覆表格", "{0} 个步骤": "{0} 個步驟", "{0} 秒": "{0} 秒", "安装本机程序后，点「重新检测」再连接。": "安裝本機程式後，按「重新偵測」再連線。", "常用": "常用", "其他 Agent": "其他 Agent", "连接": "連線", "连接设置": "連線設定", "正在安装…": "正在安裝…", "连接组件已安装": "連線元件已安裝", "安装包含 npm 的 Node.js 后，再点「安装连接组件」。": "安裝含有 npm 的 Node.js 後，再按「安裝連線元件」。", " · 分析引擎 ": " · 分析引擎 ", " · 替换预览": " · 替換預覽", " · 构建 ": " · 構建 ", " · 点击波形定位原片": " · 點擊波形定位原片", " · 镜头 {0}": " · 分鏡 {0}", " 个": " 個", " 个镜头": " 個分鏡", " 个镜头 · ": " 個分鏡 · ", " 个镜头 · 已替换 ": " 個分鏡 · 已替換 ", " 像素": " 像素", " 入口…": " 入口…", " 句": " 句", " 可连接": " 可連接", " 条手动字幕将随成片导出": " 條手動字幕將隨成片導出", " 款）": " 款）", " 的提示词": " 的提示詞", " 秒": " 秒", " 页": " 頁", "3 秒留存": "3 秒留存", "3 秒留存率 %": "3 秒留存率 %", "< 0.1 秒": "< 0.1 秒", "AI 深度分析": "AI 深度分析", "API 工作流 JSON": "API 工作流 JSON", "Agent 任务进度": "Agent 任務進度", "Agent 指令": "Agent 指令", "Agent 指令面板": "Agent 指令面板", "Agent 正在执行上一条指令。": "Agent 正在執行上一條指令。", "Agent 设置": "Agent 設置", "Agent 选项": "Agent 選項", "BIZ UDP明朝": "BIZ UDP明朝", "BIZ UD明朝": "BIZ UD明朝", "ComfyUI 生成": "ComfyUI 生成", "ComfyUI 设置已保存": "ComfyUI 設置已保存", "MP4、MOV、MKV、WebM 等常用格式": "MP4、MOV、MKV、WebM 等常用格式", "Noto 宋体（简体）": "Noto 宋體（簡體）", "Noto 明体（繁体）": "Noto 明體（繁體）", "Noto 黑体（简体）": "Noto 黑體（簡體）", "Noto 黑体（繁体）": "Noto 黑體（繁體）", "WDXL 圆体（简体）": "WDXL 圓體（簡體）", "WDXL 圆体（繁体）": "WDXL 圓體（繁體）", "Zen オールド明朝": "Zen オールド明朝", "Zen 丸ゴシック": "Zen 丸ゴシック", "Zen 紅道": "Zen 紅道", "{0} 秒 · {1} 个镜头 · 平均 {2} 秒": "{0} 秒 · {1} 個分鏡 · 平均 {2} 秒", "{0}面板": "{0}面板", "{0}音量": "{0}音量", "さわらび明朝": "さわらび明朝", "しっぽり明朝": "しっぽり明朝", "ひな明朝": "ひな明朝", "キウイ丸": "キウイ丸", "上": "上", "上下拖动调整高度，双击恢复默认": "上下拖動調整高度，雙擊恢復默認", "上传本地视频，或粘贴链接自动下载并拆解。": "上傳本地視頻，或粘貼鏈接自動下載并拆解。", "下": "下", "下载并开始拆解": "下載并開始拆解", "下载视频": "下載視頻", "不发送参考帧": "不發送參考幀", "不透明度": "不透明度", "中文": "中文", "中文 / 英文": "中文 / 英文", "中文译文": "中文譯文", "为此项目补充 / 更新译文": "為此項目補充 / 更新譯文", "也可以把视频文件拖到时间线上的镜头。": "也可以把視頻文件拖到時間線上的鏡頭。", "也可拖动画面里的字幕移动，拖动角点缩放。": "也可拖動畫面里的字幕移動，拖動角點縮放。", "交给 Agent": "交給 Agent", "产品文字线索": "產品文字線索", "亮度": "亮度", "人声": "人聲", "从一条参考视频开始": "從一條參考視頻開始", "任务 ": "任務 ", "任务失败 · ": "任務失敗 · ", "任务已停止，分享内容已保留。": "任務已停止，分享內容已保留。", "任务已停止，分享内容已保留，可以重新开始。": "任務已停止，分享內容已保留，可以重新開始。", "任务日志": "任務記錄", "任务累计耗时": "任務累計耗時", "任务阶段 ": "任務階段 ", "仿宋": "仿宋", "位置与大小": "位置與大小", "你": "你", "使用原": "使用原", "使用原片": "使用原片", "使用后端目录的默认 Python": "使用后端目錄的默認 Python", "使用已配置的模型服务": "使用已配置的模型服務", "使用默认引擎": "使用默認引擎", "例如 A 版 · 快节奏": "例如 A 版 · 快節奏", "例如 展示产品实际使用效果": "例如 展示產品實際使用效果", "例如 日区 15 秒商品展示": "例如 日區 15 秒商品展示", "例如：分析开头 3 秒，或在第 2 镜头加入一句产品卖点字幕。": "例如：分析開頭 3 秒，或在第 2 鏡頭加入一句產品賣點字幕。", "依据（可选）": "依據（可選）", "保存": "儲存", "保存 ComfyUI 设置": "保存 ComfyUI 設置", "保存为一个 MP4": "保存為一個 MP4", "保存分析设置": "保存分析設置", "保存到": "儲存至", "保存参考模板": "儲存參考範本", "保存字幕": "保存字幕", "保存工程音轨": "保存工程音軌", "保存并返回导出": "保存并返回導出", "保存引擎": "保存引擎", "保存当前剪辑、替换素材、字幕和音轨，可随时切回这个版本。": "儲存目前剪輯、替換素材、字幕和音軌，可隨時切回此版本。", "保存当前版本": "儲存目前版本", "保存手动字幕": "儲存手動字幕", "保存数据": "儲存數據", "保存此句并同步": "保存此句并同步", "保存镜头纠正": "保存鏡頭糾正", "保存音频位置和音量": "儲存音訊位置和音量", "保留原字幕和标题": "保留原字幕和標題", "保留现有画面": "保留現有畫面", "停止": "停止", "停止任务": "停止任務", "先拆解视频，或打开一个已有项目。": "先拆解視頻，或打開一個已有項目。", "入场": "入場", "全屏预览": "全屏預覽", "全片概览": "全片概覽", "关闭": "關閉", "关闭字幕编辑": "關閉字幕編輯", "关闭提示": "關閉提示", "关闭校对": "關閉校對", "关闭窗口": "關閉窗口", "关闭素材预览": "關閉素材預覽", "兼容预览": "相容預覽", "出场": "出場", "分割": "分割", "分离人声与配乐": "分離人聲與配樂", "分离音轨": "分離音軌", "分镜": "分鏡", "分镜、字幕和中译": "分鏡、字幕和中譯", "分镜时间线": "分鏡時間軸", "分镜轨道为空。": "分鏡軌道是空的。", "切换模型或 Agent · ": "切換模型或 Agent · ", "刘建毛草": "劉建毛草", "删除": "刪除", "删除所选片段（Backspace）": "刪除選取的片段（Backspace）", "前 3 秒切镜": "前 3 秒切鏡", "前 3 秒有 {0} 次切镜": "前 3 秒有 {0} 次切換", "前移": "往前移", "剪辑": "剪輯", "剪辑包装 ASS": "剪輯包裝 ASS", "剪辑画面": "剪輯畫面", "剪辑预览": "剪輯預覽", "功能导航": "功能導航", "加入字幕轨": "加入字幕軌", "加入混音": "加入混音", "加粗": "加粗", "动画": "動畫", "动画时长（秒）": "動畫時長（秒）", "动画阶段": "動畫階段", "动画预设": "動畫預設", "单击选择字幕，拖动调整位置": "單擊選擇字幕，拖動調整位置", "单文件工具": "單文件工具", "单独处理其他音频文件…": "單獨處理其他音頻文件…", "卖点要求": "賣點要求", "卖点证明线索": "賣點佐證線索", "压制字幕到视频": "壓制字幕到視頻", "原声": "原聲", "原声包含人声和背景声。若使用分离后的人声、配乐，关闭原声可避免叠音。": "原聲包含人聲和背景聲。若使用分離后的人聲、配樂，關閉原聲可避免疊音。", "原声已经包含人声和背景声，改用分离音轨时应关闭原声，避免声音重叠。": "原聲已經包含人聲和背景聲，改用分離音軌時應關閉原聲，避免聲音重疊。", "原片": "原片", "原片已移动": "原片已移動", "原片预览": "原片預覽", "参考": "參考", "参考原片": "參考原片", "参考图": "參考圖", "参考帧识别取决于模型": "參考幀識別取決于模型", "参考帧输入": "參考幀輸入", "参考片": "參考片", "参考视频": "參考視頻", "参考视频已导入": "參考視頻已導入", "双击空白处添加字幕": "雙擊空白處添加字幕", "双语字幕校对": "雙語字幕校對", "发消息给 Agent": "發消息給 Agent", "发送": "傳送", "发送到已配置的工作流。": "發送到已配置的工作流。", "取消": "取消", "取消并返回导出": "取消并返回導出", "口播": "口播", "口播识别语言": "口播識別語言", "口播语言自动识别；此项用于识别画面上的文字。": "口播語言自動識別；此項用于識別畫面上的文字。", "口播转写与音轨分离": "口播轉寫與音軌分離", "另存字幕文件": "另存字幕文件", "只运行当前镜头": "只運行當前鏡頭", "可在视频生成设置接入 ComfyUI": "可在視頻生成設置接入 ComfyUI", "可在设置中重新检测本机 Agent。": "可在設置中重新檢測本機 Agent。", "可生成一份兼容预览。": "可生成一份兼容預覽。", "可继续浏览分镜。原片可在高级工具中重新定位。": "可繼續瀏覽分鏡。原片可在高級工具中重新定位。", "可调用已配置的 ComfyUI": "可調用已配置的 ComfyUI", "可选中结果文本后复制。": "可選中結果文本后復制。", "右": "右", "右对齐": "右對齊", "同时导出对比视频": "同時導出對比視頻", "后移": "往後移", "后端 Python": "后端 Python", "后端目录": "后端目錄", "向右转 90 度": "向右轉 90 度", "向左转 90 度": "向左轉 90 度", "启用 ": "啟用 ", "告诉 Agent 要做什么": "告訴 Agent 要做什么", "周期": "周期", "和首帧": "和首幀", "回到时间线": "回到時間線", "国内": "國內", "国际与开源": "國際與開源", "图像与视频分析服务": "圖像與視頻分析服務", "图片已移动 · ": "圖片已移動 · ", "在 ComfyUI 里用「导出（API）」保存视频工作流，再在此选择。": "在 ComfyUI 里用「導出（API）」保存視頻工作流，再在此選擇。", "在原片上压制当前字幕轨": "在原片上壓制當前字幕軌", "在播放头位置添加字幕": "在播放頭位置添加字幕", "在播放头分割": "在播放頭分割", "在混音面板选择使用哪些音轨，保存后用于成片导出。": "在混音面板選擇使用哪些音軌，保存后用于成片導出。", "垂直位置 Y": "垂直位置 Y", "垂直对齐": "垂直對齊", "垂直居中": "垂直居中", "垂直翻转": "垂直翻轉", "填写判断依据": "填寫判斷依據", "声音与混音": "聲音與混音", "处理外部字幕文件…": "處理外部字幕文件…", "处理项目字幕、外部视频或音频。": "處理專案字幕、外部影片或音訊。", "复制失败，可手动选中文字复制。": "復制失敗，可手動選中文字復制。", "复制提示词": "復制提示詞", "复制结果": "復制結果", "复制诊断": "復制診斷", "外部 SRT / ASS 文件": "外部 SRT / ASS 文件", "外部字幕与音频": "外部字幕與音頻", "外部字幕文件": "外部字幕文件", "外部音频": "外部音訊", "失败": "失敗", "失败阶段 ": "失敗階段 ", "媒体无音轨": "媒體無音軌", "字体": "字體", "字体 · ": "字體 · ", "字体库": "字體庫", "字体语言": "字體語言", "字号": "字號", "字号（像素）": "字號（像素）", "字幕": "字幕", "字幕 ": "字幕 ", "字幕、报告和 SRT 已同步保存": "字幕、報告和 SRT 已同步保存", "字幕与翻译": "字幕與翻譯", "字幕位置与大小": "字幕位置與大小", "字幕内容": "字幕內容", "字幕列表": "字幕列表", "字幕原文": "字幕原文", "字幕垂直位置": "字幕垂直位置", "字幕属性类别": "字幕屬性類別", "字幕来源": "字幕來源", "字幕水平位置": "字幕水平位置", "字幕组": "字幕組", "字幕编辑": "字幕編輯", "字幕编辑面板": "字幕編輯面板", "安装说明": "安裝說明", "安装连接组件": "安裝連線元件", "宋体": "宋體", "完成": "完成", "完成拆解后，点击时间线上的镜头查看和替换素材。": "完成拆解后，點擊時間線上的鏡頭查看和替換素材。", "完成拆解后，点击时间线里的镜头开始编辑。": "完成拆解后，點擊時間線里的鏡頭開始編輯。", "完整": "完整", "完整适应": "完整適應", "定位": "定位", "定位原片": "定位原片", "定位镜头 ": "定位分鏡 ", "定位镜头 {0}": "定位分鏡 {0}", "对比度": "對比度", "对话": "對話", "导入后，在右侧确认选项并开始拆解。": "導入后，在右側確認選項并開始拆解。", "导入失败。": "導入失敗。", "导入生成结果": "導入生成結果", "导入视频": "匯入影片", "导入视频后开始拆解。": "導入視頻后開始拆解。", "导入视频后，Agent 可以处理当前视频和时间线。": "導入視頻后，Agent 可以處理當前視頻和時間線。", "导入连接中断，请重试。": "導入連接中斷，請重試。", "导入镜头复核文件": "導入鏡頭復核文件", "导出 SRT 字幕": "導出 SRT 字幕", "导出任务表": "導出任務表", "导出全部提示词": "導出全部提示詞", "导出复刻配方需配置生成后端。": "導出復刻配方需配置生成后端。", "导出带字幕 MP4": "導出帶字幕 MP4", "导出带字幕原片": "導出帶字幕原片", "导出成片": "匯出成片", "导出时间线成片": "匯出時間軸成片", "导出纠错标签": "導出糾錯標簽", "导出视频分析 JSON": "導出視頻分析 JSON", "导出视频生成方案": "導出視頻生成方案", "导出记录": "匯出記錄", "导出镜头复核文件": "導出鏡頭復核文件", "导出音轨": "導出音軌", "将当前提示词": "將當前提示詞", "将视频拖到这里，或选择电脑中的文件。": "將視頻拖到這里，或選擇電腦中的文件。", "将选中的字幕复制为可编辑的手动字幕": "將選中的字幕復制為可編輯的手動字幕", "小赖字体": "小賴字體", "尚未生成": "尚未生成", "尚未连接 Agent": "尚未連接 Agent", "就绪": "就緒", "尾帧": "尾幀", "展开分离音轨": "展開分離音軌", "展开分轨": "展開分軌", "属性": "屬性", "属性保存失败": "屬性保存失敗", "工作台工具不可用": "工作臺工具不可用", "工作台工具已连接": "工作台工具已連線", "工作台设置": "工作台設定", "工具分类": "工具分類", "工具结果": "工具結果", "工程音轨": "工程音軌", "工程音轨混音": "工程音軌混音", "左": "左", "左右拖动调整宽度；双击恢复默认": "左右拖動調整寬度；雙擊恢復默認", "左对齐": "左對齊", "已保存": "已儲存", "已停止": "已停止", "已填写": "已填寫", "已完成": "已完成", "已导入参考视频": "已匯入參考影片", "已导出": "已導出", "已恢复项目会话": "已恢復專案對話", "历史会话 · 待重连": "歷史對話 · 待重新連線", "在播放头分割（Ctrl+B）": "在播放頭分割（Ctrl+B）", "已替换": "已替換", "已有画面文字或口播里暂无明确线索。": "現有的畫面文字或口播暫無明確線索。", "已检测到 · 未启用": "已檢測到 · 未啟用", "已连工作台工具": "已連工作臺工具", "已连接": "已連線", "已配置工作流": "已配置工作流", "平台元数据 JSON": "平臺元數據 JSON", "平台数据与对比": "平台數據與比較", "应用修剪": "套用修剪", "应用批量替换": "套用批次替換", "底对齐": "底對齊", "开启 AI 深度分析后，画面和音轨素材会发送给这里配置的服务。": "開啟 AI 深度分析后，畫面和音軌素材會發送給這里配置的服務。", "开场 3 秒": "開場 3 秒", "开始导出": "開始匯出", "开始拆解": "開始拆解", "开始时间（秒）": "開始時間（秒）", "开始生成": "開始生成", "开始秒数": "開始秒數", "开始（秒）": "開始（秒）", "当前原声和分离音轨同时启用，可能出现重叠声音。请确认是否需要保留原声。": "當前原聲和分離音軌同時啟用，可能出現重疊聲音。請確認是否需要保留原聲。", "当前没有启用音轨，按工程音轨导出时将静音。": "當前沒有啟用音軌，按工程音軌導出時將靜音。", "当前视频": "目前影片", "当前项目": "目前專案", "当前项目复核": "當前項目復核", "当前项目字幕": "當前項目字幕", "待保存": "待保存", "待校对字幕": "待校對字幕", "得意黑": "得意黑", "循环": "循環", "循环周期（秒）": "循環周期（秒）", "微软正黑体": "微軟正黑體", "微软雅黑": "微軟雅黑", "志莽行书": "志莽行書", "快速旋转": "快速旋轉", "思考强度": "思考強度", "恢复分镜草稿": "恢復分鏡草稿", "恢复原声预览": "恢復原聲預覽", "恢复完整画面": "恢復完整畫面", "恢复此版本": "恢復此版本", "悠哉字体": "悠哉字體", "想从这条视频了解什么？": "想從這條視頻了解什么？", "成片保存位置": "成片儲存位置", "成片剪辑": "成片剪輯", "成片音轨": "成片音軌", "所有修改已保存": "所有修改已保存", "手动字幕": "手動字幕", "手动字幕时间": "手動字幕時間", "手动字幕轨道": "手動字幕軌道", "打开 Agent 对话": "開啟 Agent 對話", "打开任务文件夹": "打開任務文件夾", "打开双语校对大面板": "打開雙語校對大面板", "打开已有项目": "打開已有項目", "打开成片": "開啟成片", "打开成片位置": "開啟成片位置", "打开报告": "開啟報告", "打开拆解项目": "打開拆解項目", "打开模板项目": "開啟範本專案", "打开生成素材": "打開生成素材", "打开设置": "打開設置", "打开输出文件夹": "打開輸出文件夾", "打开输出目录": "打開輸出目錄", "打开项目": "開啟專案", "批量剪辑": "批量剪輯", "批量匹配与生成结果": "批量匹配與生成結果", "批量替换镜头": "批量替換鏡頭", "批量生成与参考图": "批量生成與參考圖", "批量生成后端": "批量生成后端", "把识别出的字幕、标题和花字叠到替换镜头": "把識別出的字幕、標題和花字疊到替換鏡頭", "抖音 / TikTok 视频链接": "抖音 / TikTok 視頻鏈接", "报告界面语言": "報告界面語言", "报告语言": "報告語言", "抽帧图": "抽幀圖", "抽帧页码": "抽幀頁碼", "拆解": "拆解", "拆解完成后，镜头会按原片时间排在这里。": "拆解完成后，鏡頭會按原片時間排在這里。", "拆解完成的项目会保存在这里。": "拆解完成的項目會保存在這里。", "拆解当前视频": "拆解目前影片", "拆解当前视频，生成报告并列出每个镜头。": "拆解當前視頻，生成報告并列出每個鏡頭。", "拆解或转写完成后，字幕文件会出现在这里。": "拆解或轉寫完成后，字幕文件會出現在這里。", "拆解视频后，字幕和译文会显示在这里。": "拆解視頻后，字幕和譯文會顯示在這里。", "拆解视频后，选择一个镜头生成可编辑草稿。": "拆解視頻后，選擇一個鏡頭生成可編輯草稿。", "拖入参考视频": "拖入參考視頻", "拖动右端修剪": "拖曳右端修剪", "拖动左端修剪": "拖曳左端修剪", "拖动播放进度": "拖動播放進度", "拖动缩放镜头": "拖動縮放鏡頭", "拖动调整字号": "拖動調整字號", "拼接与输出": "拼接與輸出", "按住 Ctrl 滚动滚轮缩放轨道": "按住 Ctrl 滾動滾輪縮放軌道", "按参考片的镜头时长和画幅匹配素材。确认每个素材位后，再一次应用。": "依參考影片的分鏡時長和畫幅配對素材。確認素材後可一次套用。", "按文件名匹配素材，或把生成结果导入分镜。": "依檔名配對素材，或將生成結果匯入分鏡。", "按文件名批量匹配": "按文件名批量匹配", "换品模板": "換品範本", "排版": "排版", "描述要拆解或查看的内容…": "描述要拆解或查看的內容…", "提取视频里已有的字幕和标题": "提取視頻里已有的字幕和標題", "提示词": "提示詞", "提示词已复制": "提示詞已復制", "提示词镜头": "提示詞鏡頭", "搜索 Agent": "搜索 Agent", "搜索字体": "搜索字體", "撤销": "復原", "撤销修改": "撤銷修改", "撤销分割字幕": "復原分割字幕", "撤销删除视频片段": "復原刪除影片片段", "撤销删除音频片段": "復原刪除音訊片段", "撤销本轮 Agent 修改": "復原本輪 Agent 修改", "撤销添加轨道": "復原新增軌道", "撤销调整字幕时长": "復原調整字幕時長", "播放": "播放", "播放或暂停": "播放或暫停", "播放时间": "播放時間", "播放视频": "播放視頻", "播放速度": "播放速度", "操作流程": "操作流程", "支持 MP4、MOV、MKV、WebM 等常用格式": "支持 MP4、MOV、MKV、WebM 等常用格式", "支持视频或图像的模型": "支持視頻或圖像的模型", "收起": "收起", "收起分离音轨": "收起分離音軌", "收起分轨": "收起分軌", "放大参考": "放大參考", "放大抽帧图": "放大抽幀圖", "放大时间线": "放大時間線", "效果": "效果", "文件不可用": "文件不可用", "文件名可用 shot_001.mp4 或 001.mp4。生成任务也可通过 results.json 导入。": "文件名可用 shot_001.mp4 或 001.mp4。生成任務也可通過 results.json 導入。", "文件和项目": "檔案和專案", "文件已移动 · ": "文件已移動 · ", "文字": "文字", "文字颜色": "文字顏色", "新字幕": "新字幕", "新对话": "新對話", "新建拆解": "新增拆解", "新建视频拆解": "新建視頻拆解", "新建项目": "新增專案", "旋转": "旋轉", "旋转角度": "旋轉角度", "无": "無", "无法读取波形": "無法讀取波形", "日文口播": "日文口播", "日语": "日語", "日语 / 日本語": "日語 / 日本語", "日语中译": "日語中譯", "时长": "時長", "时间": "時間", "时间线位置（秒）": "時間軸位置（秒）", "时间线剪辑": "時間軸剪輯", "时间线播放位置": "時間線播放位置", "时间线缩放": "時間線縮放", "时间线需要至少一个视频片段才能导出。": "時間軸至少需要一個影片片段才可匯出。", "时间线预览尚未生成。": "時間軸預覽尚未產生。", "时间线预览已更新": "時間軸預覽已更新", "时间范围": "時間范圍", "时间采用秒，支持小数。保存后会同步当前项目的报告与字幕文件。": "時間采用秒，支持小數。保存后會同步當前項目的報告與字幕文件。", "显示更多字体（剩余 ": "顯示更多字體（剩余 ", "暂无中文译文": "暫無中文譯文", "暂无任务记录。": "暫無任務記錄。", "暂无可校对的双语字幕，请先补充中文译文。": "暫無可校對的雙語字幕，請先補充中文譯文。", "暂无字幕": "暫無字幕", "暂无镜头提示词": "暫無鏡頭提示詞", "暂时无法读取分析。": "暫時無法讀取分析。", "暂时无法读取本机字体列表。": "暫時無法讀取本機字體列表。", "暂时没有导出记录。": "暫無匯出記錄。", "更多工具": "更多工具", "更多工具工作区": "更多工具工作區", "更换外部音频": "更換外部音頻", "更换替换视频": "更換替換視頻", "更换视频": "更換視頻", "更换视频或粘贴链接": "更換視頻或粘貼鏈接", "更改": "更改", "更改成片保存位置": "更改成片保存位置", "更新剪辑预览": "更新剪輯預覽", "替换素材": "替換素材", "替换素材已移动，显示原片": "替換素材已移動，顯示原片", "替换素材无法预览，显示原片": "替換素材無法預覽，顯示原片", "替换音频": "替換音頻", "最近项目": "最近專案", "暂无最近项目": "暫無最近專案", "项目标签": "專案分頁", "关闭项目标签 {0}": "關閉專案分頁 {0}", "服务地址": "服務地址", "服务配置文件": "服務配置文件", "未找到匹配的字体。": "未找到匹配的字體。", "本地上传": "本地上傳", "本地上传 / 链接拆解": "本地上傳 / 鏈接拆解", "本地版": "本地版", "本地静图重建": "本地靜圖重建", "本机": "本機", "本机 Agent": "本機 Agent", "本机 Agent 列表": "本機 Agent 列表", "本机程序": "本機程序", "本次会话密钥": "本次會話密鑰", "本次指令未完成": "本次指令未完成", "本轮 Agent 修改": "本輪 Agent 修改", "机器识别和翻译建议人工校对。": "機器識別和翻譯建議人工校對。", "松开以导入视频": "松開以導入視頻", "柔焦": "柔焦", "查看与修改": "查看與修改", "查看剪辑后的画面": "查看剪輯后的畫面", "查看原片画面": "查看原片畫面", "查看字幕文件": "查看字幕文件", "查看开头 3 秒": "查看開頭 3 秒", "查看拆解设置": "查看拆解設置", "查看本机纠错记忆": "查看本機糾錯記憶", "查看的字幕": "查看的字幕", "查看精简结论": "查看精簡結論", "查看视频参数": "查看視頻參數", "检查与抽帧": "檢查與抽幀", "检查本机运行环境": "檢查本機運行環境", "检查视频、抽帧和复核项目。": "檢查影片、抽取影格並複核專案。", "检测到的本机 Agent 会出现在左下角菜单。启用后即可选择，登录沿用各 Agent 的账号。": "檢測到的本機 Agent 會出現在左下角菜單。啟用后即可選擇，登錄沿用各 Agent 的賬號。", "检测后端": "檢測后端", "楷体": "楷體", "模型": "模型", "模型名": "模型名", "模板名": "範本名稱", "正向提示词输入": "正向提示詞輸入", "正在下载视频…": "正在下載視頻…", "正在下载视频，完成后会自动开始拆解。": "正在下載視頻，完成后會自動開始拆解。", "正在保存…": "正在保存…", "正在停止": "正在停止", "正在准备…": "正在準備…", "正在处理…": "正在處理…", "正在导入 · ": "正在導入 · ", "正在导入视频": "正在導入視頻", "正在执行": "正在執行", "正在提交…": "正在提交…", "正在更新时间线预览": "正在更新時間軸預覽", "正在更新时间线预览…": "正在更新時間軸預覽…", "正在检测本机 Agent": "正在檢測本機 Agent", "正在检测本机 Agent…": "正在檢測本機 Agent…", "正在生成兼容预览": "正在生成兼容預覽", "正在生成试听音频…": "正在生成試聽音頻…", "正在生成预览…": "正在生成預覽…", "正在自动拆解…": "正在自動拆解…", "正在读取…": "正在讀取…", "正在读取分析…": "正在讀取分析…", "正在读取字幕…": "正在讀取字幕…", "正在读取工作区…": "正在讀取工作區…", "正在读取本机字体…": "正在讀取本機字體…", "正在读取草稿…": "正在讀取草稿…", "正在读取视频时长…": "正在讀取視頻時長…", "正在读取音频波形…": "正在讀取音頻波形…", "正在载入替换素材…": "正在載入替換素材…", "正在连接…": "正在連接…", "正确类型": "正確類型", "此字幕轨暂无内容，可补充译文或重新识别口播。": "此字幕軌暫無內容，可補充譯文或重新識別口播。", "水平位置 X": "水平位置 X", "水平对齐": "水平對齊", "水平居中": "水平居中", "水平翻转": "水平翻轉", "没有匹配的 Agent。": "沒有匹配的 Agent。", "沿用原片": "沿用原片", "注音楷体": "注音楷體", "注音粉圆体": "注音粉圓體", "注音芫荽体": "注音芫荽體", "浅色": "淺色", "测试连接": "測試連接", "浏览项目文件": "瀏覽項目文件", "深色": "深色", "添加外部音频": "添加外部音頻", "添加字幕": "新增字幕", "添加对比项目": "新增比較專案", "添加素材": "新增素材", "添加素材到 {0}": "新增素材到 {0}", "添加轨道": "新增軌道", "添加配乐": "新增配樂", "添加配音 / 音效": "新增配音 / 音效", "清除": "清除", "清除此类动效": "清除此類動效", "游ゴシック": "游ゴシック", "源泉圆体（繁体）": "源泉圓體（繁體）", "源石黑体（繁体）": "源石黑體（繁體）", "滑块": "滑塊", "点击一句定位视频，打开大面板校对双语。": "點擊一句定位視頻，打開大面板校對雙語。", "点击左侧句子定位原片；修改后保存此句，报告和 SRT 会同步更新。": "點擊左側句子定位原片；修改后保存此句，報告和 SRT 會同步更新。", "爆款分析": "熱門影片分析", "版本": "版本", "版本名": "版本名稱", "生成任务与参考图": "生成任務與參考圖", "生成兼容预览": "生成兼容預覽", "生成参考图": "生成參考圖", "生成可单独试听的人声和背景声": "生成可單獨試聽的人聲和背景聲", "生成后端设置": "生成后端設置", "生成并替换当前镜头": "生成并替換當前鏡頭", "生成并替换镜头": "產生並替換分鏡", "生成引擎": "生成引擎", "生成当前镜头提示词": "生成當前鏡頭提示詞", "生成抽帧图": "生成抽幀圖", "生成提示词": "產生提示詞", "生成模式": "生成模式", "画面": "畫面", "画面中译": "畫面中譯", "画面字幕": "畫面字幕", "画面字幕 ": "畫面字幕 ", "画面字幕识别语言": "畫面字幕識別語言", "画面拖动和缩放": "畫面拖動和縮放", "画面效果": "畫面效果", "画面文字": "畫面文字", "画面文字是什么语言？": "畫面文字是什么語言？", "界面与外观": "介面與外觀", "界面语言": "介面語言", "看一下当前项目，列出前 3 秒的分镜、画面文字和口播中译。": "看一下當前項目，列出前 3 秒的分鏡、畫面文字和口播中譯。", "看原": "看原", "看译文、换镜头、调声音": "看譯文、換鏡頭、調聲音", "秒": "秒", "移回底部": "移回底部", "移除外部音频": "移除外部音頻", "移除替换素材": "移除替換素材", "移除替换视频附件": "移除替換視頻附件", "移除此片段": "移除此片段", "站酷小薇体": "站酷小薇體", "站酷庆科黄油体": "站酷慶科黃油體", "站酷快乐体": "站酷快樂體", "第 ": "第 ", "等待": "等待", "等待分镜": "等待分鏡", "等比": "等比", "等线": "等線", "管理 Agent": "管理 Agent", "管理连接": "管理連接", "类型": "類型", "粉圆体": "粉圓體", "粘贴视频路径、项目目录或抖音/TikTok 分享链接。": "粘貼視頻路徑、項目目錄或抖音/TikTok 分享鏈接。", "粘贴视频链接，或包含链接的完整分享文案\nhttps://v.douyin.com/…": "粘貼視頻鏈接，或包含鏈接的完整分享文案\nhttps://v.douyin.com/…", "系统 ": "系統 ", "素材": "素材", "素材填充方式": "素材填充方式", "素材已移动，请重新选择文件。": "素材已移動，請重新選擇文件。", "结合当前镜头的关键帧，给我一份可用的复刻提示词。": "結合當前鏡頭的關鍵幀，給我一份可用的復刻提示詞。", "结合真实留存和转化数据判断片段表现。上面的线索来自已有文字识别。": "可用真實留存與轉換數據判斷片段表現。上方線索來自現有文字辨識。", "结束": "結束", "结束时间（秒）": "結束時間（秒）", "结束秒数": "結束秒數", "结束（秒）": "結束（秒）", "结果已复制": "結果已復制", "编辑 Agent 指令": "編輯 Agent 指令", "编辑提示词": "編輯提示詞", "编辑该镜提示词": "編輯該鏡提示詞", "编辑镜头草稿，生成替换素材或导出提示词。": "編輯鏡頭草稿，生成替換素材或導出提示詞。", "缩小时间线": "縮小時間線", "自动拆解": "自動拆解", "自动识别平台，一次拆解一条视频。粘贴后点击下方按钮开始。": "自動識別平臺，一次拆解一條視頻。粘貼后點擊下方按鈕開始。", "自动附上中文译文": "自動附上中文譯文", "自定义分析选项": "自定義分析選項", "色相": "色相", "芫荽体": "芫荽體", "英文口播": "英文口播", "英文画面文字、英文和日语口播会写进报告。": "英文畫面文字、英文和日語口播會寫進報告。", "英语": "英語", "英语中译": "英語中譯", "补充 / 更新中文译文": "補充 / 更新中文譯文", "补充译文与口播识别": "補充譯文與口播識別", "裁剪与填充": "裁剪與填充", "裁剪为 ": "裁剪為 ", "裁剪右侧": "裁剪右側", "裁剪左侧": "裁剪左側", "裁剪底部": "裁剪底部", "裁剪比例": "裁剪比例", "裁剪顶部": "裁剪頂部", "西班牙语": "西班牙語", "视频处理流程": "視頻處理流程", "视频已下载，正在自动拆解。": "視頻已下載，正在自動拆解。", "视频或音频": "視頻或音頻", "视频拆解": "影片拆解", "视频拆解已完成。": "視頻拆解已完成。", "视频文件": "視頻文件", "视频来源": "視頻來源", "视频生成": "視頻生成", "视频生成任务": "視頻生成任務", "视频生成设置": "視頻生成設置", "视频轨": "影片軌", "视频轨 {0}": "影片軌 {0}", "视频预览": "視頻預覽", "记录字幕、标题、花字等出现的时间": "記錄字幕、標題、花字等出現的時間", "设置": "設定", "设置 Agent 连接": "設置 Agent 連接", "设置分类": "設置分類", "设置参考帧，准备和预览逐镜生成任务。": "設定參考影格，準備並預覽逐鏡生成任務。", "设置模型": "設置模型", "评测标注集…": "評測標注集…", "识别口播并生成 SRT": "識別口播并生成 SRT", "识别字幕和画面包装": "識別字幕和畫面包裝", "识别画面文字": "識別畫面文字", "诊断已复制": "診斷已復制", "诊断已选中，请按 Ctrl+C 复制": "診斷已選中，請按 Ctrl+C 復制", "译文加入时间线": "將譯文加入時間軸", "试听 {0}": "試聽 {0}", "试听、分离人声和配乐，设置成片声音。": "試聽、分離人聲和配樂，設置成片聲音。", "试听混音": "試聽混音", "试听音轨": "試聽音軌", "试播": "試播", "请填写字幕文字，或用「撤销修改」恢复。": "請填寫字幕文字，或用「撤銷修改」恢復。", "请将播放头移到片段内部再分割。": "請將播放頭移至片段內再分割。", "请查看任务日志或选择其他视频。": "請查看任務日志或選擇其他視頻。", "请检查字幕的开始与结束时间。": "請檢查字幕的開始與結束時間。", "请求未完成。": "請求未完成。", "请输入字幕文字，或撤销修改。": "請輸入字幕文字，或撤銷修改。", "请重新打开工作台以加载新版高级工具。": "請重新打開工作臺以加載新版高級工具。", "读分镜、改项目、导出成片": "讀分鏡、改項目、導出成片", "读取分镜": "讀取分鏡", "读取参考帧": "讀取參考影格", "读取字幕与中译": "讀取字幕與中譯", "调整右侧面板宽度": "調整右側面板寬度", "调整成片音量与混音": "調整成片音量與混音", "调整时间线高度": "調整時間線高度", "调整混音": "調整混音", "调用模型生成…": "調用模型生成…", "调用视频模型": "調用視頻模型", "调色": "調色", "调节": "調節", "起止时间需在视频范围内，且结束晚于开始。": "起止時間需在視頻范圍內，且結束晚于開始。", "跟随系统": "跟隨系統", "轨道": "軌道", "轨道编辑": "軌道編輯", "转写口播为 SRT": "轉寫口播為 SRT", "转化引导线索": "轉換引導線索", "转化率": "轉化率", "转化率 %": "轉換率 %", "输入字幕文字": "輸入字幕文字", "输入当前镜头的提示词": "輸入當前鏡頭的提示詞", "运行环境": "運行環境", "返回工作区": "返回工作區", "返回工作台": "返回工作臺", "返回当前视频": "返回當前視頻", "返回编辑属性": "返回編輯屬性", "还有未保存的字幕修改，关闭会放弃这些修改。确定关闭吗？": "還有未保存的字幕修改，關閉會放棄這些修改。確定關閉嗎？", "这个项目还没有已保存的对话。": "這個項目還沒有已保存的對話。", "进行中": "進行中", "连接 Agent": "連接 Agent", "连接后检测工作台工具": "連線後檢查工作台工具", "连接失败": "連接失敗", "连接或执行失败": "連接或執行失敗", "连接本机或局域网": "連接本機或局域網", "连接组件": "連接組件", "退出码 ": "退出碼 ", "选一个 Agent 处理视频": "選一個 Agent 處理視頻", "选择": "選擇", "选择 ": "選擇 ", "选择 .env 文件…": "選擇 .env 文件…", "选择 Agent": "選擇 Agent", "选择参考": "選擇參考", "选择参考视频": "選擇參考視頻", "选择字幕轨": "選擇字幕軌", "选择已安装的 capsule-cinema 目录…": "選擇已安裝的 capsule-cinema 目錄…", "选择已安装的命令或启动程序…": "選擇已安裝的命令或啟動程序…", "选择提示词节点": "選擇提示詞節點", "选择文件…": "選擇文件…", "选择替换视频": "選擇替換影片", "选择有视频输出的工作流…": "選擇有視頻輸出的工作流…", "选择本地视频": "選擇本機影片", "选择本地视频，或粘贴抖音 / TikTok 链接。": "選擇本地視頻，或粘貼抖音 / TikTok 鏈接。", "选择画面中的镜头": "選擇畫面中的鏡頭", "选择素材文件夹": "選擇素材資料夾", "选择视频": "選擇視頻", "选择视频，自动生成分镜、字幕和中文译文。": "選擇視頻，自動生成分鏡、字幕和中文譯文。", "选项": "選項", "通用": "一般", "速度": "速度", "配乐与环境声": "配樂與環境聲", "配乐与配音": "配樂與配音", "配乐轨": "配樂軌", "配置": "配置", "配置 ": "配置 ", "配置本机 Agent": "配置本機 Agent", "配置视频生成": "配置視頻生成", "配音轨": "配音軌", "重新下载并拆解": "重新下載并拆解", "重新分离人声与配乐": "重新分離人聲與配樂", "重新加载": "重新加載", "重新定位原片": "重新定位原片", "重新拆解为新项目": "重新拆解為新項目", "重新检测": "重新檢測", "重新识别口播": "重新識別口播", "重新连接": "重新連接", "重置镜头属性": "重置鏡頭屬性", "重试下载并拆解": "重試下載并拆解", "重试保存": "重試保存", "重试未完成，请查看该步骤的提示。": "重試未完成，請查看該步驟的提示。", "重试此步": "重試此步", "重连": "重連", "未找到": "未找到", "待配置": "待設定", "未启用": "未啟用", "连接中…": "連線中…", "铺满外框": "鋪滿外框", "链接拆解": "鏈接拆解", "锁定宽高比": "鎖定寬高比", "错误 ": "錯誤 ", "镜头": "鏡頭", "镜头 ": "鏡頭 ", "镜头 {0}": "分鏡 {0}", "镜头 {0} · 素材预览": "分鏡 {0} · 素材預覽", "镜头 {0} 的卖点要求": "分鏡 {0} 的賣點要求", "镜头 {0} 的替换素材": "分鏡 {0} 的替換素材", "镜头内入点（秒）": "分鏡內入點（秒）", "镜头内出点（秒）": "分鏡內出點（秒）", "镜头宽度 W": "鏡頭寬度 W", "镜头属性类别": "鏡頭屬性類別", "镜头属性面板": "鏡頭屬性面板", "镜头替换素材已导入": "鏡頭替換素材已導入", "镜头类型": "鏡頭類型", "镜头高度 H": "鏡頭高度 H", "间隔秒数": "間隔秒數", "随片段时长推进": "隨片段時長推進", "需要先配置模型服务": "需要先配置模型服務", "需配置模型服务，会向该服务发送视频素材": "需設定模型服務，影片素材會傳給該服務", "霞鹜文楷": "霞鶩文楷", "霞鹜文楷屏幕阅读版": "霞鶩文楷屏幕閱讀版", "霞鹜文楷等宽（繁体）": "霞鶩文楷等寬（繁體）", "霞鹜文楷（繁体）": "霞鶩文楷（繁體）", "霞鹜漫黑": "霞鶩漫黑", "静音": "靜音", "静音原声预览": "靜音原聲預覽", "静音输出": "靜音輸出", "音轨混音": "音軌混音", "音量": "音量", "音量 %": "音量 %", "音频": "音頻", "音频入点（秒）": "音訊入點（秒）", "音频出点（秒）": "音訊出點（秒）", "音频片段": "音訊片段", "音频试听": "音頻試聽", "音频轨": "音訊軌", "音频轨 {0}": "音訊軌 {0}", "顶对齐": "頂對齊", "项目保存位置": "專案儲存位置", "项目保存到": "項目保存到", "项目和工作区": "項目和工作區", "项目字幕轨": "項目字幕軌", "项目对话历史": "專案對話記錄", "项目工具": "專案工具", "项目已打开": "專案已開啟", "项目数据与批量评测": "項目數據與批量評測", "项目文件夹": "專案資料夾", "预览任务": "預覽任務", "预览字幕": "預覽字幕", "预览无法播放": "預覽無法播放", "预览替换": "預覽替換", "预览模式": "預覽模式", "预览素材": "預覽素材", "预览镜头 {0} 的替换素材": "預覽分鏡 {0} 的替換素材", "预设": "預設", "颜色": "顏色", "颜色模式": "色彩模式", "饱和度": "飽和度", "首帧": "首幀", "首次转化引导": "首次轉化引導", "马善政毛笔": "馬善政毛筆", "高级": "高級", "高级工具分类": "高級工具分類", "黑体": "黑體", "黑白": "黑白", "默认生成引擎": "默認生成引擎", "默认设置即可开始。完成后先查看译文，再按需修改和导出。": "可使用預設設定開始。完成後查看譯文，按需要修改並匯出。", "龙藏体": "龍藏體", "{0} 个文件": "{0} 個檔案", "{0} 条手动字幕将随成片导出": "會一併匯出 {0} 條手動字幕", "保留当前响度": "保留目前響度", "分辨率": "解析度", "包含声音": "包含聲音", "压缩效率更高": "壓縮效率較高", "原始": "原始", "另存一份 MP4 对比视频": "另存一份 MP4 對比影片", "响度": "響度", "字幕格式": "字幕格式", "字幕轨": "字幕軌", "字幕轨 {0}": "字幕軌 {0}", "视频素材": "影片素材", "撤销移动字幕": "復原移動字幕", "目标字幕轨已变化，请重新选择。": "目標字幕軌已變更，請重新選取。", "目标音轨已变化，请重新选择。": "目標音軌已變更，請重新選取。", "完整适配": "完整適配", "导出摘要": "匯出摘要", "导出类型": "匯出類型", "导出预设": "匯出預設", "尺寸": "尺寸", "帧率": "影格速率", "成片": "成片", "打开导出位置": "開啟匯出位置", "文件名": "檔案名稱", "更多设置": "更多設定", "最高": "最高", "未能提交导出，请检查当前编辑内容。": "無法開始匯出，請檢查目前編輯內容。", "标准": "標準", "格式": "格式", "横屏 1080p": "橫向 1080p", "没有可导出的音轨。请启用音轨或选择外部音频。": "請啟用音軌或選擇外部音訊檔後再匯出。", "沿用项目": "沿用專案", "用于后续剪辑": "適合後續剪輯", "画幅": "畫幅比例", "画质": "畫質", "画面填充": "畫面填充", "竖屏 1080p": "直向 1080p", "视频": "影片", "视频编码": "影片編碼", "请先添加手动字幕，或在字幕与翻译中生成口播字幕。": "請先新增手動字幕，或在「字幕與翻譯」生成口播字幕。", "适合在网页使用": "適用於網頁", "适合日常分享和上传": "適合日常分享和上傳", "选择格式与保存位置": "選擇格式與儲存位置", "铺满画幅": "填滿畫幅", "附加音频 {0} 段": "附加音訊 {0} 段", "音频格式": "音訊格式", "项目帧率（{0} fps）": "專案影格速率（{0} fps）", "高": "高", "请输入有效的文件名。": "請輸入有效的檔案名稱。", "请选择支持的导出格式。": "請選擇支援的匯出格式。", "请选择有效的响度。": "請選擇有效的響度。", "请选择有效的视频输出设置。": "請選擇有效的影片匯出設定。", "当前项目已切换，请重新打开导出窗口。": "專案已切換，請重新開啟匯出視窗。", "所选字幕轨在当前时间线内没有字幕。": "選取的字幕軌在目前時間軸上沒有字幕。", "正在编码成片": "正在編碼成片", "正在写入导出文件": "正在寫入匯出檔案", "正在导出音频": "正在匯出音訊", "正在导出字幕": "正在匯出字幕", "导出文件为空。": "匯出的檔案為空。", "文件已导出": "檔案已匯出", "已打开导出目录": "已開啟匯出資料夾", "打开文件": "開啟檔案", "CapCut 按保存位置读取素材，建议直接导出到它的草稿目录。": "CapCut 會從匯出位置讀取素材，建議直接存到它的草稿資料夾。", "仅时间线字幕": "僅時間軸字幕", "剪映专业版": "剪映專業版", "剪辑工程": "剪輯專案", "剪辑软件": "剪輯軟體", "可选择剪辑软件设置里的草稿目录，也可把导出位置设为它的草稿目录。": "可選擇剪輯軟體設定裡的草稿資料夾，也可將匯出位置設為草稿目錄。", "复制完整素材，并保留分镜、附加视频和音频轨道。调色、裁剪和动画随对应的片段输出。": "複製完整素材並保留分鏡、附加影片與音軌。調色、裁剪與動畫會隨對應片段匯出。", "导出后回到剪辑软件首页，从本地草稿打开。": "匯出後回到剪輯軟體首頁，從本機草稿開啟。", "导出草稿": "匯出草稿", "打开文件夹": "開啟資料夾", "时间线上的手动字幕会作为可编辑文字导出。": "時間軸上的手動字幕會匯出成可編輯文字。", "更改草稿保存位置": "更改草稿儲存位置", "素材和轨道": "素材與軌道", "草稿名称": "草稿名稱", "草稿文件夹": "草稿資料夾", "视频格式": "影片格式", "附加字幕轨": "附加字幕軌", "请选择要使用的剪辑软件。": "請選擇剪輯軟體。", "正在导出剪辑工程": "正在匯出剪輯專案", "正在准备工程素材": "正在準備專案素材", "正在写入剪辑工程": "正在寫入剪輯專案", "剪辑工程已导出": "剪輯專案已匯出", "导出结果已打开": "已開啟匯出結果", "预计大小": "預估大小", "预计总大小": "預估總大小", "按导出参数估算，实际大小随素材内容变化。": "依匯出設定估算，實際大小會隨素材內容變化。", "最小化窗口": "最小化視窗", "最大化窗口": "最大化視窗", "还原窗口": "還原視窗", "窗口控制": "視窗控制", "导入剪辑素材": "匯入剪輯素材", "导入视频剪辑": "匯入影片剪輯", "直接剪辑当前视频": "直接剪輯目前影片", "等待导入视频": "等待匯入影片", "导入视频后，点击时间线上的片段开始编辑。": "匯入影片後，點擊時間軸上的片段開始編輯。", "视频轨道为空": "影片軌道為空", "撤销删除可恢复片段。": "撤銷刪除可恢復片段。", "播放或暂停（空格）": "播放或暫停（空白鍵）", "剪辑工程已创建": "剪輯專案已建立", "无法读取这个视频，请选择可播放的视频文件。": "無法讀取此影片，請選擇可播放的影片檔案。", "已撤销字幕编辑": "已撤銷字幕編輯", "撤销时间线编辑": "撤銷時間軸編輯", "撤销移动片段": "撤銷移動片段", "主轨磁吸": "主軌磁吸", "自动吸附": "自動吸附", "开关主轨磁吸。开启时让分镜首尾相接。": "開關主軌磁吸。開啟時讓分鏡首尾相接。", "拖动时对齐附近的片段边缘和播放头。": "拖曳時對齊附近的片段邊緣和播放頭。", "撤销主轨磁吸": "撤銷主軌磁吸", "这条轨道没有足够的空位。": "這條軌道沒有足夠的空位。", "同一字幕轨的片段不能重合。": "同一字幕軌的片段不能重疊。", "请选择 WorkBuddy 的 ACP 命令行": "請選擇 WorkBuddy 的 ACP 命令列", "选择 WorkBuddy 企业版提供的 CodeBuddy Code 命令行，以 ACP 模式连接。": "選擇 WorkBuddy 企業版提供的 CodeBuddy Code 命令列，以 ACP 模式連線。", "撤销添加字幕": "撤銷新增字幕", "撤销编辑字幕": "撤銷編輯字幕", "撤销删除字幕": "撤銷刪除字幕", "撤销导入字幕": "撤銷匯入字幕", "撤销编辑镜头属性": "撤銷編輯鏡頭屬性", "撤销替换素材": "撤銷替換素材", "撤销移除替换素材": "撤銷移除替換素材", "撤销调整混音": "撤銷調整混音", "撤销编辑提示词": "撤銷編輯提示詞", "撤销校对字幕": "撤銷校對字幕", "撤销保存版本": "撤銷儲存版本", "撤销切换版本": "撤銷切換版本", "撤销批量替换素材": "撤銷批次替換素材", "撤销更换参考图": "撤銷更換參考圖", "想怎么剪辑或分析这条视频？": "想怎麼剪輯或分析這段影片？", "把开头 1 秒和结尾 1 秒剪掉，保留中间内容。": "剪掉開頭和結尾各 1 秒，保留中間內容。", "试试自动剪辑": "試試自動剪輯", "描述要剪辑或分析的内容…": "描述要剪輯或分析的內容…", "例如：剪掉开头 2 秒，把最后一个镜头移到最前。": "例如：剪掉開頭 2 秒，把最後一個鏡頭移到最前。", "读取剪辑时间线": "讀取剪輯時間軸", "应用时间线剪辑": "套用時間軸剪輯", "创建剪辑工程": "建立剪輯專案", "已创建剪辑工程": "已建立剪輯專案", "已读取当前剪辑时间线": "已讀取目前的剪輯時間軸", "已读取时间线素材帧": "已讀取時間軸素材影格", "当前时间线已符合这次剪辑": "目前的時間軸已符合這次剪輯", "从一段素材开始剪辑": "從一段素材開始剪輯", "添加原始视频，然后告诉 Agent 想剪成什么样。": "加入原始影片，再告訴 Agent 想剪成什麼樣。", "把这段素材剪成一条节奏明快的产品短片，开头先展示亮点。": "把這段素材剪成一支節奏明快的產品短片，開頭先展示亮點。", "添加剪辑素材": "新增剪輯素材", "更换剪辑素材": "更換剪輯素材", "移除剪辑素材": "移除剪輯素材", "正在添加素材 {0}%": "正在新增素材 {0}%", "查看原始素材": "查看原始素材", "正在查看原始素材": "正在查看原始素材", "素材预览已准备好": "素材預覽已準備好", "正在检测素材分段和静音": "正在偵測素材分段和靜音", "正在生成带时间码的素材预览": "正在產生帶時間碼的素材預覽", "正在识别素材口播": "正在辨識素材口播", "已查看素材画面和时间码": "已查看素材畫面和時間碼", "制作素材初稿": "製作素材初稿", "成片初稿已在时间线打开": "成片初稿已在時間軸開啟", "渐显": "漸顯", "放大": "放大", "缩小进入": "縮小進入", "弹入": "彈入", "向左滑入": "向左滑入", "向右滑入": "向右滑入", "向上滑入": "向上滑入", "向下滑入": "向下滑入", "旋转进入": "旋轉進入", "模糊渐显": "模糊漸顯", "甩入": "甩入", "摇摆进入": "搖擺進入", "渐隐": "漸隱", "缩小消失": "縮小消失", "放大消失": "放大消失", "向左滑出": "向左滑出", "向右滑出": "向右滑出", "向下滑出": "向下滑出", "旋转消失": "旋轉消失", "模糊消失": "模糊消失", "呼吸": "呼吸", "漂浮": "漂浮", "摇摆": "搖擺", "抖动": "抖動", "心跳": "心跳", "闪烁": "閃爍", "缓慢推进": "緩慢推進", "入场预设": "入場預設", "出场预设": "出場預設", "循环预设": "循環預設", "试播入场": "試播入場", "试播出场": "試播出場", "试播循环": "試播循環", "无可导出的字幕": "無可匯出的字幕", "实拍": "實拍", "影视片段": "影視片段", "AI 生成视频": "AI 生成影片", "数字人": "數位人", "3D 渲染": "3D 算圖", "2D 动画": "2D 動畫", "定格动画": "定格動畫", "代码 / 模板渲染": "程式碼／範本算圖", "录屏截图": "螢幕擷取", "静图推拉": "靜態圖平移與縮放", "静帧": "靜止影格", "待确认": "待確認", "定位{0}音频": "定位{0}音訊", "{0} · {1} 句": "{0} · {1} 句", "{0} {1}，{2}": "{0} {1}，{2}", "缺少连接组件": "缺少連線元件", "未检测到本机程序": "未偵測到本機程式", "指定程序已移动": "指定程式已移動", "指定连接组件已移动": "指定連線元件已移動", "需要 Node.js 运行连接组件": "執行連線元件需要 Node.js", "视频元数据": "影片中繼資料", "抽帧图已生成": "已產生影格圖" } };
 var RM = Object.create;
 var xS = Object.defineProperty;
 var kM = Object.getOwnPropertyDescriptor;
@@ -10207,12 +10208,12 @@ function bo({ checked: e, onChange: t, children: a, hint: o, disabled: l }) {
   return (0, Ze.jsxs)("label", { className: "toggle-line", children: [(0, Ze.jsxs)("span", { className: "toggle-copy", children: [(0, Ze.jsx)("span", { children: a }), o && (0, Ze.jsx)("small", { children: o })] }), (0, Ze.jsx)(OT, { checked: e, onCheckedChange: t, disabled: l, className: "switch", "aria-label": typeof a == "string" ? a : void 0, children: (0, Ze.jsx)(PT, { className: "switch-thumb" }) })] });
 }
 function hl({ open: e, onClose: t, title: a, description: o, children: l, className: r = "" }) {
-  return (0, Ze.jsx)(ST, { open: e, onOpenChange: (i) => !i && t(), children: (0, Ze.jsxs)(ET, { children: [(0, Ze.jsx)(IT, { className: "modal-shade" }), (0, Ze.jsxs)(AT, { className: "modal " + r, ...o ? {} : { "aria-describedby": void 0 }, children: [(0, Ze.jsxs)("div", { className: "modal-head", children: [(0, Ze.jsx)(_T, { children: a }), (0, Ze.jsx)(MT, { asChild: true, children: (0, Ze.jsx)(St, { icon: Wa, label: "关闭窗口" }) })] }), o && (0, Ze.jsx)(wT, { className: "modal-desc", children: o }), l] })] }) });
+  return (0, Ze.jsx)(ST, { open: e, onOpenChange: (i) => !i && t(), children: (0, Ze.jsxs)(ET, { children: [(0, Ze.jsx)(IT, { className: "modal-shade" }), (0, Ze.jsxs)(AT, { className: "modal " + r, ...o ? {} : { "aria-describedby": void 0 }, children: [(0, Ze.jsxs)("div", { className: "modal-head", children: [(0, Ze.jsx)(_T, { children: a }), (0, Ze.jsx)(MT, { asChild: true, children: (0, Ze.jsx)(St, { icon: Wa, label: labelText("关闭窗口") }) })] }), o && (0, Ze.jsx)(wT, { className: "modal-desc", children: o }), l] })] }) });
 }
 var xo = N(Q(), 1);
 async function BT(e) {
   let t = await e.json();
-  if (!e.ok) throw new Error(t.error || "请求未完成。");
+  if (!e.ok) throw new Error(t.error || labelText("请求未完成。"));
   return t;
 }
 async function NT() {
@@ -10224,17 +10225,21 @@ async function Uo(e, t = {}) {
 function HT(e, t, a) {
   return new Promise((o, l) => {
     let r = new XMLHttpRequest();
-    r.open("POST", "/api/import" + (t ? "?shot=" + encodeURIComponent(t) : "")), r.setRequestHeader("Content-Type", "application/octet-stream"), r.setRequestHeader("X-Filename", encodeURIComponent(e.name)), r.upload.onprogress = (i) => {
+    const query = new URLSearchParams();
+    if (t) {
+      for (const [key, value] of Object.entries(t)) if (value != null) query.set(key, value);
+    }
+    r.open("POST", "/api/import" + (query.size ? "?" + query : "")), r.setRequestHeader("Content-Type", "application/octet-stream"), r.setRequestHeader("X-Filename", encodeURIComponent(e.name)), r.upload.onprogress = (i) => {
       i.lengthComputable && a(Math.round(i.loaded / i.total * 100));
     }, r.onload = () => {
       try {
         let i = JSON.parse(r.responseText);
-        if (r.status >= 400) throw new Error(i.error || "导入失败。");
-        o();
+        if (r.status >= 400) throw new Error(i.error || labelText("导入失败。"));
+        o(i.result ?? void 0);
       } catch (i) {
         l(i);
       }
-    }, r.onerror = () => l(new Error("导入连接中断，请重试。")), r.send(e);
+    }, r.onerror = () => l(new Error(labelText("导入连接中断，请重试。"))), r.send(e);
   });
 }
 function kt(e, t = false) {
@@ -10273,7 +10278,7 @@ function qT({ state, track, command, disabled, notify, seek, close }) {
     setDrafts((old) => ({ ...old, [key]: { ...value, [field]: next } }));
   }
   function requestClose() {
-    if (!saving && (!dirty || window.confirm("还有未保存的字幕修改，关闭会放弃这些修改。确定关闭吗？"))) close();
+    if (!saving && (!dirty || window.confirm(labelText("还有未保存的字幕修改，关闭会放弃这些修改。确定关闭吗？")))) close();
   }
   async function save() {
     setSaving(true);
@@ -10287,21 +10292,21 @@ function qT({ state, track, command, disabled, notify, seek, close }) {
           delete next[key];
           return next;
         });
-        notify("字幕、报告和 SRT 已同步保存");
+        notify(labelText("字幕、报告和 SRT 已同步保存"));
       }
     } finally {
       setSaving(false);
     }
   }
-  return /* @__PURE__ */ j.createElement(Modal, { open: true, onClose: requestClose, title: "双语字幕校对", description: "点击左侧句子定位原片；修改后保存此句，报告和 SRT 会同步更新。", className: "subtitle-editor-modal" }, /* @__PURE__ */ j.createElement("div", { className: "subtitle-editor-layout" }, /* @__PURE__ */ j.createElement("aside", { className: "editor-sentence-rail" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, "字幕组"), /* @__PURE__ */ j.createElement("select", { "aria-label": "字幕组", value: group?.id || "", disabled: busy || !groups?.length, onChange: (e) => {
+  return /* @__PURE__ */ j.createElement(Modal, { open: true, onClose: requestClose, title: labelText("双语字幕校对"), description: labelText("点击左侧句子定位原片；修改后保存此句，报告和 SRT 会同步更新。"), className: "subtitle-editor-modal" }, /* @__PURE__ */ j.createElement("div", { className: "subtitle-editor-layout" }, /* @__PURE__ */ j.createElement("aside", { className: "editor-sentence-rail" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("字幕组")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("字幕组"), value: group?.id || "", disabled: busy || !groups?.length, onChange: (e) => {
     setGroupId(e.target.value);
     setIndex(0);
-  } }, groups?.map((g) => /* @__PURE__ */ j.createElement("option", { key: g.id, value: g.id }, g.label, " · ", g.rows.length, " 句")))), /* @__PURE__ */ j.createElement("div", { className: "editor-sentence-list", "aria-label": "待校对字幕" }, group?.rows.map((r, i) => /* @__PURE__ */ j.createElement("button", { key: i, type: "button", disabled: saving, className: index === i ? "cue active" : "cue", "aria-pressed": index === i, onClick: () => {
+  } }, groups?.map((g) => /* @__PURE__ */ j.createElement("option", { key: g.id, value: g.id }, labelText("{0} · {1} 句", labelText(g.label), g.rows.length))))), /* @__PURE__ */ j.createElement("div", { className: "editor-sentence-list", "aria-label": labelText("待校对字幕") }, group?.rows.map((r, i) => /* @__PURE__ */ j.createElement("button", { key: i, type: "button", disabled: saving, className: index === i ? "cue active" : "cue", "aria-pressed": index === i, onClick: () => {
     setIndex(i);
     seek(r.start);
-  } }, /* @__PURE__ */ j.createElement("time", null, kt(r.start, true)), /* @__PURE__ */ j.createElement("span", null, /* @__PURE__ */ j.createElement("strong", null, r.original), /* @__PURE__ */ j.createElement("small", null, r.translation || "暂无中文译文")))))), /* @__PURE__ */ j.createElement("div", { className: "editor-main" }, value ? /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "editor-current" }, /* @__PURE__ */ j.createElement("h3", null, "第 ", index + 1, " / ", group.rows.length, " 句"), /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: kd, onClick: () => seek(Number(value.start)), disabled: !Number.isFinite(Number(value.start)) }, "定位原片")), /* @__PURE__ */ j.createElement("div", { className: "tool-fields two-fields editor-time-fields" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, "开始时间（秒）"), /* @__PURE__ */ j.createElement("input", { "aria-label": "开始时间（秒）", type: "number", min: "0", step: "0.001", disabled: busy, value: value.start, onChange: (e) => update("start", e.target.value) })), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, "结束时间（秒）"), /* @__PURE__ */ j.createElement("input", { "aria-label": "结束时间（秒）", type: "number", min: "0", step: "0.001", disabled: busy, value: value.end, onChange: (e) => update("end", e.target.value) }))), /* @__PURE__ */ j.createElement("div", { className: "editor-bilingual-fields" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, "字幕原文"), /* @__PURE__ */ j.createElement("textarea", { "aria-label": "字幕原文", rows: "7", maxLength: "4000", disabled: busy, value: value.original, onChange: (e) => update("original", e.target.value) })), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, "中文译文"), /* @__PURE__ */ j.createElement("textarea", { "aria-label": "中文译文", rows: "7", maxLength: "4000", disabled: busy, value: value.translation, onChange: (e) => update("translation", e.target.value) }))), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "时间采用秒，支持小数。保存后会同步当前项目的报告与字幕文件。")) : /* @__PURE__ */ j.createElement("p", { className: "empty-caption" }, groups ? "暂无可校对的双语字幕，请先补充中文译文。" : "正在读取字幕…"))), /* @__PURE__ */ j.createElement("div", { className: "modal-actions editor-actions" }, /* @__PURE__ */ j.createElement("span", { className: dirty ? "draft-status unsaved" : "draft-status", role: "status" }, dirty ? `${dirty} 句修改尚未保存` : "所有修改已保存"), /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: saving, onClick: requestClose }, "关闭校对"), /* @__PURE__ */ j.createElement(D, { kind: "primary", icon: na, disabled: busy || !drafts[key] || !value?.original.trim(), onClick: save }, saving ? "正在保存…" : "保存此句并同步")));
+  } }, /* @__PURE__ */ j.createElement("time", null, kt(r.start, true)), /* @__PURE__ */ j.createElement("span", null, /* @__PURE__ */ j.createElement("strong", null, r.original), /* @__PURE__ */ j.createElement("small", null, r.translation || labelText("暂无中文译文"))))))), /* @__PURE__ */ j.createElement("div", { className: "editor-main" }, value ? /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "editor-current" }, /* @__PURE__ */ j.createElement("h3", null, labelText("第 "), index + 1, " / ", group.rows.length, labelText(" 句")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: kd, onClick: () => seek(Number(value.start)), disabled: !Number.isFinite(Number(value.start)) }, labelText("定位原片"))), /* @__PURE__ */ j.createElement("div", { className: "tool-fields two-fields editor-time-fields" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("开始时间（秒）")), /* @__PURE__ */ j.createElement("input", { "aria-label": labelText("开始时间（秒）"), type: "number", min: "0", step: "0.001", disabled: busy, value: value.start, onChange: (e) => update("start", e.target.value) })), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("结束时间（秒）")), /* @__PURE__ */ j.createElement("input", { "aria-label": labelText("结束时间（秒）"), type: "number", min: "0", step: "0.001", disabled: busy, value: value.end, onChange: (e) => update("end", e.target.value) }))), /* @__PURE__ */ j.createElement("div", { className: "editor-bilingual-fields" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("字幕原文")), /* @__PURE__ */ j.createElement("textarea", { "aria-label": labelText("字幕原文"), rows: "7", maxLength: "4000", disabled: busy, value: value.original, onChange: (e) => update("original", e.target.value) })), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("中文译文")), /* @__PURE__ */ j.createElement("textarea", { "aria-label": labelText("中文译文"), rows: "7", maxLength: "4000", disabled: busy, value: value.translation, onChange: (e) => update("translation", e.target.value) }))), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("时间采用秒，支持小数。保存后会同步当前项目的报告与字幕文件。"))) : /* @__PURE__ */ j.createElement("p", { className: "empty-caption" }, groups ? labelText("暂无可校对的双语字幕，请先补充中文译文。") : labelText("正在读取字幕…")))), /* @__PURE__ */ j.createElement("div", { className: "modal-actions editor-actions" }, /* @__PURE__ */ j.createElement("span", { className: dirty ? "draft-status unsaved" : "draft-status", role: "status" }, dirty ? `${dirty} 句修改尚未保存` : labelText("所有修改已保存")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: saving, onClick: requestClose }, labelText("关闭校对")), /* @__PURE__ */ j.createElement(D, { kind: "primary", icon: na, disabled: busy || !drafts[key] || !value?.original.trim(), onClick: save }, saving ? labelText("正在保存…") : labelText("保存此句并同步"))));
 }
-var M = N(Te(), 1), Tb = [{ id: "analysis", label: "拆解", icon: Ka }, { id: "shot", label: "镜头", icon: Xl }, { id: "subtitles", label: "字幕", icon: va }, { id: "prompts", label: "提示词", icon: Ma }];
+var M = N(Te(), 1), Tb = [{ id: "analysis", label: labelText("拆解"), icon: Ka }, { id: "shot", label: labelText("镜头"), icon: Xl }, { id: "subtitles", label: labelText("字幕"), icon: va }, { id: "prompts", label: labelText("提示词"), icon: Ma }];
 function Kr({ values: e, value: t, onChange: a, label: o, disabled: l }) {
   return (0, M.jsx)("div", { className: "segments", role: "group", "aria-label": o, children: e.map(([r, i]) => (0, M.jsx)("button", { type: "button", "aria-pressed": r === t, className: r === t ? "segment active" : "segment", disabled: l, onClick: () => a(r), children: i }, r)) });
 }
@@ -10311,21 +10316,115 @@ function FT({ icon: e, text: t, hint: a }) {
 function sP({ state, options, setOption, command, openSettings, openInput, disabled }) {
   const Toggle = bo, TranslationIcon = pu;
   const configured = state.settings.env || state.settings.base && state.settings.model && state.settings.has_key;
-  return /* @__PURE__ */ j.createElement("div", { className: "analysis-content" }, /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("h3", null, "参考视频"), /* @__PURE__ */ j.createElement("p", { className: "source-name", title: state.source?.name }, state.source?.name || "选择本地视频，或粘贴抖音 / TikTok 链接。"), /* @__PURE__ */ j.createElement("div", { className: "source-input-actions" }, /* @__PURE__ */ j.createElement(D, { icon: qe, disabled, onClick: () => openInput("local") }, state.source ? "更换视频" : "本地上传"), /* @__PURE__ */ j.createElement(D, { disabled, onClick: () => openInput("link") }, "链接拆解"))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("h3", null, "画面文字是什么语言？"), /* @__PURE__ */ j.createElement(Kr, { label: "画面字幕识别语言", values: [["zh", "中文 / 英文"], ["ja", "日语 / 日本語"]], value: options.ocr_language, onChange: (value) => setOption({ ocr_language: value }), disabled }), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "口播语言自动识别；此项用于识别画面上的文字。"), /* @__PURE__ */ j.createElement("div", { className: "translation-box" }, /* @__PURE__ */ j.createElement(TranslationIcon, { size: 18 }), /* @__PURE__ */ j.createElement("div", { className: "toggle-copy" }, /* @__PURE__ */ j.createElement("strong", null, "自动附上中文译文"), /* @__PURE__ */ j.createElement("small", null, "英文画面文字、英文和日语口播会写进报告。")))), /* @__PURE__ */ j.createElement("details", { className: "analysis-details" }, /* @__PURE__ */ j.createElement("summary", null, "自定义分析选项"), /* @__PURE__ */ j.createElement("div", { className: "details-content" }, /* @__PURE__ */ j.createElement(Toggle, { checked: options.ocr, onChange: (value) => setOption({ ocr: value }), disabled, hint: "提取视频里已有的字幕和标题" }, "识别画面文字"), /* @__PURE__ */ j.createElement(Toggle, { checked: options.packaging, onChange: (value) => setOption({ packaging: value }), disabled, hint: "记录字幕、标题、花字等出现的时间" }, "识别字幕和画面包装"), /* @__PURE__ */ j.createElement(Toggle, { checked: options.stems, onChange: (value) => setOption({ stems: value }), disabled, hint: "生成可单独试听的人声和背景声" }, "分离人声与配乐"), /* @__PURE__ */ j.createElement(Toggle, { checked: options.vlm, onChange: (value) => setOption({ vlm: value }), disabled, hint: "需配置模型服务，会向该服务发送视频素材" }, "AI 深度分析"), options.vlm && /* @__PURE__ */ j.createElement("div", { className: "model-note" }, /* @__PURE__ */ j.createElement("span", null, configured ? "使用已配置的模型服务" : "需要先配置模型服务"), /* @__PURE__ */ j.createElement(D, { kind: "ghost", onClick: openSettings }, "设置模型")), /* @__PURE__ */ j.createElement("label", { className: "field-label" }, "报告界面语言"), /* @__PURE__ */ j.createElement(Kr, { label: "报告语言", values: [["zh", "中文"], ["en", "English"]], value: options.report_language, onChange: (value) => setOption({ report_language: value }), disabled }))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block analysis-start" }, /* @__PURE__ */ j.createElement("h3", null, "项目保存到"), /* @__PURE__ */ j.createElement("button", { type: "button", className: "path-button", disabled, title: state.settings.output, onClick: () => command("pick_output") }, /* @__PURE__ */ j.createElement("qe", { size: 16 }), /* @__PURE__ */ j.createElement("span", null, state.settings.output), /* @__PURE__ */ j.createElement("strong", null, "更改")), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: Ka, disabled: disabled || !state.source || state.source.missing, onClick: () => command("analyze", { options }) }, state.project ? "重新拆解为新项目" : "开始拆解"), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "默认设置即可开始。完成后先查看译文，再按需修改和导出。"), state.project && /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "ghost", icon: pu, disabled, onClick: () => command("translate") }, "为此项目补充 / 更新译文")));
+  return /* @__PURE__ */ j.createElement("div", { className: "analysis-content" }, /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("h3", null, labelText("参考视频")), /* @__PURE__ */ j.createElement("p", { className: "source-name", title: state.source?.name }, state.source?.name || labelText("选择本地视频，或粘贴抖音 / TikTok 链接。")), /* @__PURE__ */ j.createElement("div", { className: "source-input-actions" }, /* @__PURE__ */ j.createElement(D, { icon: qe, disabled, onClick: () => openInput("local") }, state.source ? labelText("更换视频") : labelText("本地上传")), /* @__PURE__ */ j.createElement(D, { disabled, onClick: () => openInput("link") }, labelText("链接拆解")))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("h3", null, labelText("画面文字是什么语言？")), /* @__PURE__ */ j.createElement(Kr, { label: labelText("画面字幕识别语言"), values: [["zh", labelText("中文 / 英文")], ["ja", labelText("日语 / 日本語")]], value: options.ocr_language, onChange: (value) => setOption({ ocr_language: value }), disabled }), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("口播语言自动识别；此项用于识别画面上的文字。")), /* @__PURE__ */ j.createElement("div", { className: "translation-box" }, /* @__PURE__ */ j.createElement(TranslationIcon, { size: 18 }), /* @__PURE__ */ j.createElement("div", { className: "toggle-copy" }, /* @__PURE__ */ j.createElement("strong", null, labelText("自动附上中文译文")), /* @__PURE__ */ j.createElement("small", null, labelText("英文画面文字、英文和日语口播会写进报告。"))))), /* @__PURE__ */ j.createElement("details", { className: "analysis-details" }, /* @__PURE__ */ j.createElement("summary", null, labelText("自定义分析选项")), /* @__PURE__ */ j.createElement("div", { className: "details-content" }, /* @__PURE__ */ j.createElement(Toggle, { checked: options.ocr, onChange: (value) => setOption({ ocr: value }), disabled, hint: labelText("提取视频里已有的字幕和标题") }, labelText("识别画面文字")), /* @__PURE__ */ j.createElement(Toggle, { checked: options.packaging, onChange: (value) => setOption({ packaging: value }), disabled, hint: labelText("记录字幕、标题、花字等出现的时间") }, labelText("识别字幕和画面包装")), /* @__PURE__ */ j.createElement(Toggle, { checked: options.stems, onChange: (value) => setOption({ stems: value }), disabled, hint: labelText("生成可单独试听的人声和背景声") }, labelText("分离人声与配乐")), /* @__PURE__ */ j.createElement(Toggle, { checked: options.vlm, onChange: (value) => setOption({ vlm: value }), disabled, hint: labelText("需配置模型服务，会向该服务发送视频素材") }, labelText("AI 深度分析")), options.vlm && /* @__PURE__ */ j.createElement("div", { className: "model-note" }, /* @__PURE__ */ j.createElement("span", null, configured ? labelText("使用已配置的模型服务") : labelText("需要先配置模型服务")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", onClick: () => openSettings("analysis") }, labelText("设置模型"))), /* @__PURE__ */ j.createElement("label", { className: "field-label" }, labelText("报告界面语言")), /* @__PURE__ */ j.createElement(Kr, { label: labelText("报告语言"), values: [["zh", labelText("中文")], ["en", "English"]], value: options.report_language, onChange: (value) => setOption({ report_language: value }), disabled }))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block analysis-start" }, /* @__PURE__ */ j.createElement("h3", null, labelText("项目保存到")), /* @__PURE__ */ j.createElement("button", { type: "button", className: "path-button", disabled, title: state.settings.output, onClick: () => command("pick_output") }, /* @__PURE__ */ j.createElement("qe", { size: 16 }), /* @__PURE__ */ j.createElement("span", null, state.settings.output), /* @__PURE__ */ j.createElement("strong", null, labelText("更改"))), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: Ka, disabled: disabled || !state.source || state.source.missing, onClick: () => command("analyze", { options }) }, state.project && !state.project.editor_only ? labelText("重新拆解为新项目") : labelText("开始拆解")), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("默认设置即可开始。完成后先查看译文，再按需修改和导出。")), state.project && !state.project.editor_only && /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "ghost", icon: pu, disabled, onClick: () => command("translate") }, labelText("为此项目补充 / 更新译文"))));
 }
 function dP({ shot: e, shotIndex: t, command: a, playback: o, disabled: l, state: r, openAdvanced: i }) {
-  return e ? (0, M.jsxs)(M.Fragment, { children: [(0, M.jsxs)("section", { className: "inspector-block shot-detail", children: [(0, M.jsx)(Gr, { src: e.thumb, className: "detail-cover" }), (0, M.jsxs)("div", { className: "section-head", children: [(0, M.jsxs)("h3", { children: ["镜头 ", String(t + 1).padStart(2, "0")] }), (0, M.jsx)("span", { className: "type-tag", children: e.label })] }), (0, M.jsxs)("div", { className: "shot-times", children: [(0, M.jsxs)("span", { children: [kt(e.start, true), " → ", kt(e.end, true)] }), (0, M.jsxs)("span", { children: [Number(e.duration).toFixed(2), " 秒"] })] }), e.description && (0, M.jsx)("p", { className: "shot-description", children: e.description })] }), (0, M.jsxs)("section", { className: "inspector-block", children: [(0, M.jsx)("h3", { children: "替换素材" }), e.replacement_name && (0, M.jsxs)("div", { className: "assigned-file", title: e.replacement_name, children: [(0, M.jsx)($t, { size: 17 }), (0, M.jsx)("span", { children: e.replacement_name }), (0, M.jsx)(St, { icon: Wa, label: "移除替换素材", disabled: l, onClick: () => a("clear_replacement", { shot: e.id }) })] }), (0, M.jsxs)("div", { className: "button-row", children: [(0, M.jsx)(D, { icon: mu, disabled: l, onClick: () => a("replace", { shot: e.id }), children: "选择替换视频" }), e.replacement && (0, M.jsx)(D, { icon: mo, onClick: () => o({ url: e.replacement, label: "镜头 " + (t + 1) + " · 替换预览", override: true }), children: "预览替换" })] }), !e.replacement_name && (0, M.jsx)("p", { className: "field-hint", children: "也可以把视频文件拖到时间线上的镜头。" })] }), r.project.exports.length > 0 && (0, M.jsxs)("section", { className: "inspector-block", children: [(0, M.jsx)("h3", { children: "已导出" }), (0, M.jsx)("div", { className: "button-row", children: r.project.exports.map((n) => (0, M.jsx)(D, { icon: mo, onClick: () => o({ ...n, override: true }), children: n.label }, n.label)) })] }), (0, M.jsx)("section", { className: "inspector-block", children: (0, M.jsx)(D, { kind: "ghost", icon: po, onClick: () => i("timeline"), children: "批量匹配与生成结果" }) })] }) : (0, M.jsx)(FT, { icon: Xl, text: "等待分镜", hint: "完成拆解后，点击时间线上的镜头查看和替换素材。" });
+  return e ? (0, M.jsxs)(M.Fragment, { children: [(0, M.jsxs)("section", { className: "inspector-block shot-detail", children: [(0, M.jsx)(Gr, { src: e.thumb, className: "detail-cover" }), (0, M.jsxs)("div", { className: "section-head", children: [(0, M.jsxs)("h3", { children: [labelText("镜头 "), String(t + 1).padStart(2, "0")] }), (0, M.jsx)("span", { className: "type-tag", children: e.label })] }), (0, M.jsxs)("div", { className: "shot-times", children: [(0, M.jsxs)("span", { children: [kt(e.start, true), " → ", kt(e.end, true)] }), (0, M.jsxs)("span", { children: [Number(e.duration).toFixed(2), labelText(" 秒")] })] }), e.description && (0, M.jsx)("p", { className: "shot-description", children: e.description })] }), (0, M.jsxs)("section", { className: "inspector-block", children: [(0, M.jsx)("h3", { children: labelText("替换素材") }), e.replacement_name && (0, M.jsxs)("div", { className: "assigned-file", title: e.replacement_name, children: [(0, M.jsx)($t, { size: 17 }), (0, M.jsx)("span", { children: e.replacement_name }), (0, M.jsx)(St, { icon: Wa, label: labelText("移除替换素材"), disabled: l, onClick: () => a("clear_replacement", { shot: e.id }) })] }), (0, M.jsxs)("div", { className: "button-row", children: [(0, M.jsx)(D, { icon: mu, disabled: l, onClick: () => a("replace", { shot: e.id }), children: labelText("选择替换视频") }), e.replacement && (0, M.jsx)(D, { icon: mo, onClick: () => o({ url: e.replacement, label: labelText("镜头 ") + (t + 1) + labelText(" · 替换预览"), override: true }), children: labelText("预览替换") })] }), !e.replacement_name && (0, M.jsx)("p", { className: "field-hint", children: labelText("也可以把视频文件拖到时间线上的镜头。") })] }), r.project.exports.length > 0 && (0, M.jsxs)("section", { className: "inspector-block", children: [(0, M.jsx)("h3", { children: labelText("已导出") }), (0, M.jsx)("div", { className: "button-row", children: r.project.exports.map((n) => (0, M.jsx)(D, { icon: mo, onClick: () => o({ ...n, override: true }), children: n.label }, n.label)) })] }), (0, M.jsx)("section", { className: "inspector-block", children: (0, M.jsx)(D, { kind: "ghost", icon: po, onClick: () => i("timeline"), children: labelText("批量匹配与生成结果") }) })] }) : (0, M.jsx)(FT, { icon: Xl, text: labelText("等待分镜"), hint: labelText("完成拆解后，点击时间线上的镜头查看和替换素材。") });
 }
 function cP({ state, track, setTrack, cues, time, seek, command, options, setOption, disabled, openAdvanced, notify }) {
   const Editor = qT;
   const [editing, setEditing] = j.useState(false);
-  const active = cues.findIndex((c) => time >= c.start && time < c.end), refs = j.useRef([]);
+  const active = cues.findIndex((cue) => time >= cue.start && time < cue.end);
+  const scroller = j.useRef(null);
+  const list = j.useRef(null);
+  const tools = j.useRef(null);
   j.useEffect(() => {
-    if (active >= 0) refs.current[active]?.scrollIntoView({ block: "nearest" });
+    if (active < 0 || tools.current?.open) return;
+    const viewport = scroller.current.getBoundingClientRect();
+    const bounds = list.current.getBoundingClientRect();
+    if (bounds.bottom > viewport.top && bounds.top < viewport.bottom) {
+      list.current.children[active]?.scrollIntoView({ block: "nearest" });
+    }
   }, [active]);
-  return /* @__PURE__ */ j.createElement("div", { className: "subtitle-workspace" }, /* @__PURE__ */ j.createElement("div", { className: "subtitle-toolbar" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, "查看的字幕"), /* @__PURE__ */ j.createElement("select", { "aria-label": "选择字幕轨", value: track || "", onChange: (e) => setTrack(e.target.value), disabled: !state.tracks.length }, state.tracks.map((t) => /* @__PURE__ */ j.createElement("option", { key: t.id, value: t.id }, t.label)), !state.tracks.length && /* @__PURE__ */ j.createElement("option", { value: "" }, "暂无字幕"))), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: va, disabled: disabled || !state.subtitle_editable, onClick: () => setEditing(true) }, "打开双语校对大面板"), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "机器识别和翻译建议人工校对。")), /* @__PURE__ */ j.createElement("div", { className: "cue-list main-cue-list", "aria-label": "字幕列表" }, cues.map((c, index) => /* @__PURE__ */ j.createElement("button", { key: index, type: "button", className: index === active ? "cue active" : "cue", "aria-pressed": index === active, ref: (el) => refs.current[index] = el, onClick: () => seek(c.start) }, /* @__PURE__ */ j.createElement("time", null, kt(c.start, true)), /* @__PURE__ */ j.createElement("span", null, c.text))), !cues.length && /* @__PURE__ */ j.createElement("p", { className: "empty-caption" }, state.project ? "此字幕轨暂无内容，可补充译文或重新识别口播。" : "拆解视频后，字幕和译文会显示在这里。")), /* @__PURE__ */ j.createElement("div", { className: "subtitle-bottom" }, /* @__PURE__ */ j.createElement("div", { className: "button-row" }, /* @__PURE__ */ j.createElement(D, { icon: Ro, disabled: disabled || !track, onClick: () => command("save_track", { track }) }, "导出 SRT 字幕"), /* @__PURE__ */ j.createElement(D, { icon: $t, disabled: disabled || !track || state.source?.missing, onClick: () => command("burn", { track }) }, "导出带字幕视频")), /* @__PURE__ */ j.createElement("details", null, /* @__PURE__ */ j.createElement("summary", null, "补充译文与口播识别"), /* @__PURE__ */ j.createElement("div", { className: "details-content" }, /* @__PURE__ */ j.createElement(D, { className: "wide", icon: pu, disabled: disabled || !state.project, onClick: () => command("translate") }, "补充 / 更新中文译文"), /* @__PURE__ */ j.createElement("label", { className: "field-label" }, "重新识别口播"), /* @__PURE__ */ j.createElement(Kr, { label: "口播识别语言", value: options.speech_language, onChange: (value) => setOption({ speech_language: value }), values: [["zh", "中文 / 英文"], ["ja", "日语"]], disabled }), /* @__PURE__ */ j.createElement(D, { className: "wide", disabled: disabled || !state.source?.url, onClick: () => command("transcribe", { language: options.speech_language }) }, "识别口播并生成 SRT"), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "ghost", onClick: () => openAdvanced("media") }, "处理外部字幕文件…")))), editing && state.project && /* @__PURE__ */ j.createElement(Editor, { state, track, command, disabled, notify, seek, close: () => setEditing(false) }));
+  async function importTrack() {
+    const result = await command("import_subtitle_track", { track, scope: state.manual_caption_scope });
+    if (!result) return;
+    if (result.start != null) seek(result.start);
+    notify(result.message);
+  }
+  const trackDisabled = disabled || !track;
+  const noSource = !state.source?.url || state.source.missing;
+  return /* @__PURE__ */ j.createElement("div", { className: "subtitle-workspace" }, /* @__PURE__ */ j.createElement("div", { className: "subtitle-scroll", ref: scroller }, /* @__PURE__ */ j.createElement("div", { className: "subtitle-toolbar" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("查看的字幕")), /* @__PURE__ */ j.createElement(
+    "select",
+    {
+      "aria-label": labelText("选择字幕轨"),
+      value: track || "",
+      onChange: (event) => setTrack(event.target.value),
+      disabled: !state.tracks.length
+    },
+    state.tracks.map((item) => /* @__PURE__ */ j.createElement("option", { key: item.id, value: item.id }, labelText(item.label))),
+    !state.tracks.length && /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("暂无字幕"))
+  )), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      className: "wide",
+      kind: "primary",
+      icon: va,
+      disabled: disabled || !state.subtitle_editable,
+      onClick: () => setEditing(true)
+    },
+    labelText("打开双语校对大面板")
+  ), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("机器识别和翻译建议人工校对。"))), /* @__PURE__ */ j.createElement("div", { className: "cue-list main-cue-list", ref: list, "aria-label": labelText("字幕列表") }, cues.map((cue, index) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      key: index,
+      type: "button",
+      className: index === active ? "cue active" : "cue",
+      "aria-pressed": index === active,
+      onClick: () => seek(cue.start)
+    },
+    /* @__PURE__ */ j.createElement("time", null, kt(cue.start, true)),
+    /* @__PURE__ */ j.createElement("span", null, cue.text)
+  )), !cues.length && /* @__PURE__ */ j.createElement("p", { className: "empty-caption" }, state.project ? labelText("此字幕轨暂无内容，可补充译文或重新识别口播。") : labelText("拆解视频后，字幕和译文会显示在这里。"))), /* @__PURE__ */ j.createElement("details", { className: "subtitle-utilities", ref: tools }, /* @__PURE__ */ j.createElement("summary", null, labelText("补充译文与口播识别")), /* @__PURE__ */ j.createElement("div", { className: "details-content" }, /* @__PURE__ */ j.createElement(D, { className: "wide", icon: pu, disabled: disabled || !state.project, onClick: () => command("translate") }, labelText("补充 / 更新中文译文")), /* @__PURE__ */ j.createElement("label", { className: "field-label" }, labelText("重新识别口播")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      label: labelText("口播识别语言"),
+      value: options.speech_language,
+      onChange: (value) => setOption({ speech_language: value }),
+      values: [["zh", labelText("中文 / 英文")], ["ja", labelText("日语")]],
+      disabled
+    }
+  ), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      className: "wide",
+      disabled: disabled || noSource,
+      onClick: () => command("transcribe", { language: options.speech_language })
+    },
+    labelText("识别口播并生成 SRT")
+  ), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "ghost", onClick: () => openAdvanced("media") }, labelText("处理外部字幕文件…"))))), /* @__PURE__ */ j.createElement("div", { className: "subtitle-bottom" }, /* @__PURE__ */ j.createElement(
+    D,
+    {
+      icon: Hi,
+      disabled: trackDisabled || !cues.length || noSource || !state.manual_caption_duration,
+      title: labelText("将选中的字幕复制为可编辑的手动字幕"),
+      onClick: importTrack
+    },
+    labelText("加入字幕轨")
+  ), /* @__PURE__ */ j.createElement(D, { icon: Ro, disabled: trackDisabled, onClick: () => command("save_track", { track }) }, labelText("导出 SRT 字幕")), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      icon: $t,
+      disabled: trackDisabled || noSource,
+      title: labelText("在原片上压制当前字幕轨"),
+      onClick: () => command("burn", { track })
+    },
+    labelText("导出带字幕原片")
+  )), editing && state.project && /* @__PURE__ */ j.createElement(
+    Editor,
+    {
+      key: state.undo_revision,
+      state,
+      track,
+      command,
+      disabled,
+      notify,
+      seek,
+      close: () => setEditing(false)
+    }
+  ));
 }
-function fP({ shot: e, project: t, command: a, disabled: o, notify: l, openAdvanced: r }) {
+function fP({ shot: e, project: t, command: a, disabled: o, notify: l, openAdvanced: r, state, openSettings }) {
   let [i, n] = (0, xo.useState)(""), [u, d] = (0, xo.useState)(false), c = (0, xo.useRef)(""), h = (0, xo.useRef)(null), s = (0, xo.useRef)(null);
   if ((0, xo.useEffect)(() => {
     let p = false;
@@ -10334,7 +10433,7 @@ function fP({ shot: e, project: t, command: a, disabled: o, notify: l, openAdvan
     }).catch((m) => !p && l(m.message, true)), () => {
       p = true;
     };
-  }, [t?.id, e?.id, l]), !e) return (0, M.jsx)(FT, { icon: Ma, text: "暂无镜头提示词", hint: "拆解视频后，选择一个镜头生成可编辑草稿。" });
+  }, [t?.id, e?.id, l, state?.prompt_revision]), !e) return (0, M.jsx)(FT, { icon: Ma, text: labelText("暂无镜头提示词"), hint: labelText("拆解视频后，选择一个镜头生成可编辑草稿。") });
   let f = u && !o;
   async function v() {
     if (!u || c.current === i) return true;
@@ -10348,37 +10447,58 @@ function fP({ shot: e, project: t, command: a, disabled: o, notify: l, openAdvan
       await navigator.clipboard.writeText(i);
     } catch {
       if (s.current?.select(), !document.execCommand("copy")) {
-        l("复制失败，可手动选中文字复制。", true);
+        l(labelText("复制失败，可手动选中文字复制。"), true);
         return;
       }
     }
-    await v(), l("提示词已复制");
+    await v(), l(labelText("提示词已复制"));
   }
   async function x() {
-    if (await v(), await a("reset_prompt", { shot: e.id }) !== void 0) try {
-      let m = await Uo("prompt", { shot: e.id });
-      n(m), c.current = m;
-    } catch (m) {
-      l(m.message, true);
+    if (!await v()) return;
+    const restored = await a("reset_prompt", { shot: e.id });
+    if (typeof restored === "string") {
+      n(restored);
+      c.current = restored;
     }
   }
-  return (0, M.jsxs)(M.Fragment, { children: [(0, M.jsxs)("section", { className: "inspector-block prompt-block", children: [(0, M.jsxs)("div", { className: "section-head", children: [(0, M.jsxs)("h3", { children: ["镜头 ", String(e.id).padStart(2, "0"), " 的提示词"] }), (0, M.jsx)(St, { icon: qi, label: "恢复分镜草稿", disabled: !f, onClick: x })] }), (0, M.jsx)("textarea", { ref: s, "aria-label": "编辑提示词", value: i, disabled: !f, onChange: (p) => n(p.target.value), onBlur: () => f && v(), placeholder: u ? "输入当前镜头的提示词" : "正在读取草稿…" }), (0, M.jsxs)("div", { className: "button-row", children: [(0, M.jsx)(D, { kind: "primary", icon: Ni, disabled: !f, onClick: L, children: "复制提示词" }), (0, M.jsx)(D, { icon: na, disabled: !f, onClick: v, children: "保存" })] })] }), (0, M.jsxs)("section", { className: "inspector-block", children: [(0, M.jsx)(D, { className: "wide", icon: Ro, disabled: o, onClick: async () => {
+  return (0, M.jsxs)(M.Fragment, { children: [(0, M.jsxs)("section", { className: "inspector-block prompt-block", children: [(0, M.jsxs)("div", { className: "section-head", children: [(0, M.jsxs)("h3", { children: [labelText("镜头 "), String(e.id).padStart(2, "0"), labelText(" 的提示词")] }), (0, M.jsx)(St, { icon: qi, label: labelText("恢复分镜草稿"), disabled: !f, onClick: x })] }), (0, M.jsx)("textarea", { ref: s, "aria-label": labelText("编辑提示词"), value: i, disabled: !f, onChange: (p) => n(p.target.value), onBlur: () => f && v(), placeholder: u ? labelText("输入当前镜头的提示词") : labelText("正在读取草稿…") }), (0, M.jsxs)("div", { className: "button-row", children: [(0, M.jsx)(D, { kind: "primary", icon: Ni, disabled: !f, onClick: L, children: labelText("复制提示词") }), (0, M.jsx)(D, { icon: na, disabled: !f, onClick: v, children: labelText("保存") })] })] }), j.createElement(ComfyGenerationAction, { settings: state.settings, command: a, shot: e, text: i, disabled: !f, openSettings, save: v }), (0, M.jsxs)("section", { className: "inspector-block", children: [(0, M.jsx)(D, { className: "wide", icon: Ro, disabled: o, onClick: async () => {
     await v() && a("export_prompts");
-  }, children: "导出全部提示词" }), (0, M.jsx)(D, { className: "wide secondary-action", kind: "ghost", icon: po, disabled: o, onClick: async () => {
+  }, children: labelText("导出全部提示词") }), (0, M.jsx)(D, { className: "wide secondary-action", kind: "ghost", icon: po, disabled: o, onClick: async () => {
     await v() && r("prompts");
-  }, children: "生成任务与参考图" })] })] });
+  }, children: labelText("生成任务与参考图") })] })] });
 }
 function zT({ tab, onTab, hidden, ...props }) {
-  const panels = { analysis: [sP, "视频拆解", "选择视频，自动生成分镜、字幕和中文译文。"], shot: [dP, "镜头替换", "点击下方分镜，再选择新素材替换。"], subtitles: [cP, "字幕与翻译", "点击一句定位视频，打开大面板校对双语。"], audio: [AudioPanel, "声音与混音", "试听、分离人声和配乐，设置成片声音。"], prompts: [fP, "生成提示词", "按镜头编辑草稿，复制或导出给生成工具。"] };
+  const [agentInstructions, setAgentInstructions] = j.useState(false);
+  const entry = /* @__PURE__ */ j.createElement(AgentInstructionEntry, { open: () => setAgentInstructions(true) });
+  if (!hidden && agentInstructions) return /* @__PURE__ */ j.createElement(
+    AgentInstructionEditor,
+    {
+      key: props.state.manual_caption_scope,
+      state: props.state,
+      shot: props.shot,
+      time: props.time,
+      onSubmit: props.dispatchAgentTask,
+      back: () => setAgentInstructions(false),
+      command: props.command,
+      disabled: props.disabled,
+      taskBusy: props.agentTaskBusy,
+      openSettings: props.openSettings,
+      tab
+    }
+  );
+  if (!hidden && props.captionEditor.draft) return /* @__PURE__ */ j.createElement(ManualCaptionInspector, { editor: props.captionEditor, agentEntry: entry });
+  if (!hidden && tab === "shot") return /* @__PURE__ */ j.createElement("aside", { id: "task-inspector", className: "inspector task-panel property-inspector", "aria-label": labelText("镜头属性面板") }, /* @__PURE__ */ j.createElement(PanelResizeHandle, { tab }), /* @__PURE__ */ j.createElement(ClipInspector, { key: props.state.project?.id, ...props }), entry);
+  const panels = { analysis: [sP, labelText("视频拆解"), labelText("选择视频，自动生成分镜、字幕和中文译文。")], subtitles: [cP, labelText("字幕与翻译"), labelText("点击一句定位视频，打开大面板校对双语。")], audio: [AudioPanel, labelText("声音与混音"), labelText("试听、分离人声和配乐，设置成片声音。")], prompts: [PromptWorkspace, labelText("生成提示词"), labelText("编辑镜头草稿，生成替换素材或导出提示词。")] };
   const [Panel, title, detail] = panels[tab] || panels.analysis;
-  return /* @__PURE__ */ j.createElement("aside", { id: "task-inspector", className: "inspector task-panel task-panel--" + tab, "aria-label": title + "面板", hidden }, /* @__PURE__ */ j.createElement(PanelResizeHandle, { tab, hidden }), /* @__PURE__ */ j.createElement("div", { className: "task-panel-heading" }, /* @__PURE__ */ j.createElement("h2", null, title), /* @__PURE__ */ j.createElement("p", null, detail)), /* @__PURE__ */ j.createElement("div", { className: "task-panel-body" + (tab === "subtitles" ? " subtitle-task-body" : "") }, /* @__PURE__ */ j.createElement(Panel, { ...props, project: props.state.project })));
+  const sourceShot = props.shot?.source_id ? props.state.project?.shots.find((item) => item.id === props.shot.source_id) : props.shot;
+  return /* @__PURE__ */ j.createElement("aside", { id: "task-inspector", className: "inspector task-panel task-panel--" + tab, "aria-label": labelText("{0}面板", title), hidden }, /* @__PURE__ */ j.createElement(PanelResizeHandle, { tab, hidden }), /* @__PURE__ */ j.createElement("div", { className: "task-panel-heading" }, /* @__PURE__ */ j.createElement("h2", null, title), /* @__PURE__ */ j.createElement("p", null, detail)), /* @__PURE__ */ j.createElement("div", { className: "task-panel-body" + (tab === "subtitles" ? " subtitle-task-body" : "") }, /* @__PURE__ */ j.createElement(Panel, { ...props, shot: tab === "prompts" ? sourceShot : props.shot, project: props.state.project })), entry);
 }
-var C = N(Te(), 1), _b = [{ id: "tools", label: "检查与抽帧", icon: po, detail: "检查视频、抽帧和复核项目。", Panel: mP }, { id: "media", label: "外部字幕与音频", icon: Xa, detail: "处理项目字幕、外部视频或音频。", Panel: pP }, { id: "timeline", label: "批量剪辑", icon: Xl, detail: "按文件名匹配素材，或把生成结果导入分镜。", Panel: hP }, { id: "prompts", label: "批量生成与参考图", icon: Ma, detail: "设置参考帧，准备和预览逐镜生成任务。", Panel: gP }];
+var C = N(Te(), 1), _b = [{ id: "tools", label: labelText("检查与抽帧"), icon: po, detail: labelText("检查视频、抽帧和复核项目。"), Panel: mP }, { id: "media", label: labelText("外部字幕与音频"), icon: Xa, detail: labelText("处理项目字幕、外部视频或音频。"), Panel: pP }, { id: "timeline", label: labelText("批量剪辑"), icon: Xl, detail: labelText("按文件名匹配素材，或把生成结果导入分镜。"), Panel: hP }, { id: "prompts", label: labelText("批量生成与参考图"), icon: Ma, detail: labelText("设置参考帧，准备和预览逐镜生成任务。"), Panel: gP }];
 function Qa({ title: e, icon: t, children: a, className: o = "" }) {
   return (0, C.jsxs)("section", { className: "tool-card " + o, children: [(0, C.jsxs)("div", { className: "tool-card-head", children: [(0, C.jsx)("span", { className: "tool-icon", children: (0, C.jsx)(t, { size: 17 }) }), (0, C.jsx)("h2", { children: e })] }), a] });
 }
-function Kd({ label: e, value: t, placeholder: a = "选择文件…", choose: o, clear: l, disabled: r }) {
-  return (0, C.jsxs)("div", { className: "tool-field", children: [(0, C.jsx)("span", { children: e }), (0, C.jsxs)("div", { className: "tool-path", children: [(0, C.jsxs)("button", { type: "button", className: "path-button", "aria-label": e, title: t || void 0, disabled: r, onClick: o, children: [(0, C.jsx)(qe, { size: 16 }), (0, C.jsx)("span", { children: t || a })] }), t && l && (0, C.jsx)(St, { icon: Wa, label: "清除" + e, disabled: r, onClick: l })] })] });
+function Kd({ label: e, value: t, placeholder: a = labelText("选择文件…"), choose: o, clear: l, disabled: r }) {
+  return (0, C.jsxs)("div", { className: "tool-field", children: [(0, C.jsx)("span", { children: e }), (0, C.jsxs)("div", { className: "tool-path", children: [(0, C.jsxs)("button", { type: "button", className: "path-button", "aria-label": e, title: t || void 0, disabled: r, onClick: o, children: [(0, C.jsx)(qe, { size: 16 }), (0, C.jsx)("span", { children: t || a })] }), t && l && (0, C.jsx)(St, { icon: Wa, label: labelText("清除") + e, disabled: r, onClick: l })] })] });
 }
 function Xd({ label: e, value: t, options: a, onChange: o, disabled: l }) {
   let r = (0, Dt.useId)();
@@ -10392,26 +10512,26 @@ function Mb({ field: e, label: t, state: a, command: o, disabled: l, useSource: 
   return (0, C.jsx)(Kd, { label: t, value: i || n, disabled: l, choose: () => o("tool_pick", { field: e }), clear: i ? () => o("tool_clear_input", { field: e }) : void 0 });
 }
 function VT({ shots: e, shot: t, onChange: a, disabled: o }) {
-  return (0, C.jsx)(Xd, { label: "镜头", value: t.id, disabled: o, onChange: a, options: e.map((l) => [l.id, "镜头 " + l.id.padStart(2, "0") + " · " + kt(l.start, true)]) });
+  return (0, C.jsx)(Xd, { label: labelText("镜头"), value: t.id, disabled: o, onChange: a, options: e.map((l) => [l.id, labelText("镜头 ") + l.id.padStart(2, "0") + " · " + kt(l.start, true)]) });
 }
 function mP({ state: e, command: t, disabled: a, initialShot: o, openSettings: l }) {
   let [r, i] = (0, Dt.useState)({ start: "0", end: "3", every: "0.25" }), [n, u] = (0, Dt.useState)(o), [d, c] = (0, Dt.useState)(""), [h, s] = (0, Dt.useState)(""), f = e.project?.shots || [], v = f.find((m) => m.id === n) || f[0], L = e.tools.labels, x = d || (L[v?.type] ? v.type : "live_action"), p = !!(e.tools.inputs.video || e.source && !e.source.missing);
-  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: "单文件工具", icon: $t, children: [(0, C.jsx)(Mb, { field: "video", label: "视频文件", state: e, command: t, disabled: a, useSource: true }), (0, C.jsx)("div", { className: "tool-fields three-fields", children: Object.entries({ start: "开始秒数", end: "结束秒数", every: "间隔秒数" }).map(([m, g]) => (0, C.jsx)(wb, { label: g, value: r[m], type: "number", min: "0", step: "any", disabled: a, onChange: (S) => i({ ...r, [m]: S }) }, m)) }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { icon: fo, disabled: a || !p, onClick: () => t("tool_probe"), children: "查看视频参数" }), (0, C.jsx)(D, { kind: "primary", icon: Ka, disabled: a || !p, onClick: () => t("tool_tiles", r), children: "生成抽帧图" })] })] }), v && (0, C.jsxs)(Qa, { title: "当前项目复核", icon: na, children: [(0, C.jsxs)("div", { className: "tool-review-grid", children: [(0, C.jsx)(Gr, { src: v.thumb, className: "tool-review-thumb" }), (0, C.jsxs)("div", { children: [(0, C.jsxs)("div", { className: "tool-fields two-fields", children: [(0, C.jsx)(VT, { shots: f, shot: v, disabled: a, onChange: (m) => {
+  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: labelText("单文件工具"), icon: $t, children: [(0, C.jsx)(Mb, { field: "video", label: labelText("视频文件"), state: e, command: t, disabled: a, useSource: true }), (0, C.jsx)("div", { className: "tool-fields three-fields", children: Object.entries({ start: labelText("开始秒数"), end: labelText("结束秒数"), every: labelText("间隔秒数") }).map(([m, g]) => (0, C.jsx)(wb, { label: g, value: r[m], type: "number", min: "0", step: "any", disabled: a, onChange: (S) => i({ ...r, [m]: S }) }, m)) }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { icon: fo, disabled: a || !p, onClick: () => t("tool_probe"), children: labelText("查看视频参数") }), (0, C.jsx)(D, { kind: "primary", icon: Ka, disabled: a || !p, onClick: () => t("tool_tiles", r), children: labelText("生成抽帧图") })] })] }), v && (0, C.jsxs)(Qa, { title: labelText("当前项目复核"), icon: na, children: [(0, C.jsxs)("div", { className: "tool-review-grid", children: [(0, C.jsx)(Gr, { src: v.thumb, className: "tool-review-thumb" }), (0, C.jsxs)("div", { children: [(0, C.jsxs)("div", { className: "tool-fields two-fields", children: [(0, C.jsx)(VT, { shots: f, shot: v, disabled: a, onChange: (m) => {
     u(m), c(""), s("");
-  } }), (0, C.jsx)(Xd, { label: "正确类型", value: x, options: Object.entries(L), onChange: c, disabled: a })] }), (0, C.jsx)(wb, { label: "依据（可选）", value: h, onChange: s, disabled: a, maxLength: 2e3, placeholder: "填写判断依据" })] })] }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: na, disabled: a, onClick: () => t("tool_correct", { shot: v.id, label: x, note: h }), children: "保存镜头纠正" }), (0, C.jsx)(D, { disabled: a, onClick: () => t("tool_make_review"), children: "导出镜头复核文件" }), (0, C.jsx)(D, { disabled: a, onClick: () => t("tool_apply_review"), children: "导入镜头复核文件" }), (0, C.jsx)(D, { icon: qe, disabled: a, onClick: () => t("tool_relink"), children: "重新定位原片" })] })] }), (0, C.jsxs)(Qa, { title: "项目数据与批量评测", icon: Ur, className: "tool-span", children: [(0, C.jsxs)("div", { className: "button-row", children: [(0, C.jsx)(D, { icon: fo, disabled: a, onClick: () => t("tool_memory"), children: "查看本机纠错记忆" }), (0, C.jsx)(D, { icon: Ro, disabled: a, onClick: () => t("tool_export_labels"), children: "导出纠错标签" }), (0, C.jsx)(D, { icon: Ka, disabled: a, onClick: () => t("tool_evaluate"), children: "评测标注集…" }), e.project && (0, C.jsxs)(C.Fragment, { children: [(0, C.jsx)(D, { disabled: a, onClick: () => t("tool_summary"), children: "查看精简结论" }), (0, C.jsx)(D, { icon: Gl, disabled: a, onClick: () => t("tool_export_analysis"), children: "导出视频分析 JSON" }), (0, C.jsx)(D, { disabled: a || !e.settings.capsule_root, onClick: () => t("tool_draft"), children: "导出视频生成方案" })] }), (0, C.jsx)(D, { icon: Kl, disabled: a, onClick: () => t("tool_runtime"), children: "检查本机运行环境" })] }), e.project && !e.settings.capsule_root && (0, C.jsxs)("div", { className: "tool-inline-note", children: [(0, C.jsx)("span", { children: "导出复刻配方需配置生成后端。" }), (0, C.jsx)(D, { kind: "ghost", onClick: l, children: "打开设置" })] })] })] });
+  } }), (0, C.jsx)(Xd, { label: labelText("正确类型"), value: x, options: Object.entries(L), onChange: c, disabled: a })] }), (0, C.jsx)(wb, { label: labelText("依据（可选）"), value: h, onChange: s, disabled: a, maxLength: 2e3, placeholder: labelText("填写判断依据") })] })] }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: na, disabled: a, onClick: () => t("tool_correct", { shot: v.id, label: x, note: h }), children: labelText("保存镜头纠正") }), (0, C.jsx)(D, { disabled: a, onClick: () => t("tool_make_review"), children: labelText("导出镜头复核文件") }), (0, C.jsx)(D, { disabled: a, onClick: () => t("tool_apply_review"), children: labelText("导入镜头复核文件") }), (0, C.jsx)(D, { icon: qe, disabled: a, onClick: () => t("tool_relink"), children: labelText("重新定位原片") })] })] }), (0, C.jsxs)(Qa, { title: labelText("项目数据与批量评测"), icon: Ur, className: "tool-span", children: [(0, C.jsxs)("div", { className: "button-row", children: [(0, C.jsx)(D, { icon: fo, disabled: a, onClick: () => t("tool_memory"), children: labelText("查看本机纠错记忆") }), (0, C.jsx)(D, { icon: Ro, disabled: a, onClick: () => t("tool_export_labels"), children: labelText("导出纠错标签") }), (0, C.jsx)(D, { icon: Ka, disabled: a, onClick: () => t("tool_evaluate"), children: labelText("评测标注集…") }), e.project && (0, C.jsxs)(C.Fragment, { children: [(0, C.jsx)(D, { disabled: a, onClick: () => t("tool_summary"), children: labelText("查看精简结论") }), (0, C.jsx)(D, { icon: Gl, disabled: a, onClick: () => t("tool_export_analysis"), children: labelText("导出视频分析 JSON") }), (0, C.jsx)(D, { disabled: a || !e.settings.capsule_root, onClick: () => t("tool_draft"), children: labelText("导出视频生成方案") })] }), (0, C.jsx)(D, { icon: Kl, disabled: a, onClick: () => t("tool_runtime"), children: labelText("检查本机运行环境") })] }), e.project && !e.settings.capsule_root && (0, C.jsxs)("div", { className: "tool-inline-note", children: [(0, C.jsx)("span", { children: labelText("导出复刻配方需配置生成后端。") }), (0, C.jsx)(D, { kind: "ghost", onClick: l, children: labelText("打开设置") })] })] })] });
 }
 function pP({ state: e, command: t, disabled: a, options: o, setOption: l }) {
-  let r = e.tools.has_ass ? [...e.tracks, { id: "ass", label: "剪辑包装 ASS" }] : e.tracks, i = r.map((v) => [v.id, v.label]), [n, u] = (0, Dt.useState)(""), d = r.find((v) => v.id === n)?.id || r[0]?.id || "", [c, h] = (0, Dt.useState)(""), s = r.some((v) => v.id === c) ? c : "", f = !!(e.tools.inputs.media || e.source && !e.source.missing);
-  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: "口播转写与音轨分离", icon: Xa, children: [(0, C.jsx)(Mb, { field: "media", label: "视频或音频", state: e, command: t, disabled: a, useSource: true }), (0, C.jsxs)("div", { className: "tool-field", children: [(0, C.jsx)("span", { children: "口播识别语言" }), (0, C.jsx)(Kr, { label: "口播识别语言", values: [["zh", "中文 / 英文"], ["ja", "日语 / 日本語"]], value: o.speech_language, onChange: (v) => l({ speech_language: v }), disabled: a })] }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: va, disabled: a || !f, onClick: () => t("tool_transcribe", { language: o.speech_language }), children: "转写口播为 SRT" }), (0, C.jsx)(D, { icon: Xa, disabled: a || !f, onClick: () => t("tool_separate"), children: "分离音轨" })] }), e.stems.map((v) => (0, C.jsxs)("div", { className: "tool-audio", children: [(0, C.jsx)("span", { children: v.label }), (0, C.jsx)("audio", { controls: true, preload: "none", src: v.url, "aria-label": v.label })] }, v.label))] }), (0, C.jsxs)(Qa, { title: "压制字幕到视频", icon: va, children: [(0, C.jsx)(Xd, { label: "字幕来源", value: s, disabled: a, onChange: h, options: [["", "外部 SRT / ASS 文件"], ...i] }), !s && (0, C.jsx)(Mb, { field: "caption", label: "外部字幕文件", state: e, command: t, disabled: a }), (0, C.jsx)(D, { className: "tool-actions", kind: "primary", icon: $t, disabled: a || !f || !s && !e.tools.inputs.caption, onClick: () => t("tool_burn", { track: s }), children: "导出带字幕 MP4" })] }), (0, C.jsx)(Qa, { title: "当前项目字幕", icon: fo, className: "tool-span", children: d ? (0, C.jsxs)(C.Fragment, { children: [(0, C.jsx)(Xd, { label: "项目字幕轨", value: d, onChange: u, options: i, disabled: a }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { icon: fo, disabled: a, onClick: () => t("tool_read_subtitle", { track: d }), children: "查看字幕文件" }), (0, C.jsx)(D, { icon: Ro, disabled: a, onClick: () => t("tool_copy_subtitle", { track: d }), children: "另存字幕文件" })] })] }) : (0, C.jsx)("p", { className: "field-hint", children: "拆解或转写完成后，字幕文件会出现在这里。" }) })] });
+  let r = e.tools.has_ass ? [...e.tracks, { id: "ass", label: labelText("剪辑包装 ASS") }] : e.tracks, i = r.map((v) => [v.id, v.label]), [n, u] = (0, Dt.useState)(""), d = r.find((v) => v.id === n)?.id || r[0]?.id || "", [c, h] = (0, Dt.useState)(""), s = r.some((v) => v.id === c) ? c : "", f = !!(e.tools.inputs.media || e.source && !e.source.missing);
+  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: labelText("口播转写与音轨分离"), icon: Xa, children: [(0, C.jsx)(Mb, { field: "media", label: labelText("视频或音频"), state: e, command: t, disabled: a, useSource: true }), (0, C.jsxs)("div", { className: "tool-field", children: [(0, C.jsx)("span", { children: labelText("口播识别语言") }), (0, C.jsx)(Kr, { label: labelText("口播识别语言"), values: [["zh", labelText("中文 / 英文")], ["ja", labelText("日语 / 日本語")]], value: o.speech_language, onChange: (v) => l({ speech_language: v }), disabled: a })] }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: va, disabled: a || !f, onClick: () => t("tool_transcribe", { language: o.speech_language }), children: labelText("转写口播为 SRT") }), (0, C.jsx)(D, { icon: Xa, disabled: a || !f, onClick: () => t("tool_separate"), children: labelText("分离音轨") })] }), e.stems.map((v) => (0, C.jsxs)("div", { className: "tool-audio", children: [(0, C.jsx)("span", { children: v.label }), (0, C.jsx)("audio", { controls: true, preload: "none", src: v.url, "aria-label": v.label })] }, v.label))] }), (0, C.jsxs)(Qa, { title: labelText("压制字幕到视频"), icon: va, children: [(0, C.jsx)(Xd, { label: labelText("字幕来源"), value: s, disabled: a, onChange: h, options: [["", labelText("外部 SRT / ASS 文件")], ...i] }), !s && (0, C.jsx)(Mb, { field: "caption", label: labelText("外部字幕文件"), state: e, command: t, disabled: a }), (0, C.jsx)(D, { className: "tool-actions", kind: "primary", icon: $t, disabled: a || !f || !s && !e.tools.inputs.caption, onClick: () => t("tool_burn", { track: s }), children: labelText("导出带字幕 MP4") })] }), (0, C.jsx)(Qa, { title: labelText("当前项目字幕"), icon: fo, className: "tool-span", children: d ? (0, C.jsxs)(C.Fragment, { children: [(0, C.jsx)(Xd, { label: labelText("项目字幕轨"), value: d, onChange: u, options: i, disabled: a }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { icon: fo, disabled: a, onClick: () => t("tool_read_subtitle", { track: d }), children: labelText("查看字幕文件") }), (0, C.jsx)(D, { icon: Ro, disabled: a, onClick: () => t("tool_copy_subtitle", { track: d }), children: labelText("另存字幕文件") })] })] }) : (0, C.jsx)("p", { className: "field-hint", children: labelText("拆解或转写完成后，字幕文件会出现在这里。") }) })] });
 }
 function GT({ command: e, disabled: t }) {
-  return (0, C.jsxs)(Qa, { title: "打开项目", icon: qe, className: "tool-span", children: [(0, C.jsx)("p", { className: "field-hint", children: "先拆解视频，或打开一个已有项目。" }), (0, C.jsx)(D, { className: "tool-actions", icon: qe, onClick: () => e("pick_project"), disabled: t, children: "打开已有项目" })] });
+  return (0, C.jsxs)(Qa, { title: labelText("打开项目"), icon: qe, className: "tool-span", children: [(0, C.jsx)("p", { className: "field-hint", children: labelText("先拆解视频，或打开一个已有项目。") }), (0, C.jsx)(D, { className: "tool-actions", icon: qe, onClick: () => e("pick_project"), disabled: t, children: labelText("打开已有项目") })] });
 }
 function hP(e) {
   let { state: t, command: a, disabled: o, onEditor: l, onExport: r, onPreview: i } = e;
   if (!t.project) return (0, C.jsx)(GT, { ...e });
   let { shots: n, exports: u } = t.project, d = n.filter((c) => c.replacement).length;
-  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: "批量替换镜头", icon: Xl, className: "tool-span", children: [(0, C.jsx)("p", { className: "field-hint", children: "文件名可用 shot_001.mp4 或 001.mp4。生成任务也可通过 results.json 导入。" }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: qe, disabled: o, onClick: () => a("tool_batch_clips"), children: "按文件名批量匹配" }), (0, C.jsx)(D, { icon: Gl, disabled: o, onClick: () => a("tool_import_results"), children: "导入生成结果" })] })] }), (0, C.jsx)(Qa, { title: `已分配素材 · ${d} / ${n.length}`, icon: fl, className: "tool-span", children: (0, C.jsx)("div", { className: "tool-table-wrap", children: (0, C.jsxs)("table", { className: "tool-table", children: [(0, C.jsx)("thead", { children: (0, C.jsxs)("tr", { children: [(0, C.jsx)("th", { children: "镜头" }), (0, C.jsx)("th", { children: "时间" }), (0, C.jsx)("th", { children: "类型" }), (0, C.jsx)("th", { children: "替换素材" })] }) }), (0, C.jsx)("tbody", { children: n.map((c) => (0, C.jsxs)("tr", { children: [(0, C.jsx)("td", { children: (0, C.jsxs)("button", { className: "tool-shot-link", type: "button", onClick: () => l("shot", c), children: [(0, C.jsx)(Gr, { src: c.thumb }), (0, C.jsxs)("span", { children: ["镜头 ", c.id.padStart(2, "0")] })] }) }), (0, C.jsx)("td", { children: (0, C.jsxs)("time", { children: [kt(c.start, true), "–", kt(c.end, true)] }) }), (0, C.jsx)("td", { children: c.label }), (0, C.jsxs)("td", { title: c.replacement_name || void 0, children: [c.replacement_name && !c.replacement ? "文件已移动 · " : "", c.replacement_name || (["static_hold", "still_motion"].includes(c.type) ? "本地静图重建" : "沿用原片")] })] }, c.id)) })] }) }) }), (0, C.jsx)(Qa, { title: "拼接与输出", icon: $t, className: "tool-span", children: (0, C.jsxs)("div", { className: "button-row", children: [(0, C.jsx)(D, { kind: "primary", icon: Ro, disabled: o || t.source?.missing, onClick: r, children: "导出成片" }), u.map((c) => (0, C.jsxs)(D, { icon: mo, onClick: () => i(c), children: ["播放", c.label] }, c.label)), u.length > 0 && (0, C.jsx)(D, { icon: qe, onClick: () => a("tool_open_exports"), children: "打开输出文件夹" })] }) })] });
+  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: labelText("批量替换镜头"), icon: Xl, className: "tool-span", children: [(0, C.jsx)("p", { className: "field-hint", children: labelText("文件名可用 shot_001.mp4 或 001.mp4。生成任务也可通过 results.json 导入。") }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: qe, disabled: o, onClick: () => a("tool_batch_clips"), children: labelText("按文件名批量匹配") }), (0, C.jsx)(D, { icon: Gl, disabled: o, onClick: () => a("tool_import_results"), children: labelText("导入生成结果") })] })] }), (0, C.jsx)(Qa, { title: `已分配素材 · ${d} / ${n.length}`, icon: fl, className: "tool-span", children: (0, C.jsx)("div", { className: "tool-table-wrap", children: (0, C.jsxs)("table", { className: "tool-table", children: [(0, C.jsx)("thead", { children: (0, C.jsxs)("tr", { children: [(0, C.jsx)("th", { children: labelText("镜头") }), (0, C.jsx)("th", { children: labelText("时间") }), (0, C.jsx)("th", { children: labelText("类型") }), (0, C.jsx)("th", { children: labelText("替换素材") })] }) }), (0, C.jsx)("tbody", { children: n.map((c) => (0, C.jsxs)("tr", { children: [(0, C.jsx)("td", { children: (0, C.jsxs)("button", { className: "tool-shot-link", type: "button", onClick: () => l("shot", c), children: [(0, C.jsx)(Gr, { src: c.thumb }), (0, C.jsxs)("span", { children: [labelText("镜头 "), c.id.padStart(2, "0")] })] }) }), (0, C.jsx)("td", { children: (0, C.jsxs)("time", { children: [kt(c.start, true), "–", kt(c.end, true)] }) }), (0, C.jsx)("td", { children: c.label }), (0, C.jsxs)("td", { title: c.replacement_name || void 0, children: [c.replacement_name && !c.replacement ? labelText("文件已移动 · ") : "", c.replacement_name || (["static_hold", "still_motion"].includes(c.type) ? labelText("本地静图重建") : labelText("沿用原片"))] })] }, c.id)) })] }) }) }), (0, C.jsx)(Qa, { title: labelText("拼接与输出"), icon: $t, className: "tool-span", children: (0, C.jsxs)("div", { className: "button-row", children: [(0, C.jsx)(D, { kind: "primary", icon: Ro, disabled: o || t.source?.missing, onClick: r, children: labelText("导出成片") }), u.map((c) => (0, C.jsxs)(D, { icon: mo, onClick: () => i(c), children: [labelText("播放"), c.label] }, c.label)), u.length > 0 && (0, C.jsx)(D, { icon: qe, onClick: () => a("tool_open_exports"), children: labelText("打开输出文件夹") })] }) })] });
 }
 function gP(e) {
   let { state: t, command: a, disabled: o, initialShot: l, onEditor: r, openSettings: i, notify: n } = e, [u, d] = (0, Dt.useState)(l), [c, h] = (0, Dt.useState)(null), [s, f] = (0, Dt.useState)(null), [v, L] = (0, Dt.useState)(null), [x, p] = (0, Dt.useState)("image_to_video"), [m, g] = (0, Dt.useState)(null), [S, E] = (0, Dt.useState)(false), A = t.project?.shots || [], I = A.find(($) => $.id === u) || A[0], T = I?.id;
@@ -10431,58 +10551,69 @@ function gP(e) {
     let me = await a("tool_set_reference", { shot: T, role: $, reset: ee });
     me && h({ id: T, value: me });
   }
-  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: "生成参考图", icon: Rd, className: "tool-span", children: [(0, C.jsxs)("div", { className: "tool-reference-top", children: [(0, C.jsx)(VT, { shots: A, shot: I, onChange: d, disabled: o }), (0, C.jsx)(D, { icon: fo, onClick: () => r("prompts", I), children: "编辑该镜提示词" })] }), (0, C.jsx)("div", { className: "tool-fields two-fields tool-refs", children: [["first", "首帧"], ["last", "尾帧"]].map(([$, ee]) => {
-    let me = w?.[$], we = me?.missing ? "图片已移动 · " + me.name : me?.name || "使用原片" + ee;
-    return (0, C.jsxs)("div", { className: "tool-ref", children: [(0, C.jsxs)("button", { className: "tool-reference-image", type: "button", disabled: !me?.image, "aria-label": "放大参考" + ee, onClick: () => f({ title: "参考" + ee, url: me.image }), children: [(0, C.jsx)(Gr, { src: me?.image }), me?.image && (0, C.jsx)(Hr, { size: 15, className: "tool-zoom-icon" })] }), (0, C.jsxs)("div", { className: "tool-ref-label", title: we, children: [(0, C.jsx)("strong", { children: ee }), (0, C.jsx)("span", { children: we })] }), (0, C.jsxs)("div", { className: "button-row", children: [(0, C.jsxs)(D, { icon: qe, disabled: o, onClick: () => V($), children: ["选择参考", ee] }), me?.name && (0, C.jsxs)(D, { kind: "ghost", disabled: o, onClick: () => V($, true), children: ["使用原", ee] }), me?.original && me?.name && (0, C.jsxs)(D, { kind: "ghost", onClick: () => f({ title: "原片" + ee, url: me.original }), children: ["看原", ee] })] })] }, $);
-  }) })] }), (0, C.jsxs)(Qa, { title: "视频生成任务", icon: Ma, className: "tool-span", children: [(0, C.jsxs)("div", { className: "tool-fields two-fields", children: [(0, C.jsx)(Xd, { label: "生成模式", value: x, onChange: p, options: Object.entries(t.tools.modes), disabled: o }), (0, C.jsx)(wb, { label: "生成引擎", value: k, onChange: g, disabled: o, placeholder: "使用默认引擎" })] }), (0, C.jsx)(bo, { checked: S, onChange: E, disabled: o, children: "只运行当前镜头" }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: Ro, disabled: o, onClick: () => a("tool_build_jobs", { mode: x, engine: k }), children: "导出任务表" }), (0, C.jsx)(D, { icon: Kl, disabled: o || !t.tools.jobs_ready, onClick: () => a("tool_preview_jobs", F), children: "预览任务" }), (0, C.jsx)(D, { icon: Ma, disabled: o || !t.tools.jobs_ready || !t.settings.capsule_root, onClick: async () => {
+  return (0, C.jsxs)(C.Fragment, { children: [(0, C.jsxs)(Qa, { title: labelText("生成参考图"), icon: Rd, className: "tool-span", children: [(0, C.jsxs)("div", { className: "tool-reference-top", children: [(0, C.jsx)(VT, { shots: A, shot: I, onChange: d, disabled: o }), (0, C.jsx)(D, { icon: fo, onClick: () => r("prompts", I), children: labelText("编辑该镜提示词") })] }), (0, C.jsx)("div", { className: "tool-fields two-fields tool-refs", children: [["first", labelText("首帧")], ["last", labelText("尾帧")]].map(([$, ee]) => {
+    let me = w?.[$], we = me?.missing ? labelText("图片已移动 · ") + me.name : me?.name || labelText("使用原片") + ee;
+    return (0, C.jsxs)("div", { className: "tool-ref", children: [(0, C.jsxs)("button", { className: "tool-reference-image", type: "button", disabled: !me?.image, "aria-label": labelText("放大参考") + ee, onClick: () => f({ title: labelText("参考") + ee, url: me.image }), children: [(0, C.jsx)(Gr, { src: me?.image }), me?.image && (0, C.jsx)(Hr, { size: 15, className: "tool-zoom-icon" })] }), (0, C.jsxs)("div", { className: "tool-ref-label", title: we, children: [(0, C.jsx)("strong", { children: ee }), (0, C.jsx)("span", { children: we })] }), (0, C.jsxs)("div", { className: "button-row", children: [(0, C.jsxs)(D, { icon: qe, disabled: o, onClick: () => V($), children: [labelText("选择参考"), ee] }), me?.name && (0, C.jsxs)(D, { kind: "ghost", disabled: o, onClick: () => V($, true), children: [labelText("使用原"), ee] }), me?.original && me?.name && (0, C.jsxs)(D, { kind: "ghost", onClick: () => f({ title: labelText("原片") + ee, url: me.original }), children: [labelText("看原"), ee] })] })] }, $);
+  }) })] }), (0, C.jsxs)(Qa, { title: labelText("视频生成任务"), icon: Ma, className: "tool-span", children: [(0, C.jsxs)("div", { className: "tool-fields two-fields", children: [(0, C.jsx)(Xd, { label: labelText("生成模式"), value: x, onChange: p, options: Object.entries(t.tools.modes), disabled: o }), (0, C.jsx)(wb, { label: labelText("生成引擎"), value: k, onChange: g, disabled: o, placeholder: labelText("使用默认引擎") })] }), (0, C.jsx)(bo, { checked: S, onChange: E, disabled: o, children: labelText("只运行当前镜头") }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [(0, C.jsx)(D, { kind: "primary", icon: Ro, disabled: o, onClick: () => a("tool_build_jobs", { mode: x, engine: k }), children: labelText("导出任务表") }), (0, C.jsx)(D, { icon: Kl, disabled: o || !t.tools.jobs_ready, onClick: () => a("tool_preview_jobs", F), children: labelText("预览任务") }), (0, C.jsx)(D, { icon: Ma, disabled: o || !t.tools.jobs_ready || !t.settings.capsule_root, onClick: async () => {
     let $ = await a("tool_run_jobs", F);
     $?.count && L({ ...F, count: $.count });
-  }, children: "调用模型生成…" }), (0, C.jsx)(D, { icon: qe, disabled: !t.tools.jobs_ready, onClick: () => a("tool_open_jobs"), children: "打开任务文件夹" }), (0, C.jsx)(D, { kind: "ghost", icon: Fi, onClick: i, children: "生成后端设置" })] })] }), (0, C.jsx)(hl, { open: !!s, onClose: () => f(null), title: s?.title || "参考图", className: "tool-image-modal", children: s && (0, C.jsx)("img", { className: "tool-image-preview", src: s.url, alt: s.title }) }), (0, C.jsx)(hl, { open: !!v, onClose: () => L(null), title: "调用视频模型", description: v ? `将执行 ${v.count} 个生成任务，模型服务可能收费。` : void 0, children: (0, C.jsxs)("div", { className: "modal-actions", children: [(0, C.jsx)(D, { onClick: () => L(null), children: "取消" }), (0, C.jsx)(D, { kind: "primary", icon: Ma, disabled: o, onClick: async () => {
+  }, children: labelText("调用模型生成…") }), (0, C.jsx)(D, { icon: qe, disabled: !t.tools.jobs_ready, onClick: () => a("tool_open_jobs"), children: labelText("打开任务文件夹") }), (0, C.jsx)(D, { kind: "ghost", icon: Fi, onClick: i, children: labelText("生成后端设置") })] })] }), (0, C.jsx)(hl, { open: !!s, onClose: () => f(null), title: s?.title || labelText("参考图"), className: "tool-image-modal", children: s && (0, C.jsx)("img", { className: "tool-image-preview", src: s.url, alt: s.title }) }), (0, C.jsx)(hl, { open: !!v, onClose: () => L(null), title: labelText("调用视频模型"), description: v ? `将执行 ${v.count} 个生成任务，模型服务可能收费。` : void 0, children: (0, C.jsxs)("div", { className: "modal-actions", children: [(0, C.jsx)(D, { onClick: () => L(null), children: labelText("取消") }), (0, C.jsx)(D, { kind: "primary", icon: Ma, disabled: o, onClick: async () => {
     await a("tool_run_jobs", { ...v, confirmed: true }) !== void 0 && L(null);
-  }, children: "开始生成" })] }) })] });
+  }, children: labelText("开始生成") })] }) })] });
 }
-function vP({ result: e, command: t, page: a, notify: o }) {
-  let [l, r] = (0, Dt.useState)(false);
-  return (0, C.jsxs)("aside", { className: "tool-result", "aria-label": "工具结果", children: [(0, C.jsxs)(Qa, { title: e.title, icon: na, children: [e.name && (0, C.jsxs)("div", { className: "tool-result-file", children: [(0, C.jsx)(fo, { size: 15 }), (0, C.jsx)("span", { title: e.name, children: e.name })] }), e.image && (0, C.jsxs)("button", { className: "tool-result-image", type: "button", "aria-label": "放大抽帧图", onClick: () => r(true), children: [(0, C.jsx)("img", { src: e.image, alt: "抽帧图" }), (0, C.jsx)(Hr, { className: "tool-zoom-icon", size: 16 })] }), e.video && (0, C.jsx)("video", { className: "tool-result-video", src: e.video, controls: true, preload: "metadata" }), e.audio.map((i) => (0, C.jsxs)("div", { className: "tool-audio", children: [(0, C.jsx)("span", { children: i.label }), (0, C.jsx)("audio", { controls: true, preload: "none", src: i.url, "aria-label": i.label })] }, i.label)), e.text && (0, C.jsx)("pre", { className: "tool-result-text", tabIndex: 0, children: e.text }), (0, C.jsxs)("div", { className: "button-row tool-actions", children: [e.text && (0, C.jsx)(D, { icon: Ni, onClick: async () => {
+function vP({ result, command, page, notify }) {
+  const Card = Qa;
+  const Modal = hl;
+  const FileIcon = fo;
+  const [enlarge, setEnlarge] = j.useState(false);
+  const [selection, select] = j.useState(null);
+  const images = result.images?.length ? result.images : result.image ? [{ name: labelText("抽帧图"), url: result.image }] : [];
+  const current = images.findIndex((image2) => image2.url === selection);
+  const index = Math.max(0, current);
+  const image = images[index];
+  const frameLabel = images.length > 1 ? labelText("第 ") + (index + 1) + labelText(" 页") : labelText("抽帧图");
+  const pageButtons = images.length > 1 && /* @__PURE__ */ j.createElement("div", { className: "tool-image-pages", role: "group", "aria-label": labelText("抽帧页码") }, images.map((item, i) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      key: item.url,
+      type: "button",
+      "aria-pressed": i === index,
+      title: item.name,
+      onClick: () => select(item.url)
+    },
+    labelText("第 "),
+    i + 1,
+    labelText(" 页")
+  )));
+  async function copyResult() {
     try {
-      await navigator.clipboard.writeText(e.text), o("结果已复制");
+      await navigator.clipboard.writeText(result.text);
+      notify(labelText("结果已复制"));
     } catch {
-      o("可选中结果文本后复制。", true);
+      notify(labelText("可选中结果文本后复制。"), true);
     }
-  }, children: "复制结果" }), e.name && (0, C.jsx)(D, { icon: qe, onClick: () => t("tool_open_output", { page: a }), children: "打开输出目录" })] })] }), (0, C.jsx)(hl, { open: l, onClose: () => r(false), title: "抽帧图", className: "tool-image-modal", children: e.image && (0, C.jsx)("img", { className: "tool-image-preview", src: e.image, alt: "抽帧图" }) })] });
+  }
+  return /* @__PURE__ */ j.createElement("aside", { className: "tool-result", "aria-label": labelText("工具结果") }, /* @__PURE__ */ j.createElement(Card, { title: result.title, icon: na }, result.name && /* @__PURE__ */ j.createElement("div", { className: "tool-result-file" }, /* @__PURE__ */ j.createElement(FileIcon, { size: 15 }), /* @__PURE__ */ j.createElement("span", { title: result.name }, result.name)), image && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("button", { className: "tool-result-image", type: "button", "aria-label": labelText("放大抽帧图"), onClick: () => setEnlarge(true) }, /* @__PURE__ */ j.createElement("img", { src: image.url, alt: frameLabel }), /* @__PURE__ */ j.createElement(Hr, { className: "tool-zoom-icon", size: 16 })), pageButtons), result.video && /* @__PURE__ */ j.createElement("video", { className: "tool-result-video", src: result.video, controls: true, preload: "metadata" }), (result.audio || []).map((item) => /* @__PURE__ */ j.createElement("div", { className: "tool-audio", key: item.label }, /* @__PURE__ */ j.createElement("span", null, item.label), /* @__PURE__ */ j.createElement("audio", { controls: true, preload: "none", src: item.url, "aria-label": item.label }))), result.text && /* @__PURE__ */ j.createElement("pre", { className: "tool-result-text", tabIndex: 0 }, result.text), /* @__PURE__ */ j.createElement("div", { className: "button-row tool-actions" }, result.text && /* @__PURE__ */ j.createElement(D, { icon: Ni, onClick: copyResult }, labelText("复制结果")), result.name && /* @__PURE__ */ j.createElement(D, { icon: qe, onClick: () => command("tool_open_output", { page }) }, labelText("打开输出目录")))), /* @__PURE__ */ j.createElement(Modal, { open: enlarge && !!image, onClose: () => setEnlarge(false), title: labelText("抽帧图"), className: "tool-image-modal" }, image && /* @__PURE__ */ j.createElement("img", { className: "tool-image-preview", src: image.url, alt: frameLabel }), pageButtons));
 }
 function XT({ page: e, setPage: t, close: a, ...o }) {
   let l = _b.find((i) => i.id === e), r = o.state.tools.results[e];
-  return (0, C.jsxs)("main", { className: "advanced-workspace", "aria-label": "更多工具工作区", children: [(0, C.jsxs)("div", { className: "advanced-header", children: [(0, C.jsxs)("div", { className: "advanced-heading", children: [(0, C.jsx)("span", { className: "tool-icon", children: (0, C.jsx)(po, { size: 22 }) }), (0, C.jsxs)("div", { children: [(0, C.jsx)("h1", { children: "更多工具" }), (0, C.jsx)("p", { children: l.detail })] })] }), (0, C.jsx)(D, { kind: "ghost", icon: Bi, onClick: a, children: "返回工作台" })] }), (0, C.jsxs)(Dm, { value: e, onValueChange: t, className: "advanced-tabs", children: [(0, C.jsx)(Om, { className: "advanced-tabbar", "aria-label": "高级工具分类", children: _b.map(({ id: i, label: n, icon: u }) => (0, C.jsxs)(Pm, { value: i, className: "tab", children: [(0, C.jsx)(u, { size: 16 }), (0, C.jsx)("span", { children: n })] }, i)) }), _b.map(({ id: i, Panel: n }) => (0, C.jsx)(Xi, { className: "advanced-scroll", value: i, children: i === e && (0, C.jsxs)("div", { className: "advanced-content" + (r ? " has-tool-result" : ""), children: [(0, C.jsx)("div", { className: "tool-cards", children: (0, C.jsx)(n, { ...o }, o.state.project?.id || o.state.source?.path || "empty") }), r && (0, C.jsx)(vP, { result: r, command: o.command, page: e, notify: o.notify }, r.title)] }) }, i))] })] });
+  return (0, C.jsxs)("main", { className: "advanced-workspace", "aria-label": labelText("更多工具工作区"), children: [(0, C.jsxs)("div", { className: "advanced-header", children: [(0, C.jsxs)("div", { className: "advanced-heading", children: [(0, C.jsx)("span", { className: "tool-icon", children: (0, C.jsx)(ToolboxIcon, { size: 22 }) }), (0, C.jsxs)("div", { children: [(0, C.jsx)("h1", { children: labelText("更多工具") }), (0, C.jsx)("p", { children: l.detail })] })] }), (0, C.jsx)(D, { kind: "ghost", icon: Bi, onClick: a, children: labelText("返回工作台") })] }), (0, C.jsxs)(Dm, { value: e, onValueChange: t, className: "advanced-tabs", children: [(0, C.jsx)(Om, { className: "advanced-tabbar", "aria-label": labelText("高级工具分类"), children: _b.map(({ id: i, label: n, icon: u }) => (0, C.jsxs)(Pm, { value: i, className: "tab", children: [(0, C.jsx)(u, { size: 16 }), (0, C.jsx)("span", { children: n })] }, i)) }), _b.map(({ id: i, Panel: n }) => (0, C.jsx)(Xi, { className: "advanced-scroll", value: i, children: i === e && (0, C.jsxs)("div", { className: "advanced-content" + (r ? " has-tool-result" : ""), children: [(0, C.jsx)("div", { className: "tool-cards", children: (0, C.jsx)(n, { ...o }, o.state.project?.id || o.state.source?.path || "empty") }), r && (0, C.jsx)(vP, { result: r, command: o.command, page: e, notify: o.notify }, r.title)] }) }, i))] })] });
 }
 var Wd = N(Q(), 1);
-var _e = N(Te(), 1), LP = { vocals: "人声", music: "配乐与环境声", external: "外部音频" };
-function KT({ state: e, open: t, close: a, command: o, time: l, disabled: r }) {
-  let [i, n] = (0, Wd.useState)({}), [u, d] = (0, Wd.useState)(null);
-  (0, Wd.useEffect)(() => {
-    t && (n(e.audio_mix || {}), d(null));
-  }, [t, e.project?.id, e.source?.path]);
-  let c = e.audio_tracks || [], h = c.find((p) => p.id === "external"), s = [...c, ...Object.entries(LP).filter(([p]) => i[p]?.enabled && !c.some((m) => m.id === p)).map(([p, m]) => ({ id: p, label: m, name: "文件不可用", missing: true }))], f = u && e.mix_preview?.url !== u.previous ? e.mix_preview : null, v = c.filter((p) => i[p.id]?.enabled && i[p.id]?.volume > 0);
-  function L(p, m) {
-    n((g) => ({ ...g, [p]: { ...g[p], ...m } })), d(null);
-  }
-  async function x(p) {
-    d({ previous: e.mix_preview?.url }), await o("preview_audio_mix", { levels: i, solo: p }) === void 0 && d(null);
-  }
-  return (0, _e.jsxs)(hl, { open: t, onClose: a, title: "工程音轨混音", className: "audio-mix-modal", children: [(0, _e.jsxs)("div", { className: "modal-content", children: [(0, _e.jsx)(AudioMixHelp, { levels: i }), (0, _e.jsx)("div", { className: "mix-track-list", children: s.map((p) => {
-    let m = i[p.id] || { enabled: false, volume: 100 };
-    return (0, _e.jsxs)("section", { className: "mix-track", "aria-label": p.label, children: [(0, _e.jsxs)("div", { className: "mix-track-head", children: [(0, _e.jsx)("span", { className: "mix-track-icon audio-label--" + p.id, children: (0, _e.jsx)(Xa, { size: 17 }) }), (0, _e.jsxs)("div", { className: "mix-track-name", children: [(0, _e.jsx)("strong", { children: p.label }), (0, _e.jsx)("small", { title: p.name, children: p.name })] }), (0, _e.jsx)(St, { icon: Md, label: "试听" + p.label, disabled: r || p.missing, onClick: () => x(p.id) })] }), (0, _e.jsxs)("label", { className: "mix-volume", children: [(0, _e.jsx)("span", { children: "音量" }), (0, _e.jsx)("input", { type: "range", min: "0", max: "100", value: m.volume, "aria-label": p.label + "音量", onChange: (g) => L(p.id, { volume: Number(g.target.value) }), disabled: r }), (0, _e.jsxs)("output", { children: [m.volume, "%"] })] }), (0, _e.jsx)(bo, { checked: m.enabled, disabled: r, onChange: (g) => L(p.id, { enabled: g }), children: "加入混音" })] }, p.id);
-  }) }), (0, _e.jsxs)("div", { className: "mix-external button-row", children: [(0, _e.jsx)(D, { icon: qe, disabled: r, onClick: async () => {
-    await o("pick_mix_audio") && L("external", { enabled: true, volume: i.external?.volume ?? 100 });
-  }, children: h ? "更换外部音频" : "添加外部音频" }), e.external_audio && (0, _e.jsxs)(D, { kind: "ghost", icon: Wa, disabled: r, title: e.external_audio, onClick: async () => {
-    await o("remove_mix_audio") !== void 0 && L("external", { enabled: false, volume: i.external?.volume ?? 100 });
-  }, children: ["移除", h ? "外部音频" : "已移动音频 · " + Wm(e.external_audio)] })] }), f && (0, _e.jsxs)("div", { className: "mix-preview", "aria-label": "音频试听", children: [(0, _e.jsx)("span", { children: f.label }), (0, _e.jsx)("audio", { src: f.url, controls: true, preload: "metadata", onLoadedMetadata: (p) => {
-    let m = p.currentTarget;
-    l < m.duration && (m.currentTime = l), m.play().catch(() => {
-    });
-  } }, f.url)] }), u && !f && e.active && (0, _e.jsx)("p", { className: "field-hint", children: "正在生成试听音频…" }), s.length > 0 && !v.length && (0, _e.jsx)("p", { className: "field-hint", children: "当前没有启用音轨，按工程音轨导出时将静音。" })] }), (0, _e.jsxs)("div", { className: "modal-actions", children: [(0, _e.jsx)(D, { kind: "ghost", onClick: a, children: "关闭" }), (0, _e.jsx)(D, { icon: mo, disabled: r || !v.length, onClick: () => x(null), children: "试听混音" }), (0, _e.jsx)(D, { kind: "primary", icon: na, disabled: r, onClick: async () => {
-    await o("save_audio_mix", { levels: i }) !== void 0 && a();
-  }, children: "保存工程音轨" })] })] });
+var _e = N(Te(), 1), LP = { vocals: labelText("人声"), music: labelText("配乐与环境声"), external: labelText("外部音频") };
+function KT({ state, open, close, command, time, disabled, fromExport }) {
+  return open && /* @__PURE__ */ j.createElement(
+    MixDialog,
+    {
+      key: state.manual_caption_scope,
+      state,
+      close,
+      command,
+      time,
+      disabled,
+      fromExport
+    }
+  );
 }
 var Sa = N(Q(), 1);
 var he = N(Q(), 1);
@@ -15716,9 +15847,10 @@ function gN(e, t, a) {
   }
 }
 function vM({ track: e, muted: t, canMute: a, toggleMute: o }) {
-  return (0, Wo.jsxs)("div", { className: "timeline-track-label audio-label audio-label--" + e.id, title: e.label, children: [(0, Wo.jsx)(Xa, { size: 14, "aria-hidden": "true" }), (0, Wo.jsx)("span", { children: e.label }), e.id === "original" && (0, Wo.jsx)(St, { icon: t ? Ud : zi, label: t ? "恢复原声预览" : "静音原声预览", "aria-pressed": t, className: t ? "is-on" : "", disabled: !a, onClick: o })] });
+  const label = timelineAudioLabel(e);
+  return (0, Wo.jsxs)("div", { className: "timeline-track-label audio-label audio-label--" + e.id, title: label, children: [(0, Wo.jsx)(Xa, { size: 14, "aria-hidden": "true" }), (0, Wo.jsx)("span", { children: label }), e.id === "original" && !e.row && (0, Wo.jsx)(St, { icon: t ? Ud : zi, label: t ? labelText("恢复原声预览") : labelText("静音原声预览"), "aria-pressed": t, className: t ? "is-on" : "", disabled: !a, onClick: o })] });
 }
-function LM({ track: e, duration: t, time: a, seek: o, muted: l }) {
+function LM({ track: e, duration: t, time: a, seek: o, muted: l, editor }) {
   let [r, i] = (0, sn.useState)(null), n = (0, sn.useRef)(null), u = e.waveform, d = r?.request === u ? r : null, c = d?.waveform;
   (0, sn.useEffect)(() => {
     let s = new AbortController();
@@ -15732,11 +15864,20 @@ function LM({ track: e, duration: t, time: a, seek: o, muted: l }) {
     }), () => s.abort();
   }, [u]), (0, sn.useEffect)(() => {
     if (!c?.available || !n.current) return;
-    let s = n.current, f = () => gN(s, c, t), v = new ResizeObserver(f);
-    return v.observe(s), f(), () => v.disconnect();
+    const canvas = n.current;
+    return observeTimelineWaveform(canvas, () => gN(canvas, c, t));
   }, [c, t]);
-  let h = d?.failed ? "无法读取波形" : c ? c.available ? "" : "媒体无音轨" : "正在读取音频波形…";
-  return (0, Wo.jsxs)(wc, { className: "audio-lane audio-lane--" + e.id + (l ? " audio-muted" : ""), "data-track": e.id, "data-waveform": c?.available ? "ready" : d ? "unavailable" : "loading", title: e.label + " · 点击波形定位原片", value: [Math.min(t, a)], min: 0, max: t || 0.01, step: 0.01, disabled: !t || c?.available === false, onValueChange: ([s]) => o(s), children: [c?.available && (0, Wo.jsx)("canvas", { ref: n, className: "audio-waveform", "aria-hidden": "true" }), h && (0, Wo.jsx)("span", { className: "audio-message", children: h }), (0, Wo.jsx)(Mc, { className: "audio-hit-track" }), (0, Wo.jsx)(Rc, { className: "audio-hit-thumb", "aria-label": "定位" + e.label + "音频", "aria-valuetext": kt(a, true) })] });
+  let h = d?.failed ? labelText("无法读取波形") : c ? c.available ? "" : labelText("媒体无音轨") : labelText("正在读取音频波形…");
+  if (e.items) return j.createElement(SourceAudioTimeline, {
+    track: e,
+    waveform: c,
+    ready: c?.available ? "ready" : d ? "unavailable" : "loading",
+    duration: t,
+    muted: l,
+    editor,
+    seek: o
+  });
+  return (0, Wo.jsxs)(wc, { className: "audio-lane audio-lane--" + e.id + (l ? " audio-muted" : ""), "data-track": e.id, "data-waveform": c?.available ? "ready" : d ? "unavailable" : "loading", title: timelineAudioLabel(e) + labelText(" · 点击波形定位原片"), value: [Math.min(t, a)], min: 0, max: t || 0.01, step: 0.01, disabled: !t || c?.available === false, onValueChange: ([s]) => o(s), children: [c?.available && (0, Wo.jsx)("canvas", { ref: n, className: "audio-waveform", "aria-hidden": "true" }), h && (0, Wo.jsx)("span", { className: "audio-message", children: h }), (0, Wo.jsx)(Mc, { className: "audio-hit-track" }), (0, Wo.jsx)(Rc, { className: "audio-hit-thumb", "aria-label": labelText("定位{0}音频", timelineAudioLabel(e)), "aria-valuetext": kt(a, true) })] });
 }
 var B = N(Te(), 1);
 function bM(e, t) {
@@ -15748,7 +15889,7 @@ function bM(e, t) {
     a.preventDefault(), a.stopPropagation(), t(false), a.dataTransfer.files.length && e(a.dataTransfer.files[0]);
   } };
 }
-function xM({ source: e, playback: t, videoRef: a, onTime: o, onMetadata: l, onImport: r, onPick: i, onPreview: n, onPreviewProblem: u, preparingPreview: d, onOriginal: c, onVolume: h, caption: s, captions: f, setCaptions: v, upload: L, disabled: x, metadata: p, inputPanel }) {
+function xM({ source: e, playback: t, videoRef: a, onTime: o, onMetadata: l, onImport: r, onPick: i, onPreview: n, onPreviewProblem: u, preparingPreview: d, onOriginal: c, onVolume: h, caption: s, captions: f, setCaptions: v, upload: L, disabled: x, metadata: p, inputPanel, captionEditor, composition, timelineTransport, timelineTime }) {
   let [m, g] = (0, Sa.useState)(false), [S, E] = (0, Sa.useState)(null), [A, I] = (0, Sa.useState)(true), T = (0, Sa.useRef)(0), w = t?.url, k = !!(w && S === w), F = !!(w && !t?.override && !e?.missing && !e?.compatible), V = e?.poster && !t?.override, $ = p.width && p.height ? p.width + " × " + p.height : "";
   (0, Sa.useEffect)(() => {
     E(null), I(true);
@@ -15761,26 +15902,90 @@ function xM({ source: e, playback: t, videoRef: a, onTime: o, onMetadata: l, onI
     let je = we.currentTarget;
     F && !je.paused && !je.seeking && je.currentTime > 0.6 && document.visibilityState === "visible" && performance.now() - T.current > 1200 && (!je.videoWidth || je.getVideoPlaybackQuality?.().totalVideoFrames === 0) && ee(je);
   }
-  return (0, B.jsxs)("section", { className: "viewer", "aria-label": "视频预览", children: [(0, B.jsxs)("div", { className: "panel-head viewer-head", children: [(0, B.jsxs)("div", { className: "panel-heading", children: [(0, B.jsx)(vN, {}), (0, B.jsx)("h2", { children: t?.override ? t.label : e?.compatible ? "兼容预览" : "原片预览" })] }), (0, B.jsxs)("div", { className: "viewer-actions", children: [$ && !t?.override && (0, B.jsx)("span", { className: "media-spec", children: $ }), t?.override && (0, B.jsx)(D, { kind: "ghost", icon: qi, onClick: c, children: "回到原片" }), F && !k && (0, B.jsx)(D, { kind: "ghost", icon: $t, disabled: x, onClick: n, children: d ? "正在生成预览…" : "兼容预览" }), !t?.override && w && (0, B.jsx)(St, { icon: va, label: "预览字幕", disabled: f === null, className: f ? "is-on" : "", "aria-pressed": f, onClick: () => v(!f) }), (0, B.jsx)(St, { icon: qe, label: "选择参考视频", onClick: i, disabled: x })] })] }), (0, B.jsxs)("div", { className: "media-stage" + (m ? " is-dragover" : ""), ...bM(r, g), children: [inputPanel ? inputPanel : w && !k ? (0, B.jsxs)(Fw, { className: "media-controller", hotkeys: "noarrowleft noarrowright", children: [(0, B.jsx)("video", { slot: "media", src: w, poster: V ? e.poster : void 0, preload: "auto", ref: a, playsInline: true, onLoadedMetadata: l, onTimeUpdate: me, onVolumeChange: h, onSeeked: o, onPlay: () => {
+  return (0, B.jsxs)("section", { className: "viewer", "aria-label": labelText("视频预览"), children: [(0, B.jsxs)("div", { className: "panel-head viewer-head", children: [(0, B.jsxs)("div", { className: "panel-heading", children: [(0, B.jsx)(vN, {}), (0, B.jsx)("h2", { children: t?.override ? t.label : composition?.enabled ? labelText("剪辑预览") : e?.compatible ? labelText("兼容预览") : labelText("原片预览") })] }), (0, B.jsxs)("div", { className: "viewer-actions", children: [composition && !t?.override && w && j.createElement(PreviewViewToggle, { active: composition.enabled, setActive: composition.setEnabled }), $ && !t?.override && (0, B.jsx)("span", { className: "media-spec", children: $ }), t?.override && j.createElement(PreviewHeaderAction, { icon: qi, label: labelText("回到时间线"), onClick: c }), F && !k && j.createElement(PreviewHeaderAction, { icon: $t, disabled: x, onClick: n, label: d ? labelText("正在生成预览…") : labelText("兼容预览") }), !t?.override && w && (0, B.jsx)(St, { icon: va, label: labelText("预览字幕"), disabled: f === null, className: f ? "is-on" : "", "aria-pressed": f, onClick: () => v(!f) }), (0, B.jsx)(St, { icon: qe, label: labelText("选择参考视频"), onClick: i, disabled: x })] })] }), (0, B.jsxs)("div", { className: "media-stage" + (m ? " is-dragover" : ""), ...bM(r, g), children: [inputPanel ? inputPanel : w && !k ? (0, B.jsxs)(Fw, { className: "media-controller", hotkeys: "noarrowleft noarrowright", children: [(0, B.jsx)("video", { slot: "media", src: w, poster: V ? e.poster : void 0, preload: "auto", ref: a, playsInline: true, onLoadedMetadata: l, onTimeUpdate: me, onVolumeChange: h, onSeeked: o, onPlay: () => {
     T.current = performance.now(), I(false);
-  }, onPause: () => I(true), onError: (we) => ee(we.currentTarget) }), A && (0, B.jsx)("button", { className: "center-play", type: "button", "aria-label": "播放视频", onClick: () => a.current?.play().catch(() => {
-  }), children: (0, B.jsx)(mo, { size: 22, fill: "currentColor" }) }), s && !t?.override && (0, B.jsx)("div", { className: "preview-captions", children: s }), (0, B.jsxs)(zw, { className: "media-controls", children: [(0, B.jsx)(Kw, { "aria-label": "播放或暂停" }), (0, B.jsx)(Ww, { showDuration: true, "aria-label": "播放时间" }), (0, B.jsx)(Yw, { "aria-label": "拖动播放进度" }), (0, B.jsx)(Xw, { rates: "0.5 1 1.5 2", "aria-label": "播放速度" }), (0, B.jsx)(Gw, { "aria-label": "静音" }), (0, B.jsx)(jw, { "aria-label": "音量" }), (0, B.jsx)(Vw, { "aria-label": "全屏预览" })] })] }, w) : (0, B.jsxs)("div", { className: "media-empty", children: [V && (0, B.jsx)("img", { className: "preview-fallback", src: e.poster, alt: "" }), (0, B.jsxs)("div", { className: "upload-zone", children: [(0, B.jsx)("span", { className: "upload-icon", children: e ? (0, B.jsx)(Br, { size: 27 }) : (0, B.jsx)(Pd, { size: 27 }) }), (0, B.jsx)("h3", { children: e?.missing ? "原片已移动" : d ? "正在生成兼容预览" : k ? "预览无法播放" : "拖入参考视频" }), (0, B.jsx)("p", { children: e?.missing ? "可继续浏览分镜。原片可在高级工具中重新定位。" : k ? F ? "可生成一份兼容预览。" : "请查看任务日志或选择其他视频。" : "MP4、MOV、MKV、WebM 等常用格式" }), !d && (0, B.jsx)(D, { kind: "primary", icon: k && F ? $t : qe, disabled: x, onClick: k && F ? n : i, children: k && F ? "生成兼容预览" : "选择视频" })] })] }), (m || L != null) && (0, B.jsxs)("div", { className: "drop-overlay", children: [(0, B.jsx)(Pr, { size: 25 }), (0, B.jsx)("strong", { children: L != null ? "正在导入 · " + L + "%" : "松开以导入视频" })] })] })] });
+  }, onPause: () => I(true), onError: (we) => ee(we.currentTarget) }), composition && (composition.enabled || timelineTransport.active) && !t?.override && j.createElement(ClipComposition, { ...composition, player: a, url: w }), composition && !t?.override && j.createElement(ClipPreviewTarget, {
+    player: a,
+    url: w,
+    canvas: composition.enabled ? composition.project.canvas : null,
+    onSelect: composition.select,
+    selected: composition.handles,
+    disabled: composition.disabled
+  }), A && !captionEditor.draft && (!composition || t?.override) && (0, B.jsx)("button", { className: "center-play", type: "button", "aria-label": labelText("播放视频"), onClick: () => a.current?.play().catch(() => {
+  }), children: (0, B.jsx)(mo, { size: 22, fill: "currentColor" }) }), !t?.override && captionEditor.scope && (0, B.jsx)(ManualCaptionPreview, { editor: captionEditor, player: a, url: w, raised: !!s, canvas: composition?.enabled ? composition.project.canvas : null, liveTime: timelineTransport.active ? timelineTime : void 0 }, w), s && !t?.override && (0, B.jsx)("div", { className: "preview-captions", children: s }), timelineTransport.active ? j.createElement(LivePlaybackControls, { transport: timelineTransport, time: timelineTime }) : (0, B.jsxs)(zw, { className: "media-controls", children: [(0, B.jsx)(Kw, { "aria-label": labelText("播放或暂停") }), (0, B.jsx)(Ww, { showDuration: true, "aria-label": labelText("播放时间") }), (0, B.jsx)(Yw, { "aria-label": labelText("拖动播放进度") }), (0, B.jsx)(Xw, { rates: "0.5 1 1.5 2", "aria-label": labelText("播放速度") }), (0, B.jsx)(Gw, { "aria-label": labelText("静音") }), (0, B.jsx)(jw, { "aria-label": labelText("音量") }), (0, B.jsx)(Vw, { "aria-label": labelText("全屏预览") })] })] }, w) : (0, B.jsxs)("div", { className: "media-empty", children: [V && (0, B.jsx)("img", { className: "preview-fallback", src: e.poster, alt: "" }), (0, B.jsxs)("div", { className: "upload-zone", children: [(0, B.jsx)("span", { className: "upload-icon", children: e ? (0, B.jsx)(Br, { size: 27 }) : (0, B.jsx)(Pd, { size: 27 }) }), (0, B.jsx)("h3", { children: e?.missing ? labelText("原片已移动") : d ? labelText("正在生成兼容预览") : k ? labelText("预览无法播放") : labelText("拖入参考视频") }), (0, B.jsx)("p", { children: e?.missing ? labelText("可继续浏览分镜。原片可在高级工具中重新定位。") : k ? F ? labelText("可生成一份兼容预览。") : labelText("请查看任务日志或选择其他视频。") : labelText("MP4、MOV、MKV、WebM 等常用格式") }), !d && (0, B.jsx)(D, { kind: "primary", icon: k && F ? $t : qe, disabled: x, onClick: k && F ? n : i, children: k && F ? labelText("生成兼容预览") : labelText("选择视频") })] })] }), (m || L != null) && (0, B.jsxs)("div", { className: "drop-overlay", children: [(0, B.jsx)(Pr, { size: 25 }), (0, B.jsx)("strong", { children: L != null ? labelText("正在导入 · ") + L + "%" : labelText("松开以导入视频") })] })] })] });
 }
 function vN() {
   return (0, B.jsx)($t, { size: 17, "aria-hidden": true });
 }
-function LN({ shot: e, position: t, duration: a, selected: o, playing: l, select: r, importFile: i }) {
-  let [n, u] = (0, Sa.useState)(false), d = Math.max(0, e.start / a * 100), c = Math.max(0.15, Math.min(100 - d, (e.end - e.start) / a * 100));
-  return (0, B.jsxs)("button", { type: "button", className: "shot-clip" + (o ? " selected" : "") + (l ? " playing" : "") + (n ? " drop-target" : ""), style: { left: d + "%", width: c + "%" }, onClick: () => r(e), "aria-pressed": o, "aria-label": "定位镜头 " + t, "data-shot": e.id, title: "镜头 " + t + " · " + e.label + " · " + kt(e.start, true), ...bM((h) => i(h, e.id), u), children: [e.thumb && (0, B.jsx)("img", { src: e.thumb, draggable: false, alt: "" }), (0, B.jsx)("span", { className: "clip-index", children: String(t).padStart(2, "0") }), (0, B.jsx)("span", { className: "clip-title", children: e.replacement_name ? "已替换" : e.label })] });
+function LN({ shot, position, duration, selected, playing, select, importFile, editor }) {
+  const [drop, setDrop] = j.useState(false);
+  const bounds = {
+    start: shot.start,
+    first: shot.first ?? 0,
+    last: shot.last ?? shot.duration,
+    minFirst: 0,
+    maxLast: shot.original_duration ?? shot.duration,
+    minLength: Math.min(shot.duration, editor.videoMinimum)
+  };
+  const label = labelText(shot.label);
+  const gesture = useTimelineDrag({
+    id: shot.id,
+    bounds,
+    duration,
+    editor,
+    peers: editor.mainClips,
+    main: true,
+    kind: "video",
+    ghost: { type: "video", shot, label: String(position).padStart(2, "0") + " · " + label },
+    select: () => select(shot),
+    commit: (range, operation) => editor.editVideo(shot, operation, range),
+    step: (direction) => editor.stepVideo(shot, direction)
+  });
+  const placed = editor.dragClips?.get(shot.id) || gesture;
+  const index = placed.position || position;
+  return /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      "data-timeline-clip": true,
+      className: "timeline-editable-item timeline-video-item" + (selected ? " selected" : "") + (gesture.trimming ? " trimming" : "") + (gesture.moving ? " timeline-drag-origin" : ""),
+      style: timelineClipStyle(placed.start, placed.end, duration)
+    },
+    /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        type: "button",
+        className: "shot-clip timeline-movable" + (selected ? " selected" : "") + (playing ? " playing" : "") + (drop ? " drop-target" : ""),
+        "aria-label": labelText("定位镜头 {0}", position),
+        "aria-pressed": selected,
+        "aria-keyshortcuts": "ArrowLeft ArrowRight Backspace Delete",
+        disabled: editor.disabled,
+        "data-shot": shot.id,
+        title: labelText("镜头 {0}", position) + " · " + label + " · " + kt(gesture.start, true),
+        onClick: (event) => {
+          if (!event.detail) select(shot);
+        },
+        ...gesture.handle("move"),
+        ...bM((file) => importFile(file, shot), setDrop)
+      },
+      /* @__PURE__ */ j.createElement(ShotThumbnail, { shot }),
+      /* @__PURE__ */ j.createElement("span", { className: "clip-index" }, String(index).padStart(2, "0")),
+      /* @__PURE__ */ j.createElement("span", { className: "clip-title" }, shot.replacement_name ? labelText("已替换") : label)
+    ),
+    /* @__PURE__ */ j.createElement(TimelineEdgeGrips, { gesture, selected, disabled: editor.disabled })
+  );
 }
 function bN(e, t) {
   if (!e) return [];
   let a = e / (7 * t), o = 10 ** Math.floor(Math.log10(a)), l = ([1, 2, 5, 10].find((i) => i * o >= a) || 10) * o, r = Math.min(90, Math.floor(e / l));
   return Array.from({ length: r + 1 }, (i, n) => n * l);
 }
-function SM({ shots: e, source: t, duration: a, time: o, selected: l, current: r, select: i, seek: n, importFile: u, audioTracks: d, muted: c, canMute: h, toggleMute: s, openMixer: f }) {
+function SM({ shots: e, source: t, duration: a, time: o, selected: l, current: r, select: i, seek: n, importFile: u, audioTracks: d, muted: c, canMute: h, toggleMute: s, openMixer: f, captionEditor, resizable, showTrackTools, extraAudio, extraVideo, tracks, editor, timelineEmpty, stemScope }) {
   const [viewport, setViewport] = Sa.useState(720), [fit, setFit] = Sa.useState(false);
-  let [v, L] = (0, Sa.useState)(1), [x, p] = (0, Sa.useState)(false), m = (0, Sa.useRef)(null), g = (0, Sa.useMemo)(() => bN(a, v * Math.max(1, e.length / 8)), [a, v, e.length]), S = Math.max(0.01, a || 0), E = Math.min(100, o / S * 100), A = d.some((T) => T.id === "vocals" || T.id === "music"), I = d.filter((T) => T.id === "original" || T.id === "external" || x);
+  const [collapsedStemScope, setCollapsedStemScope] = Sa.useState(void 0);
+  const showStems = collapsedStemScope !== stemScope;
+  Sa.useEffect(() => setCollapsedStemScope(void 0), [stemScope]);
+  const rulerEnd = Math.max(0.01, a || 0) + (editor.hasVideo ? Math.max(1, Math.min(5, a * 0.125)) : 0);
+  let [v, L] = (0, Sa.useState)(1), m = (0, Sa.useRef)(null), S = rulerEnd, E = Math.min(100, o / S * 100), A = d.some((T) => T.id === "vocals" || T.id === "music"), I = Sa.useMemo(() => splitTimelineAudioRows(d.filter((T) => T.id === "original" || T.id === "external" || showStems)), [d, showStems]);
   Sa.useEffect(() => {
     const node = m.current;
     if (!node) return;
@@ -15790,70 +15995,224 @@ function SM({ shots: e, source: t, duration: a, time: o, selected: l, current: r
     observer.observe(node);
     return () => observer.disconnect();
   }, []);
+  const [dragPreview, setDragPreview] = Sa.useState(null);
+  Sa.useEffect(() => setDragPreview(null), [captionEditor.scope]);
+  const extraLanes = Sa.useMemo(() => timelineExtraLanes(extraAudio, extraVideo, tracks), [extraAudio, extraVideo, tracks]);
+  const laneById = Sa.useMemo(() => new Map([
+    ...extraLanes.map((lane) => [lane.id, lane]),
+    ["main", { kind: "video", items: e }],
+    ...I.filter((track) => track.items).map((track) => [sourceTimelineLane(track), { kind: "audio", items: track.items }]),
+    ...captionEditor.layout.groups.map((items, row) => [captionTimelineLane(row), { kind: "caption", items }])
+  ]), [extraLanes, e, I, captionEditor.layout.groups]);
+  const snapping = editor.snapping;
+  const snapPoints = Sa.useMemo(
+    () => snapping ? timelineSnapPoints(e, I, extraAudio, extraVideo, captionEditor.previewCues, o) : [],
+    [snapping, e, I, extraAudio, extraVideo, captionEditor.previewCues, o]
+  );
+  const timeline = {
+    ...editor,
+    mainClips: e,
+    dragClips: dragPreview?.clips,
+    setDragPreview,
+    laneById,
+    snapPoints
+  };
   const shortest = Math.max(0.05, Math.min(...e.map((s3) => s3.end - s3.start).filter((n3) => n3 > 0), a || 1));
   const readable = Math.min(12e3, Math.max(viewport, e.length * 96, a / shortest * 56));
   const base = fit ? viewport : readable;
+  const rulerWidth = Math.round(base * v);
+  const ticks = timelineRulerTicks(S, rulerWidth, v * Math.max(1, e.length / 8), a < 12);
   const zoomControl = useTimelineZoom(m, { readable, viewport, fit, zoom: v, setZoom: L, setFit, duration: a });
   return (0, Sa.useEffect)(() => {
     let T = m.current;
     if (!T || base * v <= viewport || zoomControl.ignoreFollow()) return;
     let w = T.firstElementChild.offsetWidth * E / 100;
     (w < T.scrollLeft || w > T.scrollLeft + T.clientWidth - 12) && (T.scrollLeft = Math.max(0, w - T.clientWidth * 0.4));
-  }, [E]), (0, B.jsxs)("section", { className: "timeline", "aria-label": "分镜时间线", children: [(0, B.jsxs)("div", { className: "panel-head timeline-head", children: [(0, B.jsxs)("div", { className: "panel-heading", children: [(0, B.jsx)(fl, { size: 17 }), (0, B.jsx)("h2", { children: "分镜时间线" }), e.length > 0 && (0, B.jsxs)("span", { className: "count", children: [e.length, " 个镜头"] })] }), (0, B.jsxs)("div", { className: "timeline-actions", children: [t && !t.missing && (0, B.jsx)(St, { icon: Od, label: "音轨混音", onClick: f }), A && (0, B.jsx)(D, { kind: "ghost", className: "timeline-stems", icon: Xa, "aria-pressed": x, title: x ? "收起分离音轨" : "展开分离音轨", onClick: () => p(!x), children: x ? "收起分轨" : "展开分轨" }), (0, B.jsxs)("span", { className: "time-readout", children: [kt(o, true), " ", (0, B.jsxs)("span", { children: ["/ ", kt(a)] })] }), (0, B.jsxs)("div", { className: "zoom-controls", children: [(0, B.jsx)(St, { icon: Dd, label: "缩小时间线", disabled: zoomControl.value <= zoomControl.minimum + 1e-4, onClick: () => zoomControl.change(zoomControl.value / 1.25) }), (0, B.jsxs)(wc, { className: "zoom-slider", min: zoomControl.minimum, max: 4, step: 0.01, value: [zoomControl.value], onValueChange: ([T]) => zoomControl.change(T), children: [(0, B.jsx)(Mc, { className: "slider-track", children: (0, B.jsx)(rM, { className: "slider-fill" }) }), (0, B.jsx)(Rc, { className: "slider-thumb", "aria-label": "时间线缩放" })] }), (0, B.jsx)(St, { icon: Hi, label: "放大时间线", disabled: zoomControl.value >= 4, onClick: () => zoomControl.change(zoomControl.value * 1.25) })] }), (0, B.jsx)(St, { icon: Hr, label: "全片概览", onClick: () => {
+  }, [E]), (0, B.jsxs)("section", { className: "timeline", onKeyDown: (event) => timelineEditShortcut(event, timeline, !!dragPreview), style: { "--caption-visible-rows": Math.min(2, captionEditor.layout.rows) }, "aria-label": labelText("分镜时间线"), children: [resizable && j.createElement(TimelineResizeGrip), (0, B.jsxs)("div", { className: "panel-head timeline-head", children: [(0, B.jsxs)("div", { className: "panel-heading", children: [(0, B.jsx)(fl, { size: 17 }), (0, B.jsx)("h2", { children: labelText("分镜时间线") }), e.length > 0 && (0, B.jsxs)("span", { className: "count", children: [e.length, labelText(" 个镜头")] })] }), (0, B.jsxs)("div", { className: "timeline-actions", children: [captionEditor.scope && j.createElement(TimelineEditActions, { editor }), showTrackTools && j.createElement(D, { kind: "ghost", icon: mu, onClick: showTrackTools }, labelText("轨道编辑")), t && !t.missing && (0, B.jsx)(St, { icon: Od, label: labelText("音轨混音"), onClick: f }), A && (0, B.jsx)(D, {
+    kind: "ghost",
+    className: "timeline-stems",
+    icon: Xa,
+    "aria-pressed": showStems,
+    title: showStems ? labelText("收起分离音轨") : labelText("展开分离音轨"),
+    onClick: () => setCollapsedStemScope(showStems ? stemScope : void 0),
+    children: showStems ? labelText("收起分轨") : labelText("展开分轨")
+  }), (0, B.jsxs)("span", { className: "time-readout", children: [kt(o, true), " ", (0, B.jsxs)("span", { children: ["/ ", kt(a)] })] }), (0, B.jsxs)("div", { className: "zoom-controls", children: [(0, B.jsx)(St, { icon: Dd, label: labelText("缩小时间线"), disabled: zoomControl.value <= zoomControl.minimum + 1e-4, onClick: () => zoomControl.change(zoomControl.value / 1.25) }), (0, B.jsxs)(wc, { className: "zoom-slider", min: zoomControl.minimum, max: 4, step: 0.01, value: [zoomControl.value], onValueChange: ([T]) => zoomControl.change(T), children: [(0, B.jsx)(Mc, { className: "slider-track", children: (0, B.jsx)(rM, { className: "slider-fill" }) }), (0, B.jsx)(Rc, { className: "slider-thumb", "aria-label": labelText("时间线缩放") })] }), (0, B.jsx)(St, { icon: Hi, label: labelText("放大时间线"), disabled: zoomControl.value >= 4, onClick: () => zoomControl.change(zoomControl.value * 1.25) })] }), (0, B.jsx)(St, { icon: Hr, label: labelText("全片概览"), onClick: () => {
     setFit(true), L(1), m.current && (m.current.scrollLeft = 0);
-  } })] })] }), (0, B.jsxs)("div", { className: "timeline-lanes", title: "按住 Ctrl 滚动滚轮缩放轨道", children: [(0, B.jsxs)("div", { className: "timeline-labels", "aria-label": "轨道", children: [(0, B.jsx)("div", { className: "timeline-label-title", children: "轨道" }), (0, B.jsxs)("div", { className: "timeline-track-label video-label", children: [(0, B.jsx)($t, { size: 14, "aria-hidden": "true" }), (0, B.jsx)("span", { children: "分镜" })] }), I.map((T) => (0, B.jsx)(vM, { track: T, muted: c, canMute: h, toggleMute: s }, T.id))] }), (0, B.jsx)("div", { className: "timeline-content", ref: m, children: (0, B.jsxs)("div", { className: "track", style: { width: Math.round(base * v) + "px" }, children: [(0, B.jsxs)("div", { className: "time-ruler", children: [g.map((T) => (0, B.jsx)("span", { className: T / S > 0.91 ? "tick-end" : void 0, style: { left: T / S * 100 + "%" }, children: kt(T, a < 12) }, T)), a > 0 && (0, B.jsxs)(wc, { className: "scrubber", value: [Math.min(S, o)], min: 0, max: S, step: 0.01, onValueChange: ([T]) => n(T), children: [(0, B.jsx)(Mc, { className: "scrub-track" }), (0, B.jsx)(Rc, { className: "scrub-thumb", "aria-label": "时间线播放位置" })] })] }), (0, B.jsxs)("div", { className: "shot-track", children: [e.map((T, w) => (0, B.jsx)(LN, { shot: T, position: w + 1, duration: S, selected: T.id === l, playing: T.id === r, select: i, importFile: u }, T.id)), !e.length && (0, B.jsxs)("div", { className: "track-empty", children: [(0, B.jsx)(Ka, { size: 17 }), t ? "拆解完成后，镜头会按原片时间排在这里。" : "导入视频后开始拆解。"] })] }), I.map((T) => (0, B.jsx)(LM, { track: T, duration: a, time: o, seek: n, muted: T.id === "original" && c }, T.id)), a > 0 && (0, B.jsx)("div", { className: "playhead", style: { left: E + "%" } })] }) })] })] });
+  } })] })] }), (0, B.jsxs)("div", { className: "timeline-lanes", title: labelText("按住 Ctrl 滚动滚轮缩放轨道"), children: [(0, B.jsxs)("div", { className: "timeline-labels", "aria-label": labelText("轨道"), children: [(0, B.jsx)("div", { className: "timeline-label-title", children: labelText("轨道") }), captionEditor.scope && (0, B.jsx)(ManualCaptionLabel, { editor: captionEditor, time: o }), (0, B.jsxs)("div", { className: "timeline-track-label video-label", children: [(0, B.jsx)($t, { size: 14, "aria-hidden": "true" }), (0, B.jsx)("span", { children: labelText("分镜") })] }), I.map((T) => (0, B.jsx)(vM, { track: T, muted: c, canMute: h, toggleMute: s }, T.id + ":" + (T.row || 0))), j.createElement(ExtraTimelineTracks, { rows: extraLanes, labels: true, editor: timeline })] }), (0, B.jsx)("div", { className: "timeline-content", ref: m, children: (0, B.jsxs)("div", { className: "track", style: { width: rulerWidth + "px" }, children: [
+    (0, B.jsxs)("div", { className: "time-ruler", children: [ticks.map(({ time, alignRight, label }) => (0, B.jsx)("span", { className: alignRight ? "tick-end" : void 0, style: { left: time / S * 100 + "%" }, children: label }, time)), a > 0 && (0, B.jsxs)(wc, { className: "scrubber", value: [Math.min(S, o)], min: 0, max: S, step: 0.01, onValueChange: ([T]) => n(T), children: [(0, B.jsx)(Mc, { className: "scrub-track" }), (0, B.jsx)(Rc, { className: "scrub-thumb", "aria-label": labelText("时间线播放位置") })] })] }),
+    captionEditor.scope && (0, B.jsx)(ManualCaptionLane, { editor: captionEditor, timeline, duration: S }, captionEditor.scope),
+    (0, B.jsxs)("div", { className: "shot-track", "data-timeline-lane": "main", children: [e.map((T, w) => (0, B.jsx)(LN, { shot: T, position: w + 1, duration: S, selected: T.id === l, playing: T.id === r, select: i, importFile: u, editor: timeline }, T.id)), !e.length && (0, B.jsxs)("div", { className: "track-empty", children: [(0, B.jsx)(Ka, { size: 17 }), timelineEmpty ? labelText("分镜轨道为空。") : t ? labelText("拆解完成后，镜头会按原片时间排在这里。") : labelText("导入视频后开始拆解。")] })] }),
+    I.map((T) => (0, B.jsx)(LM, { track: T, duration: S, time: o, seek: n, muted: T.id === "original" && c, editor: timeline }, T.id + ":" + (T.row || 0))),
+    j.createElement(ExtraTimelineTracks, { rows: extraLanes, duration: S, edit: showTrackTools, editor: timeline }),
+    a > 0 && (0, B.jsx)("div", { className: "playhead", style: { left: E + "%" } }),
+    dragPreview?.guide != null && j.createElement("div", {
+      className: "timeline-snap-guide",
+      "aria-hidden": true,
+      "data-time": dragPreview.guide,
+      style: { left: dragPreview.guide / S * 100 + "%" }
+    }),
+    !!dragPreview && j.createElement(TimelineDragOverlay, { preview: dragPreview, duration: S })
+  ] }) })] })] });
 }
-var _ = N(Te(), 1), yM = "视频拆解工作台";
-function xN({ state: e, options: t, disabled: a, command: o, showExport: l }) {
-  let r = e.project?.name || e.source?.name || "新建项目";
-  return (0, _.jsxs)("header", { className: "appbar", children: [(0, _.jsxs)("div", { className: "brand", children: [(0, _.jsx)("span", { className: "brand-mark", children: (0, _.jsx)(fl, { size: 20 }) }), (0, _.jsx)("strong", { children: yM })] }), (0, _.jsxs)("div", { className: "breadcrumb", title: r, children: [(0, _.jsx)(fu, { size: 15 }), (0, _.jsx)("span", { children: Ab(r) })] }), (0, _.jsxs)("div", { className: "header-actions", children: [(0, _.jsx)(D, { kind: "ghost", icon: qe, disabled: a, onClick: () => o("pick_project"), children: "打开项目" }), e.project?.report && (0, _.jsx)(D, { icon: fo, onClick: () => o("open_report"), children: "打开报告" }), e.project ? (0, _.jsx)(D, { kind: "primary", icon: Pr, disabled: a || e.source?.missing, onClick: l, children: "导出成片" }) : (0, _.jsx)(D, { kind: "primary", icon: Ka, disabled: a || !e.source?.url, onClick: () => o("analyze", { options: t }), children: "开始拆解" })] })] });
+var _ = N(Te(), 1);
+function xN({
+  state,
+  options,
+  disabled,
+  command,
+  showExport,
+  openLogs,
+  importingVideo,
+  undo,
+  openSettings,
+  openAdvanced,
+  advanced,
+  directImport,
+  onNew,
+  onRecent,
+  onBrowse
+}) {
+  const { project, source, edit_undo: edit } = state;
+  const projects = /* @__PURE__ */ j.createElement(
+    ProjectStrip,
+    {
+      project,
+      source,
+      recent: state.recent,
+      disabled,
+      onOpen: onRecent,
+      onNew
+    }
+  );
+  const stage = state.task?.phase === "running" && state.task.stage;
+  const progress = importingVideo ? labelText("正在导入视频") : (state.active || state.importing) && labelText(stage || state.status);
+  return /* @__PURE__ */ j.createElement(StudioTitleBar, { projects }, /* @__PURE__ */ j.createElement("div", { className: "header-actions" }, progress && /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "header-task-progress",
+      "aria-label": labelText("查看任务进度"),
+      title: progress,
+      onClick: openLogs
+    },
+    /* @__PURE__ */ j.createElement(Nr, { size: 14, className: "spin", "aria-hidden": "true" }),
+    /* @__PURE__ */ j.createElement("span", { role: "status" }, progress)
+  ), state.active && /* @__PURE__ */ j.createElement(HeaderCommand, { icon: hu, label: labelText("停止"), onClick: () => command("stop") }), /* @__PURE__ */ j.createElement(HeaderCommand, { icon: SettingsGear, label: labelText("设置"), onClick: openSettings }), /* @__PURE__ */ j.createElement(HeaderCommand, { icon: ToolboxIcon, label: labelText("更多工具"), "aria-pressed": advanced, onClick: () => openAdvanced("tools") }), /* @__PURE__ */ j.createElement(WorkspaceActionsMenu, { project, command, openLogs }), edit && /* @__PURE__ */ j.createElement(HeaderCommand, { icon: qi, label: labelText(edit.label), shortcut: "Ctrl+Z", disabled, onClick: undo }), /* @__PURE__ */ j.createElement(HeaderCommand, { icon: qe, label: labelText("打开项目"), disabled, onClick: onBrowse }), project?.report && /* @__PURE__ */ j.createElement(HeaderCommand, { icon: fo, label: labelText("打开报告"), onClick: () => command("open_report") }), project ? /* @__PURE__ */ j.createElement(HeaderCommand, { icon: Pr, label: labelText("导出成片"), primary: true, disabled: disabled || source?.missing || project.timeline_empty, onClick: showExport }) : directImport ? /* @__PURE__ */ j.createElement(HeaderCommand, { icon: qe, label: labelText("导入视频"), primary: true, disabled, onClick: directImport }) : /* @__PURE__ */ j.createElement(
+    HeaderCommand,
+    {
+      icon: Ka,
+      label: labelText("开始拆解"),
+      primary: true,
+      disabled: disabled || !source?.url || source.missing,
+      onClick: () => command("analyze", { options })
+    }
+  )));
 }
-function SN({ state, tab, onTab, command, onNew, onRecent, openSettings, openAdvanced, advanced, disabled }) {
-  const ToolsIcon = po;
-  const sections = [["analysis", "视频拆解", Ka], ["shot", "镜头替换", $t], ["subtitles", "字幕与翻译", va], ["audio", "声音与混音", Xa], ["prompts", "生成提示词", po]];
-  return /* @__PURE__ */ j.createElement("aside", { className: "sidebar", "aria-label": "项目和工作区" }, /* @__PURE__ */ j.createElement("div", { className: "sidebar-main" }, /* @__PURE__ */ j.createElement(D, { className: "new-project wide", icon: Hi, onClick: onNew, disabled }, "新建拆解"), /* @__PURE__ */ j.createElement("nav", { className: "side-nav", "aria-label": "功能导航" }, sections.map(([id, label, Icon]) => /* @__PURE__ */ j.createElement("button", { key: id, type: "button", className: !advanced && tab === id ? "nav-item active" : "nav-item", "aria-pressed": !advanced && tab === id, onClick: () => onTab(id) }, /* @__PURE__ */ j.createElement(Icon, { size: 18 }), /* @__PURE__ */ j.createElement("span", null, label)))), /* @__PURE__ */ j.createElement("div", { className: "recent" }, /* @__PURE__ */ j.createElement("div", { className: "sidebar-section-title" }, /* @__PURE__ */ j.createElement("h2", null, "最近项目"), /* @__PURE__ */ j.createElement(St, { icon: qe, label: "浏览项目文件", disabled, onClick: () => command("pick_project") })), state.recent.length ? state.recent.map((p) => /* @__PURE__ */ j.createElement("button", { key: p.id, type: "button", className: state.project?.id === p.id ? "recent-row current" : "recent-row", title: p.name, disabled, onClick: () => onRecent(p.id) }, /* @__PURE__ */ j.createElement(Gr, { src: p.thumb }), /* @__PURE__ */ j.createElement("span", { className: "recent-text" }, /* @__PURE__ */ j.createElement("strong", null, Ab(p.name)), /* @__PURE__ */ j.createElement("small", null, p.shots, " 个镜头 · ", kt(p.duration))))) : /* @__PURE__ */ j.createElement("p", { className: "empty-recent" }, "拆解完成的项目会保存在这里。"))), /* @__PURE__ */ j.createElement("div", { className: "side-bottom" }, /* @__PURE__ */ j.createElement("button", { className: "nav-item", onClick: openSettings }, /* @__PURE__ */ j.createElement(Fi, { size: 18 }), /* @__PURE__ */ j.createElement("span", null, "设置")), /* @__PURE__ */ j.createElement("button", { className: advanced ? "nav-item active" : "nav-item", "aria-pressed": advanced, onClick: () => openAdvanced("tools") }, /* @__PURE__ */ j.createElement(ToolsIcon, { size: 18 }), /* @__PURE__ */ j.createElement("span", null, "更多工具"))));
+function SN({ state, tab, onTab, onNew, openProjectTools, agentPicker, advanced, disabled }) {
+  const sections = [["analysis", labelText("视频拆解"), Ka], ["shot", labelText("成片剪辑"), $t], ["subtitles", labelText("字幕与翻译"), va], ["audio", labelText("声音与混音"), Xa], ["prompts", labelText("生成提示词"), po]];
+  return /* @__PURE__ */ j.createElement("aside", { className: "sidebar", "aria-label": labelText("项目和工作区") }, /* @__PURE__ */ j.createElement("div", { className: "sidebar-main" }, /* @__PURE__ */ j.createElement(D, { className: "new-project wide", icon: Hi, onClick: onNew, disabled }, labelText("新建拆解")), /* @__PURE__ */ j.createElement("nav", { className: "side-nav", "aria-label": labelText("功能导航") }, sections.map(([id, label, Icon]) => /* @__PURE__ */ j.createElement("button", { key: id, type: "button", className: !advanced && tab === id ? "nav-item active" : "nav-item", "aria-pressed": !advanced && tab === id, onClick: () => onTab(id) }, /* @__PURE__ */ j.createElement(Icon, { size: 18 }), /* @__PURE__ */ j.createElement("span", null, label)))), state.project && /* @__PURE__ */ j.createElement("button", { type: "button", className: "nav-item project-tools-entry", disabled, onClick: openProjectTools }, /* @__PURE__ */ j.createElement(ProjectToolsIcon, { size: 18 }), /* @__PURE__ */ j.createElement("span", null, labelText("项目工具")))), /* @__PURE__ */ j.createElement("div", { className: "side-bottom" }, agentPicker));
 }
-function CN({ state: e, command: t, open: a, close: o, checkRuntime: l, disabled: r }) {
-  let [i, n] = (0, j.useState)({});
-  (0, j.useEffect)(() => {
-    a && n({ base: e.settings.base, model: e.settings.model, engine: e.settings.engine, key: "" });
-  }, [a]);
-  let u = [["base", "服务地址", "https://…/v1"], ["model", "模型名", "支持视频或图像的模型"], ["key", "本次会话密钥", e.settings.has_key ? "已填写 · 输入新密钥可替换" : "API Key"]];
-  return (0, _.jsxs)(hl, { open: a, onClose: o, title: "工作台设置", children: [(0, _.jsxs)("div", { className: "modal-content settings-fields", children: [(0, _.jsx)("label", { children: "项目保存位置" }), (0, _.jsxs)("button", { type: "button", className: "path-button", onClick: () => t("pick_output"), title: e.settings.output, children: [(0, _.jsx)(qe, { size: 16 }), (0, _.jsx)("span", { children: e.settings.output }), (0, _.jsx)(fu, { size: 14 })] }), e.tools && (0, _.jsx)(Kd, { label: "平台元数据 JSON", value: e.tools.inputs.meta, disabled: r, choose: () => t("tool_pick", { field: "meta" }), clear: () => t("tool_clear_input", { field: "meta" }) }), (0, _.jsx)("h3", { children: "AI 深度分析" }), u.map(([d, c, h]) => (0, _.jsxs)("label", { className: "field", children: [(0, _.jsx)("span", { children: c }), (0, _.jsx)("input", { type: d === "key" ? "password" : "text", autoComplete: "off", placeholder: h, value: i[d] ?? "", onChange: (s) => n({ ...i, [d]: s.target.value }) })] }, d)), (0, _.jsxs)("div", { className: "button-row", children: [(0, _.jsx)(D, { icon: qe, onClick: () => t("pick_env"), children: e.settings.env ? Wm(e.settings.env) : "选择 .env 配置" }), e.settings.env && (0, _.jsx)(D, { kind: "ghost", onClick: () => t("settings", { clear_env: true }), children: "取消使用 .env" })] }), (0, _.jsx)("p", { className: "field-hint", children: "开启多模态分析后，画面和音轨素材会发送给所配置的服务。" }), e.tools && (0, _.jsxs)(_.Fragment, { children: [(0, _.jsx)("h3", { children: "自动视频生成" }), (0, _.jsx)(Kd, { label: "生成后端目录", value: e.settings.capsule_root, disabled: r, placeholder: "选择已配置的 capsule-cinema 文件夹…", choose: () => t("tool_pick", { field: "capsule_root" }), clear: () => t("tool_clear_input", { field: "capsule_root" }) }), (0, _.jsx)(Kd, { label: "后端 Python", value: e.settings.capsule_python, disabled: r, placeholder: "使用后端目录的默认 Python", choose: () => t("tool_pick", { field: "capsule_python" }), clear: () => t("tool_clear_input", { field: "capsule_python" }) })] }), (0, _.jsxs)("label", { className: "field", children: [(0, _.jsx)("span", { children: "默认生成引擎" }), (0, _.jsx)("input", { value: i.engine ?? "", placeholder: "例如 seedance2.0", onChange: (d) => n({ ...i, engine: d.target.value }) })] })] }), (0, _.jsxs)("div", { className: "modal-actions", children: [e.tools && (0, _.jsx)(D, { kind: "ghost", icon: Kl, disabled: r, onClick: l, children: "检查本机运行环境" }), (0, _.jsx)(D, { kind: "ghost", onClick: o, children: "关闭" }), (0, _.jsx)(D, { kind: "primary", icon: na, disabled: r, onClick: async () => {
-    await t("settings", i) !== void 0 && o();
-  }, children: "保存设置" })] })] });
+function CN({ state, command, open, close, checkRuntime, disabled, initialTab, initialAgent, onAgentChange }) {
+  const Dialog = hl;
+  const [tab, setTab] = j.useState("general");
+  j.useEffect(() => {
+    if (open) setTab(initialTab || "general");
+  }, [open, initialTab]);
+  const pages = [
+    ["general", labelText("通用"), SettingsGear],
+    ["agents", "Agent", Ma],
+    ["generation", labelText("视频生成"), Ka],
+    ["analysis", labelText("AI 深度分析"), Od]
+  ];
+  return /* @__PURE__ */ j.createElement(Dialog, { open, onClose: close, title: labelText("工作台设置"), className: "desktop-settings" }, open && /* @__PURE__ */ j.createElement("div", { className: "settings-layout" }, /* @__PURE__ */ j.createElement("nav", { className: "settings-nav", "aria-label": labelText("设置分类") }, pages.map(([id, label, Icon]) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      key: id,
+      className: "nav-item" + (tab === id ? " active" : ""),
+      "aria-current": tab === id ? "page" : void 0,
+      onClick: () => setTab(id)
+    },
+    /* @__PURE__ */ j.createElement(Icon, { size: 16 }),
+    /* @__PURE__ */ j.createElement("span", null, label)
+  ))), /* @__PURE__ */ j.createElement("div", { className: "settings-main", key: tab }, tab === "general" && /* @__PURE__ */ j.createElement(SettingsGeneral, { state, command, disabled, checkRuntime }), tab === "agents" && /* @__PURE__ */ j.createElement(AgentSettings, { key: initialAgent || "", initialAgent, onChange: onAgentChange }), tab === "generation" && /* @__PURE__ */ j.createElement(GenerationSettings, { state, command, disabled }), tab === "analysis" && /* @__PURE__ */ j.createElement(SettingsAnalysis, { state, command, disabled }))));
 }
-function yN({ state: e, open: t, close: a, command: o, openMixer: l }) {
-  let [r, i] = (0, j.useState)("mix"), [n, u] = (0, j.useState)(true), [d, c] = (0, j.useState)(false), h = (e.audio_tracks || []).filter((f) => e.audio_mix?.[f.id]?.enabled && e.audio_mix[f.id].volume > 0);
-  function s() {
-    c(false), a();
+function yN(props) {
+  return props.state.project && /* @__PURE__ */ j.createElement(TimelineExportDialog, { key: props.state.project.id, ...props });
+}
+function EN({ state, open, close, command }) {
+  const Modal = hl;
+  const log = j.useRef(null);
+  const follow = j.useRef(true);
+  const [feedback, setFeedback] = j.useState("");
+  const app = state.application || {};
+  const task = state.task || {};
+  const phases = { running: labelText("进行中"), stopping: labelText("正在停止"), done: labelText("已完成"), cancelled: labelText("已停止"), failed: labelText("失败") };
+  const summary = [
+    (app.name || "ShotDecode") + " " + (app.version || labelText("本地版")) + (app.build ? labelText(" · 构建 ") + app.build : ""),
+    app.system && labelText("系统 ") + app.system + " · Python " + app.python + labelText(" · 分析引擎 ") + app.engine,
+    task.title && labelText("任务 ") + task.title + " · " + (phases[task.phase] || state.status),
+    task.stage && (task.phase === "failed" ? labelText("失败阶段 ") : labelText("任务阶段 ")) + task.stage,
+    task.exit_code != null && labelText("退出码 ") + task.exit_code,
+    task.error && labelText("错误 ") + task.error.split("\n")[0]
+  ].filter(Boolean);
+  const text = [...summary, "", ...!state.logs.length ? [labelText("暂无任务记录。")] : state.logs].join("\n");
+  j.useEffect(() => {
+    if (open) {
+      setFeedback("");
+      follow.current = true;
+    }
+  }, [open]);
+  j.useLayoutEffect(() => {
+    if (open && log.current && follow.current) log.current.scrollTop = log.current.scrollHeight;
+  }, [open, text]);
+  async function copyDiagnostic() {
+    try {
+      await navigator.clipboard.writeText(text);
+      setFeedback(labelText("诊断已复制"));
+    } catch {
+      const selection = window.getSelection();
+      if (!selection || !log.current) return;
+      const range = document.createRange();
+      range.selectNodeContents(log.current);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      let copied = false;
+      try {
+        copied = document.execCommand("copy");
+      } catch {
+      }
+      if (copied) selection.removeAllRanges();
+      setFeedback(copied ? labelText("诊断已复制") : labelText("诊断已选中，请按 Ctrl+C 复制"));
+    }
   }
-  return (0, _.jsxs)(hl, { open: t, onClose: s, title: "导出时间线成片", description: e.project?.shots.length + " 个镜头 · 已替换 " + e.project?.shots.filter((f) => f.replacement_name).length + " 个", children: [(0, _.jsxs)("div", { className: "modal-content", children: [(0, _.jsxs)("div", { className: "tool-field", children: [(0, _.jsx)("span", { children: "保存到" }), (0, _.jsxs)("button", { type: "button", className: "path-button export-path", "aria-label": "更改成片保存位置", title: e.settings.movie_output, disabled: e.active, onClick: () => o("pick_movie_output"), children: [(0, _.jsx)(qe, { size: 16 }), (0, _.jsx)("span", { children: e.settings.movie_output }), (0, _.jsx)("strong", { children: "更改" })] })] }), (0, _.jsx)(bo, { checked: n, onChange: u, hint: "把识别出的字幕、标题和花字叠到替换镜头", children: "保留原字幕和标题" }), (0, _.jsx)("label", { className: "field-label", children: "成片音轨" }), (0, _.jsx)(Kr, { values: [["mix", "工程音轨"], ["original", "沿用原片"], ["mute", "静音"], ["custom", "替换音频"]], value: r, onChange: i, label: "导出音轨" }), r === "mix" && (0, _.jsxs)("div", { className: "mix-export-summary", children: [(0, _.jsx)("span", { children: h.length ? h.map((f) => f.label + " " + e.audio_mix[f.id].volume + "%").join(" · ") : "静音输出" }), (0, _.jsx)(D, { kind: "ghost", onClick: l, children: "调整混音" })] }), (0, _.jsx)(bo, { checked: d, onChange: c, children: "同时导出对比视频" })] }), (0, _.jsxs)("div", { className: "modal-actions", children: [(0, _.jsx)(D, { kind: "ghost", onClick: s, children: "取消" }), (0, _.jsx)(D, { kind: "primary", icon: Pr, disabled: e.active, onClick: async () => {
-    await o("assemble", { audio: r, overlays: n, compare: d }) !== void 0 && s();
-  }, children: "开始导出" })] })] });
-}
-function EN({ state: e, open: t, close: a, command: o }) {
-  let l = (0, j.useRef)(null);
-  return (0, j.useEffect)(() => {
-    l.current && (l.current.scrollTop = l.current.scrollHeight);
-  }, [e.logs.length, t]), (0, _.jsxs)(hl, { open: t, onClose: a, title: "任务日志", className: "logs-modal", children: [(0, _.jsx)("div", { className: "modal-content", children: (0, _.jsx)("pre", { className: "log-output", ref: l, children: e.logs.join(`
-`) || "暂无任务记录。" }) }), (0, _.jsxs)("div", { className: "modal-actions", children: [e.active && (0, _.jsx)(D, { icon: hu, onClick: () => o("stop"), children: "停止任务" }), (0, _.jsx)(D, { kind: "ghost", onClick: a, children: "关闭" })] })] });
+  return /* @__PURE__ */ j.createElement(Modal, { open, onClose: close, title: labelText("任务日志"), className: "logs-modal" }, /* @__PURE__ */ j.createElement("div", { className: "modal-content" }, /* @__PURE__ */ j.createElement("pre", { className: "log-output", ref: log, tabIndex: 0, onScroll: (event) => {
+    const area = event.currentTarget;
+    follow.current = area.scrollHeight - area.clientHeight - area.scrollTop < 32;
+  } }, text)), /* @__PURE__ */ j.createElement("div", { className: "modal-actions task-log-actions" }, feedback && /* @__PURE__ */ j.createElement("span", { role: "status" }, feedback), state.active && /* @__PURE__ */ j.createElement(D, { icon: hu, onClick: () => command("stop") }, labelText("停止任务")), /* @__PURE__ */ j.createElement(D, { icon: Ni, onClick: copyDiagnostic }, labelText("复制诊断")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", onClick: close }, labelText("关闭"))));
 }
 function gS(e) {
   return e ? { time: e.currentTime, playing: !e.paused && !e.ended, volume: e.volume, muted: e.muted, rate: e.playbackRate } : null;
 }
 function IN() {
+  const [agentOpen, setAgentOpen] = j.useState(false);
+  const [agentTaskBusy, setAgentTaskBusy] = j.useState(false);
+  const [settingsEntry, setSettingsEntry] = j.useState({ tab: "general" });
+  const [agentRegistryRevision, bumpAgentRegistry] = j.useState(0);
   const [inputMode, setInputMode] = j.useState("local"), [linkText, setLinkText] = j.useState(""), [showInput, setShowInput] = j.useState(false), [linkSubmitting, setLinkSubmitting] = j.useState(false);
+  const [projectNavigating, setProjectNavigating] = j.useState(false);
+  const projectSwitch = j.useRef(false);
   let [e, t] = (0, j.useState)(null), [a, o] = (0, j.useState)(""), [l, r] = (0, j.useState)("analysis"), [i, n] = (0, j.useState)(null), [u, d] = (0, j.useState)(null), [c, h] = (0, j.useState)(null), [s, f] = (0, j.useState)(null), [v, L] = (0, j.useState)(0), [x, p] = (0, j.useState)({}), [m, g] = (0, j.useState)(false), [S, E] = (0, j.useState)(null), [A, I] = (0, j.useState)(null), [T, w] = (0, j.useState)(null), [k, F] = (0, j.useState)(null), [V, $] = (0, j.useState)(false), [ee, me] = (0, j.useState)(null), [we, je] = (0, j.useState)(null), Ve = (0, j.useRef)(null), Ge = (0, j.useRef)(null), Y = (0, j.useRef)(null), ae = (0, j.useRef)(null), sa = (0, j.useRef)(0), Ca = (0, j.useRef)(null), Tl = (0, j.useRef)(void 0), yo = (0, j.useRef)(false), pt = (0, j.useCallback)((q, G = false) => {
     clearTimeout(Ca.current), F({ message: q, error: G }), Ca.current = setTimeout(() => F(null), G ? 6900 : 3600);
   }, []), Pt = (0, j.useCallback)(async () => {
     let q = ++sa.current, G = await NT();
     return q === sa.current && (t(G), d((Xt) => Xt || G.options)), G;
-  }, []), at = (0, j.useCallback)(async (q, G) => {
+  }, []), at = (0, j.useCallback)(async (q, G, throwOnFailure = false) => {
     try {
       let Xt = await Uo(q, G);
       return await Pt(), Xt;
     } catch (Xt) {
+      if (throwOnFailure) throw Xt;
       pt(Xt.message, true);
       return;
     }
@@ -15861,6 +16220,8 @@ function IN() {
   (0, j.useEffect)(() => {
     Pt().catch((q) => o(q.message));
   }, [Pt]);
+  const [initialAudio, setInitialAudio] = j.useState("");
+  useInterfacePreferences(e?.settings);
   j.useEffect(() => {
     if (e?.link_import?.phase === "failed") {
       setShowInput(true);
@@ -15874,7 +16235,7 @@ function IN() {
     }), 500);
     return () => clearInterval(q);
   }, [Et, Pt]), (0, j.useEffect)(() => {
-    e && (yo.current && !e.active && pt(e.error || e.status, !!e.error), yo.current = e.active);
+    e && (yo.current && !e.active && (e.task?.announce !== false || e.error) && pt(e.error || e.status, !!e.error), yo.current = e.active);
   }, [e, pt]);
   let Ut = e?.project?.id, ct = e?.source, It = ct?.path, Yo = ct?.url, ni = ct?.missing, ui = ct?.needs_preview, tr = ct?.compatible;
   (0, j.useEffect)(() => {
@@ -15898,6 +16259,64 @@ function IN() {
     (ui || q) && dn(It, Yo, q ? q.position : gS(Ve.current));
   }, [It, Yo, ni, tr, ui, Et, T, i, A, S, dn]);
   let cn = Ut || It, Cs = e?.tracks || [], si = ee && ee.source === cn && Cs.some((q) => q.id === ee.id) ? ee.id : Cs[0]?.id, ve = si ? JSON.stringify([cn, si]) : null, ar = we?.key === ve ? we.items : [];
+  const sourceHeight = ct?.rotation === 90 || ct?.rotation === 270 ? ct?.width : ct?.height;
+  const timelineTransport = useLiveTimeline({
+    enabled: !!e?.project && !A && !showInput && !i,
+    player: Ve,
+    project: e?.project,
+    source: ct,
+    onTime: L,
+    tracks: e?.audio_tracks,
+    mix: e?.audio_mix
+  });
+  useSpacePlayback(l === "shot" && !!e?.project && !e.project.timeline_empty && !!ct?.url && !ct.missing && !Et && T == null && !showInput && !c && !i, toggleEditorPlayback);
+  const selectEditor = useEditorSelection(Ut || It);
+  const undoQueue = j.useRef(Promise.resolve());
+  const undoAvailable = !!e?.manual_caption_scope && !Et && T == null && !projectNavigating && (!c || ["track-tools", "project-tools", "mix", "export-mix"].includes(c));
+  const [trackSelection, setTrackSelection] = j.useState(null);
+  const [trackBusy, setTrackBusy] = j.useState(false);
+  const trackRequest = j.useRef(false);
+  useUndoShortcut(undoAvailable, undoWorkbenchEdit);
+  const captionEditor = useManualCaptionEditor({
+    scope: e?.manual_caption_scope,
+    cues: e?.manual_captions,
+    limit: e?.manual_caption_duration,
+    laneCount: e?.manual_caption_lanes,
+    defaults: e?.manual_caption_defaults,
+    sizeRange: e?.manual_caption_size_range,
+    height: sourceHeight || x.height,
+    disabled: Et || T != null,
+    time: v,
+    override: !!A || showInput,
+    motion: e?.motion
+  }, at, () => {
+    Ve.current?.pause();
+    setShowInput(false);
+  }, Dc, playRange, selectCaptionContext, pt);
+  const [editedPreview, setEditedPreview] = j.useState(true);
+  const openAgentTimeline = j.useCallback(() => {
+    Ve.current?.pause();
+    setShowInput(false);
+    setEditedPreview(true);
+    setTrackSelection(null);
+    f(null);
+    n(null);
+    r("shot");
+  }, []);
+  const playingAfterLoad = j.useRef(null);
+  const motionPreview = j.useRef(null);
+  const clipEditor = useClipProperties(e?.project, Et || T != null, at, (shot) => {
+    setEditedPreview(true);
+    if (A || v < shot.start || v >= shot.end) {
+      Ve.current?.pause();
+      Dc(shot.start);
+    }
+  });
+  j.useEffect(() => {
+    setEditedPreview(true);
+    if (Ut) setShowInput(false);
+    return cancelMotionPreview;
+  }, [Ut]);
   if ((0, j.useEffect)(() => {
     if (!si) return;
     let q = false;
@@ -15915,22 +16334,198 @@ function IN() {
     return window.addEventListener("dragover", q), window.addEventListener("drop", q), () => {
       window.removeEventListener("dragover", q), window.removeEventListener("drop", q);
     };
-  }, []), !e || !u) return (0, _.jsxs)("div", { className: "boot", children: [(0, _.jsx)("span", { className: "brand-mark", children: (0, _.jsx)(fl, { size: 21 }) }), (0, _.jsx)("strong", { children: yM }), a ? (0, _.jsxs)(_.Fragment, { children: [(0, _.jsx)("p", { children: a }), (0, _.jsx)(D, { icon: qe, onClick: () => location.reload(), children: "重新加载" })] }) : (0, _.jsx)("span", { children: "正在读取工作区…" })] });
-  let di = e.project?.shots || [], kc = di.find((q) => v >= q.start && v < q.end), fn = di.find((q) => q.id === s) || kc || di[0], ys = ct?.duration || x.duration, Es = Number.isFinite(ys) && ys > 0 ? ys : 0, bh = A || ct, jo = !!(Et || T != null), da = V ? ar.find((q) => v >= q.start && v < q.end)?.text : "", ht = { width: ct?.width || x.width, height: ct?.height || x.height }, ci = (q) => d((G) => ({ ...G, ...q })), Ie = () => h(null);
-  function ot() {
-    Ve.current?.pause(), h("mix");
+  }, []), !e || !u) return j.createElement(StudioStartup, { error: a });
+  let di = e.project?.timeline || e.project?.shots || [], kc = previewShotAt(di, v, ct?.duration), fn = l === "prompts" ? e.project?.shots.find((shot) => shot.id === s) || e.project?.shots.find((shot) => shot.id === kc?.source_id) || e.project?.shots[0] : di.find((q) => q.id === s) || kc || di[0], ys = ct?.duration ?? x.duration, Es = Number.isFinite(ys) && ys > 0 ? ys : 0, bh = A || ct, jo = !!(Et || T != null || projectNavigating), da = V ? ar.find((q) => v >= q.start && v < q.end)?.text : "", ht = { width: ct?.width || x.width, height: ct?.height || x.height }, ci = (q) => d((G) => ({ ...G, ...q })), Ie = () => {
+    h(c === "export-mix" ? "export" : null);
+    if (c === "settings") refreshAgentRegistry();
+  };
+  function refreshAgentRegistry() {
+    bumpAgentRegistry((version) => version + 1);
   }
-  function ca(q) {
+  function showSettings(tab, provider) {
+    setSettingsEntry({ tab: typeof tab === "string" ? tab : "general", provider });
+    h("settings");
+  }
+  function ot() {
+    Ve.current?.pause(), h(c === "export" ? "export-mix" : "mix");
+  }
+  async function ca(q) {
+    if (!await clipEditor.flush() || !await captionEditor.close()) return;
     if (!e.tools) {
-      pt("请重新打开工作台以加载新版高级工具。", true);
+      pt(labelText("请重新打开工作台以加载新版高级工具。"), true);
       return;
     }
     Ve.current?.pause(), n(q);
+  }
+  function undoWorkbenchEdit() {
+    if (!undoAvailable) return;
+    const scope = e.manual_caption_scope;
+    undoQueue.current = undoQueue.current.then(async () => {
+      await trackRequest.current;
+      if (await captionEditor.undoPending()) {
+        pt(labelText("已撤销字幕编辑"));
+        return;
+      }
+      if (!await clipEditor.flush()) return;
+      const latest = await Pt();
+      if (latest.manual_caption_scope !== scope || latest.active || latest.importing || !latest.edit_undo) return;
+      if (!await captionEditor.close()) return;
+      pauseEditorPlayback();
+      const result = await at("undo_edit", { scope, revision: latest.edit_undo.revision });
+      if (result) {
+        if (c) Ie();
+        pt(result.message);
+      }
+    }).catch((error) => pt(error.message, true));
+  }
+  function selectWorkspace(q, G) {
+    return selectEditor(async (isCurrent) => {
+      if (!await clipEditor.flush() || !isCurrent() || !await captionEditor.close(isCurrent) || !isCurrent()) return false;
+      xh(q, G);
+      if (q === "shot" && !e.project) setShowInput(true);
+      return true;
+    });
+  }
+  function toggleEditorPlayback() {
+    cancelMotionPreview();
+    if (timelineTransport.active) return timelineTransport.toggle();
+    const video = Ve.current;
+    if (!video) return;
+    if (video.paused) video.play().catch((error) => pt(error.message, true));
+    else video.pause();
+  }
+  function pauseEditorPlayback() {
+    if (timelineTransport.active) timelineTransport.pause();
+    else Ve.current?.pause();
+  }
+  async function showMovieExport() {
+    if (!e.project || e.project.timeline_empty || !await clipEditor.flush() || !await captionEditor.flush()) return;
+    Ve.current?.pause();
+    h("export");
+  }
+  async function showProjectTools() {
+    if (await clipEditor.flush() && await captionEditor.close()) {
+      Ve.current?.pause();
+      h("project-tools");
+    }
+  }
+  async function showTrackTools(audio) {
+    if (await clipEditor.flush() && await captionEditor.close()) {
+      Ve.current?.pause();
+      setInitialAudio(typeof audio === "string" ? audio : selectedTrack?.kind === "audio" ? selectedTrack.item.id : "");
+      h("track-tools");
+    }
+  }
+  async function workspaceCommand(action, data) {
+    const result = await at(action, data);
+    if (result?.clip) f(result.clip);
+    return result;
+  }
+  function selectTimelineMedia(item, kind) {
+    if (trackDisabled) return;
+    return selectEditor(async (isCurrent) => {
+      if (!await clipEditor.flush() || !isCurrent() || !await captionEditor.close(isCurrent) || !isCurrent()) return false;
+      setTrackSelection({ scope: directScope, kind, id: item.id });
+      const end = item.start + item.last - item.first;
+      if (A || v < item.start || v >= end) {
+        Ve.current?.pause();
+        Dc(item.start);
+      }
+      return true;
+    });
+  }
+  async function runTrackEdit(save) {
+    if (trackDisabled || trackRequest.current) return;
+    setTrackBusy(true);
+    pauseEditorPlayback();
+    const pending = save();
+    trackRequest.current = pending;
+    try {
+      return await pending;
+    } finally {
+      trackRequest.current = false;
+      setTrackBusy(false);
+    }
+  }
+  function addTimelineAsset(track) {
+    if (!e.project) return;
+    return runTrackEdit(async () => {
+      if (!await clipEditor.flush() || !await captionEditor.close()) return;
+      const kind = track.kind === "video" ? "video-layer" : "audio";
+      const result = await workspaceCommand(
+        track.kind === "video" ? "timeline_video_pick" : "timeline_audio_pick",
+        { project: e.project.id, lane: track.id, time: v }
+      );
+      if (result) setTrackSelection({ scope: directScope, kind, id: result.id });
+    });
+  }
+  function setMainMagnet() {
+    return runTrackEdit(async () => {
+      if (!await clipEditor.flush() || !await captionEditor.close()) return;
+      return workspaceCommand("timeline_magnet_set", { project: e.project.id, enabled: !e.project.timeline_magnet });
+    });
+  }
+  function editTimelineTrack(target, operation, range) {
+    if (!target) return;
+    const { kind, item } = target;
+    return runTrackEdit(async () => {
+      if (kind === "caption") {
+        if (operation === "remove") await captionEditor.remove(item.id);
+        else await captionEditor.split(v);
+        return;
+      }
+      if (!await clipEditor.flush() || !await captionEditor.close()) return;
+      const project = e.project.id;
+      const result = kind === "video" ? await workspaceCommand("timeline_edit", { project, clip: item.id, operation, time: v, ...range }) : await workspaceCommand(kind === "video-layer" ? "timeline_video_save" : "timeline_audio_save", {
+        project,
+        id: item.id,
+        ...range,
+        operation,
+        volume: item.volume,
+        time: v,
+        split: operation === "split",
+        remove: operation === "remove",
+        ...kind === "source-audio" ? { source_track: item.lane } : {}
+      });
+      if (!result) return;
+      const id = result.kind ? result.id : kind === "video" ? result.clip : operation === "remove" ? null : result.id;
+      setTrackSelection(id ? { scope: directScope, kind: result.kind || kind, id } : null);
+      if (kind === "video" || result.kind === "video") {
+        f(id);
+        const position = Math.min(v, Math.max(0, result.duration - 1e-3));
+        if (!timelineTransport.active) Ge.current = position;
+        L(position);
+      }
+    });
+  }
+  async function prepareAgentTask() {
+    return !jo && !agentTaskBusy && await clipEditor.flush() && await captionEditor.close();
+  }
+  async function dispatchAgentTask(data) {
+    if (!await prepareAgentTask()) return false;
+    const result = await at("agent_dispatch", data);
+    if (!result) return false;
+    setAgentOpen(true);
+    refreshAgentRegistry();
+    return true;
+  }
+  async function captionCommand(action, data, throwOnFailure = false) {
+    const changingSource = ["pick_source", "pick_edit_source", "edit_source", "pick_project", "open_recent", "analyze", "analyze_link"].includes(action);
+    const exporting = action === "assemble" || action === "export_editor_draft";
+    if ((changingSource || exporting || ["replace", "clear_replacement", "video_gen_comfy"].includes(action)) && !await clipEditor.flush()) return;
+    if (changingSource && !await captionEditor.close()) return;
+    if (exporting && !await captionEditor.flush()) return;
+    return at(action, data, throwOnFailure);
   }
   function xh(q, G) {
     n(null), r(q), G && (f(G.id), Dc(G.start));
   }
   function Dc(q) {
+    cancelMotionPreview();
+    if (timelineTransport.active) {
+      timelineTransport.seek(q);
+      return;
+    }
     let G = Math.max(0, Math.min(Es || q, q));
     L(G);
     let Xt = Ve.current;
@@ -15940,6 +16535,20 @@ function IN() {
     let G = q.currentTarget;
     if (vS(q), A) return;
     p({ duration: G.duration, width: G.videoWidth, height: G.videoHeight });
+    if (timelineTransport.active) {
+      const requested = Ge.current;
+      Ge.current = null;
+      const audition = playingAfterLoad.current;
+      playingAfterLoad.current = null;
+      if (audition) timelineTransport.playRange(audition.from, audition.end);
+      else {
+        const resume = tr && ae.current?.path === It && ae.current.url !== Yo ? ae.current.position : null;
+        if (resume) ae.current = null;
+        timelineTransport.seek(requested ?? timelineTransport.current());
+        if (resume?.playing) timelineTransport.play();
+      }
+      return;
+    }
     let Xt = ae.current;
     if (tr && Xt?.path === It && Xt.url !== Yo && (ae.current = null, Xt.position)) {
       let { time: Is, playing: bS, volume: _M, muted: wM, rate: MM } = Xt.position;
@@ -15947,25 +16556,112 @@ function IN() {
       });
     }
     Ge.current != null && (G.currentTime = Math.min(G.duration || Ge.current, Ge.current), Ge.current = null);
+    if (playingAfterLoad.current) {
+      const range = playingAfterLoad.current;
+      playingAfterLoad.current = null;
+      playMotion(G, range);
+    }
   }
   function vS(q) {
+    if (timelineTransport.active) return;
     let G = q.currentTarget;
     g(G.muted || G.volume === 0);
   }
   function IM() {
+    if (timelineTransport.active) {
+      timelineTransport.toggleOriginal();
+      return;
+    }
     let q = Ve.current;
     if (!q || A) return;
     let G = q.muted || q.volume === 0;
     G && q.volume === 0 && (q.volume = 0.75), q.muted = !G;
   }
-  function AM(q) {
-    f(q.id), Dc(q.start), l === "analysis" && r("shot");
+  function selectCaptionContext(edit) {
+    return selectEditor(async (isCurrent) => {
+      if (!await clipEditor.flush() || !isCurrent()) return false;
+      const opened = await edit(isCurrent);
+      if (opened && isCurrent()) {
+        setTrackSelection(null);
+        if (Ut) r("shot");
+      }
+      return opened;
+    });
+  }
+  function selectShot(shot, locate, workspace = "shot") {
+    if (!shot || jo) return;
+    return selectEditor(async (isCurrent) => {
+      if (!await clipEditor.flush() || !isCurrent() || !await captionEditor.close(isCurrent) || !isCurrent()) return false;
+      f(shot.id);
+      setTrackSelection(workspace === "shot" ? { scope: directScope, kind: "video", id: shot.id } : null);
+      r(workspace);
+      const time = timelineTransport.active ? timelineTransport.current() : Ve.current?.currentTime ?? v;
+      if (locate && (A || time < shot.start || time >= shot.end)) {
+        Ve.current?.pause();
+        Dc(shot.start);
+      }
+      return true;
+    });
+  }
+  function AM(shot) {
+    return selectShot(shot, true);
+  }
+  function selectPreviewShot() {
+    const time = timelineTransport.active ? timelineTransport.current() : Ve.current?.currentTime ?? v;
+    const layer = editedPreview && layerAtTime(extraTimelineVideo, time);
+    return layer ? selectTimelineMedia(layer, "video-layer") : selectShot(previewShotAt(di, time), false);
+  }
+  async function selectPromptShot(id) {
+    const clip = [...di, ...extraTimelineVideo].find((shot) => (shot.source_id || shot.id) === id);
+    const selected = await selectShot(e.project?.shots.find((shot) => shot.id === id), false, "prompts");
+    if (selected && clip) Dc(clip.start);
+    return selected;
+  }
+  function cancelMotionPreview() {
+    if (motionPreview.current) cancelAnimationFrame(motionPreview.current.request);
+    motionPreview.current = null;
+    playingAfterLoad.current = null;
+  }
+  function playMotion(media, { from, end }) {
+    const audition = { request: 0 };
+    motionPreview.current = audition;
+    function sample() {
+      if (motionPreview.current !== audition) return;
+      if (media.paused || !media.isConnected) {
+        cancelMotionPreview();
+        return;
+      }
+      if (!media.seeking && media.currentTime >= end) {
+        cancelMotionPreview();
+        media.pause();
+        media.currentTime = Math.max(from, end - 5e-3);
+        return;
+      }
+      audition.request = requestAnimationFrame(sample);
+    }
+    media.play().then(() => {
+      if (motionPreview.current === audition) sample();
+    }).catch(() => {
+      if (motionPreview.current === audition) cancelMotionPreview();
+    });
+  }
+  function playRange(from, end) {
+    if (jo || !(end > from)) return;
+    setEditedPreview(true);
+    if (timelineTransport.active) {
+      timelineTransport.playRange(from, end);
+      return;
+    }
+    Dc(from);
+    const range = { from, end };
+    if (A || !Ve.current?.readyState) playingAfterLoad.current = range;
+    else playMotion(Ve.current, range);
   }
   async function LS(q, G) {
-    if (!jo) {
+    if (!jo && await clipEditor.flush() && (G || await captionEditor.close())) {
       w(0);
       try {
-        await HT(q, G, w), await Pt(), !G && setShowInput(false), G && f(G), pt(G ? "镜头替换素材已导入" : "参考视频已导入");
+        await HT(q, G ? clipEditTarget(e.project, G) : l === "shot" ? { edit: 1 } : null, w), await Pt(), !G && setShowInput(false), G && f(G.id), pt(G ? labelText("镜头替换素材已导入") : labelText("参考视频已导入"));
       } catch (Xt) {
         pt(Xt.message, true);
       } finally {
@@ -15973,56 +16669,2031 @@ function IN() {
       }
     }
   }
-  function openInput(mode) {
-    if (jo || linkSubmitting) return;
+  async function openInput(mode) {
+    if (jo || linkSubmitting || !await clipEditor.flush() || !await captionEditor.close()) return;
     Ve.current?.pause();
-    xh("analysis");
+    if (mode || l !== "shot") xh("analysis");
     setShowInput(true);
-    if (mode) setInputMode(mode);
+    setInputMode(mode || "local");
   }
   async function pickLocal() {
     if (jo || linkSubmitting) return;
-    await at("pick_source");
-    const next = await Pt();
-    if (next.source && !next.project) setShowInput(false);
+    const action = l === "shot" ? "pick_edit_source" : "pick_source";
+    if (await captionCommand(action)) setShowInput(false);
+  }
+  async function editCurrentSource() {
+    if (!jo && await captionCommand("edit_source")) setShowInput(false);
   }
   async function analyzeLink() {
     if (jo || linkSubmitting || !linkText.trim()) return;
     setLinkSubmitting(true);
     try {
-      await at("analyze_link", { text: linkText, options: u });
+      await captionCommand("analyze_link", { text: linkText, options: u });
     } finally {
       setLinkSubmitting(false);
     }
   }
-  async function TM() {
-    if (jo || linkSubmitting) return;
-    await at("new");
-    xh("analysis");
-    setShowInput(true);
-    setInputMode("local");
-    setLinkText("");
+  async function navigateProject(change) {
+    if (jo || linkSubmitting || projectSwitch.current) return false;
+    projectSwitch.current = true;
+    setProjectNavigating(true);
+    try {
+      await trackRequest.current;
+      return await change();
+    } finally {
+      projectSwitch.current = false;
+      setProjectNavigating(false);
+    }
   }
-  return (0, _.jsxs)("div", { className: "studio task-" + l + (!ct || showInput ? " source-input-open" : ""), children: [(0, _.jsx)(xN, { state: e, options: u, disabled: jo, command: at, showExport: () => h("export") }), (0, _.jsx)(WorkflowGuide, { state: e, tab: l, onTab: xh, command: at, onExport: () => h("export"), openInput, disabled: jo || linkSubmitting }), (0, _.jsxs)("div", { className: "shell", children: [(0, _.jsx)(SN, { state: e, tab: l, onTab: xh, command: at, disabled: jo, openSettings: () => h("settings"), onNew: TM, advanced: !!i, openAdvanced: ca, onRecent: async (q) => {
-    await at("open_recent", { id: q }) !== void 0 && n(null);
-  } }), (0, _.jsxs)("main", { className: "workarea", hidden: !!i, children: [(0, _.jsx)(xM, { source: ct, playback: bh, videoRef: Ve, onTime: (q) => !A && L(q.currentTarget.currentTime), onMetadata: EM, onImport: LS, onPick: () => openInput(), inputPanel: !ct || showInput ? j.createElement(SourceImportPanel, { state: e, mode: inputMode, setMode: setInputMode, text: linkText, setText: setLinkText, onPick: pickLocal, onAnalyze: analyzeLink, onBack: () => setShowInput(false), disabled: jo, submitting: linkSubmitting }) : null, onVolume: vS, onPreview: () => dn(It, Yo, S?.url === Yo ? S.position : gS(Ve.current)), onPreviewProblem: (q, G) => E({ url: q, position: gS(G) }), preparingPreview: e.active && e.status === "正在生成兼容预览", onOriginal: () => {
-    Ge.current = v, I(null);
-  }, caption: da, captions: e.tracks.length ? V : null, setCaptions: $, upload: T, disabled: jo, metadata: ht }), (0, _.jsx)(SM, { shots: di, source: ct, duration: Es, time: v, selected: fn?.id, current: kc?.id, select: AM, seek: Dc, importFile: LS, audioTracks: e.audio_tracks || [], muted: m, canMute: !!(!A && ct?.url && Es > 0), toggleMute: IM, openMixer: ot })] }), (0, _.jsx)(zT, { tab: l, onTab: r, state: e, options: u, setOption: ci, command: at, hidden: !!i, openAdvanced: ca, openSettings: () => h("settings"), shot: fn, shotIndex: di.indexOf(fn), disabled: jo, playback: I, track: si, setTrack: (q) => me({ source: cn, id: q }), cues: ar, time: v, seek: Dc, notify: pt, openMixer: ot, openInput }), i && (0, _.jsx)(XT, { page: i, setPage: n, close: () => n(null), state: e, options: u, setOption: ci, command: at, disabled: jo, initialShot: fn?.id, openSettings: () => h("settings"), onEditor: xh, onExport: () => h("export"), notify: pt, onPreview: (q) => {
-    n(null), I({ ...q, override: true });
-  } })] }), (0, _.jsxs)("footer", { className: "statusbar" + (e.active ? " working" : ""), children: [(0, _.jsxs)("div", { className: "status-copy", children: [(0, _.jsx)("span", { className: e.error ? "status-dot problem" : "status-dot" }), (0, _.jsx)("span", { "aria-live": "polite", children: T != null ? "正在导入视频" : e.status }), e.active && (0, _.jsx)("span", { className: "status-detail", title: e.logs.at(-1), children: e.logs.at(-1) })] }), (0, _.jsxs)("div", { className: "status-actions", children: [e.project?.exports.length > 0 && (0, _.jsx)(D, { icon: qe, title: e.project.exports[0].name, onClick: () => at("tool_open_exports"), children: "打开成片位置" }), e.project && (0, _.jsx)(D, { kind: "ghost", icon: qe, onClick: () => at("open_folder"), children: "项目文件夹" }), e.active && (0, _.jsx)(D, { kind: "ghost", icon: hu, onClick: () => at("stop"), children: "停止" }), (0, _.jsx)(D, { kind: "ghost", icon: Kl, onClick: () => h("logs"), children: "任务日志" })] })] }), (0, _.jsx)(CN, { open: c === "settings", close: Ie, command: at, state: e, disabled: jo, checkRuntime: () => {
-    Ie(), ca("tools"), at("tool_runtime");
-  } }), e.project && (0, _.jsx)(yN, { open: c === "export", close: Ie, command: at, state: e, openMixer: ot }), (0, _.jsx)(KT, { open: c === "mix", close: Ie, command: at, state: e, time: v, disabled: jo }), (0, _.jsx)(EN, { open: c === "logs", close: Ie, command: at, state: e }), k && (0, _.jsxs)("div", { className: k.error ? "toast error" : "toast", role: k.error ? "alert" : "status", children: [k.error ? (0, _.jsx)(Mo, { size: 18 }) : (0, _.jsx)(na, { size: 18 }), (0, _.jsx)("span", { children: k.message }), (0, _.jsx)(St, { icon: Wa, label: "关闭提示", onClick: () => F(null) })] })] });
+  function openRecentProject(id) {
+    return navigateProject(async () => {
+      if (await captionCommand("open_recent", { id }) === void 0) return false;
+      setShowInput(false);
+      n(null);
+      return true;
+    });
+  }
+  function TM() {
+    return navigateProject(async () => {
+      if (!await clipEditor.flush() || !await captionEditor.close()) return false;
+      if (await at("new") === void 0) return false;
+      xh("analysis");
+      setShowInput(true);
+      setInputMode("local");
+      setLinkText("");
+      return true;
+    });
+  }
+  const editingLayout = !i && !showInput && !!(e.project || captionEditor.draft);
+  const editorMode = editingLayout || l === "shot";
+  const extraTimelineAudio = e.project?.timeline_audio || [];
+  const extraTimelineVideo = e.project?.timeline_video || [];
+  const sourceTimelineAudio = (e.audio_tracks || []).flatMap((track) => track.items || []);
+  const directScope = e.manual_caption_scope;
+  const explicitSelection = trackSelection?.scope === directScope ? trackSelection : null;
+  const captionItem = captionEditor.previewCues.find((cue) => cue.id === captionEditor.selectedId);
+  const chosenLane = explicitSelection?.kind === "audio" ? extraTimelineAudio : explicitSelection?.kind === "source-audio" ? sourceTimelineAudio : explicitSelection?.kind === "video-layer" ? extraTimelineVideo : di;
+  const chosenItem = chosenLane.find((item) => item.id === explicitSelection?.id);
+  const selectedTrack = captionItem ? { kind: "caption", item: captionItem } : chosenItem ? { kind: explicitSelection.kind, item: chosenItem } : null;
+  if (l === "shot" && selectedTrack?.kind === "video-layer") fn = selectedTrack.item;
+  const visibleLayer = editedPreview && layerAtTime(extraTimelineVideo, v);
+  const splitTarget = selectedTrack || (kc ? { kind: "video", item: kc } : null);
+  const trackDisabled = jo || trackBusy || captionEditor.busy || !!c || !!i || showInput;
+  const videoMinimum = Math.max(0.04, 1 / (ct?.fps || 24));
+  const cutItem = splitTarget?.item;
+  const cutEnd = cutItem?.last !== void 0 && ["audio", "video-layer", "source-audio"].includes(splitTarget.kind) ? Math.min(Es, cutItem.start + cutItem.last - cutItem.first) : cutItem?.end;
+  const cutMinimum = splitTarget?.kind === "video" ? videoMinimum : 0.04;
+  const timelineEditor = {
+    target: selectedTrack ? { kind: selectedTrack.kind, id: selectedTrack.item.id } : null,
+    disabled: trackDisabled,
+    videoMinimum,
+    magnetic: !!e.project?.timeline_magnet,
+    setMagnet: e.project ? setMainMagnet : null,
+    snapping: e.settings.timeline_snap !== false,
+    toggleSnap: () => at("interface_preferences", { timeline_snap: e.settings.timeline_snap === false }),
+    canSplit: !trackDisabled && !!cutItem && Math.min(v - cutItem.start, cutEnd - v) >= cutMinimum - 1e-3 && (splitTarget.kind !== "caption" || !!cutItem.text.trim()),
+    canDelete: !trackDisabled && !!selectedTrack,
+    split: () => editTimelineTrack(splitTarget, "split"),
+    remove: () => editTimelineTrack(selectedTrack, "remove"),
+    pause: pauseEditorPlayback,
+    selectMedia: selectTimelineMedia,
+    hasVideo: di.length > 0 || extraTimelineVideo.length > 0,
+    addTrack: e.project ? (kind) => workspaceCommand("timeline_track_add", { project: e.project.id, kind }) : null,
+    addMedia: addTimelineAsset,
+    editVideo: (item, operation, range) => editTimelineTrack({ kind: "video", item }, operation, range),
+    stepVideo: (item, direction) => {
+      const index = di.indexOf(item) + direction;
+      if (di[index]) return editTimelineTrack({ kind: "video", item }, direction < 0 ? "earlier" : "later");
+    },
+    editMedia: (item, kind, operation, range) => editTimelineTrack({ kind, item }, operation, range)
+  };
+  return (0, _.jsxs)("div", { className: "studio task-" + l + (editorMode ? " editor-mode" : "") + (!ct || showInput ? " source-input-open" : ""), children: [
+    (0, _.jsx)(xN, { state: e, options: u, disabled: jo, command: captionCommand, showExport: showMovieExport, openLogs: () => h("logs"), importingVideo: T != null, undo: undoWorkbenchEdit, openSettings: showSettings, openAdvanced: ca, advanced: !!i, directImport: l === "shot" ? pickLocal : null, onNew: TM, onRecent: openRecentProject, onBrowse: () => navigateProject(() => captionCommand("pick_project")) }),
+    !editorMode && (0, _.jsx)(WorkflowGuide, { state: e, tab: l, onTab: selectWorkspace, onExport: showMovieExport, openInput, disabled: jo || linkSubmitting }),
+    (0, _.jsxs)("div", { className: "shell" + (agentOpen ? " agent-expanded" : "") + (editingLayout ? " editor-layout" : ""), children: [(0, _.jsx)(AgentSidebar, {
+      agentOpen,
+      setAgentOpen,
+      settingsOpen: c === "settings",
+      refreshKey: agentRegistryRevision,
+      shot: fn,
+      time: v,
+      onWorkbenchChange: Pt,
+      onTimelineEdit: openAgentTimeline,
+      onTaskBusy: setAgentTaskBusy,
+      prepareAgentTask,
+      openProjectTools: showProjectTools,
+      openResult: async (id) => {
+        if (await clipEditor.flush() && await captionEditor.close() && await at("agent_open_result", { id })) {
+          setShowInput(false);
+          n(null);
+        }
+      },
+      state: e,
+      tab: l,
+      onTab: selectWorkspace,
+      command: captionCommand,
+      disabled: jo,
+      openSettings: showSettings,
+      onNew: TM,
+      advanced: !!i,
+      openAdvanced: ca
+    }), (0, _.jsxs)("main", { className: "workarea", hidden: !!i, children: [(0, _.jsx)(xM, {
+      source: ct,
+      playback: bh,
+      videoRef: Ve,
+      onTime: (q) => !A && !timelineTransport.active && L(q.currentTarget.currentTime),
+      onMetadata: EM,
+      onImport: LS,
+      onPick: () => openInput(),
+      inputPanel: !ct || showInput ? j.createElement(SourceImportPanel, { state: e, mode: inputMode, setMode: setInputMode, text: linkText, setText: setLinkText, onPick: pickLocal, onAnalyze: analyzeLink, onBack: () => setShowInput(false), disabled: jo, submitting: linkSubmitting, editing: l === "shot", onEditSource: editCurrentSource }) : e.project?.timeline_empty && !A ? j.createElement(EmptyTimelinePreview) : null,
+      onVolume: vS,
+      onPreview: () => dn(It, Yo, S?.url === Yo ? S.position : gS(Ve.current)),
+      onPreviewProblem: (q, G) => E({ url: q, position: gS(G) }),
+      preparingPreview: e.active && e.status === "正在生成兼容预览",
+      onOriginal: () => {
+        Ge.current = v, I(null);
+      },
+      caption: da,
+      captionEditor,
+      timelineTransport,
+      timelineTime: v,
+      composition: editingLayout && e.project?.canvas ? {
+        editor: clipEditor,
+        project: e.project,
+        enabled: editedPreview,
+        setEnabled: setEditedPreview,
+        selected: fn,
+        select: selectPreviewShot,
+        handles: l === "shot" && !captionEditor.draft && fn?.id != null && fn.id === (visibleLayer || kc)?.id,
+        disabled: jo,
+        library: e.motion,
+        time: v,
+        transport: timelineTransport
+      } : null,
+      captions: e.tracks.length ? V : null,
+      setCaptions: $,
+      upload: T,
+      disabled: jo,
+      metadata: ht
+    }), (0, _.jsx)(SM, {
+      shots: di,
+      source: ct,
+      duration: Es,
+      time: v,
+      selected: selectedTrack?.kind === "video" ? selectedTrack.item.id : null,
+      current: kc?.id,
+      select: AM,
+      seek: Dc,
+      importFile: LS,
+      audioTracks: e.project?.timeline_empty ? [] : e.audio_tracks || [],
+      muted: timelineTransport.active ? timelineTransport.originalMuted || e.audio_mix?.original?.enabled === false : m,
+      canMute: !!(!A && ct?.url && Es > 0 && (!timelineTransport.active || e.audio_mix?.original?.enabled !== false)),
+      toggleMute: IM,
+      openMixer: ot,
+      captionEditor,
+      resizable: editingLayout,
+      showTrackTools: e.project ? showTrackTools : void 0,
+      extraAudio: extraTimelineAudio,
+      extraVideo: extraTimelineVideo,
+      tracks: e.project?.timeline_tracks || [],
+      editor: timelineEditor,
+      timelineEmpty: e.project?.timeline_empty,
+      stemScope: e.project?.id ?? e.source?.path ?? null
+    })] }), (0, _.jsx)(zT, { tab: l, onTab: r, state: e, options: u, setOption: ci, command: captionCommand, hidden: !!i, openAdvanced: ca, openSettings: showSettings, shot: fn, shotIndex: di.indexOf(fn), disabled: jo, playback: I, track: si, setTrack: (q) => me({ source: cn, id: q }), cues: ar, time: v, seek: Dc, notify: pt, openMixer: ot, openInput, captionEditor, clipEditor, playRange, selectPromptShot, dispatchAgentTask, agentTaskBusy }), i && (0, _.jsx)(XT, { page: i, setPage: n, close: () => n(null), state: e, options: u, setOption: ci, command: at, disabled: jo, initialShot: fn?.source_id || fn?.id, openSettings: () => showSettings("generation"), onEditor: xh, onExport: showMovieExport, notify: pt, onPreview: (q) => {
+      n(null), I({ ...q, override: true });
+    } })] }),
+    (0, _.jsx)(CN, { open: c === "settings", initialTab: settingsEntry.tab, initialAgent: settingsEntry.provider, onAgentChange: refreshAgentRegistry, close: Ie, command: at, state: e, disabled: jo, checkRuntime: () => {
+      Ie(), ca("tools"), at("tool_runtime");
+    } }),
+    e.project && (0, _.jsx)(yN, { open: c === "export", close: Ie, command: captionCommand, disabled: jo, state: e, openMixer: ot }),
+    (0, _.jsx)(KT, { open: c === "mix" || c === "export-mix", fromExport: c === "export-mix", close: Ie, command: at, state: e, time: v, disabled: jo }),
+    e.project && c === "project-tools" && j.createElement(ProjectToolkit, { key: e.project.id, state: e, disabled: jo, command: workspaceCommand, close: Ie, seek: Dc }),
+    e.project && c === "track-tools" && j.createElement(ClipTrackEditor, { key: e.project.id, project: e.project, shot: fn?.lane ? kc || di[0] : fn, time: v, command: workspaceCommand, close: Ie, disabled: jo, initialAudio }),
+    (0, _.jsx)(EN, { open: c === "logs", close: Ie, command: at, state: e }),
+    k && (0, _.jsxs)("div", { className: k.error ? "toast error" : "toast", role: k.error ? "alert" : "status", children: [k.error ? (0, _.jsx)(Mo, { size: 18 }) : (0, _.jsx)(na, { size: 18 }), (0, _.jsx)("span", { children: k.message }), (0, _.jsx)(St, { icon: Wa, label: labelText("关闭提示"), onClick: () => F(null) })] })
+  ] });
+}
+/*! Marked
+# License information
+
+## Contribution License Agreement
+
+If you contribute code to this project, you are implicitly allowing your code
+to be distributed under the MIT license. You are also implicitly verifying that
+all code is your original work. `</legalese>`
+
+## Marked
+
+Copyright (c) 2018+, MarkedJS (https://github.com/markedjs/)
+Copyright (c) 2011-2018, Christopher Jeffrey (https://github.com/chjj/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## Markdown
+
+Copyright © 2004, John Gruber
+http://daringfireball.net/
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+* Neither the name “Markdown” nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+*/
+var agentMarkdown = (() => {
+  var ne2 = Object.defineProperty;
+  var Qe2 = Object.getOwnPropertyDescriptor;
+  var He = Object.getOwnPropertyNames;
+  var Ne = Object.prototype.hasOwnProperty;
+  var Fe2 = (r, e) => {
+    for (var t in e) ne2(r, t, { get: e[t], enumerable: true });
+  }, We = (r, e, t, n) => {
+    if (e && typeof e == "object" || typeof e == "function") for (let s of He(e)) !Ne.call(r, s) && s !== t && ne2(r, s, { get: () => e[s], enumerable: !(n = Qe2(e, s)) || n.enumerable });
+    return r;
+  };
+  var Xe = (r) => We(ne2({}, "__esModule", { value: true }), r);
+  var Vt2 = {};
+  Fe2(Vt2, { lexer: () => Oe2 });
+  function ae() {
+    return { async: false, breaks: false, extensions: null, gfm: true, hooks: null, pedantic: false, renderer: null, silent: false, tokenizer: null, walkTokens: null };
+  }
+  var q = ae();
+  function _e2(r) {
+    q = r;
+  }
+  var E = { exec: () => null };
+  function I(r) {
+    let e = [];
+    return (t) => {
+      let n = Math.max(0, Math.min(3, t - 1)), s = e[n];
+      return s || (s = r(n), e[n] = s), s;
+    };
+  }
+  function g(r, e = "") {
+    let t = typeof r == "string" ? r : r.source, n = { replace: (s, l) => {
+      let i = typeof l == "string" ? l : l.source;
+      return i = i.replace(S.caret, "$1"), t = t.replace(s, i), n;
+    }, getRegex: () => new RegExp(t, e) };
+    return n;
+  }
+  var Pe = ((r = "") => {
+    try {
+      return !!new RegExp("(?<=1)(?<!1)" + r);
+    } catch {
+      return false;
+    }
+  })(), S = { codeRemoveIndent: /^(?: {0,3}\t| {1,4})/gm, listInterruptsParagraph: /^ {0,3}(?:[*+-]|1[.)])[ \t]+[^ \t\n]/, outputLinkReplace: /\\([\[\]])/g, indentCodeCompensation: /^(\s+)(?:```)/, beginningSpace: /^\s+/, endingHash: /#$/, startingSpaceChar: /^ /, endingSpaceChar: / $/, endingSpaceTabChar: /[ \t]$/, nonSpaceChar: /[^ ]/, newLineCharGlobal: /\n/g, tabCharGlobal: /\t/g, leadingSpaceTab: /^[ \t]+/, multipleSpaceGlobal: /\s+/g, blankLine: /^[ \t]*$/, doubleBlankLine: /\n[ \t]*\n[ \t]*$/, blockquoteStart: /^ {0,3}>/, blockquoteSetextReplace: /\n {0,3}((?:=+|-+)[ \t]*)(?=\n|$)/g, blockquoteSetextReplace2: /^ {0,3}>[ \t]?/gm, blockquoteMarkerWhitespace: /^( {0,3}>)(\t[ \t]*)/gm, nestedBlockMarker: /^ {0,3}(?:(?:[*+-]|\d{1,9}[.)])(?: |$)|> ?)/, listReplaceNesting: /^ {1,4}(?=( {4})*[^ ])/g, listIsTask: /^\[[ xX]\][ \t]+\S/, listReplaceTask: /^\[[ xX]\][ \t]+/, listTaskCheckbox: /\[[ xX]\]/, anyLine: /\n.*\n/, hrefBrackets: /^<(.*)>$/, tableDelimiter: /[:|]/, tableAlignChars: /^\||\| *$/g, tableRowBlankLine: /\n[ \t]*$/, tableAlignRight: /^ *-+: *$/, tableAlignCenter: /^ *:-+: *$/, tableAlignLeft: /^ *:-+ *$/, startATag: /^<a /i, endATag: /^<\/a>/i, startPreScriptTag: /^<(pre|code|kbd|script)(\s|>)/i, endPreScriptTag: /^<\/(pre|code|kbd|script)(\s|>)/i, startAngleBracket: /^</, endAngleBracket: />$/, pedanticHrefTitle: /^([^'"]*[^\s])\s+(['"])(.*)\2/, unicodeAlphaNumeric: /[\p{L}\p{N}]/u, numericCharacterReference: /&#(?:(\d{1,7})|[Xx]([A-Fa-f0-9]{1,6}));/, numericCharacterReferenceOrAmpersand: /&#(?:(\d{1,7})|[Xx]([A-Fa-f0-9]{1,6}));|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g, escapeTest: /[&<>"']/, escapeReplace: /[&<>"']/g, escapeTestNoEncode: /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/, escapeReplaceNoEncode: /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g, caret: /(^|[^\[])\^/g, percentDecode: /%25/g, findPipe: /\|/g, splitPipe: / \|/, slashPipe: /\\\|/g, carriageReturn: /\r\n|\r/g, spaceLine: /^ +$/gm, notSpaceStart: /^\S*/, endingNewline: /\n$/, listItemRegex: (r) => new RegExp(`^( {0,3}${r})((?:[	 ][^\\n]*)?(?:\\n|$))`), nextBulletRegex: I((r) => new RegExp(`^ {0,${r}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`)), hrRegex: I((r) => new RegExp(`^ {0,${r}}((?:-[ 	]*){3,}|(?:_[ 	]*){3,}|(?:\\*[ 	]*){3,})(?:\\n+|$)`)), fencesBeginRegex: I((r) => new RegExp(`^ {0,${r}}(?:\`\`\`|~~~)`)), headingBeginRegex: I((r) => new RegExp(`^ {0,${r}}#{1,6}(?:\\s|$)`)), pedanticHeadingBeginRegex: I((r) => new RegExp(`^ {0,${r}}#`)), htmlBeginRegex: I((r) => new RegExp(`^ {0,${r}}(?:</?(?:${ce2})(?:[ \\t]+|$|/?>)|<(?:(?:script|pre|style|textarea)(?:[\\s>]|$)|!--)|<\\?|<![A-Za-z]|<!\\[CDATA\\[)`, "i")), blockquoteBeginRegex: I((r) => new RegExp(`^ {0,${r}}>`)), nestedContainerMarkers: /^(?: {0,3}(?:(?:[*+-]|\d{1,9}[.)])[ \t]+|>[ \t]?))+/ }, Ge = /^(?:[ \t]*(?:\n|$))+/, Ue2 = /^((?: {4}| {0,3}\t)[^\n]+(?:\n(?:[ \t]*(?:\n|$))*)?)+/, Ke = /^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}(?:(?=`)\1`*|(?=~)\1~*) *(?=\n|$)|$)/, W3 = /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/, Je2 = /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/, oe2 = / {0,3}(?:[*+-]|\d{1,9}[.)])/, ce2 = "address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul", X3 = g(" {0,3}(?:</?(?:tag)(?:[ \\t]+|\\n|/?>)|<(?:(?:script|pre|style|textarea)(?:[\\s>]|$)|!--)|<\\?|<![A-Za-z]|<!\\[CDATA\\[)").replace("tag", ce2).getRegex(), Ce2 = /^(?!bull |blockCode|fences|blockquote|heading|html|table)((?:.|\n(?!\s*?\n|bull |fences|blockquote|heading|hr|html|table))+?)\n {0,3}(=+|-+)[ \t]*(?:\n+|$)/, Ie = g(Ce2).replace(/bull/g, oe2).replace(/blockCode/g, /(?: {4}| {0,3}\t)/).replace(/fences/g, / {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g, / {0,3}>/).replace(/heading/g, / {0,3}#{1,6}(?:\s|$)/).replace(/hr/g, / {0,3}(?:(?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/).replace(/\|table/g, "").replace(/html/g, X3).getRegex(), Ve = g(Ce2).replace(/bull/g, oe2).replace(/blockCode/g, /(?: {4}| {0,3}\t)/).replace(/fences/g, / {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g, / {0,3}>/).replace(/heading/g, / {0,3}#{1,6}(?:\s|$)/).replace(/hr/g, / {0,3}(?:(?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/).replace(/table/g, / {0,3}\|?(?:[:\- ]*\|)+[\:\- ]*\n/).replace(/html/g, X3).getRegex(), he2 = /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table|[ \t]+\n)[^\n]+)*)/, Ye = /^[^\n]+/, pe2 = /(?!\s*\])(?:\\[\s\S]|[^\[\]\\\n]|\n(?![ \t]*\n))+/, et = g(/^ {0,3}\[(label)\]: *(?:\n[ \t]*)?([^<\s][^\s]*|<(?:\\.|[^\n<>\\])*>)(?:(?: +(?:\n[ \t]*)?| *\n[ \t]*)(title))? *(?:\n+|$)/).replace("label", pe2).replace("title", /(?:"(?:\\[\s\S]|[^"\\])*"|'(?:\\[\s\S]|[^'\\\n]|\n(?!\n))*'|\((?:\\[\s\S]|[^()\\])*\))/).getRegex(), tt2 = g(/^(bull)([ \t][^\n]*?)?(?:\n|$)/).replace(/bull/g, oe2).getRegex(), ue = /<!--(?:-?>|[\s\S]*?(?:-->|$))/, rt2 = g("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n*|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>[^\\n]*\\n*|$)|<![A-Z][\\s\\S]*?(?:>[^\\n]*\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>[^\\n]*\\n*|$)|</?(tag)(?:[ \\t]+|\\n|/?>|$)[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|<(?!(?:script|pre|style|textarea)(?![a-z0-9-]))([a-z][a-z0-9-]*)(?:attribute)*?[ \\t]*/?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|</[a-z][a-z0-9-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$))", "i").replace("comment", ue).replace("tag", ce2).replace("attribute", /[ \t]+[a-zA-Z:_][\w.:-]*(?:[ \t]*=[ \t]*"[^"\n]*"|[ \t]*=[ \t]*'[^'\n]*'|[ \t]*=[ \t]*[^\s"'=<>`]+)?/).getRegex(), Ee = (r) => g(he2).replace("hr", W3).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("|lheading", "").replace("|table", "").replace("blockquote", " {0,3}>").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*(?:\\n|$))|~~~)[^\\n]*(?:\\n|$)").replace("list", r).replace("html", X3).getRegex(), nt = Ee(/ {0,3}(?:[*+-]|1[.)])[ \t]+[^ \t\n]/), st2 = Ee(/ {0,3}(?:[*+-]|\d{1,9}[.)])(?:[ \t]|\n|$)/), it2 = g(/^( {0,3}> ?(?:(?![ \t]*(?:\n|$))(paragraph)|[^\n]*)(?:\n|$))+/).replace("paragraph", st2).getRegex(), ge2 = { blockquote: it2, code: Ue2, def: et, fences: Ke, heading: Je2, hr: W3, html: rt2, lheading: Ie, list: tt2, newline: Ge, paragraph: nt, table: E, text: Ye }, be2 = g("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr", W3).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("blockquote", " {0,3}>").replace("code", "(?: {4}| {0,3}	)[^\\n]").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*(?:\\n|$))|~~~)[^\\n]*(?:\\n|$)").replace("list", " {0,3}(?:[*+-]|1[.)])[ \\t]").replace("html", X3).getRegex(), lt = { ...ge2, lheading: Ve, table: be2, paragraph: g(he2).replace("hr", W3).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("|lheading", "").replace("table", be2).replace("blockquote", " {0,3}>").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*(?:\\n|$))|~~~)[^\\n]*(?:\\n|$)").replace("list", " {0,3}(?:[*+-]|1[.)])[ \\t]+[^ \\t\\n]").replace("html", X3).getRegex() }, at = { ...ge2, html: g(`^ *(?:comment(?: *\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1>(?: *\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?>(?: *\\n{2,}|\\s*$))`).replace("comment", ue).replace(/tag/g, "(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(), def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/, heading: /^(#{1,6})(.*)(?:\n+|$)/, fences: E, lheading: /^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/, paragraph: g(he2).replace("hr", W3).replace("heading", ` *#{1,6} *[^
+]`).replace("|table", "").replace("blockquote", " {0,3}>").replace("|fences", "").replace("|list", "").replace("|html", "").replace("|tag", "").replace("lheading", Ie).getRegex() }, ot = /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/, ct = /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/, Le = /^( {2,}|\\)\n(?!\s*$)[ \t]*/, ht = /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/, T = /[\p{P}\p{S}]/u, O3 = /[\s\p{P}\p{S}]/u, G = /[^\s\p{P}\p{S}]/u, pt = g(/^((?![*_])punctSpace)/, "u").replace(/punctSpace/g, O3).getRegex(), ut = /[\p{Pi}\p{Ps}"']/u, Be2 = /(?!~)[\p{P}\p{S}]/u, gt = /(?!~)[\s\p{P}\p{S}]/u, kt2 = /(?:[^\s\p{P}\p{S}]|~)/u, dt2 = g(/link|precode-code|html/, "g").replace("link", /\[(?:[^\[\]`]|(?<a>`+)[^`]+\k<a>(?!`))*?\]\((?:\\[\s\S]|[^\\\(\)]|\((?:\\[\s\S]|[^\\\(\)])*\))*\)/).replace("precode-", Pe ? "(?<!`)()" : "(^^|[^`])").replace("code", /(?<b>`+)[^`]+\k<b>(?!`)/).replace("html", /<(?! )[^<>]*?>/).getRegex(), qe2 = /^(?:\*+(?:((?!\*)punct)|([^\s*]))?)|^_+(?:((?!_)punct)|([^\s_]))?/, ft = g(qe2, "u").replace(/punct/g, T).getRegex(), xt2 = g(qe2, "u").replace(/punct/g, Be2).getRegex(), bt2 = /^(?:\*+(?:((?!\*)(?!openQuote)punct)|([^\s*]))?)|^_+(?:((?!_)(?!openQuote)punct)|([^\s_]))?/, mt2 = g(bt2, "u").replace(/openQuote/g, ut).replace(/punct/g, T).getRegex(), ve = "^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)punctSpace(\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|notPunctSpace(\\*+)(?=notPunctSpace)", wt2 = g(ve, "gu").replace(/notPunctSpace/g, G).replace(/punctSpace/g, O3).replace(/punct/g, T).getRegex(), St2 = g(ve, "gu").replace(/notPunctSpace/g, kt2).replace(/punctSpace/g, gt).replace(/punct/g, Be2).getRegex(), $t2 = "^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)[\\s](\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|(?:(?!\\*)punct|notPunctSpace)(\\*+)(?!\\*)(?=notPunctSpace)", yt2 = g($t2, "gu").replace(/notPunctSpace/g, G).replace(/punctSpace/g, O3).replace(/punct/g, T).getRegex(), Rt2 = g("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)punctSpace(_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)", "gu").replace(/notPunctSpace/g, G).replace(/punctSpace/g, O3).replace(/punct/g, T).getRegex(), At = "^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)[\\s](_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)|(?:(?!_)punct|notPunctSpace)(_+)(?!_)(?=notPunctSpace)", Tt = g(At, "gu").replace(/notPunctSpace/g, G).replace(/punctSpace/g, O3).replace(/punct/g, T).getRegex(), zt2 = g(/^~~?(?:((?!~)punct)|[^\s~])/, "u").replace(/punct/g, T).getRegex(), _t = "^[^~]+(?=[^~])|(?!~)punct(~~?)(?=[\\s]|$)|notPunctSpace(~~?)(?!~)(?=punctSpace|$)|(?!~)punctSpace(~~?)(?=notPunctSpace)|[\\s](~~?)(?!~)(?=punct)|(?!~)punct(~~?)(?!~)(?=punct)|notPunctSpace(~~?)(?=notPunctSpace)", Pt = g(_t, "gu").replace(/notPunctSpace/g, G).replace(/punctSpace/g, O3).replace(/punct/g, T).getRegex(), Ct2 = g(/\\(punct)/, "gu").replace(/punct/g, T).getRegex(), It = g(/(`+)(?:[^`]|[^`][\s\S]*?[^`])\1(?!`)|`+|\\(punct)/, "gu").replace(/punct/g, T).getRegex(), Et = g(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme", /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email", /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(), Lt = g(ue).replace("(?:-->|$)", "-->").getRegex(), Bt = g("^comment|^</[a-zA-Z][a-zA-Z0-9-]*\\s*>|^<[a-zA-Z][a-zA-Z0-9-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment", Lt).replace("attribute", /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(), Ze2 = /\[(?:\\[\s\S]|[^\[\]\\])*\]/, Y = g(/(?:\[(?:brackets|\\[\s\S]|[^\[\]\\])*\]|\\[\s\S]|`+(?!`)[^`]*?`+(?!`)|``+(?=\])|[^\[\]\\`])*?/).replace("brackets", Ze2).getRegex(), qt = g(/^!?\[(label)\]\([ \t\n]*(href)(?:(?:[ \t]+(?:\n[ \t]*)?|\n[ \t]*)(title))?[ \t\n]*\)/).replace("label", Y).replace("href", /<(?:\\.|[^\n<>\\])*>|(?!<)[^ \t\n\x00-\x1f]+|(?=\))/).replace("title", /"(?:\\[\s\S]|[^"\\])*"|'(?:\\[\s\S]|[^'\\])*'|\((?:\\[\s\S]|[^)\\])*\)/).getRegex(), vt = g(/^!?\[(label)\]\[(ref)\]/).replace("label", Y).replace("ref", pe2).getRegex(), Zt = g(/^!?\[(ref)\](?:\[\])?/).replace("ref", pe2).getRegex(), me = /(?!\s*\])(?:\\[\s\S]|[^\[\]\\]){1,999}/, Dt2 = g(/(?:[^\[\]\\`]*(?:\[(?:brackets|\\[\s\S]|[^\[\]\\])*\]|\\[\s\S]|`+(?!`)[^`]*?`+(?!`)|``+(?=\]))){0,999}?[^\[\]\\`]*?/).replace("brackets", Ze2).getRegex(), Mt2 = g("reflink|nolink(?!\\()", "g").replace("reflink", g(/^!?\[(label)\]\[(ref)\]/).replace("label", Dt2).replace("ref", me).getRegex()).replace("nolink", g(/^!?\[(ref)\](?:\[\])?/).replace("ref", me).getRegex()).getRegex(), we = /[hH][tT][tT][pP][sS]?|[fF][tT][pP]/, Ot2 = /[A-Za-z0-9._+-]+@[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![\w-])/, jt = g(/(?:mailto:email|xmpp:email(?:\/[A-Za-z0-9@.]+)?)/).replace(/email/g, Ot2).getRegex(), ke = { _backpedal: E, anyPunctuation: Ct2, anyPunctuationOutsideCode: It, autolink: Et, blockSkip: dt2, br: Le, code: ct, del: E, delLDelim: E, delRDelim: E, emStrongLDelim: ft, emStrongRDelimAst: wt2, emStrongRDelimUnd: Rt2, escape: ot, link: qt, nolink: Zt, punctuation: pt, reflink: vt, reflinkSearch: Mt2, tag: Bt, text: ht, url: E }, Qt = { ...ke, emStrongLDelim: mt2, emStrongRDelimAst: yt2, emStrongRDelimUnd: Tt, link: g(/^!?\[(label)\]\((.*?)\)/).replace("label", Y).getRegex(), reflink: g(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label", Y).getRegex() }, se = { ...ke, emStrongRDelimAst: St2, emStrongLDelim: xt2, delLDelim: zt2, delRDelim: Pt, url: g(/^emailProtocol|^((?:protocol):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/).replace("emailProtocol", jt).replace("protocol", we).replace("email", /[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![\w-])/).getRegex(), _backpedal: /(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/, del: /^(~~?)(?=[^\s~])((?:\\[\s\S]|[^\\])*?(?:\\[\s\S]|[^\s~\\]))\1(?=[^~]|$)/, text: g(/^(?:[^a-zA-Z0-9](?=emailProtocol)|(`+|~+|[^`~])(?:(?=[`~])|(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|protocol:\/\/|wwwStart|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9](?=emailProtocol)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@))))/).replace("protocol", we).replace(/emailProtocol/g, /(?:mailto|xmpp):/).replace("wwwStart", Pe ? "(?<![^\\s*_~(])www\\." : "www\\.").getRegex() }, Ht = { ...se, br: g(Le).replace("{2,}", "*").getRegex(), text: g(se.text).replace("\\b_", "\\b_| {2,}\\n").replace(/\{2,\}/g, "*").getRegex() }, J = { normal: ge2, gfm: lt, pedantic: at }, N3 = { normal: ke, gfm: se, breaks: Ht, pedantic: Qt }, Nt = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }, Se2 = (r) => Nt[r];
+  function $(r, e) {
+    if (e) {
+      if (S.escapeTest.test(r)) return r.replace(S.escapeReplace, Se2);
+    } else if (S.escapeTestNoEncode.test(r)) return r.replace(S.escapeReplaceNoEncode, Se2);
+    return r;
+  }
+  function Ft2(r) {
+    return S.numericCharacterReference.test(r) ? r.replace(S.numericCharacterReferenceOrAmpersand, (e, t, n) => {
+      if (t === void 0 && n === void 0) return "&amp;";
+      let s = t === void 0 ? Number.parseInt(n, 16) : Number.parseInt(t, 10);
+      return s === 0 || s > 1114111 || s >= 55296 && s <= 57343 ? "�" : s === 38 ? "&amp;" : String.fromCodePoint(s);
+    }) : r;
+  }
+  function $e(r) {
+    try {
+      r = encodeURI(r).replace(S.percentDecode, "%");
+    } catch {
+      return null;
+    }
+    return r;
+  }
+  function ye(r, e) {
+    let t = r.replace(S.findPipe, (l, i, a) => {
+      let o = false, p = i;
+      for (; --p >= 0 && a[p] === "\\"; ) o = !o;
+      return o ? "|" : " |";
+    }), n = t.split(S.splitPipe), s = 0;
+    if (n[0].trim() || n.shift(), n.length > 0 && !n.at(-1)?.trim() && n.pop(), e) if (n.length > e) n.splice(e);
+    else for (; n.length < e; ) n.push("");
+    for (; s < n.length; s++) n[s] = n[s].trim().replace(S.slashPipe, "|");
+    return n;
+  }
+  function _3(r, e, t) {
+    let n = r.length;
+    if (n === 0) return "";
+    let s = 0;
+    for (; s < n; ) {
+      let l = r.charAt(n - s - 1);
+      if (l === e && !t) s++;
+      else if (l !== e && t) s++;
+      else break;
+    }
+    return r.slice(0, n - s);
+  }
+  function Re(r) {
+    let e = r.split(`
+`), t = e.length - 1;
+    for (; t >= 0 && S.blankLine.test(e[t]); ) t--;
+    return e.length - t <= 2 ? r : e.slice(0, t + 1).join(`
+`);
+  }
+  function ee(r) {
+    return r.trim().replace(S.multipleSpaceGlobal, " ").toLowerCase().toUpperCase().toLowerCase();
+  }
+  function Ae(r, e) {
+    if (r.indexOf(e[0]) === -1 && r.indexOf(e[1]) === -1) return -1;
+    let t = 0;
+    for (let n = 0; n < r.length; n++) if (r[n] === "\\") n++;
+    else if (r[n] === e[0]) t++;
+    else if (r[n] === e[1] && (t--, t < 0)) return n;
+    return t > 0 ? -2 : -1;
+  }
+  var M3 = /* @__PURE__ */ new WeakMap();
+  function de(r) {
+    let e = { "*": -1, _: -1 }, t = -1, n = r.length;
+    for (let s = 0; s < n; s++) {
+      let l = r[s];
+      if (l !== "*" && l !== "_" && l !== "~") continue;
+      let i = s === 0 ? `
+` : r[s - 1], a = s + 1;
+      for (; a < n && r[a] === l; ) a++;
+      i !== " " && i !== "	" && i !== `
+` && i !== "\r" && i !== "\f" && (l === "~" ? t = s : e[l] = s), s = a - 1;
+    }
+    return { maskedSrc: r, lastPossibleEmStrongCloserIndex: e, lastPossibleDelCloserIndex: t };
+  }
+  function Wt(r, e) {
+    let t = de(e), n = M3.get(r);
+    n ? n.push(t) : M3.set(r, [t]);
+  }
+  function Xt(r) {
+    let e = M3.get(r);
+    e && (e.pop(), e.length === 0 && M3.delete(r));
+  }
+  function De2(r, e, t) {
+    let n = M3.get(r)?.at(-1);
+    return n && n.maskedSrc === e ? n.lastPossibleEmStrongCloserIndex[t] : de(e).lastPossibleEmStrongCloserIndex[t];
+  }
+  function Me(r, e) {
+    let t = M3.get(r)?.at(-1);
+    return t && t.maskedSrc === e ? t.lastPossibleDelCloserIndex : de(e).lastPossibleDelCloserIndex;
+  }
+  function V(r, e = 0) {
+    let t = e, n = "";
+    for (let s of r) if (s === "	") {
+      let l = 4 - t % 4;
+      n += " ".repeat(l), t += l;
+    } else n += s, t++;
+    return n;
+  }
+  function Gt2(r, e) {
+    let t = "";
+    for (let n = 0; n < r.length; n++) {
+      if (r[n] === "`") {
+        let s = e.inline.code.exec(r.slice(n));
+        if (s) {
+          t += s[0], n += s[0].length - 1;
+          continue;
+        }
+      }
+      if (r[n] === "\\" && (r[n + 1] === "[" || r[n + 1] === "]")) {
+        t += r[n + 1], n++;
+        continue;
+      }
+      t += r[n];
+    }
+    return t;
+  }
+  function Te2(r, e, t, n, s) {
+    let l = e.href, i = e.title || null, a = Gt2(r[1], s), o = r[0].charAt(0) === "!", p = n.state.inLink, c = n.state.linkEmitted, u = n.state.inRawBlock;
+    n.state.inLink = true, n.state.linkEmitted = false;
+    let h = n.inlineTokens(a), k = n.state.linkEmitted;
+    if (n.state.linkEmitted = c, n.state.inLink = p, !o) {
+      if (k) {
+        n.state.inRawBlock = u;
+        return;
+      }
+      n.state.linkEmitted = true;
+    }
+    return { type: o ? "image" : "link", raw: t, href: l, title: i, text: a, tokens: h };
+  }
+  function Ut(r, e, t) {
+    let n = r.match(t.other.indentCodeCompensation);
+    if (n === null) return e;
+    let s = n[1];
+    return e.split(`
+`).map((l) => {
+      let i = l.match(t.other.beginningSpace);
+      if (i === null) return l;
+      let [a] = i;
+      return l.slice(Math.min(a.length, s.length));
+    }).join(`
+`);
+  }
+  function ze2(r, e, t, n) {
+    if (!e.includes("<")) return false;
+    for (let s = 0; s < e.length; s++) {
+      if (e[s] === "\\") {
+        s++;
+        continue;
+      }
+      if (e[s] === "`") {
+        let a = n.inline.code.exec(e.slice(s));
+        if (a) {
+          s += a[0].length - 1;
+          continue;
+        }
+      }
+      if (e[s] !== "<") continue;
+      let l = r.slice(t + s), i = n.inline.tag.exec(l) || n.inline.autolink.exec(l);
+      if (i) {
+        if (i[0].length > e.length - s) return true;
+        s += i[0].length - 1;
+      }
+    }
+    return false;
+  }
+  var L = class {
+    options;
+    rules;
+    lexer;
+    constructor(r) {
+      this.options = r || q;
+    }
+    space(r) {
+      let e = this.rules.block.newline.exec(r);
+      if (e && e[0].length > 0) return { type: "space", raw: e[0] };
+    }
+    code(r) {
+      let e = this.rules.block.code.exec(r);
+      if (e) {
+        let t = this.options.pedantic ? e[0] : Re(e[0]), n = t.replace(this.rules.other.codeRemoveIndent, "");
+        return { type: "code", raw: t, codeBlockStyle: "indented", text: n };
+      }
+    }
+    fences(r) {
+      let e = this.rules.block.fences.exec(r);
+      if (e) {
+        let t = e[0], n = Ut(t, e[3] || "", this.rules);
+        return e[3] !== void 0 && (n === "" || n.endsWith(`
+`)) && (n += `
+`), { type: "code", raw: t, lang: e[2] ? e[2].trim().replace(this.rules.inline.anyPunctuation, "$1") : e[2], text: n };
+      }
+    }
+    heading(r) {
+      let e = this.rules.block.heading.exec(r);
+      if (e) {
+        let t = e[2].trim();
+        if (this.rules.other.endingHash.test(t)) {
+          let n = _3(t, "#");
+          (this.options.pedantic || !n || this.rules.other.endingSpaceTabChar.test(n)) && (t = n.trim());
+        }
+        return { type: "heading", raw: _3(e[0], `
+`), depth: e[1].length, text: t, tokens: this.lexer.inline(t) };
+      }
+    }
+    hr(r) {
+      let e = this.rules.block.hr.exec(r);
+      if (e) return { type: "hr", raw: _3(e[0], `
+`) };
+    }
+    blockquote(r) {
+      let e = this.rules.block.blockquote.exec(r);
+      if (e) {
+        let t = _3(e[0], `
+`).split(`
+`), n = "", s = "", l = [];
+        for (; t.length > 0; ) {
+          let i = false, a = [], o;
+          for (o = 0; o < t.length; o++) if (this.rules.other.blockquoteStart.test(t[o])) a.push(t[o]), i = true;
+          else if (!i) a.push(t[o]);
+          else break;
+          t = t.slice(o);
+          let p = a.join(`
+`), c = p.replace(this.rules.other.blockquoteMarkerWhitespace, (k, f, w) => w.startsWith(" ") ? f + " " + w.slice(1) : f + V(w, f.length)).replace(this.rules.other.blockquoteSetextReplace, `
+    $1`).replace(this.rules.other.blockquoteSetextReplace2, "");
+          n = n ? `${n}
+${p}` : p, s = s ? `${s}
+${c}` : c;
+          let u = this.lexer.state.top;
+          if (this.lexer.state.top = true, this.lexer.blockTokens(c, l, true), this.lexer.state.top = u, t.length === 0) break;
+          let h = l.at(-1);
+          if (h?.type === "code" || h?.type === "heading" || h?.type === "hr" || h?.type === "html" || h?.type === "table") break;
+          if (h?.type === "blockquote") {
+            let k = h, f = t.join(`
+`), w = k.raw + `
+` + f.replace(this.rules.other.blockquoteSetextReplace2, ""), d = this.blockquote(w);
+            l[l.length - 1] = d;
+            let x = w.substring(d.raw.length).replace(/^\n/, ""), z3 = x ? x.split(`
+`).length : 0, m = z3 ? t.slice(0, -z3) : t;
+            if (m.length > 0 && (n = `${n}
+${m.join(`
+`)}`), s = s.substring(0, s.length - k.text.length) + d.text, t = t.slice(m.length), t.length > 0 && this.rules.other.blockquoteStart.test(t[0])) continue;
+            break;
+          } else if (h?.type === "list") {
+            let k = h, f = k.raw + `
+` + t.join(`
+`), w = this.list(f);
+            l[l.length - 1] = w;
+            let d = w.raw.length > k.raw.length ? f.slice(k.raw.length + 1, w.raw.length).split(`
+`).length : 0;
+            if (d > 0) {
+              let x = t.slice(0, d).join(`
+`);
+              n = `${n}
+${x}`, s = `${s}
+${x}`;
+            }
+            if (t = t.slice(d), t.length > 0 && !this.rules.other.blockquoteStart.test(t[0])) break;
+            continue;
+          }
+        }
+        return { type: "blockquote", raw: n, tokens: l, text: s };
+      }
+    }
+    list(r) {
+      let e = this.rules.block.list.exec(r);
+      if (e) {
+        if (!this.options.pedantic && this.lexer.state.lastToken?.type === "text" && !this.rules.other.listInterruptsParagraph.test(r)) return;
+        let t = r, n = () => t.length - r.length, s = e[1].trim(), l = s.length > 1, i = { type: "list", raw: "", ordered: l, start: l ? +s.slice(0, -1) : "", loose: false, items: [] };
+        s = l ? `\\d{1,9}\\${s.slice(-1)}` : `\\${s}`, this.options.pedantic && (s = l ? s : "[*+-]");
+        let a = this.rules.other.listItemRegex(s), o = false;
+        for (; r; ) {
+          let u = false, h = "";
+          if (!(e = a.exec(r)) || this.rules.block.hr.test(r)) break;
+          let k = n();
+          r = r.substring(e[0].length);
+          let f = e[2].split(`
+`, 1)[0], w = e[1].length, d = this.options.pedantic ? V(f, w) : f.replace(this.rules.other.leadingSpaceTab, (v) => V(v, w)), x = r.split(`
+`, 1)[0], z3 = !d.trim(), m = 0;
+          if (this.options.pedantic ? (m = 2, h = d.trimStart()) : z3 ? m = w + 1 : (m = d.search(this.rules.other.nonSpaceChar), m = m > 4 ? 1 : m, h = d.slice(m), m += w), z3 && this.rules.other.blankLine.test(x) && (r = r.substring(x.length + 1), u = true), !u) {
+            let v = this.rules.other.nextBulletRegex(m), Q3 = this.rules.other.hrRegex(m), U3 = this.rules.other.fencesBeginRegex(m), C3 = this.options.pedantic ? this.rules.other.pedanticHeadingBeginRegex(m) : this.rules.other.headingBeginRegex(m), H3 = this.rules.other.htmlBeginRegex(m), K3 = this.rules.other.blockquoteBeginRegex(m), re2 = false;
+            for (; r; ) {
+              let xe2 = r.split(`
+`, 1)[0], Z;
+              if (x = xe2, this.options.pedantic ? (x = x.replace(this.rules.other.listReplaceNesting, "  "), Z = x) : Z = x.replace(this.rules.other.leadingSpaceTab, (y3) => V(y3)), U3.test(x) || C3.test(x) || H3.test(x) || K3.test(x) || v.test(x) || Q3.test(x)) break;
+              if (Z.search(this.rules.other.nonSpaceChar) >= m || !x.trim()) h += `
+` + Z.slice(m), re2 = false;
+              else {
+                if (z3) break;
+                let y3 = d;
+                if (!this.options.pedantic && !h.includes(`
+`) && !d.includes("	")) {
+                  let D3;
+                  for (; !Q3.test(y3) && (D3 = this.rules.other.nestedBlockMarker.exec(y3)); ) y3 = y3.slice(D3[0].length);
+                  if (!y3.trim()) break;
+                }
+                if (y3.replace(this.rules.other.tabCharGlobal, "    ").search(this.rules.other.nonSpaceChar) >= 4 || U3.test(y3) || C3.test(y3) || H3.test(y3) || Q3.test(y3)) break;
+                if (!this.options.pedantic && !re2) {
+                  let D3 = d.replace(this.rules.other.nestedContainerMarkers, "");
+                  if (this.rules.block.fences.test(D3) || this.rules.block.heading.test(D3) || this.rules.block.hr.test(D3)) break;
+                }
+                let je = !this.options.pedantic && /^ {0,3}(?:=+|-+) *$/.test(x) && this.rules.block.lheading.test(`${d}
+${x}`) ? `    ${Z.replace(/^ {0,3}/, "")}` : x;
+                h += `
+` + je, re2 = true;
+              }
+              z3 = !x.trim(), r = r.substring(xe2.length + 1), d = Z.slice(m);
+            }
+          }
+          let j3 = t.slice(k, n());
+          i.loose || (o ? i.loose = true : this.rules.other.doubleBlankLine.test(j3) && (o = true)), i.items.push({ type: "list_item", raw: j3, task: !!this.options.gfm && this.rules.other.listIsTask.test(h), loose: false, text: h, tokens: [] });
+        }
+        let p = i.items.at(-1);
+        if (p) p.raw = p.raw.trimEnd(), p.text = p.text.trimEnd();
+        else return;
+        i.raw = t.slice(0, n()).trimEnd();
+        let c = [];
+        for (let u of i.items) if (this.lexer.state.top = false, c.push(this.lexer.inlineQueue.length), u.tokens = this.lexer.blockTokens(u.text, []), !i.loose) {
+          let h = u.tokens.filter((f) => f.type === "space"), k = h.length > 0 && h.some((f) => this.rules.other.anyLine.test(f.raw));
+          i.loose = k;
+        }
+        for (let u = 0; u < i.items.length; u++) {
+          let h = i.items[u], k = h.tokens[0];
+          if (h.task && (k?.type === "text" || k?.type === "paragraph")) {
+            h.text = h.text.replace(this.rules.other.listReplaceTask, ""), k.raw = k.raw.replace(this.rules.other.listReplaceTask, ""), k.text = k.text.replace(this.rules.other.listReplaceTask, "");
+            let f = this.lexer.inlineQueue;
+            for (let d = c[u]; d < f.length; d++) if (f[d].tokens === k.tokens) {
+              f[d].src = f[d].src.replace(this.rules.other.listReplaceTask, "");
+              break;
+            }
+            let w = this.rules.other.listTaskCheckbox.exec(h.raw);
+            if (w) {
+              let d = { type: "checkbox", raw: w[0] + " ", checked: w[0] !== "[ ]" };
+              h.checked = d.checked, i.loose ? h.tokens[0] && ["paragraph", "text"].includes(h.tokens[0].type) && "tokens" in h.tokens[0] && h.tokens[0].tokens ? (h.tokens[0].raw = d.raw + h.tokens[0].raw, h.tokens[0].text = d.raw + h.tokens[0].text, h.tokens[0].tokens.unshift(d)) : h.tokens.unshift({ type: "paragraph", raw: d.raw, text: d.raw, tokens: [d] }) : h.tokens.unshift(d);
+            }
+          } else h.task && (h.task = false);
+        }
+        if (i.loose) for (let u of i.items) {
+          u.loose = true;
+          for (let h of u.tokens) h.type === "text" && (h.type = "paragraph");
+        }
+        return i;
+      }
+    }
+    html(r) {
+      let e = this.rules.block.html.exec(r);
+      if (e) {
+        if (this.lexer.state.lastToken?.type === "paragraph" && !this.rules.other.htmlBeginRegex(4).test(r)) return;
+        let t = Re(e[0]);
+        return { type: "html", block: true, raw: t, pre: e[1] === "pre" || e[1] === "script" || e[1] === "style", text: t };
+      }
+    }
+    def(r) {
+      let e = this.rules.block.def.exec(r);
+      if (e) {
+        if (!this.rules.other.startAngleBracket.test(e[2]) && Ae(e[2], "()") !== -1) return;
+        let t = ee(e[1]), n = e[2] ? e[2].replace(this.rules.other.hrefBrackets, "$1").replace(this.rules.inline.anyPunctuation, "$1") : "", s = e[3] ? e[3].substring(1, e[3].length - 1).replace(this.rules.inline.anyPunctuation, "$1") : e[3];
+        return { type: "def", tag: t, raw: _3(e[0], `
+`), href: n, title: s };
+      }
+    }
+    table(r) {
+      let e = this.rules.block.table.exec(r);
+      if (!e || !this.rules.other.tableDelimiter.test(e[2])) return;
+      let t = ye(e[1]), n = e[2].replace(this.rules.other.tableAlignChars, "").split("|"), s = e[3]?.trim() ? e[3].replace(this.rules.other.tableRowBlankLine, "").split(`
+`) : [], l = { type: "table", raw: _3(e[0], `
+`), header: [], align: [], rows: [] };
+      if (t.length === n.length) {
+        for (let i of n) this.rules.other.tableAlignRight.test(i) ? l.align.push("right") : this.rules.other.tableAlignCenter.test(i) ? l.align.push("center") : this.rules.other.tableAlignLeft.test(i) ? l.align.push("left") : l.align.push(null);
+        for (let i = 0; i < t.length; i++) l.header.push({ text: t[i], tokens: this.lexer.inline(t[i]), header: true, align: l.align[i] });
+        for (let i of s) l.rows.push(ye(i, l.header.length).map((a, o) => ({ text: a, tokens: this.lexer.inline(a), header: false, align: l.align[o] })));
+        return l;
+      }
+    }
+    lheading(r) {
+      let e = this.rules.block.lheading.exec(r);
+      if (e) {
+        let t = e[1].trim();
+        return { type: "heading", raw: _3(e[0], `
+`), depth: e[2].charAt(0) === "=" ? 1 : 2, text: t, tokens: this.lexer.inline(t) };
+      }
+    }
+    paragraph(r) {
+      let e = this.rules.block.paragraph.exec(r);
+      if (e) {
+        let t = e[1].charAt(e[1].length - 1) === `
+` ? e[1].slice(0, -1) : e[1];
+        return { type: "paragraph", raw: e[0], text: t, tokens: this.lexer.inline(t) };
+      }
+    }
+    text(r) {
+      let e = this.rules.block.text.exec(r);
+      if (e) return { type: "text", raw: e[0], text: e[0], tokens: this.lexer.inline(e[0]) };
+    }
+    escape(r) {
+      if (r.charCodeAt(0) !== 92) return;
+      let e = this.rules.inline.escape.exec(r);
+      if (e) return { type: "escape", raw: e[0], text: e[1] };
+    }
+    tag(r) {
+      if (r.charCodeAt(0) !== 60) return;
+      let e = this.rules.inline.tag.exec(r);
+      if (e) return !this.lexer.state.inLink && this.rules.other.startATag.test(e[0]) ? this.lexer.state.inLink = true : this.lexer.state.inLink && this.rules.other.endATag.test(e[0]) && (this.lexer.state.inLink = false), !this.lexer.state.inRawBlock && this.rules.other.startPreScriptTag.test(e[0]) ? this.lexer.state.inRawBlock = true : this.lexer.state.inRawBlock && this.rules.other.endPreScriptTag.test(e[0]) && (this.lexer.state.inRawBlock = false), { type: "html", raw: e[0], inLink: this.lexer.state.inLink, inRawBlock: this.lexer.state.inRawBlock, block: false, text: e[0] };
+    }
+    link(r) {
+      if (this.lexer.state.linkParenPossible === false) return;
+      let e = r.charCodeAt(0);
+      if (e !== 91 && e !== 33) return;
+      let t = this.rules.inline.link.exec(r);
+      if (t) {
+        let n = t[0].charAt(0) === "!" ? 2 : 1;
+        if (!this.options.pedantic && ze2(r, t[1], n, this.rules)) return;
+        let s = t[2].trim();
+        if (!this.options.pedantic && this.rules.other.startAngleBracket.test(s)) {
+          if (!this.rules.other.endAngleBracket.test(s)) return;
+          let o = _3(s.slice(0, -1), "\\");
+          if ((s.length - o.length) % 2 === 0) return;
+        } else {
+          let o = Ae(t[2], "()");
+          if (o === -2) return;
+          if (o > -1) {
+            let p = (t[0].indexOf("!") === 0 ? 5 : 4) + t[1].length + o;
+            t[2] = t[2].substring(0, o), t[0] = t[0].substring(0, p).trim(), t[3] = "";
+          }
+        }
+        let l = _3(t[0].slice(0, -1), "\\");
+        if ((t[0].length - l.length) % 2 === 0) return;
+        let i = t[2], a = "";
+        if (this.options.pedantic) {
+          let o = this.rules.other.pedanticHrefTitle.exec(i);
+          o && (i = o[1], a = o[3]);
+        } else a = t[3] ? t[3].slice(1, -1) : "";
+        return i = i.trim(), this.rules.other.startAngleBracket.test(i) && (this.options.pedantic && !this.rules.other.endAngleBracket.test(s) ? i = i.slice(1) : i = i.slice(1, -1)), Te2(t, { href: i && i.replace(this.rules.inline.anyPunctuation, "$1"), title: a && a.replace(this.rules.inline.anyPunctuation, "$1") }, t[0], this.lexer, this.rules);
+      }
+    }
+    reflink(r, e) {
+      let t = r.charCodeAt(0);
+      if (t !== 91 && t !== 33) return;
+      let n;
+      if ((n = this.rules.inline.reflink.exec(r)) || (n = this.rules.inline.nolink.exec(r))) {
+        let s = n[0].charAt(0) === "!" ? 2 : 1;
+        if (!this.options.pedantic && ze2(r, n[1], s, this.rules)) return;
+        let l = e[ee(n[2] || n[1])];
+        if (!l) {
+          let i = n[0].charAt(0);
+          return { type: "text", raw: i, text: i };
+        }
+        return Te2(n, l, n[0], this.lexer, this.rules);
+      }
+    }
+    emStrong(r, e, t = "") {
+      let n = this.rules.inline.emStrongLDelim.exec(r);
+      if (!n || !n[1] && !n[2] && !n[3] && !n[4]) return;
+      let s = n[0][0], l = t === s, i = e.length - r.length, a = i;
+      for (; !this.options.pedantic && a > 0 && e[a - 1] === s; ) a--;
+      let o = [...e.slice(Math.max(0, a - 2), a)].at(-1) ?? "", p = o === "*" || o === "_" || !!this.rules.inline.punctuation.exec(o);
+      a < i && (t = o);
+      let c = a < i ? p : t === "*" || t === "_" || !!this.rules.inline.punctuation.exec(t);
+      if (n[4] && t.match(this.rules.other.unicodeAlphaNumeric)) return;
+      let u = n[1] || n[3] || "";
+      if (!u || !t || c) {
+        let h = [...n[0]].length - 1, k, f, w = h, d = 0, x = i - a + h, z3 = !this.options.pedantic && !!o.trim() && (!!u || s === "*" && !p);
+        if (s !== "*" && s !== "_") return;
+        let m = s === "*" ? this.rules.inline.emStrongRDelimAst : this.rules.inline.emStrongRDelimUnd, j3 = De2(this, e, s), v = e.length - r.length + h;
+        if (j3 < v) return;
+        e = e.slice(-1 * r.length + h);
+        let Q3 = j3 - v;
+        for (m.lastIndex = 0; (n = m.exec(e)) !== null && !(n.index > Q3); ) {
+          if (k = n[1] || n[2] || n[3] || n[4] || n[5] || n[6], !k) continue;
+          if (f = [...k].length, n[3] || n[4]) {
+            w += f;
+            continue;
+          } else if ((n[5] || n[6] || z3) && x % 3 && !((x + f) % 3)) {
+            if (l && (n[5] || n[6])) break;
+            d += f;
+            continue;
+          }
+          if (w -= f, w > 0) continue;
+          f = Math.min(f, f + w + d);
+          let U3 = [...n[0]][0].length, C3 = r.slice(0, h + n.index + U3 + f);
+          if (Math.min(h, f) % 2) {
+            let K3 = C3.slice(1, -1);
+            return { type: "em", raw: C3, text: K3, tokens: this.lexer.inlineTokens(K3) };
+          }
+          let H3 = C3.slice(2, -2);
+          return { type: "strong", raw: C3, text: H3, tokens: this.lexer.inlineTokens(H3) };
+        }
+      }
+    }
+    codespan(r) {
+      if (r.charCodeAt(0) !== 96) return;
+      let e = this.rules.inline.code.exec(r);
+      if (e) {
+        let t = e[2].replace(this.rules.other.newLineCharGlobal, " "), n = this.rules.other.nonSpaceChar.test(t), s = this.rules.other.startingSpaceChar.test(t) && this.rules.other.endingSpaceChar.test(t);
+        return n && s && (t = t.substring(1, t.length - 1)), { type: "codespan", raw: e[0], text: t };
+      }
+    }
+    br(r) {
+      let e = r.charCodeAt(0);
+      if (e !== 32 && e !== 92 && e !== 10) return;
+      let t = this.rules.inline.br.exec(r);
+      if (t) return { type: "br", raw: t[0] };
+    }
+    del(r, e, t = "") {
+      if (r.charCodeAt(0) !== 126) return;
+      let n = this.rules.inline.delLDelim.exec(r);
+      if (n && (!n[1] || !t || this.rules.inline.punctuation.exec(t))) {
+        let s = [...n[0]].length - 1, l, i, a = s, o = this.rules.inline.delRDelim, p = Me(this, e), c = e.length - r.length + s;
+        if (p < c) return;
+        e = e.slice(-1 * r.length + s);
+        let u = p - c;
+        for (o.lastIndex = 0; (n = o.exec(e)) !== null && !(n.index > u); ) {
+          if (l = n[1] || n[2] || n[3] || n[4] || n[5] || n[6], !l || (i = [...l].length, i !== s)) continue;
+          if (n[3] || n[4]) {
+            a += i;
+            continue;
+          }
+          if (a -= i, a > 0) continue;
+          i = Math.min(i, i + a);
+          let h = [...n[0]][0].length, k = r.slice(0, s + n.index + h + i), f = k.slice(s, -s);
+          return { type: "del", raw: k, text: f, tokens: this.lexer.inlineTokens(f) };
+        }
+      }
+    }
+    autolink(r) {
+      if (r.charCodeAt(0) !== 60) return;
+      let e = this.rules.inline.autolink.exec(r);
+      if (e) {
+        let t, n;
+        return e[2] === "@" ? (t = e[1], n = "mailto:" + t) : (t = e[1], n = t), { type: "link", raw: e[0], text: t, href: n, autolink: true, tokens: [{ type: "text", raw: t, text: t }] };
+      }
+    }
+    url(r) {
+      let e;
+      if (e = this.rules.inline.url.exec(r)) {
+        let t, n;
+        if (e[2] === "@") t = e[0], n = "mailto:" + t;
+        else {
+          let s;
+          do
+            s = e[0], e[0] = this.rules.inline._backpedal.exec(e[0])?.[0] ?? "";
+          while (s !== e[0]);
+          t = e[0], e[1] === "www." ? n = "http://" + e[0] : n = e[0];
+        }
+        return { type: "link", raw: e[0], text: t, href: n, autolink: true, tokens: [{ type: "text", raw: t, text: t }] };
+      }
+    }
+    inlineText(r) {
+      let e = this.rules.inline.text.exec(r);
+      if (e) {
+        let t = this.lexer.state.inRawBlock;
+        return { type: "text", raw: e[0], text: t ? e[0] : Ft2(e[0]), escaped: t };
+      }
+    }
+  }, R = class ie2 {
+    tokens;
+    options;
+    state;
+    inlineQueue;
+    tokenizer;
+    constructor(e) {
+      this.tokens = [], this.tokens.links = /* @__PURE__ */ Object.create(null), this.options = e || q, this.options.tokenizer = this.options.tokenizer || new L(), this.tokenizer = this.options.tokenizer, this.tokenizer.options = this.options, this.tokenizer.lexer = this, this.inlineQueue = [], this.state = { inLink: false, inRawBlock: false, linkEmitted: false, linkParenPossible: true, top: true };
+      let t = { other: S, block: J.normal, inline: N3.normal };
+      this.options.pedantic ? (t.block = J.pedantic, t.inline = N3.pedantic) : this.options.gfm && (t.block = J.gfm, this.options.breaks ? t.inline = N3.breaks : t.inline = N3.gfm), this.tokenizer.rules = t;
+    }
+    static get rules() {
+      return { block: J, inline: N3 };
+    }
+    static lex(e, t) {
+      return new ie2(t).lex(e);
+    }
+    static lexInline(e, t) {
+      return new ie2(t).inlineTokens(e);
+    }
+    lex(e) {
+      e = e.replace(S.carriageReturn, `
+`), this.blockTokens(e, this.tokens);
+      for (let t = 0; t < this.inlineQueue.length; t++) {
+        let n = this.inlineQueue[t];
+        this.state.inRawBlock = false, this.inlineTokens(n.src, n.tokens);
+      }
+      return this.inlineQueue = [], this.tokens;
+    }
+    blockTokens(e, t = [], n = false) {
+      this.tokenizer.lexer = this;
+      let s = this.state.lastToken;
+      this.options.pedantic && (e = e.replace(S.tabCharGlobal, "    ").replace(S.spaceLine, ""));
+      let l = 1 / 0, i, a = this.options.gfm && !this.options.pedantic && this.tokenizer.paragraph === L.prototype.paragraph;
+      for (; e; ) {
+        if (e.length < l) l = e.length;
+        else {
+          this.infiniteLoopError(e.charCodeAt(0));
+          break;
+        }
+        this.state.lastToken = t.at(-1);
+        let o;
+        if (this.options.extensions?.block?.some((c) => (o = c.call({ lexer: this }, e, t)) ? (e = e.substring(o.raw.length), t.push(o), true) : false)) continue;
+        if (o = this.tokenizer.space(e)) {
+          e = e.substring(o.raw.length);
+          let c = t.at(-1);
+          o.raw.length === 1 && c !== void 0 ? c.raw += `
+` : t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.code(e)) {
+          e = e.substring(o.raw.length);
+          let c = t.at(-1);
+          c?.type === "paragraph" || c?.type === "text" ? (c.raw += (c.raw.endsWith(`
+`) ? "" : `
+`) + o.raw, c.text += `
+` + o.text, this.inlineQueue.at(-1).src = c.text) : t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.fences(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.heading(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.hr(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.blockquote(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.list(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.html(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.def(e)) {
+          e = e.substring(o.raw.length);
+          let c = t.at(-1);
+          c?.type === "paragraph" || c?.type === "text" ? (c.raw += (c.raw.endsWith(`
+`) ? "" : `
+`) + o.raw, c.text += `
+` + o.raw, this.inlineQueue.at(-1).src = c.text) : (this.tokens.links[o.tag] || (this.tokens.links[o.tag] = { href: o.href, title: o.title }), t.push(o));
+          continue;
+        }
+        if (o = this.tokenizer.table(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        if (o = this.tokenizer.lheading(e)) {
+          e = e.substring(o.raw.length), t.push(o);
+          continue;
+        }
+        let p = e;
+        if (this.options.extensions?.startBlock) {
+          let c = 1 / 0, u = e.slice(1), h;
+          this.options.extensions.startBlock.forEach((k) => {
+            h = k.call({ lexer: this }, u), typeof h == "number" && h >= 0 && (c = Math.min(c, h));
+          }), c < 1 / 0 && c >= 0 && (p = e.substring(0, c + 1));
+        }
+        if (this.state.top && (o = this.tokenizer.paragraph(p))) {
+          let c = t.at(-1);
+          (n || c === i && a) && c?.type === "paragraph" ? (c.raw += (c.raw.endsWith(`
+`) ? "" : `
+`) + o.raw, c.text += `
+` + o.text, this.inlineQueue.pop(), this.inlineQueue.at(-1).src = c.text, i = c) : (t.push(o), i = o), n = p.length !== e.length, e = e.substring(o.raw.length);
+          continue;
+        }
+        if (o = this.tokenizer.text(e)) {
+          e = e.substring(o.raw.length);
+          let c = t.at(-1);
+          c?.type === "text" ? (c.raw += (c.raw.endsWith(`
+`) ? "" : `
+`) + o.raw, c.text += `
+` + o.text, this.inlineQueue.pop(), this.inlineQueue.at(-1).src = c.text) : t.push(o);
+          continue;
+        }
+        if (e) {
+          this.infiniteLoopError(e.charCodeAt(0));
+          break;
+        }
+      }
+      return this.state.top = true, this.state.lastToken = s, t;
+    }
+    inline(e, t = []) {
+      return this.inlineQueue.push({ src: e, tokens: t }), t;
+    }
+    linkInText(e) {
+      if (!e.includes("[")) return false;
+      let t = this.tokenizer.rules.inline.link;
+      for (let n of e.matchAll(this.tokenizer.rules.inline.blockSkip)) if (t.test(n[0]) && e.charAt(n.index - 1) !== "!") return true;
+      for (let n of e.matchAll(this.tokenizer.rules.inline.reflinkSearch)) {
+        let s = n[0], l = s.lastIndexOf("[");
+        if (!(s.charAt(0) === "!" || !Object.hasOwn(this.tokens.links, ee(s.slice(l + 1, -1)))) && !(l > 1 && this.linkInText(s.slice(1, l - 1)))) return true;
+      }
+      return false;
+    }
+    inlineTokens(e, t = []) {
+      this.tokenizer.lexer = this;
+      let n = this.state.linkParenPossible;
+      this.state.linkParenPossible = e.includes(")");
+      try {
+        return this.#t(e, t);
+      } finally {
+        this.state.linkParenPossible = n;
+      }
+    }
+    #t(e, t) {
+      let n = e.includes("*") || e.includes("_") || e.includes("~"), s = n || this.options.hooks?.emStrongMask || this.tokenizer.emStrong !== L.prototype.emStrong || this.tokenizer.del !== L.prototype.del ? this.#n(e) : e;
+      if (!n) return this.#e(e, s, t);
+      Wt(this.tokenizer, s);
+      try {
+        return this.#e(e, s, t);
+      } finally {
+        Xt(this.tokenizer);
+      }
+    }
+    #e(e, t, n) {
+      let s = false, l = "", i = 1 / 0;
+      for (; e; ) {
+        if (e.length < i) i = e.length;
+        else {
+          this.infiniteLoopError(e.charCodeAt(0));
+          break;
+        }
+        s || (l = ""), s = false;
+        let a;
+        if (this.options.extensions?.inline?.some((c) => (a = c.call({ lexer: this }, e, n)) ? (e = e.substring(a.raw.length), n.push(a), true) : false)) continue;
+        if (a = this.tokenizer.escape(e)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.tag(e)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.link(e)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.reflink(e, this.tokens.links)) {
+          e = e.substring(a.raw.length);
+          let c = n.at(-1);
+          a.type === "text" && c?.type === "text" ? (c.raw += a.raw, c.text += a.text) : n.push(a);
+          continue;
+        }
+        let o = e[0];
+        if (o === "*" || o === "_") {
+          let c = t.length - e.length;
+          if (De2(this.tokenizer, t, o) <= c) {
+            let u = 1;
+            for (; u < e.length && e.charCodeAt(u) === o.charCodeAt(0); ) u++;
+            let h = e.substring(0, u), k = n.at(-1);
+            k?.type === "text" && !k.escaped ? (k.raw += h, k.text += h) : n.push({ type: "text", raw: h, text: h, escaped: false }), e = e.substring(u), l = o, s = true;
+            continue;
+          }
+        } else if (o === "~") {
+          let c = t.length - e.length;
+          if (Me(this.tokenizer, t) <= c) {
+            let u = 1;
+            for (; u < e.length && e.charCodeAt(u) === 126; ) u++;
+            let h = e.substring(0, u), k = n.at(-1);
+            k?.type === "text" && !k.escaped ? (k.raw += h, k.text += h) : n.push({ type: "text", raw: h, text: h, escaped: false }), e = e.substring(u), l = o, s = true;
+            continue;
+          }
+        }
+        if (a = this.tokenizer.emStrong(e, t, l)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.codespan(e)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.br(e)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.del(e, t, l)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (a = this.tokenizer.autolink(e)) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        if (!this.state.inLink && (a = this.tokenizer.url(e))) {
+          e = e.substring(a.raw.length), n.push(a);
+          continue;
+        }
+        let p = e;
+        if (this.options.extensions?.startInline) {
+          let c = 1 / 0, u = e.slice(1), h;
+          this.options.extensions.startInline.forEach((k) => {
+            h = k.call({ lexer: this }, u), typeof h == "number" && h >= 0 && (c = Math.min(c, h));
+          }), c < 1 / 0 && c >= 0 && (p = e.substring(0, c + 1));
+        }
+        if (a = this.tokenizer.inlineText(p)) {
+          e = e.substring(a.raw.length), a.raw.slice(-1) !== "_" && (l = a.raw.slice(-1)), s = true;
+          let c = n.at(-1);
+          c?.type === "text" ? (c.raw += a.raw, c.text += a.text) : n.push(a);
+          continue;
+        }
+        if (e) {
+          this.infiniteLoopError(e.charCodeAt(0));
+          break;
+        }
+      }
+      return n;
+    }
+    #r(e) {
+      let { blockSkip: t, tag: n, autolink: s } = this.tokenizer.rules.inline, l = "", i = 0, a;
+      for (t.lastIndex = 0; a = t.exec(e); ) {
+        let o = a.index + (a[2] ? a[2].length : 0), p = a.index + a[0].length;
+        if (e.charAt(o) === "<") {
+          let c = e.slice(o), u = n.exec(c) || s.exec(c);
+          if (!u) {
+            t.lastIndex = o + 1;
+            continue;
+          }
+          p = o + u[0].length, t.lastIndex = p;
+        }
+        l += e.slice(i, o) + "[" + "a".repeat(p - o - 2) + "]", i = p;
+      }
+      return l + e.slice(i);
+    }
+    #n(e) {
+      let t = e;
+      if (this.tokens.links && e.includes("[")) {
+        let n = this.tokenizer.rules.inline.reflinkSearch, s = (l) => {
+          let i = l.lastIndexOf("[");
+          if (!Object.hasOwn(this.tokens.links, ee(l.slice(i + 1, -1)))) return l;
+          if (i > 1 && l.charAt(0) !== "!") {
+            let a = l.slice(1, i - 1);
+            if (this.linkInText(a)) return "[" + a.replace(n, s) + "][" + "a".repeat(l.length - i - 2) + "]";
+          }
+          return "[" + "a".repeat(l.length - 2) + "]";
+        };
+        t = t.replace(n, s);
+      }
+      return t = t.replace(this.tokenizer.rules.inline.anyPunctuationOutsideCode, (n, s, l) => l ? "+".repeat(n.length) : s ? s + n.slice(s.length, -s.length).replace(/`/g, "+") + s : n), t = this.#r(t), t = this.options.hooks?.emStrongMask?.call({ lexer: this }, t) ?? t, t;
+    }
+    infiniteLoopError(e) {
+      let t = "Infinite loop on byte: " + e;
+      if (this.options.silent) console.error(t);
+      else throw new Error(t);
+    }
+  }, te = class {
+    options;
+    parser;
+    constructor(r) {
+      this.options = r || q;
+    }
+    space(r) {
+      return "";
+    }
+    code({ text: r, lang: e, escaped: t }) {
+      let n = (e || "").match(S.notSpaceStart)?.[0], s = r ? r.replace(S.endingNewline, "") + `
+` : "";
+      return n ? '<pre><code class="language-' + $(n) + '">' + (t ? s : $(s, true)) + `</code></pre>
+` : "<pre><code>" + (t ? s : $(s, true)) + `</code></pre>
+`;
+    }
+    blockquote({ tokens: r }) {
+      return `<blockquote>
+${this.parser.parse(r)}</blockquote>
+`;
+    }
+    html({ text: r }) {
+      return r;
+    }
+    def(r) {
+      return "";
+    }
+    heading({ tokens: r, depth: e }) {
+      return `<h${e}>${this.parser.parseInline(r)}</h${e}>
+`;
+    }
+    hr(r) {
+      return `<hr>
+`;
+    }
+    list(r) {
+      let e = r.ordered, t = r.start, n = "";
+      for (let i = 0; i < r.items.length; i++) {
+        let a = r.items[i];
+        n += this.listitem(a);
+      }
+      let s = e ? "ol" : "ul", l = e && t !== 1 ? ' start="' + t + '"' : "";
+      return "<" + s + l + `>
+` + n + "</" + s + `>
+`;
+    }
+    listitem(r) {
+      return `<li>${this.parser.parse(r.tokens)}</li>
+`;
+    }
+    checkbox({ checked: r }) {
+      return "<input " + (r ? 'checked="" ' : "") + 'disabled="" type="checkbox"> ';
+    }
+    paragraph({ tokens: r }) {
+      return `<p>${this.parser.parseInline(r)}</p>
+`;
+    }
+    table(r) {
+      let e = "", t = "";
+      for (let s = 0; s < r.header.length; s++) t += this.tablecell(r.header[s]);
+      e += this.tablerow({ text: t });
+      let n = "";
+      for (let s = 0; s < r.rows.length; s++) {
+        let l = r.rows[s];
+        t = "";
+        for (let i = 0; i < l.length; i++) t += this.tablecell(l[i]);
+        n += this.tablerow({ text: t });
+      }
+      return n && (n = `<tbody>${n}</tbody>`), `<table>
+<thead>
+` + e + `</thead>
+` + n + `</table>
+`;
+    }
+    tablerow({ text: r }) {
+      return `<tr>
+${r}</tr>
+`;
+    }
+    tablecell(r) {
+      let e = this.parser.parseInline(r.tokens), t = r.header ? "th" : "td";
+      return (r.align ? `<${t} align="${r.align}">` : `<${t}>`) + e + `</${t}>
+`;
+    }
+    strong({ tokens: r }) {
+      return `<strong>${this.parser.parseInline(r)}</strong>`;
+    }
+    em({ tokens: r }) {
+      return `<em>${this.parser.parseInline(r)}</em>`;
+    }
+    codespan({ text: r }) {
+      return `<code>${$(r, true)}</code>`;
+    }
+    br(r) {
+      return "<br>";
+    }
+    del({ tokens: r }) {
+      return `<del>${this.parser.parseInline(r)}</del>`;
+    }
+    link({ href: r, title: e, text: t, tokens: n, autolink: s }) {
+      let l = s ? $(t, true) : this.parser.parseInline(n), i = $e(r);
+      if (i === null) return l;
+      r = $(i, s);
+      let a = '<a href="' + r + '"';
+      return e && (a += ' title="' + $(e) + '"'), a += ">" + l + "</a>", a;
+    }
+    image({ href: r, title: e, text: t, tokens: n }) {
+      n && (t = this.parser.parseInline(n, this.parser.textRenderer));
+      let s = $e(r);
+      if (s === null) return $(t);
+      r = s;
+      let l = `<img src="${$(r)}" alt="${$(t)}"`;
+      return e && (l += ` title="${$(e)}"`), l += ">", l;
+    }
+    text(r) {
+      return "tokens" in r && r.tokens ? this.parser.parseInline(r.tokens) : "escaped" in r && r.escaped ? r.text : $(r.text);
+    }
+  }, fe2 = class {
+    parser;
+    strong({ text: r, tokens: e }) {
+      return e ? this.parser.parseInline(e, this) : r;
+    }
+    em({ text: r, tokens: e }) {
+      return e ? this.parser.parseInline(e, this) : r;
+    }
+    codespan({ text: r }) {
+      return r;
+    }
+    del({ text: r, tokens: e }) {
+      return e ? this.parser.parseInline(e, this) : r;
+    }
+    html({ text: r }) {
+      return r;
+    }
+    text({ text: r }) {
+      return r;
+    }
+    link({ text: r, tokens: e }) {
+      return e ? this.parser.parseInline(e, this) : r;
+    }
+    image({ text: r, tokens: e }) {
+      return e ? this.parser.parseInline(e, this) : r;
+    }
+    br() {
+      return `
+`;
+    }
+    checkbox({ raw: r }) {
+      return r;
+    }
+  }, A = class le {
+    options;
+    renderer;
+    textRenderer;
+    constructor(e) {
+      this.options = e || q, this.options.renderer = this.options.renderer || new te(), this.renderer = this.options.renderer, this.renderer.options = this.options, this.renderer.parser = this, this.textRenderer = new fe2(), this.textRenderer.parser = this;
+    }
+    static parse(e, t) {
+      return new le(t).parse(e);
+    }
+    static parseInline(e, t) {
+      return new le(t).parseInline(e);
+    }
+    parse(e) {
+      this.renderer.parser = this;
+      let t = "";
+      for (let n = 0; n < e.length; n++) {
+        let s = e[n];
+        if (this.options.extensions?.renderers?.[s.type]) {
+          let i = s, a = this.options.extensions.renderers[i.type].call({ parser: this }, i);
+          if (a !== false || !["space", "hr", "heading", "code", "table", "blockquote", "list", "checkbox", "html", "def", "paragraph", "text"].includes(i.type)) {
+            t += a === false ? "" : a ?? "";
+            continue;
+          }
+        }
+        let l = s;
+        switch (l.type) {
+          case "space": {
+            t += this.renderer.space(l);
+            break;
+          }
+          case "hr": {
+            t += this.renderer.hr(l);
+            break;
+          }
+          case "heading": {
+            t += this.renderer.heading(l);
+            break;
+          }
+          case "code": {
+            t += this.renderer.code(l);
+            break;
+          }
+          case "table": {
+            t += this.renderer.table(l);
+            break;
+          }
+          case "blockquote": {
+            t += this.renderer.blockquote(l);
+            break;
+          }
+          case "list": {
+            t += this.renderer.list(l);
+            break;
+          }
+          case "checkbox": {
+            t += this.renderer.checkbox(l);
+            break;
+          }
+          case "html": {
+            t += this.renderer.html(l);
+            break;
+          }
+          case "def": {
+            t += this.renderer.def(l);
+            break;
+          }
+          case "paragraph": {
+            t += this.renderer.paragraph(l);
+            break;
+          }
+          case "text": {
+            t += this.renderer.text(l);
+            break;
+          }
+          default: {
+            let i = 'Token with "' + l.type + '" type was not found.';
+            if (this.options.silent) return console.error(i), "";
+            throw new Error(i);
+          }
+        }
+      }
+      return t;
+    }
+    parseInline(e, t = this.renderer) {
+      this.renderer.parser = this;
+      let n = "";
+      for (let s = 0; s < e.length; s++) {
+        let l = e[s];
+        if (this.options.extensions?.renderers?.[l.type]) {
+          let a = this.options.extensions.renderers[l.type].call({ parser: this }, l);
+          if (a !== false || !["escape", "html", "link", "image", "checkbox", "strong", "em", "codespan", "br", "del", "text"].includes(l.type)) {
+            n += a === false ? "" : a ?? "";
+            continue;
+          }
+        }
+        let i = l;
+        switch (i.type) {
+          case "escape": {
+            n += t.text(i);
+            break;
+          }
+          case "html": {
+            n += t.html(i);
+            break;
+          }
+          case "link": {
+            n += t.link(i);
+            break;
+          }
+          case "image": {
+            n += t.image(i);
+            break;
+          }
+          case "checkbox": {
+            n += t.checkbox(i);
+            break;
+          }
+          case "strong": {
+            n += t.strong(i);
+            break;
+          }
+          case "em": {
+            n += t.em(i);
+            break;
+          }
+          case "codespan": {
+            n += t.codespan(i);
+            break;
+          }
+          case "br": {
+            n += t.br(i);
+            break;
+          }
+          case "del": {
+            n += t.del(i);
+            break;
+          }
+          case "text": {
+            n += t.text(i);
+            break;
+          }
+          default: {
+            let a = 'Token with "' + i.type + '" type was not found.';
+            if (this.options.silent) return console.error(a), "";
+            throw new Error(a);
+          }
+        }
+      }
+      return n;
+    }
+  }, F = class {
+    options;
+    block;
+    constructor(r) {
+      this.options = r || q;
+    }
+    static passThroughHooks = /* @__PURE__ */ new Set(["preprocess", "postprocess", "processAllTokens", "emStrongMask"]);
+    static passThroughHooksRespectAsync = /* @__PURE__ */ new Set(["preprocess", "postprocess", "processAllTokens"]);
+    preprocess(r) {
+      return r;
+    }
+    postprocess(r) {
+      return r;
+    }
+    processAllTokens(r) {
+      return r;
+    }
+    emStrongMask(r) {
+      return r;
+    }
+    provideLexer(r = this.block) {
+      return r ? R.lex : R.lexInline;
+    }
+    provideParser(r = this.block) {
+      return r ? A.parse : A.parseInline;
+    }
+  };
+  function P3(r, e) {
+    if (Array.isArray(e)) for (let t = 0; t < e.length; t++) r.push(e[t]);
+    else r.push(e);
+  }
+  var Kt = class {
+    defaults = ae();
+    options = this.setOptions;
+    parse = this.parseMarkdown(true);
+    parseInline = this.parseMarkdown(false);
+    Parser = A;
+    Renderer = te;
+    TextRenderer = fe2;
+    Lexer = R;
+    Tokenizer = L;
+    Hooks = F;
+    constructor(...r) {
+      this.use(...r);
+    }
+    walkTokens(r, e) {
+      let t = [];
+      for (let n of r) switch (P3(t, e.call(this, n)), n.type) {
+        case "table": {
+          let s = n;
+          for (let l of s.header) P3(t, this.walkTokens(l.tokens, e));
+          for (let l of s.rows) for (let i of l) P3(t, this.walkTokens(i.tokens, e));
+          break;
+        }
+        case "list": {
+          let s = n;
+          P3(t, this.walkTokens(s.items, e));
+          break;
+        }
+        default: {
+          let s = n;
+          this.defaults.extensions?.childTokens?.[s.type] ? this.defaults.extensions.childTokens[s.type].forEach((l) => {
+            let i = s[l].flat(1 / 0);
+            P3(t, this.walkTokens(i, e));
+          }) : s.tokens && P3(t, this.walkTokens(s.tokens, e));
+        }
+      }
+      return t;
+    }
+    use(...r) {
+      let e = this.defaults.extensions || { renderers: /* @__PURE__ */ Object.create(null), childTokens: /* @__PURE__ */ Object.create(null) };
+      return r.forEach((t) => {
+        let n = { ...t };
+        if (n.async = this.defaults.async || n.async || false, t.extensions && (t.extensions.forEach((s) => {
+          if (!s.name) throw new Error("extension name required");
+          if ("renderer" in s) {
+            let l = e.renderers[s.name];
+            l ? e.renderers[s.name] = function(...i) {
+              let a = s.renderer.apply(this, i);
+              return a === false && (a = l.apply(this, i)), a;
+            } : e.renderers[s.name] = s.renderer;
+          }
+          if ("tokenizer" in s) {
+            if (!s.level || s.level !== "block" && s.level !== "inline") throw new Error("extension level must be 'block' or 'inline'");
+            let l = e[s.level];
+            l ? l.unshift(s.tokenizer) : e[s.level] = [s.tokenizer], s.start && (s.level === "block" ? e.startBlock ? e.startBlock.push(s.start) : e.startBlock = [s.start] : s.level === "inline" && (e.startInline ? e.startInline.push(s.start) : e.startInline = [s.start]));
+          }
+          "childTokens" in s && s.childTokens && (e.childTokens[s.name] = s.childTokens);
+        }), n.extensions = e), t.renderer) {
+          let s = this.defaults.renderer || new te(this.defaults);
+          for (let l in t.renderer) {
+            if (!(l in s)) throw new Error(`renderer '${l}' does not exist`);
+            if (["options", "parser"].includes(l)) continue;
+            let i = l, a = t.renderer[i], o = s[i];
+            s[i] = (...p) => {
+              let c = a.apply(s, p);
+              return c === false && (c = o.apply(s, p)), c === false ? "" : c ?? "";
+            };
+          }
+          n.renderer = s;
+        }
+        if (t.tokenizer) {
+          let s = this.defaults.tokenizer || new L(this.defaults);
+          for (let l in t.tokenizer) {
+            if (!(l in s)) throw new Error(`tokenizer '${l}' does not exist`);
+            if (["options", "rules", "lexer"].includes(l)) continue;
+            let i = l, a = t.tokenizer[i], o = s[i];
+            s[i] = (...p) => {
+              let c = a.apply(s, p);
+              return c === false && (c = o.apply(s, p)), c;
+            };
+          }
+          n.tokenizer = s;
+        }
+        if (t.hooks) {
+          let s = this.defaults.hooks || new F();
+          for (let l in t.hooks) {
+            if (!(l in s)) throw new Error(`hook '${l}' does not exist`);
+            if (["options", "block"].includes(l)) continue;
+            let i = l, a = t.hooks[i], o = s[i];
+            F.passThroughHooks.has(l) ? s[i] = (p) => {
+              if (s.options.async && F.passThroughHooksRespectAsync.has(l)) return (async () => {
+                let u = await a.call(s, p);
+                return o.call(s, u);
+              })();
+              let c = a.call(s, p);
+              return o.call(s, c);
+            } : s[i] = (...p) => {
+              if (s.options.async) return (async () => {
+                let u = await a.apply(s, p);
+                return u === false && (u = await o.apply(s, p)), u;
+              })();
+              let c = a.apply(s, p);
+              return c === false && (c = o.apply(s, p)), c;
+            };
+          }
+          n.hooks = s;
+        }
+        if (t.walkTokens) {
+          let s = this.defaults.walkTokens, l = t.walkTokens;
+          n.walkTokens = function(i) {
+            let a = [];
+            return P3(a, l.call(this, i)), s && P3(a, s.call(this, i)), a;
+          };
+        }
+        this.defaults = { ...this.defaults, ...n };
+      }), this;
+    }
+    setOptions(r) {
+      return this.defaults = { ...this.defaults, ...r }, this;
+    }
+    lexer(r, e) {
+      return R.lex(r, e ?? this.defaults);
+    }
+    parser(r, e) {
+      return A.parse(r, e ?? this.defaults);
+    }
+    parseMarkdown(r) {
+      return (e, t) => {
+        let n = { ...t }, s = { ...this.defaults, ...n }, l = this.onError(!!s.silent, !!s.async);
+        if (this.defaults.async === true && n.async === false) return l(new Error("marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."));
+        if (typeof e > "u" || e === null) return l(new Error("marked(): input parameter is undefined or null"));
+        if (typeof e != "string") return l(new Error("marked(): input parameter is of type " + Object.prototype.toString.call(e) + ", string expected"));
+        if (s.hooks && (s.hooks.options = s, s.hooks.block = r), s.async) return (async () => {
+          let i = s.hooks ? await s.hooks.preprocess(e) : e, a = await (s.hooks ? await s.hooks.provideLexer(r) : r ? R.lex : R.lexInline)(i, s), o = s.hooks ? await s.hooks.processAllTokens(a) : a;
+          s.walkTokens && await Promise.all(this.walkTokens(o, s.walkTokens));
+          let p = await (s.hooks ? await s.hooks.provideParser(r) : r ? A.parse : A.parseInline)(o, s);
+          return s.hooks ? await s.hooks.postprocess(p) : p;
+        })().catch(l);
+        try {
+          s.hooks && (e = s.hooks.preprocess(e));
+          let i = (s.hooks ? s.hooks.provideLexer(r) : r ? R.lex : R.lexInline)(e, s);
+          s.hooks && (i = s.hooks.processAllTokens(i)), s.walkTokens && this.walkTokens(i, s.walkTokens);
+          let a = (s.hooks ? s.hooks.provideParser(r) : r ? A.parse : A.parseInline)(i, s);
+          return s.hooks && (a = s.hooks.postprocess(a)), a;
+        } catch (i) {
+          return l(i);
+        }
+      };
+    }
+    onError(r, e) {
+      return (t) => {
+        if (t.message += `
+Please report this to https://github.com/markedjs/marked.`, r) {
+          let n = "<p>An error occurred:</p><pre>" + $(t.message + "", true) + "</pre>";
+          return e ? Promise.resolve(n) : n;
+        }
+        if (e) return Promise.reject(t);
+        throw t;
+      };
+    }
+  }, B3 = new Kt();
+  function b3(r, e) {
+    return B3.parse(r, e);
+  }
+  b3.options = b3.setOptions = function(r) {
+    return B3.setOptions(r), b3.defaults = B3.defaults, _e2(b3.defaults), b3;
+  };
+  b3.getDefaults = ae;
+  b3.defaults = q;
+  function Jt(...r) {
+    return B3.use(...r), b3.defaults = B3.defaults, _e2(b3.defaults), b3;
+  }
+  b3.use = Jt;
+  b3.walkTokens = function(r, e) {
+    return B3.walkTokens(r, e);
+  };
+  b3.parseInline = B3.parseInline;
+  b3.Parser = A;
+  b3.parser = A.parse;
+  b3.Renderer = te;
+  b3.TextRenderer = fe2;
+  b3.Lexer = R;
+  b3.lexer = R.lex;
+  b3.Tokenizer = L;
+  b3.Hooks = F;
+  b3.parse = b3;
+  var er2 = b3.options, tr = b3.setOptions, rr = b3.walkTokens, nr = b3.parseInline;
+  var sr = A.parse, Oe2 = R.lex;
+  return Xe(Vt2);
+})();
+const captionFontCatalog = [{ "name": "Noto Sans SC", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Noto Sans SC" }, { "name": "Noto Serif SC", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Noto Serif SC" }, { "name": "LXGW WenKai", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode LXGW WenKai" }, { "name": "Smiley Sans", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Smiley Sans" }, { "name": "ZCOOL KuaiLe", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode ZCOOL KuaiLe" }, { "name": "ZCOOL QingKe HuangYou", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode ZCOOL QingKe HuangYou" }, { "name": "Ma Shan Zheng", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Ma Shan Zheng" }, { "name": "Xiaolai", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Xiaolai" }, { "name": "Yozai", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Yozai" }, { "name": "Huninn", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Huninn" }, { "name": "Noto Sans CJK TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Noto Sans CJK TC" }, { "name": "Noto Serif CJK TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Noto Serif CJK TC" }, { "name": "GenSen Rounded TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode GenSen Rounded TC" }, { "name": "LXGW WenKai TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode LXGW WenKai TC" }, { "name": "Bpmf Huninn", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Bpmf Huninn" }, { "name": "Bpmf Iansui", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Bpmf Iansui" }, { "name": "Bpmf Zihi Kai Std", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Bpmf Zihi Kai Std" }, { "name": "Cactus Classical Serif", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Cactus Classical Serif" }, { "name": "Chocolate Classical Sans", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Chocolate Classical Sans" }, { "name": "GenSeki Gothic TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode GenSeki Gothic TC" }, { "name": "Iansui", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode Iansui" }, { "name": "Liu Jian Mao Cao", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Liu Jian Mao Cao" }, { "name": "Long Cang", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Long Cang" }, { "name": "LXGW Marker Gothic", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode LXGW Marker Gothic" }, { "name": "LXGW WenKai Mono TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode LXGW WenKai Mono TC" }, { "name": "LXGW WenKai Screen", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode LXGW WenKai Screen" }, { "name": "UoqMunThenKhung", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode UoqMunThenKhung" }, { "name": "WDXL Lubrifont SC", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode WDXL Lubrifont SC" }, { "name": "WDXL Lubrifont TC", "group": "zh", "locale": "zh-Hant", "family": "ShotDecode WDXL Lubrifont TC" }, { "name": "ZCOOL XiaoWei", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode ZCOOL XiaoWei" }, { "name": "Zhi Mang Xing", "group": "zh", "locale": "zh-Hans", "family": "ShotDecode Zhi Mang Xing" }, { "name": "Noto Sans JP", "group": "ja", "family": "ShotDecode Noto Sans JP" }, { "name": "Noto Serif JP", "group": "ja", "family": "ShotDecode Noto Serif JP" }, { "name": "BIZ UDGothic", "group": "ja", "family": "ShotDecode BIZ UDGothic" }, { "name": "BIZ UDPGothic", "group": "ja", "family": "ShotDecode BIZ UDPGothic" }, { "name": "BIZ UDMincho", "group": "ja", "family": "ShotDecode BIZ UDMincho" }, { "name": "BIZ UDPMincho", "group": "ja", "family": "ShotDecode BIZ UDPMincho" }, { "name": "Zen Kaku Gothic New", "group": "ja", "family": "ShotDecode Zen Kaku Gothic New" }, { "name": "Zen Kaku Gothic Antique", "group": "ja", "family": "ShotDecode Zen Kaku Gothic Antique" }, { "name": "Zen Maru Gothic", "group": "ja", "family": "ShotDecode Zen Maru Gothic" }, { "name": "Zen Old Mincho", "group": "ja", "family": "ShotDecode Zen Old Mincho" }, { "name": "Zen Kurenaido", "group": "ja", "family": "ShotDecode Zen Kurenaido" }, { "name": "M PLUS 1", "group": "ja", "family": "ShotDecode M PLUS 1" }, { "name": "M PLUS 1p", "group": "ja", "family": "ShotDecode M PLUS 1p" }, { "name": "M PLUS 2", "group": "ja", "family": "ShotDecode M PLUS 2" }, { "name": "Dela Gothic One", "group": "ja", "family": "ShotDecode Dela Gothic One" }, { "name": "DotGothic16", "group": "ja", "family": "ShotDecode DotGothic16" }, { "name": "Hachi Maru Pop", "group": "ja", "family": "ShotDecode Hachi Maru Pop" }, { "name": "Hina Mincho", "group": "ja", "family": "ShotDecode Hina Mincho" }, { "name": "Kaisei Decol", "group": "ja", "family": "ShotDecode Kaisei Decol" }, { "name": "Kaisei HarunoUmi", "group": "ja", "family": "ShotDecode Kaisei HarunoUmi" }, { "name": "Kaisei Opti", "group": "ja", "family": "ShotDecode Kaisei Opti" }, { "name": "Kaisei Tokumin", "group": "ja", "family": "ShotDecode Kaisei Tokumin" }, { "name": "Kiwi Maru", "group": "ja", "family": "ShotDecode Kiwi Maru" }, { "name": "Klee One", "group": "ja", "family": "ShotDecode Klee One" }, { "name": "New Tegomin", "group": "ja", "family": "ShotDecode New Tegomin" }, { "name": "Potta One", "group": "ja", "family": "ShotDecode Potta One" }, { "name": "Rampart One", "group": "ja", "family": "ShotDecode Rampart One" }, { "name": "Reggae One", "group": "ja", "family": "ShotDecode Reggae One" }, { "name": "RocknRoll One", "group": "ja", "family": "ShotDecode RocknRoll One" }, { "name": "Sawarabi Gothic", "group": "ja", "family": "ShotDecode Sawarabi Gothic" }, { "name": "Sawarabi Mincho", "group": "ja", "family": "ShotDecode Sawarabi Mincho" }, { "name": "Shippori Mincho", "group": "ja", "family": "ShotDecode Shippori Mincho" }, { "name": "Shippori Mincho B1", "group": "ja", "family": "ShotDecode Shippori Mincho B1" }, { "name": "Stick", "group": "ja", "family": "ShotDecode Stick" }, { "name": "Train One", "group": "ja", "family": "ShotDecode Train One" }, { "name": "Yomogi", "group": "ja", "family": "ShotDecode Yomogi" }, { "name": "Yuji Boku", "group": "ja", "family": "ShotDecode Yuji Boku" }, { "name": "Yuji Mai", "group": "ja", "family": "ShotDecode Yuji Mai" }, { "name": "Yuji Syuku", "group": "ja", "family": "ShotDecode Yuji Syuku" }, { "name": "Yusei Magic", "group": "ja", "family": "ShotDecode Yusei Magic" }, { "name": "Inter", "group": "en", "family": "ShotDecode Inter" }, { "name": "Roboto", "group": "en", "family": "ShotDecode Roboto" }, { "name": "Open Sans", "group": "en", "family": "ShotDecode Open Sans" }, { "name": "Montserrat", "group": "en", "family": "ShotDecode Montserrat" }, { "name": "Lato", "group": "en", "family": "ShotDecode Lato" }, { "name": "Roboto Condensed", "group": "en", "family": "ShotDecode Roboto Condensed" }, { "name": "Oswald", "group": "en", "family": "ShotDecode Oswald" }, { "name": "Anton", "group": "en", "family": "ShotDecode Anton" }, { "name": "Bebas Neue", "group": "en", "family": "ShotDecode Bebas Neue" }, { "name": "Poppins", "group": "en", "family": "ShotDecode Poppins" }, { "name": "Nunito", "group": "en", "family": "ShotDecode Nunito" }, { "name": "Nunito Sans", "group": "en", "family": "ShotDecode Nunito Sans" }, { "name": "DM Sans", "group": "en", "family": "ShotDecode DM Sans" }, { "name": "Work Sans", "group": "en", "family": "ShotDecode Work Sans" }, { "name": "Manrope", "group": "en", "family": "ShotDecode Manrope" }, { "name": "Plus Jakarta Sans", "group": "en", "family": "ShotDecode Plus Jakarta Sans" }, { "name": "Outfit", "group": "en", "family": "ShotDecode Outfit" }, { "name": "Space Grotesk", "group": "en", "family": "ShotDecode Space Grotesk" }, { "name": "Lexend", "group": "en", "family": "ShotDecode Lexend" }, { "name": "Merriweather", "group": "en", "family": "ShotDecode Merriweather" }, { "name": "Libre Baskerville", "group": "en", "family": "ShotDecode Libre Baskerville" }, { "name": "Playfair Display", "group": "en", "family": "ShotDecode Playfair Display" }, { "name": "PT Serif", "group": "en", "family": "ShotDecode PT Serif" }, { "name": "Source Serif 4", "group": "en", "family": "ShotDecode Source Serif 4" }, { "name": "Crimson Text", "group": "en", "family": "ShotDecode Crimson Text" }, { "name": "Cormorant Garamond", "group": "en", "family": "ShotDecode Cormorant Garamond" }, { "name": "EB Garamond", "group": "en", "family": "ShotDecode EB Garamond" }, { "name": "Spectral", "group": "en", "family": "ShotDecode Spectral" }, { "name": "IBM Plex Mono", "group": "en", "family": "ShotDecode IBM Plex Mono" }, { "name": "JetBrains Mono", "group": "en", "family": "ShotDecode JetBrains Mono" }, { "name": "Space Mono", "group": "en", "family": "ShotDecode Space Mono" }, { "name": "Inconsolata", "group": "en", "family": "ShotDecode Inconsolata" }, { "name": "Caveat", "group": "en", "family": "ShotDecode Caveat" }, { "name": "Kalam", "group": "en", "family": "ShotDecode Kalam" }, { "name": "Patrick Hand", "group": "en", "family": "ShotDecode Patrick Hand" }, { "name": "Abril Fatface", "group": "en", "family": "ShotDecode Abril Fatface" }, { "name": "Archivo Black", "group": "en", "family": "ShotDecode Archivo Black" }, { "name": "Barlow", "group": "en", "family": "ShotDecode Barlow" }, { "name": "Barlow Condensed", "group": "en", "family": "ShotDecode Barlow Condensed" }, { "name": "League Spartan", "group": "en", "family": "ShotDecode League Spartan" }, { "name": "Sora", "group": "en", "family": "ShotDecode Sora" }, { "name": "Raleway", "group": "en", "family": "ShotDecode Raleway" }, { "name": "Karla", "group": "en", "family": "ShotDecode Karla" }, { "name": "Rubik", "group": "en", "family": "ShotDecode Rubik" }, { "name": "Figtree", "group": "en", "family": "ShotDecode Figtree" }, { "name": "Atkinson Hyperlegible", "group": "en", "family": "ShotDecode Atkinson Hyperlegible" }, { "name": "Merriweather Sans", "group": "en", "family": "ShotDecode Merriweather Sans" }, { "name": "Public Sans", "group": "en", "family": "ShotDecode Public Sans" }, { "name": "Quicksand", "group": "en", "family": "ShotDecode Quicksand" }, { "name": "Arimo", "group": "en", "family": "ShotDecode Arimo" }, { "name": "Fjalla One", "group": "en", "family": "ShotDecode Fjalla One" }, { "name": "Chivo Mono", "group": "en", "family": "ShotDecode Chivo Mono" }, { "name": "Urbanist", "group": "en", "family": "ShotDecode Urbanist" }, { "name": "Titillium Web", "group": "en", "family": "ShotDecode Titillium Web" }, { "name": "Source Sans 3", "group": "en", "family": "ShotDecode Source Sans 3" }, { "name": "Yanone Kaffeesatz", "group": "en", "family": "ShotDecode Yanone Kaffeesatz" }, { "name": "Comfortaa", "group": "en", "family": "ShotDecode Comfortaa" }, { "name": "Lora", "group": "en", "family": "ShotDecode Lora" }, { "name": "Bitter", "group": "en", "family": "ShotDecode Bitter" }, { "name": "Domine", "group": "en", "family": "ShotDecode Domine" }, { "name": "Vollkorn", "group": "en", "family": "ShotDecode Vollkorn" }, { "name": "Acme", "group": "en", "family": "ShotDecode Acme" }, { "name": "Akshar", "group": "en", "family": "ShotDecode Akshar" }, { "name": "Alegreya", "group": "es", "family": "ShotDecode Alegreya" }, { "name": "Alegreya Sans", "group": "es", "family": "ShotDecode Alegreya Sans" }, { "name": "Andada Pro", "group": "es", "family": "ShotDecode Andada Pro" }, { "name": "Asap", "group": "es", "family": "ShotDecode Asap" }, { "name": "Asap Condensed", "group": "es", "family": "ShotDecode Asap Condensed" }, { "name": "Chivo", "group": "es", "family": "ShotDecode Chivo" }, { "name": "Encode Sans", "group": "es", "family": "ShotDecode Encode Sans" }, { "name": "Encode Sans Condensed", "group": "es", "family": "ShotDecode Encode Sans Condensed" }, { "name": "Petrona", "group": "es", "family": "ShotDecode Petrona" }, { "name": "Piazzolla", "group": "es", "family": "ShotDecode Piazzolla" }, { "name": "Barlow Semi Condensed", "group": "es", "family": "ShotDecode Barlow Semi Condensed" }, { "name": "BioRhyme", "group": "es", "family": "ShotDecode BioRhyme" }, { "name": "Bricolage Grotesque", "group": "es", "family": "ShotDecode Bricolage Grotesque" }, { "name": "Cabin", "group": "es", "family": "ShotDecode Cabin" }, { "name": "Cabin Condensed", "group": "es", "family": "ShotDecode Cabin Condensed" }, { "name": "Istok Web", "group": "es", "family": "ShotDecode Istok Web" }, { "name": "Andika", "group": "es", "family": "ShotDecode Andika" }, { "name": "Candal", "group": "es", "family": "ShotDecode Candal" }, { "name": "Cantarell", "group": "es", "family": "ShotDecode Cantarell" }, { "name": "Cardo", "group": "es", "family": "ShotDecode Cardo" }, { "name": "Cinzel", "group": "es", "family": "ShotDecode Cinzel" }, { "name": "Coda", "group": "es", "family": "ShotDecode Coda" }, { "name": "Commissioner", "group": "es", "family": "ShotDecode Commissioner" }, { "name": "Courgette", "group": "es", "family": "ShotDecode Courgette" }, { "name": "DM Serif Display", "group": "es", "family": "ShotDecode DM Serif Display" }, { "name": "DM Serif Text", "group": "es", "family": "ShotDecode DM Serif Text" }, { "name": "Dosis", "group": "es", "family": "ShotDecode Dosis" }, { "name": "Exo 2", "group": "es", "family": "ShotDecode Exo 2" }, { "name": "Gelasio", "group": "es", "family": "ShotDecode Gelasio" }, { "name": "Geologica", "group": "es", "family": "ShotDecode Geologica" }, { "name": "Grenze", "group": "es", "family": "ShotDecode Grenze" }, { "name": "Heebo", "group": "es", "family": "ShotDecode Heebo" }, { "name": "Hind", "group": "es", "family": "ShotDecode Hind" }, { "name": "Instrument Sans", "group": "es", "family": "ShotDecode Instrument Sans" }, { "name": "Josefin Sans", "group": "es", "family": "ShotDecode Josefin Sans" }, { "name": "Jost", "group": "es", "family": "ShotDecode Jost" }, { "name": "K2D", "group": "es", "family": "ShotDecode K2D" }, { "name": "Kanit", "group": "es", "family": "ShotDecode Kanit" }, { "name": "Krona One", "group": "es", "family": "ShotDecode Krona One" }, { "name": "Libre Franklin", "group": "es", "family": "ShotDecode Libre Franklin" }, { "name": "Literata", "group": "es", "family": "ShotDecode Literata" }, { "name": "Lobster", "group": "es", "family": "ShotDecode Lobster" }, { "name": "Lobster Two", "group": "es", "family": "ShotDecode Lobster Two" }, { "name": "Martel", "group": "es", "family": "ShotDecode Martel" }, { "name": "Mulish", "group": "es", "family": "ShotDecode Mulish" }, { "name": "Newsreader", "group": "es", "family": "ShotDecode Newsreader" }, { "name": "Noto Sans", "group": "es", "family": "ShotDecode Noto Sans" }, { "name": "Noto Serif", "group": "es", "family": "ShotDecode Noto Serif" }, { "name": "Passion One", "group": "es", "family": "ShotDecode Passion One" }, { "name": "Prata", "group": "es", "family": "ShotDecode Prata" }, { "name": "Racing Sans One", "group": "es", "family": "ShotDecode Racing Sans One" }, { "name": "Recursive", "group": "es", "family": "ShotDecode Recursive" }, { "name": "Ruda", "group": "es", "family": "ShotDecode Ruda" }, { "name": "Sarabun", "group": "es", "family": "ShotDecode Sarabun" }, { "name": "Sofia Sans", "group": "es", "family": "ShotDecode Sofia Sans" }, { "name": "Tenor Sans", "group": "es", "family": "ShotDecode Tenor Sans" }, { "name": "Unbounded", "group": "es", "family": "ShotDecode Unbounded" }, { "name": "Varela Round", "group": "es", "family": "ShotDecode Varela Round" }, { "name": "Ysabeau", "group": "es", "family": "ShotDecode Ysabeau" }, { "name": "Zilla Slab", "group": "es", "family": "ShotDecode Zilla Slab" }, { "name": "Fraunces", "group": "es", "family": "ShotDecode Fraunces" }, { "name": "Playball", "group": "es", "family": "ShotDecode Playball" }, { "name": "Playpen Sans", "group": "es", "family": "ShotDecode Playpen Sans" }, { "name": "Amaranth", "group": "es", "family": "ShotDecode Amaranth" }, { "name": "Grand Hotel", "group": "es", "family": "ShotDecode Grand Hotel" }, { "name": "Assistant", "group": "es", "family": "ShotDecode Assistant" }, { "name": "Belleza", "group": "es", "family": "ShotDecode Belleza" }, { "name": "Ledger", "group": "es", "family": "ShotDecode Ledger" }];
+const captionBundledFamilies = new Map(captionFontCatalog.map(({ name, family }) => [name.toLowerCase(), family]));
+function WindowGlyph({ kind }) {
+  const paths = {
+    minimize: "M1.5 6h9",
+    maximize: "M1.5 1.5h9v9h-9z",
+    restore: "M4 3.5v-2h6.5V8h-2m-7-4.5h7v7h-7z",
+    close: "m2 2 8 8m0-8-8 8"
+  };
+  return /* @__PURE__ */ j.createElement(
+    "svg",
+    {
+      "aria-hidden": "true",
+      width: "12",
+      height: "12",
+      viewBox: "0 0 12 12",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1.15"
+    },
+    /* @__PURE__ */ j.createElement("path", { d: paths[kind] })
+  );
+}
+function SettingsGear({ size = 16 }) {
+  return /* @__PURE__ */ j.createElement(
+    "svg",
+    {
+      "aria-hidden": "true",
+      width: size,
+      height: size,
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1.8",
+      strokeLinejoin: "round"
+    },
+    /* @__PURE__ */ j.createElement("polygon", { points: "9.8,4.7 9.9,2.2 14.1,2.2 14.2,4.7 17.2,6.4 19.4,5.3 21.5,8.9 19.4,10.3\r\n      19.4,13.7 21.5,15.1 19.4,18.7 17.2,17.6 14.2,19.3 14.1,21.8 9.9,21.8 9.8,19.3\r\n      6.8,17.6 4.6,18.7 2.5,15.1 4.6,13.7 4.6,10.3 2.5,8.9 4.6,5.3 6.8,6.4" }),
+    /* @__PURE__ */ j.createElement("circle", { cx: "12", cy: "12", r: "3.1" })
+  );
+}
+function ToolboxIcon({ size = 16 }) {
+  return /* @__PURE__ */ j.createElement(
+    "svg",
+    {
+      "aria-hidden": "true",
+      width: size,
+      height: size,
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1.8",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
+    },
+    /* @__PURE__ */ j.createElement("rect", { x: "3", y: "7", width: "18", height: "13", rx: "2" }),
+    /* @__PURE__ */ j.createElement("path", { d: "M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18m-12-1.5v3m6-3v3" })
+  );
+}
+function ProjectToolsIcon({ size = 16 }) {
+  return /* @__PURE__ */ j.createElement(
+    "svg",
+    {
+      "aria-hidden": "true",
+      width: size,
+      height: size,
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1.8",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
+    },
+    /* @__PURE__ */ j.createElement("path", { d: "M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" }),
+    /* @__PURE__ */ j.createElement("path", { d: "M8.5 10.5h2.6v2.6H8.5zm4.4 0h2.6v2.6h-2.6zm-4.4 4.4h2.6v2.6H8.5zm4.4 0h2.6v2.6h-2.6z", fill: "currentColor", stroke: "none" })
+  );
+}
+function StudioTitleBar({ projects, children }) {
+  const [windowState, setWindowState] = j.useState(null);
+  const request = j.useCallback((operation) => Uo("window_control", { operation }), []);
+  j.useEffect(() => {
+    let mounted = true, desktop = false, timer;
+    const read = () => request("state").then((state) => {
+      desktop = Boolean(state);
+      if (mounted && desktop) setWindowState(state);
+    }).catch(() => {
+    });
+    const resize = () => {
+      if (!desktop) return;
+      clearTimeout(timer);
+      timer = setTimeout(read, 75);
+    };
+    read();
+    window.addEventListener("resize", resize);
+    return () => {
+      mounted = false;
+      clearTimeout(timer);
+      window.removeEventListener("resize", resize);
+    };
+  }, [request]);
+  const act = (action) => request(action).then((state) => {
+    if (state) setWindowState(state);
+  }).catch(() => {
+  });
+  const toggleLabel = windowState?.maximized ? labelText("还原窗口") : labelText("最大化窗口");
+  const dragClass = windowState ? windowState.native_drag ? " native-drag" : " pywebview-drag-region" : "";
+  return /* @__PURE__ */ j.createElement("header", { className: "appbar" + (windowState ? " desktop-appbar" : "") }, projects, /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      className: "appbar-title" + dragClass,
+      onDoubleClick: windowState && !windowState.native_drag ? () => act("toggle_maximized") : void 0
+    }
+  ), children, windowState && /* @__PURE__ */ j.createElement("div", { className: "desktop-window-actions", role: "group", "aria-label": labelText("窗口控制") }, /* @__PURE__ */ j.createElement("button", { type: "button", "aria-label": labelText("最小化窗口"), title: labelText("最小化窗口"), onClick: () => act("minimize") }, /* @__PURE__ */ j.createElement(WindowGlyph, { kind: "minimize" })), /* @__PURE__ */ j.createElement("button", { type: "button", "aria-label": toggleLabel, title: toggleLabel, onClick: () => act("toggle_maximized") }, /* @__PURE__ */ j.createElement(WindowGlyph, { kind: windowState.maximized ? "restore" : "maximize" })), /* @__PURE__ */ j.createElement("button", { type: "button", className: "desktop-window-close", "aria-label": labelText("关闭窗口"), title: labelText("关闭窗口"), onClick: () => act("close") }, /* @__PURE__ */ j.createElement(WindowGlyph, { kind: "close" }))));
+}
+function StudioStartup({ error }) {
+  return /* @__PURE__ */ j.createElement("div", { className: "studio-startup" }, /* @__PURE__ */ j.createElement(StudioTitleBar, null), /* @__PURE__ */ j.createElement("div", { className: "boot" }, error ? /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("p", null, error), /* @__PURE__ */ j.createElement(D, { icon: qe, onClick: () => location.reload() }, labelText("重新加载"))) : /* @__PURE__ */ j.createElement("span", null, labelText("正在读取工作区…"))));
+}
+function HeaderCommand({ icon, label, shortcut, primary, ...props }) {
+  return /* @__PURE__ */ j.createElement("span", { className: "header-command" }, /* @__PURE__ */ j.createElement(
+    St,
+    {
+      icon,
+      label,
+      title: void 0,
+      className: primary ? "header-primary" : "",
+      ...props
+    }
+  ), /* @__PURE__ */ j.createElement("span", { className: "header-tooltip", "aria-hidden": "true" }, label, shortcut && " · " + shortcut));
+}
+function projectTabIds(ids, active, maximum, recent) {
+  if (!active || ids.includes(active)) return ids.slice(0, maximum);
+  if (ids.length < maximum) return [...ids, active];
+  const leastRecent = recent.findLast((item) => ids.includes(item.id))?.id;
+  return [...ids.filter((id) => id !== leastRecent).slice(0, maximum - 1), active];
+}
+function ProjectStrip({ project, source, recent, disabled, onOpen, onNew }) {
+  const maximum = 3;
+  const available = new Map(recent.map((item) => [item.id, item]));
+  if (project) available.set(project.id, project);
+  const [tabs, setTabs] = j.useState(() => [...new Set([project?.id, ...recent.map((item) => item.id)].filter(Boolean))].slice(0, maximum));
+  const [menu, setMenu] = j.useState(false);
+  const region = j.useRef(null);
+  const menuButton = j.useRef(null);
+  const addButton = j.useRef(null);
+  const tabList = j.useRef(null);
+  const active = project?.id;
+  const draft = !project && source?.name ? { id: "draft", name: source.name } : null;
+  const shown = projectTabIds(tabs.filter((id) => available.has(id)), active, maximum - (draft ? 1 : 0), recent);
+  const visible = shown.map((id) => available.get(id));
+  if (draft) visible.push(draft);
+  const current = active || draft?.id;
+  j.useEffect(() => {
+    if (active) setTabs((ids) => projectTabIds(ids, active, maximum, recent));
+  }, [active]);
+  j.useEffect(() => {
+    if (!menu) return;
+    function outside(event) {
+      if (!region.current?.contains(event.target)) setMenu(false);
+    }
+    function escape(event) {
+      if (event.key !== "Escape" || event.defaultPrevented) return;
+      event.preventDefault();
+      setMenu(false);
+      menuButton.current?.focus();
+    }
+    document.addEventListener("pointerdown", outside);
+    window.addEventListener("keydown", escape);
+    return () => {
+      document.removeEventListener("pointerdown", outside);
+      window.removeEventListener("keydown", escape);
+    };
+  }, [menu]);
+  function open(id) {
+    setMenu(false);
+    if (id !== current) return onOpen(id);
+  }
+  async function close(id) {
+    setMenu(false);
+    if (id === current) {
+      const position = visible.findIndex((item) => item.id === id);
+      const neighbor = visible[position + 1] || visible[position - 1];
+      if (!await (neighbor ? onOpen(neighbor.id) : onNew())) return;
+    }
+    setTabs((ids) => ids.filter((tab) => tab !== id));
+    requestAnimationFrame(() => {
+      const target = tabList.current?.querySelector('[aria-current="page"]') || addButton.current;
+      target?.focus({ preventScroll: true });
+    });
+  }
+  return /* @__PURE__ */ j.createElement("div", { className: "project-strip", ref: region }, !!visible.length && /* @__PURE__ */ j.createElement("div", { className: "project-tabs", ref: tabList, role: "group", "aria-label": labelText("项目标签") }, visible.map((item) => {
+    const selected = current === item.id;
+    const name = Ab(item.name);
+    const closeLabel = labelText("关闭项目标签 {0}", name);
+    return /* @__PURE__ */ j.createElement("div", { key: item.id, className: "project-tab" + (selected ? " current" : ""), "data-project-tab": item.id }, /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        type: "button",
+        className: "project-tab-select",
+        title: name,
+        "aria-current": selected ? "page" : void 0,
+        disabled,
+        onClick: () => open(item.id)
+      },
+      j.createElement($t, { size: 13, "aria-hidden": true }),
+      /* @__PURE__ */ j.createElement("span", null, name)
+    ), /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        type: "button",
+        className: "project-tab-close",
+        title: closeLabel,
+        "aria-label": closeLabel,
+        disabled,
+        onClick: () => close(item.id)
+      },
+      /* @__PURE__ */ j.createElement(Wa, { size: 12, "aria-hidden": "true" })
+    ));
+  })), /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "icon-button project-strip-action",
+      ref: addButton,
+      "aria-label": labelText("新建项目"),
+      title: labelText("新建项目"),
+      disabled,
+      onClick: () => {
+        setMenu(false);
+        onNew();
+      }
+    },
+    /* @__PURE__ */ j.createElement(Hi, { size: 15, "aria-hidden": "true" })
+  ), /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "icon-button project-strip-action project-history-trigger",
+      ref: menuButton,
+      "aria-label": labelText("最近项目"),
+      title: labelText("最近项目"),
+      "aria-expanded": menu,
+      "aria-controls": menu ? "project-history" : void 0,
+      onClick: () => setMenu((value) => !value)
+    },
+    j.createElement(fu, { size: 14, "aria-hidden": true })
+  ), menu && /* @__PURE__ */ j.createElement("section", { className: "project-history", id: "project-history", "aria-label": labelText("最近项目") }, /* @__PURE__ */ j.createElement("h2", null, labelText("最近项目")), recent.length ? recent.map((item) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      key: item.id,
+      className: active === item.id ? "recent-row current" : "recent-row",
+      title: Ab(item.name),
+      "aria-current": active === item.id ? "page" : void 0,
+      disabled,
+      onClick: () => open(item.id)
+    },
+    /* @__PURE__ */ j.createElement(Gr, { src: item.thumb }),
+    /* @__PURE__ */ j.createElement("span", { className: "recent-text" }, /* @__PURE__ */ j.createElement("strong", null, Ab(item.name)), /* @__PURE__ */ j.createElement("small", null, item.shots, labelText(" 个镜头 · "), kt(item.duration)))
+  )) : /* @__PURE__ */ j.createElement("p", { className: "empty-recent" }, labelText("暂无最近项目"))));
+}
+function WorkspaceActionsMenu({ project, command, openLogs }) {
+  const [open, setOpen] = j.useState(false);
+  const container = j.useRef(null);
+  const trigger = j.useRef(null);
+  j.useEffect(() => {
+    if (!open) return;
+    function outside(event) {
+      if (!container.current?.contains(event.target)) setOpen(false);
+    }
+    document.addEventListener("pointerdown", outside);
+    return () => document.removeEventListener("pointerdown", outside);
+  }, [open]);
+  function closeMenu() {
+    setOpen(false);
+    trigger.current?.focus({ preventScroll: true });
+  }
+  function invoke(action) {
+    closeMenu();
+    action();
+  }
+  const result = project?.latest_export;
+  return /* @__PURE__ */ j.createElement("div", { ref: container, className: "workspace-actions header-command", onBlur: (event) => {
+    if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+  }, onKeyDown: (event) => {
+    if (open && event.key === "Escape") {
+      event.preventDefault();
+      event.stopPropagation();
+      closeMenu();
+    }
+  } }, /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      ref: trigger,
+      type: "button",
+      className: "icon-button",
+      "aria-label": labelText("更多操作"),
+      "aria-expanded": open,
+      "aria-controls": open ? "workspace-actions-menu" : void 0,
+      onClick: () => setOpen((value) => !value)
+    },
+    /* @__PURE__ */ j.createElement("svg", { viewBox: "0 0 16 16", width: "16", height: "16", fill: "currentColor", "aria-hidden": "true" }, [3, 8, 13].map((x) => /* @__PURE__ */ j.createElement("circle", { key: x, cx: x, cy: "8", r: "1.2" })))
+  ), open ? /* @__PURE__ */ j.createElement("div", { id: "workspace-actions-menu", className: "workspace-actions-menu", role: "group", "aria-label": labelText("更多操作") }, project && /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: qe, onClick: () => invoke(() => command("open_folder")) }, labelText("项目文件夹")), result && /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: Pr, title: result.name, onClick: () => invoke(() => command("tool_open_exports")) }, result.video ? labelText("打开成片位置") : labelText("打开导出位置")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: Kl, onClick: () => invoke(openLogs) }, labelText("任务日志"))) : /* @__PURE__ */ j.createElement("span", { className: "header-tooltip", "aria-hidden": "true" }, labelText("更多操作")));
 }
 function WorkflowGuide({ state, tab, onTab, command, onExport, openInput, disabled }) {
   const hasSource = !!state.source, hasProject = !!state.project;
   const step = !hasSource ? 0 : !hasProject ? 1 : 2;
   const steps = [
-    { label: "导入视频", detail: hasSource ? "更换视频或粘贴链接" : "本地上传 / 链接拆解", action: () => openInput() },
-    { label: "自动拆解", detail: hasProject ? "查看拆解设置" : "分镜、字幕和中译", action: () => onTab("analysis"), disabled: !hasSource },
-    { label: "查看与修改", detail: "看译文、换镜头、调声音", action: () => onTab(hasProject ? "subtitles" : "shot"), disabled: !hasProject },
-    { label: "导出成片", detail: "保存为一个 MP4", action: onExport, disabled: !hasProject || state.source?.missing }
+    { label: labelText("导入视频"), detail: hasSource ? labelText("更换视频或粘贴链接") : labelText("本地上传 / 链接拆解"), action: () => openInput() },
+    { label: labelText("自动拆解"), detail: hasProject ? labelText("查看拆解设置") : labelText("分镜、字幕和中译"), action: () => onTab("analysis"), disabled: !hasSource },
+    { label: labelText("查看与修改"), detail: labelText("看译文、换镜头、调声音"), action: () => onTab(hasProject ? "subtitles" : "shot"), disabled: !hasProject },
+    { label: labelText("导出成片"), detail: labelText("选择格式与保存位置"), action: onExport, disabled: !hasProject || state.source?.missing }
   ];
-  return /* @__PURE__ */ j.createElement("nav", { className: "workflow-guide", "aria-label": "视频处理流程" }, /* @__PURE__ */ j.createElement("span", { className: "workflow-label" }, "操作流程"), steps.map((s, i) => /* @__PURE__ */ j.createElement("button", { key: s.label, className: "workflow-step" + (step === i ? " current" : "") + (step > i ? " complete" : ""), "aria-current": step === i ? "step" : void 0, disabled: disabled || s.disabled, onClick: s.action }, /* @__PURE__ */ j.createElement("span", { className: "step-number" }, step > i ? "✓" : i + 1), /* @__PURE__ */ j.createElement("span", null, /* @__PURE__ */ j.createElement("strong", null, s.label), /* @__PURE__ */ j.createElement("small", null, s.detail)), i < 3 && /* @__PURE__ */ j.createElement("span", { className: "step-arrow", "aria-hidden": "true" }, "›"))));
+  return /* @__PURE__ */ j.createElement("nav", { className: "workflow-guide", "aria-label": labelText("视频处理流程") }, /* @__PURE__ */ j.createElement("span", { className: "workflow-label" }, labelText("操作流程")), steps.map((s, i) => /* @__PURE__ */ j.createElement("button", { key: s.label, className: "workflow-step" + (step === i ? " current" : "") + (step > i ? " complete" : ""), "aria-current": step === i ? "step" : void 0, disabled: disabled || s.disabled, onClick: s.action }, /* @__PURE__ */ j.createElement("span", { className: "step-number" }, step > i ? j.createElement(na, { size: 13, "aria-hidden": true }) : i + 1), /* @__PURE__ */ j.createElement("span", { className: "step-copy" }, /* @__PURE__ */ j.createElement("strong", null, s.label), /* @__PURE__ */ j.createElement("small", null, s.detail)), i < 3 && j.createElement(fu, { className: "step-arrow", size: 14, "aria-hidden": true }))));
+}
+function useEditorSelection(scope) {
+  const current = j.useRef({ scope, request: null });
+  const pending = j.useRef(Promise.resolve());
+  if (current.current.scope !== scope) current.current = { scope, request: null };
+  return (select) => {
+    const context = current.current;
+    const request = {};
+    context.request = request;
+    const isCurrent = () => current.current === context && context.request === request;
+    const next = pending.current.then(() => isCurrent() && select(isCurrent));
+    pending.current = next.catch(() => false);
+    return next;
+  };
+}
+function isEditingText(target) {
+  if (!(target instanceof Element)) return false;
+  if (target.closest("textarea, [contenteditable]:not([contenteditable=false]), [role=textbox]")) return true;
+  const input = target.closest("input");
+  return !!input && !["range", "checkbox", "radio", "button", "submit", "file", "color", "reset"].includes(input.type);
+}
+function useUndoShortcut(enabled, undo, keyTarget = window) {
+  const action = j.useRef(undo);
+  action.current = undo;
+  j.useEffect(() => {
+    if (!enabled) return;
+    function onKeyDown(event) {
+      if (event.defaultPrevented || event.isComposing || event.keyCode === 229 || event.repeat || !event.ctrlKey || event.shiftKey || event.altKey || event.key.toLowerCase() !== "z") return;
+      const target = event.composedPath().find((node) => node instanceof Element);
+      if (isEditingText(target)) return;
+      event.preventDefault();
+      action.current();
+    }
+    keyTarget.addEventListener("keydown", onKeyDown);
+    return () => keyTarget.removeEventListener("keydown", onKeyDown);
+  }, [enabled, keyTarget]);
+}
+function PromptWorkspace(props) {
+  const shots = props.project?.shots || [];
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, shots.length > 1 && /* @__PURE__ */ j.createElement("section", { className: "inspector-block prompt-clip-picker" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("提示词镜头")), /* @__PURE__ */ j.createElement(
+    "select",
+    {
+      value: props.shot?.id || "",
+      disabled: props.disabled,
+      onChange: (event) => props.selectPromptShot(event.target.value)
+    },
+    shots.map((shot) => /* @__PURE__ */ j.createElement("option", { key: shot.id, value: shot.id }, labelText("镜头 "), String(shot.id).padStart(2, "0"), " · ", kt(shot.start, true)))
+  ))), j.createElement(fP, props));
 }
 function PanelResizeHandle({ tab, hidden }) {
   const node = j.useRef(null), layout = j.useRef(null), drag = j.useRef(null), requested = j.useRef(void 0);
@@ -16031,7 +18702,8 @@ function PanelResizeHandle({ tab, hidden }) {
   function apply(value) {
     const info = layout.current;
     if (!info) return;
-    const max = Math.max(280, Math.min(680, info.shell.clientWidth - info.sidebar.offsetWidth - 360));
+    const sidebarWidth = info.shell.querySelector(".sidebar")?.offsetWidth || 0;
+    const max = Math.max(280, Math.min(680, info.shell.clientWidth - sidebarWidth - 360));
     const defaultWidth = parseFloat(getComputedStyle(info.shell).getPropertyValue("--inspector-default")) || 364;
     const width = Math.round(Math.max(280, Math.min(max, value ?? defaultWidth)));
     info.shell.style.setProperty("--inspector-width", width + "px");
@@ -16051,11 +18723,12 @@ function PanelResizeHandle({ tab, hidden }) {
         requested.current = null;
       }
     }
-    layout.current = { shell, sidebar };
+    layout.current = { shell };
     const update = () => apply(requested.current);
     update();
     const observer = new ResizeObserver(update);
     observer.observe(shell);
+    observer.observe(sidebar);
     return () => {
       observer.disconnect();
       shell.classList.remove("resizing-panel");
@@ -16108,7 +18781,7 @@ function PanelResizeHandle({ tab, hidden }) {
     requested.current = apply(next);
     persist();
   }
-  return /* @__PURE__ */ j.createElement("div", { ref: node, role: "separator", tabIndex: 0, "aria-label": "调整右侧面板宽度", "aria-orientation": "vertical", "aria-controls": "task-inspector", "aria-valuemin": size.min, "aria-valuemax": size.max, "aria-valuenow": size.width, "aria-valuetext": size.width + " 像素", title: "左右拖动调整宽度；双击恢复默认", className: "panel-resize-handle" + (dragging ? " dragging" : ""), onPointerDown: begin, onPointerMove: move, onPointerUp: end, onPointerCancel: end, onLostPointerCapture: end, onDoubleClick: reset, onKeyDown: keyboard }, /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, "↔"));
+  return /* @__PURE__ */ j.createElement("div", { ref: node, role: "separator", tabIndex: 0, "aria-label": labelText("调整右侧面板宽度"), "aria-orientation": "vertical", "aria-controls": "task-inspector", "aria-valuemin": size.min, "aria-valuemax": size.max, "aria-valuenow": size.width, "aria-valuetext": size.width + labelText(" 像素"), title: labelText("左右拖动调整宽度；双击恢复默认"), className: "panel-resize-handle" + (dragging ? " dragging" : ""), onPointerDown: begin, onPointerMove: move, onPointerUp: end, onPointerCancel: end, onLostPointerCapture: end, onDoubleClick: reset, onKeyDown: keyboard }, /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, "↔"));
 }
 function useTimelineZoom(content, config) {
   const latest = Sa.useRef(config), anchor = Sa.useRef(null), lastZoom = Sa.useRef(0);
@@ -16157,13 +18830,13 @@ function useTimelineZoom(content, config) {
   }, []);
   return { minimum, value: config.fit ? minimum : config.zoom, change, ignoreFollow: () => performance.now() - lastZoom.current < 200 };
 }
-function SourceImportPanel({ state, mode, setMode, text, setText, onPick, onAnalyze, onBack, disabled, submitting }) {
+function SourceImportPanel({ state, mode, setMode, text, setText, onPick, onAnalyze, onBack, disabled, submitting, editing, onEditSource }) {
   const input = j.useRef(null), phase = state.link_import?.phase || "idle";
   const running = state.active && ["downloading", "analyzing"].includes(phase);
   const failed = phase === "failed", cancelled = phase === "cancelled";
-  const isLink = mode === "link", busy = !!(disabled || submitting);
+  const isLink = mode === "link" && !editing, busy = !!(disabled || submitting);
   const platforms = state.link_import?.platform;
-  const message = state.link_import?.message || { downloading: "正在下载视频，完成后会自动开始拆解。", analyzing: "视频已下载，正在自动拆解。", completed: "视频拆解已完成。", cancelled: "任务已停止，分享内容已保留。" }[phase];
+  const message = state.link_import?.message || { downloading: labelText("正在下载视频，完成后会自动开始拆解。"), analyzing: labelText("视频已下载，正在自动拆解。"), completed: labelText("视频拆解已完成。"), cancelled: labelText("任务已停止，分享内容已保留。") }[phase];
   j.useEffect(() => {
     if (isLink && !busy) input.current?.focus();
   }, [isLink]);
@@ -16177,19 +18850,4821 @@ function SourceImportPanel({ state, mode, setMode, text, setText, onPick, onAnal
     setMode(value);
     event.currentTarget.parentElement.querySelector('[data-mode="' + value + '"]')?.focus();
   }
-  return /* @__PURE__ */ j.createElement("div", { className: "source-import", "aria-label": "新建视频拆解" }, /* @__PURE__ */ j.createElement("div", { className: "source-import-heading" }, /* @__PURE__ */ j.createElement("span", { className: "source-import-symbol", "aria-hidden": "true" }, /* @__PURE__ */ j.createElement(Ka, { size: 24 })), /* @__PURE__ */ j.createElement("h3", null, "从一条参考视频开始"), /* @__PURE__ */ j.createElement("p", null, "上传本地视频，或粘贴链接自动下载并拆解。")), /* @__PURE__ */ j.createElement("div", { className: "source-mode-switch", role: "tablist", "aria-label": "视频来源" }, [["local", "本地上传"], ["link", "链接拆解"]].map(([id, label]) => /* @__PURE__ */ j.createElement("button", { key: id, id: "source-mode-" + id, type: "button", role: "tab", "data-mode": id, "aria-selected": mode === id, "aria-controls": "source-input-" + id, tabIndex: mode === id ? 0 : -1, disabled: busy, onClick: () => changeMode(id), onKeyDown: keyMode }, label))), isLink ? /* @__PURE__ */ j.createElement("form", { id: "source-input-link", role: "tabpanel", "aria-labelledby": "source-mode-link", className: "source-input-link", onSubmit: (event) => {
+  if (editing) return /* @__PURE__ */ j.createElement("div", { className: "source-import", "aria-label": labelText("导入剪辑素材") }, /* @__PURE__ */ j.createElement("div", { className: "source-import-heading" }, /* @__PURE__ */ j.createElement("span", { className: "source-import-symbol", "aria-hidden": "true" }, /* @__PURE__ */ j.createElement($t, { size: 24 })), /* @__PURE__ */ j.createElement("h3", null, labelText("导入视频剪辑"))), /* @__PURE__ */ j.createElement("div", { className: "source-input-local" }, /* @__PURE__ */ j.createElement("p", null, labelText("将视频拖到这里，或选择电脑中的文件。")), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: qe, disabled: busy, onClick: onPick }, labelText("选择本地视频")), state.source?.url && !state.project && /* @__PURE__ */ j.createElement(D, { className: "wide", disabled: busy, onClick: onEditSource }, labelText("直接剪辑当前视频")), /* @__PURE__ */ j.createElement("small", null, labelText("支持 MP4、MOV、MKV、WebM 等常用格式"))), state.project && /* @__PURE__ */ j.createElement("button", { className: "source-input-back", type: "button", disabled: busy, onClick: onBack }, labelText("返回当前视频")));
+  return /* @__PURE__ */ j.createElement("div", { className: "source-import", "aria-label": labelText("新建视频拆解") }, /* @__PURE__ */ j.createElement("div", { className: "source-import-heading" }, /* @__PURE__ */ j.createElement("span", { className: "source-import-symbol", "aria-hidden": "true" }, /* @__PURE__ */ j.createElement(Ka, { size: 24 })), /* @__PURE__ */ j.createElement("h3", null, labelText("从一条参考视频开始")), /* @__PURE__ */ j.createElement("p", null, labelText("上传本地视频，或粘贴链接自动下载并拆解。"))), /* @__PURE__ */ j.createElement("div", { className: "source-mode-switch", role: "tablist", "aria-label": labelText("视频来源") }, [["local", labelText("本地上传")], ["link", labelText("链接拆解")]].map(([id, label]) => /* @__PURE__ */ j.createElement("button", { key: id, id: "source-mode-" + id, type: "button", role: "tab", "data-mode": id, "aria-selected": mode === id, "aria-controls": "source-input-" + id, tabIndex: mode === id ? 0 : -1, disabled: busy, onClick: () => changeMode(id), onKeyDown: keyMode }, label))), isLink ? /* @__PURE__ */ j.createElement("form", { id: "source-input-link", role: "tabpanel", "aria-labelledby": "source-mode-link", className: "source-input-link", onSubmit: (event) => {
     event.preventDefault();
     if (text.trim() && !busy) onAnalyze();
-  } }, /* @__PURE__ */ j.createElement("label", { htmlFor: "source-share-link" }, "抖音 / TikTok 视频链接"), /* @__PURE__ */ j.createElement("textarea", { ref: input, id: "source-share-link", rows: 4, maxLength: 16384, value: text, disabled: busy, spellCheck: false, placeholder: "粘贴视频链接，或包含链接的完整分享文案\nhttps://v.douyin.com/…", onChange: (event) => setText(event.target.value), "aria-describedby": "source-link-hint", "aria-invalid": failed || void 0 }), /* @__PURE__ */ j.createElement("p", { id: "source-link-hint", className: "field-hint" }, "自动识别平台，一次拆解一条视频。粘贴后点击下方按钮开始。"), running && /* @__PURE__ */ j.createElement("div", { className: "link-import-progress", role: "status", "aria-live": "polite" }, /* @__PURE__ */ j.createElement("div", { className: "link-import-steps" }, /* @__PURE__ */ j.createElement("span", { className: phase === "downloading" ? "current" : "complete" }, /* @__PURE__ */ j.createElement("b", null, phase === "analyzing" ? "✓" : "1"), "下载视频"), /* @__PURE__ */ j.createElement("i", { "aria-hidden": "true" }, "›"), /* @__PURE__ */ j.createElement("span", { className: phase === "analyzing" ? "current" : "" }, /* @__PURE__ */ j.createElement("b", null, "2"), "自动拆解")), /* @__PURE__ */ j.createElement("p", null, platforms ? platforms + " · " : "", message)), !running && (failed || cancelled) && /* @__PURE__ */ j.createElement("p", { className: "link-import-feedback" + (failed ? " error" : ""), role: failed ? "alert" : "status" }, failed ? state.link_import.error || message : "任务已停止，分享内容已保留，可以重新开始。"), /* @__PURE__ */ j.createElement(D, { className: "wide source-import-submit", kind: "primary", icon: Ka, disabled: busy || !text.trim(), onClick: () => {
+  } }, /* @__PURE__ */ j.createElement("label", { htmlFor: "source-share-link" }, labelText("抖音 / TikTok 视频链接")), /* @__PURE__ */ j.createElement("textarea", { ref: input, id: "source-share-link", rows: 4, maxLength: 16384, value: text, disabled: busy, spellCheck: false, placeholder: labelText("粘贴视频链接，或包含链接的完整分享文案\nhttps://v.douyin.com/…"), onChange: (event) => setText(event.target.value), "aria-describedby": "source-link-hint", "aria-invalid": failed || void 0 }), /* @__PURE__ */ j.createElement("p", { id: "source-link-hint", className: "field-hint" }, labelText("自动识别平台，一次拆解一条视频。粘贴后点击下方按钮开始。")), running && /* @__PURE__ */ j.createElement("div", { className: "link-import-progress", role: "status", "aria-live": "polite" }, /* @__PURE__ */ j.createElement("div", { className: "link-import-steps" }, /* @__PURE__ */ j.createElement("span", { className: phase === "downloading" ? "current" : "complete" }, /* @__PURE__ */ j.createElement("b", null, phase === "analyzing" ? "✓" : "1"), labelText("下载视频")), j.createElement(fu, { size: 14, "aria-hidden": true }), /* @__PURE__ */ j.createElement("span", { className: phase === "analyzing" ? "current" : "" }, /* @__PURE__ */ j.createElement("b", null, "2"), labelText("自动拆解"))), /* @__PURE__ */ j.createElement("p", null, platforms ? platforms + " · " : "", message)), !running && (failed || cancelled) && /* @__PURE__ */ j.createElement("p", { className: "link-import-feedback" + (failed ? " error" : ""), role: failed ? "alert" : "status" }, failed ? state.link_import.error || message : labelText("任务已停止，分享内容已保留，可以重新开始。")), /* @__PURE__ */ j.createElement(D, { className: "wide source-import-submit", kind: "primary", icon: Ka, disabled: busy || !text.trim(), onClick: () => {
     if (!busy && text.trim()) onAnalyze();
-  } }, submitting ? "正在提交…" : running ? phase === "downloading" ? "正在下载视频…" : "正在自动拆解…" : failed ? "重试下载并拆解" : cancelled ? "重新下载并拆解" : "下载并开始拆解")) : /* @__PURE__ */ j.createElement("div", { id: "source-input-local", role: "tabpanel", "aria-labelledby": "source-mode-local", className: "source-input-local" }, /* @__PURE__ */ j.createElement("p", null, "将视频拖到这里，或选择电脑中的文件。"), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: qe, disabled: busy, onClick: onPick }, "选择本地视频"), /* @__PURE__ */ j.createElement("small", null, "支持 MP4、MOV、MKV、WebM 等常用格式"), /* @__PURE__ */ j.createElement("p", { className: "source-local-hint" }, "导入后，在右侧确认选项并开始拆解。")), state.source && !running && /* @__PURE__ */ j.createElement("button", { className: "source-input-back", type: "button", disabled: busy, onClick: onBack }, "返回当前视频"));
+  } }, submitting ? labelText("正在提交…") : running ? phase === "downloading" ? labelText("正在下载视频…") : labelText("正在自动拆解…") : failed ? labelText("重试下载并拆解") : cancelled ? labelText("重新下载并拆解") : labelText("下载并开始拆解"))) : /* @__PURE__ */ j.createElement("div", { id: "source-input-local", role: "tabpanel", "aria-labelledby": "source-mode-local", className: "source-input-local" }, /* @__PURE__ */ j.createElement("p", null, labelText("将视频拖到这里，或选择电脑中的文件。")), /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: qe, disabled: busy, onClick: onPick }, labelText("选择本地视频")), /* @__PURE__ */ j.createElement("small", null, labelText("支持 MP4、MOV、MKV、WebM 等常用格式")), /* @__PURE__ */ j.createElement("p", { className: "source-local-hint" }, labelText("导入后，在右侧确认选项并开始拆解。"))), !isLink && !state.source && !state.task?.phase && state.error && /* @__PURE__ */ j.createElement("p", { className: "link-import-feedback error", role: "alert" }, labelText(state.error)), state.source && !running && /* @__PURE__ */ j.createElement("button", { className: "source-input-back", type: "button", disabled: busy, onClick: onBack }, labelText("返回当前视频")));
 }
 function AudioPanel({ state, command, disabled, openMixer, openAdvanced }) {
-  return /* @__PURE__ */ j.createElement("div", { className: "audio-workspace" }, /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: Xa, disabled: disabled || !state.source?.url, onClick: openMixer }, "调整成片音量与混音"), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "在混音面板选择使用哪些音轨，保存后用于成片导出。")), /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("h3", null, "试听音轨"), state.stems.map((stem) => /* @__PURE__ */ j.createElement("div", { className: "stem", key: stem.label }, /* @__PURE__ */ j.createElement("label", null, stem.label), stem.url ? /* @__PURE__ */ j.createElement("audio", { controls: true, preload: "metadata", src: stem.url, "aria-label": stem.label }) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "尚未生成"))), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, "原声已经包含人声和背景声，改用分离音轨时应关闭原声，避免声音重叠。"), /* @__PURE__ */ j.createElement(D, { className: "wide", icon: zi, disabled: disabled || !state.source?.url, onClick: () => command("separate") }, "重新分离人声与配乐")), /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "ghost", icon: po, onClick: () => openAdvanced("media") }, "单独处理其他音频文件…")));
+  return /* @__PURE__ */ j.createElement("div", { className: "audio-workspace" }, /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "primary", icon: Xa, disabled: disabled || !state.source?.url, onClick: openMixer }, labelText("调整成片音量与混音")), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("在混音面板选择使用哪些音轨，保存后用于成片导出。"))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("h3", null, labelText("试听音轨")), state.stems.map((stem) => /* @__PURE__ */ j.createElement("div", { className: "stem", key: stem.label }, /* @__PURE__ */ j.createElement("label", null, stem.label), stem.url ? /* @__PURE__ */ j.createElement("audio", { controls: true, preload: "metadata", src: stem.url, "aria-label": stem.label }) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("尚未生成")))), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("原声已经包含人声和背景声，改用分离音轨时应关闭原声，避免声音重叠。")), /* @__PURE__ */ j.createElement(D, { className: "wide", icon: zi, disabled: disabled || !state.source?.url, onClick: () => command("separate") }, labelText("重新分离人声与配乐"))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement(D, { className: "wide", kind: "ghost", icon: po, onClick: () => openAdvanced("media") }, labelText("单独处理其他音频文件…"))));
 }
 function AudioMixHelp({ levels }) {
   const overlap = levels.original?.enabled && (levels.vocals?.enabled || levels.music?.enabled);
-  return /* @__PURE__ */ j.createElement("p", { className: overlap ? "mix-help overlap" : "mix-help" }, overlap ? "当前原声和分离音轨同时启用，可能出现重叠声音。请确认是否需要保留原声。" : "原声包含人声和背景声。若使用分离后的人声、配乐，关闭原声可避免叠音。");
+  return /* @__PURE__ */ j.createElement("p", { className: overlap ? "mix-help overlap" : "mix-help" }, overlap ? labelText("当前原声和分离音轨同时启用，可能出现重叠声音。请确认是否需要保留原声。") : labelText("原声包含人声和背景声。若使用分离后的人声、配乐，关闭原声可避免叠音。"));
+}
+function useManualCaptionEditor(state, command, pause, seek, playRange, selectContext, notify) {
+  const [draft, renderDraft] = j.useState(null);
+  const draftRef = j.useRef(null);
+  const [saving, setSaving] = j.useState(false);
+  const inFlight = j.useRef(null);
+  const { scope, cues, limit, defaults, height, sizeRange = [0.01, 0.4], time, override, disabled, motion, laneCount = 1 } = state;
+  const current = draft?.scope === scope ? draft : null;
+  const busy = disabled || saving;
+  const selectedId = current ? current.id || "manual-caption-draft" : null;
+  const previewCues = j.useMemo(() => {
+    if (!current) return cues || [];
+    const timing = manualCaptionTiming(current, limit) || current.original;
+    const edited = { id: selectedId, start: timing.start, end: timing.end, text: current.text, style: current.style, row: current.row };
+    return [...(cues || []).filter((cue) => cue.id !== current.id), edited].sort((a, b3) => a.start - b3.start || a.end - b3.end);
+  }, [current, selectedId, cues, limit]);
+  const layout = j.useMemo(() => layoutManualCaptions(previewCues, laneCount), [previewCues, laneCount]);
+  function readDraft() {
+    const item = draftRef.current;
+    return item?.scope === scope ? item : null;
+  }
+  function setDraft(item) {
+    draftRef.current = item;
+    renderDraft(item);
+  }
+  function startDraft(cue) {
+    setDraft({
+      scope,
+      id: cue.id,
+      original: cue,
+      text: cue.text,
+      start: String(cue.start),
+      end: String(cue.end),
+      row: cue.row,
+      style: { ...defaults, ...cue.style },
+      dirty: false,
+      attempted: false
+    });
+  }
+  function update(patch) {
+    const item = readDraft();
+    if (!item || disabled || inFlight.current) return;
+    setDraft({ ...item, dirty: true, ...patch });
+  }
+  function updateStyle(patch) {
+    const item = readDraft();
+    if (item) update({ style: { ...item.style, ...patch } });
+  }
+  function change(action, data, apply) {
+    if (!scope || disabled || inFlight.current) return Promise.resolve(false);
+    setSaving(true);
+    const work = command(action, { scope, ...data }).then((result) => {
+      if (!result) return false;
+      apply(result);
+      return true;
+    }).finally(() => {
+      inFlight.current = null;
+      setSaving(false);
+    });
+    inFlight.current = work;
+    return work;
+  }
+  async function flush(action = "save_manual_caption") {
+    if (inFlight.current) return inFlight.current;
+    const item = readDraft();
+    if (!item?.dirty || !item.id && !item.text.trim()) return true;
+    const timing = manualCaptionTiming(item, limit);
+    if (!timing || !item.text.trim()) {
+      setDraft({ ...item, attempted: true });
+      notify(!item.text.trim() ? labelText("请填写字幕文字，或用「撤销修改」恢复。") : labelText("请检查字幕的开始与结束时间。"), true);
+      return false;
+    }
+    const row = !item.id || item.row !== item.original.row ? item.row : void 0;
+    return change(action, { id: item.id, ...timing, text: item.text, style: item.style, row }, startDraft);
+  }
+  async function selectCue(cue, isCurrent) {
+    if (!scope || !limit || disabled) return false;
+    if (inFlight.current && !await inFlight.current) return false;
+    const item = readDraft();
+    const same = item && (item.id || "manual-caption-draft") === cue.id;
+    if (!same && item && !await flush()) return false;
+    if (!isCurrent()) return false;
+    if (!same) startDraft(cue);
+    return true;
+  }
+  function edit(cue, { locate = true, stylePatch } = {}) {
+    return selectContext(async (isCurrent) => {
+      if (!await selectCue(cue, isCurrent)) return false;
+      if (locate && (override || time < cue.start || time >= cue.end)) {
+        pause();
+        seek(cue.start);
+      }
+      if (!stylePatch) return true;
+      updateStyle(stylePatch);
+      return !readDraft()?.id || await flush();
+    });
+  }
+  function add(at, row) {
+    return selectContext(async (isCurrent) => {
+      if (!scope || !limit || disabled || !await flush() || !isCurrent()) return false;
+      const position = Math.max(0, Math.min(Math.round(at * 1e3), Math.round(limit * 1e3) - 100)) / 1e3;
+      const length = Math.min(2, timelineMs(limit - position));
+      const start = row === void 0 ? position : timelinePlacementStart(
+        position,
+        length,
+        layout.groups[row].map(timelineInterval),
+        limit
+      );
+      if (start === null) {
+        notify(labelText("这条轨道没有足够的空位。"), true);
+        return false;
+      }
+      startDraft({ start, end: timelineMs(start + length), text: "", row });
+      pause();
+      seek(start);
+      return true;
+    });
+  }
+  function retime(cue, timing, edge, lane) {
+    return selectContext(async (isCurrent) => {
+      if (!await selectCue(cue, isCurrent)) return false;
+      const previous = readDraft();
+      const row = lane === "new-track" ? layout.rows : lane ? Number(lane.slice("caption:".length)) : previous.row;
+      update({ start: String(timing.start), end: String(timing.end), row });
+      seek(edge === "end" ? Math.max(timing.start, timing.end - 1e-3) : timing.start);
+      if (!previous.id) return true;
+      const saved = await flush("retime_manual_caption");
+      if (!saved) setDraft(previous);
+      return saved;
+    });
+  }
+  async function split(time2) {
+    if (!await flush()) return false;
+    const item = readDraft();
+    if (!item?.id) return false;
+    pause();
+    return change("split_manual_caption", { id: item.id, time: time2 }, startDraft);
+  }
+  async function remove(id) {
+    if (id === "manual-caption-draft") {
+      setDraft(null);
+      return true;
+    }
+    return change("remove_manual_caption", { id }, () => {
+      if (readDraft()?.id === id) setDraft(null);
+    });
+  }
+  async function reference() {
+    const item = readDraft();
+    if (!item) return null;
+    const timing = manualCaptionTiming(item, limit) || item.original;
+    const sample = time >= timing.start && time < timing.end ? time : timing.start;
+    const result = await command("reference_caption_style", { scope, time: sample });
+    if (result?.style && readDraft()?.original === item.original) {
+      updateStyle({ ...result.style, position: readDraft().style.position });
+    }
+    return result;
+  }
+  async function close(isCurrent = () => true) {
+    if (await flush() && isCurrent()) {
+      setDraft(null);
+      return true;
+    }
+    return false;
+  }
+  function revert() {
+    const item = readDraft();
+    if (item?.id) startDraft(item.original);
+    else setDraft(null);
+  }
+  async function undoPending() {
+    if (inFlight.current) await inFlight.current;
+    const item = readDraft();
+    if (!item || item.id && !item.dirty) return false;
+    revert();
+    return true;
+  }
+  return {
+    scope,
+    limit,
+    defaults,
+    height,
+    sizeRange,
+    layout,
+    disabled,
+    busy,
+    draft: current,
+    selectedId,
+    previewCues,
+    pause,
+    seek,
+    playRange,
+    motion,
+    edit,
+    add,
+    retime,
+    split,
+    update,
+    updateStyle,
+    flush,
+    remove,
+    close,
+    revert,
+    undoPending,
+    reference
+  };
+}
+function manualCaptionTiming(cue, limit) {
+  const start = Math.round(Number(cue.start) * 1e3) / 1e3;
+  const end = Math.round(Number(cue.end) * 1e3) / 1e3;
+  return cue.start !== "" && cue.end !== "" && start >= 0 && end > start && end <= limit ? { start, end } : null;
+}
+function captionTimelineLane(index) {
+  return "caption:" + index;
+}
+function layoutManualCaptions(cues, count) {
+  const sorted = [...cues].sort((a, b3) => a.start - b3.start || a.end - b3.end || a.id.localeCompare(b3.id));
+  const groups = Array.from({ length: count }, () => []);
+  const automatic = [];
+  const conflicts = (cue, lane) => lane.some((peer) => cue.start < peer.end && peer.start < cue.end);
+  for (const cue of sorted) {
+    if (!Number.isInteger(cue.row) || cue.row < 0 || cue.row >= 4096) {
+      automatic.push(cue);
+      continue;
+    }
+    while (groups.length <= cue.row) groups.push([]);
+    if (conflicts(cue, groups[cue.row])) automatic.push(cue);
+    else groups[cue.row].push(cue);
+  }
+  for (const cue of automatic) {
+    const row = groups.findLastIndex((lane) => conflicts(cue, lane)) + 1;
+    if (row === groups.length) groups.push([]);
+    groups[row].push(cue);
+  }
+  return { groups, rows: groups.length };
+}
+function ManualCaptionLabel({ editor, time }) {
+  return /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "timeline-track-label manual-caption-label",
+      "aria-label": labelText("添加字幕"),
+      title: labelText("在播放头位置添加字幕"),
+      disabled: editor.busy || !editor.limit,
+      onClick: () => editor.add(time)
+    },
+    j.createElement(va, { size: 14, "aria-hidden": true }),
+    /* @__PURE__ */ j.createElement("span", null, labelText("手动字幕")),
+    /* @__PURE__ */ j.createElement(Hi, { size: 14, "aria-hidden": "true" })
+  );
+}
+function ManualCaptionLane({ editor, timeline, duration }) {
+  const board = j.useRef(null);
+  const { groups, rows } = editor.layout;
+  function timeAt(event) {
+    const bounds = board.current.getBoundingClientRect();
+    return Math.min(duration, Math.max(0, (event.clientX - bounds.left) / bounds.width * duration));
+  }
+  return /* @__PURE__ */ j.createElement("div", { className: "manual-caption-lane", "aria-label": labelText("手动字幕轨道") }, /* @__PURE__ */ j.createElement("div", { className: "manual-caption-board", ref: board, style: { "--caption-rows": rows } }, !editor.previewCues.length && /* @__PURE__ */ j.createElement("span", { className: "caption-empty" }, editor.limit ? labelText("双击空白处添加字幕") : labelText("正在读取视频时长…")), groups.map((peers, row) => /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      className: "manual-caption-row",
+      key: row,
+      "data-timeline-lane": captionTimelineLane(row),
+      "aria-label": labelText("字幕轨 {0}", row + 1),
+      style: { "--caption-row": row },
+      onClick: (event) => {
+        if (event.target === event.currentTarget && editor.limit) editor.seek(timeAt(event));
+      },
+      onDoubleClick: (event) => {
+        if (event.target === event.currentTarget) editor.add(timeAt(event), row || void 0);
+      }
+    },
+    peers.map((cue) => /* @__PURE__ */ j.createElement(
+      ManualCaptionClip,
+      {
+        key: cue.id,
+        cue,
+        row,
+        duration,
+        editor,
+        timeline,
+        peers
+      }
+    ))
+  ))));
+}
+function ManualCaptionClip({ cue, row, duration, editor, timeline, peers }) {
+  const label = cue.text || labelText("新字幕");
+  const bounds = {
+    start: cue.start,
+    first: cue.start,
+    last: cue.end,
+    minFirst: 0,
+    maxLast: editor.limit,
+    minLength: Math.min(0.05, cue.end - cue.start)
+  };
+  const select = () => editor.edit(cue);
+  const gesture = useTimelineDrag({
+    id: cue.id,
+    bounds,
+    duration,
+    editor: timeline,
+    peers,
+    limit: editor.limit,
+    kind: "caption",
+    ghost: { type: "caption", label },
+    select,
+    commit: (range, operation, edge) => editor.retime(cue, {
+      start: range.start,
+      end: timelineMs(range.start + range.last - range.first)
+    }, edge, range.lane)
+  });
+  return /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      "data-timeline-clip": true,
+      "data-caption-id": cue.id,
+      className: "manual-caption-clip" + (editor.selectedId === cue.id ? " selected" : "") + (gesture.moving ? " timeline-drag-origin" : ""),
+      style: { ...timelineClipStyle(gesture.start, gesture.end, duration), "--caption-row": row },
+      "aria-label": labelText("字幕 ") + label,
+      "aria-pressed": editor.selectedId === cue.id,
+      "aria-keyshortcuts": "Enter ArrowLeft ArrowRight Backspace Delete",
+      "aria-disabled": timeline.disabled,
+      title: label + "\n" + kt(gesture.start, true) + " – " + kt(gesture.end, true),
+      onClick: (event) => {
+        if (!event.detail && !timeline.disabled) select();
+      },
+      ...gesture.handle("move")
+    },
+    /* @__PURE__ */ j.createElement("span", { className: "caption-trim caption-trim-start", "data-edge": "start", "aria-hidden": "true" }),
+    /* @__PURE__ */ j.createElement("span", { className: "caption-clip-text" }, label),
+    /* @__PURE__ */ j.createElement("span", { className: "caption-trim caption-trim-end", "data-edge": "end", "aria-hidden": "true" })
+  );
+}
+function ManualCaptionInspector({ editor, agentEntry }) {
+  return /* @__PURE__ */ j.createElement("aside", { id: "task-inspector", className: "inspector task-panel property-inspector manual-caption-inspector", "aria-label": labelText("字幕编辑面板") }, /* @__PURE__ */ j.createElement(PanelResizeHandle, { tab: "manual-captions" }), /* @__PURE__ */ j.createElement(ManualCaptionFields, { key: editor.selectedId, editor }), agentEntry);
+}
+function ManualCaptionFields({ editor }) {
+  const cue = editor.draft;
+  const { text, start, end, style } = cue;
+  const [fonts, setFonts] = j.useState(null);
+  const [probing, setProbing] = j.useState(false);
+  const [reference, setReference] = j.useState("");
+  const [tab, setTab] = j.useState("text");
+  const font = style.font || "Microsoft YaHei";
+  const timing = manualCaptionTiming(cue, editor.limit);
+  const validTime = Boolean(timing);
+  const span = timing || cue.original;
+  const tabs = [["text", labelText("文字")], ["layout", labelText("排版")], ["animation", labelText("动画")], ["timing", labelText("时间")]];
+  const position = style.position || { x: 0.5, y: 0.9 };
+  function locate(axis, value) {
+    editor.updateStyle({ position: { ...position, [axis]: value / 100 } });
+  }
+  j.useEffect(() => {
+    let mounted = true;
+    Uo("manual_caption_fonts").then((available) => {
+      if (mounted) setFonts(available);
+    }).catch(() => {
+      if (!mounted) return;
+      setFonts([]);
+      setReference(labelText("暂时无法读取本机字体列表。"));
+    });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+  async function useReference() {
+    setProbing(true);
+    try {
+      const result = await editor.reference();
+      if (result) setReference(result.note);
+    } finally {
+      setProbing(false);
+    }
+  }
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "property-header" }, /* @__PURE__ */ j.createElement("span", { className: "property-object-icon" }, j.createElement(va, { size: 17, "aria-hidden": true })), /* @__PURE__ */ j.createElement("div", { className: "property-heading" }, /* @__PURE__ */ j.createElement("h2", null, labelText("字幕编辑")), /* @__PURE__ */ j.createElement("div", { title: cue.text }, cue.text || labelText("新字幕"))), /* @__PURE__ */ j.createElement("div", { className: "property-header-actions" }, /* @__PURE__ */ j.createElement(St, { icon: Wa, label: labelText("关闭字幕编辑"), disabled: editor.busy, onClick: () => editor.close() }))), /* @__PURE__ */ j.createElement(PropertyTabs, { label: labelText("字幕属性类别"), tabs, value: tab, setValue: setTab, className: "manual-caption-form" }, tab === "text" && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("section", { className: "inspector-block" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("字幕内容")), /* @__PURE__ */ j.createElement(
+    "textarea",
+    {
+      autoFocus: !cue.id,
+      rows: 3,
+      maxLength: 4e3,
+      value: text,
+      placeholder: labelText("输入字幕文字"),
+      disabled: editor.busy,
+      style: { fontFamily: captionFontFamily(font), fontWeight: style.bold ? 700 : 400 },
+      onChange: (event) => editor.update({ text: event.target.value })
+    }
+  )), cue.attempted && !text.trim() && /* @__PURE__ */ j.createElement("p", { className: "field-hint", role: "alert" }, labelText("请输入字幕文字，或撤销修改。"))), /* @__PURE__ */ j.createElement("section", { className: "inspector-block manual-caption-style-controls" }, /* @__PURE__ */ j.createElement(
+    CaptionFontPicker,
+    {
+      font,
+      text,
+      systemFonts: fonts,
+      disabled: editor.busy || probing,
+      onSelect: (name) => {
+        editor.updateStyle({ font: name });
+        setReference("");
+      }
+    },
+    /* @__PURE__ */ j.createElement(D, { disabled: editor.busy || probing, busy: probing, onClick: useReference }, labelText("参考原片"))
+  ), reference && /* @__PURE__ */ j.createElement("p", { className: "field-hint caption-reference-note", role: "status" }, reference), /* @__PURE__ */ j.createElement(ManualCaptionSize, { editor, disabled: editor.busy || probing }), /* @__PURE__ */ j.createElement("div", { className: "manual-caption-appearance" }, /* @__PURE__ */ j.createElement(D, { disabled: editor.busy || probing, "aria-pressed": style.bold, onClick: () => editor.updateStyle({ bold: !style.bold }) }, labelText("加粗")), /* @__PURE__ */ j.createElement("label", null, labelText("颜色"), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "color",
+      "aria-label": labelText("文字颜色"),
+      value: style.fill || "#ffffff",
+      disabled: editor.busy || probing,
+      onChange: (event) => editor.updateStyle({ fill: event.target.value })
+    }
+  )), style.position && /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      className: "caption-reset-position",
+      disabled: editor.busy,
+      onClick: () => editor.updateStyle({ position: null })
+    },
+    labelText("移回底部")
+  )))), tab === "layout" && /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("字幕位置与大小") }, /* @__PURE__ */ j.createElement("div", { className: "property-two" }, /* @__PURE__ */ j.createElement(
+    PropertyNumber,
+    {
+      label: labelText("字幕水平位置"),
+      mark: "X",
+      suffix: "%",
+      min: 0,
+      max: 100,
+      step: 0.1,
+      value: Math.round(position.x * 1e3) / 10,
+      disabled: editor.busy,
+      onValue: (value) => locate("x", value)
+    }
+  ), /* @__PURE__ */ j.createElement(
+    PropertyNumber,
+    {
+      label: labelText("字幕垂直位置"),
+      mark: "Y",
+      suffix: "%",
+      min: 0,
+      max: 100,
+      step: 0.1,
+      value: Math.round(position.y * 1e3) / 10,
+      disabled: editor.busy,
+      onValue: (value) => locate("y", value)
+    }
+  )), /* @__PURE__ */ j.createElement(ManualCaptionSize, { editor, disabled: editor.busy || probing }), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      disabled: editor.busy || !style.position,
+      onClick: () => editor.updateStyle({ position: null })
+    },
+    labelText("移回底部")
+  ), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("也可拖动画面里的字幕移动，拖动角点缩放。"))), tab === "animation" && /* @__PURE__ */ j.createElement(
+    MotionPicker,
+    {
+      style,
+      duration: span.end - span.start,
+      library: editor.motion,
+      title: text.trim().split("\n")[0],
+      disabled: editor.busy || !validTime,
+      update: editor.updateStyle,
+      preview: text.trim() && ((start2, end2) => editor.playRange(span.start + start2, span.start + end2))
+    }
+  ), tab === "timing" && /* @__PURE__ */ j.createElement("section", { className: "inspector-block manual-caption-timing" }, /* @__PURE__ */ j.createElement("div", { className: "tool-fields two-fields" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("开始（秒）")), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "number",
+      min: "0",
+      max: editor.limit,
+      step: "0.001",
+      value: start,
+      disabled: editor.busy,
+      onChange: (event) => editor.update({ start: event.target.value })
+    }
+  )), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("结束（秒）")), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "number",
+      min: "0",
+      max: editor.limit,
+      step: "0.001",
+      value: end,
+      disabled: editor.busy,
+      onChange: (event) => editor.update({ end: event.target.value })
+    }
+  ))), !validTime && /* @__PURE__ */ j.createElement("p", { className: "field-hint", role: "alert" }, labelText("起止时间需在视频范围内，且结束晚于开始。")))), /* @__PURE__ */ j.createElement("div", { className: "manual-caption-actions" }, cue.id && /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      className: "remove-manual-caption",
+      disabled: editor.busy,
+      onClick: () => editor.remove(cue.id)
+    },
+    labelText("删除")
+  ), (cue.dirty || !cue.id) && /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: editor.busy, onClick: editor.revert }, cue.id ? labelText("撤销修改") : labelText("取消")), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "primary",
+      disabled: editor.busy || probing || !cue.dirty || !text.trim() || !validTime,
+      onClick: () => editor.flush()
+    },
+    labelText("保存字幕")
+  )));
+}
+function ManualCaptionSize({ editor, disabled }) {
+  const [typed, setTyped] = j.useState(null);
+  const height = editor.height || 1080;
+  const [minRatio, maxRatio] = editor.sizeRange;
+  const min = Math.max(1, Math.ceil(minRatio * height));
+  const max = Math.max(min, Math.floor(maxRatio * height));
+  const pixels = Math.min(max, Math.max(min, Math.round(editor.draft.style.size * height)));
+  function setSize(value) {
+    editor.updateStyle({ size: Math.min(max, Math.max(min, Math.round(value))) / height });
+  }
+  return /* @__PURE__ */ j.createElement("div", { className: "manual-caption-size" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("字号")), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      "aria-label": labelText("字号（像素）"),
+      type: "number",
+      min,
+      max,
+      step: "1",
+      disabled,
+      value: typed ?? pixels,
+      onChange: (event) => {
+        const value = event.target.value;
+        setTyped(value);
+        if (value !== "" && Number(value) >= min && Number(value) <= max) setSize(Number(value));
+      },
+      onBlur: () => {
+        if (typed !== null && typed !== "" && Number.isFinite(Number(typed))) setSize(Number(typed));
+        setTyped(null);
+      },
+      onKeyDown: (event) => {
+        if (event.key === "Enter") event.currentTarget.blur();
+      }
+    }
+  )), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      className: "caption-size-slider",
+      "aria-label": labelText("拖动调整字号"),
+      type: "range",
+      min,
+      max,
+      step: "1",
+      value: pixels,
+      disabled,
+      onChange: (event) => {
+        setTyped(null);
+        setSize(Number(event.target.value));
+      }
+    }
+  ));
+}
+function captionFontLabel(font) {
+  const labels = {
+    "Microsoft YaHei": labelText("微软雅黑"),
+    "Microsoft JhengHei": labelText("微软正黑体"),
+    SimHei: labelText("黑体"),
+    SimSun: labelText("宋体"),
+    DengXian: labelText("等线"),
+    KaiTi: labelText("楷体"),
+    FangSong: labelText("仿宋"),
+    Meiryo: "メイリオ",
+    "Yu Gothic": labelText("游ゴシック"),
+    "Noto Sans SC": labelText("Noto 黑体（简体）"),
+    "Noto Serif SC": labelText("Noto 宋体（简体）"),
+    "Noto Sans CJK TC": labelText("Noto 黑体（繁体）"),
+    "Noto Serif CJK TC": labelText("Noto 明体（繁体）"),
+    "LXGW WenKai": labelText("霞鹜文楷"),
+    "LXGW WenKai Screen": labelText("霞鹜文楷屏幕阅读版"),
+    "LXGW WenKai TC": labelText("霞鹜文楷（繁体）"),
+    "LXGW WenKai Mono TC": labelText("霞鹜文楷等宽（繁体）"),
+    "LXGW Marker Gothic": labelText("霞鹜漫黑"),
+    "Smiley Sans": labelText("得意黑"),
+    Xiaolai: labelText("小赖字体"),
+    Yozai: labelText("悠哉字体"),
+    "Ma Shan Zheng": labelText("马善政毛笔"),
+    "Zhi Mang Xing": labelText("志莽行书"),
+    "Liu Jian Mao Cao": labelText("刘建毛草"),
+    "Long Cang": labelText("龙藏体"),
+    "ZCOOL KuaiLe": labelText("站酷快乐体"),
+    "ZCOOL QingKe HuangYou": labelText("站酷庆科黄油体"),
+    "ZCOOL XiaoWei": labelText("站酷小薇体"),
+    Huninn: labelText("粉圆体"),
+    Iansui: labelText("芫荽体"),
+    "Bpmf Huninn": labelText("注音粉圆体"),
+    "Bpmf Iansui": labelText("注音芫荽体"),
+    "Bpmf Zihi Kai Std": labelText("注音楷体"),
+    "GenSen Rounded TC": labelText("源泉圆体（繁体）"),
+    "GenSeki Gothic TC": labelText("源石黑体（繁体）"),
+    "WDXL Lubrifont SC": labelText("WDXL 圆体（简体）"),
+    "WDXL Lubrifont TC": labelText("WDXL 圆体（繁体）"),
+    "BIZ UDGothic": "BIZ UDゴシック",
+    "BIZ UDPGothic": "BIZ UDPゴシック",
+    "BIZ UDMincho": labelText("BIZ UD明朝"),
+    "BIZ UDPMincho": labelText("BIZ UDP明朝"),
+    "Zen Maru Gothic": labelText("Zen 丸ゴシック"),
+    "Zen Old Mincho": labelText("Zen オールド明朝"),
+    "Zen Kurenaido": labelText("Zen 紅道"),
+    "Klee One": "クレー",
+    "Dela Gothic One": "デラゴシック",
+    "DotGothic16": "ドットゴシック",
+    "Hachi Maru Pop": "はちまるポップ",
+    "Hina Mincho": labelText("ひな明朝"),
+    "Kiwi Maru": labelText("キウイ丸"),
+    "Sawarabi Gothic": "さわらびゴシック",
+    "Sawarabi Mincho": labelText("さわらび明朝"),
+    "Shippori Mincho": labelText("しっぽり明朝"),
+    "Yomogi": "よもぎ"
+  };
+  return labels[font] ? labels[font] + " · " + font : font;
+}
+function captionFontFamily(font) {
+  const bundled = captionBundledFamilies.get(font.toLowerCase());
+  return [bundled, font, "Microsoft YaHei"].filter(Boolean).map((name) => JSON.stringify(name)).join(", ") + ", sans-serif";
+}
+function useCaptionMotionClock(player, url, active) {
+  const [current, setCurrent] = j.useState(null);
+  j.useEffect(() => {
+    const video = player.current;
+    if (!video || !active) {
+      setCurrent(null);
+      return;
+    }
+    let request = 0;
+    function sample() {
+      request = 0;
+      setCurrent(video.currentTime);
+      if (!video.paused && !video.ended) schedule();
+    }
+    function schedule() {
+      if (!request) request = requestAnimationFrame(sample);
+    }
+    const events = ["play", "pause", "seeked", "loadeddata"];
+    events.forEach((event) => video.addEventListener(event, schedule));
+    schedule();
+    return () => {
+      cancelAnimationFrame(request);
+      events.forEach((event) => video.removeEventListener(event, schedule));
+    };
+  }, [player, url, active]);
+  return current;
+}
+function ManualCaptionPreview({ editor, player, url, raised, canvas, liveTime }) {
+  const frame = usePreviewFrame(player, url, canvas?.width, canvas?.height);
+  const [activeIds, setActiveIds] = j.useState([]);
+  const [gesture, setGesture] = j.useState(null);
+  const plane = j.useRef(null);
+  const drag = j.useRef(null);
+  const preview = j.useRef(null);
+  const cues = editor.previewCues;
+  const intervals = JSON.stringify(cues.map(({ id, start, end }) => ({ id, start, end })));
+  const trajectories = j.useMemo(() => new Map(cues.filter((cue) => cue.style?.animation).map((cue) => [cue.id, motionTimeline(cue.style, cue.end - cue.start, editor.motion)])), [cues, editor.motion]);
+  const logical = Number.isFinite(liveTime);
+  const clock = useCaptionMotionClock(
+    player,
+    url,
+    !logical && activeIds.some((id) => trajectories.get(id)?.length)
+  ) ?? liveTime ?? player.current?.currentTime ?? 0;
+  const visibleIds = logical ? cues.filter((cue) => cue.start <= clock && clock < cue.end).map((cue) => cue.id) : activeIds;
+  j.useEffect(() => {
+    if (logical) return;
+    const video = player.current;
+    if (!video) return;
+    if (preview.current?.video !== video) {
+      preview.current = { video, track: video.addTextTrack("metadata", labelText("手动字幕时间")) };
+    }
+    const { track } = preview.current;
+    const timing = JSON.parse(intervals);
+    const timedCues = timing.map((cue) => {
+      const timed = new VTTCue(cue.start, cue.end, "");
+      timed.id = cue.id;
+      track.addCue(timed);
+      return timed;
+    });
+    function sync() {
+      const time = video.currentTime;
+      const ids = timing.filter((cue) => time >= cue.start && time < cue.end).map((cue) => cue.id);
+      setActiveIds((previous) => previous.length === ids.length && previous.every((id, i) => ids[i] === id) ? previous : ids);
+    }
+    track.mode = "hidden";
+    track.addEventListener("cuechange", sync);
+    video.addEventListener("seeked", sync);
+    video.addEventListener("timeupdate", sync);
+    sync();
+    return () => {
+      track.removeEventListener("cuechange", sync);
+      video.removeEventListener("seeked", sync);
+      video.removeEventListener("timeupdate", sync);
+      timedCues.forEach((cue) => track.removeCue(cue));
+      track.mode = "disabled";
+    };
+  }, [intervals, player, url, logical]);
+  function begin(event, cue, motion) {
+    if (editor.disabled || event.button !== 0 || drag.current) return;
+    const bounds = plane.current.getBoundingClientRect();
+    const box = event.currentTarget.getBoundingClientRect();
+    const centerX = box.left + box.width / 2, centerY = box.top + box.height / 2;
+    drag.current = {
+      pointer: event.pointerId,
+      cue,
+      width: bounds.width,
+      height: bounds.height,
+      originX: event.clientX,
+      originY: event.clientY,
+      anchorX: event.clientX - centerX,
+      anchorY: event.clientY - centerY,
+      x: (centerX - bounds.left) / bounds.width - motion.x,
+      y: (centerY - bounds.top) / bounds.height - motion.y,
+      scale: !!event.target.closest("[data-caption-scale]"),
+      selected: editor.selectedId === cue.id,
+      wasDirty: editor.draft?.dirty
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
+  }
+  function move(event) {
+    const item = drag.current;
+    if (!item || editor.busy || event.pointerId !== item.pointer) return;
+    const dx2 = event.clientX - item.originX, dy = event.clientY - item.originY;
+    if (!item.patch && Math.hypot(dx2, dy) < 3) return;
+    if (!item.patch) editor.pause();
+    const clamp = (value) => Math.min(1, Math.max(0, value));
+    if (item.scale) {
+      const { anchorX, anchorY } = item;
+      const factor = 1 + (dx2 * anchorX + dy * anchorY) / Math.max(1, anchorX ** 2 + anchorY ** 2);
+      const [min, max] = editor.sizeRange;
+      const size = Math.round(Math.max(min, Math.min(max, item.cue.style.size * factor)) * 1e4) / 1e4;
+      item.patch = { size, position: item.cue.style.position || { x: clamp(item.x), y: clamp(item.y) } };
+    } else {
+      item.patch = { position: { x: clamp(item.x + dx2 / item.width), y: clamp(item.y + dy / item.height) } };
+    }
+    if (item.selected) editor.updateStyle(item.patch);
+    else setGesture({ id: item.cue.id, patch: item.patch });
+  }
+  async function finish(event) {
+    const item = drag.current;
+    if (!item || event.pointerId !== item.pointer) return;
+    drag.current = null;
+    try {
+      await editor.edit(item.cue, { locate: false, stylePatch: item.patch });
+    } finally {
+      setGesture(null);
+    }
+  }
+  function cancel(event) {
+    const item = drag.current;
+    if (event.pointerId !== item?.pointer) return;
+    drag.current = null;
+    if (item.patch && item.selected && editor.selectedId === item.cue.id) {
+      editor.update({ style: item.cue.style, dirty: item.wasDirty });
+    }
+    setGesture(null);
+  }
+  if (!frame?.height || !visibleIds.length) return null;
+  return /* @__PURE__ */ j.createElement("div", { className: "manual-caption-preview", style: frame, ref: plane }, /* @__PURE__ */ j.createElement("div", { className: "manual-caption-stack", style: { paddingBottom: frame.height * (raised ? 0.15 : 0.06) } }, cues.filter((cue) => cue.text.trim() && visibleIds.includes(cue.id)).map((cue) => {
+    const style = { ...editor.defaults, ...cue.style, ...gesture?.id === cue.id ? gesture.patch : null };
+    const position = style.position;
+    const selected = editor.selectedId === cue.id;
+    const size = frame.height * (style.size || 0.053);
+    const coords = position ? { left: position.x * 100 + "%", top: position.y * 100 + "%" } : {};
+    const trajectory = trajectories.get(cue.id);
+    const motion = motionAt(trajectory || [], clock - cue.start);
+    const visible = motion.opacity > 0.025;
+    const transform = trajectory?.length ? (position ? "translate(-50%, -50%) " : "") + "translate(" + motion.x * frame.width + "px," + motion.y * frame.height + "px) rotate(" + motion.angle + "deg) scale(" + motion.scale + ")" : void 0;
+    return /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: cue.id,
+        type: "button",
+        "data-preview-caption": cue.id,
+        className: "manual-caption-on-video" + (position ? " positioned" : "") + (selected ? " selected" : ""),
+        style: {
+          ...coords,
+          fontSize: size,
+          fontWeight: style.bold ? 700 : 400,
+          color: style.fill,
+          background: style.box || void 0,
+          fontFamily: captionFontFamily(style.font || "Microsoft YaHei"),
+          transform,
+          transformOrigin: position ? "center" : "center bottom",
+          opacity: motion.opacity,
+          pointerEvents: visible ? void 0 : "none",
+          filter: motion.blur ? "blur(" + motion.blur * Math.min(frame.width, frame.height) + "px)" : void 0,
+          WebkitTextStroke: !style.box && style.outline ? size * style.outline * 2 + "px " + style.stroke : void 0
+        },
+        title: labelText("单击选择字幕，拖动调整位置"),
+        "aria-label": labelText("画面字幕 ") + cue.text,
+        "aria-pressed": selected,
+        "aria-hidden": !visible || void 0,
+        "aria-disabled": editor.disabled,
+        tabIndex: visible ? 0 : -1,
+        onPointerDown: (event) => begin(event, { ...cue, style }, motion),
+        onPointerMove: move,
+        onPointerUp: finish,
+        onPointerCancel: cancel,
+        onLostPointerCapture: cancel,
+        onClick: (event) => {
+          if (!event.detail) editor.edit(cue, { locate: false });
+        }
+      },
+      cue.text,
+      selected && ["nw", "ne", "sw", "se"].map(
+        (corner) => /* @__PURE__ */ j.createElement("span", { key: corner, "data-caption-scale": corner, "aria-hidden": "true", className: "caption-scale-handle" })
+      )
+    );
+  })));
+}
+function CaptionFontPicker({ font, text, systemFonts, disabled, onSelect, children }) {
+  const [open, setOpen] = j.useState(false);
+  const [group, setGroup] = j.useState("en");
+  const [query, setQuery] = j.useState("");
+  const [limit, setLimit] = j.useState(12);
+  const trigger = j.useRef(null);
+  const results = j.useRef(null);
+  const panelId = j.useId();
+  const groups = {
+    zh: { label: labelText("中文"), sample: "视频字幕，字体预览" },
+    ja: { label: labelText("日语"), sample: "今日は字幕を編集します。" },
+    en: { label: labelText("英语"), sample: "The quick brown fox" },
+    es: { label: labelText("西班牙语"), sample: "¿Qué tal? ¡Año nuevo!" },
+    system: { label: labelText("本机"), sample: "字幕预览 Caption" }
+  };
+  const current = captionFontCatalog.find((entry) => entry.name.toLowerCase() === font.toLowerCase());
+  const needle = query.trim().toLowerCase();
+  const entries = group === "system" ? [.../* @__PURE__ */ new Set([...current ? [] : [font], ...systemFonts || []])].filter((name) => !captionBundledFamilies.has(name.toLowerCase())).map((name) => ({ name })) : captionFontCatalog.filter((entry) => entry.group === group);
+  const matching = entries.filter(({ name }) => captionFontLabel(name).toLowerCase().includes(needle));
+  function scrollToTop() {
+    setLimit(12);
+    if (results.current) results.current.scrollTop = 0;
+  }
+  function switchGroup(next) {
+    setGroup(next);
+    setQuery("");
+    scrollToTop();
+  }
+  function openPicker() {
+    let initial = current?.group;
+    if (!initial) {
+      if (/[ぁ-ゖァ-ヺ]/u.test(text)) initial = "ja";
+      else if (!text.trim() || /\p{Script=Han}/u.test(text)) initial = "zh";
+      else if (/[áéíóúñü¿¡]/iu.test(text)) initial = "es";
+      else initial = /[a-z]/i.test(text) ? "en" : "system";
+    }
+    switchGroup(initial);
+    setOpen(true);
+  }
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "manual-caption-font-row" }, /* @__PURE__ */ j.createElement("div", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("字体")), /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      ref: trigger,
+      type: "button",
+      className: "caption-font-trigger",
+      disabled,
+      "aria-label": labelText("字体 · ") + captionFontLabel(font),
+      "aria-expanded": open,
+      "aria-controls": open ? panelId : void 0,
+      title: captionFontLabel(font),
+      onClick: () => open ? setOpen(false) : openPicker()
+    },
+    /* @__PURE__ */ j.createElement("span", null, captionFontLabel(font)),
+    /* @__PURE__ */ j.createElement("span", { className: "caption-font-chevron", "aria-hidden": "true" })
+  )), children), open && /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      id: panelId,
+      className: "caption-font-picker",
+      role: "group",
+      "aria-label": labelText("字体库"),
+      onKeyDown: (event) => {
+        if (event.key !== "Escape" || event.nativeEvent.isComposing) return;
+        event.stopPropagation();
+        setOpen(false);
+        trigger.current?.focus();
+      }
+    },
+    /* @__PURE__ */ j.createElement("div", { className: "caption-font-groups", role: "group", "aria-label": labelText("字体语言") }, Object.entries(groups).map(([id, { label }]) => /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: id,
+        type: "button",
+        "aria-pressed": group === id,
+        disabled,
+        onClick: () => switchGroup(id)
+      },
+      label
+    ))),
+    /* @__PURE__ */ j.createElement(
+      "input",
+      {
+        type: "search",
+        className: "caption-font-search",
+        autoFocus: true,
+        value: query,
+        disabled,
+        "aria-label": labelText("搜索字体"),
+        placeholder: labelText("搜索字体"),
+        onChange: (event) => {
+          setQuery(event.target.value);
+          scrollToTop();
+        }
+      }
+    ),
+    /* @__PURE__ */ j.createElement("div", { className: "caption-font-list", ref: results, "aria-label": groups[group].label + labelText("字体") }, matching.slice(0, limit).map(({ name, locale }) => /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: name,
+        type: "button",
+        className: "caption-font-option",
+        disabled,
+        "aria-pressed": name.toLowerCase() === font.toLowerCase(),
+        "aria-label": captionFontLabel(name),
+        onClick: () => onSelect(name)
+      },
+      /* @__PURE__ */ j.createElement("span", { className: "caption-font-option-name", title: captionFontLabel(name) }, captionFontLabel(name)),
+      /* @__PURE__ */ j.createElement(
+        "span",
+        {
+          className: "caption-font-sample",
+          lang: locale || (group === "system" ? void 0 : group),
+          "aria-hidden": "true",
+          style: { fontFamily: captionFontFamily(name) }
+        },
+        locale === "zh-Hant" ? "影片字幕，字體預覽" : groups[group].sample
+      )
+    )), !matching.length && /* @__PURE__ */ j.createElement("p", { className: "caption-font-empty" }, group === "system" && systemFonts === null ? labelText("正在读取本机字体…") : labelText("未找到匹配的字体。")), matching.length > limit && /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        type: "button",
+        className: "caption-font-more",
+        disabled,
+        onClick: () => setLimit((value) => value + 12)
+      },
+      labelText("显示更多字体（剩余 "),
+      matching.length - limit,
+      labelText(" 款）")
+    ))
+  ));
+}
+function commonAgentIds() {
+  return ["codex", "claude", "deepseek"];
+}
+function useAgentConnection(refreshKey, settingsOpen, scope) {
+  const [registry, setRegistry] = j.useState([]);
+  const [chat, setChat] = j.useState(null);
+  const [pending, setPending] = j.useState(false);
+  const [error, setError] = j.useState("");
+  const previousRefresh = j.useRef(refreshKey);
+  const previousScope = j.useRef(scope);
+  const live = j.useRef(false);
+  const requesting = j.useRef(false);
+  const revision = j.useRef(0);
+  const registryScan = j.useRef(0);
+  const connected = chat?.phase === "ready";
+  const generating = ["running", "stopping"].includes(chat?.phase) || chat?.messages.at(-1)?.task?.phase === "connecting";
+  const locked = pending || generating || ["connecting", "configuring"].includes(chat?.phase);
+  const provider = registry.find(({ id }) => id === chat?.provider);
+  const usable = registry.filter((item) => item.enabled && item.available);
+  async function request(action, data) {
+    if (requesting.current) return;
+    requesting.current = true;
+    revision.current++;
+    setPending(true);
+    setError("");
+    try {
+      const result = await Uo(action, data);
+      if (live.current) setChat(result);
+      return result;
+    } catch (failure) {
+      if (live.current) setError(failure.message);
+    } finally {
+      requesting.current = false;
+      if (live.current) setPending(false);
+    }
+  }
+  async function scanRegistry() {
+    const scan = ++registryScan.current;
+    const entries = await Uo("agent_registry");
+    if (live.current && scan === registryScan.current) setRegistry(entries);
+    return entries;
+  }
+  async function refresh() {
+    if (requesting.current) return;
+    requesting.current = true;
+    revision.current++;
+    setPending(true);
+    setError("");
+    try {
+      const [available, current] = await Promise.all([scanRegistry(), Uo("agent_state")]);
+      if (!live.current) return;
+      setChat(current);
+      if (!settingsOpen && (!current || current.phase === "archived")) {
+        const next = available.find((item) => item.available && item.enabled && (!current || item.id === current.provider));
+        if (next) {
+          const opened = await Uo("agent_connect", { provider: next.id, scope: scope ?? null, automatic: true });
+          if (opened && live.current) setChat(opened);
+        }
+      }
+    } catch (failure) {
+      if (live.current) setError(failure.message);
+    } finally {
+      requesting.current = false;
+      if (live.current) setPending(false);
+    }
+  }
+  function activate() {
+    if (chat && chat.phase !== "archived") {
+      scanRegistry().catch(() => {
+      });
+    } else {
+      refresh();
+    }
+  }
+  j.useEffect(() => {
+    live.current = true;
+    refresh();
+    return () => {
+      live.current = false;
+    };
+  }, []);
+  const phase = chat?.phase;
+  j.useEffect(() => {
+    if (!phase) return;
+    let polling = false;
+    let stopped = false;
+    const timer = window.setInterval(async () => {
+      if (polling || requesting.current) return;
+      polling = true;
+      const started = revision.current;
+      try {
+        const current = await Uo("agent_state");
+        if (!stopped && started === revision.current) {
+          setChat(current);
+          if (!settingsOpen && (!current || current.phase === "archived" && phase !== "archived")) refresh();
+        }
+      } catch (failure) {
+        if (!stopped && started === revision.current) setError(failure.message);
+      } finally {
+        polling = false;
+      }
+    }, 500);
+    return () => {
+      stopped = true;
+      window.clearInterval(timer);
+    };
+  }, [phase, scope, settingsOpen]);
+  j.useEffect(() => {
+    if (settingsOpen || refreshKey === previousRefresh.current || pending || requesting.current) return;
+    previousRefresh.current = refreshKey;
+    refresh();
+  }, [settingsOpen, refreshKey, pending]);
+  j.useEffect(() => {
+    if (scope === previousScope.current || pending || requesting.current) return;
+    previousScope.current = scope;
+    refresh();
+  }, [scope, pending]);
+  return { registry, chat, pending, error, connected, generating, locked, provider, usable, request, activate };
+}
+function AgentSidebar({
+  agentOpen,
+  setAgentOpen,
+  refreshKey,
+  settingsOpen,
+  shot,
+  time,
+  openResult,
+  onWorkbenchChange,
+  onTimelineEdit,
+  onTaskBusy,
+  prepareAgentTask,
+  ...workspace
+}) {
+  const connection = useAgentConnection(refreshKey, settingsOpen, workspace.state.manual_caption_scope);
+  const manage = (providerId) => workspace.openSettings("agents", providerId);
+  const editorRevision = connection.chat?.workbench_revision;
+  const timelineEdit = connection.chat?.timeline_edit;
+  const openedEdit = j.useRef(null);
+  j.useEffect(() => {
+    if (!editorRevision) return;
+    let stale = false;
+    onWorkbenchChange().then((next) => {
+      if (stale || !timelineEdit || openedEdit.current === timelineEdit.id || next.manual_caption_scope !== timelineEdit.scope) return;
+      openedEdit.current = timelineEdit.id;
+      onTimelineEdit();
+    }).catch(() => {
+    });
+    return () => {
+      stale = true;
+    };
+  }, [editorRevision, timelineEdit?.id, onWorkbenchChange, onTimelineEdit]);
+  j.useEffect(() => {
+    onTaskBusy(Boolean(connection.generating));
+  }, [connection.generating, onTaskBusy]);
+  function openConversation() {
+    connection.activate();
+    setAgentOpen(true);
+  }
+  const picker = /* @__PURE__ */ j.createElement(
+    AgentPicker,
+    {
+      connection,
+      settingsOpen,
+      manage,
+      openConversation: agentOpen ? void 0 : openConversation
+    }
+  );
+  if (!agentOpen) return /* @__PURE__ */ j.createElement(SN, { ...workspace, agentPicker: picker });
+  return /* @__PURE__ */ j.createElement(
+    AgentPanel,
+    {
+      close: () => setAgentOpen(false),
+      openResult,
+      manage,
+      source: workspace.state.source,
+      project: workspace.state.project,
+      shot,
+      time,
+      prepareAgentTask,
+      scope: workspace.state.manual_caption_scope,
+      command: workspace.command,
+      disabled: workspace.disabled,
+      connection,
+      picker
+    }
+  );
+}
+function AgentPanel({
+  close,
+  openResult,
+  manage,
+  source,
+  project,
+  shot,
+  time,
+  disabled,
+  connection,
+  picker,
+  prepareAgentTask,
+  scope,
+  command
+}) {
+  const { registry, chat, pending, error, connected, generating, locked, provider, usable, request } = connection;
+  const [text, setText] = j.useState("");
+  const [attach, setAttach] = j.useState(true);
+  const [material, setMaterial] = j.useState(null);
+  const [footage, setFootage] = j.useState(null);
+  const [upload, setUpload] = j.useState(null);
+  const [dropping, setDropping] = j.useState(false);
+  const [footageError, setFootageError] = j.useState("");
+  const [submitting, setSubmitting] = j.useState(false);
+  const [history, setHistory] = j.useState(null);
+  const addingFootage = j.useRef(false);
+  const materialInProject = material?.scope === scope ? material : null;
+  const footageInProject = footage?.scope === scope ? footage : null;
+  const feed = j.useRef(null);
+  const input = j.useRef(null);
+  const follow = j.useRef(true);
+  const context = project?.name || source?.name;
+  const transcript = chat?.messages || [];
+  const archived = chat?.phase === "archived";
+  const lastText = transcript.at(-1)?.text;
+  j.useLayoutEffect(() => {
+    follow.current = true;
+  }, [chat?.provider]);
+  j.useLayoutEffect(() => {
+    if (feed.current && follow.current) feed.current.scrollTop = feed.current.scrollHeight;
+  }, [transcript.length, lastText, transcript.at(-1)?.task?.steps?.length, chat?.activity, chat?.permission]);
+  function connect(id, options = {}) {
+    follow.current = true;
+    return request("agent_connect", { provider: id, ...options });
+  }
+  async function showHistory() {
+    if (history) {
+      setHistory(null);
+      return;
+    }
+    try {
+      setHistory(await Uo("agent_history"));
+    } catch {
+      setHistory([]);
+    }
+  }
+  j.useEffect(() => {
+    setHistory(null);
+    setFootageError("");
+  }, [scope]);
+  async function send(event) {
+    event?.preventDefault();
+    if (!text.trim() || !(connected || archived) || disabled || locked || submitting || addingFootage.current) return;
+    setSubmitting(true);
+    try {
+      if (!await prepareAgentTask()) return;
+      follow.current = true;
+      const result = await request(archived ? "agent_dispatch" : "agent_send", {
+        text,
+        attach: Boolean(context && attach && !footageInProject),
+        scope,
+        shot: shot?.source_id || shot?.id,
+        clip: shot?.id,
+        time,
+        footage: footageInProject?.key,
+        material: attach && !footageInProject ? materialInProject?.key : void 0
+      });
+      if (result) {
+        setText("");
+        setMaterial(null);
+        setFootage(null);
+        input.current?.focus();
+      }
+    } finally {
+      setSubmitting(false);
+    }
+  }
+  async function pickMaterial() {
+    const selected = await command("agent_pick_material", { scope });
+    if (selected) setMaterial({ ...selected, scope });
+  }
+  async function addFootage(file) {
+    if (disabled || locked || submitting || addingFootage.current) return;
+    addingFootage.current = true;
+    setUpload(file ? 0 : -1);
+    setFootageError("");
+    try {
+      const selected = file ? await HT(file, { agent_footage: 1, scope }, setUpload) : await Uo("agent_pick_footage", { scope });
+      if (selected) {
+        setFootage({ ...selected, scope });
+        setMaterial(null);
+        input.current?.focus();
+      }
+    } catch (failure) {
+      setFootageError(failure.message);
+    } finally {
+      addingFootage.current = false;
+      setUpload(null);
+    }
+  }
+  function prefill(question) {
+    setText(question);
+    input.current?.focus();
+  }
+  return /* @__PURE__ */ j.createElement("aside", { className: "sidebar agent-panel", "aria-label": labelText("本机 Agent") }, /* @__PURE__ */ j.createElement("div", { className: "agent-panel-header" }, /* @__PURE__ */ j.createElement(St, { icon: fu, className: "agent-back", label: labelText("返回工作区"), onClick: close }), /* @__PURE__ */ j.createElement("h2", null, "Agent"), /* @__PURE__ */ j.createElement(St, { icon: qe, label: labelText("项目对话历史"), disabled: !scope || locked, "aria-expanded": Boolean(history), onClick: showHistory }), /* @__PURE__ */ j.createElement(St, { icon: Hi, label: labelText("新对话"), disabled: !provider?.available || !provider.enabled || locked, onClick: () => connect(provider.id, { fresh: true }) }), /* @__PURE__ */ j.createElement(St, { icon: Fi, label: labelText("管理 Agent"), onClick: () => manage() })), history && /* @__PURE__ */ j.createElement("div", { className: "agent-history" }, history.length ? history.map((item) => /* @__PURE__ */ j.createElement(D, { key: item.id, kind: "ghost", disabled: locked, onClick: async () => {
+    if (await connect(item.provider, { history: item.id })) setHistory(null);
+  } }, item.title)) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("这个项目还没有已保存的对话。"))), /* @__PURE__ */ j.createElement("div", { className: "agent-feed", role: "log", "aria-label": labelText("对话"), ref: feed, onScroll: (event) => {
+    const node = event.currentTarget;
+    follow.current = node.scrollHeight - node.scrollTop - node.clientHeight < 45;
+  } }, !transcript.length && /* @__PURE__ */ j.createElement("div", { className: "agent-empty" }, /* @__PURE__ */ j.createElement("div", { className: "agent-empty-icon" }, /* @__PURE__ */ j.createElement(Ma, { size: 19, "aria-hidden": "true" })), /* @__PURE__ */ j.createElement("strong", null, context || footageInProject ? labelText("想怎么剪辑或分析这条视频？") : labelText("从一段素材开始剪辑")), !context && !footageInProject && /* @__PURE__ */ j.createElement("p", null, labelText("添加原始视频，然后告诉 Agent 想剪成什么样。")), registry.length > 0 && !usable.length ? /* @__PURE__ */ j.createElement(D, { icon: Fi, onClick: () => manage() }, labelText("配置本机 Agent")) : /* @__PURE__ */ j.createElement("div", { className: "agent-suggestions" }, (source || footageInProject) && /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      icon: Ma,
+      onClick: () => prefill(footageInProject ? labelText("把这段素材剪成一条节奏明快的产品短片，开头先展示亮点。") : labelText("把开头 1 秒和结尾 1 秒剪掉，保留中间内容。"))
+    },
+    labelText("试试自动剪辑")
+  ), project && /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: Ka, onClick: () => prefill(labelText("看一下当前项目，列出前 3 秒的分镜、画面文字和口播中译。")) }, labelText("查看开头 3 秒")), project && shot && /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: Ma, onClick: () => prefill(labelText("结合当前镜头的关键帧，给我一份可用的复刻提示词。")) }, labelText("生成当前镜头提示词")), source && !project && /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: Ka, onClick: () => prefill(labelText("拆解当前视频，生成报告并列出每个镜头。")) }, labelText("拆解当前视频")))), transcript.map((message, index) => /* @__PURE__ */ j.createElement(
+    "article",
+    {
+      className: "agent-message " + message.role,
+      key: index,
+      "aria-label": message.role === "user" ? labelText("你") : provider?.name || "Agent"
+    },
+    message.context && /* @__PURE__ */ j.createElement("div", { className: "agent-message-context", title: message.context }, message.context),
+    message.task && /* @__PURE__ */ j.createElement(
+      AgentTaskTrace,
+      {
+        task: message.task,
+        activity: index === transcript.length - 1 ? chat?.activity : void 0,
+        onExpand: () => {
+          follow.current = false;
+        },
+        retry: connected && !locked ? (step) => request("agent_retry_tool", { step }) : null
+      }
+    ),
+    message.task?.note && message.task.note !== message.text && /* @__PURE__ */ j.createElement("p", { className: "agent-task-note" }, labelText(message.task.note)),
+    message.text && /* @__PURE__ */ j.createElement("div", { className: "agent-message-text" }, message.role === "assistant" ? /* @__PURE__ */ j.createElement(AgentReply, { text: message.text }) : message.text),
+    /* @__PURE__ */ j.createElement(AgentResultList, { message, disabled, openResult })
+  )), chat?.permission && /* @__PURE__ */ j.createElement("div", { className: "agent-permission" }, /* @__PURE__ */ j.createElement("strong", null, chat.permission.title), /* @__PURE__ */ j.createElement("div", null, chat.permission.options.map((option) => /* @__PURE__ */ j.createElement(
+    D,
+    {
+      key: option.id,
+      disabled: pending,
+      onClick: () => request("agent_permission", { request: chat.permission.id, option: option.id })
+    },
+    option.name
+  )))), (chat?.error || error) && /* @__PURE__ */ j.createElement("div", { className: "agent-error", role: "alert" }, /* @__PURE__ */ j.createElement("p", null, labelText(error || chat.error)), chat?.phase === "error" && provider?.available && provider.enabled && /* @__PURE__ */ j.createElement(D, { disabled: pending, onClick: () => connect(provider.id) }, labelText("重新连接")))), /* @__PURE__ */ j.createElement("div", { className: "agent-controls" }, /* @__PURE__ */ j.createElement("div", { className: "agent-activity", role: "status" }, /* @__PURE__ */ j.createElement("span", { className: "agent-dot" + (connected || generating ? " on" : "") }), /* @__PURE__ */ j.createElement("span", { title: labelText(chat?.activity) }, labelText(chat?.activity) || (pending ? labelText("正在检测本机 Agent") : labelText("尚未连接 Agent"))), archived && provider?.available && provider.enabled && /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: disabled || locked, onClick: () => connect(provider.id) }, labelText("重新连接")), chat?.tools === "ready" && /* @__PURE__ */ j.createElement("small", { className: "agent-tools-ready" }, labelText("工作台工具已连接")), connected && chat?.tools === "unavailable" && /* @__PURE__ */ j.createElement("small", null, labelText("工作台工具不可用"))), /* @__PURE__ */ j.createElement(
+    "form",
+    {
+      className: "agent-compose" + (dropping ? " dropping" : ""),
+      onSubmit: send,
+      ...bM(addFootage, setDropping),
+      "aria-busy": upload !== null || submitting
+    },
+    /* @__PURE__ */ j.createElement(
+      "textarea",
+      {
+        ref: input,
+        "aria-label": labelText("发消息给 Agent"),
+        placeholder: labelText("描述要剪辑或分析的内容…"),
+        maxLength: 16e3,
+        rows: 2,
+        value: text,
+        onChange: (event) => setText(event.target.value),
+        onKeyDown: (event) => {
+          if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing && event.keyCode !== 229) send(event);
+        }
+      }
+    ),
+    footageInProject && /* @__PURE__ */ j.createElement("div", { className: "agent-compose-attachment" }, /* @__PURE__ */ j.createElement(Ka, { size: 14, "aria-hidden": "true" }), /* @__PURE__ */ j.createElement("span", { title: footageInProject.name }, footageInProject.name), /* @__PURE__ */ j.createElement(St, { icon: Wa, label: labelText("移除剪辑素材"), onClick: () => setFootage(null), disabled: submitting })),
+    !footageInProject && attach && materialInProject && /* @__PURE__ */ j.createElement("div", { className: "agent-compose-attachment" }, /* @__PURE__ */ j.createElement("span", { title: materialInProject.name }, materialInProject.name), /* @__PURE__ */ j.createElement(St, { icon: Wa, label: labelText("移除替换视频附件"), onClick: () => setMaterial(null) })),
+    upload >= 0 && upload !== null && /* @__PURE__ */ j.createElement("small", { role: "status" }, labelText("正在添加素材 {0}%", upload)),
+    footageError && /* @__PURE__ */ j.createElement("p", { className: "field-hint", role: "alert" }, labelText(footageError)),
+    /* @__PURE__ */ j.createElement("div", { className: "agent-send-row" }, /* @__PURE__ */ j.createElement(
+      St,
+      {
+        icon: Hi,
+        label: footageInProject ? labelText("更换剪辑素材") : labelText("添加剪辑素材"),
+        disabled: disabled || locked || submitting || upload !== null,
+        onClick: () => addFootage()
+      }
+    ), context && !footageInProject && /* @__PURE__ */ j.createElement("label", { className: "agent-context" + (attach ? " selected" : ""), title: context }, /* @__PURE__ */ j.createElement("input", { type: "checkbox", checked: attach, onChange: (event) => setAttach(event.target.checked) }), /* @__PURE__ */ j.createElement("span", null, project ? labelText("当前项目") : labelText("当前视频"), project && shot ? labelText(" · 镜头 {0}", shot.number || shot.id) : "")), project && attach && !footageInProject && /* @__PURE__ */ j.createElement(
+      St,
+      {
+        icon: qe,
+        label: materialInProject ? labelText("更换替换视频") : labelText("选择替换视频"),
+        disabled: disabled || locked || submitting,
+        onClick: pickMaterial
+      }
+    ), generating ? /* @__PURE__ */ j.createElement(D, { icon: hu, disabled: pending || chat?.phase === "stopping", onClick: () => request("agent_cancel") }, labelText("停止")) : /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", disabled: !(connected || archived) || locked || disabled || submitting || upload !== null || !text.trim() }, labelText("发送")))
+  ), picker));
+}
+function agentOptionLabel(option) {
+  if (option.id === "fast-mode") return labelText("速度");
+  const labels = { model: labelText("模型"), thought_level: labelText("思考强度"), speed: labelText("速度") };
+  return labels[option.category] || option.name;
+}
+function AgentBrandIcon({ provider, size = 16 }) {
+  if (!provider) return /* @__PURE__ */ j.createElement(Ma, { size, "aria-hidden": "true" });
+  const mono = ["copilot", "cursor", "opencode"].includes(provider);
+  const style = "agent-brand-icon" + (mono ? " mono" : "") + (["codex", "kimi"].includes(provider) ? " " + provider : "");
+  return /* @__PURE__ */ j.createElement(
+    "img",
+    {
+      className: style,
+      src: "/assets/agent-logos/" + provider + ".png",
+      width: size,
+      height: size,
+      alt: "",
+      "aria-hidden": "true",
+      draggable: false
+    }
+  );
+}
+function agentElapsed(milliseconds) {
+  const seconds = Math.max(0, Number(milliseconds) || 0) / 1e3;
+  if (seconds < 0.1) return labelText("< 0.1 秒");
+  return seconds < 60 ? labelText("{0} 秒", seconds.toFixed(1)) : kt(seconds);
+}
+function AgentTaskTrace({ task, activity, retry, onExpand }) {
+  const names = {
+    connecting: labelText("连接 Agent"),
+    running: labelText("正在执行"),
+    stopping: labelText("正在停止"),
+    done: labelText("已完成"),
+    cancelled: labelText("已停止"),
+    failed: task.note ? labelText("本次指令未完成") : labelText("连接或执行失败")
+  };
+  const states = { pending: labelText("等待"), in_progress: labelText("进行中"), completed: labelText("完成"), failed: labelText("失败"), cancelled: labelText("停止"), finished: labelText("结束") };
+  const running = ["connecting", "running", "stopping"].includes(task.phase);
+  const steps = task.steps || [];
+  const current = running && activity;
+  const summary = /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("span", { className: "agent-task-status " + task.phase }, names[task.phase]), /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, "·"), /* @__PURE__ */ j.createElement("time", { "aria-label": labelText("任务累计耗时") }, agentElapsed(task.elapsed_ms)), !!steps.length && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, "·"), /* @__PURE__ */ j.createElement("span", null, labelText("{0} 个步骤", steps.length))));
+  if (!steps.length && !current) {
+    return /* @__PURE__ */ j.createElement("div", { className: "agent-task-trace", role: "group", "aria-label": labelText("Agent 任务进度") }, /* @__PURE__ */ j.createElement("div", { className: "agent-trace-summary" }, summary));
+  }
+  return /* @__PURE__ */ j.createElement("details", { className: "agent-task-trace", "aria-label": labelText("Agent 任务进度"), onToggle: (event) => {
+    if (event.currentTarget.open) onExpand();
+  } }, /* @__PURE__ */ j.createElement("summary", { className: "agent-trace-summary", title: current ? labelText(current) : void 0 }, summary, /* @__PURE__ */ j.createElement("span", { className: "agent-disclosure", "aria-hidden": "true" })), /* @__PURE__ */ j.createElement("div", { className: "agent-trace-details", tabIndex: 0, role: "region", "aria-label": labelText("执行步骤") }, current && /* @__PURE__ */ j.createElement("p", { className: "agent-task-current" }, labelText(current)), !!steps.length && /* @__PURE__ */ j.createElement("ol", { className: "agent-task-steps" }, steps.map((step) => /* @__PURE__ */ j.createElement("li", { key: step.id, "data-state": step.status }, /* @__PURE__ */ j.createElement("div", { className: "agent-step-heading" }, /* @__PURE__ */ j.createElement("strong", null, labelText(step.title)), /* @__PURE__ */ j.createElement("span", null, states[step.status] || states.pending, " · ", agentElapsed(step.elapsed_ms))), step.detail && /* @__PURE__ */ j.createElement("p", null, labelText(step.detail)), step.retryable && retry && /* @__PURE__ */ j.createElement(D, { kind: "ghost", onClick: () => retry(step.id) }, labelText("重试此步")))))));
+}
+function AgentResultList({ message, openResult, disabled }) {
+  const artifacts = [message.artifact, ...(message.task?.steps || []).map((step) => step.artifact)];
+  const items = [...new Map(artifacts.filter((item) => item?.id).map((item) => [item.id, item])).values()];
+  if (!items.length) return null;
+  const visible = items.slice(0, 4);
+  const remaining = items.slice(visible.length);
+  function rows(results) {
+    return /* @__PURE__ */ j.createElement("ul", null, results.map((item) => {
+      const Icon = item.kind === "project" ? qe : fo;
+      const action = item.kind === "project" ? labelText("打开拆解项目") : item.kind === "material" ? labelText("打开生成素材") : labelText("打开成片");
+      return /* @__PURE__ */ j.createElement("li", { key: item.id }, /* @__PURE__ */ j.createElement(
+        "button",
+        {
+          type: "button",
+          title: item.name,
+          "aria-label": labelText("{0} · {1}", action, item.name),
+          onClick: () => openResult(item.id),
+          disabled
+        },
+        /* @__PURE__ */ j.createElement(Icon, { size: 15, "aria-hidden": "true" }),
+        /* @__PURE__ */ j.createElement("span", { className: "agent-result-name" }, item.name),
+        /* @__PURE__ */ j.createElement("span", { className: "agent-disclosure", "aria-hidden": "true" })
+      ));
+    }));
+  }
+  return /* @__PURE__ */ j.createElement("section", { className: "agent-results", "aria-label": labelText("任务产出") }, rows(visible), !!remaining.length && /* @__PURE__ */ j.createElement("details", null, /* @__PURE__ */ j.createElement("summary", null, labelText("还有 {0} 个结果", remaining.length), /* @__PURE__ */ j.createElement("span", { className: "agent-disclosure", "aria-hidden": "true" })), rows(remaining)));
+}
+function AgentInstructionEntry({ open }) {
+  return /* @__PURE__ */ j.createElement("div", { className: "agent-instruction-entry" }, /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: Ma, onClick: open }, labelText("Agent 指令")));
+}
+function AgentInstructionEditor({ state, shot, time, onSubmit, back, command, disabled, taskBusy, openSettings, tab }) {
+  const [text, setText] = j.useState("");
+  const [material, setMaterial] = j.useState(null);
+  const [busy, setBusy] = j.useState("");
+  const target = state.project?.name || state.source?.name;
+  const scope = state.manual_caption_scope;
+  const locked = disabled || taskBusy || !!busy;
+  const materialInProject = material?.scope === scope ? material : null;
+  async function pick() {
+    setBusy("pick");
+    try {
+      const selected = await command("agent_pick_material", { scope });
+      if (selected) setMaterial({ ...selected, scope });
+    } finally {
+      setBusy("");
+    }
+  }
+  async function send(event) {
+    event.preventDefault();
+    if (locked || !text.trim()) return;
+    setBusy("send");
+    try {
+      const result = await onSubmit({
+        text,
+        attach: Boolean(target),
+        scope,
+        shot: shot?.source_id || shot?.id,
+        clip: shot?.id,
+        time,
+        material: materialInProject?.key
+      });
+      if (result) back();
+    } finally {
+      setBusy("");
+    }
+  }
+  return /* @__PURE__ */ j.createElement("aside", { id: "task-inspector", className: "inspector task-panel agent-instruction-panel", "aria-label": labelText("Agent 指令面板") }, /* @__PURE__ */ j.createElement(PanelResizeHandle, { tab }), /* @__PURE__ */ j.createElement("div", { className: "agent-instruction-header" }, /* @__PURE__ */ j.createElement("div", { className: "agent-instruction-title" }, /* @__PURE__ */ j.createElement(Ma, { size: 18 }), /* @__PURE__ */ j.createElement("h2", null, labelText("Agent 指令"))), /* @__PURE__ */ j.createElement(St, { icon: Fi, label: labelText("设置 Agent 连接"), onClick: () => openSettings("agents") }), /* @__PURE__ */ j.createElement(St, { icon: Wa, label: labelText("返回编辑属性"), onClick: back, disabled: !!busy })), /* @__PURE__ */ j.createElement("form", { className: "agent-instruction-form", onSubmit: send }, target ? /* @__PURE__ */ j.createElement("div", { className: "agent-instruction-context", title: target }, /* @__PURE__ */ j.createElement("strong", null, target), /* @__PURE__ */ j.createElement("span", null, shot ? labelText("镜头 ") + shot.id + " · " : "", kt(time || 0, true))) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("导入视频后，Agent 可以处理当前视频和时间线。")), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("告诉 Agent 要做什么")), /* @__PURE__ */ j.createElement(
+    "textarea",
+    {
+      value: text,
+      onChange: (event) => setText(event.target.value),
+      "aria-label": labelText("编辑 Agent 指令"),
+      placeholder: labelText("例如：剪掉开头 2 秒，把最后一个镜头移到最前。"),
+      maxLength: 16e3,
+      rows: 4,
+      disabled: !!busy,
+      onKeyDown: (event) => {
+        if (event.key === "Enter" && (event.ctrlKey || event.metaKey) && !event.nativeEvent.isComposing) send(event);
+      }
+    }
+  )), state.project && /* @__PURE__ */ j.createElement("div", { className: "agent-instruction-material" }, /* @__PURE__ */ j.createElement(D, { icon: qe, disabled: locked, onClick: pick }, materialInProject ? labelText("更换替换视频") : labelText("选择替换视频")), materialInProject && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("span", { title: materialInProject.name }, materialInProject.name), /* @__PURE__ */ j.createElement(St, { icon: Wa, label: labelText("移除替换视频附件"), disabled: locked, onClick: () => setMaterial(null) }))), /* @__PURE__ */ j.createElement("div", { className: "agent-instruction-actions" }, taskBusy && /* @__PURE__ */ j.createElement("p", { className: "field-hint", role: "status" }, labelText("Agent 正在执行上一条指令。")), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", icon: Ma, disabled: locked || !text.trim() }, busy === "send" ? labelText("正在提交…") : labelText("交给 Agent")))));
+}
+function AgentPicker({ connection, settingsOpen, manage, openConversation }) {
+  const { provider, registry, usable, chat, pending, locked, error, request, activate } = connection;
+  const [open, setOpen] = j.useState(false);
+  const [pointerActivated, setPointerActivated] = j.useState(false);
+  const [submenu, setSubmenu] = j.useState(null);
+  const toolbar = j.useRef(null);
+  const trigger = j.useRef(null);
+  const panel = j.useRef(null);
+  const optionTimer = j.useRef(null);
+  const options = chat?.options || [];
+  const activeOption = options.find((option) => option.id === submenu?.id);
+  const model = options.find((option) => option.category === "model");
+  const modelLabel = model?.choices.find((choice) => choice.id === model.value)?.name;
+  const effort = options.find((option) => option.category === "thought_level");
+  const effortLabel = effort?.choices.find((choice) => choice.id === effort.value)?.name;
+  const currentProvider = provider || usable[0];
+  const label = modelLabel ? [modelLabel, effortLabel].filter(Boolean).join(" · ") : currentProvider?.name || labelText("选择 Agent");
+  const switchLabel = labelText("切换模型或 Agent · ");
+  const issue = error || chat?.error;
+  function closeMenu() {
+    clearTimeout(optionTimer.current);
+    setSubmenu(null);
+    setOpen(false);
+  }
+  function toggleMenu(event) {
+    if (event.detail > 0) setPointerActivated(true);
+    if (open) {
+      closeMenu();
+      return;
+    }
+    setOpen(true);
+    activate();
+  }
+  function openSettings(providerId) {
+    closeMenu();
+    manage(providerId);
+  }
+  function chooseProvider(id) {
+    closeMenu();
+    trigger.current?.focus({ preventScroll: true });
+    request("agent_connect", { provider: id });
+  }
+  function openOptions(id, anchor, focus = false) {
+    clearTimeout(optionTimer.current);
+    setSubmenu({ id, anchor, focus });
+  }
+  function hoverOption(event, id) {
+    if (event.pointerType !== "mouse") return;
+    const anchor = event.currentTarget;
+    clearTimeout(optionTimer.current);
+    if (submenu?.id !== id || submenu?.anchor !== anchor) {
+      optionTimer.current = setTimeout(() => openOptions(id, anchor), 90);
+    }
+  }
+  function leaveOptions(event) {
+    if (event.pointerType !== "mouse") return;
+    clearTimeout(optionTimer.current);
+    optionTimer.current = setTimeout(() => setSubmenu(null), 210);
+  }
+  j.useEffect(() => {
+    return () => clearTimeout(optionTimer.current);
+  }, []);
+  j.useEffect(() => {
+    clearTimeout(optionTimer.current);
+    setSubmenu(null);
+  }, [chat?.provider]);
+  j.useEffect(() => {
+    if (settingsOpen) closeMenu();
+  }, [settingsOpen]);
+  j.useLayoutEffect(() => {
+    if (!open) return;
+    const bar = toolbar.current;
+    const area = bar.closest(".sidebar");
+    const header = area.querySelector(".agent-panel-header");
+    const menu = panel.current;
+    function fit() {
+      const top = header ? header.getBoundingClientRect().bottom : area.getBoundingClientRect().top;
+      const space = bar.getBoundingClientRect().top - top - 13;
+      menu.style.setProperty("--agent-menu-height", Math.max(0, Math.floor(space)) + "px");
+    }
+    fit();
+    const observer = new ResizeObserver(fit);
+    observer.observe(area);
+    if (header) observer.observe(header);
+    return () => observer.disconnect();
+  }, [open]);
+  j.useEffect(() => {
+    if (!open) return;
+    function outside(event) {
+      if (event.type === "focusin" && event.target === document.body) return;
+      if (!toolbar.current?.contains(event.target)) closeMenu();
+    }
+    function escape(event) {
+      if (event.key !== "Escape" || event.isComposing || event.defaultPrevented) return;
+      event.preventDefault();
+      if (activeOption && submenu?.anchor) {
+        clearTimeout(optionTimer.current);
+        setSubmenu(null);
+        if (toolbar.current?.contains(event.target)) submenu.anchor.focus({ preventScroll: true });
+      } else {
+        closeMenu();
+        if (toolbar.current?.contains(event.target)) trigger.current?.focus({ preventScroll: true });
+      }
+    }
+    document.addEventListener("pointerdown", outside);
+    document.addEventListener("focusin", outside);
+    document.addEventListener("keydown", escape);
+    return () => {
+      document.removeEventListener("pointerdown", outside);
+      document.removeEventListener("focusin", outside);
+      document.removeEventListener("keydown", escape);
+    };
+  }, [open, activeOption?.id, submenu?.anchor]);
+  return /* @__PURE__ */ j.createElement("div", { className: "agent-toolbar" + (openConversation ? " agent-toolbar--workspace" : ""), ref: toolbar }, openConversation && /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      className: "agent-conversation",
+      type: "button",
+      "aria-label": labelText("打开 Agent 对话"),
+      title: labelText("打开 Agent 对话"),
+      onClick: openConversation
+    },
+    labelText("对话")
+  ), /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      ref: trigger,
+      className: "agent-picker",
+      type: "button",
+      "aria-expanded": open,
+      "aria-controls": open ? "agent-picker-options" : void 0,
+      "aria-label": switchLabel + label,
+      "data-pointer-activated": pointerActivated || void 0,
+      onPointerLeave: () => setPointerActivated(false),
+      title: issue || switchLabel + (provider && modelLabel ? provider.name + " · " + label : label),
+      onClick: toggleMenu
+    },
+    /* @__PURE__ */ j.createElement(AgentBrandIcon, { provider: currentProvider?.id, size: 14 }),
+    /* @__PURE__ */ j.createElement("span", { className: "agent-picker-label" }, /* @__PURE__ */ j.createElement("span", null, modelLabel || label), modelLabel && effortLabel && /* @__PURE__ */ j.createElement("span", { className: "agent-picker-effort" }, " · ", effortLabel))
+  ), !openConversation && /* @__PURE__ */ j.createElement(St, { icon: SettingsGear, label: labelText("Agent 设置"), onClick: () => openSettings() }), open && /* @__PURE__ */ j.createElement("div", { ref: panel, className: "agent-picker-menu", id: "agent-picker-options", role: "group", "aria-label": labelText("Agent 选项") }, /* @__PURE__ */ j.createElement("div", { className: "agent-picker-heading" }, /* @__PURE__ */ j.createElement("strong", null, "Agent"), /* @__PURE__ */ j.createElement(St, { icon: SettingsGear, className: "agent-picker-settings", label: labelText("管理连接"), onClick: () => openSettings() })), /* @__PURE__ */ j.createElement(
+    AgentChoices,
+    {
+      registry,
+      chat,
+      pending,
+      locked,
+      connect: chooseProvider,
+      manage: openSettings
+    }
+  ), openConversation && issue && /* @__PURE__ */ j.createElement("p", { className: "agent-menu-error", role: "alert" }, issue), !!options.length && /* @__PURE__ */ j.createElement("div", { className: "agent-option-triggers" }, options.map((option) => {
+    const label2 = agentOptionLabel(option);
+    const value = option.choices.find((choice) => choice.id === option.value)?.name || option.value;
+    const expanded = activeOption?.id === option.id;
+    return /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: option.id,
+        type: "button",
+        className: "agent-option-trigger",
+        "aria-expanded": expanded,
+        "aria-label": label2,
+        "aria-controls": expanded ? "agent-setting-choices" : void 0,
+        onPointerEnter: (event) => hoverOption(event, option.id),
+        onPointerLeave: leaveOptions,
+        onClick: (event) => openOptions(option.id, event.currentTarget, event.detail === 0),
+        onKeyDown: (event) => {
+          if (event.key !== "ArrowRight") return;
+          event.preventDefault();
+          openOptions(option.id, event.currentTarget, true);
+        }
+      },
+      /* @__PURE__ */ j.createElement("span", { title: label2 }, label2),
+      /* @__PURE__ */ j.createElement("span", { title: value }, value),
+      j.createElement(fu, { size: 12, "aria-hidden": true })
+    );
+  }))), open && activeOption && /* @__PURE__ */ j.createElement(
+    AgentOptionFlyout,
+    {
+      key: activeOption.id,
+      option: activeOption,
+      submenu,
+      panel,
+      disabled: locked || chat?.phase !== "ready",
+      onEnter: () => clearTimeout(optionTimer.current),
+      onLeave: leaveOptions,
+      close: () => {
+        clearTimeout(optionTimer.current);
+        setSubmenu(null);
+        submenu.anchor.focus({ preventScroll: true });
+      },
+      choose: (value) => {
+        if (value !== activeOption.value) request("agent_option", { id: activeOption.id, value });
+      }
+    }
+  ));
+}
+function AgentOptionFlyout({ option, submenu, panel, disabled, onEnter, onLeave, close, choose }) {
+  const flyout = j.useRef(null);
+  const { anchor, focus } = submenu;
+  j.useLayoutEffect(() => {
+    const node = flyout.current;
+    const menu = panel.current;
+    if (!node || !menu) return;
+    function place() {
+      const edge = 8;
+      const gap = 5;
+      const from = anchor.getBoundingClientRect();
+      const bounds = menu.getBoundingClientRect();
+      const width = node.offsetWidth;
+      const right = bounds.right + gap;
+      const fitsRight = right + width <= window.innerWidth - edge;
+      const left = fitsRight ? right : Math.max(edge, bounds.left - width - gap);
+      const top = Math.max(edge, Math.min(from.top, window.innerHeight - node.offsetHeight - edge));
+      node.style.left = left + "px";
+      node.style.top = top + "px";
+      node.dataset.side = fitsRight ? "right" : "left";
+      node.style.visibility = from.bottom > bounds.top && from.top < bounds.bottom ? "visible" : "hidden";
+    }
+    place();
+    if (focus) {
+      const first = node.querySelector('[aria-pressed="true"]:not(:disabled)') || node.querySelector("button:not(:disabled)");
+      first?.focus({ preventScroll: true });
+      first?.scrollIntoView({ block: "nearest" });
+    }
+    const observer = new ResizeObserver(place);
+    observer.observe(menu);
+    observer.observe(node);
+    window.addEventListener("resize", place);
+    menu.addEventListener("scroll", place);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", place);
+      menu.removeEventListener("scroll", place);
+    };
+  }, [anchor, focus, panel]);
+  return /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      ref: flyout,
+      className: "agent-option-flyout",
+      id: "agent-setting-choices",
+      role: "group",
+      "aria-label": agentOptionLabel(option) + labelText("选项"),
+      onPointerEnter: onEnter,
+      onPointerLeave: onLeave,
+      onKeyDown: (event) => {
+        if (!["ArrowLeft", "ArrowUp", "ArrowDown", "Home", "End"].includes(event.key)) return;
+        event.preventDefault();
+        if (event.key === "ArrowLeft") return close();
+        const choices = [...flyout.current.querySelectorAll("button:not(:disabled)")];
+        if (!choices.length) return;
+        const current = choices.indexOf(document.activeElement);
+        const offset = event.key === "ArrowUp" ? -1 : 1;
+        const next = event.key === "Home" ? 0 : event.key === "End" ? choices.length - 1 : (current + offset + choices.length) % choices.length;
+        choices[next].focus();
+      }
+    },
+    /* @__PURE__ */ j.createElement("div", { className: "agent-option-values" }, option.choices.map((choice) => /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: choice.id,
+        type: "button",
+        disabled,
+        "aria-pressed": choice.id === option.value,
+        title: choice.name,
+        onClick: (event) => {
+          choose(choice.id);
+          if (event.detail === 0 || event.nativeEvent.pointerType === "touch") close();
+        }
+      },
+      /* @__PURE__ */ j.createElement("span", null, choice.name),
+      choice.id === option.value && /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, "✓")
+    )))
+  );
+}
+function agentConnectionStatus(item) {
+  if (item.available && !item.enabled) return labelText("已检测到 · 未启用");
+  return item.detail;
+}
+function AgentChoices({ registry, chat, pending, locked, connect, manage }) {
+  const pinned = commonAgentIds().map((id) => registry.find((item) => item.id === id)).filter(Boolean);
+  const currentAgent = registry.find((item) => item.id === chat?.provider);
+  if (currentAgent && !pinned.includes(currentAgent)) pinned.push(currentAgent);
+  const choices = [...pinned, ...registry.filter((item) => !pinned.includes(item) && (item.detected ?? item.available))];
+  return /* @__PURE__ */ j.createElement("div", { className: "agent-choice-list", role: "group", "aria-label": labelText("本机 Agent 列表") }, choices.map((item) => {
+    const ready = item.available && item.enabled;
+    const current = item.id === chat?.provider;
+    const archived = current && chat.phase === "archived";
+    const retry = current && (archived || chat.phase === "error");
+    const connecting = current && chat.phase === "connecting";
+    const selected = ready && current && !retry && !connecting;
+    let status = agentConnectionStatus(item);
+    if (ready && current) {
+      if (archived) status = labelText("历史会话 · 待重连");
+      else if (retry) status = labelText("连接失败");
+      else status = connecting ? labelText("正在连接…") : labelText("已连接");
+    }
+    const action = ready ? retry ? labelText("重连") : labelText("选择") : labelText("配置");
+    const brief = !item.available ? item.detected ? labelText("待配置") : labelText("未找到") : !item.enabled ? labelText("未启用") : retry ? labelText("重连") : connecting ? labelText("连接中…") : "";
+    const description = labelText("{0} {1}，{2}", action, item.name, labelText(status));
+    return /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: item.id,
+        className: "agent-choice",
+        type: "button",
+        "aria-current": current || void 0,
+        "aria-label": description,
+        title: description,
+        "data-unavailable": !ready || void 0,
+        disabled: ready && locked,
+        onClick: () => {
+          if (!ready) manage(item.id);
+          else if (!current || retry) connect(item.id);
+        }
+      },
+      /* @__PURE__ */ j.createElement(AgentBrandIcon, { provider: item.id, size: 15 }),
+      /* @__PURE__ */ j.createElement("span", { className: "agent-choice-name" }, item.name),
+      selected ? /* @__PURE__ */ j.createElement("span", { className: "agent-choice-selected", "aria-hidden": "true" }, "✓") : brief && /* @__PURE__ */ j.createElement("span", { className: "agent-choice-status", "aria-hidden": "true" }, brief)
+    );
+  }), !choices.length && /* @__PURE__ */ j.createElement("p", { className: "agent-choice-empty" }, pending ? labelText("正在检测本机 Agent…") : labelText("可在设置中重新检测本机 Agent。")));
+}
+function AgentReply({ text }) {
+  const tokens = j.useMemo(() => {
+    try {
+      return agentMarkdown.lexer(text, { gfm: true, breaks: true });
+    } catch {
+      return null;
+    }
+  }, [text]);
+  return tokens ? /* @__PURE__ */ j.createElement(AgentMarkdownTokens, { tokens }) : /* @__PURE__ */ j.createElement("p", null, text);
+}
+function AgentMarkdownTokens({ tokens }) {
+  return tokens.map((token, key) => {
+    const content = token.tokens?.length ? /* @__PURE__ */ j.createElement(AgentMarkdownTokens, { tokens: token.tokens }) : token.text;
+    switch (token.type) {
+      case "space":
+      case "def":
+        return null;
+      case "paragraph":
+        return /* @__PURE__ */ j.createElement("p", { key }, content);
+      case "heading": {
+        const Heading = "h" + Math.min(6, token.depth + 2);
+        return /* @__PURE__ */ j.createElement(Heading, { key }, content);
+      }
+      case "strong":
+        return /* @__PURE__ */ j.createElement("strong", { key }, content);
+      case "em":
+        return /* @__PURE__ */ j.createElement("em", { key }, content);
+      case "del":
+        return /* @__PURE__ */ j.createElement("del", { key }, content);
+      case "codespan":
+        return /* @__PURE__ */ j.createElement("code", { key }, token.text);
+      case "code":
+        return /* @__PURE__ */ j.createElement("pre", { key, tabIndex: 0 }, /* @__PURE__ */ j.createElement("code", null, token.text));
+      case "blockquote":
+        return /* @__PURE__ */ j.createElement("blockquote", { key }, content);
+      case "br":
+        return /* @__PURE__ */ j.createElement("br", { key });
+      case "hr":
+        return /* @__PURE__ */ j.createElement("hr", { key });
+      case "list": {
+        const List = token.ordered ? "ol" : "ul";
+        return /* @__PURE__ */ j.createElement(List, { key, start: token.ordered ? token.start : void 0 }, token.items.map((item, index) => /* @__PURE__ */ j.createElement("li", { key: index }, /* @__PURE__ */ j.createElement(AgentMarkdownTokens, { tokens: item.tokens }))));
+      }
+      case "checkbox":
+        return /* @__PURE__ */ j.createElement("input", { key, type: "checkbox", checked: token.checked, disabled: true, readOnly: true });
+      case "table":
+        return /* @__PURE__ */ j.createElement(AgentReplyTable, { key, token });
+      case "link":
+        return /^https?:\/\/[^\s]/i.test(token.href) ? /* @__PURE__ */ j.createElement("a", { key, href: token.href, target: "_blank", rel: "noopener noreferrer" }, content) : /* @__PURE__ */ j.createElement(j.Fragment, { key }, content);
+      case "image":
+        return /* @__PURE__ */ j.createElement(j.Fragment, { key }, token.text);
+      default:
+        return /* @__PURE__ */ j.createElement(j.Fragment, { key }, content ?? token.raw);
+    }
+  });
+}
+function AgentReplyTable({ token }) {
+  const alignment = (index) => ({ textAlign: token.align[index] || "start" });
+  return /* @__PURE__ */ j.createElement("div", { className: "agent-reply-table", tabIndex: 0, role: "region", "aria-label": labelText("回复表格") }, /* @__PURE__ */ j.createElement("table", null, /* @__PURE__ */ j.createElement("thead", null, /* @__PURE__ */ j.createElement("tr", null, token.header.map((cell, index) => /* @__PURE__ */ j.createElement("th", { key: index, scope: "col", style: alignment(index) }, /* @__PURE__ */ j.createElement(AgentMarkdownTokens, { tokens: cell.tokens }))))), /* @__PURE__ */ j.createElement("tbody", null, token.rows.map((row, index) => /* @__PURE__ */ j.createElement("tr", { key: index }, row.map((cell, column) => /* @__PURE__ */ j.createElement("td", { key: column, style: alignment(column) }, /* @__PURE__ */ j.createElement(AgentMarkdownTokens, { tokens: cell.tokens }))))))));
+}
+function SettingsGeneral({ state, command, disabled, checkRuntime }) {
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("h3", null, labelText("通用")), /* @__PURE__ */ j.createElement(InterfaceSettings, { settings: state.settings, command }), /* @__PURE__ */ j.createElement("section", { className: "settings-card" }, /* @__PURE__ */ j.createElement("h4", null, labelText("文件和项目")), /* @__PURE__ */ j.createElement(Kd, { label: labelText("项目保存位置"), value: state.settings.output, disabled, choose: () => command("pick_output") }), /* @__PURE__ */ j.createElement(Kd, { label: labelText("成片保存位置"), value: state.settings.movie_output, disabled, choose: () => command("pick_movie_output") }), state.tools && /* @__PURE__ */ j.createElement(
+    Kd,
+    {
+      label: labelText("平台元数据 JSON"),
+      value: state.tools.inputs.meta,
+      disabled,
+      choose: () => command("tool_pick", { field: "meta" }),
+      clear: () => command("tool_clear_input", { field: "meta" })
+    }
+  )), state.tools && /* @__PURE__ */ j.createElement("section", { className: "settings-card" }, /* @__PURE__ */ j.createElement("div", { className: "settings-card-head" }, /* @__PURE__ */ j.createElement("h4", null, labelText("运行环境")), /* @__PURE__ */ j.createElement(D, { icon: Kl, disabled, onClick: checkRuntime }, labelText("检查本机运行环境")))));
+}
+function SettingsAnalysis({ state, command, disabled }) {
+  const [form, setForm] = j.useState({ base: state.settings.base, model: state.settings.model, key: "" });
+  const [saved, setSaved] = j.useState(false);
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("h3", null, labelText("AI 深度分析")), /* @__PURE__ */ j.createElement("form", { className: "settings-card", onSubmit: async (event) => {
+    event.preventDefault();
+    if (await command("settings", form) !== void 0) {
+      setForm({ ...form, key: "" });
+      setSaved(true);
+    }
+  } }, /* @__PURE__ */ j.createElement("h4", null, labelText("图像与视频分析服务")), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("开启 AI 深度分析后，画面和音轨素材会发送给这里配置的服务。")), [
+    ["base", labelText("服务地址"), "https://…/v1"],
+    ["model", labelText("模型名"), labelText("支持视频或图像的模型")],
+    ["key", labelText("本次会话密钥"), state.settings.has_key ? labelText("已填写") : "API Key"]
+  ].map(([key, label, placeholder]) => /* @__PURE__ */ j.createElement("label", { key, className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, label), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: key === "key" ? "password" : "text",
+      autoComplete: "off",
+      placeholder,
+      value: form[key],
+      onChange: (event) => {
+        setForm({ ...form, [key]: event.target.value });
+        setSaved(false);
+      }
+    }
+  ))), /* @__PURE__ */ j.createElement(
+    Kd,
+    {
+      label: labelText("服务配置文件"),
+      value: state.settings.env,
+      disabled,
+      choose: () => command("pick_env"),
+      clear: () => command("settings", { clear_env: true }),
+      placeholder: labelText("选择 .env 文件…")
+    }
+  ), /* @__PURE__ */ j.createElement("div", { className: "settings-card-actions" }, /* @__PURE__ */ j.createElement("span", { className: "settings-feedback", role: "status" }, saved ? labelText("已保存") : ""), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", disabled }, labelText("保存分析设置")))));
+}
+function AgentSettings({ initialAgent, onChange }) {
+  const [rows, setRows] = j.useState([]);
+  const [query, setQuery] = j.useState("");
+  const [expanded, setExpanded] = j.useState(initialAgent || "");
+  const [busy, setBusy] = j.useState(null);
+  const [feedback, setFeedback] = j.useState(null);
+  const expandedRow = j.useRef(null);
+  async function action(command, data, key) {
+    setBusy({ command, key });
+    setFeedback(null);
+    try {
+      const result = await Uo(command, data);
+      if (command === "agent_connect") {
+        setRows(await Uo("agent_registry"));
+        onChange();
+        if (result?.phase === "error") setFeedback({ key, text: result.error, error: true });
+      } else if (Array.isArray(result)) {
+        setRows(result);
+        if (command === "agent_install") setFeedback({ key, text: labelText("连接组件已安装") });
+        if (command !== "agent_registry") onChange();
+      } else if (result?.message) setFeedback({ key, text: result.message });
+    } catch (error) {
+      setFeedback({ key, text: error.message, error: true });
+    } finally {
+      setBusy(null);
+    }
+  }
+  j.useEffect(() => {
+    action("agent_registry", {}, "registry");
+  }, []);
+  const connecting = rows.some((row) => row.connection_phase === "connecting");
+  j.useEffect(() => {
+    if (!connecting || busy) return;
+    let stopped = false;
+    let timer;
+    async function checkConnection() {
+      try {
+        const result = await Uo("agent_registry");
+        if (!stopped) setRows(result);
+      } catch {
+      }
+      if (!stopped) timer = window.setTimeout(checkConnection, 600);
+    }
+    timer = window.setTimeout(checkConnection, 600);
+    return () => {
+      stopped = true;
+      window.clearTimeout(timer);
+    };
+  }, [connecting, busy]);
+  j.useEffect(() => {
+    expandedRow.current?.scrollIntoView({ block: "nearest" });
+  }, [expanded, rows.length]);
+  const filtered = rows.filter((row) => row.name.toLowerCase().includes(query.trim().toLowerCase()));
+  const commonIds = commonAgentIds();
+  const groups = [
+    [labelText("常用"), commonIds.map((id) => filtered.find((row) => row.id === id)).filter(Boolean)],
+    [labelText("其他 Agent"), filtered.filter((row) => !commonIds.includes(row.id))]
+  ];
+  const renderRow = (row) => {
+    const selected = expanded === row.id;
+    const run = (command, args) => action(command, { provider: row.id, ...args }, row.id);
+    const linked = row.available && ["ready", "running", "stopping", "configuring"].includes(row.connection_phase);
+    const opening = row.connection_phase === "connecting" || busy?.key === row.id && busy.command === "agent_connect";
+    const installing = busy?.key === row.id && busy.command === "agent_install";
+    const status = linked ? labelText("已连接") : opening ? labelText("正在连接…") : row.available && row.connection_phase === "error" ? labelText("连接失败") : agentConnectionStatus(row);
+    const notice = feedback?.key === row.id ? feedback : row.connection_error && { text: row.connection_error, error: true };
+    const connectLabel = linked ? labelText("已连接") : opening ? labelText("正在连接…") : labelText("连接");
+    const connect = () => row.available ? run("agent_connect", { enable: true, wait_ready: true }) : setExpanded(row.id);
+    const needsInstall = !row.detected || row.needs_connector;
+    const installConnector = () => {
+      if (row.detected && row.installable) return run("agent_install");
+      setExpanded(row.id);
+      return run("agent_docs", { runtime: row.detected && row.needs_connector });
+    };
+    return /* @__PURE__ */ j.createElement("div", { key: row.id, ref: selected ? expandedRow : null, className: "settings-agent-row" + (selected ? " expanded" : "") }, /* @__PURE__ */ j.createElement("div", { className: "settings-agent-line" }, /* @__PURE__ */ j.createElement("div", { className: "settings-agent-identity" }, /* @__PURE__ */ j.createElement("span", { className: "settings-agent-icon" }, /* @__PURE__ */ j.createElement(AgentBrandIcon, { provider: row.id, size: 18 })), /* @__PURE__ */ j.createElement("div", { className: "settings-agent-name" }, /* @__PURE__ */ j.createElement("strong", null, row.name), /* @__PURE__ */ j.createElement("span", { className: "settings-connection" }, labelText(status)))), /* @__PURE__ */ j.createElement("div", { className: "settings-agent-actions" }, needsInstall && /* @__PURE__ */ j.createElement(
+      D,
+      {
+        kind: "ghost",
+        busy: installing,
+        disabled: !!busy,
+        "aria-label": labelText("安装连接组件") + " · " + row.name,
+        onClick: installConnector
+      },
+      installing ? labelText("正在安装…") : labelText("安装连接组件")
+    ), /* @__PURE__ */ j.createElement(
+      D,
+      {
+        className: "settings-agent-connect",
+        "aria-label": labelText(connectLabel) + " " + row.name,
+        busy: opening,
+        disabled: !!busy || linked || opening,
+        onClick: connect
+      },
+      connectLabel
+    ), /* @__PURE__ */ j.createElement(
+      St,
+      {
+        icon: Fi,
+        label: labelText("连接设置") + " · " + row.name,
+        "aria-expanded": selected,
+        onClick: () => setExpanded(selected ? "" : row.id)
+      }
+    )), /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        type: "button",
+        className: "switch settings-switch",
+        role: "switch",
+        "aria-checked": row.enabled,
+        "data-state": row.enabled ? "checked" : "unchecked",
+        "aria-label": labelText("启用 ") + row.name,
+        disabled: !!busy,
+        onClick: () => run("agent_enable", { enabled: !row.enabled })
+      },
+      /* @__PURE__ */ j.createElement("span", { className: "switch-thumb", "data-state": row.enabled ? "checked" : "unchecked" })
+    )), selected && /* @__PURE__ */ j.createElement("div", { className: "settings-agent-body" }, /* @__PURE__ */ j.createElement("div", { className: "agent-capability-summary" }, /* @__PURE__ */ j.createElement("strong", null, row.workbench_tools === "ready" ? labelText("已连工作台工具") : labelText("连接后检测工作台工具")), row.workbench_tools === "ready" && /* @__PURE__ */ j.createElement("span", null, labelText("读分镜、改项目、导出成片")), /* @__PURE__ */ j.createElement("span", null, labelText("参考帧识别取决于模型")), /* @__PURE__ */ j.createElement("span", null, row.generation_configured ? labelText("可调用已配置的 ComfyUI") : labelText("可在视频生成设置接入 ComfyUI"))), row.id === "workbuddy" && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("选择 WorkBuddy 企业版提供的 CodeBuddy Code 命令行，以 ACP 模式连接。")), !row.detected && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("安装本机程序后，点「重新检测」再连接。")), row.detected && row.needs_connector && !row.installable && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("安装包含 npm 的 Node.js 后，再点「安装连接组件」。")), /* @__PURE__ */ j.createElement(
+      Kd,
+      {
+        label: labelText("本机程序"),
+        value: row.program,
+        placeholder: labelText("选择已安装的命令或启动程序…"),
+        disabled: !!busy,
+        choose: () => run("agent_pick_program"),
+        clear: row.manual ? () => run("agent_reset_program") : void 0
+      }
+    ), row.adapter && /* @__PURE__ */ j.createElement(
+      Kd,
+      {
+        label: labelText("连接组件"),
+        value: row.connector,
+        placeholder: labelText("选择 ") + row.adapter + labelText(" 入口…"),
+        disabled: !!busy,
+        choose: () => run("agent_pick_program", { adapter: true }),
+        clear: row.custom_connector ? () => run("agent_reset_program", { adapter: true }) : void 0
+      }
+    ), /* @__PURE__ */ j.createElement("div", { className: "settings-card-actions" }, /* @__PURE__ */ j.createElement("span", { className: "settings-feedback" + (notice?.error ? " error" : ""), role: "status" }, busy?.key === row.id ? labelText("正在处理…") : notice?.text), row.detected && /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: !!busy, onClick: () => run("agent_docs", { adapter: row.needs_connector }) }, labelText("安装说明")), row.available && /* @__PURE__ */ j.createElement(D, { disabled: !!busy, onClick: () => run("agent_test") }, labelText("测试连接")))), !selected && notice && /* @__PURE__ */ j.createElement("p", { className: "settings-agent-feedback" + (notice.error ? " error" : ""), role: "status" }, notice.text));
+  };
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("h3", null, "Agent"), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("检测到的本机 Agent 会出现在左下角菜单。启用后即可选择，登录沿用各 Agent 的账号。")), /* @__PURE__ */ j.createElement("div", { className: "settings-search" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("input", { "aria-label": labelText("搜索 Agent"), placeholder: labelText("搜索 Agent"), value: query, onChange: (event) => setQuery(event.target.value) })), /* @__PURE__ */ j.createElement(D, { disabled: !!busy, onClick: () => action("agent_registry", {}, "registry") }, labelText("重新检测"))), feedback?.key === "registry" && /* @__PURE__ */ j.createElement("p", { className: "settings-feedback error", role: "alert" }, feedback.text), groups.map(([label, group]) => group.length > 0 && /* @__PURE__ */ j.createElement("section", { key: label, className: "settings-agent-group" }, /* @__PURE__ */ j.createElement("h4", null, label), /* @__PURE__ */ j.createElement("div", null, group.map(renderRow)))), !filtered.length && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, busy ? labelText("正在检测本机 Agent…") : labelText("没有匹配的 Agent。")));
+}
+function GenerationSettings({ state, command, disabled }) {
+  const [comfy, setComfy] = j.useState({ url: "http://127.0.0.1:8188", path: "", prompt: "", image: "", ...state.settings.comfy });
+  const [inputs, setInputs] = j.useState(null);
+  const [engine, setEngine] = j.useState(state.settings.engine);
+  const [busy, setBusy] = j.useState("");
+  const [feedback, setFeedback] = j.useState(null);
+  j.useEffect(() => {
+    if (comfy.path) Uo("video_gen_workflow").then(setInputs).catch((error) => setFeedback({ scope: "comfy", text: error.message, error: true }));
+  }, []);
+  async function run(scope, action, handler) {
+    setBusy(scope);
+    setFeedback(null);
+    try {
+      const result = await action();
+      if (handler) handler(result);
+      else if (result?.message) setFeedback({ scope, text: result.message + (result.version ? " · " + result.version : "") });
+    } catch (error) {
+      setFeedback({ scope, text: error.message, error: true });
+    } finally {
+      setBusy("");
+    }
+  }
+  const chooseWorkflow = () => run("comfy", () => Uo("video_gen_pick_workflow"), (result) => {
+    if (result) {
+      setInputs(result);
+      setComfy({ ...comfy, path: result.path, prompt: result.prompt, image: "" });
+    }
+  });
+  const status = (scope) => /* @__PURE__ */ j.createElement("span", { role: "status", className: "settings-feedback" + (feedback?.scope === scope && feedback.error ? " error" : "") }, busy === scope ? labelText("正在处理…") : feedback?.scope === scope ? feedback.text : "");
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("h3", null, labelText("视频生成")), /* @__PURE__ */ j.createElement("form", { className: "settings-card", onSubmit: (event) => {
+    event.preventDefault();
+    run("comfy", () => command("video_gen_save", comfy), (saved) => {
+      if (saved) {
+        setComfy(saved);
+        setFeedback({ scope: "comfy", text: labelText("ComfyUI 设置已保存") });
+      }
+    });
+  } }, /* @__PURE__ */ j.createElement("div", { className: "settings-card-head" }, /* @__PURE__ */ j.createElement("h4", null, "ComfyUI"), /* @__PURE__ */ j.createElement("span", { className: "settings-connection" }, state.settings.comfy?.path ? labelText("已配置工作流") : labelText("连接本机或局域网"))), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("服务地址")), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      inputMode: "url",
+      value: comfy.url,
+      placeholder: "http://127.0.0.1:8188",
+      onChange: (event) => setComfy({ ...comfy, url: event.target.value })
+    }
+  )), /* @__PURE__ */ j.createElement(
+    Kd,
+    {
+      label: labelText("API 工作流 JSON"),
+      value: comfy.path,
+      placeholder: labelText("选择有视频输出的工作流…"),
+      disabled: !!busy || disabled,
+      choose: chooseWorkflow,
+      clear: () => {
+        setInputs(null);
+        setComfy({ ...comfy, path: "", prompt: "", image: "" });
+      }
+    }
+  ), !comfy.path && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("在 ComfyUI 里用「导出（API）」保存视频工作流，再在此选择。")), inputs && comfy.path && /* @__PURE__ */ j.createElement("div", { className: "settings-fields-grid" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("正向提示词输入")), /* @__PURE__ */ j.createElement(
+    "select",
+    {
+      value: comfy.prompt,
+      onChange: (event) => setComfy({ ...comfy, prompt: event.target.value })
+    },
+    /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("选择提示词节点")),
+    inputs.prompts.map((field) => /* @__PURE__ */ j.createElement("option", { key: field.id, title: field.preview, value: field.id }, field.label, field.preview ? " · " + field.preview.slice(0, 24) : ""))
+  )), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("参考帧输入")), /* @__PURE__ */ j.createElement(
+    "select",
+    {
+      value: comfy.image,
+      onChange: (event) => setComfy({ ...comfy, image: event.target.value })
+    },
+    /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("不发送参考帧")),
+    inputs.images.map((field) => /* @__PURE__ */ j.createElement("option", { key: field.id, value: field.id }, field.label))
+  ))), /* @__PURE__ */ j.createElement("div", { className: "settings-card-actions" }, status("comfy"), /* @__PURE__ */ j.createElement(D, { disabled: !!busy || !comfy.url.trim(), onClick: () => run("comfy", () => Uo("video_gen_test", { url: comfy.url })) }, labelText("测试连接")), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", disabled: !!busy || disabled || !comfy.url.trim() || comfy.path && !comfy.prompt }, labelText("保存 ComfyUI 设置")))), /* @__PURE__ */ j.createElement("section", { className: "settings-card" }, /* @__PURE__ */ j.createElement("h4", null, labelText("批量生成后端")), /* @__PURE__ */ j.createElement(
+    Kd,
+    {
+      label: labelText("后端目录"),
+      value: state.settings.capsule_root,
+      disabled,
+      placeholder: labelText("选择已安装的 capsule-cinema 目录…"),
+      choose: () => command("tool_pick", { field: "capsule_root" }),
+      clear: () => command("tool_clear_input", { field: "capsule_root" })
+    }
+  ), /* @__PURE__ */ j.createElement(
+    Kd,
+    {
+      label: labelText("后端 Python"),
+      value: state.settings.capsule_python,
+      disabled,
+      placeholder: labelText("使用后端目录的默认 Python"),
+      choose: () => command("tool_pick", { field: "capsule_python" }),
+      clear: () => command("tool_clear_input", { field: "capsule_python" })
+    }
+  ), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("默认生成引擎")), /* @__PURE__ */ j.createElement("input", { value: engine, placeholder: "seedance2.0", onChange: (event) => setEngine(event.target.value) })), /* @__PURE__ */ j.createElement("div", { className: "settings-card-actions" }, status("capsule"), /* @__PURE__ */ j.createElement(D, { disabled: !!busy || !state.settings.capsule_root, onClick: () => run("capsule", () => Uo("video_gen_capsule_test")) }, labelText("检测后端")), /* @__PURE__ */ j.createElement(D, { disabled: disabled || !engine.trim() || engine === state.settings.engine, onClick: () => command("settings", { engine }) }, labelText("保存引擎")))));
+}
+function ComfyGenerationAction({ settings, command, shot, text, disabled, openSettings, save }) {
+  const configured = Boolean(settings?.comfy?.path && settings?.comfy?.prompt);
+  return /* @__PURE__ */ j.createElement("section", { className: "inspector-block comfy-action" }, /* @__PURE__ */ j.createElement("div", { className: "section-head" }, /* @__PURE__ */ j.createElement("h3", null, labelText("ComfyUI 生成")), /* @__PURE__ */ j.createElement(St, { icon: Fi, label: labelText("视频生成设置"), onClick: () => openSettings("generation") })), configured ? /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("将当前提示词"), settings.comfy.image ? labelText("和首帧") : "", labelText("发送到已配置的工作流。")), /* @__PURE__ */ j.createElement(D, { className: "wide", icon: Ma, disabled: disabled || !text.trim(), onClick: async () => {
+    if (await save()) await command("video_gen_comfy", { shot: shot.id, text });
+  } }, labelText("生成并替换当前镜头"))) : /* @__PURE__ */ j.createElement(D, { className: "wide", icon: Fi, onClick: () => openSettings("generation") }, labelText("配置视频生成")));
+}
+function clipEditTarget(project, shot) {
+  return {
+    project: project.id,
+    shot: shot.source_id || shot.id,
+    clip: shot.source_id || shot.lane || shot.type === "media" ? shot.id : void 0
+  };
+}
+function useClipProperties(project, disabled, command, reveal) {
+  const queued = j.useRef(/* @__PURE__ */ new Map());
+  const running = j.useRef(null);
+  const resetting = j.useRef(null);
+  const timer = j.useRef(null);
+  const [, redraw] = j.useReducer((revision) => revision + 1, 0);
+  const [status, setStatus] = j.useState("idle");
+  j.useEffect(() => () => clearTimeout(timer.current), []);
+  j.useEffect(() => {
+    setStatus("idle");
+  }, [project?.id]);
+  function read(shot) {
+    if (!shot || !project) return null;
+    const waiting = queued.current.get(shot.id);
+    return waiting?.target.project === project.id ? waiting.value : shot.properties || project.canvas.defaults;
+  }
+  function flush() {
+    clearTimeout(timer.current);
+    if (resetting.current) return resetting.current;
+    if (running.current) return running.current;
+    if (!queued.current.size) return Promise.resolve(true);
+    setStatus("saving");
+    running.current = (async () => {
+      try {
+        while (queued.current.size) {
+          const [id, entry] = queued.current.entries().next().value;
+          const saved = await command("save_clip_properties", {
+            ...entry.target,
+            properties: entry.value
+          });
+          if (!saved) {
+            setStatus("error");
+            return false;
+          }
+          if (queued.current.get(id) === entry) queued.current.delete(id);
+          redraw();
+        }
+        setStatus("saved");
+        return true;
+      } finally {
+        running.current = null;
+      }
+    })();
+    return running.current;
+  }
+  function update(shot, patch) {
+    if (!shot || !project || disabled || resetting.current) return;
+    const current = read(shot);
+    const next = { ...current, ...patch };
+    if (Object.entries(patch).every(([key, value]) => value === current[key])) return;
+    queued.current.set(shot.id, { target: clipEditTarget(project, shot), value: next });
+    redraw();
+    if (!running.current) setStatus("draft");
+    reveal(shot);
+    clearTimeout(timer.current);
+    timer.current = setTimeout(flush, 320);
+  }
+  function reset(shot) {
+    if (!shot || !project || disabled || resetting.current) return;
+    const saving = flush();
+    resetting.current = (async () => {
+      try {
+        if (!await saving) return false;
+        setStatus("saving");
+        const saved = await command("reset_clip_properties", clipEditTarget(project, shot));
+        setStatus(saved ? "saved" : "idle");
+        if (saved) reveal(shot);
+        return Boolean(saved);
+      } finally {
+        resetting.current = null;
+      }
+    })();
+  }
+  return { read, update, flush, reset, status };
+}
+function PropertyTabs({ label, tabs, value, setValue, children, className = "" }) {
+  return /* @__PURE__ */ j.createElement(Dm, { className: "property-tabs " + className, value, onValueChange: setValue }, /* @__PURE__ */ j.createElement(Om, { className: "property-tabbar", "aria-label": label }, tabs.map(([id, name]) => /* @__PURE__ */ j.createElement(Pm, { className: "property-tab", key: id, value: id }, name))), /* @__PURE__ */ j.createElement(Xi, { className: "property-tab-content", value, key: value }, children));
+}
+function PropertySection({ title, children, expanded = true }) {
+  return /* @__PURE__ */ j.createElement("details", { className: "property-section", open: expanded }, /* @__PURE__ */ j.createElement("summary", null, /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }), title), /* @__PURE__ */ j.createElement("div", { className: "property-section-content" }, children));
+}
+function PropertyNumber({ label, mark, suffix, value, min, max, step = 1, disabled, onValue }) {
+  const [typed, setTyped] = j.useState(null);
+  function finish() {
+    if (typed !== null && typed !== "" && Number.isFinite(Number(typed))) {
+      onValue(Math.min(max, Math.max(min, Number(typed))));
+    }
+    setTyped(null);
+  }
+  return /* @__PURE__ */ j.createElement("label", { className: "property-number" }, /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, mark), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      "aria-label": label,
+      type: "number",
+      inputMode: "decimal",
+      min,
+      max,
+      step,
+      value: typed ?? value,
+      disabled,
+      onBlur: finish,
+      onKeyDown: (event) => {
+        if (event.key === "Enter") event.currentTarget.blur();
+      },
+      onChange: (event) => {
+        const changed = event.target.value;
+        const number = Number(changed);
+        setTyped(changed);
+        if (changed !== "" && number >= min && number <= max) onValue(number);
+      }
+    }
+  ), /* @__PURE__ */ j.createElement("span", { className: "property-unit", "aria-hidden": "true" }, suffix));
+}
+function ClipInspector({ shot, state, clipEditor, disabled, ...props }) {
+  const [tab, setTab] = j.useState("geometry");
+  const [locked, setLocked] = j.useState(true);
+  const canvas = state.project?.canvas;
+  if (!shot || !canvas) return /* @__PURE__ */ j.createElement("div", { className: "task-panel-body" }, state.project ? /* @__PURE__ */ j.createElement(FT, { icon: $t, text: labelText("视频轨道为空"), hint: labelText("撤销删除可恢复片段。") }) : /* @__PURE__ */ j.createElement(FT, { icon: $t, text: labelText("等待导入视频"), hint: labelText("导入视频后，点击时间线上的片段开始编辑。") }));
+  const style = clipEditor.read(shot);
+  const change = (patch) => clipEditor.update(shot, patch);
+  const tabs = [["geometry", labelText("属性")], ["animation", labelText("动画")], ["color", labelText("调节")], ["effects", labelText("效果")], ["media", labelText("高级")]];
+  const round = (value, precision = 0) => {
+    const scale = 10 ** precision;
+    return Math.round(value * scale) / scale;
+  };
+  function dimension(key, value) {
+    const next = Math.round(value);
+    if (!locked) return change({ [key]: next });
+    const partner = key === "width" ? "height" : "width";
+    const [lo, hi] = canvas.limits[partner];
+    const scale = Math.max(lo / style[partner], Math.min(hi / style[partner], next / style[key]));
+    change({ [key]: Math.round(style[key] * scale), [partner]: Math.round(style[partner] * scale) });
+  }
+  function field(key, label, mark, suffix, onValue, step = 1) {
+    const [min, max] = canvas.limits[key];
+    return /* @__PURE__ */ j.createElement(
+      PropertyNumber,
+      {
+        label,
+        mark,
+        suffix,
+        value: style[key],
+        min,
+        max,
+        step,
+        disabled,
+        onValue: onValue || ((value) => change({ [key]: round(value, step < 1 ? 1 : 0) }))
+      }
+    );
+  }
+  const cut = style.crop;
+  const edges = [
+    ["left", labelText("裁剪左侧"), labelText("左"), "right"],
+    ["right", labelText("裁剪右侧"), labelText("右"), "left"],
+    ["top", labelText("裁剪顶部"), labelText("上"), "bottom"],
+    ["bottom", labelText("裁剪底部"), labelText("下"), "top"]
+  ];
+  function cropRatio(ratio) {
+    const current = style.width / style.height;
+    const horizontal = ratio && ratio < current ? round(Math.min(47.5, 50 * (1 - ratio / current)), 2) : 0;
+    const vertical = ratio && ratio > current ? round(Math.min(47.5, 50 * (1 - current / ratio)), 2) : 0;
+    return { left: horizontal, right: horizontal, top: vertical, bottom: vertical };
+  }
+  function align(key, where) {
+    const bounds = clipVisibleBounds(style);
+    const [low, high, length] = key === "x" ? [bounds.left, bounds.right, canvas.width] : [bounds.top, bounds.bottom, canvas.height];
+    const target = where === "start" ? -length / 2 - low : where === "end" ? length / 2 - high : -(low + high) / 2;
+    const [min, max] = canvas.limits[key];
+    change({ [key]: Math.round(Math.min(max, Math.max(min, target))) });
+  }
+  function slider(key, label, baseline = 0, unit = "%") {
+    const [min, max] = canvas.limits[key];
+    return /* @__PURE__ */ j.createElement(
+      ClipSlider,
+      {
+        key,
+        label,
+        unit,
+        value: style[key] - baseline,
+        min: min - baseline,
+        max: max - baseline,
+        disabled,
+        onValue: (value) => change({ [key]: Math.round(value + baseline) })
+      }
+    );
+  }
+  const status = clipEditor.status;
+  const message = status === "saving" ? labelText("正在保存…") : status === "draft" ? labelText("待保存") : status === "saved" ? labelText("已保存") : "";
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "property-header" }, /* @__PURE__ */ j.createElement("span", { className: "property-object-icon" }, /* @__PURE__ */ j.createElement($t, { size: 17, "aria-hidden": "true" })), /* @__PURE__ */ j.createElement("div", { className: "property-heading" }, /* @__PURE__ */ j.createElement("h2", null, labelText("镜头 {0}", String(shot.number || shot.id).padStart(2, "0"))), /* @__PURE__ */ j.createElement("div", { title: shot.replacement_name || labelText(shot.label) }, shot.replacement_name ? labelText("替换素材") : labelText("原片"), /* @__PURE__ */ j.createElement("span", null, " · "), shot.duration.toFixed(2), labelText(" 秒"))), /* @__PURE__ */ j.createElement("div", { className: "property-header-actions" }, message && /* @__PURE__ */ j.createElement("span", { className: "property-save-label", role: "status" }, message), /* @__PURE__ */ j.createElement(
+    St,
+    {
+      icon: qi,
+      label: labelText("重置镜头属性"),
+      disabled: disabled || JSON.stringify(style) === JSON.stringify(canvas.defaults),
+      onClick: () => clipEditor.reset(shot)
+    }
+  ))), /* @__PURE__ */ j.createElement(PropertyTabs, { label: labelText("镜头属性类别"), tabs, value: tab, setValue: setTab }, tab === "geometry" && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("位置与大小") }, /* @__PURE__ */ j.createElement("div", { className: "property-align" }, [["x", [labelText("左对齐"), labelText("水平居中"), labelText("右对齐")]], ["y", [labelText("顶对齐"), labelText("垂直居中"), labelText("底对齐")]]].map(([axis, names]) => /* @__PURE__ */ j.createElement("div", { key: axis, className: "property-align-group", role: "group", "aria-label": axis === "x" ? labelText("水平对齐") : labelText("垂直对齐") }, ["start", "center", "end"].map((where, index) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      key: where,
+      type: "button",
+      "aria-label": names[index],
+      title: names[index],
+      disabled,
+      onClick: () => align(axis, where)
+    },
+    /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true", className: "property-align-icon axis-" + axis + " align-" + where }, /* @__PURE__ */ j.createElement("i", null), /* @__PURE__ */ j.createElement("b", null))
+  ))))), /* @__PURE__ */ j.createElement("div", { className: "property-two" }, field("x", labelText("水平位置 X"), "X", "px"), field("y", labelText("垂直位置 Y"), "Y", "px")), /* @__PURE__ */ j.createElement("div", { className: "property-dimensions" }, field("width", labelText("镜头宽度 W"), "W", "px", (value) => dimension("width", value)), /* @__PURE__ */ j.createElement("div", { className: "property-height-control" }, field("height", labelText("镜头高度 H"), "H", "px", (value) => dimension("height", value)), /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "property-lock",
+      "aria-label": labelText("锁定宽高比"),
+      title: labelText("锁定宽高比"),
+      "aria-pressed": locked,
+      onClick: () => setLocked(!locked)
+    },
+    labelText("等比")
+  ))), /* @__PURE__ */ j.createElement("div", { className: "property-two" }, field("rotation", labelText("旋转角度"), labelText("旋转"), "°", null, 0.1), /* @__PURE__ */ j.createElement("div", { className: "property-align-group property-rotate", role: "group", "aria-label": labelText("快速旋转") }, [[-90, labelText("向左转 90 度")], [90, labelText("向右转 90 度")]].map(([step, label]) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      key: step,
+      title: label,
+      "aria-label": label,
+      type: "button",
+      disabled,
+      onClick: () => change({ rotation: round((style.rotation + step + 540) % 360 - 180, 1) })
+    },
+    step < 0 ? "↶" : "↷",
+    " 90°"
+  ))))), /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("裁剪与填充") }, /* @__PURE__ */ j.createElement("div", { className: "property-two" }, edges.map(([key, label, mark, opposite]) => /* @__PURE__ */ j.createElement(
+    PropertyNumber,
+    {
+      key,
+      label,
+      mark,
+      suffix: "%",
+      value: cut[key],
+      min: 0,
+      max: Math.max(0, round(95 - cut[opposite], 2)),
+      step: 0.1,
+      disabled,
+      onValue: (value) => change({ crop: { ...cut, [key]: round(value, 2) } })
+    }
+  ))), /* @__PURE__ */ j.createElement("div", { className: "property-segments", role: "group", "aria-label": labelText("裁剪比例") }, [[0, labelText("完整")], [16 / 9, "16:9"], [9 / 16, "9:16"], [1, "1:1"], [4 / 3, "4:3"]].map(([ratio, label]) => {
+    const preset = cropRatio(ratio);
+    const equal = Object.keys(preset).every((edge) => preset[edge] === cut[edge]);
+    return /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: label,
+        type: "button",
+        disabled,
+        "aria-label": ratio ? labelText("裁剪为 ") + label : labelText("恢复完整画面"),
+        "aria-pressed": equal && (!ratio || Object.values(preset).some(Boolean)),
+        onClick: () => change({ crop: preset })
+      },
+      label
+    );
+  })), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      label: labelText("素材填充方式"),
+      values: [["cover", labelText("铺满外框")], ["contain", labelText("完整适应")]],
+      value: style.fit,
+      disabled,
+      onChange: (fit) => change({ fit })
+    }
+  ))), tab === "animation" && /* @__PURE__ */ j.createElement(
+    MotionPicker,
+    {
+      style,
+      duration: shot.duration,
+      library: state.motion,
+      poster: shot.replacement_thumb || shot.thumb,
+      title: labelText("镜头 {0}", String(shot.number || shot.id).padStart(2, "0")),
+      disabled,
+      update: change,
+      preview: state.source?.url && ((start, end) => props.playRange(shot.start + start, shot.start + end))
+    }
+  ), tab === "color" && /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("调色") }, slider("brightness", labelText("亮度"), 100), slider("contrast", labelText("对比度"), 100), slider("saturation", labelText("饱和度"), 100), slider("hue", labelText("色相"), 0, "°"), slider("grayscale", labelText("黑白")), slider("opacity", labelText("不透明度"))), tab === "effects" && /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("画面效果") }, slider("soft_focus", labelText("柔焦")), /* @__PURE__ */ j.createElement("div", { className: "clip-effect-flips" }, /* @__PURE__ */ j.createElement(D, { disabled, "aria-pressed": style.flip_x, onClick: () => change({ flip_x: !style.flip_x }) }, labelText("水平翻转")), /* @__PURE__ */ j.createElement(D, { disabled, "aria-pressed": style.flip_y, onClick: () => change({ flip_y: !style.flip_y }) }, labelText("垂直翻转")))), tab === "media" && /* @__PURE__ */ j.createElement(ClipMaterialPanel, { ...props, shot, state, disabled })), status === "error" && /* @__PURE__ */ j.createElement("div", { className: "property-save-state", role: "alert" }, /* @__PURE__ */ j.createElement("span", null, labelText("属性保存失败")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", onClick: clipEditor.flush }, labelText("重试保存"))));
+}
+function ClipSlider({ label, unit, value, min, max, disabled, onValue }) {
+  return /* @__PURE__ */ j.createElement("div", { className: "property-slider-row" }, /* @__PURE__ */ j.createElement("span", null, label), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "range",
+      "aria-label": label + labelText("滑块"),
+      value,
+      min,
+      max,
+      disabled,
+      onChange: (event) => onValue(Number(event.target.value))
+    }
+  ), /* @__PURE__ */ j.createElement(PropertyNumber, { label, suffix: unit, value, min, max, disabled, onValue }));
+}
+function ClipMaterialPanel({ shot, state, disabled, command, playback, openAdvanced }) {
+  const name = shot.replacement_name || shot.name || state.source?.name;
+  const target = clipEditTarget(state.project, shot);
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("素材") }, /* @__PURE__ */ j.createElement("div", { className: "clip-asset-name", title: name }, /* @__PURE__ */ j.createElement($t, { size: 15, "aria-hidden": "true" }), /* @__PURE__ */ j.createElement("span", null, name)), shot.replacement_name && !shot.replacement && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("素材已移动，请重新选择文件。")), /* @__PURE__ */ j.createElement("div", { className: "button-row clip-material-actions" }, /* @__PURE__ */ j.createElement(D, { icon: mu, disabled, onClick: () => command("replace", target) }, labelText("选择替换视频")), shot.replacement && /* @__PURE__ */ j.createElement(D, { icon: mo, onClick: () => playback({
+    url: shot.replacement,
+    label: labelText("镜头 {0} · 素材预览", shot.number || shot.id),
+    override: true
+  }) }, labelText("预览素材")), shot.replacement_name && /* @__PURE__ */ j.createElement(
+    St,
+    {
+      icon: Wa,
+      label: labelText("移除替换素材"),
+      disabled,
+      onClick: () => command("clear_replacement", target)
+    }
+  ))), /* @__PURE__ */ j.createElement(PropertySection, { title: labelText("高级"), expanded: false }, /* @__PURE__ */ j.createElement("dl", { className: "clip-video-details" }, /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("dt", null, labelText("时间范围")), /* @__PURE__ */ j.createElement("dd", null, kt(shot.start, true), " – ", kt(shot.end, true))), /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("dt", null, labelText("镜头类型")), /* @__PURE__ */ j.createElement("dd", null, labelText(shot.label)))), shot.description && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, shot.description), /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: po, onClick: () => openAdvanced("timeline") }, labelText("批量匹配与生成结果")), state.project.exports.length > 0 && /* @__PURE__ */ j.createElement("div", { className: "button-row" }, state.project.exports.map((movie) => /* @__PURE__ */ j.createElement(
+    D,
+    {
+      key: movie.label,
+      icon: mo,
+      onClick: () => movie.external ? command("version_open_export", { project: state.project.id, id: movie.id }) : playback({ ...movie, override: true })
+    },
+    movie.label
+  )))));
+}
+function clipVisibleBounds(style) {
+  const { width, height, crop, rotation } = style;
+  const left = width * (crop.left / 100 - 0.5);
+  const right = width * (0.5 - crop.right / 100);
+  const top = height * (crop.top / 100 - 0.5);
+  const bottom = height * (0.5 - crop.bottom / 100);
+  const angle = rotation * Math.PI / 180;
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle);
+  const points = [[left, top], [right, top], [right, bottom], [left, bottom]].map(([x, y3]) => [x * cos - y3 * sin, x * sin + y3 * cos]);
+  const xs2 = points.map((point) => point[0]), ys = points.map((point) => point[1]);
+  return { left: Math.min(...xs2), right: Math.max(...xs2), top: Math.min(...ys), bottom: Math.max(...ys) };
+}
+function ShotThumbnail({ shot }) {
+  const [failed, setFailed] = j.useState(null);
+  const url = shot.replacement_name ? shot.replacement_thumb : shot.thumb;
+  return url && failed !== url && /* @__PURE__ */ j.createElement("img", { src: url, alt: "", draggable: false, loading: "lazy", onError: () => setFailed(url) });
+}
+function PreviewViewToggle({ active, setActive }) {
+  return /* @__PURE__ */ j.createElement("div", { className: "preview-view-toggle", role: "group", "aria-label": labelText("预览模式") }, /* @__PURE__ */ j.createElement("button", { type: "button", "aria-pressed": !active, onClick: () => setActive(false), title: labelText("查看原片画面") }, labelText("原片")), /* @__PURE__ */ j.createElement("button", { type: "button", "aria-pressed": active, onClick: () => setActive(true), title: labelText("查看剪辑后的画面") }, labelText("剪辑")));
+}
+function PreviewHeaderAction({ icon, label, ...props }) {
+  return /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon, className: "viewer-compact-action", "aria-label": label, title: label, ...props }, /* @__PURE__ */ j.createElement("span", null, label));
+}
+function TimelineResizeGrip() {
+  const node = j.useRef(null);
+  const drag = j.useRef(null);
+  const [metrics, setMetrics] = j.useState({ height: 160, max: 300 });
+  function region() {
+    const timeline = node.current?.closest(".timeline");
+    const shell = timeline?.closest(".shell");
+    return { timeline, shell };
+  }
+  function measure() {
+    const { timeline, shell } = region();
+    if (!timeline || !shell) return;
+    const height = Math.round(timeline.getBoundingClientRect().height);
+    const max = Math.max(104, Math.floor(Math.min(window.innerHeight * 0.46, shell.clientHeight - 204)));
+    setMetrics((old) => old.height === height && old.max === max ? old : { height, max });
+  }
+  j.useLayoutEffect(() => {
+    const { timeline, shell } = region();
+    if (!timeline || !shell) return;
+    const observer = new ResizeObserver(measure);
+    observer.observe(timeline);
+    observer.observe(shell);
+    measure();
+    return () => {
+      observer.disconnect();
+      shell.classList.remove("resizing-timeline");
+    };
+  }, []);
+  function resize(height) {
+    const { shell } = region();
+    if (!shell) return;
+    const value = Math.round(Math.max(104, Math.min(metrics.max, height)));
+    shell.style.setProperty("--editor-timeline-height", value + "px");
+  }
+  function reset() {
+    region().shell?.style.removeProperty("--editor-timeline-height");
+  }
+  function start(event) {
+    if (event.button !== 0) return;
+    event.preventDefault();
+    event.currentTarget.setPointerCapture(event.pointerId);
+    drag.current = { id: event.pointerId, y: event.clientY, height: metrics.height };
+    region().shell?.classList.add("resizing-timeline");
+  }
+  function move(event) {
+    const owner = drag.current;
+    if (owner?.id === event.pointerId) resize(owner.height + owner.y - event.clientY);
+  }
+  function end(event) {
+    if (drag.current?.id !== event.pointerId) return;
+    drag.current = null;
+    region().shell?.classList.remove("resizing-timeline");
+  }
+  function key(event) {
+    const heights = { ArrowUp: metrics.height + 20, ArrowDown: metrics.height - 20, Home: 104, End: metrics.max };
+    if (event.key === "Enter") reset();
+    else if (Object.hasOwn(heights, event.key)) resize(heights[event.key]);
+    else return;
+    event.preventDefault();
+  }
+  return /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      ref: node,
+      className: "timeline-resize-grip",
+      role: "separator",
+      tabIndex: 0,
+      "aria-label": labelText("调整时间线高度"),
+      "aria-orientation": "horizontal",
+      "aria-valuemin": 104,
+      "aria-valuemax": metrics.max,
+      "aria-valuenow": Math.min(metrics.height, metrics.max),
+      title: labelText("上下拖动调整高度，双击恢复默认"),
+      onPointerDown: start,
+      onPointerMove: move,
+      onPointerUp: end,
+      onLostPointerCapture: end,
+      onPointerCancel: end,
+      onDoubleClick: reset,
+      onKeyDown: key
+    }
+  );
+}
+function previewShotAt(shots, time, limit) {
+  const last = shots.at(-1);
+  if (last && time >= last.end && (limit === void 0 || limit === last.end)) return last;
+  return shots.find((shot) => time >= shot.start && time < shot.end);
+}
+function usePreviewFrame(player, url, canvasWidth, canvasHeight) {
+  const [frame, setFrame] = j.useState(null);
+  j.useLayoutEffect(() => {
+    const video = player.current;
+    if (!video) return;
+    const host = video.parentElement;
+    function measure() {
+      const width = canvasWidth || video.videoWidth;
+      const height = canvasHeight || video.videoHeight;
+      if (!width || !height) return;
+      const bounds = video.getBoundingClientRect();
+      const parent = host.getBoundingClientRect();
+      const scale = Math.min(bounds.width / width, bounds.height / height);
+      const fitWidth = width * scale, fitHeight = height * scale;
+      setFrame({
+        width: fitWidth,
+        height: fitHeight,
+        left: bounds.left - parent.left + (bounds.width - fitWidth) / 2,
+        top: bounds.top - parent.top + (bounds.height - fitHeight) / 2
+      });
+    }
+    const observer = new ResizeObserver(measure);
+    observer.observe(video);
+    video.addEventListener("loadedmetadata", measure);
+    video.addEventListener("resize", measure);
+    measure();
+    return () => {
+      observer.disconnect();
+      video.removeEventListener("loadedmetadata", measure);
+      video.removeEventListener("resize", measure);
+    };
+  }, [player, url, canvasWidth, canvasHeight]);
+  return frame;
+}
+function ClipPreviewTarget({ player, url, canvas, onSelect, selected, disabled }) {
+  const frame = usePreviewFrame(player, url, canvas?.width, canvas?.height);
+  if (!frame?.width) return null;
+  return /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "preview-clip-target",
+      style: frame,
+      "aria-label": labelText("选择画面中的镜头"),
+      "aria-pressed": selected,
+      disabled,
+      onClick: (event) => {
+        event.stopPropagation();
+        onSelect();
+      }
+    }
+  );
+}
+function drawClipPreview(context, media, canvas, style, motion) {
+  const { width, height } = context.canvas;
+  context.fillStyle = "#000";
+  context.fillRect(0, 0, width, height);
+  const sx2 = width / canvas.width, sy = height / canvas.height;
+  const vw2 = media.videoWidth || media.naturalWidth, vh2 = media.videoHeight || media.naturalHeight;
+  const { left, right, top, bottom } = style.crop;
+  context.save();
+  context.translate(
+    width / 2 + (style.x + motion.x * canvas.width) * sx2,
+    height / 2 + (style.y + motion.y * canvas.height) * sy
+  );
+  context.scale(sx2, sy);
+  context.rotate((style.rotation + motion.angle) * Math.PI / 180);
+  context.scale(motion.scale, motion.scale);
+  context.beginPath();
+  context.rect(
+    (left / 100 - 0.5) * style.width,
+    (top / 100 - 0.5) * style.height,
+    (1 - (left + right) / 100) * style.width,
+    (1 - (top + bottom) / 100) * style.height
+  );
+  context.clip();
+  context.globalAlpha = Math.max(0, Math.min(1, motion.opacity * style.opacity / 100));
+  const filters = [];
+  if (style.brightness !== 100) filters.push("brightness(" + style.brightness + "%)");
+  if (style.contrast !== 100) filters.push("contrast(" + style.contrast + "%)");
+  if (style.saturation !== 100) filters.push("saturate(" + style.saturation + "%)");
+  if (style.hue) filters.push("hue-rotate(" + style.hue + "deg)");
+  if (style.grayscale) filters.push("grayscale(" + style.grayscale + "%)");
+  const blur = minEdgeBlur(style, motion) * Math.min(sx2, sy) * motion.scale;
+  if (blur) filters.push("blur(" + blur.toFixed(3) + "px)");
+  if (filters.length) context.filter = filters.join(" ");
+  context.scale(style.flip_x ? -1 : 1, style.flip_y ? -1 : 1);
+  if (style.fit === "contain") {
+    const scale = Math.min(style.width / vw2, style.height / vh2);
+    const imageWidth = vw2 * scale, imageHeight = vh2 * scale;
+    context.drawImage(media, -imageWidth / 2, -imageHeight / 2, imageWidth, imageHeight);
+  } else {
+    const ratio = style.width / style.height;
+    const width2 = Math.min(vw2, vh2 * ratio), height2 = Math.min(vh2, vw2 / ratio);
+    context.drawImage(
+      media,
+      (vw2 - width2) / 2,
+      (vh2 - height2) / 2,
+      width2,
+      height2,
+      -style.width / 2,
+      -style.height / 2,
+      style.width,
+      style.height
+    );
+  }
+  context.restore();
+}
+function minEdgeBlur(style, motion) {
+  return Math.min(style.width, style.height) * ((style.soft_focus || 0) * 24e-5 + motion.blur);
+}
+function ClipComposition({ player, url, project, editor, selected, handles, disabled, library, time, transport, enabled }) {
+  const { canvas } = project;
+  const shots = project.timeline || project.shots;
+  const frame = usePreviewFrame(player, url, canvas.width, canvas.height);
+  const plane = j.useRef(null);
+  const alternate = j.useRef(null);
+  const refresh = j.useRef(null);
+  const live = j.useRef({});
+  const [playing, setPlaying] = j.useState(false);
+  const [notice, setNotice] = j.useState("");
+  live.current = { canvas, shots, editor, library, transport, enabled, layers: project.timeline_video };
+  const pixels = Math.min(2, window.devicePixelRatio || 1);
+  const width = Math.max(1, Math.round((frame?.width || 1) * pixels));
+  const height = Math.max(1, Math.round((frame?.height || 1) * pixels));
+  j.useLayoutEffect(() => {
+    const master = player.current;
+    const replacement = alternate.current;
+    const context = plane.current?.getContext("2d", { alpha: false });
+    if (!master || !replacement || !context) return;
+    let urlInUse = "";
+    let request = 0;
+    let lastPaint = null;
+    let currentNotice = "";
+    let plan = {};
+    const stills = /* @__PURE__ */ new Map();
+    function alignAlternate(next, position, playing2, speed) {
+      if (next !== urlInUse) {
+        replacement.pause();
+        urlInUse = next;
+        if (next) {
+          replacement.src = next;
+        } else {
+          replacement.removeAttribute("src");
+          replacement.load();
+        }
+      }
+      if (!next || replacement.readyState < 2 || replacement.error) return false;
+      const duration = replacement.duration;
+      if (!Number.isFinite(duration) || duration <= 0 || !replacement.videoWidth) return false;
+      const maximum = Math.max(0, duration - 0.025);
+      const desired = Math.min(maximum, position);
+      const continuePlaying = playing2 && desired < maximum;
+      if (!replacement.seeking && Math.abs(replacement.currentTime - desired) > (continuePlaying ? 0.14 : 0.018)) {
+        replacement.currentTime = desired;
+      }
+      if (continuePlaying) {
+        replacement.playbackRate = master.playbackRate * speed;
+        if (replacement.paused) replacement.play().catch(() => {
+        });
+      } else {
+        replacement.pause();
+      }
+      return !replacement.seeking && replacement.readyState >= 2;
+    }
+    function stillFrame(url2) {
+      if (!url2) return null;
+      if (!stills.has(url2)) {
+        const image2 = new Image();
+        image2.onload = schedule;
+        image2.src = url2;
+        stills.set(url2, image2);
+      }
+      const image = stills.get(url2);
+      return image.complete && image.naturalWidth ? image : null;
+    }
+    function paint() {
+      request = 0;
+      const state = live.current;
+      const active = state.transport?.active ? state.transport.playing : !master.paused && !master.ended;
+      if (active) schedule();
+      const clock = state.transport?.active ? state.transport.current() : master.currentTime;
+      const limit = state.transport?.active ? state.transport.duration : state.shots.at(-1)?.end || 0;
+      const time2 = Math.min(clock, Math.max(0, limit - 1e-4));
+      const shot = previewShotAt(state.shots, time2, limit);
+      const layer = state.enabled ? layerAtTime(state.layers, time2) : null;
+      const displayed = layer || shot;
+      const style = state.enabled && displayed && state.editor.read(displayed) || state.canvas.defaults;
+      const position = displayed ? Math.max(0, time2 - displayed.start) : 0;
+      const imported = shot?.type === "media";
+      const replaced = state.enabled && shot?.replacement;
+      const next = (layer ? layer.url : replaced || imported && shot.media_url) || "";
+      const fit = layer ? layer.fit_duration : replaced && (shot.original_duration || shot.duration);
+      const speed = fit && Number.isFinite(replacement.duration) ? Math.max(0.8, Math.min(3, replacement.duration / fit)) : 1;
+      const first = layer ? layer.media_first ?? layer.first : shot?.first || 0;
+      const nextPosition = (first + position) * speed;
+      const masterReady = !master.seeking && master.readyState >= 2 && master.videoWidth && (!state.transport?.active || state.transport.hasFrame());
+      const useAlternate = alignAlternate(next, nextPosition, active && (layer || imported || !shot || masterReady), speed);
+      const medium = useAlternate ? replacement : shot && !imported && !layer && masterReady ? master : stillFrame(state.enabled && displayed?.replacement ? displayed.replacement_thumb || displayed.thumb : displayed?.thumb);
+      let message = "";
+      if (state.enabled && !layer && shot?.replacement_name && !useAlternate) {
+        if (!shot.replacement) message = labelText("替换素材已移动，显示原片");
+        else if (replacement.error) message = labelText("替换素材无法预览，显示原片");
+        else if (replacement.readyState < 2) message = labelText("正在载入替换素材…");
+      }
+      if (message !== currentNotice) {
+        currentNotice = message;
+        setNotice(message);
+      }
+      const previous = lastPaint;
+      if (!medium) {
+        if (!displayed && previous) {
+          context.fillStyle = "#000";
+          context.fillRect(0, 0, context.canvas.width, context.canvas.height);
+          lastPaint = null;
+        }
+        return;
+      }
+      if (!useAlternate && next && replacement.seeking && previous?.medium === replacement) return;
+      const frameTime = medium.currentTime;
+      if (previous && previous.medium === medium && previous.frameTime === frameTime && previous.time === time2 && previous.style === style && previous.width === context.canvas.width && previous.height === context.canvas.height) return;
+      if (plan.style !== style || plan.shot !== displayed?.id || plan.library !== state.library) {
+        plan = { style, shot: displayed?.id, library: state.library, timeline: motionTimeline(style, displayed?.duration, state.library) };
+      }
+      drawClipPreview(context, medium, state.canvas, style, motionAt(plan.timeline, position));
+      lastPaint = { medium, frameTime, time: time2, style, width: context.canvas.width, height: context.canvas.height };
+    }
+    function schedule() {
+      if (!request) request = requestAnimationFrame(paint);
+    }
+    function syncPlay() {
+      setPlaying(!master.paused && !master.ended);
+      if (master.paused || master.ended) replacement.pause();
+      schedule();
+    }
+    const events = ["loadeddata", "seeked", "timeupdate", "ratechange", "resize"];
+    events.forEach((event) => master.addEventListener(event, schedule));
+    const playingEvents = ["play", "pause", "ended"];
+    playingEvents.forEach((event) => master.addEventListener(event, syncPlay));
+    const replacementEvents = ["loadeddata", "seeked", "error"];
+    replacementEvents.forEach((event) => replacement.addEventListener(event, schedule));
+    refresh.current = schedule;
+    syncPlay();
+    return () => {
+      cancelAnimationFrame(request);
+      events.forEach((event) => master.removeEventListener(event, schedule));
+      playingEvents.forEach((event) => master.removeEventListener(event, syncPlay));
+      replacementEvents.forEach((event) => replacement.removeEventListener(event, schedule));
+      replacement.pause();
+      replacement.removeAttribute("src");
+      replacement.load();
+      refresh.current = null;
+    };
+  }, [player, url]);
+  j.useLayoutEffect(() => {
+    refresh.current?.();
+  });
+  const selectedStyle = selected && editor.read(selected);
+  const drawing = handles && selectedStyle && motionAt(motionTimeline(selectedStyle, selected.duration, library), time - selected.start);
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement(
+    "video",
+    {
+      ref: alternate,
+      className: "composition-input",
+      "aria-hidden": "true",
+      tabIndex: -1,
+      preload: "auto",
+      playsInline: true,
+      muted: true
+    }
+  ), /* @__PURE__ */ j.createElement("div", { className: "composition-preview", style: frame || { visibility: "hidden" } }, /* @__PURE__ */ j.createElement("canvas", { ref: plane, width, height, "aria-label": labelText("剪辑画面") }), notice && /* @__PURE__ */ j.createElement("div", { className: "composition-notice", role: "status" }, notice)), frame && handles && selected && !disabled && !playing && /* @__PURE__ */ j.createElement(
+    ClipPreviewHandles,
+    {
+      key: selected.id,
+      frame,
+      style: selectedStyle,
+      motion: drawing,
+      canvas,
+      onChange: (patch) => editor.update(selected, patch)
+    }
+  ));
+}
+function ClipPreviewHandles({ frame, style, canvas, motion, onChange }) {
+  const drag = j.useRef(null);
+  const clamp = (key, value) => Math.round(Math.max(canvas.limits[key][0], Math.min(canvas.limits[key][1], value)));
+  const { crop } = style;
+  const rotation = style.rotation + motion.angle;
+  const sx2 = frame.width / canvas.width, sy = frame.height / canvas.height;
+  const width = style.width * sx2 * motion.scale * (1 - (crop.left + crop.right) / 100);
+  const height = style.height * sy * motion.scale * (1 - (crop.top + crop.bottom) / 100);
+  const x = frame.width / 2 + (style.x + motion.x * canvas.width) * sx2;
+  const y3 = frame.height / 2 + (style.y + motion.y * canvas.height) * sy;
+  const shiftX = style.width * motion.scale * (crop.left - crop.right) / 200;
+  const shiftY = style.height * motion.scale * (crop.top - crop.bottom) / 200;
+  const angle = rotation * Math.PI / 180;
+  const centerX = x + (shiftX * Math.cos(angle) - shiftY * Math.sin(angle)) * sx2;
+  const centerY = y3 + (shiftX * Math.sin(angle) + shiftY * Math.cos(angle)) * sy;
+  function begin(event) {
+    if (event.button !== 0 || drag.current) return;
+    const bounds = event.currentTarget.parentElement.getBoundingClientRect();
+    drag.current = {
+      id: event.pointerId,
+      scale: event.target.hasAttribute("data-clip-scale"),
+      style,
+      startX: event.clientX,
+      startY: event.clientY,
+      dx: event.clientX - bounds.left - x,
+      dy: event.clientY - bounds.top - y3
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
+    event.preventDefault();
+  }
+  function move(event) {
+    const item = drag.current;
+    if (!item || event.pointerId !== item.id) return;
+    const dx2 = event.clientX - item.startX, dy = event.clientY - item.startY;
+    if (item.scale) {
+      let scale = 1 + (dx2 * item.dx + dy * item.dy) / Math.max(1, item.dx ** 2 + item.dy ** 2);
+      scale = Math.max(
+        Math.max(2 / item.style.width, 2 / item.style.height),
+        Math.min(scale, canvas.limits.width[1] / item.style.width, canvas.limits.height[1] / item.style.height)
+      );
+      onChange({ width: clamp("width", item.style.width * scale), height: clamp("height", item.style.height * scale) });
+    } else {
+      onChange({
+        x: clamp("x", item.style.x + dx2 * canvas.width / frame.width),
+        y: clamp("y", item.style.y + dy * canvas.height / frame.height)
+      });
+    }
+  }
+  function end(event) {
+    if (event.pointerId === drag.current?.id) drag.current = null;
+  }
+  return /* @__PURE__ */ j.createElement("div", { className: "clip-handle-plane", style: frame }, /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      className: "clip-preview-handles",
+      style: {
+        width,
+        height,
+        left: centerX,
+        top: centerY,
+        transform: "translate(-50%, -50%) rotate(" + rotation + "deg)"
+      },
+      role: "group",
+      "aria-label": labelText("画面拖动和缩放"),
+      onPointerDown: begin,
+      onPointerMove: move,
+      onPointerUp: end,
+      onPointerCancel: end,
+      onLostPointerCapture: end
+    },
+    ["nw", "ne", "sw", "se"].map((corner) => /* @__PURE__ */ j.createElement(
+      "span",
+      {
+        key: corner,
+        "aria-hidden": "true",
+        className: "clip-scale-handle clip-scale-" + corner,
+        "data-clip-scale": corner,
+        title: labelText("拖动缩放镜头")
+      }
+    ))
+  ));
+}
+function motionSelection(style, phase) {
+  const legacy = phase === "entrance" ? style.fade_in : phase === "exit" ? style.fade_out : 0;
+  return style.animation?.[phase] || (legacy > 0 ? { preset: "fade", seconds: legacy } : null);
+}
+function motionTimeline(style, duration, library) {
+  if (!library?.presets || !duration) return [];
+  const entrance = motionSelection(style, "entrance");
+  const exit = motionSelection(style, "exit");
+  const length = (entrance?.seconds || 0) + (exit?.seconds || 0);
+  const fit = length ? Math.min(1, duration / length) : 1;
+  return [["entrance", entrance], ["exit", exit], ["loop", motionSelection(style, "loop")]].flatMap(([phase, active]) => {
+    if (!active) return [];
+    const preset = library.presets[phase].find((item) => item.id === active.preset);
+    if (!preset) return [];
+    const seconds = (preset.once ? duration : active.seconds || preset.seconds) * (phase === "loop" ? 1 : fit);
+    const start = phase === "exit" ? duration - seconds : 0;
+    return [{ phase, preset, seconds, start, repeat: phase === "loop" && !preset.once }];
+  });
+}
+function motionFrame(frames, progress) {
+  const index = frames.findIndex((frame) => frame[0] >= progress);
+  if (index <= 0) return (index === 0 ? frames[0] : frames.at(-1)).slice(1);
+  const first = frames[index - 1], last = frames[index];
+  const amount = (progress - first[0]) / (last[0] - first[0]);
+  return first.slice(1).map((value, channel) => value + (last[channel + 1] - value) * amount);
+}
+function motionAt(timeline, time) {
+  let scale = 1, x = 0, y3 = 0, angle = 0, opacity = 1, blur = 0;
+  for (const item of timeline) {
+    const local = Math.max(0, time - item.start);
+    const position = item.repeat ? local % item.seconds / item.seconds : Math.min(1, local / item.seconds);
+    const [zoom, dx2, dy, rotation, alpha, sigma] = motionFrame(item.preset.frames, position);
+    scale *= zoom;
+    x += dx2;
+    y3 += dy;
+    angle += rotation;
+    opacity *= alpha;
+    blur += sigma;
+  }
+  return { scale, x, y: y3, angle, opacity, blur };
+}
+function MotionTile({ preset, phase, poster, title, active, disabled, apply }) {
+  const piece = j.useRef(null);
+  const animation = j.useRef(null);
+  function transform(frame) {
+    const [scale, x, y3, angle, opacity, blur] = frame;
+    return {
+      transform: "translate(" + x * 118 + "%, " + y3 * 118 + "%) rotate(" + angle + "deg) scale(" + scale + ")",
+      opacity,
+      filter: blur ? "blur(" + blur * 46 + "px)" : "none"
+    };
+  }
+  function stop() {
+    animation.current?.cancel();
+    animation.current = null;
+  }
+  function start() {
+    if (!preset || !piece.current || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    stop();
+    const frames = preset.frames.map(([offset, ...frame]) => ({ ...transform(frame), offset }));
+    animation.current = piece.current.animate(frames, {
+      duration: Math.max(500, Math.min(1450, preset.seconds * 1450)),
+      iterations: phase === "loop" && !preset.once ? Infinity : 1,
+      fill: "both"
+    });
+  }
+  j.useEffect(() => stop, [preset, poster, title]);
+  const example = preset ? transform(motionFrame(preset.frames, phase === "exit" ? 0.54 : 0.35)) : null;
+  const label = preset ? labelText(preset.name) : labelText("无");
+  return /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "motion-card",
+      "aria-pressed": active,
+      disabled,
+      "aria-label": label,
+      title: preset ? label : labelText("清除此类动效"),
+      onClick: apply,
+      onPointerEnter: start,
+      onPointerLeave: stop,
+      onFocus: start,
+      onBlur: stop
+    },
+    /* @__PURE__ */ j.createElement("span", { className: "motion-swatch", "aria-hidden": "true" }, preset ? /* @__PURE__ */ j.createElement("span", { className: "motion-piece" + (poster ? "" : " motion-piece-text"), ref: piece, style: example }, poster ? /* @__PURE__ */ j.createElement("img", { src: poster, alt: "", draggable: false }) : /* @__PURE__ */ j.createElement("b", null, title || labelText("字幕"))) : /* @__PURE__ */ j.createElement("span", { className: "motion-none" })),
+    /* @__PURE__ */ j.createElement("span", { className: "motion-card-label" }, label)
+  );
+}
+function MotionPicker({ style, duration, library, poster, title, disabled, update, preview }) {
+  const [phase, setPhase] = j.useState("entrance");
+  const phases = [
+    { id: "entrance", label: labelText("入场"), presets: labelText("入场预设"), preview: labelText("试播入场") },
+    { id: "exit", label: labelText("出场"), presets: labelText("出场预设"), preview: labelText("试播出场") },
+    { id: "loop", label: labelText("循环"), presets: labelText("循环预设"), preview: labelText("试播循环") }
+  ];
+  if (!library?.presets) return null;
+  const selectedPhase = phases.find(({ id }) => id === phase);
+  const items = library.presets[phase];
+  const active = motionSelection(style, phase);
+  const preset = items.find((item) => item.id === active?.preset);
+  const isLoop = phase === "loop";
+  const maximum = isLoop ? 10 : Math.max(1e-3, Math.min(library.transition_limit, duration));
+  const minimum = isLoop ? 0.1 : Math.min(0.02, maximum);
+  function modify(item) {
+    const animation = { ...style.animation };
+    if (item) animation[phase] = item;
+    else delete animation[phase];
+    const patch = { animation };
+    if (phase === "entrance" && "fade_in" in style) patch.fade_in = 0;
+    if (phase === "exit" && "fade_out" in style) patch.fade_out = 0;
+    update(patch);
+    return { ...style, ...patch };
+  }
+  function play(style2) {
+    if (!preview) return;
+    const interval = motionTimeline(style2, duration, library).find((track) => track.phase === phase);
+    if (!interval) return;
+    const start = Math.max(0, interval.start - (phase === "exit" ? 0.16 : 0));
+    const end = Math.min(duration, interval.start + interval.seconds + (phase === "entrance" ? 0.18 : 0));
+    preview(start, end);
+  }
+  function choose(item) {
+    if (!item) {
+      modify(null);
+      return;
+    }
+    const next = item.once ? { preset: item.id } : {
+      preset: item.id,
+      seconds: Number(Math.min(maximum, active?.seconds || item.seconds).toFixed(3))
+    };
+    if (active?.preset === item.id) {
+      play(style);
+    } else {
+      play(modify(next));
+    }
+  }
+  return /* @__PURE__ */ j.createElement("section", { className: "motion-picker", "aria-label": labelText("动画预设") }, /* @__PURE__ */ j.createElement("div", { className: "motion-phases" }, /* @__PURE__ */ j.createElement(Kr, { label: labelText("动画阶段"), values: phases.map(({ id, label }) => [id, label]), value: phase, onChange: setPhase })), /* @__PURE__ */ j.createElement("div", { className: "motion-library", key: phase, role: "group", "aria-label": selectedPhase.presets }, /* @__PURE__ */ j.createElement(MotionTile, { phase, active: !preset, disabled, apply: () => choose(null) }), items.map((item) => /* @__PURE__ */ j.createElement(
+    MotionTile,
+    {
+      key: item.id,
+      preset: item,
+      phase,
+      poster,
+      title,
+      active: preset?.id === item.id,
+      disabled,
+      apply: () => choose(item)
+    }
+  ))), preset && /* @__PURE__ */ j.createElement("div", { className: "motion-controls" }, preset.once ? /* @__PURE__ */ j.createElement("span", { className: "motion-timing-info" }, labelText("随片段时长推进")) : /* @__PURE__ */ j.createElement(
+    PropertyNumber,
+    {
+      label: isLoop ? labelText("循环周期（秒）") : labelText("动画时长（秒）"),
+      mark: isLoop ? labelText("周期") : labelText("时长"),
+      suffix: labelText("秒"),
+      value: active?.seconds ?? preset.seconds,
+      min: minimum,
+      max: maximum,
+      step: 0.05,
+      disabled,
+      onValue: (seconds) => modify({ preset: preset.id, seconds: Number(seconds.toFixed(3)) })
+    }
+  ), /* @__PURE__ */ j.createElement(D, { className: "motion-play-button", icon: mo, disabled: disabled || !preview, onClick: () => play(style) }, selectedPhase.preview)));
+}
+function MixDialog({ state, close, command, time, disabled, fromExport }) {
+  const Modal = hl;
+  const Toggle = bo;
+  const [draft, setDraft] = j.useState(() => ({
+    levels: state.audio_mix,
+    external: void 0,
+    history: [],
+    gesture: null
+  }));
+  const { levels, external } = draft;
+  const volumeGesture = j.useRef(null);
+  const [previewRequest, setPreviewRequest] = j.useState(null);
+  const [busy, setBusy] = j.useState(false);
+  const tracks = state.audio_tracks.filter((track) => track.id !== "external" || external === void 0);
+  const externalPresent = external === void 0 ? Boolean(state.external_audio) : Boolean(external);
+  if (external) tracks.push({ id: "external", label: labelText("外部音频"), name: external.name });
+  const missing = Object.entries(LP).filter(([id]) => levels[id]?.enabled && !tracks.some((track) => track.id === id)).map(([id, label]) => ({ id, label, name: labelText("文件不可用"), missing: true }));
+  const ready = tracks.some(({ id }) => levels[id]?.enabled && levels[id].volume > 0);
+  const preview = previewRequest && state.mix_preview?.url !== previewRequest.previous ? state.mix_preview : null;
+  const locked = disabled || busy;
+  function change(id, patch, { audio, gesture = null } = {}) {
+    setDraft((previous) => {
+      const level = { ...previous.levels[id], ...patch };
+      const externalAudio = audio === void 0 ? previous.external : audio;
+      if (level.volume === previous.levels[id].volume && level.enabled === previous.levels[id].enabled && externalAudio === previous.external) return previous;
+      const history = gesture && gesture === previous.gesture ? previous.history : [...previous.history.slice(-99), { levels: previous.levels, external: previous.external }];
+      return { levels: { ...previous.levels, [id]: level }, external: externalAudio, history, gesture };
+    });
+    setPreviewRequest(null);
+  }
+  useUndoShortcut(busy || !!draft.history.length, () => {
+    if (busy) return;
+    setDraft((current) => {
+      const previous = current.history.at(-1);
+      return previous ? { ...previous, history: current.history.slice(0, -1), gesture: null } : current;
+    });
+    setPreviewRequest(null);
+  }, document);
+  function payload() {
+    return { scope: state.manual_caption_scope, levels, external: external?.key ?? external };
+  }
+  async function chooseAudio() {
+    setBusy(true);
+    try {
+      const result = await command("pick_mix_audio");
+      if (result) change("external", { enabled: true }, { audio: result });
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function playMix(solo) {
+    setPreviewRequest({ previous: state.mix_preview?.url });
+    if (await command("preview_audio_mix", { ...payload(), solo }) === void 0) setPreviewRequest(null);
+  }
+  async function save() {
+    setBusy(true);
+    try {
+      if (await command("save_audio_mix", payload())) close();
+    } finally {
+      setBusy(false);
+    }
+  }
+  return /* @__PURE__ */ j.createElement(Modal, { open: true, onClose: () => !busy && close(), title: labelText("工程音轨混音"), className: "audio-mix-modal" }, /* @__PURE__ */ j.createElement("div", { className: "modal-content" }, /* @__PURE__ */ j.createElement(AudioMixHelp, { levels }), /* @__PURE__ */ j.createElement("div", { className: "mix-track-list" }, [...tracks, ...missing].map((track) => {
+    const level = levels[track.id];
+    return /* @__PURE__ */ j.createElement("section", { className: "mix-track", "aria-label": labelText(track.label), key: track.id }, /* @__PURE__ */ j.createElement("div", { className: "mix-track-head" }, /* @__PURE__ */ j.createElement("span", { className: "mix-track-icon audio-label--" + track.id }, /* @__PURE__ */ j.createElement(Xa, { size: 17 })), /* @__PURE__ */ j.createElement("div", { className: "mix-track-name" }, /* @__PURE__ */ j.createElement("strong", null, labelText(track.label)), /* @__PURE__ */ j.createElement("small", { title: track.name }, track.name)), /* @__PURE__ */ j.createElement(St, { icon: Md, label: labelText("试听 {0}", labelText(track.label)), disabled: locked || track.missing, onClick: () => playMix(track.id) })), /* @__PURE__ */ j.createElement("label", { className: "mix-volume" }, /* @__PURE__ */ j.createElement("span", null, labelText("音量")), /* @__PURE__ */ j.createElement(
+      "input",
+      {
+        type: "range",
+        min: "0",
+        max: "100",
+        value: level.volume,
+        "aria-label": labelText("{0}音量", labelText(track.label)),
+        onPointerDown: () => {
+          volumeGesture.current = {};
+        },
+        onPointerUp: () => {
+          volumeGesture.current = null;
+        },
+        onPointerCancel: () => {
+          volumeGesture.current = null;
+        },
+        onKeyDown: () => {
+          volumeGesture.current = null;
+        },
+        onChange: (event) => change(track.id, { volume: Number(event.target.value) }, { gesture: volumeGesture.current }),
+        disabled: locked
+      }
+    ), /* @__PURE__ */ j.createElement("output", null, level.volume, "%")), /* @__PURE__ */ j.createElement(Toggle, { checked: level.enabled, disabled: locked, onChange: (value) => change(track.id, { enabled: value }) }, labelText("加入混音")));
+  })), /* @__PURE__ */ j.createElement("div", { className: "mix-external button-row" }, /* @__PURE__ */ j.createElement(D, { icon: qe, disabled: locked, onClick: chooseAudio }, externalPresent ? labelText("更换外部音频") : labelText("添加外部音频")), externalPresent && /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      icon: Wa,
+      disabled: locked,
+      onClick: () => change("external", { enabled: false }, { audio: null })
+    },
+    labelText("移除外部音频")
+  )), preview && /* @__PURE__ */ j.createElement("div", { className: "mix-preview", "aria-label": labelText("音频试听") }, /* @__PURE__ */ j.createElement("span", null, preview.label), /* @__PURE__ */ j.createElement("audio", { key: preview.url, src: preview.url, controls: true, preload: "metadata", onLoadedMetadata: (event) => {
+    const media = event.currentTarget;
+    if (time < media.duration) media.currentTime = time;
+    media.play().catch(() => {
+    });
+  } })), previewRequest && !preview && state.active && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("正在生成试听音频…")), !!(tracks.length || missing.length) && !ready && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("当前没有启用音轨，按工程音轨导出时将静音。"))), /* @__PURE__ */ j.createElement("div", { className: "modal-actions" }, /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: busy, onClick: close }, fromExport ? labelText("取消并返回导出") : labelText("取消")), /* @__PURE__ */ j.createElement(D, { icon: mo, disabled: locked || !ready, onClick: () => playMix() }, labelText("试听混音")), /* @__PURE__ */ j.createElement(D, { kind: "primary", icon: na, disabled: locked, onClick: save }, fromExport ? labelText("保存并返回导出") : labelText("保存工程音轨"))));
+}
+function exportDimensions(canvas, aspect, resolution) {
+  if (aspect === "source" && resolution === "source") return [canvas.width, canvas.height];
+  const [width, height] = aspect === "source" ? [canvas.width, canvas.height] : aspect.split(":").map(Number);
+  const shortEdge = resolution === "source" ? Math.min(canvas.width, canvas.height) : Number(resolution);
+  const scale = shortEdge / Math.min(width, height) / 2;
+  return [Math.max(2, Math.round(width * scale) * 2), Math.max(2, Math.round(height * scale) * 2)];
+}
+function videoRateEstimate(format, width, height, fps, quality) {
+  const bitsPerPixel = { h264: [0.04, 0.24], hevc: [0.025, 0.17], prores: [1.8, 5.5], vp9: [0.025, 0.16] };
+  const weight = format === "prores" ? 1 : { standard: 0.7, high: 1, highest: 1.55 }[quality];
+  return bitsPerPixel[format].map((bits) => bits * width * height * fps * weight);
+}
+function exportSizeEstimate({ format, width, height, fps, quality, duration, audio, comparison }) {
+  if (!Number.isFinite(duration) || duration <= 0) return "";
+  const audioRates = {
+    h264: [128e3, 224e3],
+    hevc: [128e3, 224e3],
+    prores: [1024e3, 24e5],
+    vp9: [112e3, 176e3],
+    mp3: [96e3, 32e4],
+    wav: [1024e3, 24e5],
+    m4a: [16e4, 224e3]
+  };
+  const rates = ["wav", "mp3", "m4a"].includes(format) ? [0, 0] : videoRateEstimate(format, width, height, fps, quality);
+  if (comparison) {
+    const h = Math.min(comparison.height, 720);
+    const w = 2 * comparison.width * h / comparison.height;
+    videoRateEstimate("h264", w, h, comparison.fps, "standard").forEach((value, index) => {
+      rates[index] += value + (comparison.audio ? audioRates.h264[index] : 0);
+    });
+  }
+  const [lower, upper] = rates.map((value, index) => (value + (audio ? audioRates[format][index] : 0)) * duration / 8);
+  if (!upper) return "";
+  const [scale, unit] = upper >= 1e9 ? [1e9, "GB"] : upper >= 1e6 ? [1e6, "MB"] : [1e3, "KB"];
+  const number = new Intl.NumberFormat(document.documentElement.lang, { maximumSignificantDigits: 2 });
+  const low = number.format(lower / scale);
+  const high = number.format(upper / scale);
+  return (low === high ? high : low + "–" + high) + " " + unit;
+}
+function VideoExportSettings({ settings, setSettings, preset, choosePreset, options, project, locked }) {
+  const codecs = [
+    ["h264", "MP4（H.264）", labelText("适合日常分享和上传")],
+    ["hevc", "MP4（HEVC）", labelText("压缩效率更高")],
+    ["prores", "MOV（ProRes 422 HQ）", labelText("用于后续剪辑")],
+    ["vp9", "WebM（VP9）", labelText("适合在网页使用")]
+  ];
+  const { format, aspect, resolution, fps, quality, fit } = settings;
+  const change = (field, value) => setSettings({ ...settings, [field]: value });
+  const [width, height] = exportDimensions(project.canvas, aspect, resolution);
+  const matchAspect = Math.abs(width / height - project.canvas.width / project.canvas.height) < 5e-3;
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("section", { className: "export-section" }, /* @__PURE__ */ j.createElement("h3", null, labelText("导出预设")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["project", labelText("沿用项目")], ["vertical", labelText("竖屏 1080p")], ["horizontal", labelText("横屏 1080p")]],
+      label: labelText("导出预设"),
+      value: preset,
+      onChange: choosePreset,
+      disabled: locked
+    }
+  )), /* @__PURE__ */ j.createElement("section", { className: "export-section" }, /* @__PURE__ */ j.createElement("h3", null, labelText("视频格式")), /* @__PURE__ */ j.createElement("div", { className: "export-codecs", role: "group", "aria-label": labelText("视频格式") }, codecs.map(([key, label, hint]) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      key,
+      type: "button",
+      className: "export-choice",
+      "aria-label": label,
+      "aria-pressed": format === key,
+      disabled: locked,
+      onClick: () => change("format", key)
+    },
+    /* @__PURE__ */ j.createElement("strong", null, label),
+    /* @__PURE__ */ j.createElement("small", null, hint)
+  )))), /* @__PURE__ */ j.createElement("section", { className: "export-section export-size" }, /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("h3", null, labelText("画幅")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: options.ratios.map((ratio) => [ratio, ratio === "source" ? labelText("原始") : ratio]),
+      label: labelText("画幅"),
+      value: aspect,
+      onChange: (value) => change("aspect", value),
+      disabled: locked
+    }
+  )), /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("h3", null, labelText("分辨率")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["source", labelText("原始")], ...options.resolutions.map((size) => [size, size === 2160 ? "4K" : size + "p"])],
+      label: labelText("分辨率"),
+      value: resolution,
+      onChange: (value) => change("resolution", value),
+      disabled: locked
+    }
+  )), !matchAspect && /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("h3", null, labelText("画面填充")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["contain", labelText("完整适配")], ["cover", labelText("铺满画幅")]],
+      label: labelText("画面填充"),
+      value: fit,
+      onChange: (value) => change("fit", value),
+      disabled: locked
+    }
+  ))), /* @__PURE__ */ j.createElement("div", { className: "export-section export-fields" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("帧率")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("帧率"), value: fps ?? "source", disabled: locked, onChange: (event) => change("fps", event.target.value === "source" ? null : Number(event.target.value)) }, /* @__PURE__ */ j.createElement("option", { value: "source" }, labelText("项目帧率（{0} fps）", project.export_rate)), options.rates.map((rate) => /* @__PURE__ */ j.createElement("option", { key: rate, value: rate }, rate, " fps")))), /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("h3", null, labelText("画质")), format === "prores" ? /* @__PURE__ */ j.createElement("span", { className: "export-fixed-option" }, "ProRes 422 HQ") : /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["standard", labelText("标准")], ["high", labelText("高")], ["highest", labelText("最高")]],
+      label: labelText("画质"),
+      value: quality,
+      onChange: (value) => change("quality", value),
+      disabled: locked
+    }
+  ))));
+}
+function DraftExportSettings({ editor, setEditor, native, tracks, subtitle, setSubtitle, disabled }) {
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("section", { className: "export-section" }, /* @__PURE__ */ j.createElement("h3", null, labelText("剪辑软件")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["jianying", labelText("剪映专业版")], ["capcut", "CapCut"]],
+      label: labelText("剪辑软件"),
+      value: editor,
+      onChange: setEditor,
+      disabled
+    }
+  ), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, native ? labelText("导出后回到剪辑软件首页，从本地草稿打开。") : labelText("可选择剪辑软件设置里的草稿目录，也可把导出位置设为它的草稿目录。")), editor === "capcut" && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("CapCut 按保存位置读取素材，建议直接导出到它的草稿目录。"))), /* @__PURE__ */ j.createElement("section", { className: "export-section" }, /* @__PURE__ */ j.createElement("h3", null, labelText("素材和轨道")), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("复制完整素材，并保留分镜、附加视频和音频轨道。调色、裁剪和动画随对应的片段输出。")), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("时间线上的手动字幕会作为可编辑文字导出。")), tracks.length > 0 && /* @__PURE__ */ j.createElement("label", { className: "tool-field export-subtitle" }, /* @__PURE__ */ j.createElement("span", null, labelText("附加字幕轨")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("附加字幕轨"), value: subtitle, onChange: (event) => setSubtitle(event.target.value), disabled }, /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("仅时间线字幕")), tracks.map(({ id, label }) => /* @__PURE__ */ j.createElement("option", { value: id, key: id }, labelText(label)))))));
+}
+function TimelineExportDialog({ state, open, close, command, openMixer, disabled }) {
+  const Modal = hl, Toggle = bo, FolderIcon = qe, FileIcon = fo;
+  const { project, export_options: options } = state;
+  const [kind, setKind] = j.useState("video");
+  const defaults = { format: "h264", aspect: "source", resolution: "source", fps: null, quality: "high", fit: "contain" };
+  const [video, setVideo] = j.useState(defaults);
+  const [preset, setPreset] = j.useState("project");
+  const [audioFormat, setAudioFormat] = j.useState("wav");
+  const [audio, setAudio] = j.useState("mix");
+  const [includeAudio, setIncludeAudio] = j.useState(true);
+  const [loudness, setLoudness] = j.useState("");
+  const [captionFormat, setCaptionFormat] = j.useState("srt");
+  const [subtitle, setSubtitle] = j.useState("");
+  const [editor, setEditor] = j.useState("jianying");
+  const [draftSubtitle, setDraftSubtitle] = j.useState("");
+  const [overlays, setOverlays] = j.useState(true);
+  const [compare, setCompare] = j.useState(false);
+  const [names, setNames] = j.useState({});
+  const [starting, setStarting] = j.useState(false);
+  const [error, setError] = j.useState("");
+  const isVideo = kind === "video", isAudio = kind === "audio";
+  const isDraft = kind === "draft", isCaptions = kind === "captions";
+  const draftOutput = state.settings.editor_outputs[editor];
+  const output = isDraft ? draftOutput.path : state.settings.movie_output;
+  const draftTrack = state.tracks.some(({ id }) => id === draftSubtitle) ? draftSubtitle : "";
+  const subtitles = [
+    ...state.manual_captions?.length ? [["manual", labelText("手动字幕")]] : [],
+    ...state.tracks.map(({ id, label }) => [id, labelText(label)])
+  ];
+  const track = subtitles.some(([key]) => key === subtitle) ? subtitle : subtitles[0]?.[0];
+  const missingSubtitles = isCaptions && !track;
+  const mixTracks = state.audio_tracks.filter(({ id }) => state.audio_mix[id]?.enabled && state.audio_mix[id].volume > 0);
+  const extraAudio = project.timeline_audio?.filter((item) => item.volume > 0).length || 0;
+  const mixNames = mixTracks.map(({ id, label }) => labelText(label) + " " + state.audio_mix[id].volume + "%");
+  if (extraAudio) mixNames.push(labelText("附加音频 {0} 段", extraAudio));
+  const audioAvailable = audio === "custom" || (audio === "mix" ? mixNames.length > 0 : state.source.has_audio !== false);
+  const audioSettingsVisible = isAudio || isVideo && includeAudio;
+  const format = isVideo ? video.format : isAudio ? audioFormat : captionFormat;
+  const extension = isDraft ? "" : options.extensions[format];
+  const defaultSuffix = isVideo ? labelText("成片") : isAudio ? labelText("音频") : isDraft ? labelText("剪辑工程") : labelText("字幕");
+  const name = names[kind] ?? project.export_basename + " - " + defaultSuffix;
+  const typed = name.trim();
+  const hasExtension = extension && typed.toLowerCase().endsWith(extension);
+  const stem = hasExtension ? typed.slice(0, -extension.length).trimEnd() : typed;
+  const invalid = !stem || /[<>:"/\\|?*\x00-\x1f]|\.$/.test(stem) || /^(CON|PRN|AUX|NUL|(?:COM|LPT)[1-9¹²³])(\s*\.|$)/i.test(stem);
+  const locked = state.active || disabled || starting;
+  const canExport = !(locked || invalid || isAudio && !audioAvailable || missingSubtitles);
+  const fileCount = isVideo && compare ? 2 : 1;
+  const [outWidth, outHeight] = exportDimensions(project.canvas, video.aspect, video.resolution);
+  const exportDuration = state.source.duration || 0;
+  const sizeEstimate = open && (isVideo || isAudio) && exportSizeEstimate({
+    format,
+    width: outWidth,
+    height: outHeight,
+    fps: video.fps ?? project.export_rate,
+    quality: video.quality,
+    duration: exportDuration,
+    audio: audioSettingsVisible && audioAvailable,
+    comparison: isVideo && compare ? {
+      width: project.canvas.width,
+      height: project.canvas.height,
+      fps: project.export_rate,
+      audio: includeAudio && state.source.has_audio !== false
+    } : null
+  });
+  const formatLabels = {
+    h264: "MP4（H.264）",
+    hevc: "MP4（HEVC）",
+    prores: "MOV（ProRes 422 HQ）",
+    vp9: "WebM（VP9）",
+    wav: "WAV",
+    mp3: "MP3",
+    m4a: "M4A",
+    srt: "SRT",
+    vtt: "WebVTT"
+  };
+  function dismiss() {
+    setCompare(false);
+    setError("");
+    setKind("video");
+    close();
+  }
+  function choosePreset(value) {
+    setPreset(value);
+    setVideo(value === "project" ? defaults : { ...defaults, aspect: value === "vertical" ? "9:16" : "16:9", resolution: 1080, fit: "cover" });
+  }
+  async function startExport(event) {
+    event.preventDefault();
+    if (!canExport) return;
+    setStarting(true);
+    setError("");
+    try {
+      const request = { project: project.id, format, name: stem };
+      if (isVideo) Object.assign(request, video, { overlays, compare });
+      if (isVideo || isAudio) {
+        request.audio = audioSettingsVisible ? audio : "mute";
+        request.loudness = audioSettingsVisible && loudness ? Number(loudness) : null;
+      } else if (isCaptions) request.track = track;
+      const result = isDraft ? await command("export_editor_draft", { project: project.id, editor, name: stem, track: draftTrack || null }, true) : await command("assemble", request, true);
+      if (result) dismiss();
+      else if (result === void 0) setError(labelText("未能提交导出，请检查当前编辑内容。"));
+    } catch (problem) {
+      setError(labelText(problem.message));
+    } finally {
+      setStarting(false);
+    }
+  }
+  return /* @__PURE__ */ j.createElement(Modal, { open, onClose: () => !starting && dismiss(), title: labelText("导出时间线成片"), className: "export-dialog" }, /* @__PURE__ */ j.createElement("form", { className: "export-form", onSubmit: startExport }, /* @__PURE__ */ j.createElement("div", { className: "export-tabs", role: "group", "aria-label": labelText("导出类型") }, [["video", labelText("视频"), $t], ["draft", labelText("剪辑工程"), fl], ["audio", labelText("音频"), Xa], ["captions", labelText("字幕"), fo]].map(([key, label, Icon]) => /* @__PURE__ */ j.createElement("button", { type: "button", key, "aria-pressed": kind === key, disabled: locked, onClick: () => {
+    setKind(key);
+    setError("");
+  } }, /* @__PURE__ */ j.createElement(Icon, { size: 16, "aria-hidden": "true" }), label))), /* @__PURE__ */ j.createElement("div", { className: "export-layout" }, /* @__PURE__ */ j.createElement("div", { className: "export-options", key: kind }, isVideo && /* @__PURE__ */ j.createElement(VideoExportSettings, { settings: video, setSettings: (value) => {
+    setVideo(value);
+    setPreset("");
+  }, preset, choosePreset, options, project, locked }), isDraft && /* @__PURE__ */ j.createElement(
+    DraftExportSettings,
+    {
+      editor,
+      setEditor,
+      native: draftOutput.native,
+      tracks: state.tracks,
+      subtitle: draftTrack,
+      setSubtitle: setDraftSubtitle,
+      disabled: locked
+    }
+  ), isAudio && /* @__PURE__ */ j.createElement("section", { className: "export-section" }, /* @__PURE__ */ j.createElement("h3", null, labelText("音频格式")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["wav", "WAV · PCM"], ["mp3", "MP3"], ["m4a", "M4A · AAC"]],
+      label: labelText("音频格式"),
+      value: audioFormat,
+      onChange: setAudioFormat,
+      disabled: locked
+    }
+  )), (isVideo || isAudio) && /* @__PURE__ */ j.createElement("section", { className: "export-section" }, isVideo && /* @__PURE__ */ j.createElement(Toggle, { checked: includeAudio, disabled: locked, onChange: setIncludeAudio }, labelText("包含声音")), audioSettingsVisible && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("h3", null, labelText("成片音轨")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["mix", labelText("工程音轨")], ["original", labelText("沿用原片")], ["custom", labelText("替换音频")]],
+      value: audio,
+      onChange: setAudio,
+      label: labelText("导出音轨"),
+      disabled: locked
+    }
+  ), audio === "mix" && /* @__PURE__ */ j.createElement("div", { className: "mix-export-summary" }, /* @__PURE__ */ j.createElement("span", null, mixNames.join(" · ") || labelText("静音输出")), /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: locked, onClick: openMixer }, labelText("调整混音"))), /* @__PURE__ */ j.createElement("label", { className: "tool-field export-loudness" }, /* @__PURE__ */ j.createElement("span", null, labelText("响度")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("响度"), value: loudness, onChange: (event) => setLoudness(event.target.value), disabled: locked }, /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("保留当前响度")), options.loudness.map((level) => /* @__PURE__ */ j.createElement("option", { key: level, value: level }, level, " LUFS"))))), isAudio && !audioAvailable && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("没有可导出的音轨。请启用音轨或选择外部音频。"))), isVideo && /* @__PURE__ */ j.createElement("details", { className: "export-advanced" }, /* @__PURE__ */ j.createElement("summary", null, labelText("更多设置")), /* @__PURE__ */ j.createElement("div", { className: "export-advanced-options" }, /* @__PURE__ */ j.createElement(
+    Toggle,
+    {
+      checked: overlays,
+      onChange: setOverlays,
+      disabled: locked,
+      hint: labelText("把识别出的字幕、标题和花字叠到替换镜头")
+    },
+    labelText("保留原字幕和标题")
+  ), /* @__PURE__ */ j.createElement(Toggle, { checked: compare, onChange: setCompare, disabled: locked }, labelText("同时导出对比视频")))), isCaptions && /* @__PURE__ */ j.createElement("section", { className: "export-section" }, /* @__PURE__ */ j.createElement("h3", null, labelText("字幕格式")), /* @__PURE__ */ j.createElement(
+    Kr,
+    {
+      values: [["srt", "SRT"], ["vtt", "WebVTT"]],
+      label: labelText("字幕格式"),
+      value: captionFormat,
+      onChange: setCaptionFormat,
+      disabled: locked
+    }
+  ), subtitles.length ? /* @__PURE__ */ j.createElement("label", { className: "tool-field export-subtitle" }, /* @__PURE__ */ j.createElement("span", null, labelText("字幕轨")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("字幕轨"), value: track, onChange: (event) => setSubtitle(event.target.value), disabled: locked }, subtitles.map(([key, label]) => /* @__PURE__ */ j.createElement("option", { key, value: key }, label)))) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("请先添加手动字幕，或在字幕与翻译中生成口播字幕。")))), /* @__PURE__ */ j.createElement("aside", { className: "export-summary", "aria-label": labelText("导出摘要") }, /* @__PURE__ */ j.createElement("div", { className: "export-summary-card" }, /* @__PURE__ */ j.createElement("div", { className: "export-file-icon" }, /* @__PURE__ */ j.createElement(FileIcon, { size: 18, "aria-hidden": "true" })), missingSubtitles ? /* @__PURE__ */ j.createElement("h3", null, labelText("无可导出的字幕")) : /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("h3", null, isDraft ? labelText("草稿文件夹") : labelText("{0} 个文件", fileCount)), /* @__PURE__ */ j.createElement("p", { className: "export-file-name", title: stem + extension }, stem, extension), /* @__PURE__ */ j.createElement("dl", null, /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("dt", null, isDraft ? labelText("剪辑软件") : labelText("格式")), /* @__PURE__ */ j.createElement("dd", null, isDraft ? editor === "jianying" ? labelText("剪映专业版") : "CapCut" : formatLabels[format])), !isCaptions && /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("dt", null, labelText("时长")), /* @__PURE__ */ j.createElement("dd", null, kt(exportDuration, true))), isVideo && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("dt", null, labelText("尺寸")), /* @__PURE__ */ j.createElement("dd", null, outWidth, " × ", outHeight)), /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("dt", null, labelText("帧率")), /* @__PURE__ */ j.createElement("dd", null, video.fps ?? project.export_rate, " fps"))), sizeEstimate && /* @__PURE__ */ j.createElement("div", { className: "export-size-estimate", title: labelText("按导出参数估算，实际大小随素材内容变化。") }, /* @__PURE__ */ j.createElement("dt", null, fileCount > 1 ? labelText("预计总大小") : labelText("预计大小")), /* @__PURE__ */ j.createElement("dd", null, sizeEstimate)))), isVideo && state.manual_captions?.length > 0 && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("{0} 条手动字幕将随成片导出", state.manual_captions.length)), isVideo && compare && /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("另存一份 MP4 对比视频"))))), (error || invalid) && /* @__PURE__ */ j.createElement("p", { className: "export-error", role: "alert" }, error || labelText("请输入有效的文件名。")), /* @__PURE__ */ j.createElement("footer", { className: "export-footer" }, /* @__PURE__ */ j.createElement("div", { className: "export-destination" }, /* @__PURE__ */ j.createElement("span", null, labelText("保存到")), /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "path-button export-path",
+      "aria-label": isDraft ? labelText("更改草稿保存位置") : labelText("更改成片保存位置"),
+      title: output,
+      disabled: locked,
+      onClick: () => isDraft ? command("pick_editor_output", { editor }) : command("pick_movie_output")
+    },
+    /* @__PURE__ */ j.createElement(FolderIcon, { size: 16, "aria-hidden": "true" }),
+    /* @__PURE__ */ j.createElement("span", null, output),
+    /* @__PURE__ */ j.createElement("strong", null, labelText("更改"))
+  )), /* @__PURE__ */ j.createElement("label", { className: "export-destination" }, /* @__PURE__ */ j.createElement("span", null, isDraft ? labelText("草稿名称") : labelText("文件名")), /* @__PURE__ */ j.createElement("div", { className: "export-name-field" }, /* @__PURE__ */ j.createElement("input", { value: name, maxLength: 80, "aria-invalid": invalid, spellCheck: "false", disabled: locked, onChange: (event) => {
+    setError("");
+    setNames((previous) => ({ ...previous, [kind]: event.target.value }));
+  } }), extension && !hasExtension && /* @__PURE__ */ j.createElement("span", { "aria-hidden": "true" }, extension))), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", icon: Pr, busy: starting, disabled: !canExport }, starting ? labelText("正在准备…") : isDraft ? labelText("导出草稿") : labelText("开始导出")))));
+}
+function WorkspaceModal(props) {
+  return j.createElement(hl, props);
+}
+function clipAtSourceTime(project, time) {
+  return [...project.timeline || [], ...project.timeline_video].find((item) => Number.isFinite(item.source_start) && item.source_start <= time && time < item.source_start + item.duration);
+}
+function ProjectToolkit({ state, disabled, command, close, seek }) {
+  const [tab, setTab] = j.useState("insight");
+  const project = state.project;
+  return /* @__PURE__ */ j.createElement(WorkspaceModal, { open: true, onClose: close, title: labelText("项目工具"), className: "project-toolkit" }, /* @__PURE__ */ j.createElement(ProjectToolTabs, { tabs: [["insight", labelText("爆款分析")], ["template", labelText("换品模板")], ["versions", labelText("版本")]], tab, setTab }), /* @__PURE__ */ j.createElement("div", { className: "project-toolkit-body", key: tab + project.id }, tab === "insight" && /* @__PURE__ */ j.createElement(
+    ProjectInsights,
+    {
+      project,
+      command,
+      disabled,
+      locate: (sourceTime) => {
+        const clip = clipAtSourceTime(project, sourceTime);
+        if (project.timeline && !clip) return;
+        seek(clip ? clip.start + sourceTime - clip.source_start : sourceTime);
+        close();
+      }
+    }
+  ), tab === "template" && /* @__PURE__ */ j.createElement(ProductTemplate, { project, command, disabled, close }), tab === "versions" && /* @__PURE__ */ j.createElement(ProjectVersions, { project, command, disabled })));
+}
+function ProjectToolTabs({ tabs, tab, setTab }) {
+  return /* @__PURE__ */ j.createElement("div", { className: "project-tool-tabs", role: "group", "aria-label": labelText("工具分类") }, tabs.map(([id, label]) => /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      key: id,
+      type: "button",
+      "aria-pressed": id === tab,
+      onClick: () => setTab(id)
+    },
+    label
+  )));
+}
+function useProjectTool(project, command, initial) {
+  const [result, setResult] = j.useState(null);
+  const [busy, setBusy] = j.useState(false);
+  async function run(action, data) {
+    setBusy(true);
+    try {
+      const next = await command(action, { project: project.id, ...data });
+      if (next && typeof next === "object") setResult(next);
+      return next;
+    } finally {
+      setBusy(false);
+    }
+  }
+  j.useEffect(() => {
+    run(initial);
+  }, [project.id, initial]);
+  return { result, busy, run };
+}
+function ProjectInsights({ project, command, disabled, locate }) {
+  const tool = useProjectTool(project, command, "insight_list");
+  const [metrics, setMetrics] = j.useState(null);
+  const data = tool.result;
+  if (!data) return /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, tool.busy ? labelText("正在读取分析…") : labelText("暂时无法读取分析。"));
+  const sample = data.current;
+  const values = metrics || sample.metrics;
+  const locked = disabled || tool.busy;
+  const names = { opening: labelText("开场 3 秒"), product: labelText("产品文字线索"), proof: labelText("卖点证明线索"), action: labelText("转化引导线索") };
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "insight-summary" }, /* @__PURE__ */ j.createElement("strong", null, sample.name), /* @__PURE__ */ j.createElement("span", null, labelText("{0} 秒 · {1} 个镜头 · 平均 {2} 秒", sample.duration.toFixed(2), sample.shots, sample.average.toFixed(2)))), /* @__PURE__ */ j.createElement("div", { className: "insight-grid" }, sample.cells.map(({ kind, event, cuts }) => /* @__PURE__ */ j.createElement("section", { className: "insight-cell", key: kind }, /* @__PURE__ */ j.createElement("h3", null, names[kind]), kind === "opening" && /* @__PURE__ */ j.createElement("p", null, labelText("前 3 秒有 {0} 次切镜", cuts)), event ? /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "insight-time",
+      onClick: () => locate(event.start),
+      disabled: Boolean(project.timeline && !clipAtSourceTime(project, event.start))
+    },
+    kt(event.start, true),
+    " · ",
+    labelText(event.evidence)
+  ), /* @__PURE__ */ j.createElement("p", { className: "insight-evidence" }, event.text)) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("已有画面文字或口播里暂无明确线索。"))))), /* @__PURE__ */ j.createElement("div", { className: "insight-metrics" }, /* @__PURE__ */ j.createElement("h3", null, labelText("平台数据与对比")), /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("结合真实留存和转化数据判断片段表现。上面的线索来自已有文字识别。")), /* @__PURE__ */ j.createElement("form", { className: "project-tool-line", onSubmit: async (event) => {
+    event.preventDefault();
+    const percent = (name) => values[name] === "" || values[name] == null ? null : Number(values[name]);
+    if (await tool.run("insight_save", { retention: percent("retention"), conversion: percent("conversion") })) setMetrics(null);
+  } }, [["retention", labelText("3 秒留存率 %")], ["conversion", labelText("转化率 %")]].map(([name, label]) => /* @__PURE__ */ j.createElement("label", { className: "tool-field", key: name }, /* @__PURE__ */ j.createElement("span", null, label), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "number",
+      min: "0",
+      max: "100",
+      step: "0.001",
+      value: values[name] ?? "",
+      onChange: (event) => setMetrics({ ...values, [name]: event.target.value })
+    }
+  ))), /* @__PURE__ */ j.createElement(D, { type: "submit", disabled: locked }, labelText("保存数据"))), /* @__PURE__ */ j.createElement(D, { icon: qe, disabled: locked, onClick: () => tool.run("insight_compare") }, labelText("添加对比项目")), !!data.comparisons.length && /* @__PURE__ */ j.createElement("div", { className: "insight-table-wrap" }, /* @__PURE__ */ j.createElement("table", { className: "insight-table" }, /* @__PURE__ */ j.createElement("thead", null, /* @__PURE__ */ j.createElement("tr", null, /* @__PURE__ */ j.createElement("th", null, labelText("参考片")), /* @__PURE__ */ j.createElement("th", null, labelText("前 3 秒切镜")), /* @__PURE__ */ j.createElement("th", null, labelText("首次转化引导")), /* @__PURE__ */ j.createElement("th", null, labelText("3 秒留存")), /* @__PURE__ */ j.createElement("th", null, labelText("转化率")))), /* @__PURE__ */ j.createElement("tbody", null, [sample, ...data.comparisons].map((row, index) => {
+    const action = row.cells.find((item) => item.kind === "action").event;
+    const metric = (key) => row.metrics[key] == null ? "—" : row.metrics[key] + "%";
+    return /* @__PURE__ */ j.createElement("tr", { key: index }, /* @__PURE__ */ j.createElement("th", { scope: "row" }, row.name), /* @__PURE__ */ j.createElement("td", null, row.cells[0].cuts), /* @__PURE__ */ j.createElement("td", null, action ? kt(action.start, true) : "—"), /* @__PURE__ */ j.createElement("td", null, metric("retention")), /* @__PURE__ */ j.createElement("td", null, metric("conversion")));
+  }))))));
+}
+function ProductTemplate({ project, command, disabled, close }) {
+  const tool = useProjectTool(project, command, "template_list");
+  const [pairs, setPairs] = j.useState({});
+  const [preview, setPreview] = j.useState("");
+  const [name, setName] = j.useState("");
+  const [requirements, setRequirements] = j.useState({});
+  const data = tool.result;
+  const effective = Object.fromEntries((data?.slots || []).map((slot) => [slot.shot, pairs[slot.shot] ?? slot.suggestion ?? ""]));
+  const matched = Object.fromEntries(Object.entries(effective).filter(([, id]) => id));
+  const locked = disabled || tool.busy;
+  const candidate = data?.materials.find((item) => item.id === preview);
+  const notes = Object.fromEntries((data?.slots || []).map((slot) => [slot.shot, requirements[slot.shot] ?? slot.requirement]));
+  async function choose() {
+    const result = await tool.run("template_folder");
+    if (result) {
+      setPairs(Object.fromEntries(result.slots.map((slot) => [slot.shot, slot.suggestion || ""])));
+      setPreview("");
+    }
+  }
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("按参考片的镜头时长和画幅匹配素材。确认每个素材位后，再一次应用。")), /* @__PURE__ */ j.createElement("div", { className: "project-tool-line" }, /* @__PURE__ */ j.createElement(D, { icon: qe, disabled: locked, onClick: choose }, tool.busy ? labelText("正在读取…") : labelText("选择素材文件夹")), /* @__PURE__ */ j.createElement(D, { kind: "primary", disabled: locked || !Object.keys(matched).length, onClick: async () => {
+    if (await tool.run("template_apply", { pairs: matched })) close();
+  } }, labelText("应用批量替换"))), data && /* @__PURE__ */ j.createElement(j.Fragment, null, candidate && /* @__PURE__ */ j.createElement("div", { className: "template-preview" }, /* @__PURE__ */ j.createElement("video", { key: candidate.id, src: candidate.url, controls: true, playsInline: true, preload: "metadata" }), /* @__PURE__ */ j.createElement("strong", null, candidate.name), /* @__PURE__ */ j.createElement(St, { icon: Wa, label: labelText("关闭素材预览"), onClick: () => setPreview("") })), /* @__PURE__ */ j.createElement("div", { className: "template-grid" }, data.slots.map((slot) => /* @__PURE__ */ j.createElement("section", { className: "template-slot", key: slot.shot }, /* @__PURE__ */ j.createElement(Gr, { src: slot.thumb }), /* @__PURE__ */ j.createElement("div", { className: "template-slot-copy" }, /* @__PURE__ */ j.createElement("strong", null, labelText("镜头 {0}", slot.shot)), /* @__PURE__ */ j.createElement("small", null, kt(slot.start, true), " · ", slot.duration.toFixed(2), " s · ", slot.width, " × ", slot.height), slot.text && /* @__PURE__ */ j.createElement("p", { title: slot.text }, slot.text)), /* @__PURE__ */ j.createElement(
+    "select",
+    {
+      "aria-label": labelText("镜头 {0} 的替换素材", slot.shot),
+      value: effective[slot.shot],
+      disabled: locked || !data.materials.length,
+      onChange: (event) => setPairs({ ...pairs, [slot.shot]: event.target.value })
+    },
+    /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("保留现有画面")),
+    data.materials.map((item) => /* @__PURE__ */ j.createElement("option", { key: item.id, value: item.id }, item.name, " · ", item.duration.toFixed(2), " s · ", item.width, " × ", item.height))
+  ), /* @__PURE__ */ j.createElement(
+    St,
+    {
+      icon: qe,
+      label: labelText("预览镜头 {0} 的替换素材", slot.shot),
+      disabled: !effective[slot.shot],
+      onClick: () => setPreview(effective[slot.shot])
+    }
+  ), /* @__PURE__ */ j.createElement("details", { className: "template-requirement" }, /* @__PURE__ */ j.createElement("summary", null, notes[slot.shot] || labelText("卖点要求")), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "text",
+      "aria-label": labelText("镜头 {0} 的卖点要求", slot.shot),
+      value: notes[slot.shot],
+      maxLength: 200,
+      placeholder: labelText("例如 展示产品实际使用效果"),
+      onChange: (event) => setRequirements({ ...requirements, [slot.shot]: event.target.value })
+    }
+  ))))), /* @__PURE__ */ j.createElement("form", { className: "project-tool-line", onSubmit: async (event) => {
+    event.preventDefault();
+    if (await tool.run("template_save", { name, requirements: notes })) {
+      setName("");
+      setRequirements({});
+    }
+  } }, /* @__PURE__ */ j.createElement("label", { className: "tool-field grow" }, /* @__PURE__ */ j.createElement("span", null, labelText("模板名")), /* @__PURE__ */ j.createElement("input", { value: name, maxLength: 60, placeholder: labelText("例如 日区 15 秒商品展示"), onChange: (event) => setName(event.target.value) })), /* @__PURE__ */ j.createElement(D, { type: "submit", disabled: locked || !name.trim() }, labelText("保存参考模板"))), data.presets.map((item) => /* @__PURE__ */ j.createElement("div", { className: "project-history-row", key: item.id }, /* @__PURE__ */ j.createElement("span", null, item.name), /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: locked, onClick: async () => {
+    if (await tool.run("template_open", { id: item.id })) close();
+  } }, labelText("打开模板项目"))))));
+}
+function ProjectVersions({ project, command, disabled }) {
+  const tool = useProjectTool(project, command, "version_list");
+  const [name, setName] = j.useState("");
+  const data = tool.result;
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("保存当前剪辑、替换素材、字幕和音轨，可随时切回这个版本。")), /* @__PURE__ */ j.createElement("form", { className: "project-tool-line", onSubmit: async (event) => {
+    event.preventDefault();
+    if (await tool.run("version_save", { name })) setName("");
+  } }, /* @__PURE__ */ j.createElement("label", { className: "tool-field grow" }, /* @__PURE__ */ j.createElement("span", null, labelText("版本名")), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      maxLength: 60,
+      value: name,
+      onChange: (event) => setName(event.target.value),
+      placeholder: labelText("例如 A 版 · 快节奏")
+    }
+  )), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", disabled: disabled || tool.busy || !name.trim() }, labelText("保存当前版本"))), data?.versions.map((version) => /* @__PURE__ */ j.createElement("div", { className: "project-history-row", key: version.id }, /* @__PURE__ */ j.createElement("div", null, /* @__PURE__ */ j.createElement("strong", null, version.name), /* @__PURE__ */ j.createElement("time", null, version.saved.replace("T", " "))), /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: disabled || tool.busy, onClick: () => tool.run("version_restore", { id: version.id }) }, labelText("恢复此版本")))), /* @__PURE__ */ j.createElement("h3", { className: "project-tool-subheading" }, labelText("导出记录")), data?.exports.length ? data.exports.map((row) => /* @__PURE__ */ j.createElement("div", { className: "project-history-row", key: row.id }, /* @__PURE__ */ j.createElement("span", null, row.name), /* @__PURE__ */ j.createElement(D, { kind: "ghost", icon: qe, onClick: () => command("version_open_export", { project: project.id, id: row.id }) }, row.video ? labelText("打开成片") : row.folder ? labelText("打开文件夹") : labelText("打开文件")))) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("暂时没有导出记录。")));
+}
+function ClipTrackEditor({ project, shot, time, command, close, disabled, initialAudio }) {
+  const [tab, setTab] = j.useState(initialAudio ? "audio" : "clip");
+  const [edited, setEdited] = j.useState(null);
+  const [audioId, setAudioId] = j.useState(initialAudio || "");
+  const [busy, setBusy] = j.useState(false);
+  const [names, setNames] = j.useState(null);
+  const clips = project.timeline || project.shots;
+  const active = clips.find((item) => item.id === shot?.id) || clips[0];
+  const position = clips.indexOf(active);
+  const locked = disabled || busy;
+  const range = edited || { first: active?.first ?? 0, last: active?.last ?? active?.duration };
+  const audio = project.timeline_audio.find((item) => item.id === audioId) || project.timeline_audio[0];
+  const audioDraft = names?.id === audio?.id ? names : audio;
+  async function run(action, data) {
+    setBusy(true);
+    try {
+      return await command(action, { project: project.id, ...data });
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function placement(operation, data = {}) {
+    if (await run("timeline_edit", { clip: active.id, operation, ...data })) {
+      setEdited(null);
+      close();
+    }
+  }
+  const number = (value) => Number(value);
+  return /* @__PURE__ */ j.createElement(WorkspaceModal, { open: true, onClose: close, title: labelText("轨道编辑"), className: "clip-track-editor" }, /* @__PURE__ */ j.createElement(ProjectToolTabs, { tabs: [["clip", labelText("画面")], ["audio", labelText("配乐与配音")]], tab, setTab }), /* @__PURE__ */ j.createElement("div", { className: "project-toolkit-body" }, tab === "clip" ? active ? /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "project-tool-line track-clip-tools" }, /* @__PURE__ */ j.createElement("strong", null, labelText("镜头 {0}", position + 1), " · ", kt(active.start, true)), /* @__PURE__ */ j.createElement(D, { disabled: locked || position === 0, onClick: () => placement("earlier") }, labelText("前移")), /* @__PURE__ */ j.createElement(D, { disabled: locked || position === clips.length - 1, onClick: () => placement("later") }, labelText("后移")), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      icon: mu,
+      disabled: locked || time <= active.start + 0.04 || time >= active.end - 0.04,
+      onClick: () => placement("split", { time })
+    },
+    labelText("在播放头分割")
+  )), /* @__PURE__ */ j.createElement("form", { className: "project-tool-line", onSubmit: (event) => {
+    event.preventDefault();
+    placement("trim", { first: number(range.first), last: number(range.last) });
+  } }, [["first", labelText("镜头内入点（秒）")], ["last", labelText("镜头内出点（秒）")]].map(([key, label]) => /* @__PURE__ */ j.createElement("label", { className: "tool-field", key }, /* @__PURE__ */ j.createElement("span", null, label), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "number",
+      required: true,
+      min: "0",
+      max: active.original_duration ?? active.duration,
+      step: "0.001",
+      value: range[key],
+      onChange: (event) => setEdited({ ...range, [key]: event.target.value })
+    }
+  ))), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", disabled: locked || !edited }, labelText("应用修剪")))) : /* @__PURE__ */ j.createElement("p", { className: "field-hint" }, labelText("分镜轨道为空。")) : /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement("div", { className: "project-tool-line" }, [["music", labelText("添加配乐")], ["voice", labelText("添加配音 / 音效")]].map(([lane, label]) => /* @__PURE__ */ j.createElement(
+    D,
+    {
+      icon: Hi,
+      key: lane,
+      disabled: locked,
+      onClick: async () => {
+        const result = await run("timeline_audio_pick", { lane, time });
+        if (result) setAudioId(result.id);
+      }
+    },
+    label
+  ))), audio && /* @__PURE__ */ j.createElement("form", { className: "audio-clip-form", onSubmit: async (event) => {
+    event.preventDefault();
+    if (await run("timeline_audio_save", {
+      id: audio.id,
+      start: number(audioDraft.start),
+      first: number(audioDraft.first),
+      last: number(audioDraft.last),
+      volume: number(audioDraft.volume)
+    })) setNames(null);
+  } }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("音频片段")), /* @__PURE__ */ j.createElement("select", { value: audio.id, onChange: (event) => {
+    setAudioId(event.target.value);
+    setNames(null);
+  } }, project.timeline_audio.map((item) => /* @__PURE__ */ j.createElement("option", { key: item.id, value: item.id }, item.name)))), /* @__PURE__ */ j.createElement("div", { className: "project-tool-line" }, [
+    ["start", labelText("时间线位置（秒）"), project.timeline?.at(-1)?.end],
+    ["first", labelText("音频入点（秒）"), audio.duration],
+    ["last", labelText("音频出点（秒）"), audio.duration],
+    ["volume", labelText("音量 %"), 100]
+  ].map(([key, label, max]) => /* @__PURE__ */ j.createElement("label", { className: "tool-field", key }, /* @__PURE__ */ j.createElement("span", null, label), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "number",
+      required: true,
+      min: "0",
+      max,
+      step: key === "volume" ? 1 : 1e-3,
+      value: audioDraft[key],
+      onChange: (event) => setNames({ ...audioDraft, [key]: event.target.value })
+    }
+  )))), /* @__PURE__ */ j.createElement("div", { className: "project-tool-line" }, /* @__PURE__ */ j.createElement(D, { kind: "ghost", disabled: locked, onClick: () => run("timeline_audio_save", { id: audio.id, remove: true }) }, labelText("移除此片段")), /* @__PURE__ */ j.createElement(D, { type: "submit", kind: "primary", disabled: locked }, labelText("保存音频位置和音量")))))));
+}
+function timelineExtraLanes(audio, video, tracks) {
+  const rows = [["music", labelText("配乐轨")], ["voice", labelText("配音轨")]].map(([id, label]) => ({ id, label, kind: "audio", items: audio.filter((item) => item.lane === id) })).filter((track) => track.items.length);
+  const totals = { audio: 0, video: 0 };
+  for (const track of tracks) {
+    const number = ++totals[track.kind];
+    const label = labelText(track.kind === "video" ? labelText("视频轨 {0}") : labelText("音频轨 {0}"), number);
+    const items = (track.kind === "video" ? video : audio).filter((item) => item.lane === track.id);
+    rows.push({ ...track, label, items, custom: true });
+  }
+  return rows;
+}
+function ExtraTimelineTracks({ rows, duration, labels, edit, editor }) {
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, rows.map((track) => {
+    const icon = track.kind === "video" ? $t : Xa;
+    const add = () => editor.addMedia(track);
+    const canAdd = track.custom && editor.hasVideo && !editor.disabled;
+    const label = labelText("添加素材到 {0}", track.label);
+    return labels ? /* @__PURE__ */ j.createElement("div", { key: track.id, className: "timeline-track-label timeline-audio-extra-label", "data-user-track": track.custom ? track.id : void 0 }, j.createElement(icon, { size: 14 }), /* @__PURE__ */ j.createElement("span", { title: track.label }, track.label), track.custom && /* @__PURE__ */ j.createElement(St, { icon: Hi, disabled: !canAdd, label, onClick: add })) : /* @__PURE__ */ j.createElement(
+      "div",
+      {
+        key: track.id,
+        className: "timeline-audio-extra" + (track.kind === "video" ? " timeline-video-extra" : ""),
+        "aria-label": track.label,
+        "data-timeline-lane": track.id
+      },
+      track.items.map((item) => /* @__PURE__ */ j.createElement(
+        TimelineMediaClip,
+        {
+          key: item.id,
+          item,
+          duration,
+          editor,
+          peers: track.items,
+          open: edit,
+          kind: track.kind
+        }
+      )),
+      !track.items.length && /* @__PURE__ */ j.createElement(
+        "button",
+        {
+          className: "timeline-add-media",
+          type: "button",
+          disabled: !canAdd,
+          onClick: add,
+          "aria-label": label
+        },
+        /* @__PURE__ */ j.createElement(Hi, { size: 13 }),
+        labelText("添加素材")
+      )
+    );
+  }), editor.addTrack && (labels ? /* @__PURE__ */ j.createElement("div", { className: "timeline-track-label timeline-add-track" }, /* @__PURE__ */ j.createElement(Hi, { size: 14 }), /* @__PURE__ */ j.createElement(
+    "select",
+    {
+      "aria-label": labelText("添加轨道"),
+      value: "",
+      disabled: editor.disabled,
+      onChange: async (event) => {
+        const select = event.currentTarget;
+        if (await editor.addTrack(select.value)) requestAnimationFrame(() => select.scrollIntoView({ block: "nearest" }));
+      }
+    },
+    /* @__PURE__ */ j.createElement("option", { value: "" }, labelText("添加轨道")),
+    /* @__PURE__ */ j.createElement("option", { value: "video" }, labelText("视频轨")),
+    /* @__PURE__ */ j.createElement("option", { value: "audio" }, labelText("音频轨")),
+    /* @__PURE__ */ j.createElement("option", { value: "caption" }, labelText("字幕轨"))
+  )) : /* @__PURE__ */ j.createElement("div", { className: "timeline-add-track-lane", "data-timeline-lane": "new-track", "aria-hidden": "true" })));
+}
+function labelText(key, ...values) {
+  if (typeof key !== "string") return key;
+  const language = document.documentElement.lang;
+  const primary = interfaceDictionary[language]?.[key] ?? key;
+  return values.length ? primary.replace(/\{(\d+)\}/g, (match, index) => values[index] ?? match) : primary;
+}
+function useInterfacePreferences(settings) {
+  if (settings?.ui_language) document.documentElement.lang = settings.ui_language;
+  const mode = settings?.color_mode;
+  j.useLayoutEffect(() => {
+    if (!mode) return;
+    const system = matchMedia("(prefers-color-scheme: light)");
+    const apply = () => {
+      const light = mode === "light" || mode === "system" && system.matches;
+      document.documentElement.dataset.theme = light ? "light" : "dark";
+      document.querySelector('meta[name="color-scheme"]')?.setAttribute("content", light ? "light" : "dark");
+    };
+    apply();
+    if (mode === "system") {
+      system.addEventListener("change", apply);
+      return () => system.removeEventListener("change", apply);
+    }
+  }, [mode]);
+}
+function InterfaceSettings({ settings, command }) {
+  const languages = [["zh-CN", "简体中文"], ["zh-TW", "繁體中文"], ["en", "English"], ["ja", "日本語"], ["es", "Español"]];
+  const modes = [["dark", labelText("深色")], ["light", labelText("浅色")], ["system", labelText("跟随系统")]];
+  const [switching, setSwitching] = j.useState(false);
+  async function change(field, value) {
+    setSwitching(true);
+    try {
+      await command("interface_preferences", { [field]: value });
+    } finally {
+      setSwitching(false);
+    }
+  }
+  return /* @__PURE__ */ j.createElement("section", { className: "settings-card" }, /* @__PURE__ */ j.createElement("h4", null, labelText("界面与外观")), /* @__PURE__ */ j.createElement("div", { className: "settings-fields-grid" }, /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("界面语言")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("界面语言"), value: settings.ui_language, disabled: switching, onChange: (event) => change("ui_language", event.target.value) }, languages.map(([code, native]) => /* @__PURE__ */ j.createElement("option", { value: code, key: code }, native)))), /* @__PURE__ */ j.createElement("label", { className: "tool-field" }, /* @__PURE__ */ j.createElement("span", null, labelText("颜色模式")), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("颜色模式"), value: settings.color_mode, disabled: switching, onChange: (event) => change("color_mode", event.target.value) }, modes.map(([mode, label]) => /* @__PURE__ */ j.createElement("option", { value: mode, key: mode }, label))))));
+}
+function timelineRulerTicks(duration, width, density, precise) {
+  const labelWidth = (text) => text.length * 7 + 3;
+  const labelGap = 6;
+  const capacity = width / (labelWidth(kt(duration, precise)) + labelGap);
+  let nextLabelStart = 0;
+  return bN(duration, Math.min(density, Math.max(1, capacity) / 7)).map((time) => {
+    const text = kt(time, precise);
+    const tickX = time / duration * width;
+    const span = labelWidth(text);
+    const alignRight = tickX + span > width;
+    const start = alignRight ? tickX - span : tickX;
+    const showLabel = start >= nextLabelStart;
+    if (showLabel) nextLabelStart = start + span + labelGap;
+    return { time, alignRight, label: showLabel ? text : "" };
+  });
+}
+function TimelineEditActions({ editor }) {
+  return /* @__PURE__ */ j.createElement("div", { className: "timeline-edit-actions", role: "group", "aria-label": labelText("时间线剪辑") }, /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      icon: Xl,
+      disabled: !editor.canSplit,
+      "aria-keyshortcuts": "Control+B",
+      title: labelText("在播放头分割（Ctrl+B）"),
+      onClick: editor.split
+    },
+    labelText("分割")
+  ), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      disabled: !editor.canDelete,
+      "aria-keyshortcuts": "Backspace Delete",
+      title: labelText("删除所选片段（Backspace）"),
+      onClick: editor.remove
+    },
+    labelText("删除")
+  ), editor.setMagnet && /* @__PURE__ */ j.createElement(j.Fragment, null, /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      className: "timeline-option",
+      "aria-pressed": editor.magnetic,
+      title: labelText("开关主轨磁吸。开启时让分镜首尾相接。"),
+      disabled: editor.disabled,
+      onClick: editor.setMagnet
+    },
+    labelText("主轨磁吸")
+  ), /* @__PURE__ */ j.createElement(
+    D,
+    {
+      kind: "ghost",
+      className: "timeline-option",
+      "aria-pressed": editor.snapping,
+      title: labelText("拖动时对齐附近的片段边缘和播放头。"),
+      disabled: editor.disabled,
+      onClick: editor.toggleSnap
+    },
+    labelText("自动吸附")
+  )));
+}
+function timelineEditShortcut(event, editor, dragging) {
+  if (dragging || event.defaultPrevented || event.nativeEvent.isComposing || event.keyCode === 229 || event.repeat || event.metaKey || event.altKey || event.target.closest("select, [role=listbox], [role=menu], [role=dialog]") || isEditingText(event.target)) return;
+  if (event.ctrlKey && !event.shiftKey && event.key.toLowerCase() === "b" && editor.canSplit) {
+    event.preventDefault();
+    editor.split();
+  } else if (!event.ctrlKey && !event.shiftKey && ["Backspace", "Delete"].includes(event.key) && editor.canDelete) {
+    event.preventDefault();
+    editor.remove();
+  }
+}
+function timelineMs(value) {
+  return Math.round(value * 1e3) / 1e3;
+}
+function timelineInterval(item) {
+  return { id: item.id, start: item.start, end: item.end ?? timelineMs(item.start + item.last - item.first) };
+}
+function timelineBoundaries(item, occupied, limit) {
+  let before = 0, after = limit;
+  for (const peer of occupied) {
+    if (peer.end <= item.start) before = Math.max(before, peer.end);
+    if (peer.start >= item.end) after = Math.min(after, peer.start);
+  }
+  return { before, after };
+}
+function timelinePlacementStart(target, length, occupied, limit) {
+  let cursor = 0, choice = null, distance = Infinity;
+  const ranges = occupied.filter((peer) => peer.start < limit).sort((a, b3) => a.start - b3.start);
+  for (const { start, end } of [...ranges, { start: limit, end: limit }]) {
+    const last = timelineMs(start - length);
+    if (cursor <= last) {
+      const candidate = Math.min(last, Math.max(cursor, target));
+      const shift = timelineMs(Math.abs(candidate - target));
+      if (shift === 0) return candidate;
+      if (shift < distance) {
+        choice = candidate;
+        distance = shift;
+      }
+    }
+    cursor = Math.max(cursor, end);
+  }
+  return choice;
+}
+function timelineTrimRange(bounds, edge, delta, limit) {
+  const between = (value, min, max) => Math.min(Math.max(value, min), max);
+  const { first, last, start, minFirst, maxLast, minLength } = bounds;
+  if (edge === "move") return { first, last, start: timelineMs(between(start + delta, 0, limit - (last - first))) };
+  const nextFirst = edge === "start" ? timelineMs(between(first + delta, minFirst, last - minLength)) : first;
+  return {
+    first: nextFirst,
+    last: edge === "end" ? timelineMs(between(last + delta, first + minLength, maxLast)) : last,
+    start: timelineMs(Math.max(0, start + nextFirst - first))
+  };
+}
+function timelineMagneticLayout(clips, id, edge, range) {
+  const length = timelineMs(range.last - range.first);
+  const changed = { id, duration: length };
+  let order = clips.map((clip) => clip.id === id ? changed : clip);
+  if (edge === "move") {
+    order = clips.filter((clip) => clip.id !== id);
+    let target = 0, start2 = 0;
+    for (const clip of order) {
+      if (range.start < start2 + clip.duration / 2) break;
+      target++;
+      start2 = timelineMs(start2 + clip.duration);
+    }
+    order.splice(target, 0, changed);
+  }
+  let start = 0;
+  return new Map(order.map((clip, index) => {
+    const placement = { start, end: timelineMs(start + clip.duration), position: index + 1 };
+    start = placement.end;
+    return [clip.id, placement];
+  }));
+}
+function timelineDragPlan(bounds, edge, delta, { id, peers, editor, main, tolerance = 0, limit = 1e5 }) {
+  const magnetic = main && editor.magnetic;
+  const occupied = peers.filter((peer) => peer.id !== id).map(timelineInterval);
+  const anchor = timelineMs(bounds.start - bounds.first);
+  const edges = (range2) => [range2.start, timelineMs(range2.start + range2.last - range2.first)];
+  const original = { start: bounds.start, end: edges(bounds)[1] };
+  const { before, after } = timelineBoundaries(original, occupied, limit);
+  const trim = magnetic ? bounds : {
+    ...bounds,
+    minFirst: Math.max(bounds.minFirst, timelineMs(before - anchor)),
+    maxLast: Math.min(bounds.maxLast, timelineMs(after - anchor))
+  };
+  function resolve(shift) {
+    const range2 = timelineTrimRange(trim, edge, shift, limit);
+    if (edge === "move" && !magnetic) {
+      range2.start = timelinePlacementStart(range2.start, timelineMs(range2.last - range2.first), occupied, limit);
+      if (range2.start === null) return null;
+    }
+    return range2;
+  }
+  let range = resolve(delta), guide = null;
+  if (!range) return null;
+  if (editor.snapping && tolerance > 0) {
+    const wanted = edges(timelineTrimRange(bounds, edge, delta, limit));
+    const candidates = [];
+    for (const point of editor.snapPoints) {
+      if (point.id === id) continue;
+      for (const side of edge === "move" ? [0, 1] : [edge === "start" ? 0 : 1]) {
+        const shift = point.time - wanted[side];
+        if (Math.abs(shift) <= tolerance) candidates.push({ point, shift, side });
+      }
+    }
+    const sameLane = new Set(occupied.map((peer) => peer.id));
+    candidates.sort((a, b3) => Number(sameLane.has(b3.point.id)) - Number(sameLane.has(a.point.id)) || Math.abs(a.shift) - Math.abs(b3.shift));
+    for (const { point, shift, side } of candidates) {
+      const snapped = resolve(delta + shift);
+      if (!snapped || Math.abs(edges(snapped)[side] - point.time) > 5e-4) continue;
+      range = snapped;
+      guide = point.time;
+      break;
+    }
+  }
+  const clips = magnetic ? timelineMagneticLayout(editor.mainClips, id, edge, range) : null;
+  if (clips && guide !== null) guide = edge === "end" ? clips.get(id).end : clips.get(id).start;
+  return { range, clips, guide };
+}
+function timelineSnapPoints(clips, tracks, audio, video, captions, time) {
+  const points = [{ time: 0 }, { time: timelineMs(time) }];
+  for (const item of [...clips, ...tracks.flatMap((track) => track.items || []), ...audio, ...video, ...captions]) {
+    const { id, start, end } = timelineInterval(item);
+    points.push({ id, time: timelineMs(start) }, { id, time: timelineMs(end) });
+  }
+  return points;
+}
+function timelineDropTarget(item, editor, kind) {
+  const row = document.elementFromPoint(item.point.x, item.point.y)?.closest("[data-timeline-lane]");
+  if (row === item.row) return { row };
+  if (!row || !item.track.contains(row) || !kind) return null;
+  const lane = row.dataset.timelineLane;
+  if (lane === "new-track") return { row, lane, peers: [] };
+  const target = editor.laneById.get(lane);
+  return target?.kind === kind ? { row, lane, peers: target.items } : null;
+}
+function sourceTimelineLane(track) {
+  return "source:" + track.id + ":" + (track.row || 0);
+}
+function scrollTimelineAtPointer({ point, content, panel }) {
+  const bounds = content.getBoundingClientRect();
+  const panelBounds = panel.getBoundingClientRect();
+  const top = Math.max(bounds.top, panelBounds.top + panel.querySelector(".timeline-head").offsetHeight);
+  const bottom = Math.min(bounds.bottom, panelBounds.bottom);
+  if (point.x < bounds.left || point.x >= bounds.right || point.y < top || point.y >= bottom) return false;
+  function velocity(position, first, last) {
+    const zone = Math.min(30, (last - first) / 3);
+    if (position < first + zone) return -Math.ceil((first + zone - position) * 0.5);
+    if (position > last - zone) return Math.ceil((position - last + zone) * 0.5);
+    return 0;
+  }
+  const left = content.scrollLeft, y3 = panel.scrollTop;
+  content.scrollLeft += velocity(point.x, bounds.left, bounds.right);
+  const captions = document.elementFromPoint(point.x, point.y)?.closest(".manual-caption-lane");
+  if (captions) {
+    const rowBounds = captions.getBoundingClientRect();
+    const before = captions.scrollTop;
+    captions.scrollTop += velocity(point.y, Math.max(top, rowBounds.top), Math.min(bottom, rowBounds.bottom));
+    if (before !== captions.scrollTop) return true;
+  }
+  panel.scrollTop += velocity(point.y, top, bottom);
+  return left !== content.scrollLeft || y3 !== panel.scrollTop;
+}
+function useTimelineDrag({ id, bounds, duration, editor, peers, main, kind, limit, ghost, select, commit, step }) {
+  const drag = j.useRef(null);
+  const [draft, updateDraft] = j.useState(null);
+  const pending = draft?.range || bounds;
+  const { disabled, pause, setDragPreview } = editor;
+  function preview(plan, floating = null) {
+    updateDraft(plan || floating ? { range: plan?.lane ? null : plan?.range, floating: !!floating } : null);
+    setDragPreview(plan || floating ? { guide: plan?.guide, clips: plan?.clips, slot: plan?.slot, floating } : null);
+  }
+  async function finish(edge, plan) {
+    const range = plan?.range;
+    const changed = range && (plan.lane || Object.keys(range).some((key) => range[key] !== bounds[key]));
+    if (!changed) {
+      preview(null);
+      return select();
+    }
+    preview(edge === "move" ? { ...plan, slot: null, guide: null } : plan);
+    try {
+      const save = plan.lane ? { ...range, lane: plan.lane } : range;
+      return await commit(save, edge === "move" ? "move" : "trim", edge);
+    } finally {
+      preview(null);
+    }
+  }
+  function stop(item) {
+    drag.current = null;
+    cancelAnimationFrame(item.frame);
+    item.cleanup();
+  }
+  function cancel() {
+    const item = drag.current;
+    if (!item) return;
+    stop(item);
+    if (item.element.hasPointerCapture(item.id)) item.element.releasePointerCapture(item.id);
+    preview(null);
+  }
+  j.useEffect(() => () => {
+    if (drag.current) stop(drag.current);
+  }, []);
+  j.useEffect(() => {
+    if (disabled) cancel();
+  }, [disabled]);
+  function placement(item) {
+    const moving = item.edge === "move";
+    const target = moving ? timelineDropTarget(item, editor, kind) : { row: item.row };
+    if (!target) return null;
+    const track = item.track.getBoundingClientRect();
+    const scale = item.duration / track.width;
+    const shift = (item.point.x - track.left - item.offset) * scale;
+    const plan = timelineDragPlan(item.bounds, item.edge, shift, {
+      id,
+      peers: target.peers || peers,
+      editor,
+      main: target.lane ? target.lane === "main" : main,
+      limit,
+      tolerance: Math.min(0.22, 8 * scale)
+    });
+    if (!plan) return null;
+    if (!moving) return plan;
+    const row = target.row.getBoundingClientRect();
+    const start = plan.clips?.get(id).start ?? plan.range.start;
+    return { ...plan, lane: target.lane, slot: {
+      start,
+      end: timelineMs(start + plan.range.last - plan.range.first),
+      top: row.top - track.top + (target.lane ? 2 : item.inset),
+      height: target.lane ? row.height - 4 : item.height
+    } };
+  }
+  function queuePreview(item) {
+    if (item.frame) return;
+    item.frame = requestAnimationFrame(() => {
+      item.frame = 0;
+      if (drag.current !== item) return;
+      const scrolling = scrollTimelineAtPointer(item);
+      const plan = placement(item);
+      const floating = item.edge === "move" ? {
+        ...ghost,
+        height: item.height,
+        width: item.width,
+        x: item.point.x - item.grabX,
+        y: item.point.y - item.grabY,
+        valid: !!plan
+      } : null;
+      preview(plan, floating);
+      if (scrolling) queuePreview(item);
+    });
+  }
+  function handle(edge) {
+    return {
+      onPointerDown(event) {
+        if (disabled || event.button !== 0 || !event.isPrimary || drag.current) return;
+        const element = event.currentTarget;
+        const row = element.closest("[data-timeline-lane]");
+        const track = row?.closest(".track");
+        if (!track) return;
+        const box = element.closest("[data-timeline-clip]").getBoundingClientRect();
+        const point = { x: event.clientX, y: event.clientY };
+        const width = Math.min(440, Math.max(24, box.width));
+        event.preventDefault();
+        event.stopPropagation();
+        element.focus({ preventScroll: true });
+        element.setPointerCapture(event.pointerId);
+        function cancelGesture(key) {
+          if (key.key !== "Escape" && !(drag.current?.moved && key.ctrlKey && key.key.toLowerCase() === "z")) return;
+          key.preventDefault();
+          key.stopPropagation();
+          cancel();
+        }
+        window.addEventListener("keydown", cancelGesture, true);
+        window.addEventListener("blur", cancel);
+        drag.current = {
+          id: event.pointerId,
+          edge: event.target.dataset.edge || edge,
+          element,
+          row,
+          track,
+          bounds,
+          duration,
+          content: track.parentElement,
+          panel: track.closest(".timeline"),
+          point,
+          initial: point,
+          frame: 0,
+          moved: false,
+          offset: point.x - track.getBoundingClientRect().left,
+          inset: box.top - row.getBoundingClientRect().top,
+          width,
+          height: box.height,
+          grabX: (point.x - box.left) * width / box.width,
+          grabY: point.y - box.top,
+          cleanup: () => {
+            window.removeEventListener("keydown", cancelGesture, true);
+            window.removeEventListener("blur", cancel);
+          }
+        };
+      },
+      onPointerMove(event) {
+        const item = drag.current;
+        if (!item || item.id !== event.pointerId || disabled) return;
+        if (!item.moved) {
+          const x = Math.abs(event.clientX - item.initial.x);
+          const y3 = item.edge === "move" ? Math.abs(event.clientY - item.initial.y) : 0;
+          if (Math.max(x, y3) < 3) return;
+          item.moved = true;
+          pause();
+        }
+        item.point = { x: event.clientX, y: event.clientY };
+        queuePreview(item);
+      },
+      onPointerUp(event) {
+        const item = drag.current;
+        if (!item || item.id !== event.pointerId) return;
+        stop(item);
+        item.point = { x: event.clientX, y: event.clientY };
+        const plan = item.moved && !disabled ? placement(item) : null;
+        if (disabled || item.moved && !plan) preview(null);
+        else void finish(item.edge, plan);
+      },
+      onPointerCancel: (event) => {
+        if (drag.current?.id === event.pointerId) cancel();
+      },
+      onLostPointerCapture: (event) => {
+        if (drag.current?.id === event.pointerId) cancel();
+      },
+      onKeyDown(event) {
+        if (disabled || event.ctrlKey || event.altKey || event.metaKey || !["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+        event.preventDefault();
+        const direction = event.key === "ArrowLeft" ? -1 : 1;
+        if (edge === "move" && step && editor.magnetic) return step(direction);
+        const delta = direction * (event.shiftKey ? 0.25 : 0.05);
+        pause();
+        void finish(edge, timelineDragPlan(bounds, edge, delta, { id, peers, editor, main, limit }));
+      }
+    };
+  }
+  return {
+    ...pending,
+    end: timelineMs(pending.start + pending.last - pending.first),
+    trimming: !!draft && !draft.floating,
+    moving: !!draft?.floating,
+    handle
+  };
+}
+function TimelineEdgeGrips({ gesture, selected, disabled }) {
+  if (disabled) return null;
+  return ["start", "end"].map((edge) => {
+    const label = edge === "start" ? labelText("拖动左端修剪") : labelText("拖动右端修剪");
+    return /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        key: edge,
+        type: "button",
+        className: "timeline-trim-grip " + edge,
+        tabIndex: selected ? 0 : -1,
+        "aria-label": label,
+        title: label,
+        "aria-keyshortcuts": "ArrowLeft ArrowRight",
+        ...gesture.handle(edge)
+      }
+    );
+  });
+}
+function timelineClipStyle(start, end, duration) {
+  const left = Math.max(0, start / duration * 100);
+  return { left: left + "%", width: Math.max(0, Math.min(100 - left, (end - start) / duration * 100)) + "%" };
+}
+function TimelineDragOverlay({ preview, duration }) {
+  const { slot, floating } = preview || {};
+  return /* @__PURE__ */ j.createElement(j.Fragment, null, slot && /* @__PURE__ */ j.createElement("div", { "aria-hidden": "true", className: "timeline-drop-slot", style: {
+    ...timelineClipStyle(slot.start, slot.end, duration),
+    top: slot.top,
+    height: slot.height
+  } }), floating && jA.createPortal(
+    /* @__PURE__ */ j.createElement(
+      "div",
+      {
+        "aria-hidden": "true",
+        className: "timeline-drag-ghost " + floating.type + (floating.valid ? "" : " blocked"),
+        style: { transform: "translate3d(" + floating.x + "px," + floating.y + "px,0)", width: floating.width, height: floating.height }
+      },
+      floating.shot && /* @__PURE__ */ j.createElement(ShotThumbnail, { shot: floating.shot }),
+      floating.waveform && /* @__PURE__ */ j.createElement(
+        TimelineWaveform,
+        {
+          waveform: floating.waveform,
+          first: floating.first,
+          last: floating.last
+        }
+      ),
+      /* @__PURE__ */ j.createElement("span", null, floating.label)
+    ),
+    document.body
+  ));
+}
+function TimelineMediaClip({ item, duration, editor, peers, open, kind, waveform, sourceTrack }) {
+  const video = kind === "video";
+  const type = sourceTrack ? "source-audio" : video ? "video-layer" : "audio";
+  const selected = editor.target?.kind === type && editor.target.id === item.id;
+  const bounds = {
+    start: item.start,
+    first: item.first,
+    last: item.last,
+    minFirst: Math.max(0, item.first - item.start),
+    maxLast: Math.min(item.original_duration ?? item.duration, item.first + 1e5 - item.start),
+    minLength: Math.min(0.04, item.last - item.first)
+  };
+  const ownWaveform = useItemWaveform(item.waveform);
+  const peaks = item.waveform ? ownWaveform : waveform;
+  const gesture = useTimelineDrag({
+    id: item.id,
+    bounds,
+    duration,
+    editor,
+    peers,
+    kind,
+    ghost: { type: kind, label: item.name, shot: video ? item : void 0, waveform: peaks, first: item.first, last: item.last },
+    select: () => editor.selectMedia(item, type),
+    commit: (range, operation) => editor.editMedia(item, type, operation, range)
+  });
+  const style = sourceTrack ? "source-waveform-clip" : video ? "timeline-layer-clip" : "timeline-audio-clip";
+  return /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      "data-timeline-clip": true,
+      className: "timeline-editable-item " + (sourceTrack ? "timeline-source-item" : "timeline-audio-item") + (selected ? " selected" : "") + (gesture.trimming ? " trimming" : "") + (gesture.moving ? " timeline-drag-origin" : ""),
+      style: timelineClipStyle(gesture.start, gesture.end, duration)
+    },
+    /* @__PURE__ */ j.createElement(
+      "button",
+      {
+        type: "button",
+        className: style + " timeline-movable",
+        "aria-label": item.name,
+        title: item.name + " · " + kt(gesture.start, true) + " – " + kt(gesture.end, true),
+        "data-audio-id": video || sourceTrack ? void 0 : item.id,
+        "data-video-layer": video ? item.id : void 0,
+        "data-source-clip": sourceTrack ? item.id : void 0,
+        "aria-pressed": selected,
+        "aria-keyshortcuts": "ArrowLeft ArrowRight Backspace Delete",
+        disabled: editor.disabled,
+        onClick: (event) => {
+          if (!event.detail) editor.selectMedia(item, type);
+        },
+        onDoubleClick: !video && !sourceTrack && open ? () => open(item.id) : void 0,
+        ...gesture.handle("move")
+      },
+      sourceTrack ? /* @__PURE__ */ j.createElement(TimelineWaveform, { waveform: peaks, first: gesture.first, last: gesture.last }) : /* @__PURE__ */ j.createElement(j.Fragment, null, video ? j.createElement($t, { size: 12 }) : /* @__PURE__ */ j.createElement(Xa, { size: 12 }), /* @__PURE__ */ j.createElement("span", null, item.name))
+    ),
+    /* @__PURE__ */ j.createElement(TimelineEdgeGrips, { gesture, selected, disabled: editor.disabled })
+  );
+}
+function useItemWaveform(url) {
+  const [result, setResult] = j.useState(null);
+  j.useEffect(() => {
+    if (!url) return;
+    const controller = new AbortController();
+    fetch(url, { signal: controller.signal }).then((response) => response.ok ? response.json() : null).then((data) => {
+      if (data && !controller.signal.aborted) setResult({ url, data });
+    }).catch(() => {
+    });
+    return () => controller.abort();
+  }, [url]);
+  return result?.url === url ? result?.data : null;
+}
+function observeTimelineWaveform(canvas, draw) {
+  const resize = new ResizeObserver(draw);
+  resize.observe(canvas);
+  const theme = new MutationObserver(draw);
+  theme.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  draw();
+  return () => {
+    resize.disconnect();
+    theme.disconnect();
+  };
+}
+function TimelineWaveform({ waveform, first, last }) {
+  const canvas = j.useRef(null);
+  j.useEffect(() => {
+    if (!waveform?.available) return;
+    const node = canvas.current;
+    const offset = Math.floor(first / waveform.interval);
+    const count = Math.ceil(last / waveform.interval) - offset;
+    const segment = { ...waveform, peaks: waveform.peaks.slice(offset, offset + count) };
+    return observeTimelineWaveform(node, () => gN(node, segment, last - first));
+  }, [waveform, first, last]);
+  return waveform?.available ? /* @__PURE__ */ j.createElement("canvas", { className: "audio-waveform", ref: canvas, "aria-hidden": "true" }) : null;
+}
+function splitTimelineAudioRows(tracks) {
+  return tracks.flatMap((track) => track.rows ? track.rows.map((items, row) => ({
+    ...track,
+    items,
+    row
+  })) : [track]);
+}
+function timelineAudioLabel(track) {
+  const label = labelText(track.label);
+  return track.row == null ? label : label + " " + (track.row + 1);
+}
+function SourceAudioTimeline({ track, waveform, ready, duration, muted, editor, seek }) {
+  const label = timelineAudioLabel(track);
+  return /* @__PURE__ */ j.createElement(
+    "div",
+    {
+      className: "audio-lane audio-editable-lane audio-lane--" + track.id + (muted ? " audio-muted" : ""),
+      "aria-label": label,
+      "data-track": track.id,
+      "data-waveform": ready,
+      "data-audio-row": track.row || 0,
+      "data-timeline-lane": sourceTimelineLane(track),
+      onClick: (event) => {
+        if (event.target !== event.currentTarget || editor.disabled) return;
+        const rect = event.currentTarget.getBoundingClientRect();
+        seek((event.clientX - rect.left) / rect.width * duration);
+      }
+    },
+    track.items.map((item) => /* @__PURE__ */ j.createElement(
+      TimelineMediaClip,
+      {
+        key: item.id,
+        sourceTrack: track.id,
+        waveform,
+        item: { ...item, name: item.name || label },
+        duration,
+        editor,
+        peers: track.items,
+        kind: "audio"
+      }
+    ))
+  );
+}
+function EmptyTimelinePreview() {
+  return /* @__PURE__ */ j.createElement("div", { className: "timeline-preview-pending" }, /* @__PURE__ */ j.createElement(Xl, { size: 25 }), /* @__PURE__ */ j.createElement("p", null, labelText("分镜轨道为空。")));
+}
+function useSpacePlayback(enabled, toggle) {
+  const action = j.useRef(toggle);
+  action.current = toggle;
+  j.useEffect(() => {
+    if (!enabled) return;
+    function handle(event) {
+      if (event.code !== "Space" || event.defaultPrevented || event.isComposing || event.keyCode === 229 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      const target = event.composedPath().find((node) => node instanceof Element);
+      if (isEditingText(target) || target?.closest(
+        "select, [role=dialog], [role=menu], [role=listbox], [role=combobox], .agent-panel, .agent-picker-menu, .agent-option-flyout"
+      )) return;
+      if (target?.closest("button:focus-visible") && !target.closest(".timeline-editable-item, .manual-caption-clip")) return;
+      event.preventDefault();
+      if (!event.repeat) action.current();
+    }
+    window.addEventListener("keydown", handle);
+    return () => window.removeEventListener("keydown", handle);
+  }, [enabled]);
+}
+function sourceMoment(clips, time, limit) {
+  const clip = previewShotAt(clips, time, limit);
+  if (!clip || clip.type === "media") return { clip: null, time: null };
+  const local = Math.max(0, Math.min(time - clip.start, clip.duration - 1e-3));
+  return { clip, time: (clip.source_start ?? clip.start) + local };
+}
+function layerAtTime(layers, time) {
+  return layers?.findLast((clip) => clip.start <= time && time < clip.start + clip.last - clip.first);
+}
+function useLiveTimeline({ enabled, player, project, source, onTime, tracks, mix }) {
+  const clips = project?.timeline || project?.shots || [];
+  const active = Boolean(enabled && source?.url && (clips.length || project?.timeline_video?.length));
+  const duration = source?.duration || 0;
+  const [playing, setPlaying] = j.useState(false);
+  const [volume, setVolume] = j.useState(1);
+  const [muted, setMuted] = j.useState(false);
+  const [originalMuted, setOriginalMuted] = j.useState(false);
+  const [rate, setRate] = j.useState(1);
+  const model = j.useRef(null);
+  model.current = { active, clips, project, tracks, mix, volume, muted, originalMuted, rate, duration, onTime };
+  const clock = j.useRef({ time: 0, clip: null, desired: null, playing: false, rangeEnd: null, scope: null, lastUpdate: 0, gapTick: 0 });
+  const scheduler = j.useRef(null);
+  const audio = j.useRef(/* @__PURE__ */ new Map());
+  function align() {
+    const video = player.current, cursor = clock.current;
+    if (cursor.desired === null || !video?.readyState || video.seeking) return;
+    const target = Math.min(cursor.desired, Number.isFinite(video.duration) ? video.duration : cursor.desired);
+    if (Math.abs(video.currentTime - target) > 6e-3) video.currentTime = target;
+    else cursor.desired = null;
+  }
+  function publish(time, force = false) {
+    const cursor = clock.current;
+    cursor.time = time;
+    if (!force && performance.now() - cursor.lastUpdate < 34) return;
+    cursor.lastUpdate = performance.now();
+    model.current.onTime(time);
+  }
+  function seek(time) {
+    const current = model.current, cursor = clock.current;
+    const next = Math.max(0, Math.min(current.duration, time));
+    const moment = sourceMoment(current.clips, next, current.duration);
+    cursor.clip = moment.clip;
+    cursor.desired = moment.time;
+    cursor.gapTick = performance.now();
+    publish(next, true);
+    align();
+    if (!moment.clip) player.current?.pause();
+    else if (cursor.playing) resumeVideo();
+    scheduler.current?.();
+  }
+  function pause() {
+    const cursor = clock.current;
+    cursor.playing = false;
+    cursor.rangeEnd = null;
+    player.current?.pause();
+    for (const { media } of audio.current.values()) media.pause();
+    setPlaying(false);
+    publish(cursor.time, true);
+  }
+  function play(end = null) {
+    const video = player.current, current = model.current, cursor = clock.current;
+    if (!video || !current.active) return;
+    if (cursor.time >= current.duration - 1e-3) seek(0);
+    cursor.playing = true;
+    cursor.rangeEnd = end;
+    cursor.gapTick = performance.now();
+    setPlaying(true);
+    resumeVideo();
+    scheduler.current?.();
+  }
+  function resumeVideo() {
+    const video = player.current;
+    if (!video?.paused || !clock.current.clip) return;
+    video.play().catch(() => {
+      if (player.current === video && video.paused && !video.seeking && clock.current.playing && clock.current.clip) pause();
+    });
+  }
+  function previewMix(video) {
+    const { tracks: tracks2, mix: mix2, project: project2, volume: volume2, muted: muted2, originalMuted: originalMuted2, rate: rate2 } = model.current;
+    const cursor = clock.current;
+    const master = muted2 ? 0 : volume2;
+    const original = mix2?.original;
+    const originalTrack = tracks2?.find((track) => track.id === "original");
+    video.volume = master * (original?.volume ?? 100) / 100;
+    video.muted = !cursor.clip || originalTrack?.detached || originalMuted2 || original?.enabled === false || master === 0;
+    video.playbackRate = rate2;
+    const pictureReady = !video.paused && !video.seeking && cursor.desired === null && video.readyState >= 2;
+    const audible = cursor.playing && (!cursor.clip || pictureReady) && master > 0;
+    const active2 = /* @__PURE__ */ new Set();
+    function sync(item, time, volume3) {
+      if (!item.url || volume3 <= 0 || time < 0) return;
+      active2.add(item.id);
+      const old = audio.current.get(item.id);
+      if (old?.url !== item.url) {
+        old?.media.pause();
+        const media2 = new Audio(item.url);
+        media2.preload = "auto";
+        audio.current.set(item.id, { url: item.url, media: media2 });
+      }
+      const entry = audio.current.get(item.id);
+      const media = entry.media;
+      media.volume = master * volume3 / 100;
+      media.playbackRate = rate2;
+      if (!audible || Number.isFinite(media.duration) && time >= media.duration) {
+        media.pause();
+        return;
+      }
+      if (media.readyState > 0 && !media.seeking && Math.abs(media.currentTime - time) > (media.paused ? 0.035 : 0.14)) {
+        media.currentTime = time;
+      }
+      if (media.paused && !entry.starting) {
+        entry.starting = true;
+        media.play().catch(() => {
+        }).finally(() => entry.starting = false);
+      }
+    }
+    for (const track of tracks2 || []) {
+      if (!mix2?.[track.id]?.enabled || track.id === "original" && (!track.detached || originalMuted2)) continue;
+      for (const item of track.items || []) {
+        const offset = cursor.time - item.start;
+        if (offset >= 0 && offset < item.last - item.first) sync({ ...item, url: item.url ?? track.url }, item.first + offset, item.volume * mix2[track.id].volume / 100);
+      }
+    }
+    for (const item of project2?.timeline_audio || []) {
+      const offset = cursor.time - item.start;
+      if (offset >= 0 && offset < item.last - item.first) sync(item, item.first + offset, item.volume);
+    }
+    for (const [id, entry] of audio.current) {
+      if (!active2.has(id)) {
+        entry.media.pause();
+        entry.media.removeAttribute("src");
+        entry.media.load();
+        audio.current.delete(id);
+      }
+    }
+  }
+  j.useLayoutEffect(() => {
+    if (!active) return;
+    const video = player.current, cursor = clock.current;
+    if (!video) return;
+    let request = 0;
+    const settings = { volume: video.volume, muted: video.muted, rate: video.playbackRate };
+    function tick() {
+      request = 0;
+      align();
+      const current = model.current;
+      const clip = cursor.clip;
+      const limit = cursor.rangeEnd === null ? current.duration : Math.min(cursor.rangeEnd, current.duration);
+      if (cursor.playing && !clip) {
+        const now = performance.now();
+        const nextTime = cursor.time + (now - cursor.gapTick) * current.rate / 1e3;
+        cursor.gapTick = now;
+        const following = current.clips.find((item) => item.start > cursor.time);
+        if (limit <= nextTime && (!following || limit <= following.start)) {
+          seek(limit);
+          pause();
+        } else if (following && nextTime >= following.start) {
+          seek(following.start);
+        } else {
+          publish(nextTime);
+        }
+      } else if (cursor.playing && clip && video.readyState && !video.seeking && cursor.desired === null) {
+        const reference = clip.source_start ?? clip.start;
+        const nextTime = clip.start + Math.max(0, video.currentTime - reference);
+        if (nextTime >= limit - 1e-3 || video.ended && clip.end >= limit - 1e-3) {
+          seek(limit);
+          pause();
+        } else if (nextTime >= clip.end - 1e-3 || video.ended) {
+          const next = current.clips.find((row) => row.start === clip.end);
+          const nextSource = next?.source_start ?? next?.start;
+          if (next && next.type !== "media" && !video.ended && Math.abs(nextSource - reference - clip.duration) < 6e-3) {
+            cursor.clip = next;
+            publish(next.start + Math.max(0, video.currentTime - nextSource), true);
+          } else {
+            seek(clip.end);
+          }
+        } else {
+          publish(nextTime);
+        }
+      }
+      previewMix(video);
+      if (cursor.playing) schedule();
+    }
+    function schedule() {
+      if (!request) request = requestAnimationFrame(tick);
+    }
+    function nativePause() {
+      if (!video.ended && cursor.playing && cursor.clip) pause();
+      schedule();
+    }
+    function nativePlay() {
+      cursor.playing = true;
+      setPlaying(true);
+      schedule();
+    }
+    const updates = ["loadedmetadata", "loadeddata", "seeked", "timeupdate", "ended", "waiting"];
+    updates.forEach((event) => video.addEventListener(event, schedule));
+    video.addEventListener("pause", nativePause);
+    video.addEventListener("play", nativePlay);
+    scheduler.current = schedule;
+    schedule();
+    return () => {
+      scheduler.current = null;
+      cancelAnimationFrame(request);
+      updates.forEach((event) => video.removeEventListener(event, schedule));
+      video.removeEventListener("pause", nativePause);
+      video.removeEventListener("play", nativePlay);
+      cursor.playing = false;
+      cursor.rangeEnd = null;
+      video.pause();
+      video.volume = settings.volume;
+      video.muted = settings.muted;
+      video.playbackRate = settings.rate;
+      setPlaying(false);
+      for (const { media } of audio.current.values()) {
+        media.pause();
+        media.removeAttribute("src");
+        media.load();
+      }
+      audio.current.clear();
+    };
+  }, [active, player, source?.url]);
+  j.useLayoutEffect(() => {
+    const cursor = clock.current;
+    if (!active) return;
+    const time = cursor.scope === project.id ? cursor.time : 0;
+    cursor.scope = project.id;
+    seek(time);
+  }, [active, project?.id, project?.timeline_revision, source?.url, duration]);
+  j.useLayoutEffect(() => {
+    scheduler.current?.();
+  }, [volume, muted, originalMuted, rate, mix, tracks, project?.timeline_audio]);
+  return {
+    active,
+    duration,
+    playing,
+    volume,
+    muted,
+    rate,
+    setVolume,
+    setMuted,
+    setRate,
+    originalMuted,
+    toggleOriginal: () => setOriginalMuted((value) => !value),
+    play,
+    pause,
+    toggle: () => {
+      if (clock.current.playing) pause();
+      else play();
+    },
+    seek: (time) => {
+      clock.current.rangeEnd = null;
+      seek(time);
+    },
+    playRange: (from, end) => {
+      seek(from);
+      play(end);
+    },
+    current: () => clock.current.time,
+    hasFrame: () => clock.current.desired === null || Math.abs((player.current?.currentTime ?? -1) - clock.current.desired) < 0.012
+  };
+}
+function LivePlaybackControls({ transport, time }) {
+  const at = Math.min(time, transport.duration);
+  function fullscreen(event) {
+    if (document.fullscreenElement) document.exitFullscreen().catch(() => {
+    });
+    else event.currentTarget.closest("media-controller")?.requestFullscreen().catch(() => {
+    });
+  }
+  return /* @__PURE__ */ j.createElement("div", { className: "media-controls live-media-controls" }, /* @__PURE__ */ j.createElement(
+    "button",
+    {
+      type: "button",
+      className: "live-play-toggle",
+      "aria-label": labelText("播放或暂停"),
+      "aria-keyshortcuts": "Space",
+      title: labelText("播放或暂停（空格）"),
+      "aria-pressed": transport.playing,
+      onClick: transport.toggle
+    },
+    transport.playing ? /* @__PURE__ */ j.createElement("svg", { width: "16", height: "16", viewBox: "0 0 16 16", fill: "currentColor", "aria-hidden": "true" }, /* @__PURE__ */ j.createElement("rect", { x: "3", y: "2", width: "3", height: "12", rx: "1" }), /* @__PURE__ */ j.createElement("rect", { x: "10", y: "2", width: "3", height: "12", rx: "1" })) : j.createElement(mo, { size: 16, fill: "currentColor", "aria-hidden": true })
+  ), /* @__PURE__ */ j.createElement("time", { "aria-label": labelText("播放时间") }, kt(at), " / ", kt(transport.duration)), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "range",
+      "aria-label": labelText("拖动播放进度"),
+      className: "live-time-range",
+      min: "0",
+      max: transport.duration,
+      step: ".01",
+      value: at,
+      onChange: (event) => transport.seek(Number(event.target.value))
+    }
+  ), /* @__PURE__ */ j.createElement("select", { "aria-label": labelText("播放速度"), value: transport.rate, onChange: (event) => transport.setRate(Number(event.target.value)) }, [0.5, 1, 1.5, 2].map((rate) => /* @__PURE__ */ j.createElement("option", { key: rate, value: rate }, rate, "×"))), /* @__PURE__ */ j.createElement(St, { icon: transport.muted ? Ud : zi, label: labelText("静音"), "aria-pressed": transport.muted, onClick: () => transport.setMuted(!transport.muted) }), /* @__PURE__ */ j.createElement(
+    "input",
+    {
+      type: "range",
+      "aria-label": labelText("音量"),
+      className: "live-volume-range",
+      min: "0",
+      max: "1",
+      step: ".01",
+      value: transport.muted ? 0 : transport.volume,
+      onChange: (event) => {
+        transport.setMuted(false);
+        transport.setVolume(Number(event.target.value));
+      }
+    }
+  ), /* @__PURE__ */ j.createElement(St, { icon: Hr, label: labelText("全屏预览"), onClick: fullscreen }));
 }
 (0, CM.createRoot)(document.getElementById("root")).render((0, _.jsx)(IN, {}));
 /*! For license information please see studio.js.LEGAL.txt */

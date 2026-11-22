@@ -104,19 +104,19 @@ class Workbench:
         self.root.report_callback_exception = self.callback_error
 
     def layout(self):
+        self.root.grid_columnconfigure(0, minsize=196)
         self.root.grid_columnconfigure(1, weight=1)
         self.root.grid_rowconfigure(1, weight=1)
-        side = tk.Frame(self.root, bg=NAV, width=196)
-        side.grid(row=0, column=0, rowspan=3, sticky='ns')
-        side.grid_propagate(False)
-        side.pack_propagate(False)
+        side = tk.Frame(self.root, bg=NAV)
+        side.grid(row=0, column=0, rowspan=3, sticky='nsew')
         brand = tk.Frame(side, bg=NAV)
         brand.pack(fill='x', padx=17, pady=(21, 24))
-        tk.Label(brand, image=self.icons.tile('clapperboard', 39, fill=ACCENT, color=BG), bg=NAV).pack(side='left', padx=(0, 9))
-        wordmark = tk.Frame(brand, bg=NAV)
-        wordmark.pack(side='left')
-        self.label(wordmark, '视频拆解', bg=NAV, size=14, bold=True).pack(anchor='w')
-        self.label(wordmark, '工作台', bg=NAV, fg=MUTED, size=8).pack(anchor='w')
+        icon = be.APP / 'workbench.ico'
+        if icon.is_file():
+            with Image.open(icon) as mark:
+                self.brand_image = ImageTk.PhotoImage(mark.resize((36, 36), Image.Resampling.LANCZOS), master=self.root)
+            tk.Label(brand, image=self.brand_image, bg=NAV).pack(side='left', padx=(0, 9))
+        self.label(brand, APP_NAME, bg=NAV, size=14, bold=True).pack(side='left')
         main_nav = tk.Frame(side, bg=NAV)
         main_nav.pack(fill='x', padx=12)
         tool_nav = tk.Frame(side, bg=NAV)
@@ -282,15 +282,16 @@ class Workbench:
         return entry
 
     @staticmethod
-    def text_box(parent, height, *, bg=PAPER, fg=INK, font=None):
+    def text_box(parent, height, *, bg=PAPER, fg=INK, font=None, expand=False):
         box = tk.Frame(parent, bg=bg)
-        box.pack(fill='x', pady=3)
+        box.pack(fill='both' if expand else 'x', expand=expand, pady=3)
         box.columnconfigure(0, weight=1)
+        box.rowconfigure(0, weight=1)
         text = tk.Text(box, height=height, wrap='word', bg=bg, fg=fg, bd=0,
                        highlightbackground=RULE, highlightcolor=ACCENT, highlightthickness=1,
                        insertbackground=fg, selectbackground=ACCENT_BG, selectforeground=INK,
                        font=font or (FONT, 10), padx=10, pady=8)
-        text.grid(row=0, column=0, sticky='ew')
+        text.grid(row=0, column=0, sticky='nsew')
         scroll = ttk.Scrollbar(box, orient='vertical', command=text.yview)
         scroll.grid(row=0, column=1, sticky='ns')
         text.configure(yscrollcommand=scroll.set)
@@ -976,11 +977,14 @@ class Workbench:
         box = self.card('视频生成任务', icon='sparkles')
         row = tk.Frame(box, bg=PAPER)
         row.pack(fill='x')
-        self.label(row, '生成模式', size=9).pack(side='left', padx=(0, 8))
-        self.combo(row, self.mode, list(be.MODES), 12).pack(side='left')
-        self.label(row, '引擎', size=9).pack(side='left', padx=(16, 8))
-        ttk.Entry(row, textvariable=self.engine, width=24).pack(side='left')
-        ttk.Checkbutton(row, text='只运行当前镜头', variable=self.only_selected).pack(side='left', padx=12)
+        row.columnconfigure(1, weight=1)
+        row.columnconfigure(3, weight=1)
+        self.label(row, '生成模式', size=9).grid(row=0, column=0, sticky='w', padx=(0, 8))
+        self.combo(row, self.mode, list(be.MODES), 12).grid(row=0, column=1, sticky='ew')
+        self.label(row, '引擎', size=9).grid(row=0, column=2, sticky='w', padx=(16, 8))
+        ttk.Entry(row, textvariable=self.engine, width=24).grid(row=0, column=3, sticky='ew')
+        ttk.Checkbutton(row, text='只运行当前镜头', variable=self.only_selected).grid(
+            row=1, column=0, columnspan=4, sticky='w', pady=(5, 0))
         self.note(box, '导出和预览任务可离线完成。实际调用从设置读取 capsule-cinema 和模型环境。')
         self.actions(box, ('导出任务表', self.make_jobs, True), ('预览任务', lambda: self.run_jobs(True), False),
                      ('调用模型生成…', lambda: self.run_jobs(False), False), ('打开任务文件夹', self.open_jobs, False))
@@ -1103,17 +1107,17 @@ class Workbench:
         window.transient(self.root)
         frame = tk.Frame(window, bg=PAPER)
         frame.pack(fill='both', expand=True, padx=15, pady=15)
-        box = self.text_box(frame, 24, bg=BG)
-        box.configure(width=92)
-        box.insert('1.0', content)
-        box.configure(state='disabled')
-
         def copy():
             window.clipboard_clear()
             window.clipboard_append(content)
             self.status.set('已复制 · ' + title)
 
-        self.actions(frame, ('复制', copy, True), ('关闭', window.destroy, False))
+        actions = self.actions(frame, ('复制', copy, True), ('关闭', window.destroy, False))
+        actions.pack_configure(side='bottom')
+        box = self.text_box(frame, 24, bg=BG, expand=True)
+        box.configure(width=92)
+        box.insert('1.0', content)
+        box.configure(state='disabled')
         window.bind('<Escape>', lambda _: window.destroy())
         window.after_idle(lambda: dark_caption(window))
 

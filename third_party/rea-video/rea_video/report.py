@@ -707,7 +707,7 @@ def _stems_html(b: dict) -> str:
     if not (b.get("stems") or {}).get("ok"):
         return ""
     return "<div class='stems'>" + "".join(
-        f"<div>{name}{_colon()}<audio controls preload='none' src='stems/{f}'></audio></div>"
+        f"<div><span>{html.escape(name)}{_colon()}</span><audio controls preload='none' aria-label='{html.escape(name)}' src='stems/{f}'></audio></div>"
         for f, name in (("original.wav", T("原声", "original")), ("vocals.wav", T("人声干声", "dry voice")), ("music.wav", T("配乐 + 环境声", "music + ambience")))) + "</div>"
 
 
@@ -725,7 +725,11 @@ ul,ol{margin:4px 0;padding-left:20px} li{margin:2px 0} p{margin:6px 0}
 pre.prompt{background:var(--bg);padding:10px;border-radius:6px;font-size:13px;white-space:pre-wrap;word-break:break-word}
 code{background:var(--bg);padding:1px 4px;border-radius:4px;font-size:13px}
 details{margin:8px 0;border:1px solid var(--line);border-radius:8px;padding:6px 12px} summary{cursor:pointer;color:var(--accent);font-weight:600}
-.stems div{margin:4px 0} audio{vertical-align:middle;max-width:100%}
+.stems{display:grid;grid-template-columns:max-content minmax(0,1fr);align-items:center;gap:6px 12px}
+.stems>div{display:contents}
+.stems audio{width:min(100%,360px);height:36px}
+@media(max-width:520px){.stems{grid-template-columns:minmax(0,1fr);row-gap:4px}.stems>div:not(:last-child) audio{margin-bottom:8px}}
+audio{vertical-align:middle;max-width:100%}
 """
 
 

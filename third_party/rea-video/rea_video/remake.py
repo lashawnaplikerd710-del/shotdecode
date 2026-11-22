@@ -13,11 +13,14 @@ from __future__ import annotations
 
 import json
 import math
+import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 
 import cv2
 
+from . import clip_style
 from .util import LOG, read_json
 
 
@@ -96,6 +99,15 @@ def _original_segment(src: Path, out: Path, start: float, duration: float, size:
     return out
 
 
+def _styled_segment(src, out, start, duration, size, fps, style, *, generated):
+    speed = fit_speed(_clip_seconds(src), duration) if generated else 1
+    inputs = [] if generated else ["-ss", f"{start:.6f}"]
+    graph = clip_style.filter_graph(style, size, duration, fps, speed, motion_file=out.with_suffix('.motion'))
+    _ff([*inputs, "-i", str(src.resolve()), "-filter_complex_threads", "2", "-filter_complex", graph,
+         "-map", "[out]", "-an", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", str(out.resolve())],
+        cwd=out.parent)
+
+
 def replaced_spans(b: dict, legend: list[tuple]) -> list[tuple[float, float]]:
     """Time spans of shots no longer showing the original picture, adjacent ones merged."""
     shots = {sh["index"]: sh for sh in b["shots"]}
@@ -136,21 +148,48 @@ def overlay_cues(b: dict, spans: list[tuple[float, float]]) -> tuple[list[dict],
     return cues, stickers
 
 
+def composite_layers(base: Path, layers: list[dict], output: Path, size: tuple[int, int], fps: float, duration: float):
+    w, h = size
+    inputs, filters = [], []
+    previous = '[0:v]'
+    for index, item in enumerate(layers, 1):
+        start, first = float(item['start']), float(item['first'])
+        span = min(float(item['last']) - first, duration - start)
+        if span <= 0:
+            continue
+        channel = len(inputs) // 4 + 1
+        layer, result = f'[layer{index}]', f'[stack{index}]'
+        inputs.extend(('-ss', f'{first:.6f}', '-i', str(item['path'])))
+        filters.append(f'[{channel}:v]fps={fps},trim=duration={span:.6f},'
+                       f'setpts=PTS-STARTPTS+{start:.6f}/TB,scale={w}:{h}:force_original_aspect_ratio=increase,'
+                       f'crop={w}:{h},setsar=1{layer}')
+        filters.append(f"{previous}{layer}overlay=eof_action=pass:repeatlast=0:"
+                       f"enable='gte(t,{start:.6f})*lt(t,{start + span:.6f})'{result}")
+        previous = result
+    if not filters:
+        return base
+    _ff(['-i', str(base), *inputs, '-filter_complex_threads', '2', '-filter_complex', ';'.join(filters),
+         '-map', previous, '-an', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', str(output)])
+    return output
+
+
 def assemble(breakdown_path: Path, results_path: Path, out_dir: Path | None = None,
-             overlays: bool = False, *, compare: bool = True) -> str:
+             overlays: bool = False, *, compare: bool = True, manual_subtitles: Path | None = None,
+             manual_fonts: Path | None = None, compare_audio: bool = True) -> str:
     b = read_json(breakdown_path)
     bdir = breakdown_path.parent
     jobs_path = results_path.with_name("jobs.json")
     jobs = {j["shot"]: j for j in read_json(jobs_path)["jobs"]} if jobs_path.is_file() else {}
-    results = read_json(results_path).get("results", {}) if results_path.is_file() else {}
+    manifest = read_json(results_path) if results_path.is_file() else {}
+    results = manifest.get("results", {})
     out_dir = out_dir or results_path.parent
     seg_dir = out_dir / "segments"
     seg_dir.mkdir(parents=True, exist_ok=True)
-    src = Path(b["source"]["path"])
-    w, h = b["source"]["width"], b["source"]["height"]
-    if b["source"].get("rotation") in (90, 270):
-        w, h = h, w
-    w, h = w - w % 2, h - h % 2
+    src = Path(b["source"]["path"]).expanduser()
+    if not src.is_absolute():
+        src = bdir / src
+    w, h = size = clip_style.canvas_size(b["source"])
+    base_style = clip_style.defaults(size)
     fps = float(b["source"]["fps"]) if b["source"]["fps"] and b["source"]["fps"] <= 60 else 30.0
     parts, legend = [], []
     for sh in b["shots"]:
@@ -158,28 +197,51 @@ def assemble(breakdown_path: Path, results_path: Path, out_dir: Path | None = No
         seg = seg_dir / f"shot_{int(sh['index']):03d}.mp4"  # 不用 JSON 里的 id 拼路径，防 ../
         res = results.get(str(sh["index"])) or {}
         job = jobs.get(sh["index"], {})
-        if res.get("video") and Path(res["video"]).is_file():
-            _fit_clip(Path(res["video"]), seg, dur, (w, h), fps)
+        replacement = Path(res["video"]) if res.get("video") else None
+        replacement = replacement if replacement and replacement.is_file() else None
+        style = clip_style.normalize(res.get("clip_properties"), size, dur)
+        if replacement and "full_length" in res:
+            fitted = seg.with_suffix(".fitted.mp4")
+            _fit_clip(replacement, fitted, float(res["full_length"]), size, fps)
+            first = float(res["take_from"])
+            if style == base_style:
+                _original_segment(fitted, seg, first, dur, size, fps)
+            else:
+                _styled_segment(fitted, seg, first, dur, size, fps, style, generated=False)
+            legend.append((sh["index"], "generated"))
+        elif style != base_style:
+            _styled_segment(replacement or src, seg, sh["start"], dur, size, fps, style,
+                            generated=replacement is not None)
+            legend.append((sh["index"], "generated" if replacement else "original"))
+        elif replacement:
+            _fit_clip(replacement, seg, dur, size, fps)
             legend.append((sh["index"], "generated"))
         elif job.get("executor") == "local_ffmpeg" or sh["base"]["label"] in ("still_motion", "static_hold"):
             m = sh["replication"].get("local", {})
             img = bdir / sh["assets"]["first_frame"]
-            render_still_motion(img, seg, dur, (w, h), fps, m.get("zoom_per_s", 0.0), m.get("pan_px_per_s", 0.0),
+            render_still_motion(img, seg, dur, size, fps, m.get("zoom_per_s", 0.0), m.get("pan_px_per_s", 0.0),
                                 m.get("pan_dir_deg", 0.0), m.get("analysis_width", 480))
             legend.append((sh["index"], "local_still"))
         else:
-            _original_segment(src, seg, sh["start"], dur, (w, h), fps)
+            _original_segment(src, seg, sh["start"], dur, size, fps)
             legend.append((sh["index"], "original"))
         parts.append(seg)
     lst = seg_dir / "concat.txt"
     lst.write_text("".join("file '" + str(p.resolve()).replace("'", "'\\''") + "'\n" for p in parts), encoding="utf-8")
     silent = out_dir / "remake_silent.mp4"
     _ff(["-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(silent)])
+    layers = manifest.get("video_layers") or []
+    if layers:
+        silent = composite_layers(silent, layers, out_dir / "remake_layers.mp4", size, fps, b["shots"][-1]["end"])
     overlay_log: dict = {}
     if overlays:
         from .packaging import to_ass
 
-        cues, stickers = overlay_cues(b, replaced_spans(b, legend))
+        spans = [*replaced_spans(b, legend), *(
+            (layer["start"], layer["start"] + layer["last"] - layer["first"])
+            for layer in layers if layer.get("restore_packaging")
+        )]
+        cues, stickers = overlay_cues(b, spans)
         overlay_log = {"text": len(cues), "stickers_to_add": stickers}
         if cues:
             (out_dir / "overlays_remake.ass").write_text(to_ass(cues, w, h), encoding="utf-8")
@@ -191,6 +253,24 @@ def assemble(breakdown_path: Path, results_path: Path, out_dir: Path | None = No
             except subprocess.CalledProcessError as exc:  # ffmpeg built without libass
                 overlay_log["error"] = f"ffmpeg ass filter failed ({exc.returncode}); overlays_remake.ass can be burned in another editor"
                 LOG.warning(overlay_log["error"])
+    if manual_subtitles is not None:
+        subtitled = out_dir / "remake_subtitled.mp4"
+        with tempfile.TemporaryDirectory(prefix="captions-", dir=out_dir) as stage:
+            working = Path(stage)
+            if manual_subtitles.suffix.lower() == ".ass":
+                alias, filter_spec = "captions.ass", "ass=captions.ass"
+            else:
+                alias = "captions.vtt"
+                style = "FontName=Microsoft YaHei,FontSize=16,MarginL=18,MarginR=18,MarginV=20,Outline=1.4,Shadow=0"
+                filter_spec = f"subtitles=captions.vtt:force_style='{style}'"
+            shutil.copyfile(manual_subtitles, working / alias)
+            if manual_fonts is not None:
+                shutil.copytree(manual_fonts, working / "fonts")
+                filter_spec += ":fontsdir=fonts"
+            _ff(["-i", str(silent.resolve()), "-vf", filter_spec,
+                 "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", str(subtitled.resolve())],
+                cwd=working)
+        silent = subtitled
     final = out_dir / "remake.mp4"
     if b["source"].get("has_audio"):
         _ff(["-i", str(silent), "-i", str(src), "-map", "0:v", "-map", "1:a?", "-c:v", "copy", "-c:a", "aac", "-shortest", str(final)])
@@ -202,13 +282,14 @@ def assemble(breakdown_path: Path, results_path: Path, out_dir: Path | None = No
     if compare:
         comparison = out_dir / "compare.mp4"
         ch = min(720, h)
+        audio_args = ["-map", "0:a?"] if compare_audio else ["-an"]
         label = ",drawtext=text='{t}':x=10:y=10:fontcolor=white:box=1:boxcolor=black@0.5"
         for with_text in (True, False):  # drawtext needs libfreetype; fall back to plain hstack
             la, lb = (label.format(t="original"), label.format(t="remake")) if with_text else ("", "")
             try:
                 _ff(["-i", str(src), "-i", str(final), "-filter_complex",
                      f"[0:v]scale=-2:{ch}{la}[a];[1:v]scale=-2:{ch}{lb}[b];[a][b]hstack=inputs=2[v]",
-                     "-map", "[v]", "-map", "0:a?", "-c:v", "libx264", "-crf", "23", "-pix_fmt", "yuv420p",
+                     "-map", "[v]", *audio_args, "-c:v", "libx264", "-crf", "23", "-pix_fmt", "yuv420p",
                      "-shortest", str(comparison)])
                 break
             except subprocess.CalledProcessError:

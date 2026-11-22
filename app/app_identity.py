@@ -3,7 +3,8 @@ from __future__ import annotations
 import re
 
 
-APP_NAME = '视频拆解工作台'
+APP_NAME = 'ShotDecode'
+APP_VERSION = '0.1.1'
 INSTALL_FOLDER = 'VideoBreakdownWorkbench'
 WINDOWS_APP_ID = 'VideoBreakdown.Workbench'
 

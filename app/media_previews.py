@@ -6,8 +6,12 @@ import math
 import subprocess
 import tempfile
 from pathlib import Path
+from threading import BoundedSemaphore
 
 import backend as be
+
+
+POSTER_WORKERS = BoundedSemaphore(2)
 
 
 def cache_folder(source):
@@ -15,6 +19,26 @@ def cache_folder(source):
     key = f'{source}\n{stat.st_size}\n{stat.st_mtime_ns}'
     digest = hashlib.sha256(key.encode('utf-8')).hexdigest()[:24]
     return be.DATA / 'previews' / digest
+
+
+def inspect_edit_media(source):
+    from rea_video.media import MediaError, video_info_from_probe
+
+    try:
+        raw = subprocess.check_output(
+            [be.FFPROBE, '-v', 'error', '-show_streams', '-show_format', '-of', 'json', source],
+            stdin=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+            timeout=8, creationflags=subprocess.CREATE_NO_WINDOW,
+        )
+        info = video_info_from_probe(source, json.loads(raw))
+        if not (math.isfinite(info.duration) and info.duration > 0 and info.width > 0 and info.height > 0
+                and math.isfinite(info.fps) and info.fps > 0):
+            raise ValueError()
+    except (MediaError, OSError, ValueError, OverflowError, subprocess.SubprocessError):
+        raise ValueError('无法读取这个视频，请选择可播放的视频文件。') from None
+    return dict(path=str(source), filename=source.name, width=info.width, height=info.height,
+                duration=info.duration, fps=info.fps, rotation=info.rotation, has_audio=info.has_audio,
+                vcodec=info.vcodec, nb_frames=info.nb_frames, aspect_ratio=info.aspect_ratio)
 
 
 def probe_preview(source):
@@ -38,9 +62,21 @@ def probe_preview(source):
     except (OSError, ValueError, subprocess.SubprocessError):
         pass
 
-    poster = folder / 'poster.jpg'
-    if not poster.is_file():
+    return info, poster_frame(source, folder)
+
+
+def poster_frame(source, folder=None):
+    try:
+        folder = folder or cache_folder(source)
+        poster = folder / 'poster.jpg'
+        if poster.is_file():
+            return poster
+    except OSError:
+        return None
+    with POSTER_WORKERS:
         try:
+            if poster.is_file():
+                return poster
             folder.mkdir(parents=True, exist_ok=True)
             with tempfile.TemporaryDirectory(dir=folder, prefix='frame-', ignore_cleanup_errors=True) as temp:
                 frame = Path(temp) / 'poster.jpg'
@@ -55,7 +91,7 @@ def probe_preview(source):
                     frame.replace(poster)
         except (OSError, subprocess.SubprocessError):
             pass
-    return info, poster
+    return poster if poster.is_file() else None
 
 
 def encode_preview(job, source, destination):

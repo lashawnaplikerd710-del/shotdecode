@@ -17,6 +17,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlsplit, urlunsplit
 from urllib.request import HTTPCookieProcessor, HTTPRedirectHandler, Request, build_opener
 
+from app_identity import APP_NAME
+
 ROOT = Path(__file__).resolve().parent
 PLATFORMS = {'tiktok': 'TikTok', 'douyin': '抖音'}
 ID = r'[0-9]{15,25}'
@@ -392,7 +394,7 @@ def download_video(text, directory, *, progress=None, check=lambda: None, ffmpeg
         ffmpeg = Path(ffmpeg) if ffmpeg is not None else ROOT.parent / 'ffmpeg' / 'ffmpeg.exe'
         probe = ffmpeg.with_name('ffprobe.exe' if ffmpeg.suffix.lower() == '.exe' else 'ffprobe')
         if not probe.is_file():
-            raise DownloadError('缺少视频校验组件，请修复视频拆解工作台安装后重试。')
+            raise DownloadError(f'缺少视频校验组件，请修复 {APP_NAME} 安装后重试。')
         python = Path(sys.executable)
         if python.name.lower() == 'pythonw.exe':
             python = python.with_name('python.exe')

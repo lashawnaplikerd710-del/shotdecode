@@ -18,7 +18,9 @@ from pathlib import Path
 from typing import NamedTuple
 from xml.sax.saxutils import escape
 
-from audio_mixing import make_mix
+from export_profiles import AUDIO_ENCODERS, VIDEO_AUDIO_ENCODERS, ExportProfile
+from ffmpeg_location import ffmpeg_directory
+from manual_caption_style import stage_caption_fonts, write_ass
 
 
 APP = Path(__file__).resolve().parent
@@ -26,8 +28,8 @@ HOME = APP.parent
 DATA = Path(os.environ.get('REA_WORKBENCH_DATA', HOME / 'data')).resolve()
 PORTABLE_PYTHON = HOME / 'runtime/python.exe'
 PYTHON = PORTABLE_PYTHON if PORTABLE_PYTHON.is_file() else Path(sys.executable)
-FFMPEG = HOME / 'ffmpeg/ffmpeg.exe'
-FFPROBE = HOME / 'ffmpeg/ffprobe.exe'
+FFMPEG = (ffmpeg_directory(HOME) or HOME / 'ffmpeg') / 'ffmpeg.exe'
+FFPROBE = FFMPEG.with_name('ffprobe.exe')
 DATA.mkdir(parents=True, exist_ok=True)
 
 LABELS = {
@@ -40,6 +42,7 @@ MODES = {'单张参考图': 'image_to_video', '首尾帧': 'first_last_frame', '
 VIDEO_EXTENSIONS = ('.mp4', '.mov', '.mkv', '.webm', '.avi', '.m4v', '.wmv', '.flv', '.mts', '.ts', '.mpeg', '.mpg')
 AUDIO_EXTENSIONS = ('.wav', '.mp3', '.m4a', '.aac', '.flac', '.ogg', '.opus', '.wma')
 SETTINGS_FILE = DATA / 'settings.json'
+MANUAL_CAPTIONS_FILE = 'manual-captions.json'
 SENSE_VOICE = HOME / 'asr-model-ja'
 SPEECH_MODELS = {'zh': HOME / 'asr-model', 'ja': SENSE_VOICE, 'auto': SENSE_VOICE}
 JAPANESE_OCR_MODEL = HOME / 'models/japan_PP-OCRv4_rec_mobile.onnx'
@@ -47,10 +50,15 @@ JAPANESE_OCR_MODEL = HOME / 'models/japan_PP-OCRv4_rec_mobile.onnx'
 
 def fontconfig() -> Path:
     config = DATA / 'fonts.conf'
-    fonts = Path(os.environ.get('WINDIR', r'C:\Windows')) / 'Fonts'
+    font_dirs = [Path(os.environ.get('WINDIR', r'C:\Windows')) / 'Fonts']
+    if local_app_data := os.environ.get('LOCALAPPDATA'):
+        user_fonts = Path(local_app_data) / 'Microsoft/Windows/Fonts'
+        if user_fonts.is_dir():
+            font_dirs.append(user_fonts)
     cache = DATA / 'font-cache'
     cache.mkdir(exist_ok=True)
-    content = (f'<?xml version="1.0"?><fontconfig><dir>{escape(fonts.as_posix())}</dir>'
+    directories = ''.join(f'<dir>{escape(directory.as_posix())}</dir>' for directory in font_dirs)
+    content = (f'<?xml version="1.0"?><fontconfig>{directories}'
                f'<cachedir>{escape(cache.as_posix())}</cachedir></fontconfig>')
     if not config.is_file() or config.read_text(encoding='utf-8') != content:
         config.write_text(content, encoding='utf-8')
@@ -129,17 +137,16 @@ def new_folder(parent: Path, name: str) -> Path:
             serial += 1
 
 
-def publish_movies(folder: Path, name: str, movies: tuple[Path, ...]) -> tuple[Path, ...]:
-    stem = safe_output_name(Path(name).stem)
+def publish_delivery(folder: Path, files: tuple[Path, ...], names: tuple[str, ...]) -> tuple[Path, ...]:
     serial = 1
     while True:
-        prefix = stem if serial == 1 else f'{stem} ({serial})'
-        paths = tuple(folder / f'{prefix} - {kind}.mp4' for kind in ('成片', '对比视频'))
-        outputs = paths[:len(movies)]
-        if not any(path.exists() for path in paths):
+        serial_suffix = '' if serial == 1 else f' ({serial})'
+        outputs = tuple(folder / (name + serial_suffix + file.suffix)
+                        for file, name in zip(files, names, strict=True))
+        if not any(path.exists() for path in outputs):
             moved = []
             try:
-                for source, target in zip(movies, outputs):
+                for source, target in zip(files, outputs):
                     source.rename(target)
                     moved.append((source, target))
                 return outputs
@@ -174,6 +181,11 @@ class Project:
     def name(self) -> str:
         return self.data['source'].get('filename', self.source.name)
 
+    @property
+    def clip_properties(self) -> dict:
+        properties = self.state.get('clip_properties')
+        return properties if isinstance(properties, dict) else {}
+
     def save(self):
         write_json(self.state_file, self.state)
 
@@ -192,12 +204,25 @@ def format_exit_code(code):
     return str(code)
 
 
+class JobProcessError(RuntimeError):
+    def __init__(self, code, tail, *, quiet):
+        self.exit_code = format_exit_code(code)
+        self.summary = f'命令退出，代码 {self.exit_code}。'
+        self.quiet = quiet
+        super().__init__(self.summary + ('\n' + tail if tail else ''))
+
+
 class Job:
-    def __init__(self, emit):
+    def __init__(self, emit, on_stage=None):
         self.emit = emit
+        self.on_stage = on_stage
         self.cancelled = threading.Event()
         self.process = None
         self.lock = threading.Lock()
+
+    def set_stage(self, label):
+        if self.on_stage:
+            self.on_stage(label)
 
     def check(self):
         if self.cancelled.is_set():
@@ -216,20 +241,21 @@ class Job:
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
                        creationflags=subprocess.CREATE_NO_WINDOW, check=False)
 
-    def run(self, args, *, cwd=None, quiet=False, extra_env=None):
+    def run(self, args, *, cwd=None, quiet=False, extra_env=None, on_line=None):
         output = []
         with self.child(args, cwd=cwd, stdout=subprocess.PIPE, text=True, extra_env=extra_env) as process:
             with process.stdout:
                 for line in process.stdout:
                     output.append(line)
+                    if on_line:
+                        on_line(line)
                     if not quiet:
                         self.emit(line.rstrip())
             code = process.wait()
         self.check()
         if code:
-            message = f'命令退出，代码 {format_exit_code(code)}。'
             tail = ''.join(output[-6:]).strip()
-            raise RuntimeError(message + ('\n' + tail if tail else ''))
+            raise JobProcessError(code, tail, quiet=quiet)
         return ''.join(output)
 
     @contextmanager
@@ -268,10 +294,10 @@ class Job:
             with self.lock:
                 self.process = None
 
-    def rea(self, *args, env_file=None, quiet=False, extra_env=None):
+    def rea(self, *args, env_file=None, quiet=False, extra_env=None, on_line=None):
         config = ['--env-file', env_file] if env_file else []
         return self.run([PYTHON, '-I', '-X', 'utf8', '-u', APP / 'analysis_runner.py', *config, *args],
-                        quiet=quiet, extra_env=extra_env)
+                        quiet=quiet, extra_env=extra_env, on_line=on_line)
 
     def ffmpeg(self, *args, cwd=None):
         return self.run([FFMPEG, '-hide_banner', '-loglevel', 'error', '-nostdin', '-y', *args], cwd=cwd)
@@ -292,7 +318,7 @@ class Job:
 
     def speech_segments(self, source: Path, language: str):
         if not speech_model_ready(language):
-            raise ValueError('找不到所选语言的本地口播模型，请在设置里检查运行环境。')
+            raise ValueError('缺少所选语言的本地口播模型。可从 Windows 开始菜单打开 ShotDecode 组件安装。')
         with tempfile.TemporaryDirectory(dir=DATA) as tmp:
             wave = Path(tmp) / 'speech.f32'
             self.ffmpeg('-i', source, '-vn', '-ac', '1', '-ar', '16000', '-f', 'f32le', wave)
@@ -325,49 +351,157 @@ class Job:
                         cwd=folder)
         return dest
 
-    def assemble(self, project: Project, replacements: dict, export_root: Path, overlays: bool,
-                 audio: Path | str | None, *, compare=False, mix_tracks=()):
+    @contextmanager
+    def delivery_folder(self, export_root):
         self.check()
         try:
             export_root.mkdir(parents=True, exist_ok=True)
             scratch = tempfile.TemporaryDirectory(dir=export_root, prefix='.render-', ignore_cleanup_errors=True)
         except OSError as exc:
-            raise ValueError(f'无法写入成片保存位置 {export_root}。请在导出窗口更改保存位置。') from exc
+            raise ValueError(f'无法写入保存位置 {export_root}。请在导出窗口更改保存位置。') from exc
         with scratch as temp:
-            render = Path(temp)
-            if mix_tracks:
-                self.emit('正在混合工程音轨…')
-                audio = make_mix(self, project.source, project.data['source'].get('duration'), mix_tracks,
-                                 render / 'mix.m4a')
+            yield Path(temp)
+
+    def delivery_audio(self, project, render, audio, mix_tracks, timeline_mix, *, lossless=False):
+        import studio_timeline as timeline
+
+        if audio is not None:
+            return audio
+        original = [('original', project.source, 100)] if project.data['source'].get('has_audio') else []
+        tracks = mix_tracks if timeline_mix else original
+        if not timeline.active(project) and (not timeline_mix or (tracks and tracks == original)):
+            return None
+        self.set_stage('正在混合工程音轨')
+        items = timeline.positioned_audio(project, tracks, include_added=timeline_mix)
+        suffix = '.wav' if lossless else '.m4a'
+        return timeline.render_audio(self, timeline.duration(project), items,
+                                     render / ('timeline-audio' + suffix)) or 'mute'
+
+    def finish_movie(self, assembled, audio, profile, destination):
+        separate_audio = audio is not None and audio != 'mute'
+        args = ['-i', assembled]
+        if separate_audio:
+            args.extend(('-i', audio))
+        args.extend(('-map', '0:v:0', *profile.video_args()))
+        if audio == 'mute':
+            args.append('-an')
+        else:
+            if separate_audio:
+                args.extend(('-map', '1:a:0', '-shortest'))
+            else:
+                args.extend(('-map', '0:a:0?'))
+            args.extend(profile.audio_filters(pad=separate_audio))
+            args.extend(('-c:a', 'copy') if audio is None and profile.format in ('h264', 'hevc')
+                        and profile.loudness is None else VIDEO_AUDIO_ENCODERS[profile.format])
+        if profile.extension != '.webm':
+            args.extend(('-movflags', '+faststart'))
+        self.ffmpeg(*args, destination)
+
+    def deliver(self, export_root, files, names):
+        if any(file.stat().st_size == 0 for file in files):
+            raise ValueError('导出文件为空。')
+        self.check()
+        self.set_stage('正在写入导出文件')
+        exported = publish_delivery(export_root, files, names)
+        self.emit(f'文件已保存到 {exported[0]}')
+        return exported
+
+    def assemble(self, project: Project, replacements: dict, export_root: Path, overlays: bool,
+                 audio: Path | str | None, *, compare=False, mix_tracks=(), timeline_mix=False,
+                 profile=ExportProfile()):
+        import studio_timeline as timeline
+
+        with self.delivery_folder(export_root) as render:
+            audio = self.delivery_audio(project, render, audio, mix_tracks, timeline_mix)
+            breakdown = project.path
             results = render / 'results.json'
-            write_json(results, {'results': {key: {'video': value} for key, value in replacements.items()}})
-            args = ['assemble', project.path, results, '-o', render]
+            edited = timeline.active(project)
+            sequence = timeline.source_clips(project)
+            if edited:
+                self.set_stage('正在整理时间线')
+                if not timeline.has_video(project, sequence):
+                    raise ValueError('时间线需要至少一个视频片段才能导出。')
+                duration = timeline.duration(project, sequence)
+                original_audio = None
+                if compare and audio != 'mute' and project.data['source'].get('has_audio'):
+                    items = timeline.positioned_audio(project, [('original', project.source, 100)])
+                    original_audio = timeline.render_audio(self, duration, items, render/'reference-audio.m4a')
+                sequence = list(timeline.with_video_gaps(sequence, duration))
+                reference = timeline.render_reference(self, project, sequence, render/'reference.mp4', audio=original_audio)
+                breakdown = render/'timeline.json'
+                write_json(breakdown, timeline.staged_breakdown(project, sequence, reference))
+            clips = {}
+            for index, item in enumerate(sequence, 1):
+                if item['shot'] is None and 'path' not in item:
+                    continue
+                record = {}
+                if video := timeline.clip_replacement(project, item, replacements):
+                    record['video'] = video
+                    length = timeline.video_length(project, item)
+                    if edited and (item['first'] > .001 or item['duration'] < length - .001):
+                        record.update(take_from=item['first'], full_length=length)
+                if style := timeline.clip_properties(project, item):
+                    record['clip_properties'] = style
+                if record:
+                    clips[str(index) if edited else item['shot']] = record
+            layers = timeline.stage_video_layers(self, project, render)
+            write_json(results, {'results': clips, 'video_layers': layers})
+            args = ['assemble', breakdown, results, '-o', render]
             if overlays:
                 args.append('--overlays')
             if not compare:
                 args.append('--no-compare')
+            elif audio == 'mute':
+                args.append('--no-compare-audio')
+            captions = load_json(project.folder / MANUAL_CAPTIONS_FILE, [])
+            if captions:
+                caption_file = render / 'manual-captions.ass'
+                write_ass(caption_file, captions, project.data['source'])
+                args.extend(('--manual-subtitles', caption_file))
+                font_dir = render / 'caption-fonts'
+                if stage_caption_fonts(captions, font_dir):
+                    args.extend(('--manual-fonts', font_dir))
             self.emit('正在渲染时间线…')
+            self.set_stage('正在渲染时间线')
             self.rea(*args, quiet=True)
             log = load_json(render / 'assemble_log.json')
             assembled = Path(log['remake'])
             if log.get('overlays', {}).get('error'):
                 self.emit('字幕、标题和花字叠加失败。')
-            if audio is not None:
-                final = render / 'final-audio.mp4'
-                if audio == 'mute':
-                    self.ffmpeg('-i', assembled, '-map', '0:v:0', '-c:v', 'copy', '-an', final)
-                else:
-                    self.ffmpeg('-i', assembled, '-i', audio, '-map', '0:v:0', '-map', '1:a:0',
-                                '-af', 'apad', '-c:v', 'copy', '-c:a', 'aac', '-shortest', final)
-                assembled = final
+            self.set_stage('正在编码成片')
+            final = profile.output_file(render)
+            self.finish_movie(assembled, audio, profile, final)
+            base = safe_output_name(Path(project.name).stem)
+            name = profile.name or base + ' - 成片'
+            if compare:
+                comparison = (profile.name or base).removesuffix(' - 成片') + ' - 对比视频'
+                return self.deliver(export_root, (final, Path(log['compare'])), (name, comparison))
+            return self.deliver(export_root, (final,), (name,))
 
-            movies = (assembled, Path(log['compare'])) if compare else (assembled,)
-            if any(file.stat().st_size == 0 for file in movies):
-                raise ValueError('视频生成失败。')
-            self.check()
-            exported = publish_movies(export_root, project.name, movies)
-        self.emit(f'成片已保存到 {exported[0]}')
-        return exported
+    def export_audio(self, project, export_root, audio, mix_tracks, timeline_mix, profile):
+        import studio_timeline as timeline
+
+        with self.delivery_folder(export_root) as render:
+            source = self.delivery_audio(project, render, audio, mix_tracks, timeline_mix, lossless=True)
+            if source == 'mute' or source is None and project.data['source'].get('has_audio') is False:
+                raise ValueError('没有可导出的音轨。请启用音轨或选择外部音频。')
+            self.set_stage('正在导出音频')
+            file = profile.output_file(render)
+            self.ffmpeg('-i', source or project.source, '-map', '0:a:0', '-vn',
+                        *profile.audio_filters(pad=True), '-t', f'{timeline.duration(project):.3f}',
+                        *AUDIO_ENCODERS[profile.format], file)
+            return self.deliver(export_root, (file,), (profile.name,))
+
+    def export_subtitles(self, rows, export_root, profile):
+        with self.delivery_folder(export_root) as render:
+            file = profile.output_file(render)
+            if profile.format == 'srt':
+                write_srt(file, rows)
+            else:
+                cues = [f'{srt_time(start).replace(",", ".")} --> {srt_time(end).replace(",", ".")}\n{escape(text)}\n\n'
+                        for start, end, text in rows]
+                file.write_text('WEBVTT\n\n' + ''.join(cues), encoding='utf-8')
+            return self.deliver(export_root, (file,), (profile.name,))
 
 
 def srt_time(seconds):

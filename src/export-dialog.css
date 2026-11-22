@@ -1,0 +1,96 @@
+.modal.export-dialog {
+  display:flex; flex-direction:column; width:min(1000px,calc(100vw - 42px));
+  height:min(790px,calc(100dvh - 38px)); max-width:none;
+  padding:0; overflow:hidden; background:var(--surface); border-color:var(--border);
+}
+.export-dialog .modal-head { flex:none; min-height:49px; padding:0 18px; border-bottom:1px solid var(--border); }
+.export-form { display:flex; flex:1; flex-direction:column; min-height:0; }
+.export-tabs {
+  display:flex; flex:none; gap:5px; align-items:center;
+  min-height:49px; padding:6px 18px; background:var(--surface); border-bottom:1px solid var(--border);
+}
+.export-tabs button {
+  display:flex; gap:7px; align-items:center; justify-content:center; min-height:32px; padding:0 12px;
+  border:1px solid transparent; border-radius:6px; background:transparent; color:var(--muted); font-size:12px;
+}
+.export-tabs button:enabled:hover { color:var(--text); background:var(--field); }
+.export-tabs button[aria-pressed="true"],.export-tabs button[aria-pressed="true"]:enabled:hover {
+  background:var(--accent-wash); border-color:var(--border); color:var(--accent); font-weight:650;
+}
+.export-layout { display:grid; grid-template-columns:minmax(0,1fr) 225px; flex:1; min-height:0; }
+.export-options { min-width:0; overflow:auto; overscroll-behavior:contain; scrollbar-gutter:stable; padding:3px 21px 16px; }
+.export-section { display:grid; gap:8px; padding:13px 0; border-bottom:1px solid var(--border); min-width:0; }
+.export-section:last-child { border-bottom:0; }
+.export-section h3,.export-summary h3 { margin:0; color:var(--text); font-size:13px; font-weight:670; line-height:1.45; }
+.export-section .segments { max-width:100%; }
+.export-section > .segments { justify-self:start; }
+.export-section .segment { flex:0 1 auto; padding-inline:11px; }
+.export-section .segment.active,.export-section .segment.active:enabled:hover {
+  background:var(--accent-wash); color:var(--accent); border-color:var(--border);
+}
+.export-codecs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
+.export-choice {
+  display:grid; gap:3px; justify-items:start; min-width:0; padding:7px 9px; border:1px solid var(--border);
+  border-radius:7px; background:var(--field); color:var(--text); text-align:left; font:inherit;
+}
+.export-choice strong { font-size:12px; font-weight:660; }
+.export-choice small { color:var(--muted); font-size:11px; line-height:1.4; }
+.export-choice:enabled:hover { background:var(--raised); }
+.export-choice[aria-pressed="true"],.export-choice[aria-pressed="true"]:enabled:hover {
+  border-color:var(--accent); background:var(--accent-wash); color:var(--accent);
+}
+.export-size { display:flex; flex-wrap:wrap; gap:10px 14px; align-items:start; }
+.export-size h3,.export-fields h3 { margin-bottom:5px; }
+.export-size .segments { display:inline-flex; flex-wrap:wrap; }
+.export-size .segment { min-width:35px; padding-inline:7px; }
+.export-fields { grid-template-columns:minmax(120px,max-content) minmax(0,1fr); gap:14px; }
+.export-fields .segments { display:inline-flex; }
+.export-section .tool-field { margin:0; }
+.export-section .tool-field > span { color:var(--text); font-weight:630; }
+.export-fixed-option {
+  display:inline-flex; min-height:35px; align-items:center; padding:0 9px;
+  border-radius:6px; border:1px solid var(--border); color:var(--muted); background:var(--field); font-size:12px;
+}
+.export-section .toggle-line { margin:0; }
+.export-section .mix-export-summary { margin:0; gap:10px; min-height:25px; }
+.export-section .mix-export-summary .button { min-height:27px; }
+.export-loudness,.export-subtitle { width:min(100%,320px); }
+.export-advanced { padding-block:12px; }
+.export-advanced-options { display:grid; gap:8px; padding-top:10px; }
+.export-advanced-options .toggle-line { margin:0; }
+.export-summary { min-width:0; overflow:auto; padding:16px 13px; background:var(--rail); border-left:1px solid var(--border); }
+.export-summary-card {
+  min-width:0; padding:12px; border:1px solid var(--border); border-radius:8px;
+  background:var(--surface); line-height:1.45;
+}
+.export-file-icon {
+  display:grid; place-items:center; width:34px; height:34px; margin-bottom:8px;
+  border-radius:7px; color:var(--accent); background:var(--accent-wash);
+}
+.export-file-name { margin-top:4px; color:var(--muted); font-size:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.export-summary dl { display:grid; gap:8px; padding-top:9px; margin:11px 0 0; border-top:1px solid var(--border); font-size:11px; }
+.export-summary dl div { display:flex; justify-content:space-between; gap:6px; }
+.export-summary dt { color:var(--muted); }
+.export-summary dd { margin:0; font-variant-numeric:tabular-nums; text-align:right; }
+.export-size-estimate dd { font-weight:650; white-space:nowrap; }
+.export-summary .field-hint { margin-top:10px; font-size:11px; }
+.export-error { flex:none; padding:8px 17px; border-top:1px solid var(--border); color:var(--danger); font-size:12px; overflow-wrap:anywhere; }
+.export-footer {
+  display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto; gap:11px; align-items:end;
+  flex:none; padding:9px 17px 13px; border-top:1px solid var(--border); background:var(--surface);
+}
+.export-destination { display:grid; gap:4px; min-width:0; color:var(--muted); font-size:11px; }
+.export-path,.export-name-field { width:100%; min-width:0; min-height:35px; height:35px; }
+.export-name-field { display:flex; align-items:center; padding-inline:9px; border:1px solid var(--border); border-radius:6px; background:var(--field); }
+.export-name-field:focus-within { border-color:var(--accent); }
+.export-name-field input {
+  width:100%; min-width:0; padding:0; border:0; outline:none; background:transparent; color:var(--text); font:inherit; font-size:12px;
+}
+.export-name-field > span { margin-left:5px; font-family:var(--mono); }
+.export-footer > .button { min-height:35px; }
+@media (max-width:760px) {
+  .export-layout { grid-template-columns:minmax(0,1fr) 172px; }
+  .export-options { padding-inline:13px; }
+  .export-summary { padding-inline:8px; }
+  .export-footer { gap:7px; padding-inline:11px; }
+}

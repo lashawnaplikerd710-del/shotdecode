@@ -5,6 +5,7 @@ import shutil
 from pathlib import Path
 
 import backend as be
+import subtitle_edits as subtitles
 from app_identity import engine_display_text
 from workflows import (build_generation_jobs, check_runtime, match_clip_names, read_clip_results,
                        refresh_project_report, verify_original)
@@ -48,13 +49,15 @@ class StudioTools:
             raise ValueError('这个高级工具操作不可用。')
         return getattr(self, name)(data)
 
-    def show(self, page, title, *, text='', location=None, image=None, video=None, audio=None):
+    def show(self, page, title, *, text='', location=None, image=None, images=(), video=None, audio=None):
         if location:
             self.locations[page] = location
         else:
             self.locations.pop(page, None)
+        previews = [dict(name=path.name, url=url) for path in images if (url := self.session.asset(path))]
         self.results[page] = dict(title=title, text=engine_display_text(text.strip())[:48_000],
                                   name=location.name if location else '', image=self.session.asset(image),
+                                  images=previews,
                                   video=self.session.asset(video), audio=audio or [])
         self.session.error = ''
         return title
@@ -126,9 +129,18 @@ class StudioTools:
         if end <= start:
             raise ValueError('间隔太短，请增大抽帧间隔。')
         dest = self.session.export_dir('抽帧') / 'tiles.jpg'
+
+        def done(_):
+            pages = [dest] if dest.is_file() else sorted(
+                (path for path in dest.parent.glob('tiles_*.jpg') if path.stem[6:].isdigit()),
+                key=lambda path: int(path.stem[6:]),
+            )
+            if not pages:
+                raise ValueError('这段视频未生成抽帧图，请检查开始及结束时间。')
+            return self.show('tools', '抽帧图已生成', location=dest.parent, image=pages[0], images=pages)
+
         self.session.start('正在生成抽帧图', lambda job: job.rea('tiles', source, '--start', start, '--end', end,
-                           '--every', every, '--max', 48, '-o', dest),
-                           lambda _: self.show('tools', '抽帧图已生成', location=dest, image=dest))
+                           '--every', every, '--max', 48, '-o', dest), done)
 
     @staticmethod
     def shot(project, data):
@@ -138,8 +150,11 @@ class StudioTools:
         return key
 
     def review_job(self, title, project, args):
+        previous = subtitles.capture_outputs(project.folder, (Path('breakdown.json'), *subtitles.REPORTS))
+
         def done(_):
             self.session.reload_project(project.path)
+            self.session.remember_output_undo(title, project, previous)
             return self.show('tools', title, location=project.folder)
 
         self.session.start(title, lambda job: refresh_project_report(job, project, args), done)
@@ -176,9 +191,11 @@ class StudioTools:
             return
 
         def done(_):
+            previous = subtitles.capture_outputs(project.folder, (Path('breakdown.json'),))
             project.data['source']['path'] = str(path)
             be.write_json(project.path, project.data)
             self.session.reload_project(project.path)
+            self.session.remember_output_undo('重新定位原片', project, previous)
             return self.show('tools', '原片位置已更新', text=str(path))
 
         with self.session.lock:
@@ -238,14 +255,8 @@ class StudioTools:
     def save_matches(self, project, matches, title, location):
         with self.session.lock:
             self.current(project)
-            before = project.replacements.copy()
-            project.replacements.update(matches)
-            try:
-                project.save()
-            except OSError:
-                project.replacements.clear()
-                project.replacements.update(before)
-                raise
+            self.session.write_project_field(project, 'replacements', {**project.replacements, **matches},
+                                             label='批量替换素材')
             lines = '\n'.join(f'镜头 {key.zfill(2)}  ·  {Path(path).name}' for key, path in matches.items())
             self.session.status = self.show('timeline', f'{title} {len(matches)} 个镜头', text=lines, location=location)
 
@@ -263,10 +274,11 @@ class StudioTools:
 
     def open_exports(self, _):
         project = self.session.project_required()
-        final = next((Path(path) for path in project.state.get('last_exports', []) if Path(path).is_file()), None)
+        files = [*project.state.get('last_delivery', []), *project.state.get('last_exports', [])]
+        final = next((Path(path) for path in files if Path(path).exists()), None)
         if not final:
-            raise ValueError('当前项目还没有可用的成片。')
-        return self.session.open_result(final.parent, '已打开成片目录')
+            raise ValueError('当前项目还没有可用的导出文件。')
+        return self.session.open_result(final if final.is_dir() else final.parent, '已打开导出目录')
 
     def references(self, data):
         with self.session.lock:
@@ -298,24 +310,13 @@ class StudioTools:
             raise ValueError('请选择可用的图片。')
         with self.session.lock:
             self.current(project)
-            choices = project.references.get(key, {}).copy()
-            updated = choices.copy()
+            updated = project.references.get(key, {}).copy()
             if path:
                 updated[role] = str(path)
             else:
                 updated.pop(role, None)
-            if updated:
-                project.references[key] = updated
-            else:
-                project.references.pop(key, None)
-            try:
-                project.save()
-            except OSError:
-                if choices:
-                    project.references[key] = choices
-                else:
-                    project.references.pop(key, None)
-                raise
+            self.session.write_clip_setting(project, 'references', key, updated, remove=not updated,
+                                            label='更换参考图' if path else '恢复参考图')
             self.session.status = '生成参考图已更新'
             return self.references(data)
 

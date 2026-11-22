@@ -17,6 +17,8 @@ GROUPS = {'en': ('英文口播', 'english_speech', 'en'), 'ja': ('日语口播',
           'screen': ('英文画面文字', 'english_screen', 'en')}
 REPORTS = (Path('report.html'), Path('report.md'))
 SCREEN_FILES = (mt.SCREEN_EN_SRT, mt.SCREEN_ZH_SRT)
+SUBTITLE_FILES = (*SCREEN_FILES, *(item for pair in mt.SPEECH_FILES.values() for item in pair))
+TRANSLATION_OUTPUTS = (mt.RESULT, *SUBTITLE_FILES, *REPORTS)
 
 
 def revision(rows):
@@ -122,6 +124,27 @@ def replace_outputs(folder, stage, paths):
         raise
 
 
+def capture_outputs(folder, paths):
+    outputs = {}
+    for path in paths:
+        try:
+            outputs[path] = (folder / path).read_bytes()
+        except FileNotFoundError:
+            outputs[path] = None
+    return outputs
+
+
+def restore_outputs(folder, outputs):
+    with tempfile.TemporaryDirectory(prefix='.恢复项目内容-', dir=folder) as scratch:
+        stage = Path(scratch)
+        for path, content in outputs.items():
+            if content is not None:
+                target = stage / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(content)
+        replace_outputs(folder, stage, outputs)
+
+
 def save(project, data):
     group = data.get('group')
     if group not in GROUPS:
@@ -153,7 +176,7 @@ def save(project, data):
 
     with tempfile.TemporaryDirectory(prefix='.字幕校对-', dir=project.folder) as scratch:
         stage = Path(scratch)
-        for path in (*SCREEN_FILES, *(item for pair in mt.SPEECH_FILES.values() for item in pair)):
+        for path in SUBTITLE_FILES:
             if path not in changed_tracks and (project.folder / path).is_file():
                 (stage / path).parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(project.folder / path, stage / path)
@@ -169,5 +192,7 @@ def save(project, data):
         else:
             mt.write_speech_tracks(stage, language, rows, changed=True)
         mt.refresh_reports(stage)
-        replace_outputs(project.folder, stage, [*files, *changed_tracks, mt.RESULT, *REPORTS])
-    return next(i for i, row in enumerate(rows) if row is updated)
+        paths = [*files, *changed_tracks, mt.RESULT, *REPORTS]
+        previous = capture_outputs(project.folder, paths)
+        replace_outputs(project.folder, stage, paths)
+    return next(i for i, row in enumerate(rows) if row is updated), previous

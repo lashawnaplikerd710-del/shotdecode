@@ -3,6 +3,10 @@ import runpy
 import sys
 from pathlib import Path
 
+# Each analysis or render process loads OpenBLAS through NumPy. Keep parallel
+# jobs from creating a full machine's worth of BLAS threads apiece.
+os.environ.setdefault('OPENBLAS_NUM_THREADS', '2')
+
 import cv2
 import numpy as np
 

@@ -36,7 +36,7 @@ SECTION_INFO = (
     ('english_speech', 'en', 'english-speech-translation', '英文口播与中文翻译', '英文原文',
      '来自英文音轨的本地转写和翻译。口播时间为估算值。'),
     ('english_screen', 'en', 'english-screen-translation', '英文画面文字与中文翻译', '英文原文',
-     '来自视频画面识别的字幕、标题和其他叠加文字。'),
+     '来自视频画面识别的英文字幕、标题和场景文字。'),
 )
 
 
@@ -47,7 +47,7 @@ def ready() -> bool:
 @contextmanager
 def translator(job: be.Job):
     if not SERVER.is_file() or not MODEL.is_file():
-        raise ValueError('本地翻译模型缺少文件。')
+        raise ValueError('缺少本地翻译模型。可从 Windows 开始菜单打开 ShotDecode 组件安装。')
     with socket.socket() as reserve:
         reserve.bind(('127.0.0.1', 0))
         port = reserve.getsockname()[1]
@@ -111,8 +111,6 @@ def translator(job: be.Job):
 def screen_original(cue):
     if cue.get('workbench_bilingual'):
         return cue['workbench_bilingual']['en']
-    if cue.get('kind') == 'scene' or cue.get('part_of_picture'):
-        return ''
     raw = cue.get('text') or ''
     lines = raw.split('/') if (cue.get('n_lines') or 1) > 1 else [raw]
     english = [line for line in lines if re.search(r'[A-Za-z]', line)
@@ -143,6 +141,7 @@ def translate_report(job: be.Job, source: Path, folder: Path, data):
         try:
             if not source.is_file():
                 raise ValueError('原视频已移动。重新定位原片后可补写口播译文。')
+            job.set_stage('正在识别口播语言与原文')
             job.emit('正在识别口播语言和原文…')
             segments = job.speech_segments(source, 'auto')
             for language, key in SPEECH_KEYS.items():
@@ -178,6 +177,7 @@ def translate_report(job: be.Job, source: Path, folder: Path, data):
 
     if pending:
         try:
+            job.set_stage('正在翻译画面文字与口播')
             job.emit('正在加载本地翻译模型…')
             with translator(job) as translate:
                 for i, (language, row) in enumerate(pending, 1):
@@ -192,6 +192,7 @@ def translate_report(job: be.Job, source: Path, folder: Path, data):
             notes.append('部分译文待补。可在工作台点「补写报告译文」重试。')
 
     job.check()
+    job.set_stage('正在写入拆解报告与字幕')
     result.pop('note', None)
     result['notes'] = notes
     for language, key in SPEECH_KEYS.items():
